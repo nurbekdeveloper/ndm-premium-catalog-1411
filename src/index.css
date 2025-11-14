@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 100% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 100% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 100% 15%;
+
+    --primary: 222 100% 20%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 100% 97%;
+    --secondary-foreground: 222 100% 20%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 20% 50%;
+
+    --accent: 200 80% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 222 100% 20%;
+
+    --radius: 0.75rem;
+
+    /* Premium gradient colors */
+    --gradient-start: 200 80% 50%;
+    --gradient-end: 210 80% 60%;
+    
+    /* Hero overlay */
+    --hero-overlay: 222 100% 20%;
+  }
+
+  .dark {
+    --background: 222 100% 10%;
+    --foreground: 210 100% 95%;
+
+    --card: 222 100% 12%;
+    --card-foreground: 210 100% 95%;
+
+    --popover: 222 100% 12%;
+    --popover-foreground: 210 100% 95%;
+
+    --primary: 200 80% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 222 100% 15%;
+    --secondary-foreground: 210 100% 95%;
+
+    --muted: 222 100% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 210 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 100% 95%;
+
+    --border: 222 100% 15%;
+    --input: 222 100% 15%;
+    --ring: 200 80% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  }
+
+  .gradient-overlay {
+    background: linear-gradient(135deg, hsl(var(--hero-overlay) / 0.9), hsl(var(--hero-overlay) / 0.7));
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .btn-premium {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+}
