@@ -4,6 +4,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { products } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import ImageLightbox from "@/components/ImageLightbox";
+import PenopleksProductDetail from "@/components/PenopleksProductDetail";
 import { ArrowLeft, Expand, Minus, Plus, ShoppingCart, Heart, Facebook, Send, Mail } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -66,6 +67,11 @@ const ProductDetail = () => {
         </Button>
       </div>
     );
+  }
+
+  // Use custom layout for Penopleks products
+  if (product.category === "penopleks") {
+    return <PenopleksProductDetail product={product} />;
   }
 
   const productImages = product.images.map((img, index) => ({
