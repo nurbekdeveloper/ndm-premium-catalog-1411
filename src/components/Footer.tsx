@@ -59,14 +59,11 @@ const Footer = () => {
               <p>{t("Toshkent, O'zbekiston", "Ташкент, Узбекистан")}</p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-accent transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-accent transition-colors">
-                <Send className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-accent transition-colors">
+              <a href="https://www.instagram.com/ndm.business" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
                 <Instagram className="h-5 w-5" />
+              </a>
+              <a href="https://t.me/ndmsantexnika" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                <Send className="h-5 w-5" />
               </a>
             </div>
           </div>

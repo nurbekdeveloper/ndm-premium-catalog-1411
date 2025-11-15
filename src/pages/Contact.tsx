@@ -178,22 +178,20 @@ const Contact = () => {
                 </h3>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
-                    className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground transition-all"
-                  >
-                    <Facebook className="h-5 w-5" />
-                  </a>
-                  <a
-                    href="#"
-                    className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground transition-all"
-                  >
-                    <Send className="h-5 w-5" />
-                  </a>
-                  <a
-                    href="#"
+                    href="https://www.instagram.com/ndm.business"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground transition-all"
                   >
                     <Instagram className="h-5 w-5" />
+                  </a>
+                  <a
+                    href="https://t.me/ndmsantexnika"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground transition-all"
+                  >
+                    <Send className="h-5 w-5" />
                   </a>
                 </div>
               </CardContent>
