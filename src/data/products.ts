@@ -12,6 +12,9 @@ import hydroPlastTee from "@/assets/products/hydro-plast-tee.jpg";
 // Product images - Shimge
 import shimgeXps20 from "@/assets/products/shimge-xps20-4-130b.jpg";
 
+// Product images - Penopleks
+import penoplexComfort from "@/assets/products/penoplex-comfort.png";
+
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
 import aeroluxSilent90Detail from "@/assets/products/aerolux-silent-90-detail.jpg";
@@ -206,7 +209,84 @@ export const products: Product[] = [
       { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP44" }
     ]
   },
-  // Penopleks - Kitchen Hoods (only 1 product)
+  // Penopleks - Insulation Materials
+  {
+    id: "penoplex-comfort",
+    name: "ПЕНОПЛЭКС КОМФОРТ",
+    category: "penopleks",
+    images: [penoplexComfort],
+    description: {
+      uz: "ПЕНОПЛЭКС КОМФОРТ — yuqori samarali issiqlik izolyatsiya materiali (XPS oxirgi avlod), ekstruziya usulida umumiy maqsadli polistiroldan ishlab chiqarilgan. Universal tur, xususiy uy qurilishi uchun mo'ljallangan. Balkon va lodjiyalar, devorlar, qiyshiq tomlar, yassi foydalanilmaydigan tom yopiqlar, tsokol izolyatsiyasi uchun tavsiya etiladi.",
+      ru: "ПЕНОПЛЭКС КОМФОРТ — высокоэффективный теплоизоляционный материал (XPS последнего поколения), изготавливаемый методом экструзии из полистирола общего назначения. Универсальный тип, предназначенный для частного домостроения. Рекомендуется для применения в строительных конструкциях: для теплоизоляции цоколей, стен, скатных крыш, плоских неэксплуатируемых кровель, балконов и лоджий."
+    },
+    specs: [
+      { 
+        label: { uz: "Qalinlik 20mm - qadoq", ru: "Толщина 20мм - упаковка" }, 
+        value: "20 dona, 2.77m², 585×1185×20mm, Tip C" 
+      },
+      { 
+        label: { uz: "Qalinlik 30mm - qadoq", ru: "Толщина 30мм - упаковка" }, 
+        value: "13 dona, 9.01m², 585×1185×30mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Qalinlik 40mm - qadoq", ru: "Толщина 40мм - упаковка" }, 
+        value: "10 dona, 6.94m², 585×1185×40mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Qalinlik 50mm - qadoq", ru: "Толщина 50мм - упаковка" }, 
+        value: "7 dona, 4.85m², 585×1185×50mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Qalinlik 100mm - qadoq", ru: "Толщина 100мм - упаковка" }, 
+        value: "4 dona, 2.77m², 585×1185×100mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Siqilishdagi mustahkamlik", ru: "Прочность на сжатие" }, 
+        value: "120-140 kPa (12-14 т/м²)" 
+      },
+      { 
+        label: { uz: "Issiqlik o'tkazuvchanligi λD", ru: "Теплопроводность λD" }, 
+        value: "≤0.034 Вт/(м⋅K)" 
+      },
+      { 
+        label: { uz: "Suv shimishi 24 soat", ru: "Водопоглощение за 24 часа" }, 
+        value: "≤0.4% hajm bo'yicha" 
+      },
+      { 
+        label: { uz: "Harorat oralig'i", ru: "Температура эксплуатации" }, 
+        value: "-70°C dan +75°C gacha" 
+      },
+      { 
+        label: { uz: "Yong'inga qarshilik guruhi", ru: "Группа горючести" }, 
+        value: "Г4" 
+      },
+      { 
+        label: { uz: "Qo'llanish sohalari", ru: "Область применения" }, 
+        value: "Balkon/lodjiya, devorlar, fasadlar, tsokol, tom, qiyshiq tom" 
+      },
+      { 
+        label: { uz: "Standart", ru: "Стандарт" }, 
+        value: "ТУ 5767-006-54349294-2014" 
+      },
+      { 
+        label: { uz: "Tashqi ko'rinish", ru: "Внешний вид" }, 
+        value: "Silliq sirt, to'q sariq rang" 
+      },
+      { 
+        label: { uz: "Biologik barqarorlik", ru: "Биостойкость" }, 
+        value: "Yuqori, tasdiqlangan" 
+      },
+      { 
+        label: { uz: "Chidamlilik", ru: "Долговечность" }, 
+        value: "50+ yil, tasdiqlangan" 
+      },
+      { 
+        label: { uz: "Ekologik xavfsizlik", ru: "Экологичность" }, 
+        value: "Xavfsiz, sertifikatlangan" 
+      }
+    ]
+  },
+  // Kitchen Hoods (only 1 product)
   {
     id: "aerolux-silent-90",
     name: "AeroLux SilentTouch 90",
