@@ -178,7 +178,7 @@ const Contact = () => {
                 </h3>
                 <div className="flex space-x-4">
                   <a
-                    href="https://www.instagram.com/ndm.business"
+                    href="https://www.instagram.com/ndm.business?utm_source=ig_web_button_share_sheet&igsh=MTRjM3k3cnR3NHFkMg=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground transition-all"
