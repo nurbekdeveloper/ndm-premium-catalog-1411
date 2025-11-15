@@ -53,14 +53,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "info@ndm.uz",
-      href: "mailto:info@ndm.uz"
+      value: "ndmbusines@gmail.com",
+      href: "mailto:ndmbusines@gmail.com"
     },
     {
       icon: Phone,
       title: t("Telefon", "Телефон"),
-      value: "+998 (90) 000-00-00",
-      href: "tel:+998900000000"
+      value: "+998 90 821 20 00",
+      href: "tel:+998908212000"
     },
     {
       icon: MapPin,
