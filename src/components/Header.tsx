@@ -3,6 +3,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
+import ndmLogo from "@/assets/ndm-logo.png";
 
 const Header = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -20,8 +21,8 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link to="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-heading font-bold text-primary">NDM.uz</span>
+        <Link to="/" className="flex items-center space-x-3">
+          <img src={ndmLogo} alt="NDM" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}

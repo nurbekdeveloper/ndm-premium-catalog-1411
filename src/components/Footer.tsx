@@ -54,8 +54,16 @@ const Footer = () => {
               {t("Bog'lanish", "Контакты")}
             </h4>
             <div className="space-y-2 text-sm text-primary-foreground/80 mb-4">
-              <p>Email: info@ndm.uz</p>
-              <p>Tel: +998 (90) 000-00-00</p>
+              <p>
+                <a href="mailto:ndmbusines@gmail.com" className="hover:text-accent transition-colors">
+                  Email: ndmbusines@gmail.com
+                </a>
+              </p>
+              <p>
+                <a href="tel:+998908212000" className="hover:text-accent transition-colors">
+                  Tel: +998 90 821 20 00
+                </a>
+              </p>
               <p>{t("Toshkent, O'zbekiston", "Ташкент, Узбекистан")}</p>
             </div>
             <div className="flex space-x-4">
