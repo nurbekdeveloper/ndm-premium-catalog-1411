@@ -75,7 +75,10 @@ const PenopleksProductDetail = ({
           {/* Header */}
           <div className="mb-8">
             <h1 className="text-3xl md:text-4xl font-heading font-bold text-primary mb-2">
-              {t("ПЕНОПЛЭКС СТЕНА", "ПЕНОПЛЭКС СТЕНА")}
+              {product.id === "plastfoil-membrane" 
+                ? t("ГИДРОИЗОЛЯЦИОННАЯ МЕМБРАНА PLASTFOIL", "ГИДРОИЗОЛЯЦИОННАЯ МЕМБРАНА PLASTFOIL")
+                : product.name
+              }
             </h1>
           </div>
 
