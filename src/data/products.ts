@@ -11,6 +11,8 @@ import hydroPlastTee from "@/assets/products/hydro-plast-tee.jpg";
 
 // Product images - Shimge
 import shimgeXps20 from "@/assets/products/shimge-xps20-4-130b.jpg";
+import shimgeJet750l1 from "@/assets/products/shimge-jet750l1.png";
+import shimgeQb60l from "@/assets/products/shimge-qb60l.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -191,7 +193,7 @@ export const products: Product[] = [
       { label: { uz: "Diametr Ø63", ru: "Диаметр Ø63" }, value: "16m / HP1606" }
     ]
   },
-  // Shimge - Circulation Pumps (only 1 product)
+  // Shimge - Pumps
   {
     id: "shimge-xps20-4-130b",
     name: "SHIMGE XPS 20-4-130B",
@@ -210,6 +212,56 @@ export const products: Product[] = [
       { label: { uz: "Harorat", ru: "Температура" }, value: "2-110°C" },
       { label: { uz: "Og'irligi", ru: "Вес" }, value: "2.6 кг" },
       { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP44" }
+    ]
+  },
+  {
+    id: "shimge-jet750l1",
+    name: "SHIMGE JET750L1",
+    category: "shimge",
+    images: [shimgeJet750l1],
+    description: {
+      uz: "Sirtqi markazdan qochma o'z-o'zidan so'ruvchi nasos 750 Vt quvvat bilan, 4.5 kub.m/soat unumdorlik, 41 m napor, 9 metr so'rish chuqurligi. Quduqlar, qudiqlar va suv ta'minoti uchun.",
+      ru: "Поверхностный центробежный самовсасывающий насос мощностью 750 Вт, расходом до 4,5 куб.м/час, напором до 41 м, глубиной всасывания до 9 метров. Для колодцев, скважин и водоснабжения."
+    },
+    specs: [
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "750 Вт" },
+      { label: { uz: "Kuchlanish", ru: "Питание" }, value: "220В/50Гц" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальный расход" }, value: "4.5 м³/ч (75 л/мин)" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "41 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "9 m" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное давление" }, value: "5 bar" },
+      { label: { uz: "Harorat", ru: "Температура жидкости" }, value: "1°C - 40°C" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP44" },
+      { label: { uz: "Izolyatsiya klassi", ru: "Класс изоляции" }, value: "B" },
+      { label: { uz: "Korpus", ru: "Корпус" }, value: "Чугун" },
+      { label: { uz: "Val materiali", ru: "Материал вала" }, value: "Нержавеющая сталь" },
+      { label: { uz: "Yong'inga chidamlik", ru: "Группа горючести" }, value: "Г2" }
+    ]
+  },
+  {
+    id: "shimge-qb60l",
+    name: "SHIMGE QB60L",
+    category: "shimge",
+    images: [shimgeQb60l],
+    description: {
+      uz: "Vixrli nasos QB60L, 40 L/min unumdorlik bilan, 33 mm napor, 8 metr so'rish chuqurligi. Suv ta'minoti va sug'orish tizimlari uchun ishonchli yechim.",
+      ru: "Вихревой насос QB60L, производительностью 40 л/мин, напором 33 м, глубиной всасывания до 8 метров. Надежное решение для водоснабжения и полива."
+    },
+    specs: [
+      { label: { uz: "Model", ru: "Модель" }, value: "QB60L" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальный расход" }, value: "40 л/мин" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "33 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "8 m" },
+      { label: { uz: "Ulash o'lchami", ru: "Размер подключения" }, value: "1\" x 1\"" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220В/60Гц" },
+      { label: { uz: "Tok kuchi", ru: "Ток" }, value: "2.7A" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.37 кВт (0.5 л.с.)" },
+      { label: { uz: "Kirish", ru: "Вход" }, value: "0.47 м" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IPX4" },
+      { label: { uz: "Tezlik", ru: "Скорость" }, value: "3450 об/мин" },
+      { label: { uz: "Ishlash rejimi", ru: "Режим работы" }, value: "Непрерывный" },
+      { label: { uz: "Himoya", ru: "Защита" }, value: "Термозащита" },
+      { label: { uz: "Qo'llanilish", ru: "Применение" }, value: "Чистая вода без абразива" }
     ]
   },
   // Penopleks - Insulation Materials
