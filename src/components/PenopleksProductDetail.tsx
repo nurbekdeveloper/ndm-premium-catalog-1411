@@ -101,6 +101,18 @@ const PenopleksProductDetail = ({
                         {t("Polimer membrana PLASTFOIL PGSda gidroizolyatsiya uchun keng qo'llaniladi", "Полимерная мембрана PLASTFOIL широко применяется в ПГС для гидроизоляции ограждающих конструкций, емкостных сооружений и резервуаров, а также на объектах транспортной инфраструктуры")}
                       </p>
                     </>
+                  ) : product.id === "penoplex-foundation" || product.id === "penoplex-extreme" ? (
+                    <>
+                      <p>{t("Poydevorlar", "Фундаменты")}</p>
+                      <p>{t("Pollar", "Полы")}</p>
+                      <p>{t("Tekis tomlar", "Плоские крыши")}</p>
+                      <p>{t("Landshaft", "Ландшафт")}</p>
+                      <p>{t("Xo'jalik binolari", "Хозяйственные постройки")}</p>
+                      <p>{t("Muhandislik tizimlari", "Инженерные системы")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan issiqlik izolyatsiya plitalari. Yuklangan konstruksiyalarda foydalanish uchun", "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения. Для использования в нагружаемых конструкциях")}
+                      </p>
+                    </>
                   ) : (
                     <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
