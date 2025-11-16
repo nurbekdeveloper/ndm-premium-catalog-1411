@@ -84,15 +84,29 @@ const PenopleksProductDetail = ({
             <div className="lg:col-span-3">
               <div className="bg-card rounded-lg border p-6">
                 <h3 className="font-heading font-semibold text-sm mb-4 text-primary uppercase">
-                  {t("Область применения", "Область применения")}
+                  {t("Qo'llanish sohasi", "Область применения")}
                 </h3>
                 <div className="space-y-3 text-sm text-muted-foreground">
-                  <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
-                  <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
-                  <p>{t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan issiqlik izolyatsiya plitalari.", "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения.")}</p>
-                  <p className="text-primary font-medium">
-                    {t("Devorlar va fasadlar uchun qo'llaniladi", "Применяются для стен и фасадов")}
-                  </p>
+                  {product.id === "plastfoil-membrane" ? (
+                    <>
+                      <p>{t("Tom va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Poydevorlar", "Фундаменты")}</p>
+                      <p>{t("Obodonlashtirish", "Благоустройство")}</p>
+                      <p>{t("Transport infratuzilmasi ob'ektlari, quvurlar", "Объекты транспортной инфраструктуры, трубопроводы")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Polimer membrana PLASTFOIL PGSda gidroizolyatsiya uchun keng qo'llaniladi", "Полимерная мембрана PLASTFOIL широко применяется в ПГС для гидроизоляции ограждающих конструкций, емкостных сооружений и резервуаров, а также на объектах транспортной инфраструктуры")}
+                      </p>
+                    </>
+                  ) : (
+                    <>
+                      <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
+                      <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
+                      <p>{t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan issiqlik izolyatsiya plitalari.", "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения.")}</p>
+                      <p className="text-primary font-medium">
+                        {t("Devorlar va fasadlar uchun qo'llaniladi", "Применяются для стен и фасадов")}
+                      </p>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
