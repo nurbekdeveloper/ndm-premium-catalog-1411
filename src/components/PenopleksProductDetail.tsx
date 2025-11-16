@@ -26,7 +26,7 @@ const PenopleksProductDetail = ({
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [selectedThickness, setSelectedThickness] = useState<number>(50);
-  const thicknessOptions = [30, 50, 100];
+  const thicknessOptions = [50, 100];
 
   // Packaging data for each thickness
   const packagingData: Record<number, {
@@ -34,11 +34,6 @@ const PenopleksProductDetail = ({
     area: number;
     edgeType: string;
   }> = {
-    30: {
-      quantity: 13,
-      area: 9.01,
-      edgeType: "T-15"
-    },
     50: {
       quantity: 7,
       area: 4.85,
@@ -199,6 +194,30 @@ const PenopleksProductDetail = ({
                           {thickness}mm
                         </button>
                       ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Packaging Information */}
+                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness] && (
+                  <div className="bg-muted/50 rounded-lg p-4 space-y-2">
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div>
+                        <span className="text-muted-foreground">{t("Qadoqdagi soni", "Количество в упаковке")}:</span>
+                        <p className="font-medium">{packagingData[selectedThickness].quantity} {t("dona", "шт")}.</p>
+                      </div>
+                      <div>
+                        <span className="text-muted-foreground">{t("Maydon", "Площадь")}:</span>
+                        <p className="font-medium">{packagingData[selectedThickness].area} м²</p>
+                      </div>
+                      <div>
+                        <span className="text-muted-foreground">{t("O'lcham", "Размер")}:</span>
+                        <p className="font-medium">585×1185×{selectedThickness} мм</p>
+                      </div>
+                      <div>
+                        <span className="text-muted-foreground">{t("Chok turi", "Тип кромки")}:</span>
+                        <p className="font-medium">{packagingData[selectedThickness].edgeType}</p>
+                      </div>
                     </div>
                   </div>
                 )}
