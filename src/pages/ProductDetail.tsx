@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import SEO from "@/components/SEO";
 import ImageLightbox from "@/components/ImageLightbox";
 import PenopleksProductDetail from "@/components/PenopleksProductDetail";
+import OrderDialog from "@/components/OrderDialog";
 import { ArrowLeft, Expand, Minus, Plus, ShoppingCart, Heart, Facebook, Send, Mail } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -192,13 +193,10 @@ const ProductDetail = () => {
                 </div>
 
                 {/* Add to Order */}
-                <Button 
-                  className="w-full"
-                  variant="secondary"
-                  onClick={handleAddToOrder}
-                >
-                  {t("Buyurtmaga qo'shish", "Добавить в заказ")}
-                </Button>
+                <OrderDialog 
+                  productName={product.name}
+                  className="w-full btn-premium"
+                />
 
                 {/* Categories */}
                 <div className="pt-2">

@@ -5,6 +5,7 @@ import { Product } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ImageLightbox from "@/components/ImageLightbox";
+import OrderDialog from "@/components/OrderDialog";
 import { ArrowLeft, Expand, Minus, Plus, BarChart3, Edit, Package, Box } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 interface PenopleksProductDetailProps {
@@ -135,7 +136,86 @@ const PenopleksProductDetail = ({
 
             {/* Right Column - Purchase Options */}
             <div className="lg:col-span-3">
-              
+              <div className="bg-card rounded-lg border p-6 space-y-4">
+                <h3 className="font-heading font-semibold text-sm mb-4 text-primary uppercase">
+                  {t("Buyurtma berish", "Оформление заказа")}
+                </h3>
+                
+                {/* Quantity Selector */}
+                <div className="space-y-2">
+                  <label className="text-sm font-medium">
+                    {t("Miqdor", "Количество")}
+                  </label>
+                  <div className="flex items-center gap-2">
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      onClick={() => handleQuantityChange(-1)}
+                      className="h-10 w-10"
+                    >
+                      <Minus className="h-4 w-4" />
+                    </Button>
+                    <span className="text-xl font-semibold w-12 text-center">{quantity}</span>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      onClick={() => handleQuantityChange(1)}
+                      className="h-10 w-10"
+                    >
+                      <Plus className="h-4 w-4" />
+                    </Button>
+                  </div>
+                </div>
+
+                {/* Thickness Selector for Penopleks */}
+                {product.id !== "plastfoil-membrane" && (
+                  <div className="space-y-2">
+                    <label className="text-sm font-medium">
+                      {t("Qalinligi", "Толщина")}
+                    </label>
+                    <div className="flex gap-2">
+                      {thicknessOptions.map((thickness) => (
+                        <button
+                          key={thickness}
+                          onClick={() => setSelectedThickness(thickness)}
+                          className={`flex-1 py-2 px-3 rounded-md border transition-colors ${
+                            selectedThickness === thickness
+                              ? "bg-primary text-primary-foreground border-primary"
+                              : "bg-background hover:bg-muted border-border"
+                          }`}
+                        >
+                          {thickness}mm
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Order Button */}
+                <OrderDialog 
+                  productName={`${product.name}${product.id !== "plastfoil-membrane" ? ` - ${selectedThickness}mm` : ""}`}
+                  className="w-full btn-premium"
+                />
+
+                {/* Product Info */}
+                <div className="pt-4 border-t">
+                  <div className="space-y-2 text-sm text-muted-foreground">
+                    <p className="flex justify-between">
+                      <span>{t("Kategoriya", "Категория")}:</span>
+                      <span className="font-medium">
+                        {product.category === "penopleks" 
+                          ? t("Izolyatsiya", "Изоляция")
+                          : t("Membrana", "Мембрана")
+                        }
+                      </span>
+                    </p>
+                    <p className="flex justify-between">
+                      <span>{t("Mavjud", "В наличии")}:</span>
+                      <span className="font-medium text-green-600">{t("Ha", "Да")}</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
