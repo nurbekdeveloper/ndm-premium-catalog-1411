@@ -824,6 +824,60 @@ const PenopleksProductDetail = ({
                           </ul>
                         </div>
                       </>
+                    ) : product.id === "penoplex-floor" ? (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Применение ПЕНОПЛЭКС УКЛОН", "Применение ПЕНОПЛЭКС УКЛОН")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            {t("Kasb-hunar sanoat va fuqarolik qurilishida qo'llaniladigan issiqlik izolyatsiya plitalari turi. Plitalar tekis tomlarda suv qabul qiluvchi voronkalarga qiyalik / qarshi qiyalik yaratish, shuningdek, parapet va ko'tarilgan konstruksiyalardan - zenith chiroqlari, ventilyatsiya shaftlaridan qo'shimcha suv oqizish uchun mo'ljallangan.", "Тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Плиты предназначены для создания на плоских кровлях уклона / контруклона к водоприемным воронкам, а также для дополнительного водоотведения от парапета и выступающих конструкций — зенитных фонарей, вентиляционных шахт.")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Характеристики ПЕНОПЛЭКС УКЛОН", "Характеристики ПЕНОПЛЭКС УКЛОН")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li>• {t("ekologik xavfsizlik", "экологичность")}</li>
+                            <li>• {t("xavfsizlik", "безопасность")}</li>
+                            <li>• {t("isbotlangan biologik barqarorlik", "доказанная биостойкость")}</li>
+                            <li>• {t("o'zgarmas past issiqlik o'tkazuvchanligi", "неизменно низкая теплопроводность")}</li>
+                            <li>• {t("amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)", "практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}</li>
+                            <li>• {t("yuqori siqilishdagi mustahkamlik", "высокая прочность на сжатие")}</li>
+                            <li>• {t("tasdiqlangan uzoq xizmat muddati", "подтвержденная долговечность")}</li>
+                          </ul>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Normalar / standartlar", "Нормы / стандарты")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed mb-2">
+                            ТУ 5767-006-54349294-2014
+                          </p>
+                          <p className="text-muted-foreground text-sm">
+                            {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Tashqi ko'rinish / rang", "Внешний вид / цвет")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Sirt: silliq", "Поверхность: гладкая")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Rang: to'q sariq", "Цвет: оранжевый")}
+                            </li>
+                          </ul>
+                        </div>
+                      </>
                     ) : (
                       <>
                         <div>
