@@ -356,12 +356,6 @@ const PenopleksProductDetail = ({
                 <TabsTrigger value="specs" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4">
                   {t("Технические характеристики", "Технические характеристики")}
                 </TabsTrigger>
-                <TabsTrigger value="documentation" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4">
-                  {t("Документация", "Документация")}
-                </TabsTrigger>
-                <TabsTrigger value="packaging" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4">
-                  {t("Упаковка", "Упаковка")}
-                </TabsTrigger>
               </TabsList>
 
               <div className="p-8">
@@ -740,37 +734,6 @@ const PenopleksProductDetail = ({
                         ))}
                       </tbody>
                     </table>
-                  </div>
-                </TabsContent>
-
-                <TabsContent value="documentation" className="mt-0">
-                  <h3 className="font-heading font-semibold text-lg mb-4 uppercase">
-                    {t("Документация", "Документация")}
-                  </h3>
-                  <p className="text-muted-foreground">
-                    {t("Техническая документация и сертификаты доступны по запросу.", "Техническая документация и сертификаты доступны по запросу.")}
-                  </p>
-                </TabsContent>
-
-                <TabsContent value="packaging" className="mt-0">
-                  <h3 className="font-heading font-semibold text-lg mb-4 uppercase">
-                    {t("Упаковка", "Упаковка")}
-                  </h3>
-                  <div className="space-y-3">
-                    {product.specs
-                      .filter(spec => 
-                        spec.label.ru.includes("упаковк") || 
-                        spec.label.ru.includes("Упаковк") ||
-                        spec.label.ru.toLowerCase().includes("упаковк")
-                      )
-                      .map((spec, index) => (
-                        <div key={index} className="flex justify-between items-center py-3 border-b border-border/50 last:border-0">
-                          <span className="text-muted-foreground font-medium">
-                            {language === "uz" ? spec.label.uz : spec.label.ru}
-                          </span>
-                          <span className="font-semibold">{spec.value}</span>
-                        </div>
-                      ))}
                   </div>
                 </TabsContent>
               </div>
