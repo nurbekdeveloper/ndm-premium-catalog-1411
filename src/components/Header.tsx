@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Menu, X } from "lucide-react";
+import { useCart } from "@/contexts/CartContext";
+import { Menu, X, ShoppingCart } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
+import { Badge } from "./ui/badge";
+import Cart from "./Cart";
 import ndmLogo from "@/assets/ndm-logo.png";
 
 const Header = () => {
   const { language, setLanguage, t } = useLanguage();
+  const { getTotalItems } = useCart();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [cartOpen, setCartOpen] = useState(false);
 
   const navItems = [
     { to: "/", label: t("Bosh sahifa", "Главная") },
@@ -38,8 +43,25 @@ const Header = () => {
           ))}
         </div>
 
-        {/* Language Toggle */}
+        {/* Cart and Language Toggle */}
         <div className="flex items-center space-x-2">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="relative"
+            onClick={() => setCartOpen(true)}
+          >
+            <ShoppingCart className="h-5 w-5" />
+            {getTotalItems() > 0 && (
+              <Badge
+                variant="destructive"
+                className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center p-0 text-xs"
+              >
+                {getTotalItems()}
+              </Badge>
+            )}
+          </Button>
+          
           <Button
             variant={language === "uz" ? "default" : "outline"}
             size="sm"
@@ -67,6 +89,8 @@ const Header = () => {
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
         </div>
+        
+        <Cart isOpen={cartOpen} onClose={() => setCartOpen(false)} />
       </nav>
 
       {/* Mobile Menu */}

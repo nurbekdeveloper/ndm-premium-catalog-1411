@@ -1,6 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { products, categories } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
+import SEO from "@/components/SEO";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Catalog = () => {
@@ -11,7 +12,25 @@ const Catalog = () => {
   const penopleksProducts = products.filter((p) => p.category === "penopleks");
 
   return (
-    <div className="min-h-screen py-12">
+    <>
+      <SEO
+        title={language === "uz" 
+          ? "Katalog - Maishiy Texnika | NDM.uz" 
+          : "Каталог - Бытовая Техника | NDM.uz"}
+        description={language === "uz"
+          ? "PPR quvurlar, nasos qurilmalari, issiqlik izolyatsiya materiallari. Hydro Plast, Shimge, Penopleks. O'zbekistonda eng yaxshi narxlar."
+          : "ППР трубы, насосное оборудование, теплоизоляционные материалы. Hydro Plast, Shimge, Пеноплэкс. Лучшие цены в Узбекистане."}
+        url="/catalog"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: language === "uz" ? "Mahsulotlar katalogi" : "Каталог продукции",
+          description: language === "uz" 
+            ? "Premium maishiy texnika to'plami" 
+            : "Коллекция премиум бытовой техники",
+        }}
+      />
+      <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-heading font-bold mb-4 text-primary">
@@ -88,6 +107,7 @@ const Catalog = () => {
         </Tabs>
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useCart } from "@/contexts/CartContext";
 import { products } from "@/data/products";
 import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
 import ImageLightbox from "@/components/ImageLightbox";
 import PenopleksProductDetail from "@/components/PenopleksProductDetail";
 import { ArrowLeft, Expand, Minus, Plus, ShoppingCart, Heart, Facebook, Send, Mail } from "lucide-react";
@@ -12,6 +14,7 @@ const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { language, t } = useLanguage();
+  const { addToCart } = useCart();
   const { toast } = useToast();
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -23,10 +26,13 @@ const ProductDetail = () => {
   };
 
   const handleAddToCart = () => {
-    toast({
-      title: t("Savatga qo'shildi", "Добавлено в корзину"),
-      description: `${product?.name} (${quantity} ${t("dona", "шт")})`,
-    });
+    if (product) {
+      addToCart(product, quantity);
+      toast({
+        title: t("Savatga qo'shildi", "Добавлено в корзину"),
+        description: `${product.name} (${quantity} ${t("dona", "шт")})`,
+      });
+    }
   };
 
   const handleAddToOrder = () => {
@@ -88,6 +94,34 @@ const ProductDetail = () => {
 
   return (
     <>
+      <SEO
+        title={`${product.name} | NDM.uz`}
+        description={language === "uz" ? product.description.uz : product.description.ru}
+        url={`/product/${product.id}`}
+        image={product.images[0]}
+        type="product"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Product",
+          name: product.name,
+          description: language === "uz" ? product.description.uz : product.description.ru,
+          image: product.images,
+          brand: {
+            "@type": "Brand",
+            name: product.category === "hydro-plast" ? "Hydro Plast" : 
+                  product.category === "shimge" ? "Shimge" : "Penopleks"
+          },
+          offers: {
+            "@type": "Offer",
+            availability: "https://schema.org/InStock",
+            priceCurrency: "UZS",
+            seller: {
+              "@type": "Organization",
+              name: "NDM.uz"
+            }
+          }
+        }}
+      />
       <ImageLightbox
         images={productImages}
         initialIndex={selectedImageIndex}
