@@ -882,8 +882,8 @@ export const products: Product[] = [
     category: "penopleks",
     images: [penoplexExtreme],
     description: {
-      uz: "Yuqori mustahkamlikdagi ekstruzion penopolistirol issiqlik izolyatsiyasi shaxsiy uy qurilishi uchun. Yuklama ostida bo'lgan konstruksiyalar uchun: poydevorlar, avtomobillar uchun asoslar, yuqori yuklama ostidagi pollar.",
-      ru: "Теплоизоляция высокой прочности из экструзионного пенополистирола для частного домостроения. Предназначен для конструкций, находящихся под нагрузками: фундаменты, основания парковок, полы под высокой нагрузкой."
+      uz: "ПЕНОПЛЭКС ЭКСТРИМ — yuqori samarali oxirgi avlod issiqlik izolyatsiya materiali, umumiy maqsadli polistiroldan ekstruziya usuli bilan ishlab chiqarilgan. Tayyor holda bu qattiq ko'pikli termoplastdir.",
+      ru: "ПЕНОПЛЭКС ЭКСТРИМ — высокоэффективный теплоизоляционный материал последнего поколения, изготавливаемый методом экструзии из полистирола общего назначения. В готовом виде это жесткий вспененный термопласт."
     },
     specs: [
       { 
