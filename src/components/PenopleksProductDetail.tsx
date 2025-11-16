@@ -502,13 +502,46 @@ const PenopleksProductDetail = ({
                   <h3 className="font-heading font-semibold text-lg mb-4 uppercase">
                     {t("Технические характеристики", "Технические характеристики")}
                   </h3>
-                  <div className="space-y-3">
-                    {product.specs.map((spec, index) => <div key={index} className="flex justify-between items-center py-3 border-b border-border/50 last:border-0">
-                        <span className="text-muted-foreground font-medium">
-                          {language === "uz" ? spec.label.uz : spec.label.ru}
-                        </span>
-                        <span className="font-semibold">{spec.value}</span>
-                      </div>)}
+                  <div className="overflow-x-auto">
+                    <table className="w-full">
+                      <thead>
+                        <tr className="border-b-2 border-border">
+                          <th className="text-left py-3 px-2 font-semibold text-sm">
+                            {t("Nomenklatura", "Наименование")}
+                          </th>
+                          <th className="text-left py-3 px-2 font-semibold text-sm">
+                            {t("Sinov usuli", "Метод испытаний")}
+                          </th>
+                          <th className="text-left py-3 px-2 font-semibold text-sm">
+                            {t("O'lchov birligi", "Размерность")}
+                          </th>
+                          <th className="text-left py-3 px-2 font-semibold text-sm">
+                            {t("Ko'rsatkich", "Показатель плит")}
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {product.specs.map((spec, index) => (
+                          <tr key={index} className="border-b border-border/50 last:border-0">
+                            <td className="py-3 px-2 text-muted-foreground text-sm">
+                              {language === "uz" ? spec.label.uz : spec.label.ru}
+                            </td>
+                            <td className="py-3 px-2 text-sm">
+                              {spec.method || "-"}
+                            </td>
+                            <td className="py-3 px-2 text-sm">
+                              {spec.value.includes("мм") || spec.value.includes("°С") || spec.value.includes("кПа") || spec.value.includes("Вт") || spec.value.includes("%") || spec.value.includes("кг") 
+                                ? spec.value.split(" ").slice(-1)[0].replace(/[()]/g, "")
+                                : "-"
+                              }
+                            </td>
+                            <td className="py-3 px-2 font-semibold text-sm">
+                              {spec.value}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
                   </div>
                 </TabsContent>
 
