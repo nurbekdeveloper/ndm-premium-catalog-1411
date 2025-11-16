@@ -1055,6 +1055,114 @@ export const products: Product[] = [
         method: "ISO 14025 BS EN 15804"
       }
     ]
+  },
+  {
+    id: "penoplex-geo",
+    name: "ПЕНОПЛЭКС GEO",
+    category: "penopleks",
+    images: [penoplexFoundation],
+    description: {
+      uz: "ПЕНОПЛЭКС GEO — poydevor va er osti konstruksiyalari uchun yuqori mustahkamlikdagi issiqlik izolyatsiya materiali. Yuqori namlik va yuklarga chidamli.",
+      ru: "ПЕНОПЛЭКС GEO — высокопрочный теплоизоляционный материал для фундаментов и подземных конструкций. Устойчив к высокой влажности и нагрузкам."
+    },
+    specs: [
+      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "300 кПа", method: "ГОСТ EN 826" },
+      { label: { uz: "Suv shimishi", ru: "Водопоглощение" }, value: "0,4 %", method: "ГОСТ EN 12087" },
+      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,034 Вт/(м⋅K)", method: "ГОСТ 7076" },
+      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
+      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
+      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "40; 50; 80; 100 мм" }
+    ]
+  },
+  {
+    id: "penoplex-slope",
+    name: "ПЕНОПЛЭКС SLOPE",
+    category: "penopleks",
+    images: [penoplexComfort],
+    description: {
+      uz: "ПЕНОПЛЭКС SLOPE — tekis tomlar uchun qiyalikli tizim. Suv oqimini ta'minlash uchun maxsus ishlab chiqilgan.",
+      ru: "ПЕНОПЛЭКС SLOPE — система разуклонки для плоских кровель. Специально разработана для обеспечения водоотвода."
+    },
+    specs: [
+      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "150 кПа", method: "ГОСТ EN 826" },
+      { label: { uz: "Qiyalik", ru: "Уклон" }, value: "1.7% - 8.3%" },
+      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,034 Вт/(м⋅K)", method: "ГОСТ 7076" },
+      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
+      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
+      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "40-140 мм (переменная)" }
+    ]
+  },
+  {
+    id: "penoplex-45",
+    name: "ПЕНОПЛЭКС 45",
+    category: "penopleks",
+    images: [penoplexExtreme],
+    description: {
+      uz: "ПЕНОПЛЭКС 45 — yuqori yuklarga mo'ljallangan maksimal mustahkamlikdagi material. Aeroport yo'llari va og'ir sanoat uchun.",
+      ru: "ПЕНОПЛЭКС 45 — материал максимальной прочности для высоких нагрузок. Для аэродромов и тяжелой промышленности."
+    },
+    specs: [
+      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "500 кПа", method: "ГОСТ EN 826" },
+      { label: { uz: "Suv shimishi", ru: "Водопоглощение" }, value: "0,4 %", method: "ГОСТ EN 12087" },
+      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,033 Вт/(м⋅K)", method: "ГОСТ 7076" },
+      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
+      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
+      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "40; 50; 60; 80; 100 мм" }
+    ]
+  },
+  {
+    id: "penoplex-roof",
+    name: "ПЕНОПЛЭКС КРОВЛЯ",
+    category: "penopleks",
+    images: [penoplexWall],
+    description: {
+      uz: "ПЕНОПЛЭКС КРОВЛЯ — tekis va qiyshiq tomlar uchun issiqlik izolyatsiyasi. Namlikka va atmosfera ta'siriga chidamli.",
+      ru: "ПЕНОПЛЭКС КРОВЛЯ — теплоизоляция для плоских и скатных кровель. Устойчива к влаге и атмосферным воздействиям."
+    },
+    specs: [
+      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "150 кПа", method: "ГОСТ EN 826" },
+      { label: { uz: "Suv shimishi", ru: "Водопоглощение" }, value: "0,4 %", method: "ГОСТ EN 12087" },
+      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,034 Вт/(м⋅K)", method: "ГОСТ 7076" },
+      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
+      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
+      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "30; 40; 50; 60; 80; 100; 120; 150 мм" }
+    ]
+  },
+  {
+    id: "penoplex-floor",
+    name: "ПЕНОПЛЭКС ПОЛ",
+    category: "penopleks",
+    images: [penoplexComfort],
+    description: {
+      uz: "ПЕНОПЛЭКС ПОЛ — pol va xonalararo qoplamalarda issiqlik izolyatsiyasi uchun. Yuklarga chidamli va o'rnatish oson.",
+      ru: "ПЕНОПЛЭКС ПОЛ — для теплоизоляции полов и межэтажных перекрытий. Выдерживает нагрузки и прост в монтаже."
+    },
+    specs: [
+      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "200 кПа", method: "ГОСТ EN 826" },
+      { label: { uz: "Suv shimishi", ru: "Водопоглощение" }, value: "0,4 %", method: "ГОСТ EN 12087" },
+      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,034 Вт/(м⋅K)", method: "ГОСТ 7076" },
+      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
+      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
+      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "20; 30; 40; 50; 60; 80; 100 мм" }
+    ]
+  },
+  {
+    id: "penoplex-facade",
+    name: "ПЕНОПЛЭКС ФАСАД",
+    category: "penopleks",
+    images: [penoplexWall],
+    description: {
+      uz: "ПЕНОПЛЭКС ФАСАД — fasadlarni tashqi tomondan issiqlik izolyatsiyalash uchun. Yengil, mustahkam va uzoq muddatli.",
+      ru: "ПЕНОПЛЭКС ФАСАД — для утепления фасадов снаружи. Легкий, прочный и долговечный."
+    },
+    specs: [
+      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "150 кПа", method: "ГОСТ EN 826" },
+      { label: { uz: "Suv shimishi", ru: "Водопоглощение" }, value: "0,4 %", method: "ГОСТ EN 12087" },
+      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,034 Вт/(м⋅K)", method: "ГОСТ 7076" },
+      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
+      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
+      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "30; 40; 50; 60; 80; 100; 120 мм" }
+    ]
   }
 ];
 
