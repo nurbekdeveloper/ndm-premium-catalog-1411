@@ -26,6 +26,7 @@ import penoplexExtreme from "@/assets/products/penoplex-extreme.png";
 import penoplexOsnova from "@/assets/products/penoplex-osnova.png";
 import penoplexGeo from "@/assets/products/penoplex-geo.png";
 import penoplexRoofPackage from "@/assets/products/penoplex-roof-package.png";
+import penoplex45Package from "@/assets/products/penoplex-45-package.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1162,18 +1163,94 @@ export const products: Product[] = [
     id: "penoplex-45",
     name: "ПЕНОПЛЭКС 45",
     category: "penopleks",
-    images: [penoplexExtreme],
+    images: [penoplex45Package],
     description: {
-      uz: "ПЕНОПЛЭКС 45 — yuqori yuklarga mo'ljallangan maksimal mustahkamlikdagi material. Aeroport yo'llari va og'ir sanoat uchun.",
-      ru: "ПЕНОПЛЭКС 45 — материал максимальной прочности для высоких нагрузок. Для аэродромов и тяжелой промышленности."
+      uz: "ПЕНОПЛЭКС 45 — yuqori mustahkamlikka ega samarali issiqlik izolyatsiya materiali (so'nggi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.\n\n**Qo'llanilishi:**\nAyniqsa mustahkam issiqlik izolyatsiya plitalari turi, kasb-hunar sanoat va fuqarolik qurilishida qo'llaniladi. Yuqori mustahkamlikdagi material yuklarga alohida talablar qo'yiladigan konstruksiyalarda, shu jumladan yo'l qurilishida qo'llash uchun tavsiya etiladi.\n\n**Afzalliklari:**\n• Ekologik xavfsizlik\n• Xavfsizlik\n• Isbotlangan biologik barqarorlik\n• O'zgarmas past issiqlik o'tkazuvchanligi\n• Amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)\n• Yuqori siqilishdagi mustahkamlik\n• Tasdiqlangan uzoq xizmat muddati\n\n**Normalar / standartlar:**\nТУ 5767-006-56925804-2007\nNazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi.\n\n**Tashqi ko'rinish / rang:**\nSirt: silliq\nRang: to'q sariq",
+      ru: "ПЕНОПЛЭКС 45 — эффективный теплоизоляционный материал с высокой прочностью (XPS последнего поколения), изготавливаемый из полистирола общего назначения.\n\n**Применение:**\nОсобо прочный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Высокопрочный материал рекомендуется для применения в конструкциях, где предъявляются специальные требования к конструктиву по нагрузкам, в том числе для дорожного строительства.\n\n**Преимущества:**\n• Экологичность\n• Безопасность\n• Доказанная биостойкость\n• Неизменно низкая теплопроводность\n• Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)\n• Высокая прочность на сжатие\n• Подтвержденная долговечность\n\n**Нормы / стандарты:**\nТУ 5767-006-56925804-2007\nКонтроль и оценка производства проводится аккредитованными лабораториями.\n\n**Внешний вид / цвет:**\nПоверхность: гладкая\nЦвет: оранжевый"
     },
     specs: [
-      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "500 кПа", method: "ГОСТ EN 826" },
-      { label: { uz: "Suv shimishi", ru: "Водопоглощение" }, value: "0,4 %", method: "ГОСТ EN 12087" },
-      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,033 Вт/(м⋅K)", method: "ГОСТ 7076" },
-      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
-      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
-      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "40; 50; 60; 80; 100 мм" }
+      { 
+        label: { 
+          uz: "Siqilishdagi mustahkamlik 10% chiziqli deformatsiyada yoki siqilishdagi mustahkamlik chegarasi*, kamida", 
+          ru: "Прочность на сжатие при 10% линейной деформации или предел прочности при сжатии*, не менее" 
+        }, 
+        value: "530 кПа (53 т/м²)", 
+        method: "ГОСТ EN 826" 
+      },
+      { 
+        label: { uz: "24 soat ichida suv shimishi, ko'pi bilan", ru: "Водопоглощение за 24 часа, не более" }, 
+        value: "0,2% hajm bo'yicha", 
+        method: "ГОСТ EN 12087" 
+      },
+      { 
+        label: { 
+          uz: "E'lon qilingan issiqlik o'tkazuvchanligi λD (10±0,3)°C da, ko'pi bilan", 
+          ru: "Декларируемая теплопроводность λD при (10±0,3)°С, не более" 
+        }, 
+        value: "0,034 Вт/(м⋅K)", 
+        method: "ГОСТ 7076" 
+      },
+      { 
+        label: { 
+          uz: "A foydalanish sharoitlarida issiqlik o'tkazuvchanligi, ko'pi bilan", 
+          ru: "Теплопроводность при условиях эксплуатации А, не более" 
+        }, 
+        value: "0,035 Вт/(м⋅K)", 
+        method: "ГОСТ Р 59985" 
+      },
+      { 
+        label: { 
+          uz: "B foydalanish sharoitlarida issiqlik o'tkazuvchanligi, ko'pi bilan", 
+          ru: "Теплопроводность при условиях эксплуатации Б, не более" 
+        }, 
+        value: "0,036 Вт/(м⋅K)", 
+        method: "ГОСТ Р 59985" 
+      },
+      { 
+        label: { uz: "Eni", ru: "Ширина" }, 
+        value: "600 мм", 
+        method: "ГОСТ EN 822" 
+      },
+      { 
+        label: { uz: "Uzunligi", ru: "Длина" }, 
+        value: "2400 мм", 
+        method: "ГОСТ EN 822" 
+      },
+      { 
+        label: { uz: "Qalinligi", ru: "Толщина" }, 
+        value: "40; 50; 60; 80; 100 мм", 
+        method: "ГОСТ EN 823" 
+      },
+      { 
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" }, 
+        value: "от -70 до +75 °С", 
+        method: "ТУ" 
+      },
+      { 
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" }, 
+        value: "Г4", 
+        method: "ГОСТ 30244" 
+      },
+      { 
+        label: { uz: "Alangalanish guruhi", ru: "Группа воспламеняемости" }, 
+        value: "В2", 
+        method: "ГОСТ 30402" 
+      },
+      { 
+        label: { uz: "Tutun hosil qilish qobiliyati guruhi", ru: "Группа дымообразующей способности" }, 
+        value: "Д3", 
+        method: "ГОСТ 12.1.044" 
+      },
+      { 
+        label: { uz: "Zaharlilik guruhi", ru: "Группа токсичности" }, 
+        value: "Т2", 
+        method: "ГОСТ 12.1.044" 
+      },
+      { 
+        label: { uz: "Global isish potentsiali**", ru: "Потенциал глобального потепления**" }, 
+        value: "от 5,45 кг CO₂ эквивалент", 
+        method: "ISO 14025, BS EN 15804" 
+      }
     ]
   },
   {
