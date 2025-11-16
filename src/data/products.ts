@@ -25,6 +25,7 @@ import penoplexFoundation from "@/assets/products/penoplex-foundation.png";
 import penoplexExtreme from "@/assets/products/penoplex-extreme.png";
 import penoplexOsnova from "@/assets/products/penoplex-osnova.png";
 import penoplexGeo from "@/assets/products/penoplex-geo.png";
+import penoplexRoofPackage from "@/assets/products/penoplex-roof-package.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1179,10 +1180,10 @@ export const products: Product[] = [
     id: "penoplex-roof",
     name: "ПЕНОПЛЭКС КРОВЛЯ",
     category: "penopleks",
-    images: [penoplexWall],
+    images: [penoplexWall, penoplexRoofPackage],
     description: {
-      uz: "ПЕНОПЛЭКС КРОВЛЯ — yuqori mustahkamlikka ega yuqori samarali issiqlik izolyatsiya materiali (so'nggi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.\n\n**Qo'llanilishi:**\nKasb-hunar sanoat va fuqarolik qurilishida qo'llaniladigan universal issiqlik izolyatsiya plitalari turi. Har qanday turdagi tomlarni, jumladan, yong'inga qarshi xavfsizlik talablari yuqori bo'lgan tomlarni issiqlik izolyatsiya qilish uchun tavsiya etiladi.\n\n**Afzalliklari:**\n• Ekologik xavfsizlik\n• Xavfsizlik\n• Isbotlangan biologik barqarorlik\n• O'zgarmas past issiqlik o'tkazuvchanligi\n• Amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)\n• Yuqori siqilishdagi mustahkamlik\n• Tasdiqlangan uzoq xizmat muddati\n\n**Normalar / standartlar:**\nТУ 5767-006-54349294-2014\nNazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi.\n\n**Tashqi ko'rinish / rang:**\nSirt: silliq\nRang: to'q sariq",
-      ru: "ПЕНОПЛЭКС КРОВЛЯ — высокоэффективный теплоизоляционный материал повышенной прочности (XPS последнего поколения), изготавливаемый из полистирола общего назначения.\n\n**Применение:**\nУниверсальный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Рекомендуется для теплоизоляции кровель любых типов, в том числе кровель с повышенными требованиями по пожарной безопасности.\n\n**Преимущества:**\n• Экологичность\n• Безопасность\n• Доказанная биостойкость\n• Неизменно низкая теплопроводность\n• Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)\n• Высокая прочность на сжатие\n• Подтвержденная долговечность\n\n**Нормы / стандарты:**\nТУ 5767-006-54349294-2014\nКонтроль и оценка производства проводится аккредитованными лабораториями.\n\n**Внешний вид / цвет:**\nПоверхность: гладкая\nЦвет: оранжевый"
+      uz: "ПЕНОПЛЭКС КРОВЛЯ — yuqori mustahkamlikka ega yuqori samarali issiqlik izolyatsiya materiali (so'nggi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.\n\n**Qo'llanilishi:**\nTomlar va yopiqlar. Har qanday turdagi tomlar uchun ekstruzion penopolistiroldan issiqlik izolyatsiya, jumladan, yong'inga qarshi xavfsizlik talablari yuqori bo'lgan tomlar.\n\n**Afzalliklari:**\n• Ekologik xavfsizlik\n• Xavfsizlik\n• Isbotlangan biologik barqarorlik\n• O'zgarmas past issiqlik o'tkazuvchanligi\n• Amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)\n• Yuqori siqilishdagi mustahkamlik\n• Tasdiqlangan uzoq xizmat muddati\n\n**Normalar / standartlar:**\nТУ 5767-006-54349294-2014\nNazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi.\n\n**Tashqi ko'rinish / rang:**\nSirt: silliq\nRang: to'q sariq",
+      ru: "ПЕНОПЛЭКС КРОВЛЯ — высокоэффективный теплоизоляционный материал повышенной прочности (XPS последнего поколения), изготавливаемый из полистирола общего назначения.\n\n**Применение:**\nКрыши и покрытия. Теплоизоляция из экструзионного пенополистирола для кровель любых типов, в том числе кровель с повышенными требованиями по пожарной безопасности.\n\n**Преимущества:**\n• Экологичность\n• Безопасность\n• Доказанная биостойкость\n• Неизменно низкая теплопроводность\n• Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)\n• Высокая прочность на сжатие\n• Подтвержденная долговечность\n\n**Нормы / стандарты:**\nТУ 5767-006-54349294-2014\nКонтроль и оценка производства проводится аккредитованными лабораториями.\n\n**Внешний вид / цвет:**\nПоверхность: гладкая\nЦвет: оранжевый"
     },
     specs: [
       { 
