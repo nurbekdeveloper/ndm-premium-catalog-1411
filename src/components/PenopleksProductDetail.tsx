@@ -244,18 +244,18 @@ const PenopleksProductDetail = ({
                     <label className="text-sm font-medium">
                       {t("Qalinligi", "Толщина")}
                     </label>
-                    <div className="flex gap-2">
+                    <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
                       {thicknessOptions.map((thickness) => (
                         <button
                           key={thickness}
                           onClick={() => setSelectedThickness(thickness)}
-                          className={`flex-1 py-2 px-3 rounded-md border transition-colors ${
+                          className={`py-2 px-3 rounded-md border transition-colors text-sm font-medium ${
                             selectedThickness === thickness
                               ? "bg-primary text-primary-foreground border-primary"
                               : "bg-background hover:bg-muted border-border"
                           }`}
                         >
-                          {thickness}mm
+                          {thickness}
                         </button>
                       ))}
                     </div>
