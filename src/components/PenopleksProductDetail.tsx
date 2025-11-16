@@ -29,7 +29,8 @@ const PenopleksProductDetail = ({
     product.id === "penoplex-geo" ? 40 : 
     product.id === "penoplex-facade" ? 40 :
     product.id === "penoplex-roof" ? 50 :
-    product.id === "penoplex-45" ? 50 : 50
+    product.id === "penoplex-45" ? 50 :
+    product.id === "penoplex-slope" ? 50 : 50
   );
   
   // Thickness options based on product
@@ -40,6 +41,8 @@ const PenopleksProductDetail = ({
     : product.id === "penoplex-roof"
     ? [30, 40, 50, 60, 80, 100]
     : product.id === "penoplex-45"
+    ? [40, 50, 60, 80, 100]
+    : product.id === "penoplex-slope"
     ? [40, 50, 60, 80, 100]
     : [50, 100];
 
@@ -703,6 +706,60 @@ const PenopleksProductDetail = ({
                           </h3>
                           <p className="text-muted-foreground leading-relaxed mb-2">
                             ТУ 5767-006-56925804-2007
+                          </p>
+                          <p className="text-muted-foreground text-sm">
+                            {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Tashqi ko'rinish / rang", "Внешний вид / цвет")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Sirt: silliq", "Поверхность: гладкая")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Rang: to'q sariq", "Цвет: оранжевый")}
+                            </li>
+                          </ul>
+                        </div>
+                      </>
+                    ) : product.id === "penoplex-slope" ? (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Применение ПЕНОПЛЭКС ГЕО", "Применение ПЕНОПЛЭКС ГЕО")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            {t("Kasb-hunar sanoat va fuqarolik qurilishida qo'llaniladigan universal issiqlik izolyatsiya plitalari turi. Yuklanuvchi konstruksiyalarni issiqlik izolyatsiya qilish uchun tavsiya etiladi: poydevorlar, pollar, stilobatlar, foydalaniladigan tomlar, qoplama tizimlari va hududni obodonlashtirish.", "Универсальный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Рекомендуется для теплоизоляции нагружаемых конструкций: фундаментов, полов, стилобатов, эксплуатируемых крыш, систем мощения и благоустройства территории.")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Характеристики ПЕНОПЛЭКС ГЕО", "Характеристики ПЕНОПЛЭКС ГЕО")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li>• {t("ekologik xavfsizlik", "экологичность")}</li>
+                            <li>• {t("xavfsizlik", "безопасность")}</li>
+                            <li>• {t("isbotlangan biologik barqarorlik", "доказанная биостойкость")}</li>
+                            <li>• {t("o'zgarmas past issiqlik o'tkazuvchanligi", "неизменно низкая теплопроводность")}</li>
+                            <li>• {t("amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)", "практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}</li>
+                            <li>• {t("yuqori siqilishdagi mustahkamlik", "высокая прочность на сжатие")}</li>
+                            <li>• {t("tasdiqlangan uzoq xizmat muddati", "подтвержденная долговечность")}</li>
+                          </ul>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Normalar / standartlar", "Нормы / стандарты")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed mb-2">
+                            ТУ 5767-006-54349294-2014
                           </p>
                           <p className="text-muted-foreground text-sm">
                             {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}

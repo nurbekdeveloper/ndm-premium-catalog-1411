@@ -1147,16 +1147,92 @@ export const products: Product[] = [
     category: "penopleks",
     images: [penoplexComfort],
     description: {
-      uz: "ПЕНОПЛЭКС SLOPE — tekis tomlar uchun qiyalikli tizim. Suv oqimini ta'minlash uchun maxsus ishlab chiqilgan.",
-      ru: "ПЕНОПЛЭКС SLOPE — система разуклонки для плоских кровель. Специально разработана для обеспечения водоотвода."
+      uz: "ПЕНОПЛЭКС ГЕО — yuqori mustahkamlikka ega yuqori samarali issiqlik izolyatsiya materiali (so'nggi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.\n\n**Qo'llanilishi:**\nKasb-hunar sanoat va fuqarolik qurilishida qo'llaniladigan universal issiqlik izolyatsiya plitalari turi. Yuklanuvchi konstruksiyalarni issiqlik izolyatsiya qilish uchun tavsiya etiladi: poydevorlar, pollar, stilobatlar, foydalaniladigan tomlar, qoplama tizimlari va hududni obodonlashtirish.\n\n**Afzalliklari:**\n• Ekologik xavfsizlik\n• Xavfsizlik\n• Isbotlangan biologik barqarorlik\n• O'zgarmas past issiqlik o'tkazuvchanligi\n• Amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)\n• Yuqori siqilishdagi mustahkamlik\n• Tasdiqlangan uzoq xizmat muddati\n\n**Normalar / standartlar:**\nТУ 5767-006-54349294-2014\nNazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi.\n\n**Tashqi ko'rinish / rang:**\nSirt: silliq\nRang: to'q sariq",
+      ru: "ПЕНОПЛЭКС ГЕО — высокоэффективный теплоизоляционный материал повышенной прочности (XPS последнего поколения), изготавливаемый из полистирола общего назначения.\n\n**Применение:**\nУниверсальный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Рекомендуется для теплоизоляции нагружаемых конструкций: фундаментов, полов, стилобатов, эксплуатируемых крыш, систем мощения и благоустройства территории.\n\n**Преимущества:**\n• Экологичность\n• Безопасность\n• Доказанная биостойкость\n• Неизменно низкая теплопроводность\n• Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)\n• Высокая прочность на сжатие\n• Подтвержденная долговечность\n\n**Нормы / стандарты:**\nТУ 5767-006-54349294-2014\nКонтроль и оценка производства проводится аккредитованными лабораториями.\n\n**Внешний вид / цвет:**\nПоверхность: гладкая\nЦвет: оранжевый"
     },
     specs: [
-      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "150 кПа", method: "ГОСТ EN 826" },
-      { label: { uz: "Qiyalik", ru: "Уклон" }, value: "1.7% - 8.3%" },
-      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,034 Вт/(м⋅K)", method: "ГОСТ 7076" },
-      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
-      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
-      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "40-140 мм (переменная)" }
+      { 
+        label: { 
+          uz: "Siqilishdagi mustahkamlik 10% chiziqli deformatsiyada yoki siqilishdagi mustahkamlik chegarasi*, kamida", 
+          ru: "Прочность на сжатие при 10% линейной деформации или предел прочности при сжатии*, не менее" 
+        }, 
+        value: "300 кПа (30 т/м²)", 
+        method: "ГОСТ EN 826" 
+      },
+      { 
+        label: { uz: "24 soat ichida suv shimishi, ko'pi bilan", ru: "Водопоглощение за 24 часа, не более" }, 
+        value: "0,4% hajm bo'yicha", 
+        method: "ГОСТ EN 12087" 
+      },
+      { 
+        label: { 
+          uz: "E'lon qilingan issiqlik o'tkazuvchanligi λD (10±0,3)°C da, ko'pi bilan", 
+          ru: "Декларируемая теплопроводность λD при (10±0,3)°С, не более" 
+        }, 
+        value: "0,034 Вт/(м⋅K)", 
+        method: "ГОСТ 7076" 
+      },
+      { 
+        label: { 
+          uz: "A foydalanish sharoitlarida issiqlik o'tkazuvchanligi, ko'pi bilan", 
+          ru: "Теплопроводность при условиях эксплуатации А, не более" 
+        }, 
+        value: "0,035 Вт/(м⋅K)", 
+        method: "ГОСТ Р 59985" 
+      },
+      { 
+        label: { 
+          uz: "B foydalanish sharoitlarida issiqlik o'tkazuvchanligi, ko'pi bilan", 
+          ru: "Теплопроводность при условиях эксплуатации Б, не более" 
+        }, 
+        value: "0,036 Вт/(м⋅K)", 
+        method: "ГОСТ Р 59985" 
+      },
+      { 
+        label: { uz: "Eni", ru: "Ширина" }, 
+        value: "585 мм", 
+        method: "ГОСТ EN 822" 
+      },
+      { 
+        label: { uz: "Uzunligi", ru: "Длина" }, 
+        value: "1185 мм", 
+        method: "ГОСТ EN 822" 
+      },
+      { 
+        label: { uz: "Qalinligi", ru: "Толщина" }, 
+        value: "40; 50; 60; 80; 100 мм", 
+        method: "ГОСТ EN 823" 
+      },
+      { 
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" }, 
+        value: "от -70 до +75 °С", 
+        method: "ТУ" 
+      },
+      { 
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" }, 
+        value: "Г4", 
+        method: "ГОСТ 30244" 
+      },
+      { 
+        label: { uz: "Alangalanish guruhi", ru: "Группа воспламеняемости" }, 
+        value: "В2", 
+        method: "ГОСТ 30402" 
+      },
+      { 
+        label: { uz: "Tutun hosil qilish qobiliyati guruhi", ru: "Группа дымообразующей способности" }, 
+        value: "Д3", 
+        method: "ГОСТ 12.1.044" 
+      },
+      { 
+        label: { uz: "Zaharlilik guruhi", ru: "Группа токсичности" }, 
+        value: "Т2", 
+        method: "ГОСТ 12.1.044" 
+      },
+      { 
+        label: { uz: "Global isish potentsiali**", ru: "Потенциал глобального потепления**" }, 
+        value: "от 4,43 кг CO₂ эквивалент", 
+        method: "ISO 14025, BS EN 15804" 
+      }
     ]
   },
   {
