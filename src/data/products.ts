@@ -28,6 +28,7 @@ import penoplexGeo from "@/assets/products/penoplex-geo.png";
 import penoplexRoofPackage from "@/assets/products/penoplex-roof-package.png";
 import penoplex45Package from "@/assets/products/penoplex-45-package.png";
 import penoplexSlopePackage from "@/assets/products/penoplex-slope-package.png";
+import penoplexFloorPackage from "@/assets/products/penoplex-floor-package.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1396,20 +1397,83 @@ export const products: Product[] = [
   },
   {
     id: "penoplex-floor",
-    name: "ПЕНОПЛЭКС ПОЛ",
+    name: "ПЕНОПЛЭКС УКЛОН",
     category: "penopleks",
-    images: [penoplexComfort],
+    images: [penoplexFloorPackage],
     description: {
-      uz: "ПЕНОПЛЭКС ПОЛ — pol va xonalararo qoplamalarda issiqlik izolyatsiyasi uchun. Yuklarga chidamli va o'rnatish oson.",
-      ru: "ПЕНОПЛЭКС ПОЛ — для теплоизоляции полов и межэтажных перекрытий. Выдерживает нагрузки и прост в монтаже."
+      uz: "ПЕНОПЛЭКС УКЛОН — yuqori samarali issiqlik izolyatsiya materiali (so'nggi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.\n\n**Qo'llanilishi:**\nKasb-hunar sanoat va fuqarolik qurilishida qo'llaniladigan issiqlik izolyatsiya plitalari turi. Plitalar tekis tomlarda suv qabul qiluvchi voronkalarga qiyalik / qarshi qiyalik yaratish, shuningdek, parapet va ko'tarilgan konstruksiyalardan - zenith chiroqlari, ventilyatsiya shaftlaridan qo'shimcha suv oqizish uchun mo'ljallangan.\n\n**Afzalliklari:**\n• Ekologik xavfsizlik\n• Xavfsizlik\n• Isbotlangan biologik barqarorlik\n• O'zgarmas past issiqlik o'tkazuvchanligi\n• Amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)\n• Yuqori siqilishdagi mustahkamlik\n• Tasdiqlangan uzoq xizmat muddati\n\n**Normalar / standartlar:**\nТУ 5767-006-54349294-2014\nNazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi.\n\n**Tashqi ko'rinish / rang:**\nSirt: silliq\nRang: to'q sariq",
+      ru: "ПЕНОПЛЭКС УКЛОН — высокоэффективный теплоизоляционный материал (XPS последнего поколения), изготавливаемый из полистирола общего назначения.\n\n**Применение:**\nТип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Плиты предназначены для создания на плоских кровлях уклона / контруклона к водоприемным воронкам, а также для дополнительного водоотведения от парапета и выступающих конструкций — зенитных фонарей, вентиляционных шахт.\n\n**Преимущества:**\n• Экологичность\n• Безопасность\n• Доказанная биостойкость\n• Неизменно низкая теплопроводность\n• Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)\n• Высокая прочность на сжатие\n• Подтвержденная долговечность\n\n**Нормы / стандарты:**\nТУ 5767-006-54349294-2014\nКонтроль и оценка производства проводится аккредитованными лабораториями.\n\n**Внешний вид / цвет:**\nПоверхность: гладкая\nЦвет: оранжевый"
     },
     specs: [
-      { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "200 кПа", method: "ГОСТ EN 826" },
-      { label: { uz: "Suv shimishi", ru: "Водопоглощение" }, value: "0,4 %", method: "ГОСТ EN 12087" },
-      { label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, value: "0,034 Вт/(м⋅K)", method: "ГОСТ 7076" },
-      { label: { uz: "Eni", ru: "Ширина" }, value: "585 мм" },
-      { label: { uz: "Uzunligi", ru: "Длина" }, value: "1185 мм" },
-      { label: { uz: "Qalinligi", ru: "Толщина" }, value: "20; 30; 40; 50; 60; 80; 100 мм" }
+      { 
+        label: { uz: "24 soat ichida suv shimishi, ko'pi bilan", ru: "Водопоглощение за 24 часа, не более" }, 
+        value: "0,4% hajm bo'yicha", 
+        method: "ГОСТ EN 12087" 
+      },
+      { 
+        label: { 
+          uz: "E'lon qilingan issiqlik o'tkazuvchanligi λD (10±0,3)°C da, ko'pi bilan", 
+          ru: "Декларируемая теплопроводность λD при (10±0,3)°С, не более" 
+        }, 
+        value: "0,034 Вт/(м⋅K)", 
+        method: "ГОСТ 7076" 
+      },
+      { 
+        label: { 
+          uz: "A foydalanish sharoitlarida issiqlik o'tkazuvchanligi, ko'pi bilan", 
+          ru: "Теплопроводность при условиях эксплуатации А, не более" 
+        }, 
+        value: "0,035 Вт/(м⋅K)", 
+        method: "ГОСТ Р 59985" 
+      },
+      { 
+        label: { 
+          uz: "B foydalanish sharoitlarida issiqlik o'tkazuvchanligi, ko'pi bilan", 
+          ru: "Теплопроводность при условиях эксплуатации Б, не более" 
+        }, 
+        value: "0,036 Вт/(м⋅K)", 
+        method: "ГОСТ Р 59985" 
+      },
+      { 
+        label: { uz: "Eni", ru: "Ширина" }, 
+        value: "585 мм", 
+        method: "ГОСТ EN 822" 
+      },
+      { 
+        label: { uz: "Uzunligi", ru: "Длина" }, 
+        value: "1185 мм", 
+        method: "ГОСТ EN 822" 
+      },
+      { 
+        label: { uz: "Qalinligi", ru: "Толщина" }, 
+        value: "10-30; 30-50 мм", 
+        method: "ГОСТ EN 823" 
+      },
+      { 
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" }, 
+        value: "от -70 до +75 °С", 
+        method: "ТУ" 
+      },
+      { 
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" }, 
+        value: "Г4", 
+        method: "ГОСТ 30244" 
+      },
+      { 
+        label: { uz: "Alangalanish guruhi", ru: "Группа воспламеняемости" }, 
+        value: "В2", 
+        method: "ГОСТ 30402" 
+      },
+      { 
+        label: { uz: "Tutun hosil qilish qobiliyati guruhi", ru: "Группа дымообразующей способности" }, 
+        value: "Д3", 
+        method: "ГОСТ 12.1.044" 
+      },
+      { 
+        label: { uz: "Zaharlilik guruhi", ru: "Группа токсичности" }, 
+        value: "Т2", 
+        method: "ГОСТ 12.1.044" 
+      }
     ]
   },
   {
