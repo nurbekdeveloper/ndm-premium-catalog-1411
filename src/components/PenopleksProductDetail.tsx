@@ -81,10 +81,11 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                   {t("Область применения", "Область применения")}
                 </h3>
                 <div className="space-y-3 text-sm text-muted-foreground">
-                  <p>{t("Штукатурные фасады", "Штукатурные фасады")}</p>
-                  <p>{t("Фасады с декоративной облицовкой", "Фасады с декоративной облицовкой")}</p>
+                  <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
+                  <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
+                  <p>{t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan issiqlik izolyatsiya plitalari.", "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения.")}</p>
                   <p className="text-primary font-medium">
-                    {t("Применяется для стен и фасадов", "Применяется для стен и фасадов")}
+                    {t("Devorlar va fasadlar uchun qo'llaniladi", "Применяются для стен и фасадов")}
                   </p>
                 </div>
               </div>
