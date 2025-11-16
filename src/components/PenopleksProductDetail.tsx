@@ -27,7 +27,8 @@ const PenopleksProductDetail = ({
   const [quantity, setQuantity] = useState(1);
   const [selectedThickness, setSelectedThickness] = useState<number>(
     product.id === "penoplex-geo" ? 40 : 
-    product.id === "penoplex-facade" ? 40 : 50
+    product.id === "penoplex-facade" ? 40 :
+    product.id === "penoplex-roof" ? 50 : 50
   );
   
   // Thickness options based on product
@@ -35,6 +36,8 @@ const PenopleksProductDetail = ({
     ? [40, 50, 60, 80, 100] 
     : product.id === "penoplex-facade"
     ? [30, 40, 50, 60, 80, 100, 120, 150]
+    : product.id === "penoplex-roof"
+    ? [30, 40, 50, 60, 80, 100]
     : [50, 100];
 
   // Packaging data for each thickness
@@ -609,6 +612,60 @@ const PenopleksProductDetail = ({
                             <p>{t("Universal issiqlik izolyatsiyasi. Tomlar va qoplamalar, g'isht qoplamali devorlar, pollar va qavat yopmalari, tsokollar, termoqo'shimchalar, deformatsion tikuvlar uchun.", "Универсальная теплоизоляция. Для крыш и покрытий, стен с кирпичной облицовкой, полов и перекрытий, цоколей, термовкладышей, деформационных швов.")}</p>
                             <p className="font-medium text-primary">{t("Yuklamadagi konstruksiyalarda qo'llash oldindan bajarilgan hisob-kitoblar asosida ruxsat etiladi", "Применение в нагружаемых конструкциях допускается на основании предварительно выполненных расчетов")}</p>
                           </div>
+                        </div>
+                      </>
+                    ) : product.id === "penoplex-roof" ? (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Применение ПЕНОПЛЭКС КРОВЛЯ", "Применение ПЕНОПЛЭКС КРОВЛЯ")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            {t("Kasb-hunar sanoat va fuqarolik qurilishida qo'llaniladigan universal issiqlik izolyatsiya plitalari turi. Har qanday turdagi tomlarni, jumladan, yong'inga qarshi xavfsizlik talablari yuqori bo'lgan tomlarni issiqlik izolyatsiya qilish uchun tavsiya etiladi.", "Универсальный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Рекомендуется для теплоизоляции кровель любых типов, в том числе кровель с повышенными требованиями по пожарной безопасности.")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Характеристики ПЕНОПЛЭКС КРОВЛЯ", "Характеристики ПЕНОПЛЭКС КРОВЛЯ")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li>• {t("ekologik xavfsizlik", "экологичность")}</li>
+                            <li>• {t("xavfsizlik", "безопасность")}</li>
+                            <li>• {t("isbotlangan biologik barqarorlik", "доказанная биостойкость")}</li>
+                            <li>• {t("o'zgarmas past issiqlik o'tkazuvchanligi", "неизменно низкая теплопроводность")}</li>
+                            <li>• {t("amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)", "практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}</li>
+                            <li>• {t("yuqori siqilishdagi mustahkamlik", "высокая прочность на сжатие")}</li>
+                            <li>• {t("tasdiqlangan uzoq xizmat muddati", "подтвержденная долговечность")}</li>
+                          </ul>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Normalar / standartlar", "Нормы / стандарты")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed mb-2">
+                            ТУ 5767-006-54349294-2014
+                          </p>
+                          <p className="text-muted-foreground text-sm">
+                            {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Tashqi ko'rinish / rang", "Внешний вид / цвет")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Sirt: silliq", "Поверхность: гладкая")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Rang: to'q sariq", "Цвет: оранжевый")}
+                            </li>
+                          </ul>
                         </div>
                       </>
                     ) : (
