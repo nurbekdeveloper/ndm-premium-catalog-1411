@@ -30,11 +30,33 @@ import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
 import aeroluxSilent90Detail from "@/assets/products/aerolux-silent-90-detail.jpg";
 import aeroluxSilent90Side from "@/assets/products/aerolux-silent-90-side.jpg";
 import aeroluxSilent90Installed from "@/assets/products/aerolux-silent-90-installed.jpg";
+import turbochefBlackline from "@/assets/products/turbochef-blackline.jpg";
+import turbochefBlacklineDetail from "@/assets/products/turbochef-blackline-detail.jpg";
+import turbochefBlacklineSide from "@/assets/products/turbochef-blackline-side.jpg";
+import turbochefBlacklineInstalled from "@/assets/products/turbochef-blackline-installed.jpg";
+import ventraGlasspro60 from "@/assets/products/ventra-glasspro-60.jpg";
+import ventraGlasspro60Detail from "@/assets/products/ventra-glasspro-60-detail.jpg";
+import ventraGlasspro60Side from "@/assets/products/ventra-glasspro-60-side.jpg";
+import ventraGlasspro60Installed from "@/assets/products/ventra-glasspro-60-installed.jpg";
+
+// Product images - Water Heaters
+import aquaheatPro100 from "@/assets/products/aquaheat-pro-100.jpg";
+import aquaheatPro100Detail from "@/assets/products/aquaheat-pro-100-detail.jpg";
+import aquaheatPro100Side from "@/assets/products/aquaheat-pro-100-side.jpg";
+import aquaheatPro100Installed from "@/assets/products/aquaheat-pro-100-installed.jpg";
+import aquasmartDigital60 from "@/assets/products/aquasmart-digital-60.jpg";
+import aquasmartDigital60Detail from "@/assets/products/aquasmart-digital-60-detail.jpg";
+import aquasmartDigital60Side from "@/assets/products/aquasmart-digital-60-side.jpg";
+import aquasmartDigital60Installed from "@/assets/products/aquasmart-digital-60-installed.jpg";
+import electraHeatmax120 from "@/assets/products/electra-heatmax-120.jpg";
+import electraHeatmax120Detail from "@/assets/products/electra-heatmax-120-detail.jpg";
+import electraHeatmax120Side from "@/assets/products/electra-heatmax-120-side.jpg";
+import electraHeatmax120Installed from "@/assets/products/electra-heatmax-120-installed.jpg";
 
 export interface Product {
   id: string;
   name: string;
-  category: "hydro-plast" | "shimge" | "penopleks";
+  category: "hydro-plast" | "shimge" | "penopleks" | "kitchen-hoods" | "water-heaters";
   images: string[];
   description: {
     uz: string;
@@ -1055,6 +1077,287 @@ export const products: Product[] = [
         method: "ISO 14025 BS EN 15804"
       }
     ]
+  },
+  // Additional Kitchen Hoods
+  {
+    id: "aerovent-pro-120",
+    name: "AeroVent Pro 120",
+    category: "kitchen-hoods",
+    images: [aeroluxSilent90, aeroluxSilent90Detail, aeroluxSilent90Side, aeroluxSilent90Installed],
+    description: {
+      uz: "AeroVent Pro 120 - professional oshxona davlumbazi, yuqori quvvatli motor va zamonaviy dizayn bilan. 120cm kenglik, 1200 m³/soat unumdorlik.",
+      ru: "AeroVent Pro 120 - профессиональная кухонная вытяжка с мощным двигателем и современным дизайном. Ширина 120см, производительность 1200 м³/ч."
+    },
+    specs: [
+      { label: { uz: "Kenglik", ru: "Ширина" }, value: "120 cm" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "1200 m³/soat" },
+      { label: { uz: "Shovqin darajasi", ru: "Уровень шума" }, value: "45 dB" },
+      { label: { uz: "Tezlik darajalari", ru: "Скорости" }, value: "4" },
+      { label: { uz: "Yoritish", ru: "Освещение" }, value: "LED 2x5W" },
+      { label: { uz: "Filtr turi", ru: "Тип фильтра" }, value: "Metal yog' filtri" },
+      { label: { uz: "Boshqaruv", ru: "Управление" }, value: "Sensor" },
+      { label: { uz: "Energiya iste'moli", ru: "Энергопотребление" }, value: "280W" }
+    ]
+  },
+  {
+    id: "skyair-turbo-100",
+    name: "SkyAir Turbo 100",
+    category: "kitchen-hoods",
+    images: [turbochefBlackline, turbochefBlacklineDetail, turbochefBlacklineSide, turbochefBlacklineInstalled],
+    description: {
+      uz: "SkyAir Turbo 100 - kompakt va kuchli oshxona davlumbazi. Zamonaviy Turbo rejimi bilan 100cm kenglik. Qora shisha paneli bilan premium dizayn.",
+      ru: "SkyAir Turbo 100 - компактная и мощная кухонная вытяжка. Современный режим Turbo, ширина 100см. Премиум дизайн с черной стеклянной панелью."
+    },
+    specs: [
+      { label: { uz: "Kenglik", ru: "Ширина" }, value: "100 cm" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "1000 m³/soat" },
+      { label: { uz: "Maksimal unumdorlik (Turbo)", ru: "Макс. производительность (Turbo)" }, value: "1300 m³/soat" },
+      { label: { uz: "Shovqin darajasi", ru: "Уровень шума" }, value: "42 dB" },
+      { label: { uz: "Tezlik darajalari", ru: "Скорости" }, value: "3 + Turbo" },
+      { label: { uz: "Yoritish", ru: "Освещение" }, value: "LED 2x3W" },
+      { label: { uz: "Material", ru: "Материал" }, value: "Qora shisha + metall" },
+      { label: { uz: "Energiya sinfi", ru: "Энергокласс" }, value: "A++" }
+    ]
+  },
+  {
+    id: "crystalflow-elite-90",
+    name: "CrystalFlow Elite 90",
+    category: "kitchen-hoods",
+    images: [ventraGlasspro60, ventraGlasspro60Detail, ventraGlasspro60Side, ventraGlasspro60Installed],
+    description: {
+      uz: "CrystalFlow Elite 90 - premium shisha davlumbaz, 90cm kenglik. Sensorli boshqaruv va auto-tozalash funksiyasi bilan.",
+      ru: "CrystalFlow Elite 90 - премиальная стеклянная вытяжка, ширина 90см. С сенсорным управлением и функцией автоочистки."
+    },
+    specs: [
+      { label: { uz: "Kenglik", ru: "Ширина" }, value: "90 cm" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "950 m³/soat" },
+      { label: { uz: "Shovqin darajasi", ru: "Уровень шума" }, value: "38 dB" },
+      { label: { uz: "Tezlik darajalari", ru: "Скорости" }, value: "4" },
+      { label: { uz: "Maxsus funksiya", ru: "Спец. функция" }, value: "Auto-tozalash" },
+      { label: { uz: "Yoritish", ru: "Освещение" }, value: "LED RGB 2x4W" },
+      { label: { uz: "Material", ru: "Материал" }, value: "Qalinlashtirilgan shisha" },
+      { label: { uz: "Rang", ru: "Цвет" }, value: "Oq / Qora" }
+    ]
+  },
+  // Additional Water Heaters
+  {
+    id: "thermomax-ultra-150",
+    name: "ThermoMax Ultra 150",
+    category: "water-heaters",
+    images: [aquaheatPro100, aquaheatPro100Detail, aquaheatPro100Side, aquaheatPro100Installed],
+    description: {
+      uz: "ThermoMax Ultra 150 - katta oilalar uchun 150 litrlik elektr suv isitgich. Tez isitish va energiya tejash texnologiyasi.",
+      ru: "ThermoMax Ultra 150 - электрический водонагреватель на 150 литров для больших семей. Технология быстрого нагрева и энергосбережения."
+    },
+    specs: [
+      { label: { uz: "Hajmi", ru: "Объем" }, value: "150 litr" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "3000W" },
+      { label: { uz: "Isitish vaqti", ru: "Время нагрева" }, value: "120 daqiqa" },
+      { label: { uz: "Maksimal harorat", ru: "Макс. температура" }, value: "75°C" },
+      { label: { uz: "Tank materiali", ru: "Материал бака" }, value: "Zanglamaydigan po'lat" },
+      { label: { uz: "Izolyatsiya", ru: "Изоляция" }, value: "Polyuretan 42mm" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "5 yil tank" },
+      { label: { uz: "Energiya sinfi", ru: "Энергокласс" }, value: "A" }
+    ]
+  },
+  {
+    id: "aquapro-digital-80",
+    name: "AquaPro Digital 80",
+    category: "water-heaters",
+    images: [aquasmartDigital60, aquasmartDigital60Detail, aquasmartDigital60Side, aquasmartDigital60Installed],
+    description: {
+      uz: "AquaPro Digital 80 - raqamli displey va Wi-Fi bilan boshqariladigan aqlli suv isitgich. 80 litr hajm, energiya tejovchi rejim.",
+      ru: "AquaPro Digital 80 - умный водонагреватель с цифровым дисплеем и управлением по Wi-Fi. Объем 80 литров, энергосберегающий режим."
+    },
+    specs: [
+      { label: { uz: "Hajmi", ru: "Объем" }, value: "80 litr" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2400W" },
+      { label: { uz: "Isitish vaqti", ru: "Время нагрева" }, value: "95 daqiqa" },
+      { label: { uz: "Displey", ru: "Дисплей" }, value: "LED raqamli" },
+      { label: { uz: "Aqlli funksiyalar", ru: "Умные функции" }, value: "Wi-Fi, dastur" },
+      { label: { uz: "Izolyatsiya", ru: "Изоляция" }, value: "Eco-foam 45mm" },
+      { label: { uz: "Himoya", ru: "Защита" }, value: "IPX4" },
+      { label: { uz: "Energiya sinfi", ru: "Энергокласс" }, value: "A+" }
+    ]
+  },
+  {
+    id: "heatflow-titan-100",
+    name: "HeatFlow Titan 100",
+    category: "water-heaters",
+    images: [electraHeatmax120, electraHeatmax120Detail, electraHeatmax120Side, electraHeatmax120Installed],
+    description: {
+      uz: "HeatFlow Titan 100 - professional 100 litrlik suv isitgich, titан emalь qoplama bilan. Yuqori mustahkamlik va uzoq xizmat muddati.",
+      ru: "HeatFlow Titan 100 - профессиональный водонагреватель на 100 литров с титановым эмалевым покрытием. Высокая прочность и долгий срок службы."
+    },
+    specs: [
+      { label: { uz: "Hajmi", ru: "Объем" }, value: "100 litr" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2500W" },
+      { label: { uz: "Isitish vaqti", ru: "Время нагрева" }, value: "110 daqiqa" },
+      { label: { uz: "Tank qoplama", ru: "Покрытие бака" }, value: "Titan enamel" },
+      { label: { uz: "Anod", ru: "Анод" }, value: "Magniyeviy 400mm" },
+      { label: { uz: "Izolyatsiya", ru: "Изоляция" }, value: "CFC free 40mm" },
+      { label: { uz: "Maksimal bosim", ru: "Макс. давление" }, value: "8 bar" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "7 yil" }
+    ]
+  },
+  // Additional Hydro Plast Products
+  {
+    id: "ppr-pn25-gvs",
+    name: "PP-R труба PN 25 ГВС",
+    category: "hydro-plast",
+    images: [hydroPlastPpr1],
+    description: {
+      uz: "PP-R quvuri PN 25 issiq suv ta'minoti uchun. Maksimal bosim va haroratga chidamli, yuqori sifatli polipropilen.",
+      ru: "Труба PP-R PN 25 для горячего водоснабжения. Устойчива к максимальному давлению и температуре, высококачественный полипропилен."
+    },
+    specs: [
+      { label: { uz: "Diametr Ø20", ru: "Диаметр Ø20" }, value: "100m / HP2501" },
+      { label: { uz: "Diametr Ø25", ru: "Диаметр Ø25" }, value: "100m / HP2502" },
+      { label: { uz: "Diametr Ø32", ru: "Диаметр Ø32" }, value: "60m / HP2503" },
+      { label: { uz: "Diametr Ø40", ru: "Диаметр Ø40" }, value: "40m / HP2504" },
+      { label: { uz: "Diametr Ø50", ru: "Диаметр Ø50" }, value: "24m / HP2505" },
+      { label: { uz: "Bosim", ru: "Давление" }, value: "PN 25" },
+      { label: { uz: "Maksimal harorat", ru: "Макс. температура" }, value: "95°C" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "ГВС Premium" }
+    ]
+  },
+  {
+    id: "ppr-elbow-90-fitting",
+    name: "Отвод 90 градусов",
+    category: "hydro-plast",
+    images: [hydroPlastElbow90],
+    description: {
+      uz: "Polipropilen 90 graduslik burilish. Quvur tizimlarini to'g'ri burchak ostida buklash uchun. Barcha diametrlar mavjud.",
+      ru: "Отвод 90 градусов из полипропилена. Для изгиба трубопроводных систем под прямым углом. Доступны все диаметры."
+    },
+    specs: [
+      { label: { uz: "Diametr Ø20", ru: "Диаметр Ø20" }, value: "HPE9001" },
+      { label: { uz: "Diametr Ø25", ru: "Диаметр Ø25" }, value: "HPE9002" },
+      { label: { uz: "Diametr Ø32", ru: "Диаметр Ø32" }, value: "HPE9003" },
+      { label: { uz: "Diametr Ø40", ru: "Диаметр Ø40" }, value: "HPE9004" },
+      { label: { uz: "Diametr Ø50", ru: "Диаметр Ø50" }, value: "HPE9005" },
+      { label: { uz: "Diametr Ø63", ru: "Диаметр Ø63" }, value: "HPE9006" },
+      { label: { uz: "Burchak", ru: "Угол" }, value: "90°" },
+      { label: { uz: "Material", ru: "Материал" }, value: "PP-R Random Type III" }
+    ]
+  },
+  {
+    id: "ppr-coupling-combined",
+    name: "Муфта комбинированная",
+    category: "hydro-plast",
+    images: [hydroPlastCoupling],
+    description: {
+      uz: "Kombinatsiyalangan mufta - polipropilen va metall birikma. Ichki yoki tashqi rezba bilan. Aralash tizimlarda qo'llash uchun.",
+      ru: "Муфта комбинированная - соединение полипропилена и металла. С внутренней или наружной резьбой. Для применения в смешанных системах."
+    },
+    specs: [
+      { label: { uz: "Diametr Ø20", ru: "Диаметр Ø20" }, value: "1/2\" / HPM2001" },
+      { label: { uz: "Diametr Ø25", ru: "Диаметр Ø25" }, value: "3/4\" / HPM2002" },
+      { label: { uz: "Diametr Ø32", ru: "Диаметр Ø32" }, value: "1\" / HPM2003" },
+      { label: { uz: "Diametr Ø40", ru: "Диаметр Ø40" }, value: "1 1/4\" / HPM2004" },
+      { label: { uz: "Diametr Ø50", ru: "Диаметр Ø50" }, value: "1 1/2\" / HPM2005" },
+      { label: { uz: "Rezba turi", ru: "Тип резьбы" }, value: "Ichki (ВР)" },
+      { label: { uz: "Material", ru: "Материал" }, value: "PP-R + Latun" },
+      { label: { uz: "Qo'llanish", ru: "Применение" }, value: "Aralash tizimlar" }
+    ]
+  },
+  // Additional Shimge Pumps
+  {
+    id: "shimge-jet100l",
+    name: "Shimge JET100L",
+    category: "shimge",
+    images: [shimgeJet750l1],
+    description: {
+      uz: "Shimge JET100L - kuchli sirtqa o'rnatilishi nasos, 1100W quvvat. Suv ta'minoti va sug'orish uchun. 60 l/min unumdorlik.",
+      ru: "Shimge JET100L - мощный поверхностный насос, мощность 1100Вт. Для водоснабжения и полива. Производительность 60 л/мин."
+    },
+    specs: [
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1100W" },
+      { label: { uz: "Turi", ru: "Тип насоса" }, value: "Jet самовсасывающий" },
+      { label: { uz: "Napor", ru: "Напор" }, value: "50 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "60 л/мин" },
+      { label: { uz: "Maksimal chuqurlik", ru: "Макс. глубина всасывания" }, value: "9 m" },
+      { label: { uz: "Korpus", ru: "Корпус" }, value: "Cho'yan" },
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "Shimge (Китай)" },
+      { label: { uz: "Qo'llanilish", ru: "Применение" }, value: "Suv ta'minoti, sug'orish" }
+    ]
+  },
+  {
+    id: "shimge-xkj800",
+    name: "Shimge XKJ800",
+    category: "shimge",
+    images: [shimgeXps20],
+    description: {
+      uz: "Shimge XKJ800 - avtomatik gidrofor stantsiya, 800W. Integral bosim nazorati bilan. Uy va dacha uchun ideal.",
+      ru: "Shimge XKJ800 - автоматическая насосная станция, 800Вт. С интегральным контролем давления. Идеальна для дома и дачи."
+    },
+    specs: [
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "800W" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Gidrofor stantsiya" },
+      { label: { uz: "Napor", ru: "Напор" }, value: "42 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "50 л/мин" },
+      { label: { uz: "Gidroakkumulyator", ru: "Гидроаккумулятор" }, value: "24 litr" },
+      { label: { uz: "Avtomatik boshqaruv", ru: "Автоматика" }, value: "Bor, bosim sensori" },
+      { label: { uz: "Himoya", ru: "Защита" }, value: "Quruq ishdan himoya" },
+      { label: { uz: "Qo'llanilish", ru: "Применение" }, value: "Uy, dacha, uy-joy" }
+    ]
+  },
+  // Additional Penopleks Product
+  {
+    id: "penoplex-geo",
+    name: "ПЕНОПЛЭКС ГЕО",
+    category: "penopleks",
+    images: [penoplexFoundation],
+    description: {
+      uz: "ПЕНОПЛЭКС ГЕО — maxsus texnika va infratuzilma ob'ektlari uchun mo'ljallangan yuqori mustahkamlikdagi issiqlik izolyatsiya materiali. Yo'llar, temir yo'llar va aerodromlar uchun.",
+      ru: "ПЕНОПЛЭКС ГЕО — высокопрочный теплоизоляционный материал, предназначенный для объектов специальной техники и инфраструктуры. Для автодорог, железных дорог и аэродромов."
+    },
+    specs: [
+      { 
+        label: { uz: "Siqilishdagi mustahkamlik, kamida", ru: "Прочность на сжатие, не менее" }, 
+        value: "400 кПа (т/м²)",
+        method: "ГОСТ EN 826"
+      },
+      { 
+        label: { uz: "24 soat ichida suv shimishi, ko'pi bilan", ru: "Водопоглощение за 24 часа, не более" }, 
+        value: "0,4 % по объему",
+        method: "ГОСТ EN 12087"
+      },
+      { 
+        label: { uz: "Issiqlik o'tkazuvchanligi λD, ko'pi bilan", ru: "Теплопроводность λD, не более" }, 
+        value: "0,033 Вт/(м⋅K)",
+        method: "ГОСТ 7076"
+      },
+      { 
+        label: { uz: "Eni", ru: "Ширина" }, 
+        value: "585 мм",
+        method: "ГОСТ EN 822"
+      },
+      { 
+        label: { uz: "Uzunligi", ru: "Длина" }, 
+        value: "1185 мм",
+        method: "ГОСТ EN 822"
+      },
+      { 
+        label: { uz: "Qalinligi", ru: "Толщина" }, 
+        value: "50; 80; 100; 120; 150 мм",
+        method: "ГОСТ EN 823"
+      },
+      { 
+        label: { uz: "Ekspluatatsiya harorati", ru: "Температура эксплуатации" }, 
+        value: "от -70 до +75 °С",
+        method: "ТУ"
+      },
+      { 
+        label: { uz: "Qo'llanish", ru: "Применение" }, 
+        value: "Yo'llar, temir yo'llar, aerodromlar"
+      },
+      { 
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" }, 
+        value: "Г4",
+        method: "ГОСТ 30244"
+      }
+    ]
   }
 ];
 
@@ -1081,6 +1384,22 @@ export const categories = [
     description: {
       uz: "Zamonaviy issiqlik izolyatsiya materiallari. Energiya tejash va qulay muhit.",
       ru: "Современные теплоизоляционные материалы. Энергосбережение и комфорт."
+    }
+  },
+  {
+    id: "kitchen-hoods",
+    name: { uz: "Oshxona davlumbazlari", ru: "Кухонные вытяжки" },
+    description: {
+      uz: "Zamonaviy oshxona davlumbazlari. Yuqori unumdorlik va zamonaviy dizayn.",
+      ru: "Современные кухонные вытяжки. Высокая производительность и современный дизайн."
+    }
+  },
+  {
+    id: "water-heaters",
+    name: { uz: "Suv isitgichlar", ru: "Водонагреватели" },
+    description: {
+      uz: "Elektr suv isitgichlar. Ishonchli issiq suv ta'minoti.",
+      ru: "Электрические водонагреватели. Надежное горячее водоснабжение."
     }
   }
 ];
