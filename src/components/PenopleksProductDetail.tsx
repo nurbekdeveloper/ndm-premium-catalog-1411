@@ -150,11 +150,11 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                 <div className="border-t pt-4 space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">{t("Количество в упаковке", "Количество в упаковке")}</span>
-                    <span className="font-semibold">13 {t("шт", "шт")}</span>
+                    <span className="font-semibold">7 {t("шт", "шт")}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">{t("Площадь", "Площадь")}</span>
-                    <span className="font-semibold">9.21 m²</span>
+                    <span className="font-semibold">4.85 m²</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">{t("Размер", "Размер")}</span>
@@ -162,7 +162,7 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">{t("Тип кромки", "Тип кромки")}</span>
-                    <span className="font-semibold">Г-15</span>
+                    <span className="font-semibold">T-15</span>
                   </div>
                 </div>
 
