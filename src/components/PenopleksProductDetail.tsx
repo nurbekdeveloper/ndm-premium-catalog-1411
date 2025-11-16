@@ -369,6 +369,56 @@ const PenopleksProductDetail = ({
                           </div>
                         </div>
                       </>
+                    ) : product.id === "penoplex-foundation" ? (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Применение ПЕНОПЛЭКС ФУНДАМЕНТ", "Применение ПЕНОПЛЭКС ФУНДАМЕНТ")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            {t("Yuqori mustahkamlikdagi plitalar turi, xususiy uy qurilishi uchun mo'ljallangan. Yuklama ostidagi konstruksiyalarda qo'llash tavsiya etiladi: poydevorlar, pollar, tsokol, bog' yo'llari, foydalaniladigan tomlar.", "Тип плит повышенной прочности, предназначенный для частного домостроения. Рекомендуется для применения в конструкциях под нагрузкой: фундаментов, полов, цоколей, садовых дорожек, эксплуатируемых кровель.")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Характеристики ПЕНОПЛЭКС ФУНДАМЕНТ", "Характеристики ПЕНОПЛЭКС ФУНДАМЕНТ")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li>• {t("o'zgarmas past issiqlik o'tkazuvchanligi", "неизменно низкая теплопроводность")}</li>
+                            <li>• {t("amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)", "практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}</li>
+                            <li>• {t("yuqori siqilishdagi mustahkamlik", "высокая прочность на сжатие")}</li>
+                            <li>• {t("isbotlangan biologik barqarorlik", "доказанная биостойкость")}</li>
+                            <li>• {t("tasdiqlangan uzoq xizmat muddati", "подтвержденная долговечность")}</li>
+                            <li>• {t("xavfsizlik", "безопасность")}</li>
+                            <li>• {t("ekologik xavfsizlik", "экологичность")}</li>
+                          </ul>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Normalar / standartlar", "Нормы / стандарты")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            ТУ 5767-006-54349294-2014
+                          </p>
+                          <p className="text-muted-foreground text-sm mt-2">
+                            {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Tashqi ko'rinish / rang", "Внешний вид / цвет")}
+                          </h3>
+                          <p className="text-muted-foreground">
+                            {t("Sirt: silliq", "Поверхность: гладкая")}
+                          </p>
+                          <p className="text-muted-foreground">
+                            {t("Rang: to'q sariq", "Цвет: оранжевый")}
+                          </p>
+                        </div>
+                      </>
                     ) : (
                       <>
                         <div>
