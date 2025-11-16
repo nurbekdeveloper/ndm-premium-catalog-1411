@@ -219,8 +219,8 @@ export const products: Product[] = [
     category: "penopleks",
     images: [penoplexComfort],
     description: {
-      uz: "ПЕНОПЛЭКС КОМФОРТ — yuqori samarali issiqlik izolyatsiya materiali (XPS oxirgi avlod), ekstruziya usulida umumiy maqsadli polistiroldan ishlab chiqarilgan. Universal tur, xususiy uy qurilishi uchun mo'ljallangan. Balkon va lodjiyalar, devorlar, qiyshiq tomlar, yassi foydalanilmaydigan tom yopiqlar, tsokol izolyatsiyasi uchun tavsiya etiladi.",
-      ru: "ПЕНОПЛЭКС КОМФОРТ — высокоэффективный теплоизоляционный материал (XPS последнего поколения), изготавливаемый методом экструзии из полистирола общего назначения. Универсальный тип, предназначенный для частного домостроения. Рекомендуется для применения в строительных конструкциях: для теплоизоляции цоколей, стен, скатных крыш, плоских неэксплуатируемых кровель, балконов и лоджий."
+      uz: "ПЕНОПЛЭКС КОМФОРТ — yuqori samarali issiqlik izolyatsiya materiali (XPS), ekstruziya usulida ishlab chiqarilgan. Universal tur, balkon, lodjiya, devor, qiyshiq tom va tsokol izolyatsiyasi uchun.",
+      ru: "ПЕНОПЛЭКС КОМФОРТ — высокоэффективный теплоизоляционный материал (XPS), изготавливаемый методом экструзии. Универсальный тип для теплоизоляции цоколей, стен, скатных крыш, балконов и лоджий."
     },
     specs: [
       { 
