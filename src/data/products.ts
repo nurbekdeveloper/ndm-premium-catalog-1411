@@ -787,8 +787,8 @@ export const products: Product[] = [
     category: "penopleks",
     images: [penoplexFoundation],
     description: {
-      uz: "Ekstruzion penopolistirol issiqlik izolyatsiya plitalari shaxsiy uy qurilishi uchun. Yuklangan konstruksiyalarda foydalanish uchun. Poydevorlar, pollar, tekis tomlar, landshaft va xo'jalik binolarida qo'llaniladi.",
-      ru: "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения. Для использования в нагружаемых конструкциях: фундаменты, полы, плоские крыши, ландшафт, хозяйственные постройки, инженерные системы."
+      uz: "ПЕНОПЛЭКС ФУНДАМЕНТ — yuqori samarali, yuqori mustahkamlikdagi issiqlik izolyatsiya materiali (so'nggi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.",
+      ru: "ПЕНОПЛЭКС ФУНДАМЕНТ — высокоэффективный теплоизоляционный материал повышенной прочности (XPS последнего поколения), изготавливаемый из полистирола общего назначения."
     },
     specs: [
       { 
