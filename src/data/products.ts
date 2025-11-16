@@ -467,113 +467,217 @@ export const products: Product[] = [
       ru: "Гидроизоляционная мембрана на основе высококачественного эластичного ПВХ. Для кровель, фундаментов и подземных конструкций. Доступна в армированном и неармированном вариантах. Высокая прочность, стойкость к УФ-излучению и удлинение до 300%."
     },
     specs: [
+      // PLASTFOIL CLASSIC
       {
-        label: { uz: "PLASTFOIL CLASSIC - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL CLASSIC - Линейные размеры рулона, мм" },
+        label: { uz: "CLASSIC - Chiziqli o'lchamlar, mm", ru: "CLASSIC - Линейные размеры рулона, мм" },
         value: "1,2×2100×25000 / 1,5×2100×20000 / 1,8×2100×15000 / 2,0×2100×15000"
       },
       {
-        label: { uz: "PLASTFOIL CLASSIC - Armaturalash turi", ru: "PLASTFOIL CLASSIC - Тип армирования" },
+        label: { uz: "CLASSIC - Armaturalash", ru: "CLASSIC - Тип армирования" },
         value: "Синтетическая сетка"
       },
       {
-        label: { uz: "PLASTFOIL CLASSIC - Egilish, °C", ru: "PLASTFOIL CLASSIC - Гибкость на брусе радиусом 5 мм, °C" },
+        label: { uz: "CLASSIC - Egilish, °C, ko'pi bilan", ru: "CLASSIC - Гибкость на брусе радиусом 5 мм, °C, не более" },
         value: "-50 (для 1,2 мм) / -45"
       },
       {
-        label: { uz: "PLASTFOIL CLASSIC - Suv o'tkazmasligi", ru: "PLASTFOIL CLASSIC - Водонепроницаемость" },
-        value: "Соответствует"
-      },
-      {
-        label: { uz: "PLASTFOIL CLASSIC - Suv shimishi, %", ru: "PLASTFOIL CLASSIC - Водопоглощение, %" },
+        label: { uz: "CLASSIC - Suv shimishi, %", ru: "CLASSIC - Водопоглощение, %, не более" },
         value: "0,2"
       },
       {
-        label: { uz: "PLASTFOIL CLASSIC - Tortishish mustahkamligi, N/50mm", ru: "PLASTFOIL CLASSIC - Прочность при растяжении, Н/50 мм" },
-        value: "1200/1000 (вдоль/поперек)"
+        label: { uz: "CLASSIC - Zarbaga chidamlik 1,2mm", ru: "CLASSIC - Ударная прочность для 1,2 мм, мм" },
+        value: "400 (700)"
       },
       {
-        label: { uz: "PLASTFOIL CLASSIC - Yonuvchanlik guruhi", ru: "PLASTFOIL CLASSIC - Группа горючести" },
+        label: { uz: "CLASSIC - Zarbaga chidamlik 1,5mm", ru: "CLASSIC - Ударная прочность для 1,5 мм, мм" },
+        value: "700 (1000)"
+      },
+      {
+        label: { uz: "CLASSIC - Tortilishdagi mustahkamlik", ru: "CLASSIC - Прочность при растяжении, Н/50 мм" },
+        value: "1200/1000"
+      },
+      {
+        label: { uz: "CLASSIC - Cho'zilish, %", ru: "CLASSIC - Удлинение при нагрузке, %" },
+        value: "20/20"
+      },
+      {
+        label: { uz: "CLASSIC - Yirtilishga chidamlik", ru: "CLASSIC - Сопротивление раздиру, Н" },
+        value: "≥200"
+      },
+      {
+        label: { uz: "CLASSIC - Yonuvchanlik guruhi", ru: "CLASSIC - Группа горючести" },
         value: "Г2"
       },
+      // PLASTFOIL POLAR
       {
-        label: { uz: "PLASTFOIL POLAR - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL POLAR - Линейные размеры рулона, мм" },
+        label: { uz: "POLAR - Chiziqli o'lchamlar, mm", ru: "POLAR - Линейные размеры рулона, мм" },
         value: "1,2×2100×25000 / 1,5×2100×20000 / 1,8×2100×15000 / 2,0×2100×15000"
       },
       {
-        label: { uz: "PLASTFOIL POLAR - Egilish, °C", ru: "PLASTFOIL POLAR - Гибкость на брусе радиусом 5 мм, °C" },
+        label: { uz: "POLAR - Armaturalash", ru: "POLAR - Тип армирования" },
+        value: "Синтетическая сетка"
+      },
+      {
+        label: { uz: "POLAR - Egilish, °C", ru: "POLAR - Гибкость на брусе, °C" },
         value: "-55"
       },
       {
-        label: { uz: "PLASTFOIL POLAR - Tortishish mustahkamligi, N/50mm", ru: "PLASTFOIL POLAR - Прочность при растяжении, Н/50 мм" },
-        value: "1100/900 (вдоль/поперек)"
+        label: { uz: "POLAR - Tortilishdagi mustahkamlik", ru: "POLAR - Прочность при растяжении, Н/50 мм" },
+        value: "1100/900"
       },
       {
-        label: { uz: "PLASTFOIL FL - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL FL - Линейные размеры рулона, мм" },
+        label: { uz: "POLAR - Cho'zilish, %", ru: "POLAR - Удлинение, %" },
+        value: "17/19"
+      },
+      {
+        label: { uz: "POLAR - Yonuvchanlik guruhi", ru: "POLAR - Группа горючести" },
+        value: "Г2"
+      },
+      // PLASTFOIL FL
+      {
+        label: { uz: "FL - Chiziqli o'lchamlar, mm", ru: "FL - Линейные размеры рулона, мм" },
         value: "1,2×2100×25000"
       },
       {
-        label: { uz: "PLASTFOIL FL - Yonuvchanlik guruhi", ru: "PLASTFOIL FL - Группа горючести" },
-        value: "Г1"
+        label: { uz: "FL - Armaturalash", ru: "FL - Тип армирования" },
+        value: "Синтетическая сетка"
       },
       {
-        label: { uz: "PLASTFOIL ECO - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL ECO - Линейные размеры рулона, мм" },
+        label: { uz: "FL - Egilish, °C", ru: "FL - Гибкость на брусе, °C" },
+        value: "-50"
+      },
+      {
+        label: { uz: "FL - Tortilishdagi mustahkamlik", ru: "FL - Прочность при растяжении, Н/50 мм" },
+        value: "1100/900"
+      },
+      {
+        label: { uz: "FL - Yonuvchanlik guruhi", ru: "FL - Группа горючести" },
+        value: "Г1"
+      },
+      // PLASTFOIL ECO
+      {
+        label: { uz: "ECO - Chiziqli o'lchamlar, mm", ru: "ECO - Линейные размеры рулона, мм" },
         value: "1,2×2100×25000 / 1,5×2100×20000 / 1,8×2100×15000 / 2,0×2100×15000"
       },
       {
-        label: { uz: "PLASTFOIL ECO - Egilish, °C", ru: "PLASTFOIL ECO - Гибкость на брусе радиусом 5 мм, °C" },
+        label: { uz: "ECO - Egilish, °C", ru: "ECO - Гибкость на брусе, °C" },
         value: "-45"
       },
       {
-        label: { uz: "PLASTFOIL LAY - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL LAY - Линейные размеры рулона, мм" },
+        label: { uz: "ECO - Tortilishdagi mustahkamlik", ru: "ECO - Прочность при растяжении, Н/50 мм" },
+        value: "1100/900"
+      },
+      {
+        label: { uz: "ECO - Cho'zilish, %", ru: "ECO - Удлинение, %" },
+        value: "15/15"
+      },
+      // PLASTFOIL LAY
+      {
+        label: { uz: "LAY - Chiziqli o'lchamlar, mm", ru: "LAY - Линейные размеры рулона, мм" },
         value: "1,5×2100×20000"
       },
       {
-        label: { uz: "PLASTFOIL LAY - Egilish, °C", ru: "PLASTFOIL LAY - Гибкость на брусе радиусом 5 мм, °C" },
+        label: { uz: "LAY - Armaturalash", ru: "LAY - Тип армирования" },
+        value: "Синтетическая сетка"
+      },
+      {
+        label: { uz: "LAY - Egilish, °C", ru: "LAY - Гибкость на брусе, °C" },
         value: "-40"
       },
       {
-        label: { uz: "PLASTFOIL ART - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL ART - Линейные размеры рулона, мм" },
+        label: { uz: "LAY - Tortilishdagi mustahkamlik", ru: "LAY - Прочность при растяжении, Н/50 мм" },
+        value: "1100/900"
+      },
+      {
+        label: { uz: "LAY - Cho'zilish, %", ru: "LAY - Удлинение, %" },
+        value: "15/15"
+      },
+      // PLASTFOIL ART
+      {
+        label: { uz: "ART - Chiziqli o'lchamlar, mm", ru: "ART - Линейные размеры рулона, мм" },
         value: "1,5×2000×10000"
       },
       {
-        label: { uz: "PLASTFOIL ART - Armaturalash turi", ru: "PLASTFOIL ART - Тип армирования" },
+        label: { uz: "ART - Armaturalash", ru: "ART - Тип армирования" },
         value: "Без армирования"
       },
       {
-        label: { uz: "PLASTFOIL ART - Egilish, °C", ru: "PLASTFOIL ART - Гибкость на брусе радиусом 5 мм, °C" },
+        label: { uz: "ART - Egilish, °C", ru: "ART - Гибкость на брусе, °C" },
         value: "-55"
       },
       {
-        label: { uz: "PLASTFOIL ART - Cho'zilish, %", ru: "PLASTFOIL ART - Удлинение при максимальной нагрузке" },
+        label: { uz: "ART - Suv shimishi, %", ru: "ART - Водопоглощение, %" },
+        value: "0,1"
+      },
+      {
+        label: { uz: "ART - Tortilishdagi mustahkamlik, MPa", ru: "ART - Прочность при растяжении, МПа" },
+        value: "15/15"
+      },
+      {
+        label: { uz: "ART - Cho'zilish, %", ru: "ART - Удлинение, %" },
         value: "250/250"
       },
       {
-        label: { uz: "PLASTFOIL GEO - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL GEO - Линейные размеры рулона, мм" },
+        label: { uz: "ART - Yonuvchanlik guruhi", ru: "ART - Группа горючести" },
+        value: "Г4"
+      },
+      // PLASTFOIL GEO
+      {
+        label: { uz: "GEO - Chiziqli o'lchamlar, mm", ru: "GEO - Линейные размеры рулона, мм" },
         value: "1,5×2000×20000 / 2,0×2000×20000"
       },
       {
-        label: { uz: "PLASTFOIL GEO - Armaturalash turi", ru: "PLASTFOIL GEO - Тип армирования" },
+        label: { uz: "GEO - Armaturalash", ru: "GEO - Тип армирования" },
         value: "Без армирования"
       },
       {
-        label: { uz: "PLASTFOIL GEO - Egilish, °C", ru: "PLASTFOIL GEO - Гибкость на брусе радиусом 5 мм, °C" },
+        label: { uz: "GEO - Egilish, °C", ru: "GEO - Гибкость на брусе, °C" },
         value: "-45"
       },
       {
-        label: { uz: "PLASTFOIL GEO - Cho'zilish, %", ru: "PLASTFOIL GEO - Удлинение при максимальной нагрузке" },
+        label: { uz: "GEO - Suv shimishi, %", ru: "GEO - Водопоглощение, %" },
+        value: "0,1"
+      },
+      {
+        label: { uz: "GEO - Tortilishdagi mustahkamlik, MPa", ru: "GEO - Прочность при растяжении, МПа" },
+        value: "17/17"
+      },
+      {
+        label: { uz: "GEO - Cho'zilish, %", ru: "GEO - Удлинение, %" },
         value: "300/300"
       },
+      {
+        label: { uz: "GEO - Zarbaga chidamlik 2,0mm", ru: "GEO - Ударная прочность для 2,0 мм, мм" },
+        value: "1500 (2000)"
+      },
+      {
+        label: { uz: "GEO - Yonuvchanlik guruhi", ru: "GEO - Группа горючести" },
+        value: "Г4"
+      },
+      // Umumiy xususiyatlar / Общие характеристики
       {
         label: { uz: "Umumiy - Suv o'tkazmasligi", ru: "Общие - Водонепроницаемость" },
         value: "Соответствует"
       },
       {
-        label: { uz: "Umumiy - Payvand choki mustahkamligi, N/50mm", ru: "Общие - Прочность сварного шва на разрыв, Н/50 мм" },
+        label: { uz: "Umumiy - Payvand chokining yirtilishga chidamligi", ru: "Общие - Прочность сварного шва на раздир, Н/50 мм" },
+        value: "300-350"
+      },
+      {
+        label: { uz: "Umumiy - Payvand chokining uzilishga chidamligi", ru: "Общие - Прочность сварного шва на разрыв, Н/50 мм" },
         value: "600-700"
       },
       {
-        label: { uz: "Qo'llanish sohasi", ru: "Область применения" },
-        value: "Крыши и покрытия, Фундаменты, Благоустройство, Объекты транспортной инфраструктуры, трубопроводы"
+        label: { uz: "Qo'llanish - An'anaviy tomlar", ru: "Применение - Кровли традиционные" },
+        value: "CLASSIC, POLAR, FL, ECO, LAY, ART"
+      },
+      {
+        label: { uz: "Qo'llanish - Inversiya tomlari", ru: "Применение - Кровли инверсионные" },
+        value: "ART, GEO"
+      },
+      {
+        label: { uz: "Qo'llanish - Poydevorlar, tunnellar", ru: "Применение - Фундаменты, тоннели" },
+        value: "ART, GEO"
       }
     ]
   }
