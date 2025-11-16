@@ -7,61 +7,67 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ImageLightbox from "@/components/ImageLightbox";
 import { ArrowLeft, Expand, Minus, Plus, BarChart3, Edit, Package, Box } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-
 interface PenopleksProductDetailProps {
   product: Product;
 }
-
-const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
+const PenopleksProductDetail = ({
+  product
+}: PenopleksProductDetailProps) => {
   const navigate = useNavigate();
-  const { language, t } = useLanguage();
-  const { toast } = useToast();
+  const {
+    language,
+    t
+  } = useLanguage();
+  const {
+    toast
+  } = useToast();
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [selectedThickness, setSelectedThickness] = useState<number>(50);
-
   const thicknessOptions = [30, 50, 100];
 
   // Packaging data for each thickness
-  const packagingData: Record<number, { quantity: number; area: number; edgeType: string }> = {
-    30: { quantity: 13, area: 9.01, edgeType: "T-15" },
-    50: { quantity: 7, area: 4.85, edgeType: "T-15" },
-    100: { quantity: 4, area: 2.77, edgeType: "T-15" }
+  const packagingData: Record<number, {
+    quantity: number;
+    area: number;
+    edgeType: string;
+  }> = {
+    30: {
+      quantity: 13,
+      area: 9.01,
+      edgeType: "T-15"
+    },
+    50: {
+      quantity: 7,
+      area: 4.85,
+      edgeType: "T-15"
+    },
+    100: {
+      quantity: 4,
+      area: 2.77,
+      edgeType: "T-15"
+    }
   };
-
   const handleQuantityChange = (delta: number) => {
     setQuantity(prev => Math.max(1, prev + delta));
   };
-
   const handleBuy = () => {
     toast({
       title: t("Savatga qo'shildi", "Добавлено в корзину"),
-      description: `${product.name} - ${selectedThickness}mm (${quantity} ${t("dona", "шт")})`,
+      description: `${product.name} - ${selectedThickness}mm (${quantity} ${t("dona", "шт")})`
     });
   };
-
   const productImages = product.images.map((img, index) => ({
     src: img,
     alt: `${product.name} - ${index + 1}`
   }));
-
-  return (
-    <>
-      <ImageLightbox
-        images={productImages}
-        initialIndex={selectedImageIndex}
-        isOpen={isLightboxOpen}
-        onClose={() => setIsLightboxOpen(false)}
-      />
+  return <>
+      <ImageLightbox images={productImages} initialIndex={selectedImageIndex} isOpen={isLightboxOpen} onClose={() => setIsLightboxOpen(false)} />
       
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-8">
-          <Button
-            variant="ghost"
-            onClick={() => navigate("/catalog")}
-            className="mb-6"
-          >
+          <Button variant="ghost" onClick={() => navigate("/catalog")} className="mb-6">
             <ArrowLeft className="mr-2 h-4 w-4" />
             {t("Katalogga qaytish", "Вернуться в каталог")}
           </Button>
@@ -93,15 +99,8 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
 
             {/* Center Column - Main Image */}
             <div className="lg:col-span-6">
-              <div 
-                className="relative aspect-[4/3] bg-secondary rounded-lg overflow-hidden group cursor-pointer"
-                onClick={() => setIsLightboxOpen(true)}
-              >
-                <img
-                  src={product.images[selectedImageIndex]}
-                  alt={product.name}
-                  className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
-                />
+              <div className="relative aspect-[4/3] bg-secondary rounded-lg overflow-hidden group cursor-pointer" onClick={() => setIsLightboxOpen(true)}>
+                <img src={product.images[selectedImageIndex]} alt={product.name} className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="bg-background/90 rounded-full p-3">
                     <Expand className="h-6 w-6 text-foreground" />
@@ -111,100 +110,15 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
 
               {/* Thumbnail Gallery */}
               <div className="grid grid-cols-4 gap-3 mt-4">
-                {product.images.map((img, index) => (
-                  <div
-                    key={index}
-                    className={`relative aspect-square bg-secondary rounded-lg overflow-hidden cursor-pointer transition-all duration-200 ${
-                      selectedImageIndex === index
-                        ? "ring-2 ring-primary scale-105"
-                        : "hover:scale-105 opacity-70 hover:opacity-100"
-                    }`}
-                    onClick={() => setSelectedImageIndex(index)}
-                  >
-                    <img
-                      src={img}
-                      alt={`${product.name} - ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                ))}
+                {product.images.map((img, index) => <div key={index} className={`relative aspect-square bg-secondary rounded-lg overflow-hidden cursor-pointer transition-all duration-200 ${selectedImageIndex === index ? "ring-2 ring-primary scale-105" : "hover:scale-105 opacity-70 hover:opacity-100"}`} onClick={() => setSelectedImageIndex(index)}>
+                    <img src={img} alt={`${product.name} - ${index + 1}`} className="w-full h-full object-cover" />
+                  </div>)}
               </div>
             </div>
 
             {/* Right Column - Purchase Options */}
             <div className="lg:col-span-3">
-              <div className="bg-card rounded-lg border p-6 space-y-6">
-                <div>
-                  <h3 className="font-heading font-semibold text-sm mb-4 uppercase">
-                    {t("Выберите толщину материала", "Выберите толщину материала")}
-                  </h3>
-                  <div className="flex gap-2">
-                    {thicknessOptions.map((thickness) => (
-                      <button
-                        key={thickness}
-                        onClick={() => setSelectedThickness(thickness)}
-                        className={`flex-1 py-2 px-3 rounded-md border-2 transition-all ${
-                          selectedThickness === thickness
-                            ? "border-primary bg-primary text-primary-foreground"
-                            : "border-border hover:border-primary/50"
-                        }`}
-                      >
-                        <span className="font-bold">{thickness}</span>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="border-t pt-4 space-y-2 text-sm">
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">{t("Количество в упаковке", "Количество в упаковке")}</span>
-                    <span className="font-semibold">{packagingData[selectedThickness].quantity} {t("шт", "шт")}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">{t("Площадь", "Площадь")}</span>
-                    <span className="font-semibold">{packagingData[selectedThickness].area} m²</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">{t("Размер", "Размер")}</span>
-                    <span className="font-semibold">585 x 1185 x {selectedThickness} {t("мм", "мм")}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">{t("Тип кромки", "Тип кромки")}</span>
-                    <span className="font-semibold">{packagingData[selectedThickness].edgeType}</span>
-                  </div>
-                </div>
-
-                {/* Quantity Selector */}
-                <div className="border-t pt-4">
-                  <div className="flex items-center gap-2 mb-4">
-                    <Button
-                      variant="outline"
-                      size="icon"
-                      onClick={() => handleQuantityChange(-1)}
-                      className="h-10 w-10"
-                    >
-                      <Minus className="h-4 w-4" />
-                    </Button>
-                    <span className="text-xl font-semibold w-12 text-center">{quantity}</span>
-                    <Button
-                      variant="outline"
-                      size="icon"
-                      onClick={() => handleQuantityChange(1)}
-                      className="h-10 w-10"
-                    >
-                      <Plus className="h-4 w-4" />
-                    </Button>
-                  </div>
-
-                  <Button 
-                    className="w-full bg-primary hover:bg-primary/90"
-                    size="lg"
-                    onClick={handleBuy}
-                  >
-                    {t("КУПИТЬ", "КУПИТЬ")}
-                  </Button>
-                </div>
-              </div>
+              
             </div>
           </div>
 
@@ -240,29 +154,17 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
           <div className="bg-card rounded-lg border">
             <Tabs defaultValue="description" className="w-full">
               <TabsList className="w-full justify-start rounded-none border-b bg-transparent h-auto p-0">
-                <TabsTrigger 
-                  value="description" 
-                  className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4"
-                >
+                <TabsTrigger value="description" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4">
                   <span className="text-4xl font-light text-muted-foreground mr-3">01</span>
                   {t("Описание", "Описание")}
                 </TabsTrigger>
-                <TabsTrigger 
-                  value="specs"
-                  className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4"
-                >
+                <TabsTrigger value="specs" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4">
                   {t("Технические характеристики", "Технические характеристики")}
                 </TabsTrigger>
-                <TabsTrigger 
-                  value="documentation"
-                  className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4"
-                >
+                <TabsTrigger value="documentation" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4">
                   {t("Документация", "Документация")}
                 </TabsTrigger>
-                <TabsTrigger 
-                  value="packaging"
-                  className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4"
-                >
+                <TabsTrigger value="packaging" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary data-[state=active]:bg-transparent px-6 py-4">
                   {t("Упаковка", "Упаковка")}
                 </TabsTrigger>
               </TabsList>
@@ -284,10 +186,7 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                         {t("Применение ПЕНОПЛЭКС СТЕНА", "Применение ПЕНОПЛЭКС СТЕНА")}
                       </h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        {t(
-                          "Maxsus tur plitalar, shtukaturka yoki plitka ostiga qo'llash uchun ishlab chiqilgan. Xususiy uy qurilishi uchun mo'ljallangan. Plitalar frezerlangan dag'al sirtga ega, bu shtukaturka-yopishtiruvchi tarkiblarning materialga yaxshi yopishishini yaxshilaydi va shtukaturka ishlarini tezlashtiradi.",
-                          "Специальный тип плит, разработанный для применения под штукатурную или плиточную отделку. Предназначен для частного домостроения. Плиты имеют фрезерованную шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения штукатурных работ."
-                        )}
+                        {t("Maxsus tur plitalar, shtukaturka yoki plitka ostiga qo'llash uchun ishlab chiqilgan. Xususiy uy qurilishi uchun mo'ljallangan. Plitalar frezerlangan dag'al sirtga ega, bu shtukaturka-yopishtiruvchi tarkiblarning materialga yaxshi yopishishini yaxshilaydi va shtukaturka ishlarini tezlashtiradi.", "Специальный тип плит, разработанный для применения под штукатурную или плиточную отделку. Предназначен для частного домостроения. Плиты имеют фрезерованную шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения штукатурных работ.")}
                       </p>
                     </div>
 
@@ -335,10 +234,7 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                         ТУ 5767-006-54349294-2014
                       </p>
                       <p className="text-muted-foreground text-sm">
-                        {t(
-                          "Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi",
-                          "Контроль и оценка производства проводится аккредитованными лабораториями"
-                        )}
+                        {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}
                       </p>
                     </div>
 
@@ -365,17 +261,12 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                     {t("Технические характеристики", "Технические характеристики")}
                   </h3>
                   <div className="space-y-3">
-                    {product.specs.map((spec, index) => (
-                      <div
-                        key={index}
-                        className="flex justify-between items-center py-3 border-b border-border/50 last:border-0"
-                      >
+                    {product.specs.map((spec, index) => <div key={index} className="flex justify-between items-center py-3 border-b border-border/50 last:border-0">
                         <span className="text-muted-foreground font-medium">
                           {language === "uz" ? spec.label.uz : spec.label.ru}
                         </span>
                         <span className="font-semibold">{spec.value}</span>
-                      </div>
-                    ))}
+                      </div>)}
                   </div>
                 </TabsContent>
 
@@ -384,10 +275,7 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                     {t("Документация", "Документация")}
                   </h3>
                   <p className="text-muted-foreground">
-                    {t(
-                      "Техническая документация и сертификаты доступны по запросу.",
-                      "Техническая документация и сертификаты доступны по запросу."
-                    )}
+                    {t("Техническая документация и сертификаты доступны по запросу.", "Техническая документация и сертификаты доступны по запросу.")}
                   </p>
                 </TabsContent>
 
@@ -415,8 +303,6 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
           </div>
         </div>
       </div>
-    </>
-  );
+    </>;
 };
-
 export default PenopleksProductDetail;
