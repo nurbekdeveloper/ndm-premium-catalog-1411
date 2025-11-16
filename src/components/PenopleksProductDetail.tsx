@@ -25,26 +25,10 @@ const PenopleksProductDetail = ({
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
-  const [selectedThickness, setSelectedThickness] = useState<number>(
-    product.id === "penoplex-geo" ? 40 : 
-    product.id === "penoplex-facade" ? 40 :
-    product.id === "penoplex-roof" ? 50 :
-    product.id === "penoplex-45" ? 50 :
-    product.id === "penoplex-slope" ? 50 : 50
-  );
-  
+  const [selectedThickness, setSelectedThickness] = useState<number>(product.id === "penoplex-geo" ? 40 : product.id === "penoplex-facade" ? 40 : product.id === "penoplex-roof" ? 50 : product.id === "penoplex-45" ? 50 : product.id === "penoplex-slope" ? 50 : 50);
+
   // Thickness options based on product
-  const thicknessOptions = product.id === "penoplex-geo" 
-    ? [40, 50, 60, 80, 100] 
-    : product.id === "penoplex-facade"
-    ? [30, 40, 50, 60, 80, 100, 120, 150]
-    : product.id === "penoplex-roof"
-    ? [30, 40, 50, 60, 80, 100]
-    : product.id === "penoplex-45"
-    ? [40, 50, 60, 80, 100]
-    : product.id === "penoplex-slope"
-    ? [40, 50, 60, 80, 100]
-    : [50, 100];
+  const thicknessOptions = product.id === "penoplex-geo" ? [40, 50, 60, 80, 100] : product.id === "penoplex-facade" ? [30, 40, 50, 60, 80, 100, 120, 150] : product.id === "penoplex-roof" ? [30, 40, 50, 60, 80, 100] : product.id === "penoplex-45" ? [40, 50, 60, 80, 100] : product.id === "penoplex-slope" ? [40, 50, 60, 80, 100] : [50, 100];
 
   // Packaging data for each thickness
   const packagingData: Record<number, {
@@ -115,10 +99,7 @@ const PenopleksProductDetail = ({
           {/* Header */}
           <div className="mb-8">
             <h1 className="text-3xl md:text-4xl font-heading font-bold text-primary mb-2">
-              {product.id === "plastfoil-membrane" 
-                ? t("ГИДРОИЗОЛЯЦИОННАЯ МЕМБРАНА PLASTFOIL", "ГИДРОИЗОЛЯЦИОННАЯ МЕМБРАНА PLASTFOIL")
-                : product.name
-              }
+              {product.id === "plastfoil-membrane" ? t("ГИДРОИЗОЛЯЦИОННАЯ МЕМБРАНА PLASTFOIL", "ГИДРОИЗОЛЯЦИОННАЯ МЕМБРАНА PLASTFOIL") : product.name}
             </h1>
           </div>
 
@@ -130,8 +111,7 @@ const PenopleksProductDetail = ({
                   {t("Qo'llanish sohasi", "Область применения")}
                 </h3>
                 <div className="space-y-3 text-sm text-muted-foreground">
-                  {product.id === "plastfoil-membrane" ? (
-                    <>
+                  {product.id === "plastfoil-membrane" ? <>
                       <p>{t("Tom va qoplamalar", "Крыши и покрытия")}</p>
                       <p>{t("Poydevorlar", "Фундаменты")}</p>
                       <p>{t("Obodonlashtirish", "Благоустройство")}</p>
@@ -139,18 +119,14 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Polimer membrana PLASTFOIL PGSda gidroizolyatsiya uchun keng qo'llaniladi", "Полимерная мембрана PLASTFOIL широко применяется в ПГС для гидроизоляции ограждающих конструкций, емкостных сооружений и резервуаров, а также на объектах транспортной инфраструктуры")}
                       </p>
-                    </>
-                  ) : product.id === "penoplex-extreme" ? (
-                    <>
+                    </> : product.id === "penoplex-extreme" ? <>
                       <p>{t("Poydevorlar", "Фундаменты")}</p>
                       <p>{t("Parkovka asoslari", "Основания парковок")}</p>
                       <p>{t("Yuqori yuklamadagi pollar", "Полы под высокой нагрузкой")}</p>
                       <p className="text-primary font-medium mt-4">
                         {t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan yuqori mustahkamlikdagi issiqlik izolyatsiyasi. Yuklamalar ostidagi konstruksiyalar uchun mo'ljallangan: poydevorlar, asoslar.", "Теплоизоляция высокой прочности из экструзионного пенополистирола для частного домостроения. Предназначен для конструкций, находящихся под нагрузками: фундаменты, основания.")}
                       </p>
-                    </>
-                  ) : product.id === "penoplex-geo" ? (
-                    <>
+                    </> : product.id === "penoplex-geo" ? <>
                       <p>{t("Pollar", "Полы")}</p>
                       <p>{t("Ishlatilayotgan tomlar", "Эксплуатируемые крыши")}</p>
                       <p>{t("Poydevorlar", "Фундаменты")}</p>
@@ -159,9 +135,7 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Professional sanoat va fuqarolik qurilishi segmentida foydalaniladigan universal issiqlik izolyatsiya plitalari turi. Nisbatan yuqori yuklarga duchor bo'lgan konstruksiyalar uchun tavsiya etiladi.", "Универсальный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Рекомендуется для конструкций, подверженных относительно высоким нагрузкам.")}
                       </p>
-                    </>
-                  ) : product.id === "penoplex-osnova" ? (
-                    <>
+                    </> : product.id === "penoplex-osnova" ? <>
                       <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
                       <p>{t("G'isht qoplamali devorlar", "Стены с кирпичной облицовкой")}</p>
                       <p>{t("Pollar va qavat yopmalari", "Полы и перекрытия")}</p>
@@ -171,9 +145,7 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Yuklamadagi konstruksiyalarda qo'llash oldindan bajarilgan hisob-kitoblar asosida ruxsat etiladi", "Применение в нагружаемых конструкциях допускается на основании предварительно выполненных расчетов")}
                       </p>
-                    </>
-                  ) : product.id === "penoplex-foundation" ? (
-                    <>
+                    </> : product.id === "penoplex-foundation" ? <>
                       <p>{t("Poydevorlar", "Фундаменты")}</p>
                       <p>{t("Pollar", "Полы")}</p>
                       <p>{t("Tekis tomlar", "Плоские крыши")}</p>
@@ -183,17 +155,14 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan issiqlik izolyatsiya plitalari. Yuklangan konstruksiyalarda foydalanish uchun", "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения. Для использования в нагружаемых конструкциях")}
                       </p>
-                    </>
-                  ) : (
-                    <>
+                    </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
                       <p>{t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan issiqlik izolyatsiya plitalari.", "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения.")}</p>
                       <p className="text-primary font-medium">
                         {t("Devorlar va fasadlar uchun qo'llaniladi", "Применяются для стен и фасадов")}
                       </p>
-                    </>
-                  )}
+                    </>}
                 </div>
               </div>
             </div>
@@ -230,79 +199,24 @@ const PenopleksProductDetail = ({
                     {t("Miqdor", "Количество")}
                   </label>
                   <div className="flex items-center gap-2">
-                    <Button
-                      variant="outline"
-                      size="icon"
-                      onClick={() => handleQuantityChange(-1)}
-                      className="h-10 w-10"
-                    >
+                    <Button variant="outline" size="icon" onClick={() => handleQuantityChange(-1)} className="h-10 w-10">
                       <Minus className="h-4 w-4" />
                     </Button>
                     <span className="text-xl font-semibold w-12 text-center">{quantity}</span>
-                    <Button
-                      variant="outline"
-                      size="icon"
-                      onClick={() => handleQuantityChange(1)}
-                      className="h-10 w-10"
-                    >
+                    <Button variant="outline" size="icon" onClick={() => handleQuantityChange(1)} className="h-10 w-10">
                       <Plus className="h-4 w-4" />
                     </Button>
                   </div>
                 </div>
 
                 {/* Thickness Selector for Penopleks */}
-                {product.id !== "plastfoil-membrane" && (
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium">
-                      {t("Qalinligi", "Толщина")}
-                    </label>
-                    <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
-                      {thicknessOptions.map((thickness) => (
-                        <button
-                          key={thickness}
-                          onClick={() => setSelectedThickness(thickness)}
-                          className={`py-2 px-3 rounded-md border transition-colors text-sm font-medium ${
-                            selectedThickness === thickness
-                              ? "bg-primary text-primary-foreground border-primary"
-                              : "bg-background hover:bg-muted border-border"
-                          }`}
-                        >
-                          {thickness}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                )}
+                {product.id !== "plastfoil-membrane"}
 
                 {/* Packaging Information */}
-                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness] && (
-                  <div className="bg-muted/50 rounded-lg p-4 space-y-2">
-                    <div className="grid grid-cols-2 gap-2 text-sm">
-                      <div>
-                        <span className="text-muted-foreground">{t("Qadoqdagi soni", "Количество в упаковке")}:</span>
-                        <p className="font-medium">{packagingData[selectedThickness].quantity} {t("dona", "шт")}.</p>
-                      </div>
-                      <div>
-                        <span className="text-muted-foreground">{t("Maydon", "Площадь")}:</span>
-                        <p className="font-medium">{packagingData[selectedThickness].area} м²</p>
-                      </div>
-                      <div>
-                        <span className="text-muted-foreground">{t("O'lcham", "Размер")}:</span>
-                        <p className="font-medium">585×1185×{selectedThickness} мм</p>
-                      </div>
-                      <div>
-                        <span className="text-muted-foreground">{t("Chok turi", "Тип кромки")}:</span>
-                        <p className="font-medium">{packagingData[selectedThickness].edgeType}</p>
-                      </div>
-                    </div>
-                  </div>
-                )}
+                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness]}
 
                 {/* Order Button */}
-                <OrderDialog 
-                  productName={`${product.name}${product.id !== "plastfoil-membrane" ? ` - ${selectedThickness}mm` : ""}`}
-                  className="w-full btn-premium"
-                />
+                <OrderDialog productName={`${product.name}${product.id !== "plastfoil-membrane" ? ` - ${selectedThickness}mm` : ""}`} className="w-full btn-premium" />
 
                 {/* Product Info */}
                 <div className="pt-4 border-t">
@@ -310,10 +224,7 @@ const PenopleksProductDetail = ({
                     <p className="flex justify-between">
                       <span>{t("Kategoriya", "Категория")}:</span>
                       <span className="font-medium">
-                        {product.category === "penopleks" 
-                          ? t("Izolyatsiya", "Изоляция")
-                          : t("Membrana", "Мембрана")
-                        }
+                        {product.category === "penopleks" ? t("Izolyatsiya", "Изоляция") : t("Membrana", "Мембрана")}
                       </span>
                     </p>
                     <p className="flex justify-between">
@@ -379,8 +290,7 @@ const PenopleksProductDetail = ({
                       </p>
                     </div>
                     
-                    {product.id === "plastfoil-membrane" ? (
-                      <>
+                    {product.id === "plastfoil-membrane" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("ARMATURALANGAN PVX MEMBRANALAR", "АРМИРОВАННЫЕ ПВХ МЕМБРАНЫ")}
@@ -438,9 +348,7 @@ const PenopleksProductDetail = ({
                             </div>
                           </div>
                         </div>
-                      </>
-                    ) : product.id === "penoplex-foundation" ? (
-                      <>
+                      </> : product.id === "penoplex-foundation" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение ПЕНОПЛЭКС ФУНДАМЕНТ", "Применение ПЕНОПЛЭКС ФУНДАМЕНТ")}
@@ -488,9 +396,7 @@ const PenopleksProductDetail = ({
                             {t("Rang: to'q sariq", "Цвет: оранжевый")}
                           </p>
                         </div>
-                      </>
-                    ) : product.id === "penoplex-extreme" ? (
-                      <>
+                      </> : product.id === "penoplex-extreme" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение ПЕНОПЛЭКС ЭКСТРИМ", "Применение ПЕНОПЛЭКС ЭКСТРИМ")}
@@ -540,9 +446,7 @@ const PenopleksProductDetail = ({
                             {t("Rang: to'q sariq", "Цвет: оранжевый")}
                           </p>
                         </div>
-                      </>
-                    ) : product.id === "penoplex-geo" ? (
-                      <>
+                      </> : product.id === "penoplex-geo" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение", "Применение")}
@@ -607,9 +511,7 @@ const PenopleksProductDetail = ({
                             <p>{t("Rang: to'q sariq", "Цвет: оранжевый")}</p>
                           </div>
                         </div>
-                      </>
-                    ) : product.id === "penoplex-osnova" ? (
-                      <>
+                      </> : product.id === "penoplex-osnova" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение ПЕНОПЛЭКС ОСНОВА", "Применение ПЕНОПЛЭКС ОСНОВА")}
@@ -661,9 +563,7 @@ const PenopleksProductDetail = ({
                             </li>
                           </ul>
                         </div>
-                      </>
-                    ) : product.id === "penoplex-roof" ? (
-                      <>
+                      </> : product.id === "penoplex-roof" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение ПЕНОПЛЭКС КРОВЛЯ", "Применение ПЕНОПЛЭКС КРОВЛЯ")}
@@ -715,9 +615,7 @@ const PenopleksProductDetail = ({
                             </li>
                           </ul>
                         </div>
-                      </>
-                    ) : product.id === "penoplex-45" ? (
-                      <>
+                      </> : product.id === "penoplex-45" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение ПЕНОПЛЭКС 45", "Применение ПЕНОПЛЭКС 45")}
@@ -769,9 +667,7 @@ const PenopleksProductDetail = ({
                             </li>
                           </ul>
                         </div>
-                      </>
-                    ) : product.id === "penoplex-slope" ? (
-                      <>
+                      </> : product.id === "penoplex-slope" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение ПЕНОПЛЭКС ГЕО", "Применение ПЕНОПЛЭКС ГЕО")}
@@ -823,9 +719,7 @@ const PenopleksProductDetail = ({
                             </li>
                           </ul>
                         </div>
-                      </>
-                    ) : product.id === "penoplex-floor" ? (
-                      <>
+                      </> : product.id === "penoplex-floor" ? <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение ПЕНОПЛЭКС УКЛОН", "Применение ПЕНОПЛЭКС УКЛОН")}
@@ -877,9 +771,7 @@ const PenopleksProductDetail = ({
                             </li>
                           </ul>
                         </div>
-                      </>
-                    ) : (
-                      <>
+                      </> : <>
                         <div>
                           <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                             {t("Применение ПЕНОПЛЭКС СТЕНА", "Применение ПЕНОПЛЭКС СТЕНА")}
@@ -952,8 +844,7 @@ const PenopleksProductDetail = ({
                             </li>
                           </ul>
                         </div>
-                      </>
-                    )}
+                      </>}
                   </div>
                 </TabsContent>
 
@@ -980,8 +871,7 @@ const PenopleksProductDetail = ({
                         </tr>
                       </thead>
                       <tbody>
-                        {product.specs.map((spec, index) => (
-                          <tr key={index} className="border-b border-border/50 last:border-0">
+                        {product.specs.map((spec, index) => <tr key={index} className="border-b border-border/50 last:border-0">
                             <td className="py-3 px-2 text-muted-foreground text-sm">
                               {language === "uz" ? spec.label.uz : spec.label.ru}
                             </td>
@@ -989,16 +879,12 @@ const PenopleksProductDetail = ({
                               {spec.method || "-"}
                             </td>
                             <td className="py-3 px-2 text-sm">
-                              {spec.value.includes("мм") || spec.value.includes("°С") || spec.value.includes("кПа") || spec.value.includes("Вт") || spec.value.includes("%") || spec.value.includes("кг") 
-                                ? spec.value.split(" ").slice(-1)[0].replace(/[()]/g, "")
-                                : "-"
-                              }
+                              {spec.value.includes("мм") || spec.value.includes("°С") || spec.value.includes("кПа") || spec.value.includes("Вт") || spec.value.includes("%") || spec.value.includes("кг") ? spec.value.split(" ").slice(-1)[0].replace(/[()]/g, "") : "-"}
                             </td>
                             <td className="py-3 px-2 font-semibold text-sm">
                               {spec.value}
                             </td>
-                          </tr>
-                        ))}
+                          </tr>)}
                       </tbody>
                     </table>
                   </div>
