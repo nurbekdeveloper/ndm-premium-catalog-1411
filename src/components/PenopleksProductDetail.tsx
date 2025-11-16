@@ -26,12 +26,15 @@ const PenopleksProductDetail = ({
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [selectedThickness, setSelectedThickness] = useState<number>(
-    product.id === "penoplex-geo" ? 40 : 50
+    product.id === "penoplex-geo" ? 40 : 
+    product.id === "penoplex-facade" ? 40 : 50
   );
   
   // Thickness options based on product
   const thicknessOptions = product.id === "penoplex-geo" 
     ? [40, 50, 60, 80, 100] 
+    : product.id === "penoplex-facade"
+    ? [30, 40, 50, 60, 80, 100, 120, 150]
     : [50, 100];
 
   // Packaging data for each thickness
