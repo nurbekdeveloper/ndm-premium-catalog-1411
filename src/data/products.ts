@@ -14,6 +14,7 @@ import shimgeXps20 from "@/assets/products/shimge-xps20-4-130b.jpg";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
+import penoplexWall from "@/assets/products/penoplex-wall.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -286,22 +287,76 @@ export const products: Product[] = [
       }
     ]
   },
-  // Kitchen Hoods (only 1 product)
   {
-    id: "aerolux-silent-90",
-    name: "AeroLux SilentTouch 90",
+    id: "penoplex-wall",
+    name: "ПЕНОПЛЭКС СТЕНА",
     category: "penopleks",
-    images: [aeroluxSilent90, aeroluxSilent90Detail, aeroluxSilent90Side, aeroluxSilent90Installed],
+    images: [penoplexWall],
     description: {
-      uz: "Sokin ishlash va zamonaviy dizayn. LED yoritgich bilan.",
-      ru: "Тихая работа и стильный дизайн. Со светодиодной подсветкой."
+      uz: "ПЕНОПЛЭКС СТЕНА — yuqori samarali issiqlik izolyatsiya materiali (XPS oxirgi avlod), ekstruziya usulida umumiy maqsadli polistiroldan ishlab chiqarilgan. Maxsus tur, shtukaturka yoki plitka ostiga qo'llash uchun ishlab chiqilgan. Xususiy uy qurilishi uchun mo'ljallangan. Plitalar qo'pol sirtga ega, bu shtukaturka-yopishqoq tarkiblarning materialga yaxshi yopishishini ta'minlaydi va shtukaturka ishlarini tezlashtiradi.",
+      ru: "ПЕНОПЛЭКС СТЕНА — высокоэффективный теплоизоляционный материал (XPS последнего поколения), изготавливаемый методом экструзии из полистирола общего назначения. Специальный тип плит, разработанный для применения под штукатурную или плиточную отделку. Предназначен для частного домостроения. Плиты имеют фрезерованную шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения штукатурных работ."
     },
     specs: [
-      { label: { uz: "Kenglik", ru: "Ширина" }, value: "90cm" },
-      { label: { uz: "Filtr", ru: "Фильтр" }, value: "Carbon" },
-      { label: { uz: "Shovqin", ru: "Шум" }, value: "42dB" },
-      { label: { uz: "Yoritish", ru: "Освещение" }, value: "LED" },
-      { label: { uz: "Boshqarish", ru: "Управление" }, value: "Touch" }
+      { 
+        label: { uz: "Qalinlik 30mm - qadoq", ru: "Толщина 30мм - упаковка" }, 
+        value: "13 dona, 9.01m², 585×1185×30mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Qalinlik 50mm - qadoq", ru: "Толщина 50мм - упаковка" }, 
+        value: "7 dona, 4.85m², 585×1185×50mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Qalinlik 100mm - qadoq", ru: "Толщина 100мм - упаковка" }, 
+        value: "4 dona, 2.77m², 585×1185×100mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Siqilishdagi mustahkamlik", ru: "Прочность на сжатие" }, 
+        value: "100 kPa (10 т/м²)" 
+      },
+      { 
+        label: { uz: "Issiqlik o'tkazuvchanligi λD", ru: "Теплопроводность λD" }, 
+        value: "≤0.034 Вт/(м⋅K)" 
+      },
+      { 
+        label: { uz: "Suv shimishi 24 soat", ru: "Водопоглощение за 24 часа" }, 
+        value: "≤0.6% hajm bo'yicha" 
+      },
+      { 
+        label: { uz: "Harorat oralig'i", ru: "Температура эксплуатации" }, 
+        value: "-70°C dan +75°C gacha" 
+      },
+      { 
+        label: { uz: "Yong'inga qarshilik guruhi", ru: "Группа горючести" }, 
+        value: "Г4" 
+      },
+      { 
+        label: { uz: "Qo'llanish sohalari", ru: "Область применения" }, 
+        value: "Shtukaturka fasadlar, plitka fasadlar, devorlar" 
+      },
+      { 
+        label: { uz: "Standart", ru: "Стандарт" }, 
+        value: "ТУ 5767-006-54349294-2014" 
+      },
+      { 
+        label: { uz: "Tashqi ko'rinish", ru: "Внешний вид" }, 
+        value: "Qo'pol sirt, to'q sariq rang" 
+      },
+      { 
+        label: { uz: "Biologik barqarorlik", ru: "Биостойкость" }, 
+        value: "Yuqori, tasdiqlangan" 
+      },
+      { 
+        label: { uz: "Chidamlilik", ru: "Долговечность" }, 
+        value: "50+ yil, tasdiqlangan" 
+      },
+      { 
+        label: { uz: "Ekologik xavfsizlik", ru: "Экологичность" }, 
+        value: "Xavfsiz, sertifikatlangan" 
+      },
+      { 
+        label: { uz: "Global isish potensiali", ru: "Потенциал глобального потепления" }, 
+        value: "от 2,22 кг CO₂ эквивалент" 
+      }
     ]
   }
 ];
