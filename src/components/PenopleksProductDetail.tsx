@@ -213,7 +213,25 @@ const PenopleksProductDetail = ({
                 {product.id !== "plastfoil-membrane"}
 
                 {/* Packaging Information */}
-                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness]}
+                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness] && (
+                  <div className="bg-muted/50 rounded-lg p-4 space-y-2">
+                    <h3 className="font-semibold text-sm text-muted-foreground">{t("Qadoq ma'lumotlari", "Информация об упаковке")}</h3>
+                    <div className="grid grid-cols-3 gap-4 text-sm">
+                      <div>
+                        <p className="text-muted-foreground">{t("Miqdori", "Количество")}</p>
+                        <p className="font-semibold">{packagingData[selectedThickness].quantity} {t("dona", "шт")}</p>
+                      </div>
+                      <div>
+                        <p className="text-muted-foreground">{t("Maydon", "Площадь")}</p>
+                        <p className="font-semibold">{packagingData[selectedThickness].area} м²</p>
+                      </div>
+                      <div>
+                        <p className="text-muted-foreground">{t("Qirra turi", "Тип кромки")}</p>
+                        <p className="font-semibold">{packagingData[selectedThickness].edgeType}</p>
+                      </div>
+                    </div>
+                  </div>
+                )}
 
                 {/* Order Button */}
                 <OrderDialog productName={`${product.name}${product.id !== "plastfoil-membrane" ? ` - ${selectedThickness}mm` : ""}`} className="w-full btn-premium" />
