@@ -16,6 +16,7 @@ import shimgeXps20 from "@/assets/products/shimge-xps20-4-130b.jpg";
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
 import penoplexWall from "@/assets/products/penoplex-wall.png";
 import penoplexFastfixStandard from "@/assets/products/penoplex-fastfix-standard.png";
+import plastfoilMembrane from "@/assets/products/plastfoil-membrane.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -453,6 +454,126 @@ export const products: Product[] = [
       { 
         label: { uz: "Упаковкадаги товар миқдори, дона", ru: "Количество товара в упаковке, шт." }, 
         value: "12" 
+      }
+    ]
+  },
+  {
+    id: "plastfoil-membrane",
+    name: "PLASTFOIL",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "Polimer membrana PLASTFOIL® – bu yuqori sifatli elastik polivinilxlorid (PVX) asosida ishlab chiqarilgan yangi avlod gidroizolyatsiya materiallari. ПЕНОПЛЭКС kompaniyasi tom, stilobat va yer osti konstruksiyalarini gidroizolyatsiya qilish uchun armaturalangan va armaturasiz PVX membranalar PLASTFOIL keng tanlovini taklif qiladi.\n\nPoliester to'r bilan armaturalangan PVX membranalar yuqori yirtilish mustahkamligiga va mexanik zararlarga chidamliligiga ega. Armaturalash tufayli PLASTFOIL shamol yuklamalariga yaxshi qarshilik ko'rsatadi, chiziqli o'lchamlarning maksimal barqarorligini saqlaydi, shuningdek, buzuvchi UV nurlanish ta'siriga yuqori chidamlilikka ega.\n\nARMATURALANGAN PVX MEMBRANALAR:\n• PLASTFOIL CLASSIC - mexanik mahkamlash usuli bilan tekis tomlarni gidroizolyatsiya qilish uchun\n• PLASTFOIL POLAR - kuchaytirilgan sovuqqa chidamlik, qish mavsumida sovuq hududlarda montaj qilish uchun ideal (-55°C)\n• PLASTFOIL ECO - janubiy hududlar uchun ideal, UV nurlanishiga kuchaytirilgan chidamlik va oq rang (RAL 9001)\n• PLASTFOIL FL - yong'in xavfsizligiga oshirilgan talablar bilan, yonuvchanlik guruhi G1\n• PLASTFOIL LAY - piyodalar yo'laklari uchun, teksturalangan sirt yomg'ir va qor paytida sirpanishni kamaytiradi\n\nARMATURASIZ PVX MEMBRANALAR:\n• PLASTFOIL ART - turli xil tom konstruksiyalari bilan birlashtirish uchun, 250% cho'zilish\n• PLASTFOIL GEO - binolar va inshootlarning poydevorlarini gidroizolyatsiya qilish uchun, 300% cho'zilish",
+      ru: "Полимерная мембрана PLASTFOIL® – это прочные и надежные гидроизоляционные материалы нового поколения, которые изготавливаются на основе высококачественного эластичного поливинилхлорида (ПВХ). Компания ПЕНОПЛЭКС предлагает широкий выбор армированных и неармированных ПВХ мембран PLASTFOIL для гидроизоляции кровель, стилобатов и подземных конструкций.\n\nПВХ мембраны, армированные полиэстеровой сеткой, обладают высокой прочностью на разрыв и стойкостью к механическим повреждениям. Благодаря армированию PLASTFOIL хорошо сопротивляется ветровым нагрузкам, сохраняя при этом максимальную стабильность линейных размеров, а также обладает высокой стойкостью к воздействию разрушающего УФ-излучения.\n\nНеармированные мембраны обладают максимальной гибкостью и эластичностью. Способны удлиняться на 300%, что позволяет минимизировать риски разрыва гидроизоляционного полотна, вследствие подвижек конструкции, а также сделать процесс монтажа максимально удобным.\n\nАРМИРОВАННЫЕ ПВХ МЕМБРАНЫ:\n• PLASTFOIL CLASSIC - применяется для гидроизоляции плоских кровель с механическим способом фиксации\n• PLASTFOIL POLAR - разработана для конструкций с механическим креплением, усиленная морозостойкость (гибкость на брусе -55°С)\n• PLASTFOIL ECO - идеально подходит для южных регионов, усиленная стойкость к УФ-излучению, белый цвет (RAL 9001)\n• PLASTFOIL FL - для кровель с повышенными требованиями к пожарной безопасности, группа горючести Г1\n• PLASTFOIL LAY - идеальное решение для устройства пешеходных дорожек, текстурированная поверхность\n\nНЕАРМИРОВАННЫЕ ПВХ МЕМБРАНЫ:\n• PLASTFOIL ART - для сопряжения с различными кровельными конструкциями, удлинение 250%\n• PLASTFOIL GEO - для гидроизоляции фундаментов, паркингов, эксплуатируемых кровель, удлинение 300%"
+    },
+    specs: [
+      {
+        label: { uz: "PLASTFOIL CLASSIC - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL CLASSIC - Линейные размеры рулона, мм" },
+        value: "1,2×2100×25000 / 1,5×2100×20000 / 1,8×2100×15000 / 2,0×2100×15000"
+      },
+      {
+        label: { uz: "PLASTFOIL CLASSIC - Armaturalash turi", ru: "PLASTFOIL CLASSIC - Тип армирования" },
+        value: "Синтетическая сетка"
+      },
+      {
+        label: { uz: "PLASTFOIL CLASSIC - Egilish, °C", ru: "PLASTFOIL CLASSIC - Гибкость на брусе радиусом 5 мм, °C" },
+        value: "-50 (для 1,2 мм) / -45"
+      },
+      {
+        label: { uz: "PLASTFOIL CLASSIC - Suv o'tkazmasligi", ru: "PLASTFOIL CLASSIC - Водонепроницаемость" },
+        value: "Соответствует"
+      },
+      {
+        label: { uz: "PLASTFOIL CLASSIC - Suv shimishi, %", ru: "PLASTFOIL CLASSIC - Водопоглощение, %" },
+        value: "0,2"
+      },
+      {
+        label: { uz: "PLASTFOIL CLASSIC - Tortishish mustahkamligi, N/50mm", ru: "PLASTFOIL CLASSIC - Прочность при растяжении, Н/50 мм" },
+        value: "1200/1000 (вдоль/поперек)"
+      },
+      {
+        label: { uz: "PLASTFOIL CLASSIC - Yonuvchanlik guruhi", ru: "PLASTFOIL CLASSIC - Группа горючести" },
+        value: "Г2"
+      },
+      {
+        label: { uz: "PLASTFOIL POLAR - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL POLAR - Линейные размеры рулона, мм" },
+        value: "1,2×2100×25000 / 1,5×2100×20000 / 1,8×2100×15000 / 2,0×2100×15000"
+      },
+      {
+        label: { uz: "PLASTFOIL POLAR - Egilish, °C", ru: "PLASTFOIL POLAR - Гибкость на брусе радиусом 5 мм, °C" },
+        value: "-55"
+      },
+      {
+        label: { uz: "PLASTFOIL POLAR - Tortishish mustahkamligi, N/50mm", ru: "PLASTFOIL POLAR - Прочность при растяжении, Н/50 мм" },
+        value: "1100/900 (вдоль/поперек)"
+      },
+      {
+        label: { uz: "PLASTFOIL FL - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL FL - Линейные размеры рулона, мм" },
+        value: "1,2×2100×25000"
+      },
+      {
+        label: { uz: "PLASTFOIL FL - Yonuvchanlik guruhi", ru: "PLASTFOIL FL - Группа горючести" },
+        value: "Г1"
+      },
+      {
+        label: { uz: "PLASTFOIL ECO - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL ECO - Линейные размеры рулона, мм" },
+        value: "1,2×2100×25000 / 1,5×2100×20000 / 1,8×2100×15000 / 2,0×2100×15000"
+      },
+      {
+        label: { uz: "PLASTFOIL ECO - Egilish, °C", ru: "PLASTFOIL ECO - Гибкость на брусе радиусом 5 мм, °C" },
+        value: "-45"
+      },
+      {
+        label: { uz: "PLASTFOIL LAY - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL LAY - Линейные размеры рулона, мм" },
+        value: "1,5×2100×20000"
+      },
+      {
+        label: { uz: "PLASTFOIL LAY - Egilish, °C", ru: "PLASTFOIL LAY - Гибкость на брусе радиусом 5 мм, °C" },
+        value: "-40"
+      },
+      {
+        label: { uz: "PLASTFOIL ART - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL ART - Линейные размеры рулона, мм" },
+        value: "1,5×2000×10000"
+      },
+      {
+        label: { uz: "PLASTFOIL ART - Armaturalash turi", ru: "PLASTFOIL ART - Тип армирования" },
+        value: "Без армирования"
+      },
+      {
+        label: { uz: "PLASTFOIL ART - Egilish, °C", ru: "PLASTFOIL ART - Гибкость на брусе радиусом 5 мм, °C" },
+        value: "-55"
+      },
+      {
+        label: { uz: "PLASTFOIL ART - Cho'zilish, %", ru: "PLASTFOIL ART - Удлинение при максимальной нагрузке" },
+        value: "250/250"
+      },
+      {
+        label: { uz: "PLASTFOIL GEO - Chiziqli o'lchamlar, mm", ru: "PLASTFOIL GEO - Линейные размеры рулона, мм" },
+        value: "1,5×2000×20000 / 2,0×2000×20000"
+      },
+      {
+        label: { uz: "PLASTFOIL GEO - Armaturalash turi", ru: "PLASTFOIL GEO - Тип армирования" },
+        value: "Без армирования"
+      },
+      {
+        label: { uz: "PLASTFOIL GEO - Egilish, °C", ru: "PLASTFOIL GEO - Гибкость на брусе радиусом 5 мм, °C" },
+        value: "-45"
+      },
+      {
+        label: { uz: "PLASTFOIL GEO - Cho'zilish, %", ru: "PLASTFOIL GEO - Удлинение при максимальной нагрузке" },
+        value: "300/300"
+      },
+      {
+        label: { uz: "Umumiy - Suv o'tkazmasligi", ru: "Общие - Водонепроницаемость" },
+        value: "Соответствует"
+      },
+      {
+        label: { uz: "Umumiy - Payvand choki mustahkamligi, N/50mm", ru: "Общие - Прочность сварного шва на разрыв, Н/50 мм" },
+        value: "600-700"
+      },
+      {
+        label: { uz: "Qo'llanish sohasi", ru: "Область применения" },
+        value: "Крыши и покрытия, Фундаменты, Благоустройство, Объекты транспортной инфраструктуры, трубопроводы"
       }
     ]
   }
