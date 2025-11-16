@@ -105,6 +105,17 @@ const PenopleksProductDetail = ({
                         {t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan yuqori mustahkamlikdagi issiqlik izolyatsiyasi. Yuklamalar ostidagi konstruksiyalar uchun mo'ljallangan: poydevorlar, asoslar.", "Теплоизоляция высокой прочности из экструзионного пенополистирола для частного домостроения. Предназначен для конструкций, находящихся под нагрузками: фундаменты, основания.")}
                       </p>
                     </>
+                  ) : product.id === "penoplex-geo" ? (
+                    <>
+                      <p>{t("Pollar", "Полы")}</p>
+                      <p>{t("Ishlatilayotgan tomlar", "Эксплуатируемые крыши")}</p>
+                      <p>{t("Poydevorlar", "Фундаменты")}</p>
+                      <p>{t("Tsokollar", "Цоколи")}</p>
+                      <p>{t("Qavat plitalari (termoqo'shimchalar)", "Плиты перекрытий (термовкладыши)")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Professional sanoat va fuqarolik qurilishi segmentida foydalaniladigan universal issiqlik izolyatsiya plitalari turi. Nisbatan yuqori yuklarga duchor bo'lgan konstruksiyalar uchun tavsiya etiladi.", "Универсальный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Рекомендуется для конструкций, подверженных относительно высоким нагрузкам.")}
+                      </p>
+                    </>
                   ) : product.id === "penoplex-osnova" ? (
                     <>
                       <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
@@ -490,6 +501,73 @@ const PenopleksProductDetail = ({
                           <p className="text-muted-foreground">
                             {t("Rang: to'q sariq", "Цвет: оранжевый")}
                           </p>
+                        </div>
+                      </>
+                    ) : product.id === "penoplex-geo" ? (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Применение", "Применение")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            {t("Professional sanoat va fuqarolik qurilishi segmentida foydalaniladigan universal issiqlik izolyatsiya plitalari turi. Pollar, ishlatilayotgan tomlar, poydevorlar, tsokollar, qavat plitalari (termoqo'shimchalar) issiqlik izolyatsiyasi uchun tavsiya etiladi, shu jumladan nisbatan yuqori yuklarga duchor bo'lgan konstruksiyalar uchun.", "Универсальный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Рекомендуется для теплоизоляции полов, эксплуатируемых крыш, фундаментов, цоколей, плит перекрытий (термовкладыши), в том числе конструкций, подверженных относительно высоким нагрузкам.")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Преимущества", "Преимущества")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Ekologiklik", "Экологичность")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Xavfsizlik", "Безопасность")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Isbotlangan bio-chidamlilik", "Доказанная биостойкость")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("O'zgarmas past issiqlik o'tkazuvchanligi", "Неизменно низкая теплопроводность")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan bir xil tuzilma)", "Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Yuqori siqilishdagi mustahkamlik", "Высокая прочность на сжатие")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Tasdiqlangan uzoq umr", "Подтвержденная долговечность")}
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Нормы / стандарты", "Нормы / стандарты")}
+                          </h3>
+                          <div className="space-y-2 text-muted-foreground">
+                            <p>{t("ТУ 5767-006-54349294-2014", "ТУ 5767-006-54349294-2014")}</p>
+                            <p className="text-sm">{t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}</p>
+                          </div>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Внешний вид / цвет", "Внешний вид / цвет")}
+                          </h3>
+                          <div className="space-y-1 text-muted-foreground">
+                            <p>{t("Sirt: silliq", "Поверхность: гладкая")}</p>
+                            <p>{t("Rang: to'q sariq", "Цвет: оранжевый")}</p>
+                          </div>
                         </div>
                       </>
                     ) : product.id === "penoplex-osnova" ? (
