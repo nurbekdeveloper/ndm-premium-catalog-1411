@@ -105,6 +105,18 @@ const PenopleksProductDetail = ({
                         {t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan yuqori mustahkamlikdagi issiqlik izolyatsiyasi. Yuklamalar ostidagi konstruksiyalar uchun mo'ljallangan: poydevorlar, asoslar.", "Теплоизоляция высокой прочности из экструзионного пенополистирола для частного домостроения. Предназначен для конструкций, находящихся под нагрузками: фундаменты, основания.")}
                       </p>
                     </>
+                  ) : product.id === "penoplex-osnova" ? (
+                    <>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("G'isht qoplamali devorlar", "Стены с кирпичной облицовкой")}</p>
+                      <p>{t("Pollar va qavat yopmalari", "Полы и перекрытия")}</p>
+                      <p>{t("Tsokollar", "Цоколи")}</p>
+                      <p>{t("Termoqo'shimchalar", "Термовкладыши")}</p>
+                      <p>{t("Deformatsion tikuvlar", "Деформационные швы")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Yuklamadagi konstruksiyalarda qo'llash oldindan bajarilgan hisob-kitoblar asosida ruxsat etiladi", "Применение в нагружаемых конструкциях допускается на основании предварительно выполненных расчетов")}
+                      </p>
+                    </>
                   ) : product.id === "penoplex-foundation" ? (
                     <>
                       <p>{t("Poydevorlar", "Фундаменты")}</p>
@@ -478,6 +490,18 @@ const PenopleksProductDetail = ({
                           <p className="text-muted-foreground">
                             {t("Rang: to'q sariq", "Цвет: оранжевый")}
                           </p>
+                        </div>
+                      </>
+                    ) : product.id === "penoplex-osnova" ? (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Применение ПЕНОПЛЭКС ОСНОВА", "Применение ПЕНОПЛЭКС ОСНОВА")}
+                          </h3>
+                          <div className="space-y-2 text-muted-foreground">
+                            <p>{t("Universal issiqlik izolyatsiyasi. Tomlar va qoplamalar, g'isht qoplamali devorlar, pollar va qavat yopmalari, tsokollar, termoqo'shimchalar, deformatsion tikuvlar uchun.", "Универсальная теплоизоляция. Для крыш и покрытий, стен с кирпичной облицовкой, полов и перекрытий, цоколей, термовкладышей, деформационных швов.")}</p>
+                            <p className="font-medium text-primary">{t("Yuklamadagi konstruksiyalarda qo'llash oldindan bajarilgan hisob-kitoblar asosida ruxsat etiladi", "Применение в нагружаемых конструкциях допускается на основании предварительно выполненных расчетов")}</p>
+                          </div>
                         </div>
                       </>
                     ) : (
