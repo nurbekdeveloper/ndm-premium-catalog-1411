@@ -284,18 +284,20 @@ const PenopleksProductDetail = ({
                     {t("Упаковка", "Упаковка")}
                   </h3>
                   <div className="space-y-3">
-                    <div className="flex justify-between py-2">
-                      <span className="text-muted-foreground">{t("Количество в упаковке", "Количество в упаковке")}</span>
-                      <span className="font-semibold">13 {t("шт", "шт")}</span>
-                    </div>
-                    <div className="flex justify-between py-2">
-                      <span className="text-muted-foreground">{t("Площадь упаковки", "Площадь упаковки")}</span>
-                      <span className="font-semibold">9.21 m²</span>
-                    </div>
-                    <div className="flex justify-between py-2">
-                      <span className="text-muted-foreground">{t("Размер плиты", "Размер плиты")}</span>
-                      <span className="font-semibold">585 x 1185 x {selectedThickness} {t("мм", "мм")}</span>
-                    </div>
+                    {product.specs
+                      .filter(spec => 
+                        spec.label.ru.includes("упаковк") || 
+                        spec.label.ru.includes("Упаковк") ||
+                        spec.label.ru.toLowerCase().includes("упаковк")
+                      )
+                      .map((spec, index) => (
+                        <div key={index} className="flex justify-between items-center py-3 border-b border-border/50 last:border-0">
+                          <span className="text-muted-foreground font-medium">
+                            {language === "uz" ? spec.label.uz : spec.label.ru}
+                          </span>
+                          <span className="font-semibold">{spec.value}</span>
+                        </div>
+                      ))}
                   </div>
                 </TabsContent>
               </div>
