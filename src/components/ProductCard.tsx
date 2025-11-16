@@ -12,6 +12,14 @@ interface ProductCardProps {
 const ProductCard = ({ product }: ProductCardProps) => {
   const { language, t } = useLanguage();
   const navigate = useNavigate();
+  
+  // Get description and truncate to first line or 100 characters
+  const getShortDescription = () => {
+    const fullDesc = language === "uz" ? product.description.uz : product.description.ru;
+    // Get only the first line before \n\n or first 100 chars
+    const firstLine = fullDesc.split('\n\n')[0];
+    return firstLine.length > 100 ? firstLine.slice(0, 100) + '...' : firstLine;
+  };
 
   return (
     <Card className="card-hover h-full flex flex-col group animate-fade-in-up">
@@ -28,8 +36,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
           <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-all duration-300" />
         </div>
         <CardTitle className="text-xl font-heading">{product.name}</CardTitle>
-        <CardDescription>
-          {language === "uz" ? product.description.uz : product.description.ru}
+        <CardDescription className="line-clamp-3">
+          {getShortDescription()}
         </CardDescription>
       </CardHeader>
       <CardContent className="mt-auto space-y-2">
