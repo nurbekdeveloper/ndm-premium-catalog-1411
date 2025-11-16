@@ -42,6 +42,7 @@ export interface Product {
   specs: {
     label: { uz: string; ru: string };
     value: string;
+    method?: string;
   }[];
 }
 
@@ -804,20 +805,74 @@ export const products: Product[] = [
         value: "Фундаменты, Полы, Плоские крыши, Ландшафт, Хозяйственные постройки, Инженерные системы" 
       },
       { 
-        label: { uz: "Siqilishdagi mustahkamlik", ru: "Прочность на сжатие" }, 
-        value: "150 кПа (15 т/м²)" 
+        label: { uz: "Siqilishdagi mustahkamlik (10% chiziqli deformatsiyada) / Sinish chegarasi, kam emas", ru: "Прочность на сжатие при 10% линейной деформации или предел прочности при сжатии*, не менее" }, 
+        value: "250 кПа (25 т/м²)",
+        method: "ГОСТ EN 826"
       },
       { 
-        label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, 
-        value: "≤0.032 Вт/(м⋅K)" 
+        label: { uz: "Suv shimishi 24 soat ichida, ko'pi bilan", ru: "Водопоглощение за 24 часа, не более" }, 
+        value: "0,4% hajm bo'yicha",
+        method: "ГОСТ EN 12087"
       },
       { 
-        label: { uz: "Suv shimishi", ru: "Водопоглощение" }, 
-        value: "≤0.4% hajm bo'yicha" 
+        label: { uz: "Deklaratsiyalangan issiqlik o'tkazuvchanligi λD (10±0,3)°C da, ko'pi bilan", ru: "Декларируемая теплопроводность λD при (10±0,3)°С, не более" }, 
+        value: "0,034 Вт/(м⋅K)",
+        method: "ГОСТ 7076"
       },
       { 
-        label: { uz: "Harorat oralig'i", ru: "Температура эксплуатации" }, 
-        value: "-70°C dan +75°C gacha" 
+        label: { uz: "A sharoitida foydalanishdagi issiqlik o'tkazuvchanligi, ko'pi bilan", ru: "Теплопроводность при условиях эксплуатации А, не более" }, 
+        value: "0,035 Вт/(м⋅K)",
+        method: "ГОСТ Р 59985"
+      },
+      { 
+        label: { uz: "B sharoitida foydalanishdagi issiqlik o'tkazuvchanligi, ko'pi bilan", ru: "Теплопроводность при условиях эксплуатации Б, не более" }, 
+        value: "0,036 Вт/(м⋅K)",
+        method: "ГОСТ Р 59985"
+      },
+      { 
+        label: { uz: "Eni", ru: "Ширина" }, 
+        value: "585 мм",
+        method: "ГОСТ EN 822"
+      },
+      { 
+        label: { uz: "Uzunligi", ru: "Длина" }, 
+        value: "1185 мм",
+        method: "ГОСТ EN 822"
+      },
+      { 
+        label: { uz: "Qalinligi", ru: "Толщина" }, 
+        value: "50; 100 мм",
+        method: "ГОСТ EN 823"
+      },
+      { 
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" }, 
+        value: "от -70 до +75 °С",
+        method: "ТУ"
+      },
+      { 
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" }, 
+        value: "Г4",
+        method: "ГОСТ 30244"
+      },
+      { 
+        label: { uz: "Alangalanish guruhi", ru: "Группа воспламеняемости" }, 
+        value: "В2",
+        method: "ГОСТ 30402"
+      },
+      { 
+        label: { uz: "Tutun hosil qilish qobiliyati guruhi", ru: "Группа дымообразующей способности" }, 
+        value: "Д3",
+        method: "ГОСТ 12.1.044"
+      },
+      { 
+        label: { uz: "Toksiklik guruhi", ru: "Группа токсичности" }, 
+        value: "Т2",
+        method: "ГОСТ 12.1.044"
+      },
+      { 
+        label: { uz: "Global isish potentsiali**", ru: "Потенциал глобального потепления**" }, 
+        value: "от 5,54 кг CO₂ эквивалент",
+        method: "ISO 14025 BS EN 15804"
       }
     ]
   },
