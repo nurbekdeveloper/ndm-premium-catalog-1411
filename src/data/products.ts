@@ -842,6 +842,132 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "plastfoil-vortex-parapet",
+    name: "ВОРОНКА ПАРАПЕТНАЯ PLASTFOIL VORTEX",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "Parapet voronkasi PLASTFOIL VORTEX. Parapet devorlaridan suv oqizish uchun maxsus voronka.",
+      ru: "Воронка парапетная PLASTFOIL VORTEX для отвода воды через парапетные стенки."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Парапетная" },
+      { label: { uz: "Material", ru: "Материал" }, value: "ПВХ" }
+    ]
+  },
+  {
+    id: "plastfoil-vortex-roof",
+    name: "ВОРОНКА КРОВЕЛЬНАЯ PLASTFOIL VORTEX",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "Tom voronkasi PLASTFOIL VORTEX. Korporalangan va eski tomlardan suv oqizish uchun ishlatiladi.",
+      ru: "Воронка кровельная PLASTFOIL VORTEX для отвода воды со старых и новых кровель."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Кровельная" },
+      { label: { uz: "Material", ru: "Материал" }, value: "ПВХ" }
+    ]
+  },
+  {
+    id: "plastfoil-vortex-heated",
+    name: "ВОРОНКА КРОВЕЛЬНАЯ С ОБОГРЕВОМ PLASTFOIL VORTEX",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "Isitish tizimli tom voronkasi PLASTFOIL VORTEX. Qish faslida muzlashning oldini olish uchun isitgich bilan jihozlangan.",
+      ru: "Воронка кровельная с обогревом PLASTFOIL VORTEX для предотвращения замерзания воды в стоках."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "С обогревом" },
+      { label: { uz: "Material", ru: "Материал" }, value: "ПВХ с нагревательным элементом" }
+    ]
+  },
+  {
+    id: "plastfoil-aero",
+    name: "АЭРАТОР PLASTFOIL AERO",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "PLASTFOIL AERO aeratori. Tom konstruksiyasida nam va kondensatsiyani olib tashlash uchun ventilyatsiya tizimi.",
+      ru: "Аэратор PLASTFOIL AERO для удаления влаги и конденсата из кровельной конструкции."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Кровельный аэратор" },
+      { label: { uz: "Material", ru: "Материал" }, value: "Полипропилен" }
+    ]
+  },
+  {
+    id: "terraisol-geotextile",
+    name: "ГЕОТЕКСТИЛЬ TERRAISOL",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "TERRAISOL geotekstil. Polipropilen tolasidan ishlab chiqarilgan yuqori mustahkamlikdagi to'qilmagan geotekstil mato.",
+      ru: "Геотекстиль TERRAISOL из полипропиленового волокна высокой прочности для разделения, армирования и дренажа."
+    },
+    specs: [
+      { label: { uz: "Material", ru: "Материал" }, value: "Полипропилен" },
+      { label: { uz: "Zichlik", ru: "Плотность" }, value: "100-600 г/м²" }
+    ]
+  },
+  {
+    id: "terraisol-eco",
+    name: "ГЕОТЕКСТИЛЬ TERRAISOL ЭКО",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "TERRAISOL EKO geotekstil. Ekologik toza materialdan tayyorlangan, qurilish va landshaft dizayni uchun iqtisodiy yechim.",
+      ru: "Геотекстиль TERRAISOL ЭКО. Экономичное решение для строительства и ландшафтного дизайна из экологичных материалов."
+    },
+    specs: [
+      { label: { uz: "Material", ru: "Материал" }, value: "Полипропилен" },
+      { label: { uz: "Zichlik", ru: "Плотность" }, value: "80-200 г/м²" }
+    ]
+  },
+  {
+    id: "fire-protect-fabric",
+    name: "ПРОТИВОПОЖАРНАЯ ТКАНЬ FIRE PROTECT",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "FIRE PROTECT yong'inga qarshi mato. Shisha toladan ishlab chiqarilgan, tom yong'inga qarshi to'siqlar uchun.",
+      ru: "Противопожарная ткань FIRE PROTECT из стекловолокна для устройства противопожарных барьеров на кровле."
+    },
+    specs: [
+      { label: { uz: "Material", ru: "Материал" }, value: "Стекловолокно" },
+      { label: { uz: "Yonuvchanlik", ru: "Горючесть" }, value: "НГ (негорючий)" }
+    ]
+  },
+  {
+    id: "plastfoil-canvas",
+    name: "СТЕКЛОХОЛСТ PLASTFOIL CANVAS",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "PLASTFOIL CANVAS shisha mato. Sintetic yopishtiruvchi bilan sintezlangan sintetik iplarga birlashtirilgan oyna tolalari.",
+      ru: "Стеклохолст PLASTFOIL CANVAS из стеклянных волокон, скрепленных синтетическим связующим. Применяется для армирования и защиты."
+    },
+    specs: [
+      { label: { uz: "Material", ru: "Материал" }, value: "Стекловолокно" },
+      { label: { uz: "Zichlik", ru: "Плотность" }, value: "50-200 г/м²" }
+    ]
+  },
+  {
+    id: "plastfoil-ferroplast",
+    name: "ПВХ-МЕТАЛЛ PLASTFOIL FERROPLAST",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "PLASTFOIL FERROPLAST PVX-metall. Tom qoplamalarini montaj qilish uchun maxsus plastik metall lentalar.",
+      ru: "ПВХ-металл PLASTFOIL FERROPLAST. Применяется для изготовления планок примыкания при монтаже кровельных покрытий."
+    },
+    specs: [
+      { label: { uz: "Material", ru: "Материал" }, value: "ПВХ + металл" },
+      { label: { uz: "Eni", ru: "Ширина" }, value: "Различная" }
+    ]
+  },
+  {
     id: "penoplex-foundation",
     name: "ПЕНОПЛЭКС ФУНДАМЕНТ",
     category: "penopleks",
