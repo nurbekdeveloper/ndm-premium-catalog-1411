@@ -23,6 +23,13 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
 
   const thicknessOptions = [30, 50, 100];
 
+  // Packaging data for each thickness
+  const packagingData: Record<number, { quantity: number; area: number; edgeType: string }> = {
+    30: { quantity: 13, area: 9.01, edgeType: "T-15" },
+    50: { quantity: 7, area: 4.85, edgeType: "T-15" },
+    100: { quantity: 4, area: 2.77, edgeType: "T-15" }
+  };
+
   const handleQuantityChange = (delta: number) => {
     setQuantity(prev => Math.max(1, prev + delta));
   };
@@ -150,11 +157,11 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                 <div className="border-t pt-4 space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">{t("Количество в упаковке", "Количество в упаковке")}</span>
-                    <span className="font-semibold">7 {t("шт", "шт")}</span>
+                    <span className="font-semibold">{packagingData[selectedThickness].quantity} {t("шт", "шт")}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">{t("Площадь", "Площадь")}</span>
-                    <span className="font-semibold">4.85 m²</span>
+                    <span className="font-semibold">{packagingData[selectedThickness].area} m²</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">{t("Размер", "Размер")}</span>
@@ -162,7 +169,7 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">{t("Тип кромки", "Тип кромки")}</span>
-                    <span className="font-semibold">T-15</span>
+                    <span className="font-semibold">{packagingData[selectedThickness].edgeType}</span>
                   </div>
                 </div>
 
