@@ -13,6 +13,8 @@ import hydroPlastTee from "@/assets/products/hydro-plast-tee.jpg";
 import shimgeXps20 from "@/assets/products/shimge-xps20-4-130b.jpg";
 import shimgeJet750l1 from "@/assets/products/shimge-jet750l1.png";
 import shimgeQb60l from "@/assets/products/shimge-qb60l.png";
+import shimgeCpm130 from "@/assets/products/shimge-cpm130.png";
+import shimge50wq15qg from "@/assets/products/shimge-50wq15qg.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -262,6 +264,50 @@ export const products: Product[] = [
       { label: { uz: "Ishlash rejimi", ru: "Режим работы" }, value: "Непрерывный" },
       { label: { uz: "Himoya", ru: "Защита" }, value: "Термозащита" },
       { label: { uz: "Qo'llanilish", ru: "Применение" }, value: "Чистая вода без абразива" }
+    ]
+  },
+  {
+    id: "shimge-cpm130",
+    name: "SHIMGE CPm130",
+    category: "shimge",
+    images: [shimgeCpm130],
+    description: {
+      uz: "Markazdan qochma nasos CPm130, bog' sug'orish, issiqxona suv ta'minoti va chorvachilik uchun ideal. 7 metr so'rish chuqurligi, +40°C gacha harorat.",
+      ru: "Центробежный насос CPm130, идеален для садовой ирригации, тепличного водоснабжения и животноводства. Глубина всасывания до 7 м, температура до +40°С."
+    },
+    specs: [
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.37 кВт" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Центробежный" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "6 м³/ч" },
+      { label: { uz: "Diametr", ru: "Диаметр резьбы" }, value: "25 мм" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "7 m" },
+      { label: { uz: "Harorat", ru: "Температура жидкости" }, value: "+40°C gacha" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C gacha" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное давление" }, value: "6 bar" },
+      { label: { uz: "pH", ru: "pH" }, value: "6.5 - 8.5" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy" },
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "Shimge (Китай)" },
+      { label: { uz: "Qo'llanilish", ru: "Применение" }, value: "Bog' sug'orish, issiqxona, chorvachilik" }
+    ]
+  },
+  {
+    id: "shimge-50wq15qg",
+    name: "SHIMGE 50WQ1.5QG",
+    category: "shimge",
+    images: [shimge50wq15qg],
+    description: {
+      uz: "Chuqur cho'kish nasosi 50WQ1.5QG, 1.5 kW quvvat bilan, 25 m³/soat unumdorlik, 16 m napor. Kanalizatsiya va iflos suvlar uchun.",
+      ru: "Погружной канализационный насос 50WQ1.5QG, мощностью 1.5 кВт, производительностью 25 м³/ч, напором 16 м. Для канализации и сточных вод."
+    },
+    specs: [
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1.5 кВт" },
+      { label: { uz: "Turi", ru: "Тип насоса" }, value: "Канализационный" },
+      { label: { uz: "Napor", ru: "Напор" }, value: "16 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "25 м³/ч" },
+      { label: { uz: "Cho'kish chuqurligi", ru: "Глубина погружения" }, value: "5 m" },
+      { label: { uz: "Mator g'altagi", ru: "Обмотка мотора" }, value: "Mis" },
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "Shimge (Китай)" },
+      { label: { uz: "Qo'llanilish", ru: "Применение" }, value: "Kanalizatsiya, iflos suvlar" }
     ]
   },
   // Penopleks - Insulation Materials

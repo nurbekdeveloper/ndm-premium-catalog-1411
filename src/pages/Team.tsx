@@ -8,40 +8,49 @@ const Team = () => {
 
   const team = [
     {
-      name: "Alisher Karimov",
+      name: "Mansurxon Gapurov Bositovich",
       position: { uz: "Bosh direktor", ru: "Генеральный директор" },
       bio: {
-        uz: "15 yillik tajribaga ega texnika savdo sohasida. NDM.uz kompaniyasini asos solgan.",
-        ru: "15 лет опыта в сфере торговли техникой. Основатель компании NDM.uz."
+        uz: "NDM.uz kompaniyasining asoschisi va bosh direktori. Kompaniya rivojlanishiga rahbarlik qiladi.",
+        ru: "Основатель и генеральный директор компании NDM.uz. Руководит развитием компании."
       },
-      initials: "AK"
+      initials: "MG"
     },
     {
-      name: "Dilnoza Uzbekova",
-      position: { uz: "Mahsulot menejeri", ru: "Менеджер по продукту" },
-      bio: {
-        uz: "Premium texnika bo'yicha mutaxassis. Mahsulotlar tanlovini boshqaradi.",
-        ru: "Специалист по премиум технике. Управляет подбором продукции."
-      },
-      initials: "DU"
-    },
-    {
-      name: "Rustam Tashkentov",
+      name: "Komiljon Domlajanov Karimjanovich",
       position: { uz: "Texnik direktor", ru: "Технический директор" },
       bio: {
-        uz: "Energiya samaradorligi bo'yicha sertifikatlangan mutaxassis.",
-        ru: "Сертифицированный специалист по энергоэффективности."
+        uz: "Texnik yo'nalish bo'yicha mutaxassis. Mahsulot sifatini nazorat qiladi.",
+        ru: "Специалист по техническому направлению. Контролирует качество продукции."
       },
-      initials: "RT"
+      initials: "KD"
     },
     {
-      name: "Madina Samarkandova",
-      position: { uz: "Mijozlar xizmati menejeri", ru: "Менеджер по работе с клиентами" },
+      name: "Abdulaziz Alixanov Muhammadjon o'g'li",
+      position: { uz: "Savdo menejeri", ru: "Менеджер по продажам" },
       bio: {
-        uz: "Mijozlarga eng yaxshi xizmat ko'rsatishni ta'minlaydi.",
-        ru: "Обеспечивает высочайший уровень обслуживания клиентов."
+        uz: "Savdo bo'limi menejeri. Mijozlar bilan ishlash va savdoni tashkil etish.",
+        ru: "Менеджер отдела продаж. Работа с клиентами и организация продаж."
+      },
+      initials: "AA"
+    },
+    {
+      name: "Mirsaid Sadriddinov Dilmurod o'g'li",
+      position: { uz: "Marketing menejeri", ru: "Менеджер по маркетингу" },
+      bio: {
+        uz: "Marketing strategiyalarini ishlab chiqish va amalga oshirish.",
+        ru: "Разработка и реализация маркетинговых стратегий."
       },
       initials: "MS"
+    },
+    {
+      name: "Akbarjon Jo'rayev Akmal o'g'li",
+      position: { uz: "Mijozlar xizmati menejeri", ru: "Менеджер по работе с клиентами" },
+      bio: {
+        uz: "Mijozlarga yuqori darajadagi xizmat ko'rsatish va qo'llab-quvvatlash.",
+        ru: "Высокий уровень обслуживания клиентов и поддержка."
+      },
+      initials: "AJ"
     }
   ];
 
