@@ -428,6 +428,58 @@ const PenopleksProductDetail = ({
                           </p>
                         </div>
                       </>
+                    ) : product.id === "penoplex-extreme" ? (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Применение ПЕНОПЛЭКС ЭКСТРИМ", "Применение ПЕНОПЛЭКС ЭКСТРИМ")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            {t("Plitalar markasi, xususiy uy qurilishida chuqur o'rnatiladigan va katta yuklamalar ostida bo'ladigan konstruksiyalar uchun mo'ljallangan (masalan, poydevorlar, chuqur tsokol, yopiq basseynlar asoslari). Ushbu turdagi plitalar yuqori mustahkamlikka ega va butun foydalanish muddati davomida (50 yildan ortiq) katta yuklarga dosh bera oladi.", "Марка плит, предназначенная для применения в частном домостроении для заглубленных конструкций, находящихся под большими нагрузками (например, фундаменты, заглубленные цоколи, основания бассейнов крытого типа). Плиты данного типа отличаются повышенной прочностью и способны выдерживать существенные нагрузки в течение всего срока эксплуатации (более 50 лет).")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Характеристики ПЕНОПЛЭКС ЭКСТРИМ", "Характеристики ПЕНОПЛЭКС ЭКСТРИМ")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li>• {t("o'zgarmas past issiqlik o'tkazuvchanligi", "неизменно низкая теплопроводность")}</li>
+                            <li>• {t("amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)", "практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}</li>
+                            <li>• {t("yuqori siqilishdagi mustahkamlik", "высокая прочность на сжатие")}</li>
+                            <li>• {t("isbotlangan biologik barqarorlik", "доказанная биостойкость")}</li>
+                            <li>• {t("tasdiqlangan uzoq xizmat muddati", "подтвержденная долговечность")}</li>
+                            <li>• {t("ekologik xavfsizlik", "экологичность")}</li>
+                          </ul>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Normalar / standartlar", "Нормы / стандарты")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            ТУ 5767-006-54349294-2014
+                          </p>
+                          <p className="text-muted-foreground leading-relaxed">
+                            {t("Yong'in xavfsizligi talablari to'g'risidagi texnik reglament №123-FZ", "Технический регламент о требованиях пожарной безопасности №123-ФЗ")}
+                          </p>
+                          <p className="text-muted-foreground text-sm mt-2">
+                            {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Tashqi ko'rinish / rang", "Внешний вид / цвет")}
+                          </h3>
+                          <p className="text-muted-foreground">
+                            {t("Sirt: silliq", "Поверхность: гладкая")}
+                          </p>
+                          <p className="text-muted-foreground">
+                            {t("Rang: to'q sariq", "Цвет: оранжевый")}
+                          </p>
+                        </div>
+                      </>
                     ) : (
                       <>
                         <div>
