@@ -21,6 +21,8 @@ import penoplexComfort from "@/assets/products/penoplex-comfort.png";
 import penoplexWall from "@/assets/products/penoplex-wall.png";
 import penoplexFastfixStandard from "@/assets/products/penoplex-fastfix-standard.png";
 import plastfoilMembrane from "@/assets/products/plastfoil-membrane.png";
+import penoplexFoundation from "@/assets/products/penoplex-foundation.png";
+import penoplexExtreme from "@/assets/products/penoplex-extreme.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -776,6 +778,82 @@ export const products: Product[] = [
       {
         label: { uz: "Qo'llanish - Poydevorlar, tunnellar", ru: "Применение - Фундаменты, тоннели" },
         value: "ART, GEO"
+      }
+    ]
+  },
+  {
+    id: "penoplex-foundation",
+    name: "ПЕНОПЛЭКС ФУНДАМЕНТ",
+    category: "penopleks",
+    images: [penoplexFoundation],
+    description: {
+      uz: "Ekstruzion penopolistirol issiqlik izolyatsiya plitalari shaxsiy uy qurilishi uchun. Yuklangan konstruksiyalarda foydalanish uchun. Poydevorlar, pollar, tekis tomlar, landshaft va xo'jalik binolarida qo'llaniladi.",
+      ru: "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения. Для использования в нагружаемых конструкциях: фундаменты, полы, плоские крыши, ландшафт, хозяйственные постройки, инженерные системы."
+    },
+    specs: [
+      { 
+        label: { uz: "Qalinlik 50mm - qadoq", ru: "Толщина 50мм - упаковка" }, 
+        value: "7 dona, 4.85 m², 585×1185×50 mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Qalinlik 100mm - qadoq", ru: "Толщина 100мм - упаковка" }, 
+        value: "7 dona, 585×1185×100 mm, Tip T-15" 
+      },
+      { 
+        label: { uz: "Qo'llanish sohasi", ru: "Область применения" }, 
+        value: "Фундаменты, Полы, Плоские крыши, Ландшафт, Хозяйственные постройки, Инженерные системы" 
+      },
+      { 
+        label: { uz: "Siqilishdagi mustahkamlik", ru: "Прочность на сжатие" }, 
+        value: "150 кПа (15 т/м²)" 
+      },
+      { 
+        label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, 
+        value: "≤0.032 Вт/(м⋅K)" 
+      },
+      { 
+        label: { uz: "Suv shimishi", ru: "Водопоглощение" }, 
+        value: "≤0.4% hajm bo'yicha" 
+      },
+      { 
+        label: { uz: "Harorat oralig'i", ru: "Температура эксплуатации" }, 
+        value: "-70°C dan +75°C gacha" 
+      }
+    ]
+  },
+  {
+    id: "penoplex-extreme",
+    name: "ПЕНОПЛЭКС ЭКСТРИМ",
+    category: "penopleks",
+    images: [penoplexExtreme],
+    description: {
+      uz: "Yuqori mustahkamlikdagi ekstruzion penopolistirol issiqlik izolyatsiyasi shaxsiy uy qurilishi uchun. Yuklama ostida bo'lgan konstruksiyalar uchun: poydevorlar, avtomobillar uchun asoslar, yuqori yuklama ostidagi pollar.",
+      ru: "Теплоизоляция высокой прочности из экструзионного пенополистирола для частного домостроения. Предназначен для конструкций, находящихся под нагрузками: фундаменты, основания парковок, полы под высокой нагрузкой."
+    },
+    specs: [
+      { 
+        label: { uz: "Qo'llanish sohasi", ru: "Область применения" }, 
+        value: "Фундаменты, Основания парковок, Полы под высокой нагрузкой" 
+      },
+      { 
+        label: { uz: "Siqilishdagi mustahkamlik", ru: "Прочность на сжатие" }, 
+        value: "500 кПа (50 т/м²)" 
+      },
+      { 
+        label: { uz: "Issiqlik o'tkazuvchanligi", ru: "Теплопроводность" }, 
+        value: "≤0.030 Вт/(м⋅K)" 
+      },
+      { 
+        label: { uz: "Suv shimishi", ru: "Водопоглощение" }, 
+        value: "≤0.2% hajm bo'yicha" 
+      },
+      { 
+        label: { uz: "Harorat oralig'i", ru: "Температура эксплуатации" }, 
+        value: "-70°C dan +75°C gacha" 
+      },
+      { 
+        label: { uz: "Yuqori mustahkamlik", ru: "Высокая прочность" }, 
+        value: "Парковкалар ва оғир юкламалар учун" 
       }
     ]
   }
