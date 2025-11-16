@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Product } from "@/data/products";
+import OrderDialog from "@/components/OrderDialog";
 
 interface ProductCardProps {
   product: Product;
@@ -31,13 +32,18 @@ const ProductCard = ({ product }: ProductCardProps) => {
           {language === "uz" ? product.description.uz : product.description.ru}
         </CardDescription>
       </CardHeader>
-      <CardContent className="mt-auto">
+      <CardContent className="mt-auto space-y-2">
         <Button 
           className="w-full btn-premium transform transition-all duration-300 hover:scale-105 active:scale-95"
           onClick={() => navigate(`/product/${product.id}`)}
         >
           {t("Batafsil", "Подробнее")}
         </Button>
+        <OrderDialog 
+          productName={product.name}
+          className="w-full"
+          variant="outline"
+        />
       </CardContent>
     </Card>
   );
