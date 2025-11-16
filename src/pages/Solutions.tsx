@@ -16,16 +16,24 @@ const Solutions = () => {
       },
       solutions: [
         {
-          uz: "100-120L sig'imli suv isitgichlar katta oilalar uchun",
-          ru: "Водонагреватели объемом 100-120л для больших семей"
+          uz: "100-120L sig'imli suv isitgichlar katta oilalar uchun (ELECTRA HeatMax 120, HOTSTREAM Turbo 80)",
+          ru: "Водонагреватели объемом 100-120л для больших семей (ELECTRA HeatMax 120, HOTSTREAM Turbo 80)"
         },
         {
-          uz: "Wi-Fi boshqaruv bilan aqlli suv isitgichlar",
-          ru: "Умные водонагреватели с Wi-Fi управлением"
+          uz: "Wi-Fi boshqaruv bilan aqlli suv isitgichlar (AQUASMART Digital 60)",
+          ru: "Умные водонагреватели с Wi-Fi управлением (AQUASMART Digital 60)"
         },
         {
-          uz: "Sokin ishlash bilan premium davoni tortgichlar",
-          ru: "Премиум вытяжки с тихой работой"
+          uz: "Premium davoni tortgichlar sokin ishlash bilan (ELICA AirSense 80, TURBOCHEF BlackLine)",
+          ru: "Премиум вытяжки с тихой работой (ELICA AirSense 80, TURBOCHEF BlackLine)"
+        },
+        {
+          uz: "Suv ta'minoti uchun yuzaki nasoslar (SHIMGE JET750L1, QB60L)",
+          ru: "Поверхностные насосы для водоснабжения (SHIMGE JET750L1, QB60L)"
+        },
+        {
+          uz: "Uy va tom izolyatsiyasi uchun PENOPLEX",
+          ru: "Изоляция PENOPLEX для дома и кровли"
         }
       ]
     },
@@ -38,16 +46,24 @@ const Solutions = () => {
       },
       solutions: [
         {
-          uz: "50-60L sig'imli ixcham suv isitgichlar",
-          ru: "Компактные водонагреватели объемом 50-60л"
+          uz: "50-60L sig'imli ixcham suv isitgichlar (TERMIX UltraSlim 50, AQUASMART Digital 60)",
+          ru: "Компактные водонагреватели объемом 50-60л (TERMIX UltraSlim 50, AQUASMART Digital 60)"
         },
         {
           uz: "UltraSlim dizayn - minimal joy egallaydi",
           ru: "UltraSlim дизайн - занимает минимум места"
         },
         {
-          uz: "60-80cm kenglikdagi havoni tortgichlar",
-          ru: "Вытяжки шириной 60-80см"
+          uz: "60-80cm kenglikdagi havoni tortgichlar (VENTRA GlassPro 60, DOMAIR Crystal White)",
+          ru: "Вытяжки шириной 60-80см (VENTRA GlassPro 60, DOMAIR Crystal White)"
+        },
+        {
+          uz: "Aylanma nasoslar isitish tizimi uchun (SHIMGE XPS 20-4-130B)",
+          ru: "Циркуляционные насосы для отопления (SHIMGE XPS 20-4-130B)"
+        },
+        {
+          uz: "Penopleks Comfort - ichki izolyatsiya uchun",
+          ru: "Penopleks Comfort - для внутренней изоляции"
         }
       ]
     },
@@ -60,16 +76,24 @@ const Solutions = () => {
       },
       solutions: [
         {
-          uz: "400 m³/h gacha unumdorlikdagi havoni tortgichlar",
-          ru: "Вытяжки производительностью до 400 м³/ч"
+          uz: "400 m³/h gacha unumdorlikdagi havoni tortgichlar (TURBOCHEF BlackLine)",
+          ru: "Вытяжки производительностью до 400 м³/ч (TURBOCHEF BlackLine)"
         },
         {
-          uz: "Turbo rejimli suv isitgichlar",
-          ru: "Водонагреватели с турбо режимом"
+          uz: "Turbo rejimli suv isitgichlar (HOTSTREAM Turbo 80, AQUAHEAT Pro 100)",
+          ru: "Водонагреватели с турбо режимом (HOTSTREAM Turbo 80, AQUAHEAT Pro 100)"
         },
         {
-          uz: "3 yilgacha uzaytirilgan kafolat",
-          ru: "Расширенная гарантия до 3 лет"
+          uz: "Kuchli markazdan qochma nasoslar sug'orish uchun (SHIMGE CPm130)",
+          ru: "Мощные центробежные насосы для полива (SHIMGE CPm130)"
+        },
+        {
+          uz: "Kanalizatsiya nasolari (SHIMGE 50WQ1.5QG)",
+          ru: "Канализационные насосы (SHIMGE 50WQ1.5QG)"
+        },
+        {
+          uz: "Hydro-Plast PPR quvurlar va armatura suv tizimi uchun",
+          ru: "Трубы и арматура Hydro-Plast PPR для водоснабжения"
         }
       ]
     }
