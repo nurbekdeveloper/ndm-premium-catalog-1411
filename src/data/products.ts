@@ -293,8 +293,8 @@ export const products: Product[] = [
     category: "penopleks",
     images: [penoplexWall],
     description: {
-      uz: "ПЕНОПЛЭКС СТЕНА — yuqori samarali issiqlik izolyatsiya materiali (XPS oxirgi avlod), ekstruziya usulida umumiy maqsadli polistiroldan ishlab chiqarilgan. Maxsus tur, shtukaturka yoki plitka ostiga qo'llash uchun ishlab chiqilgan. Xususiy uy qurilishi uchun mo'ljallangan. Plitalar qo'pol sirtga ega, bu shtukaturka-yopishqoq tarkiblarning materialga yaxshi yopishishini ta'minlaydi va shtukaturka ishlarini tezlashtiradi.",
-      ru: "ПЕНОПЛЭКС СТЕНА — высокоэффективный теплоизоляционный материал (XPS последнего поколения), изготавливаемый методом экструзии из полистирола общего назначения. Специальный тип плит, разработанный для применения под штукатурную или плиточную отделку. Предназначен для частного домостроения. Плиты имеют фрезерованную шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения штукатурных работ."
+      uz: "ПЕНОПЛЭКС СТЕНА — yuqori samarali issiqlik izolyatsiya materiali (XPS oxirgi avlod), ekstruziya usulida umumiy maqsadli polistiroldan ishlab chiqarilgan.",
+      ru: "ПЕНОПЛЭКС СТЕНА — высокоэффективный теплоизоляционный материал (XPS последнего поколения), изготавливаемый методом экструзии из полистирола общего назначения"
     },
     specs: [
       { 
@@ -339,7 +339,7 @@ export const products: Product[] = [
       },
       { 
         label: { uz: "Tashqi ko'rinish", ru: "Внешний вид" }, 
-        value: "Qo'pol sirt, to'q sariq rang" 
+        value: "Sirt: dag'al, Rang: to'q sariq" 
       },
       { 
         label: { uz: "Biologik barqarorlik", ru: "Биостойкость" }, 

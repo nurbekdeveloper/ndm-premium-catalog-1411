@@ -280,40 +280,79 @@ const PenopleksProductDetail = ({ product }: PenopleksProductDetailProps) => {
                     
                     <div>
                       <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
-                        {t("Применение материала", "Применение материала")}
+                        {t("Применение ПЕНОПЛЭКС СТЕНА", "Применение ПЕНОПЛЭКС СТЕНА")}
                       </h3>
                       <p className="text-muted-foreground leading-relaxed">
                         {t(
-                          "Специальный тип плит разработанный для применения под штукатурку или легкодоступную облицовку стены. Правильно-фасонные кромки частного домостроения. Плиты имеют оранжевую шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения работ.",
-                          "Специальный тип плит разработанный для применения под штукатурку или легкодоступную облицовку стены. Правильно-фасонные кромки частного домостроения. Плиты имеют оранжевую шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения работ."
+                          "Maxsus tur plitalar, shtukaturka yoki plitka ostiga qo'llash uchun ishlab chiqilgan. Xususiy uy qurilishi uchun mo'ljallangan. Plitalar frezerlangan dag'al sirtga ega, bu shtukaturka-yopishtiruvchi tarkiblarning materialga yaxshi yopishishini yaxshilaydi va shtukaturka ishlarini tezlashtiradi.",
+                          "Специальный тип плит, разработанный для применения под штукатурную или плиточную отделку. Предназначен для частного домостроения. Плиты имеют фрезерованную шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения штукатурных работ."
                         )}
                       </p>
                     </div>
 
                     <div>
                       <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
-                        {t("Характеристики теплоизоляции", "Характеристики теплоизоляции")}
+                        {t("Характеристики ПЕНОПЛЭКС СТЕНА", "Характеристики ПЕНОПЛЭКС СТЕНА")}
                       </h3>
                       <ul className="space-y-2 text-muted-foreground">
                         <li className="flex items-start">
                           <span className="text-primary mr-2">•</span>
-                          {t("невысокая теплопроводность", "невысокая теплопроводность")}
+                          {t("o'zgarmas past issiqlik o'tkazuvchanligi", "неизменно низкая теплопроводность")}
                         </li>
                         <li className="flex items-start">
                           <span className="text-primary mr-2">•</span>
-                          {t("повышенная нулевая водопоглощение (закрыто-ячеистая структура не вбирает влагу извне)", "повышенная нулевая водопоглощение (закрыто-ячеистая структура не вбирает влагу извне)")}
+                          {t("amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)", "практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}
                         </li>
                         <li className="flex items-start">
                           <span className="text-primary mr-2">•</span>
-                          {t("высокая прочность на сжатие", "высокая прочность на сжатие")}
+                          {t("yuqori siqilishdagi mustahkamlik", "высокая прочность на сжатие")}
                         </li>
                         <li className="flex items-start">
                           <span className="text-primary mr-2">•</span>
-                          {t("долговечная биостойкость", "долговечная биостойкость")}
+                          {t("isbotlangan biologik barqarorlik", "доказанная биостойкость")}
                         </li>
                         <li className="flex items-start">
                           <span className="text-primary mr-2">•</span>
-                          {t("подтвержденная долговечность", "подтвержденная долговечность")}
+                          {t("tasdiqlangan uzoq xizmat muddati", "подтвержденная долговечность")}
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-primary mr-2">•</span>
+                          {t("xavfsizlik", "безопасность")}
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-primary mr-2">•</span>
+                          {t("ekologik xavfsizlik", "экологичность")}
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                        {t("Normalar / standartlar", "Нормы / стандарты")}
+                      </h3>
+                      <p className="text-muted-foreground leading-relaxed mb-2">
+                        ТУ 5767-006-54349294-2014
+                      </p>
+                      <p className="text-muted-foreground text-sm">
+                        {t(
+                          "Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi",
+                          "Контроль и оценка производства проводится аккредитованными лабораториями"
+                        )}
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                        {t("Tashqi ko'rinish / rang", "Внешний вид / цвет")}
+                      </h3>
+                      <ul className="space-y-2 text-muted-foreground">
+                        <li className="flex items-start">
+                          <span className="text-primary mr-2">•</span>
+                          {t("Sirt: dag'al", "Поверхность: шероховатая")}
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-primary mr-2">•</span>
+                          {t("Rang: to'q sariq", "Цвет: оранжевый")}
                         </li>
                       </ul>
                     </div>
