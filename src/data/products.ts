@@ -24,7 +24,7 @@ import plastfoilMembrane from "@/assets/products/plastfoil-membrane.png";
 import penoplexFoundation from "@/assets/products/penoplex-foundation.png";
 import penoplexExtreme from "@/assets/products/penoplex-extreme.png";
 import penoplexOsnova from "@/assets/products/penoplex-osnova.png";
-import penoplexGeoWhiteBg from "@/assets/products/penoplex-geo-white-bg.jpg";
+import penoplexGeo from "@/assets/products/penoplex-geo.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1061,7 +1061,7 @@ export const products: Product[] = [
     id: "penoplex-geo",
     name: "ПЕНОПЛЭКС ГЕО С",
     category: "penopleks",
-    images: [penoplexGeoWhiteBg],
+    images: [penoplexGeo],
     description: {
       uz: "ПЕНОПЛЭКС ГЕО С — yuqori samarali issiqlik izolyatsiya materiali yuqori mustahkamlikda (oxirgi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.",
       ru: "ПЕНОПЛЭКС ГЕО С — высокоэффективный теплоизоляционный материал повышенной прочности (XPS последнего поколения), изготавливаемый из полистирола общего назначения."
