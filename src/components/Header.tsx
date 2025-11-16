@@ -24,10 +24,10 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 animate-fade-in-down">
       <nav className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link to="/" className="flex items-center space-x-3">
-          <img src={ndmLogo} alt="NDM" className="h-10 w-auto" />
+        <Link to="/" className="flex items-center space-x-3 group">
+          <img src={ndmLogo} alt="NDM" className="h-10 w-auto transition-transform duration-300 group-hover:scale-110" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -36,7 +36,7 @@ const Header = () => {
             <Link
               key={item.to}
               to={item.to}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground/80 hover:text-primary transition-all duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
             >
               {item.label}
             </Link>
@@ -48,14 +48,14 @@ const Header = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="relative"
+            className="relative group"
             onClick={() => setCartOpen(true)}
           >
-            <ShoppingCart className="h-5 w-5" />
+            <ShoppingCart className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
             {getTotalItems() > 0 && (
               <Badge
                 variant="destructive"
-                className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center p-0 text-xs"
+                className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center p-0 text-xs animate-bounce-subtle"
               >
                 {getTotalItems()}
               </Badge>

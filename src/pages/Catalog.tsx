@@ -33,10 +33,10 @@ const Catalog = () => {
       <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-heading font-bold mb-4 text-primary">
+          <h1 className="text-5xl font-heading font-bold mb-4 text-primary animate-fade-in-up">
             {t("Bizning Katalog", "Наш Каталог")}
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.1s" }}>
             {t(
               "Premium maishiy texnika to'plami. Har bir mahsulot ehtiyotkorlik bilan tanlab olingan.",
               "Коллекция премиум бытовой техники. Каждый продукт тщательно отобран."

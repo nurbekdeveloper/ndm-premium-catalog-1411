@@ -23,10 +23,10 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
 
   return (
     <Sheet open={isOpen} onOpenChange={onClose}>
-      <SheetContent className="w-full sm:max-w-lg">
+      <SheetContent className="w-full sm:max-w-lg animate-slide-in-right">
         <SheetHeader>
-          <SheetTitle className="flex items-center gap-2">
-            <ShoppingBag className="h-5 w-5" />
+          <SheetTitle className="flex items-center gap-2 animate-fade-in">
+            <ShoppingBag className="h-5 w-5 animate-bounce-subtle" />
             {t("Savat", "Корзина")} ({getTotalItems()})
           </SheetTitle>
         </SheetHeader>
@@ -48,15 +48,16 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
           <>
             <ScrollArea className="h-[calc(100vh-220px)] pr-4 mt-6">
               <div className="space-y-4">
-                {items.map((item) => (
+                {items.map((item, index) => (
                   <div
                     key={item.product.id}
-                    className="flex gap-4 p-4 bg-secondary/30 rounded-lg border"
+                    className="flex gap-4 p-4 bg-secondary/30 rounded-lg border animate-fade-in-up hover:shadow-md transition-all duration-300"
+                    style={{ animationDelay: `${0.05 * index}s` }}
                   >
                     <img
                       src={item.product.images[0]}
                       alt={item.product.name}
-                      className="w-20 h-20 object-cover rounded cursor-pointer hover:opacity-80 transition-opacity"
+                      className="w-20 h-20 object-cover rounded cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg"
                       onClick={() => handleProductClick(item.product.id)}
                     />
                     <div className="flex-1 min-w-0">
