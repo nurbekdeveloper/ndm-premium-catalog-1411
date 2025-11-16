@@ -1,9 +1,10 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import SEO from "@/components/SEO";
 import { Home, Building2, Warehouse } from "lucide-react";
 
 const Solutions = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
 
   const solutions = [
     {
@@ -75,7 +76,17 @@ const Solutions = () => {
   ];
 
   return (
-    <div className="min-h-screen py-12">
+    <>
+      <SEO
+        title={language === "uz" 
+          ? "Yechimlar - Sizning Uyingiz uchun | NDM.uz" 
+          : "Решения - Для Вашего Дома | NDM.uz"}
+        description={language === "uz"
+          ? "Xususiy uylar, ko'p qavatli uylar va professional oshxonalar uchun yechimlar. Energiya tejovchi va samarali tizimlар."
+          : "Решения для частных домов, многоквартирных домов и профессиональных кухонь. Энергосберегающие и эффективные системы."}
+        url="/solutions"
+      />
+      <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-heading font-bold mb-4 text-primary">
@@ -118,6 +129,7 @@ const Solutions = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -3,6 +3,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Zap, Award, FileText } from "lucide-react";
+import SEO from "@/components/SEO";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Home = () => {
@@ -44,7 +45,22 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO 
+        url="/"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "NDM.uz",
+          url: "https://ndm.uz",
+          potentialAction: {
+            "@type": "SearchAction",
+            target: "https://ndm.uz/catalog?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }}
+      />
+      <div className="min-h-screen">
       {/* Hero Section */}
       <section
         className="relative h-[600px] flex items-center justify-center"
@@ -136,6 +152,7 @@ const Home = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

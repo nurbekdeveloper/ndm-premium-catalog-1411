@@ -1,11 +1,12 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Card, CardContent } from "@/components/ui/card";
+import SEO from "@/components/SEO";
 import hydroPlastLogo from "@/assets/partners/hydro-plast-logo.png";
 import shimgeLogo from "@/assets/partners/shimge-logo.png";
 import penopleksLogo from "@/assets/partners/penopleks-logo.png";
 
 const Partners = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
 
   const partners = [
     { name: "Hydro Plast", logo: hydroPlastLogo, description: { uz: "Yuqori sifatli PPR quvurlar va fitinglar", ru: "Высококачественные PPR трубы и фитинги" } },
@@ -14,7 +15,17 @@ const Partners = () => {
   ];
 
   return (
-    <div className="min-h-screen py-12">
+    <>
+      <SEO
+        title={language === "uz" 
+          ? "Hamkorlar - Brendlar | NDM.uz" 
+          : "Партнёры - Бренды | NDM.uz"}
+        description={language === "uz"
+          ? "Hydro Plast, Shimge, Penopleks - ishonchli hamkorlar. Yuqori sifatli mahsulotlar O'zbekiston uchun."
+          : "Hydro Plast, Shimge, Пеноплэкс - надежные партнеры. Качественная продукция для Узбекистана."}
+        url="/partners"
+      />
+      <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-heading font-bold mb-4 text-primary">
@@ -57,6 +68,7 @@ const Partners = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

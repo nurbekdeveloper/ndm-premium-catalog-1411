@@ -4,13 +4,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import SEO from "@/components/SEO";
 import { useToast } from "@/hooks/use-toast";
 import { Mail, Phone, MapPin, Facebook, Instagram, Send } from "lucide-react";
 import { useState } from "react";
 import { z } from "zod";
 
 const Contact = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
   const { toast } = useToast();
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
@@ -71,7 +72,32 @@ const Contact = () => {
   ];
 
   return (
-    <div className="min-h-screen py-12">
+    <>
+      <SEO
+        title={language === "uz" 
+          ? "Aloqa - Bog'lanish | NDM.uz" 
+          : "Контакты - Связаться с нами | NDM.uz"}
+        description={language === "uz"
+          ? "NDM.uz bilan bog'laning. Telefon: +998 90 821 20 00. Email: ndmbusines@gmail.com. Toshkent, O'zbekiston."
+          : "Свяжитесь с NDM.uz. Телефон: +998 90 821 20 00. Email: ndmbusines@gmail.com. Ташкент, Узбекистан."}
+        url="/contact"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          mainEntity: {
+            "@type": "Organization",
+            name: "NDM.uz",
+            telephone: "+998908212000",
+            email: "ndmbusines@gmail.com",
+            address: {
+              "@type": "PostalAddress",
+              addressCountry: "UZ",
+              addressLocality: "Tashkent"
+            }
+          }
+        }}
+      />
+      <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-heading font-bold mb-4 text-primary">
@@ -200,6 +226,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,9 +1,10 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import SEO from "@/components/SEO";
 
 const Team = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
 
   const team = [
     {
@@ -45,7 +46,17 @@ const Team = () => {
   ];
 
   return (
-    <div className="min-h-screen py-12">
+    <>
+      <SEO
+        title={language === "uz" 
+          ? "Jamoa - Mutaxassislar | NDM.uz" 
+          : "Команда - Специалисты | NDM.uz"}
+        description={language === "uz"
+          ? "NDM.uz professional jamoasi. Tajribali mutaxassislar bilan tanishing."
+          : "Профессиональная команда NDM.uz. Познакомьтесь с опытными специалистами."}
+        url="/team"
+      />
+      <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-heading font-bold mb-4 text-primary">
@@ -85,6 +96,7 @@ const Team = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
