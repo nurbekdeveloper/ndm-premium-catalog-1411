@@ -27,6 +27,7 @@ import penoplexOsnova from "@/assets/products/penoplex-osnova.png";
 import penoplexGeo from "@/assets/products/penoplex-geo.png";
 import penoplexRoofPackage from "@/assets/products/penoplex-roof-package.png";
 import penoplex45Package from "@/assets/products/penoplex-45-package.png";
+import penoplexSlopePackage from "@/assets/products/penoplex-slope-package.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1145,7 +1146,7 @@ export const products: Product[] = [
     id: "penoplex-slope",
     name: "ПЕНОПЛЭКС SLOPE",
     category: "penopleks",
-    images: [penoplexComfort],
+    images: [penoplexSlopePackage],
     description: {
       uz: "ПЕНОПЛЭКС ГЕО — yuqori mustahkamlikka ega yuqori samarali issiqlik izolyatsiya materiali (so'nggi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.\n\n**Qo'llanilishi:**\nKasb-hunar sanoat va fuqarolik qurilishida qo'llaniladigan universal issiqlik izolyatsiya plitalari turi. Yuklanuvchi konstruksiyalarni issiqlik izolyatsiya qilish uchun tavsiya etiladi: poydevorlar, pollar, stilobatlar, foydalaniladigan tomlar, qoplama tizimlari va hududni obodonlashtirish.\n\n**Afzalliklari:**\n• Ekologik xavfsizlik\n• Xavfsizlik\n• Isbotlangan biologik barqarorlik\n• O'zgarmas past issiqlik o'tkazuvchanligi\n• Amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)\n• Yuqori siqilishdagi mustahkamlik\n• Tasdiqlangan uzoq xizmat muddati\n\n**Normalar / standartlar:**\nТУ 5767-006-54349294-2014\nNazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi.\n\n**Tashqi ko'rinish / rang:**\nSirt: silliq\nRang: to'q sariq",
       ru: "ПЕНОПЛЭКС ГЕО — высокоэффективный теплоизоляционный материал повышенной прочности (XPS последнего поколения), изготавливаемый из полистирола общего назначения.\n\n**Применение:**\nУниверсальный тип плит теплоизоляции, используемый в сегменте профессионального промышленного и гражданского строительства. Рекомендуется для теплоизоляции нагружаемых конструкций: фундаментов, полов, стилобатов, эксплуатируемых крыш, систем мощения и благоустройства территории.\n\n**Преимущества:**\n• Экологичность\n• Безопасность\n• Доказанная биостойкость\n• Неизменно низкая теплопроводность\n• Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)\n• Высокая прочность на сжатие\n• Подтвержденная долговечность\n\n**Нормы / стандарты:**\nТУ 5767-006-54349294-2014\nКонтроль и оценка производства проводится аккредитованными лабораториями.\n\n**Внешний вид / цвет:**\nПоверхность: гладкая\nЦвет: оранжевый"
