@@ -1058,7 +1058,7 @@ export const products: Product[] = [
   },
   {
     id: "penoplex-geo",
-    name: "ПЕНОПЛЭКС GEO",
+    name: "ПЕНОПЛЭКС ГЕО С",
     category: "penopleks",
     images: [penoplexFoundation],
     description: {
