@@ -195,78 +195,142 @@ const PenopleksProductDetail = ({
                       </p>
                     </div>
                     
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
-                        {t("Применение ПЕНОПЛЭКС СТЕНА", "Применение ПЕНОПЛЭКС СТЕНА")}
-                      </h3>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {t("Maxsus tur plitalar, shtukaturka yoki plitka ostiga qo'llash uchun ishlab chiqilgan. Xususiy uy qurilishi uchun mo'ljallangan. Plitalar frezerlangan dag'al sirtga ega, bu shtukaturka-yopishtiruvchi tarkiblarning materialga yaxshi yopishishini yaxshilaydi va shtukaturka ishlarini tezlashtiradi.", "Специальный тип плит, разработанный для применения под штукатурную или плиточную отделку. Предназначен для частного домостроения. Плиты имеют фрезерованную шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения штукатурных работ.")}
-                      </p>
-                    </div>
+                    {product.id === "plastfoil-membrane" ? (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("ARMATURALANGAN PVX MEMBRANALAR", "АРМИРОВАННЫЕ ПВХ МЕМБРАНЫ")}
+                          </h3>
+                          <div className="space-y-4">
+                            <div>
+                              <h4 className="font-semibold text-primary mb-2">PLASTFOIL CLASSIC</h4>
+                              <p className="text-muted-foreground text-sm">
+                                {t("Mexanik mahkamlash usuli bilan tekis tomlarni gidroizolyatsiya qilish uchun qo'llaniladi. Sement-qum styajka bo'yicha tom qurilishida ajoyib tanlov. Uzluksiz bo'lmagan ballastli tomlar uchun ham qo'llanilishi mumkin.", "Применяется для гидроизоляции плоских кровель с механическим способом фиксации. Отличный выбор при устройстве кровли по цементно-песчаной стяжке (сборной стяжке). Возможно применение для балластных кровель с несплошным балластом.")}
+                              </p>
+                            </div>
+                            <div>
+                              <h4 className="font-semibold text-primary mb-2">PLASTFOIL POLAR</h4>
+                              <p className="text-muted-foreground text-sm">
+                                {t("Mexanik mahkamlash bilan tom konstruksiyalarini gidroizolyatsiya qilish uchun ishlab chiqilgan. Kuchaytirilgan sovuqqa chidamlikka ega va qish mavsumida sovuq hududlarda montaj qilish uchun ideal (brusdagi egiluvchanlik -55°C).", "Разработана для гидроизоляции конструкций кровель с механическим креплением. Обладает усиленной морозостойкостью и идеально подходит для монтажа в зимний период в холодных регионах (гибкость на брусе -55°С).")}
+                              </p>
+                            </div>
+                            <div>
+                              <h4 className="font-semibold text-primary mb-2">PLASTFOIL ECO</h4>
+                              <p className="text-muted-foreground text-sm">
+                                {t("Mexanik mahkamlash usuli bilan tekis tomlarni gidroizolyatsiya qilish uchun mo'ljallangan. Janubiy hududlarda qo'llash uchun ideal, chunki UV nurlanishiga kuchaytirilgan chidamlikka va oq rang (RAL 9001) tufayli quyosh nurlarini qaytarish qobiliyatiga ega.", "Предназначена для гидроизоляции плоских кровель с механическим способом фиксации. Идеально подходит для применения в южных регионах, так как обладает усиленной стойкостью к УФ-излучению и отражательной способностью солнечных лучей за счет белого цвета (RAL 9001).")}
+                              </p>
+                            </div>
+                            <div>
+                              <h4 className="font-semibold text-primary mb-2">PLASTFOIL FL</h4>
+                              <p className="text-muted-foreground text-sm">
+                                {t("Yong'in xavfsizligiga oshirilgan talablar bilan mexanik mahkamlash usuli bilan tomlarni qurishda tavsiya etiladi. Yonuvchanlik guruhi G1.", "Рекомендована для устройства кровель с механическим способом фиксации с повышенными требованиями к пожарной безопасности. Группа горючести Г1.")}
+                              </p>
+                            </div>
+                            <div>
+                              <h4 className="font-semibold text-primary mb-2">PLASTFOIL LAY</h4>
+                              <p className="text-muted-foreground text-sm">
+                                {t("Foydalanilmaydigan tomda piyodalar yo'laklarini qurishda foydalanish uchun ideal yechim. Membrananing teksturalangan sirti yomg'ir va qor paytida tomda harakat qilishda sirpanishni kamaytiradi.", "Идеальное решение при использовании в качестве устройства пешеходных дорожек на неэксплуатируемой кровле. Текстурированная поверхность мембраны снижает скольжение при передвижении по кровле в период осадков (дождь, снег).")}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
 
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
-                        {t("Характеристики ПЕНОПЛЭКС СТЕНА", "Характеристики ПЕНОПЛЭКС СТЕНА")}
-                      </h3>
-                      <ul className="space-y-2 text-muted-foreground">
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("o'zgarmas past issiqlik o'tkazuvchanligi", "неизменно низкая теплопроводность")}
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)", "практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("yuqori siqilishdagi mustahkamlik", "высокая прочность на сжатие")}
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("isbotlangan biologik barqarorlik", "доказанная биостойкость")}
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("tasdiqlangan uzoq xizmat muddati", "подтвержденная долговечность")}
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("xavfsizlik", "безопасность")}
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("ekologik xavfsizlik", "экологичность")}
-                        </li>
-                      </ul>
-                    </div>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("ARMATURASIZ PVX MEMBRANALAR", "НЕАРМИРОВАННЫЕ ПВХ МЕМБРАНЫ")}
+                          </h3>
+                          <div className="space-y-4">
+                            <div>
+                              <h4 className="font-semibold text-primary mb-2">PLASTFOIL ART</h4>
+                              <p className="text-muted-foreground text-sm">
+                                {t("Turli xil tom konstruksiyalari (quvurlar, voronkalar, ustunlar) bilan birlashtirish hamda mustahkamlash elementlarini ishlab chiqarish uchun qo'llaniladi. Ballastli tomlar yoki sun'iy suv havzalarini qurishda ham qo'llanilishi mumkin.", "Применяется для сопряжения с различными кровельными конструкциями (трубы, воронки, мачты), а также для изготовления элементов усиления. Возможно применение для устройства балластных кровель или искусственных водоемов.")}
+                              </p>
+                            </div>
+                            <div>
+                              <h4 className="font-semibold text-primary mb-2">PLASTFOIL GEO</h4>
+                              <p className="text-muted-foreground text-sm">
+                                {t("Binolar va inshootlarning poydevorlarini, parkinglarni, foydalaniladigan tomlarni gidroizolyatsiya qilish uchun mo'ljallangan. Sariq rangli signal qatlamli ishlab chiqariladi, bu gidroizolyatsiya gilamining shikastlanishini tez aniqlash imkonini beradi. Optimal egiluvchanlik va elastiklikka ega, bu montajni qulay qiladi va konstruksiya va tuproqning mumkin bo'lgan harakatlari yoki deformatsiyalari bilan bog'liq gidroizolyatsiya qatlamining yirtilish xavfini qoplaydi.", "Предназначена для гидроизоляции фундаментов зданий и сооружений, паркингов, эксплуатируемых кровель. Производится с сигнальным слоем желтого цвета, что позволяет быстро обнаружить повреждения гидроизоляционного ковра. Обладает оптимальной гибкостью и эластичностью, что делает монтаж удобным и компенсирует риски разрывов гидроизоляционного слоя, связанные с возможными подвижками или деформациями конструкции и грунта.")}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Применение ПЕНОПЛЭКС СТЕНА", "Применение ПЕНОПЛЭКС СТЕНА")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed">
+                            {t("Maxsus tur plitalar, shtukaturka yoki plitka ostiga qo'llash uchun ishlab chiqilgan. Xususiy uy qurilishi uchun mo'ljallangan. Plitalar frezerlangan dag'al sirtga ega, bu shtukaturka-yopishtiruvchi tarkiblarning materialga yaxshi yopishishini yaxshilaydi va shtukaturka ishlarini tezlashtiradi.", "Специальный тип плит, разработанный для применения под штукатурную или плиточную отделку. Предназначен для частного домостроения. Плиты имеют фрезерованную шероховатую поверхность, что улучшает адгезию штукатурно-клеевых составов к поверхности материала и сокращает сроки выполнения штукатурных работ.")}
+                          </p>
+                        </div>
 
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
-                        {t("Normalar / standartlar", "Нормы / стандарты")}
-                      </h3>
-                      <p className="text-muted-foreground leading-relaxed mb-2">
-                        ТУ 5767-006-54349294-2014
-                      </p>
-                      <p className="text-muted-foreground text-sm">
-                        {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}
-                      </p>
-                    </div>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Характеристики ПЕНОПЛЭКС СТЕНА", "Характеристики ПЕНОПЛЭКС СТЕНА")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("o'zgarmas past issiqlik o'tkazuvchanligi", "неизменно низкая теплопроводность")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("amalda nolga teng suv shimishi (yopiq mustaqil hujayralardan iborat bir xil tuzilma)", "практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("yuqori siqilishdagi mustahkamlik", "высокая прочность на сжатие")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("isbotlangan biologik barqarorlik", "доказанная биостойкость")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("tasdiqlangan uzoq xizmat muddati", "подтвержденная долговечность")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("xavfsizlik", "безопасность")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("ekologik xavfsizlik", "экологичность")}
+                            </li>
+                          </ul>
+                        </div>
 
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
-                        {t("Tashqi ko'rinish / rang", "Внешний вид / цвет")}
-                      </h3>
-                      <ul className="space-y-2 text-muted-foreground">
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("Sirt: dag'al", "Поверхность: шероховатая")}
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
-                          {t("Rang: to'q sariq", "Цвет: оранжевый")}
-                        </li>
-                      </ul>
-                    </div>
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Normalar / standartlar", "Нормы / стандарты")}
+                          </h3>
+                          <p className="text-muted-foreground leading-relaxed mb-2">
+                            ТУ 5767-006-54349294-2014
+                          </p>
+                          <p className="text-muted-foreground text-sm">
+                            {t("Nazorat va ishlab chiqarishni baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi", "Контроль и оценка производства проводится аккредитованными лабораториями")}
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
+                            {t("Tashqi ko'rinish / rang", "Внешний вид / цвет")}
+                          </h3>
+                          <ul className="space-y-2 text-muted-foreground">
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Sirt: dag'al", "Поверхность: шероховатая")}
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary mr-2">•</span>
+                              {t("Rang: to'q sariq", "Цвет: оранжевый")}
+                            </li>
+                          </ul>
+                        </div>
+                      </>
+                    )}
                   </div>
                 </TabsContent>
 
