@@ -25,15 +25,47 @@ const PenopleksProductDetail = ({
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
-  const [selectedThickness, setSelectedThickness] = useState<number>(50);
-  const thicknessOptions = [50, 100];
+  const [selectedThickness, setSelectedThickness] = useState<number>(
+    product.id === "penoplex-geo" ? 40 : 50
+  );
+  
+  // Thickness options based on product
+  const thicknessOptions = product.id === "penoplex-geo" 
+    ? [40, 50, 60, 80, 100] 
+    : [50, 100];
 
   // Packaging data for each thickness
   const packagingData: Record<number, {
     quantity: number;
     area: number;
     edgeType: string;
-  }> = {
+  }> = product.id === "penoplex-geo" ? {
+    40: {
+      quantity: 10,
+      area: 6.93,
+      edgeType: "T-15"
+    },
+    50: {
+      quantity: 8,
+      area: 5.55,
+      edgeType: "T-15"
+    },
+    60: {
+      quantity: 5,
+      area: 3.47,
+      edgeType: "T-15"
+    },
+    80: {
+      quantity: 5,
+      area: 3.47,
+      edgeType: "T-15"
+    },
+    100: {
+      quantity: 4,
+      area: 2.77,
+      edgeType: "T-15"
+    }
+  } : {
     50: {
       quantity: 7,
       area: 4.85,
