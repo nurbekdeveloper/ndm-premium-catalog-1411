@@ -1062,8 +1062,8 @@ export const products: Product[] = [
     category: "penopleks",
     images: [penoplexFoundation],
     description: {
-      uz: "ПЕНОПЛЭКС GEO — poydevor va er osti konstruksiyalari uchun yuqori mustahkamlikdagi issiqlik izolyatsiya materiali. Yuqori namlik va yuklarga chidamli.",
-      ru: "ПЕНОПЛЭКС GEO — высокопрочный теплоизоляционный материал для фундаментов и подземных конструкций. Устойчив к высокой влажности и нагрузкам."
+      uz: "ПЕНОПЛЭКС ГЕО С — yuqori samarali issiqlik izolyatsiya materiali yuqori mustahkamlikda (oxirgi avlod XPS), umumiy maqsadli polistiroldan ishlab chiqarilgan.",
+      ru: "ПЕНОПЛЭКС ГЕО С — высокоэффективный теплоизоляционный материал повышенной прочности (XPS последнего поколения), изготавливаемый из полистирола общего назначения."
     },
     specs: [
       { label: { uz: "Mustahkamlik", ru: "Прочность на сжатие" }, value: "300 кПа", method: "ГОСТ EN 826" },
