@@ -29,6 +29,7 @@ import penoplexRoofPackage from "@/assets/products/penoplex-roof-package.png";
 import penoplex45Package from "@/assets/products/penoplex-45-package.png";
 import penoplexSlopePackage from "@/assets/products/penoplex-slope-package.png";
 import penoplexFloorPackage from "@/assets/products/penoplex-floor-package.png";
+import plastfoilTestD from "@/assets/products/plastfoil-test-d.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -785,6 +786,58 @@ export const products: Product[] = [
       {
         label: { uz: "Qo'llanish - Poydevorlar, tunnellar", ru: "Применение - Фундаменты, тоннели" },
         value: "ART, GEO"
+      }
+    ]
+  },
+  {
+    id: "plastfoil-test-d",
+    name: "PLASTFOIL TEST D",
+    category: "penopleks",
+    images: [plastfoilTestD],
+    description: {
+      uz: "PLASTFOIL TEST D — elektr o'tkazuvchan material, polipropilen asosidagi to'qilmagan mato, polietilen bog'lovchi va metallangan qoplamadan tashkil topgan kombinatsiyalangan material.\n\n**Qo'llanilishi:**\nTomning oqish nuqtasini buzilmaydigan elektrofizik usullar bilan o'ta aniq diagnostika qilish imkoniyati bilan ajratuvchi qatlam sifatida qo'llaniladi.\n\nPLASTFOIL TEST D o'rnatish issiqlik izolyatsiya materiallarining, xususan, ekstruzion penopolistirol ПЕНОПЛЭКС yuzasida amalga oshiriladi. Temir-beton (sement-qum qoplama) yuzasiga o'rnatish istisno etiladi.\n\nPLASTFOIL TEST D himoya qatlamida tom pirogining ventilyatsiyasini ta'minlash uchun mo'ljallangan maxsus teshiklar mavjud.\n\n**Afzalliklari:**\n• Oqish nuqtalarini o'ta aniq diagnostika qilish imkoniyati\n• Elektr o'tkazuvchan va ajratuvchi qatlam sifatida universal qo'llash\n• Suvsiz diagnostika\n• Yuqori tezlikda oqish diagnostikasi",
+      ru: "PLASTFOIL TEST D — комбинированный материал, состоящий из нетканого полотна на основе полипропилена, полиэтиленового связующего и металлизированного покрытия.\n\n**Применение:**\nПрименяется в качестве разделительного слоя с возможностью сверхточной диагностики протечек кровли неразрушающими электрофизическими методами.\n\nМонтаж ПЛАСТФОИЛ ТЕСТ D производится на поверхности теплоизоляционных материалов, в частности, экструзионного пенополистирола ПЕНОПЛЭКС. Исключается монтаж на поверхность железобетона (цементно-песчаной стяжки).\n\nВ защитном слое ПЛАСТФОИЛ ТЕСТ D предусмотрены специальные отверстия, предназначенные для обеспечения вентиляции кровельного пирога.\n\n**Преимущества:**\n• Позволяет выполнять сверхточную диагностику протечек\n• Универсальное применение в качестве электропроводящего и разделительного слоя\n• Диагностика без использования воды\n• Высокая скорость диагностики протечек"
+    },
+    specs: [
+      {
+        label: { uz: "Uzunligi, m", ru: "Длина, м" },
+        value: "100",
+        method: "ГОСТ 2678"
+      },
+      {
+        label: { uz: "Eni, m", ru: "Ширина, м" },
+        value: "1",
+        method: "ГОСТ 2678"
+      },
+      {
+        label: { uz: "Qalinligi, mm", ru: "Толщина, мм" },
+        value: "0,05–0,1",
+        method: "справочное значение"
+      },
+      {
+        label: { uz: "Maksimal tortilish kuchi, N/50 mm: uzunlik bo'yicha", ru: "Максимальная сила растяжения, Н/50 мм: по длине" },
+        value: "100",
+        method: "ГОСТ 31899-2-2011 Метод А"
+      },
+      {
+        label: { uz: "Maksimal tortilish kuchi, N/50 mm: eni bo'yicha", ru: "Максимальная сила растяжения, Н/50 мм: по ширине" },
+        value: "50",
+        method: "ГОСТ 31899-2-2011 Метод А"
+      },
+      {
+        label: { uz: "Maksimal tortilish kuchida nisbiy cho'zilish: uzunlik bo'yicha", ru: "Относительное удлинение при максимальной силе растяжения: по длине" },
+        value: "20–70",
+        method: "ГОСТ 31899-2-2011 Метод А"
+      },
+      {
+        label: { uz: "Maksimal tortilish kuchida nisbiy cho'zilish: eni bo'yicha", ru: "Относительное удлинение при максимальной силе растяжения: по ширине" },
+        value: "10–60",
+        method: "ГОСТ 31899-2-2011 Метод А"
+      },
+      {
+        label: { uz: "Yong'inga qarshi texnik xususiyatlar, guruh", ru: "Пожарно-технические характеристики, группа" },
+        value: "Г4/В1/РП1",
+        method: "ГОСТ 30244/ГОСТ 30402/ГОСТ 30444"
       }
     ]
   },
