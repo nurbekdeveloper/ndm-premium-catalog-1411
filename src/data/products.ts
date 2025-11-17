@@ -21,6 +21,7 @@ import penoplexComfort from "@/assets/products/penoplex-comfort.png";
 import penoplexWall from "@/assets/products/penoplex-wall.png";
 import penoplexFastfixStandard from "@/assets/products/penoplex-fastfix-standard.png";
 import plastfoilMembrane from "@/assets/products/plastfoil-membrane.png";
+import plastfoilVortexParapet from "@/assets/products/plastfoil-vortex-parapet.png";
 import penoplexFoundation from "@/assets/products/penoplex-foundation.png";
 import penoplexExtreme from "@/assets/products/penoplex-extreme.png";
 import penoplexOsnova from "@/assets/products/penoplex-osnova.png";
@@ -845,14 +846,32 @@ export const products: Product[] = [
     id: "plastfoil-vortex-parapet",
     name: "ВОРОНКА ПАРАПЕТНАЯ PLASTFOIL VORTEX",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [plastfoilVortexParapet],
     description: {
-      uz: "Parapet voronkasi PLASTFOIL VORTEX. Parapet devorlaridan suv oqizish uchun maxsus voronka.",
-      ru: "Воронка парапетная PLASTFOIL VORTEX для отвода воды через парапетные стенки."
+      uz: "Yassi tomlarda balkon va parapetlar orqali suvni oqizish uchun mo'ljallangan. Voronka ob-havo ta'siriga va ultrabinafsha nurlanishiga chidamli yuqori sifatli polivinilxloriddan ishlab chiqariladi. To'plamdagi tarkibiy qismlar: PVX voronka korpusi, barglar ushlagichi, polipropilen burchak quvuri va alyuminiy qattiqlik elementi. Voronkaning burchak quvuri 100 mm diametrli suv oqizish quvurlari bilan birlashish uchun mo'ljallangan. Konstruksiya mustahkamligini oshirish uchun parapet voronkasining oqizish quvuriga alyuminiy qattiqlik elementi kiritiladi.\n\nAfzalliklari:\n• UZOQ MUDDATLILIK - Xizmat muddati kamida 50 yil\n• OB-HAVO QARSHILIGI - Past va yuqori haroratlar, yog'ingarchilik va ultrabinafsha nurlanishiga yuqori chidamlilik\n• O'RNATISH - Tez o'rnatish, oddiylik va texnologiklik",
+      ru: "Предназначена для отвода воды через балконы и парапеты на плоской кровле. Воронка изготавливается из высококачественного поливинилхлорида, устойчивого к атмосферному воздействию и УФ-излучению. В состав комплекта входит: корпус воронки из ПВХ, листвоуловитель, угловой отвод из полипропилена и элемент жесткости из алюминия. Угловой отвод воронки предназначен для соединения с водосточными трубами диаметром 100 мм. Элемент жесткости из алюминия вставляется внутрь отводящей трубы парапетной воронки для усиления жесткости конструкции.\n\nПреимущества:\n• ДОЛГОВЕЧНОСТЬ - Срок службы не менее 50 лет\n• АТМОСФЕРОСТОЙКОСТЬ - Высокая устойчивость к воздействию низких и высоких температур, осадков и ультрафиолета\n• МОНТАЖ - Высокая скорость монтажа, простота и технологичность"
     },
     specs: [
-      { label: { uz: "Turi", ru: "Тип" }, value: "Парапетная" },
-      { label: { uz: "Material", ru: "Материал" }, value: "ПВХ" }
+      { 
+        label: { uz: "Chiqish kesimi", ru: "Выходное сечение" }, 
+        value: "110×110 мм" 
+      },
+      { 
+        label: { uz: "Flanets o'lchamlari", ru: "Габариты фланца" }, 
+        value: "310×190 мм" 
+      },
+      { 
+        label: { uz: "Chiqarish patrubok uzunligi", ru: "Длина выпускного патрубка" }, 
+        value: "450 мм" 
+      },
+      { 
+        label: { uz: "O'tkazuvchanlik qobiliyati", ru: "Пропускная способность" }, 
+        value: "8 л/с" 
+      },
+      { 
+        label: { uz: "Material", ru: "Материал" }, 
+        value: "ПВХ-композиция" 
+      }
     ]
   },
   {
