@@ -50,6 +50,7 @@ import plastfoilStepwayPvc from "@/assets/products/plastfoil-stepway-pvc.png";
 import plastfoilAluminumRail1 from "@/assets/products/plastfoil-aluminum-rail-1.png";
 import plastfoilAluminumRail2 from "@/assets/products/plastfoil-aluminum-rail-2.png";
 import plastfoilUniversalTie from "@/assets/products/plastfoil-universal-tie.png";
+import plastfoilRoofWasher from "@/assets/products/plastfoil-roof-washer.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2494,6 +2495,54 @@ export const products: Product[] = [
       {
         label: { uz: "Yirtilishga mustahkamlik, kg", ru: "Прочность на разрыв, кг" },
         value: "300"
+      }
+    ]
+  },
+  {
+    id: "plastfoil-vapor-barrier",
+    name: "ПАРОИЗОЛЯЦИОННАЯ ПЛЕНКА",
+    category: "penopleks",
+    images: [plastfoilMembrane],
+    description: {
+      uz: "Paro izolyatsion plyonka - yuqori bosimli polietilen (PVD) dan tayyorlangan rulon material. Mukammal suv va paro o'tkazmaslikka ega bo'lib, ichki ortiqcha namlikning himoya konstruksiyalariga kirishini minimallashtiradi.\n\nTom tizimlarida paro izolyatsiyasini qurishda qo'llaniladi va issiqlik izolyatorini xonalar ichida hosil bo'ladigan suv bug'idan himoya qiladi. Paro izolyatsiya binolar himoya konstruksiyalarida namlikning kondensatsiyalanish imkoniyatini sezilarli darajada kamaytiradi.\n\nParo izolyatsion plyonka izolyatsiya qatlami va issiqlik izolyatsiya qilingan tomning ichki elementlarini, karkas asosidagi devorlar va pollarni xona ichidagi suv bug'larining kirishidan himoya qilish sifatida ishlatiladi.\n\n**Afzalliklari:**\n\n**BARCHA MAVSUMLAR VA UNIVERSAL** — -40°C dan +80°C gacha haroratda barcha iqlim zonalarida yil davomida qo'llash\n\n**BIOLOGIK BARQARORLIK** — Agressiv muhit va mikroorganizmlarning ta'siriga chidamlilik",
+      ru: "Пароизоляционная пленка — рулонный материал, выполненный из полиэтилена высокого давления (ПВД). Обладает превосходной водо- и паронепроницаемостью, что минимизирует проникновение внутренней избыточной влаги в ограждающие конструкции.\n\nПрименяется для устройства пароизоляции в кровельных системах и защищает утеплитель от водяного пара, образующегося внутри помещений. Пароизоляция значительно снижает возможность конденсации влаги в ограждающих конструкциях зданий.\n\nПароизоляционная пленка используется к качестве защиты слоя теплоизоляции и внутренних элементов конструкции утепленной кровли, стен по каркасным основаниям и перекрытий от проникновения водяных паров изнутри помещения.\n\n**Преимущества:**\n\n**ВСЕСЕЗОННОСТЬ И УНИВЕРСАЛЬНОСТЬ** — круглогодичное применение во всех климатических зонах при температуре от -40°C до +80°C\n\n**БИОСТОЙКОСТЬ** — стойкость к воздействию агрессивных сред и микроорганизмов"
+    },
+    specs: [
+      {
+        label: { uz: "Bug' o'tkazmaslik qarshiligi, m²·h·Pa/mg", ru: "Сопротивление паропроницанию, м²·ч·Па/мг" },
+        value: "7,2"
+      },
+      {
+        label: { uz: "Qo'llash harorat oralig'i, °C", ru: "Температурный диапазон применения, °C" },
+        value: "-40 dan +80 gacha"
+      },
+      {
+        label: { uz: "Yirtilishda nisbiy cho'zilish bo'ylab/ko'ndalang, %", ru: "Относительное удлинение при разрыве вдоль/поперек, %" },
+        value: "240/240"
+      }
+    ]
+  },
+  {
+    id: "plastfoil-roof-washer",
+    name: "ШАЙБА КРОВЕЛЬНАЯ",
+    category: "penopleks",
+    images: [plastfoilRoofWasher],
+    description: {
+      uz: "Sinklanmis po'latdan yasalgan tom shayba rulon gidro izolyatsiya materiallarini metall proflist, beton va yog'ochdan yasalgan ko'taruvchi va himoya asoslariga mexanik mahkamlashda bosim yukini taqsimlash uchun qo'llaniladi.\n\nBosish yukini mahkamlanadigan materialga bir xilda taqsimlaydi. Shayba o'ylangan geometriyasi tufayli membranani deformatsiyadan ishonchli himoya qiladi. Beton yuzalar va tsement-qum estrikalariga mahkamlashda 8 mm diametrli PROPLUG kengayuvchi dyubel bilan 4,8 mm diametrli vintlarni ishlatish kerak, metall yuzalarga mahkamlashda esa 4,8 va 5,5 mm diametrli PROPLUG vintlari ishlatiladi.\n\n**Afzalliklari:**\n\n**KORROZIYAGA CHIDAMLILIK** — Rux qoplamasi tufayli yuqori korroziyaga chidamlilik\n\n**UZOQ MUDDATLILIK** — Yuqori mexanik mustahkamlik\n\n**ATMOSFERA BARDOSHLILIGI** — Past va yuqori harorat, yog'ingarchilik va ultrabinafsha nurlariga yuqori chidamlilik",
+      ru: "Шайба кровельная из оцинкованной стали применяется для распределения прижимной нагрузки при механической фиксации рулонных гидроизоляционных материалов к несущим и ограждающим основаниям из металлического профлиста, бетона и дерева.\n\nРавномерно распределяет прижимную нагрузку на закрепляемый материал. Надежно защищает мембрану от деформации благодаря продуманной геометрии шайбы. При креплении к бетонным поверхностям и цементно-песчаным стяжкам необходимо использовать саморезы диаметром 4,8 мм с распорным дюбелем PROPLUG диаметром 8 мм, при креплении к металлическим поверхностям – саморезы PROPLUG диаметром 4,8 и 5,5 мм.\n\n**Преимущества:**\n\n**КОРРОЗИОННАЯ СТОЙКОСТЬ** — Высокая коррозионная стойкость благодаря цинковому покрытию\n\n**ДОЛГОВЕЧНОСТЬ** — Высокая механическая прочность\n\n**АТМОСФЕРОСТОЙКОСТЬ** — Высокая устойчивость к воздействию низких и высоких температур, осадков и ультрафиолета"
+    },
+    specs: [
+      {
+        label: { uz: "Tashqi diametri, mm", ru: "Диаметр внешний, мм" },
+        value: "50 ±0,1"
+      },
+      {
+        label: { uz: "Ichki diametri (teshik), mm", ru: "Диаметр внутренний (отверстия), мм" },
+        value: "6,2 ±0,1"
+      },
+      {
+        label: { uz: "Qalinligi, mm", ru: "Толщина, мм" },
+        value: "0,65 ±0,1"
       }
     ]
   }
