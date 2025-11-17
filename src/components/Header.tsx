@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useCart } from "@/contexts/CartContext";
-import { Menu, X, ShoppingCart } from "lucide-react";
+import { Menu, X, ShoppingCart, Globe } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import Cart from "./Cart";
 import ndmLogo from "@/assets/ndm-logo.png";
 
@@ -62,22 +63,16 @@ const Header = () => {
             )}
           </Button>
           
-          <Button
-            variant={language === "uz" ? "default" : "outline"}
-            size="sm"
-            onClick={() => setLanguage("uz")}
-            className="text-xs"
-          >
-            UZ
-          </Button>
-          <Button
-            variant={language === "ru" ? "default" : "outline"}
-            size="sm"
-            onClick={() => setLanguage("ru")}
-            className="text-xs"
-          >
-            RU
-          </Button>
+          <Select value={language} onValueChange={(value: "uz" | "ru") => setLanguage(value)}>
+            <SelectTrigger className="w-[100px] h-9">
+              <Globe className="h-4 w-4 mr-2" />
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="uz">O'zbek</SelectItem>
+              <SelectItem value="ru">Русский</SelectItem>
+            </SelectContent>
+          </Select>
 
           {/* Mobile Menu Button */}
           <Button
