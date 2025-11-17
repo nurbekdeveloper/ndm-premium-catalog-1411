@@ -2336,32 +2336,10 @@ export const products: Product[] = [
     category: "penopleks",
     images: [plastfoilStepway],
     description: {
-      uz: "PLASTFOIL STEPWAY PVX qoplama bilan membrana tomlarda xavfsiz harakatlanish uchun mo'ljallangan. Tom piyodalar yo'lakchalari sanoat va fuqarolik qurilish tom tizimlarida qo'llaniladi. Piyodalar yo'lakchalari tom va texnologik uskunalarga xizmat ko'rsatish uchun o'tish joyi rejalashtirilgan uchastkalarda o'rnatiladi. Qalinligi 8 mm va ish yuzasi o'lchamlari 600 x 600 mm bo'lgan elementlar 'tig'tig'ga' ulanib, yagona piyodalar makonini hosil qiladi. Tayyor yo'lakchaning qirralari avtomatik payvandlash uskunasi yordamida PLASTFOIL polimer membranasi yuzasiga payvandlanadi.",
-      ru: "PLASTFOIL STEPWAY предназначены для организации безопасного перемещения по поверхности мембранных кровель с ПВХ покрытием. Кровельные пешеходные ПВХ дорожки применяются в составе кровельных систем в промышленном и гражданском строительстве. Пешеходные дорожки укладываются на участках, где планируется место прохода для обслуживания кровли и технологического оборудования. Элементы кровельных пешеходных ПВХ дорожек толщиной 8 мм и размерами рабочей поверхности 600 x 600 мм, соединяются между собой «шип в шип», образуя единое пешеходное пространство."
+      uz: "PLASTFOIL STEPWAY PVX qoplama bilan membrana tomlarda xavfsiz harakatlanish uchun mo'ljallangan. Qalinligi 8 mm va ish yuzasi o'lchamlari 600 x 600 mm bo'lgan elementlar 'tig'tig'ga' ulanib, yagona piyodalar makonini hosil qiladi.\n\n**Afzalliklari:** Eskirishga chidamlilik - ishqalanishga yuqori chidamlilik. Atmosfera ta'siriga chidamlilik - ultrabinafsha nurlanishiga chidamlilik.",
+      ru: "PLASTFOIL STEPWAY предназначены для организации безопасного перемещения по поверхности мембранных кровель с ПВХ покрытием. Элементы толщиной 8 мм и размерами рабочей поверхности 600 x 600 мм, соединяются между собой «шип в шип», образуя единое пешеходное пространство.\n\n**Преимущества:** Износостойкость — высокая устойчивость к истиранию. Атмосферостойкость — устойчивость к УФ-излучению."
     },
-    features: {
-      uz: [
-        "Eskirishga chidamlilik - ishqalanishga yuqori chidamlilik",
-        "Atmosfera ta'siriga chidamlilik - ultrabinafsha nurlanishiga chidamlilik"
-      ],
-      ru: [
-        "Износостойкость — Высокая устойчивость к истиранию",
-        "Атмосферостойкость — Устойчивость к УФ-излучению"
-      ]
-    },
-    normsStandards: {
-      uz: [
-        "Ishchi qism o'lchamlari: 600 x 600 x 8,0 mm",
-        "Statik teshilishga qarshilik: 20 kg dan kam emas",
-        "Harorat oralig'i: -60 dan +80°C gacha"
-      ],
-      ru: [
-        "Размеры рабочей части: 600 x 600 x 8,0 мм",
-        "Сопротивление статическому продавливанию: не менее 20 кг",
-        "Температурный диапазон: от -60 до +80°C"
-      ]
-    },
-    specifications: [
+    specs: [
       {
         label: { uz: "Uzunlik x Kenglik x Qalinlik (ishchi qism)", ru: "Длина х Ширина х Толщина (рабочая часть)" },
         value: "600 х 600 х 8,0 мм"
@@ -2393,31 +2371,7 @@ export const products: Product[] = [
       uz: "PLASTFOIL STEPWAY PVC tom yo'lakchalari alohida tayyor elementlardan pazvl kabi yig'iladi. O'rnatilgandan keyin tayyor yo'lakchaning qirralari asosiy tom yuzasiga issiq havo avtomati yordamida payvandlanadi. Payvandlash uchun elementlar qirralari bo'ylab 80 mm kenglikdagi maxsus chiziqsiz chiziq ko'zda tutilgan. Payvandlash chizig'i bo'ylab harorat o'zgarishi paytida gidroizolyatsiya matosining harakatini qoplash va yo'lakchaning ham, gidroizolyatsiyaning ham yaxlitligini saqlaydigan demfer ko'zda tutilgan. Piyodalar yo'lakchalari orqali suvni oqizish uchun elementlarning orqa tomonida maxsus kanalilar yasalgan.",
       ru: "Кровельная дорожка PLASTFOIL STEPWAY PVC собирается из отдельных готовых элементов, как паззл. После укладки края готовой дорожки привариваются к поверхности основной кровли при помощи автомата горячего воздуха. Вдоль полосы для приварки предусмотрен демпфер, компенсирующий подвижки гидроизоляционного полотна во время перепада температур и сохраняющий целостность как самой дорожки, так и гидроиzoляции."
     },
-    features: {
-      uz: [
-        "Qattiq issiqlik izolyatori bilan tomga piyoda yuklamalarini samarali taqsimlash imkonini beradi",
-        "Ishchi tomonidagi zona sirg'alanishga qarshi yuza xodimlarning tom bo'ylab xavfsiz harakatlanishini ta'minlaydi",
-        "Demferlar harorat o'zgarishi paytida yo'lakcha va gidroizolyatsiya matosini yirtilishdan himoya qiladi"
-      ],
-      ru: [
-        "Изделие позволяет эффективно распределить пешеходные нагрузки на кровлю с жёстким утеплителем без применения дополнительных материалов",
-        "Противоскользящая поверхность зоны на рабочей стороне обеспечивает безопасное передвижение персонала по кровле",
-        "Демпферы предохраняют дорожку и гидроизоляционное полотно от разрывов во время перепада температур"
-      ]
-    },
-    normsStandards: {
-      uz: [
-        "O'lchamlari: 600 x 600 x 8,0 mm",
-        "Xizmat qilish muddati: 50 yildan kam emas",
-        "Yonish guruhi: G4"
-      ],
-      ru: [
-        "Размеры: 600 x 600 x 8,0 мм",
-        "Срок эксплуатации: не менее 50 лет",
-        "Группа горючести: Г4"
-      ]
-    },
-    specifications: [
+    specs: [
       {
         label: { uz: "Uzunlik", ru: "Длина" },
         value: "600 мм"
