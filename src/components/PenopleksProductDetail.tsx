@@ -201,6 +201,12 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("XPS va PVX membrana o'rtasida ajratuvchi qatlam sifatida qo'llaniladi", "Применяется в качестве разделительного слоя между XPS и ПВХ мембраной")}
                       </p>
+                    </> : product.id === "plastfoil-ferroplast" ? <>
+                      <p className="font-semibold text-primary">{t("Tom qoplamasi elementi", "Элемент кровельного покрытия")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("PVX membrana yordamida tom qurish paytida tutashish reykalarini va boshqa detallarni tayyorlash uchun ishlatiladi", "Применяется для изготовления планок примыканий и других деталей при устройстве кровли с применением ПВХ мембраны")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>

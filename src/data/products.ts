@@ -38,6 +38,7 @@ import terraisolGeotextile from "@/assets/products/terraisol-geotextile.png";
 import terraisolEco from "@/assets/products/terraisol-eco.png";
 import fireProtectFabric from "@/assets/products/fire-protect-fabric.png";
 import plastfoilCanvas from "@/assets/products/plastfoil-canvas.png";
+import plastfoilFerroplast from "@/assets/products/plastfoil-ferroplast.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1233,14 +1234,36 @@ export const products: Product[] = [
     id: "plastfoil-ferroplast",
     name: "ПВХ-МЕТАЛЛ PLASTFOIL FERROPLAST",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [plastfoilFerroplast],
     description: {
-      uz: "PLASTFOIL FERROPLAST PVX-metall. Tom qoplamalarini montaj qilish uchun maxsus plastik metall lentalar.",
-      ru: "ПВХ-металл PLASTFOIL FERROPLAST. Применяется для изготовления планок примыкания при монтаже кровельных покрытий."
+      uz: "PLASTFOIL FERROPLAST — bir tomonida polimer qoplama bilan metall list. Metallning yuqori yuzasidagi polimer qoplama mexanik mahkamlash, germetik yoki yopishtiruvchi moddalardan foydalanmasdan, germetik birikma ta'minlab, polimer membranani metall profilga payvandlash imkonini beradi. Polimer qoplamaning qalinligi kamida 0,6 mm bo'lib, bu issiq havo yordamida polimer membranalar bilan sifatli va bir jinsli payvandlash imkonini beradi.\n\nPVX-metall PLASTFOIL FERROPLAST PVX membrana yordamida tom qurish paytida tutashish reykalarini va boshqa detallarni tayyorlash uchun ishlatiladi.\n\n**Afzalliklar:**\n\n**KORROZIYAGA CHIDAMLILIK** - Har ikki tomondan ko'p qatlamli metall qoplama tufayli yuqori korroziyaga chidamlilik\n\n**ISHLOV BERISH SODDALIGI** - Metall uchun qaychi bilan kesish imkoniyati\n\n**OB-HAVO BARQARORLIGI** - Ultrabinafsha nurlariga yuqori bardoshlilik",
+      ru: "PLASTFOIL FERROPLAST — металлический лист с полимерным покрытием на одной из сторон. Полимерное покрытие на верхней поверхности металла позволяет приварить полимерную мембрану к металлическому профилю, обеспечив герметичное соединение без механического крепления, герметика или клея. Толщина полимерного покрытия составляет не менее 0,6 мм, что позволяет добиться качественной и гомогенной сварки с полимерными мембранами при помощи горячего воздуха.\n\nПВХ-металл PLASTFOIL FERROPLAST применяют для изготовления планок примыканий и других деталей при устройстве кровли с применением ПВХ мембраны.\n\n**Преимущества:**\n\n**КОРРОЗИОННАЯ СТОЙКОСТЬ** — Высокая коррозионная стойкость, благодаря многослойному покрытию металла с обеих сторон\n\n**ПРОСТОТА ОБРАБОТКИ** — Возможность раскроя ножницами по металлу\n\n**АТМОСФЕРОСТОЙКОСТЬ** — Высокая устойчивость к воздействию ультрафиолета"
     },
     specs: [
-      { label: { uz: "Material", ru: "Материал" }, value: "ПВХ + металл" },
-      { label: { uz: "Eni", ru: "Ширина" }, value: "Различная" }
+      { 
+        label: { uz: "Uzunligi, mm", ru: "Длина, мм" }, 
+        value: "2000 ±6" 
+      },
+      { 
+        label: { uz: "Eni, mm", ru: "Ширина, мм" }, 
+        value: "1000 ±5" 
+      },
+      { 
+        label: { uz: "Asos materiali", ru: "Материал основы" }, 
+        value: "Оцинкованная сталь 0,6 мм" 
+      },
+      { 
+        label: { uz: "Qoplama materiali", ru: "Материал покрытия" }, 
+        value: "Поливинилхлорид 0,6 мм" 
+      },
+      { 
+        label: { uz: "Og'irligi, kg", ru: "Вес, кг" }, 
+        value: "10,5" 
+      },
+      { 
+        label: { uz: "UV nurlariga chidamlilik, %", ru: "Стойкость к УФ излучению, %" }, 
+        value: "90" 
+      }
     ]
   },
   {
