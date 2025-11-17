@@ -213,6 +213,15 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Quvur liniyalari, gaz-neft quvurlarini issiqlik izolyatsiyalash uchun", "Для теплоизоляции трубопроводов, газо-нефтепроводов")}
                       </p>
+                    </> : product.id === "penoplex-block" ? <>
+                      <p className="font-semibold text-primary">{t("Yo'l qurilishi", "Дорожное строительство")}</p>
+                      <p>{t("Avtomobil yo'llari", "Автомобильные дороги")}</p>
+                      <p>{t("Temir yo'llar", "Железные дороги")}</p>
+                      <p>{t("Ko'priklar va yo'l o'tishlari", "Мосты и путепроводы")}</p>
+                      <p>{t("Ko'p qatlamli devor panellari", "Многослойные стеновые панели")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Beqaror tuproqlarda yo'l va muhandislik inshootlarini qurishda qo'llaniladi. Yengil to'ldirish texnologiyasi yukni sezilarli darajada kamaytiradi", "Применяется в строительстве дорог и инженерных сооружений на нестабильных грунтах. Технология легкой насыпи значительно уменьшает нагрузку")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>

@@ -40,6 +40,7 @@ import fireProtectFabric from "@/assets/products/fire-protect-fabric.png";
 import plastfoilCanvas from "@/assets/products/plastfoil-canvas.png";
 import plastfoilFerroplast from "@/assets/products/plastfoil-ferroplast.png";
 import penoplexSegments from "@/assets/products/penoplex-segments.png";
+import penoplexBlock from "@/assets/products/penoplex-block.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1996,6 +1997,30 @@ export const products: Product[] = [
       {
         label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" },
         value: "Г4 | Г4"
+      }
+    ]
+  },
+  {
+    id: "penoplex-block",
+    name: "ПЕНОПЛЭКС БЛОК",
+    category: "penopleks",
+    images: [penoplexBlock],
+    description: {
+      uz: "ПЕНОПЛЭКС БЛОК — bu ishonchli, mustahkam va uzoq xizmat qiladigan material bo'lib, yo'l qurilishida keng qo'llaniladi. Penopolistirol ПЕНОПЛЭКС plitalarning ma'lum miqdorini press ostida yopishtirish yo'li bilan ishlab chiqariladi. Bloklar o'ralmasdan yoki polietilen plyonkaga o'ralib yetkazib beriladi.\n\nHar bir blokning old tomonida (yoki tortsidagi qirrida) ishlab chiqaruvchi haqida ma'lumot, mahsulot nomi va partiya raqami, shuningdek ishlab chiqarish sanasi va TU bo'lgan yorliq mavjud.\n\n**Normalar / standartlar:**\n\nПЕНОПЛЭКС БЛОК ТУ 5767-002-54349294-2012 bo'yicha ishlab chiqariladi.\n\n**Qo'llanish sohalari:**\n\nПЕНОПЛЭКС БЛОК avtomobil va temir yo'llar, ko'priklar, yo'l o'tishlari va beqaror tuproqlardagi (qirg'oq hududlari, botqoq joylar, yer osti suvlari yuqori bo'lgan hududlar) boshqa muhandislik inshootlarini qurish jarayonida faol qo'llaniladi.\n\nYengil, mustahkam va uzoq xizmat qiladigan ekstruzion penopolistiroldan tayyorlangan bloklar qurilish ishlari jarayonida yo'l to'ldirishning asosiy qismini almashtiruvchi \"yengil to'ldirish\" qurilishi uchun material bo'lib xizmat qiladi. Ushbu texnologiya zaif poydevorga, shuningdek to'ldirish ostida qurilgan inshootlarga yukni sezilarli darajada kamaytirish imkonini beradi.\n\nПЕНОПЛЭКС БЛОК ko'p qatlamli devor panellari va tosiqlar konstruksiyalarini tayyorlashda ham qo'llanilishi mumkin.",
+      ru: "ПЕНОПЛЭКС БЛОК — это надежный, прочный и долговечный материал, который находит широкое применение в дорожном строительстве. Изготавливается путем склеивания под прессом определенного количества пенополистирольных плит ПЕНОПЛЭКС. Блоки поставляются в неупакованном виде, либо упаковывают в полиэтиленовую пленку.\n\nНа лицевой стороне (либо на торцевой грани) каждого блока находится этикетка, которая содержит информацию об изготовителе, наименование продукта и номер партии, а также дату изготовления и ТУ.\n\n**Нормы / стандарты:**\n\nПЕНОПЛЭКС БЛОК производятся по ТУ 5767-002-54349294-2012.\n\n**Области применения:**\n\nПЕНОПЛЭКС БЛОК активно применяется в ходе строительства автомобильных и железных дорог, мостов, путепроводов и других инженерных сооружений на нестабильных грунтах (прибрежные районы, болотистая местность, территории с высоким уровнем залегания грунтовых вод).\n\nЛегкие, прочные и долговечные блоки из экструдированного пенополистирола служат материалом для сооружения «легкой насыпи», которая замещает основную часть дорожной насыпи в ходе строительных работ. Данная технология позволяет значительно уменьшить нагрузку на слабое основание, а также на сооружения, построенные под насыпью.\n\nПЕНОПЛЭКС БЛОК также могут применяться при изготовлении многослойных стеновых панелей и ограждающих конструкций."
+    },
+    specs: [
+      {
+        label: { uz: "Qalinligi", ru: "Толщина" },
+        value: "от 120 до 1 000 мм"
+      },
+      {
+        label: { uz: "Eni", ru: "Ширина" },
+        value: "600 мм"
+      },
+      {
+        label: { uz: "Uzunligi", ru: "Длина" },
+        value: "от 1 200 до 3 000 мм"
       }
     ]
   },
