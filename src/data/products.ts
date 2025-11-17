@@ -22,6 +22,7 @@ import penoplexWall from "@/assets/products/penoplex-wall.png";
 import penoplexFastfixStandard from "@/assets/products/penoplex-fastfix-standard.png";
 import plastfoilMembrane from "@/assets/products/plastfoil-membrane.png";
 import plastfoilVortexParapet from "@/assets/products/plastfoil-vortex-parapet.png";
+import plastfoilVortexRoof from "@/assets/products/plastfoil-vortex-roof.png";
 import penoplexFoundation from "@/assets/products/penoplex-foundation.png";
 import penoplexExtreme from "@/assets/products/penoplex-extreme.png";
 import penoplexOsnova from "@/assets/products/penoplex-osnova.png";
@@ -878,14 +879,56 @@ export const products: Product[] = [
     id: "plastfoil-vortex-roof",
     name: "ВОРОНКА КРОВЕЛЬНАЯ PLASTFOIL VORTEX",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [plastfoilVortexRoof],
     description: {
-      uz: "Tom voronkasi PLASTFOIL VORTEX. Korporalangan va eski tomlardan suv oqizish uchun ishlatiladi.",
-      ru: "Воронка кровельная PLASTFOIL VORTEX для отвода воды со старых и новых кровель."
+      uz: "PLASTFOIL VORTEX — polipropilen korpusli va zanglamaydigan po'latdan ishlab chiqarilgan prижимли flanets, shuningdek barglari yig'uvchi bilan jihozlangan tom voronkasi. Turli diametrli voronkalar isitish tizimi bilan va isitishsiz taqdim etiladi.\n\nTom voronkasi kapital qurilishda yoki yassi ekspluatatsiya qilinadigan ko'p darajali, shu jumladan inversiya tomlarda qisman ta'mirlashda qo'llaniladi. Har qanday gidro-, paro- va issiqlik izolyatsion materiallar, har qanday qalinlik va to'ldirishli \"pirog\" uchun mo'ljallangan. To'g'ridan-to'g'ri po'lat, cho'yan yoki plastik quvurlar bilan o'rnatish uchun ishlatiladi.\n\n**Afzalliklari:**\n• UZOQ XIZMAT MUDDATI - Xizmat muddati kamida 50 yil\n• ATMOSFERAGA CHIDAMLILIK - Past va yuqori haroratlar, yog'ingarchilik va ultrabinafsha nurlariga yuqori chidamlilik\n• O'RNATISH - Yuqori o'rnatish tezligi, soddalik va texnologiklik",
+      ru: "PLASTFOIL VORTEX — кровельная воронка с корпусом из полипропилена и прижимным фланцем из нержавеющей стали, а также с листвоуловителем. Представлены воронки разных диаметров с обогревом и без.\n\nКровельная воронка применяется при капитальном строительстве или частичном ремонте плоских эксплуатируемых многоуровневых, в том числе инверсионных кровель. Предназначена для кровель с любыми гидро-, паро- и теплоизоляционными материалами, с «пирогом» любой толщины и наполнения. Используется для непосредственного монтажа со стальными, чугунными или пластиковыми трубами.\n\n**Преимущества:**\n• ДОЛГОВЕЧНОСТЬ - Срок службы не менее 50 лет\n• АТМОСФЕРОСТОЙКОСТЬ - Высокая устойчивость к воздействию низких и высоких температур, осадков и ультрафиолета\n• МОНТАЖ - Высокая скорость монтажа, простота и технологичность"
     },
     specs: [
-      { label: { uz: "Turi", ru: "Тип" }, value: "Кровельная" },
-      { label: { uz: "Material", ru: "Материал" }, value: "ПВХ" }
+      { 
+        label: { uz: "Mahsulot nomi", ru: "Наименование" }, 
+        value: "PLASTFOIL VORTEX D=110 мм / D=160 мм" 
+      },
+      { 
+        label: { uz: "Ichki yuza harorati, °C", ru: "Максимальная температура внутренней поверхности воронки, °C" }, 
+        value: "+55" 
+      },
+      { 
+        label: { uz: "Qabul qiluvchi voronka diametri, mm", ru: "Диаметр приемной воронки, мм" }, 
+        value: "360 (D=110) / 444 (D=160)" 
+      },
+      { 
+        label: { uz: "Chiqish diametri, mm", ru: "Выходной диаметр, мм" }, 
+        value: "110 / 160" 
+      },
+      { 
+        label: { uz: "Shartli chiqish shtuser balandligi, mm", ru: "Условная высота выпускного патрубка, мм" }, 
+        value: "170" 
+      },
+      { 
+        label: { uz: "O'tkazish qobiliyati, kamida, l/s", ru: "Пропускная способность, не менее, л/с" }, 
+        value: "8 (D=110) / 12 (D=160)" 
+      },
+      { 
+        label: { uz: "Atrof-muhit harorati, °C", ru: "Температура окружающей среды, °C" }, 
+        value: "от -50 до +90" 
+      },
+      { 
+        label: { uz: "Oqim suvi harorati, ko'pi bilan, °C", ru: "Температура отводящей жидкости, не более, °C" }, 
+        value: "+85" 
+      },
+      { 
+        label: { uz: "Netto og'irligi, ko'pi bilan, kg", ru: "Масса нетто, не более, кг" }, 
+        value: "1,55 (D=110) / 2,0 (D=160)" 
+      },
+      { 
+        label: { uz: "Maksimal ruxsat etilgan yuk, ko'pi bilan, kg", ru: "Максимальная разрешенная нагрузка, не более, кг" }, 
+        value: "150" 
+      },
+      { 
+        label: { uz: "Chiqish shtuser balandligi, mm", ru: "Высота выпускного патрубка, мм" }, 
+        value: "450" 
+      }
     ]
   },
   {
