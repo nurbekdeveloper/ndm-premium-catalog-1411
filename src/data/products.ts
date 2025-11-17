@@ -33,6 +33,7 @@ import penoplex45Package from "@/assets/products/penoplex-45-package.png";
 import penoplexSlopePackage from "@/assets/products/penoplex-slope-package.png";
 import penoplexFloorPackage from "@/assets/products/penoplex-floor-package.png";
 import plastfoilTestD from "@/assets/products/plastfoil-test-d.png";
+import plastfoilAero from "@/assets/products/plastfoil-aero.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1008,14 +1009,44 @@ export const products: Product[] = [
     id: "plastfoil-aero",
     name: "АЭРАТОР PLASTFOIL AERO",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [plastfoilAero],
     description: {
-      uz: "PLASTFOIL AERO aeratori. Tom konstruksiyasida nam va kondensatsiyani olib tashlash uchun ventilyatsiya tizimi.",
-      ru: "Аэратор PLASTFOIL AERO для удаления влаги и конденсата из кровельной конструкции."
+      uz: "PLASTFOIL AERO tom aeratori 'nafas oladigan' tekis tomlarni qurishda yoki sanatsiya qilishda qo'llaniladi, gidroizolyatsiya ostiga kirib boradigan suv bug'larini chiqarish uchun mo'ljallangan.\n\n**Afzalliklari:**\n\n**ATMOSFERAGA CHIDAMLILIK** — Past va yuqori haroratlar, yog'ingarchilik va ultrabinafsha nurlariga yuqori chidamlilik\n\n**BIOLOGIK BARQARORLIK** — Agressiv muhit va mikroorganizmlar ta'siriga chidamlilik",
+      ru: "Кровельный аэратор PLASTFOIL AERO применяется при устройстве либо санации «дышащих» плоских кровель, предназначенных для отвода водяных паров, проникающих под гидроизоляцию.\n\n**Преимущества:**\n\n**АТМОСФЕРОСТОЙКОСТЬ** — Высокая устойчивость к воздействию низких и высоких температур, осадков и ультрафиолета\n\n**БИОСТОЙКОСТЬ** — Стойкость к воздействию агрессивных сред и микроорганизмов"
     },
     specs: [
-      { label: { uz: "Turi", ru: "Тип" }, value: "Кровельный аэратор" },
-      { label: { uz: "Material", ru: "Материал" }, value: "Полипропилен" }
+      { 
+        label: { uz: "Korpus va qopqoq xom ashyosi", ru: "Cырье корпуса и колпака аэратора" }, 
+        value: "морозостойкий полипропилен" 
+      },
+      { 
+        label: { uz: "Chiqaruvchi quvur diametri, mm", ru: "Диаметр отводящей трубы, мм" }, 
+        value: "110" 
+      },
+      { 
+        label: { uz: "Aerator 'yubkasi' diametri, mm", ru: "Диаметр «юбки» аэратора, мм" }, 
+        value: "360" 
+      },
+      { 
+        label: { uz: "Aerator balandligi, mm", ru: "Высота аэратора, мм" }, 
+        value: "450" 
+      },
+      { 
+        label: { uz: "Sof og'irlik, maksimal, kg", ru: "Масса нетто, макс., кг" }, 
+        value: "1,7" 
+      },
+      { 
+        label: { uz: "Ishchi muhitni (havo) berish yo'nalishi", ru: "Направление подачи рабочей среды (воздушной)" }, 
+        value: "любое" 
+      },
+      { 
+        label: { uz: "Foydalanish harorati: doimiy / vaqtinchalik, °C", ru: "Температура использования: постоянная / временная, °С" }, 
+        value: "от -40 до +80 / от -55 до +120" 
+      },
+      { 
+        label: { uz: "Chiqarilayotgan suyuqlik harorati, ko'pi bilan, °C", ru: "Температура отводящей жидкости, не более, °C" }, 
+        value: "+85" 
+      }
     ]
   },
   {
