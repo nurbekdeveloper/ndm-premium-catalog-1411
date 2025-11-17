@@ -173,6 +173,20 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("To'qilmagan termal mahkamlangan geotekstil. Kimyoviy jihatdan mos kelmaydigan materiallar uchun ajratuvchi va himoya qatlami sifatida ishlatiladi", "Нетканый термоскрепленный геотекстиль. Используется как разделительный и защитный слой для химически несовместимых материалов")}
                       </p>
+                    </> : product.id === "terraisol-eco" ? <>
+                      <p className="font-semibold text-primary">{t("Ajratuvchi qatlam", "Разделительный слой")}</p>
+                      <p>{t("Devorlar", "Стены")}</p>
+                      <p>{t("Pol va qoplamalar", "Полы и перекрытия")}</p>
+                      <p>{t("Poydevorlar", "Фундаменты")}</p>
+                      <p>{t("Asoslar va maydonchalar", "Основания и площадки")}</p>
+                      <p>{t("Stilobatlar", "Стилобаты")}</p>
+                      <p>{t("Yo'l qurilishi", "Дорожное строительство")}</p>
+                      <p>{t("Tunnellar", "Тоннели")}</p>
+                      <p>{t("Aerodromlar", "Аэродромы")}</p>
+                      <p>{t("Quvur tizimlari va idishlar", "Трубопроводные системы и ёмкости")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Poliefir tolalaridan tayyorlangan material. Poydevor konstruksiyalarida, shuningdek, avtomobil, temir yo'l va piyoda yo'llarida drenajni himoya qilish uchun, tuproq ishlari paytida qo'llaniladi", "Материал из полиэфирных волокон. Применяется для защиты дренажа в конструкциях фундаментов, а также авто, ж/д и пешеходных дорог, при земляных работах")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>

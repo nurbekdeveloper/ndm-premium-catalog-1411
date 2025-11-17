@@ -35,6 +35,7 @@ import penoplexFloorPackage from "@/assets/products/penoplex-floor-package.png";
 import plastfoilTestD from "@/assets/products/plastfoil-test-d.png";
 import plastfoilAero from "@/assets/products/plastfoil-aero.png";
 import terraisolGeotextile from "@/assets/products/terraisol-geotextile.png";
+import terraisolEco from "@/assets/products/terraisol-eco.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1114,14 +1115,108 @@ export const products: Product[] = [
     id: "terraisol-eco",
     name: "ГЕОТЕКСТИЛЬ TERRAISOL ЭКО",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [terraisolEco],
     description: {
-      uz: "TERRAISOL EKO geotekstil. Ekologik toza materialdan tayyorlangan, qurilish va landshaft dizayni uchun iqtisodiy yechim.",
-      ru: "Геотекстиль TERRAISOL ЭКО. Экономичное решение для строительства и ландшафтного дизайна из экологичных материалов."
+      uz: "PLASTFOIL TERRAISOL EKO geotekstil – poliefir tolalaridan ignalash usuli bilan ishlab chiqarilgan to'qilmagan material. Bu ekologik toza material bo'lib, termooksidlanish qarishi, yuqori kimyoviy barqarorlik, chirish, mog'or, zamburug'lar, hasharotlar, kemiruvchilar va ildizlarning o'sishiga chidamlidir.\n\nPLASTFOIL TERRAISOL EKO geotekstil poydevor konstruksiyalarida, avtomobil, temir yo'l va piyoda yo'llarida, shuningdek, tuproq ishlari paytida himoya va drenaj funksiyalarini bajaradi.",
+      ru: "Геотекстиль PLASTFOIL TERRAISOL ЭКО – нетканый материал из полиэфирных волокон, скрепленных иглопробивным способом. Это экологически чистый материал, который при этом обладает устойчивостью к термоокислительному старению. Имеет высокий уровень химстойкости, не подвержен гниению и воздействию плесени, грибков, насекомых, грызунов, прорастанию корней.\n\nГеотекстиль PLASTFOIL TERRAISOL ЭКО выполняет функции защиты и дренажа в конструкциях фундаментов, автомобильных, железных и пешеходных дорог, а также при производстве земляных работ."
     },
     specs: [
-      { label: { uz: "Material", ru: "Материал" }, value: "Полипропилен" },
-      { label: { uz: "Zichlik", ru: "Плотность" }, value: "80-200 г/м²" }
+      { 
+        label: { uz: "Nomi", ru: "Наименование" }, 
+        value: "Геотекстиль TERRAISOL ЭКО 100" 
+      },
+      { 
+        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
+        value: "100 ±10" 
+      },
+      { 
+        label: { uz: "Cho'zilishda mustahkamlik uzunligi/eni bo'yicha, kN/m", ru: "Прочность при растяжении по длине/по ширине, кН/м" }, 
+        value: "2,5/2,5" 
+      },
+      { 
+        label: { uz: "Uzilishda cho'zilish uzunligi/eni bo'yicha, %", ru: "Удлинение при разрыве по длине/по ширине, %" }, 
+        value: "20/20" 
+      },
+      { 
+        label: { uz: "Ochiq teshiklar o'lchami, mkm", ru: "Размер открытых пор, мкм" }, 
+        value: "130" 
+      },
+      { 
+        label: { uz: "Filtratsiya koeffitsienti, m/kun", ru: "Коэффициент фильтрации, м/сут" }, 
+        value: "15" 
+      },
+      { 
+        label: { uz: "Nomi", ru: "Наименование" }, 
+        value: "Геотекстиль TERRAISOL ЭКО 150" 
+      },
+      { 
+        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
+        value: "150 ±10" 
+      },
+      { 
+        label: { uz: "Cho'zilishda mustahkamlik uzunligi/eni bo'yicha, kN/m", ru: "Прочность при растяжении по длине/по ширине, кН/м" }, 
+        value: "3,3/3,5" 
+      },
+      { 
+        label: { uz: "Uzilishda cho'zilish uzunligi/eni bo'yicha, %", ru: "Удлинение при разрыве по длине/по ширине, %" }, 
+        value: "70/90" 
+      },
+      { 
+        label: { uz: "Ochiq teshiklar o'lchami, mkm", ru: "Размер открытых пор, мкм" }, 
+        value: "130" 
+      },
+      { 
+        label: { uz: "Filtratsiya koeffitsienti, m/kun", ru: "Коэффициент фильтрации, м/сут" }, 
+        value: "15" 
+      },
+      { 
+        label: { uz: "Nomi", ru: "Наименование" }, 
+        value: "Геотекстиль TERRAISOL ЭКО 200" 
+      },
+      { 
+        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
+        value: "200 ±10" 
+      },
+      { 
+        label: { uz: "Cho'zilishda mustahkamlik uzunligi/eni bo'yicha, kN/m", ru: "Прочность при растяжении по длине/по ширине, кН/м" }, 
+        value: "4,5/4,5" 
+      },
+      { 
+        label: { uz: "Uzilishda cho'zilish uzunligi/eni bo'yicha, %", ru: "Удлинение при разрыве по длине/по ширине, %" }, 
+        value: "70/90" 
+      },
+      { 
+        label: { uz: "Ochiq teshiklar o'lchami, mkm", ru: "Размер открытых пор, мкм" }, 
+        value: "130" 
+      },
+      { 
+        label: { uz: "Filtratsiya koeffitsienti, m/kun", ru: "Коэффициент фильтрации, м/сут" }, 
+        value: "15" 
+      },
+      { 
+        label: { uz: "Nomi", ru: "Наименование" }, 
+        value: "Геотекстиль TERRAISOL ЭКО 250" 
+      },
+      { 
+        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
+        value: "250 ±10" 
+      },
+      { 
+        label: { uz: "Cho'zilishda mustahkamlik uzunligi/eni bo'yicha, kN/m", ru: "Прочность при растяжении по длине/по ширине, кН/м" }, 
+        value: "5,8/6,0" 
+      },
+      { 
+        label: { uz: "Uzilishda cho'zilish uzunligi/eni bo'yicha, %", ru: "Удлинение при разрыве по длине/по ширине, %" }, 
+        value: "70/90" 
+      },
+      { 
+        label: { uz: "Ochiq teshiklar o'lchami, mkm", ru: "Размер открытых пор, мкм" }, 
+        value: "130" 
+      },
+      { 
+        label: { uz: "Filtratsiya koeffitsienti, m/kun", ru: "Коэффициент фильтрации, м/сут" }, 
+        value: "15" 
+      }
     ]
   },
   {
