@@ -53,6 +53,8 @@ import plastfoilUniversalTie from "@/assets/products/plastfoil-universal-tie.png
 import plastfoilRoofWasher from "@/assets/products/plastfoil-roof-washer.png";
 import plastfoilPvcCleaner from "@/assets/products/plastfoil-pvc-cleaner.png";
 import plastfoilPvcActivator from "@/assets/products/plastfoil-pvc-activator.png";
+import plastfoilRoofAerator from "@/assets/products/plastfoil-roof-aerator.png";
+import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2613,6 +2615,94 @@ export const products: Product[] = [
       {
         label: { uz: "1 mm² ga sarfi, l", ru: "Расход на 1 мм2, л" },
         value: "0,25"
+      }
+    ]
+  },
+  {
+    id: "plastfoil-roof-aerator",
+    name: "Аэратор кровельный ПВХ",
+    category: "penopleks",
+    images: [plastfoilRoofAerator],
+    description: {
+      uz: "Qattiq PVX kompozitsiyasidan yasalgan, bu tomda tashqi muhit ta'siriga yuqori ishonchlilik va chidamlilikni ta'minlaydi, shuningdek PVX membranalardan yasalgan tomlar uchun ideal variantdir. Ikki qismdan iborat — PVX stoykaси va polipropilen qalpoqchasidan.\n\n**Afzalliklari:**\n\nPVX korpusi tufayli qulay va tez o'rnatish, bu gidro izolyatsiya bilan issiq havo yordamida ulanish imkonini beradi.\n\nO'rnatish bosqichida va keyingi foydalanishda aeratorning gidro izolyatsiya bilan ulanishining germetikligini nazorat qilish imkoniyati.",
+      ru: "Изготовлен из жесткой ПВХ-композиции, которая обеспечивает высокую надежность и стойкость к воздействиям внешней среды на кровле, а также является идеальным вариантом для кровель из ПВХ мембран. Состоит из двух частей — стойки из ПВХ и колпака из полипропилена.\n\n**Преимущества:**\n\nУдобный и быстрый монтаж благодаря корпусу из ПВХ, позволяющему производить соединение с гидроизоляцией с помощью горячего воздуха.\n\nВозможность контроля герметичности соединения аэратора с гидроизоляцией на этапе монтажа и последующей эксплуатации."
+    },
+    specs: [
+      {
+        label: { uz: "O'rash uzunligi, mm", ru: "Длина упаковки, мм" },
+        value: "285"
+      },
+      {
+        label: { uz: "O'rash eni, mm", ru: "Ширина упаковки, мм" },
+        value: "285"
+      },
+      {
+        label: { uz: "O'rash balandligi, mm", ru: "Высота упаковки, мм" },
+        value: "325"
+      },
+      {
+        label: { uz: "O'rash maydoni, m²", ru: "Площадь упаковки, м²" },
+        value: "0,081"
+      },
+      {
+        label: { uz: "O'rash hajmi, m³", ru: "Объем упаковки, м³" },
+        value: "0,027"
+      },
+      {
+        label: { uz: "O'rash og'irligi, kg", ru: "Вес упаковки, кг" },
+        value: "2"
+      },
+      {
+        label: { uz: "O'rashdagi mahsulot miqdori, dona", ru: "Количество товара в упаковке, шт." },
+        value: "1"
+      }
+    ]
+  },
+  {
+    id: "plastfoil-test-fix",
+    name: "Скотч алюминиевый PLASTFOIL TEST FIX",
+    category: "penopleks",
+    images: [plastfoilTestFix],
+    description: {
+      uz: "PLASTFOIL TEST FIX — 25 mkm qalinlikdagi alyuminiy folga asosidagi lenta, sintetik kauchuk asosidagi yopishqoq qatlam va qog'ozli antiadeziyon qoplama bilan.\n\n150 mm enlik va 40 metr uzunlikda rulon shaklida ishlab chiqariladi.\n\n**Xususiyatlari / Afzalliklari:**\n\nPayvand tikuvlar joylarida oqish joylarini o'ta aniq diagnostika qilish imkonini beradi;\n\nPayvand tikuv zonasida mexanik mahkamlagichni yopish uchun optimal enlik;\n\nO'rnatish bosqichida elektr o'tkazuvchi qatlam qismlarining siljishini oldini olish.",
+      ru: "PLASTFOIL TEST FIX – лента на основе алюминиевой фольги толщиной 25 мкм с клеевым слоем на основе синтетического каучука, с бумажным антиадгезионным покрытием.\n\nВыпускается в виде ролика шириной 150 мм, длиной 40 метров.\n\n**ХАРАКТЕРИСТИКИ / ПРЕИМУЩЕСТВА:**\n\nПозволяет выполнять сверхточную диагностику протечек в местах сварных швов;\n\nОптимальная ширина для перекрытия механического крепежа в зоне сварного шва;\n\nПредотвращение смещения полотен электропроводящего слоя на этапе монтажа."
+    },
+    specs: [
+      {
+        label: { uz: "Uzunlik, m", ru: "Длина, м" },
+        value: "40"
+      },
+      {
+        label: { uz: "Enlik, mm", ru: "Ширина, мм" },
+        value: "150"
+      },
+      {
+        label: { uz: "Asos qalinligi, mm", ru: "Толщина основы, мм" },
+        value: "0,025"
+      },
+      {
+        label: { uz: "Asos materiali", ru: "Материал основы" },
+        value: "Alyuminiy folga / Алюминиевая фольга"
+      },
+      {
+        label: { uz: "Po'latga 180° burchak ostida yopishish, N/sm", ru: "Адгезия к стали под углом 180°, Н/см" },
+        value: "8"
+      },
+      {
+        label: { uz: "Yopishqoqlik, N", ru: "Липкость, Н" },
+        value: "17,5"
+      },
+      {
+        label: { uz: "Statik siljishga qarshilik kuchi, daq.", ru: "Сила сопротивления статическому сдвигу, мин" },
+        value: "400"
+      },
+      {
+        label: { uz: "Qo'llash harorati, °C", ru: "Температура применения, °С" },
+        value: "+2…+60"
+      },
+      {
+        label: { uz: "Foydalanish harorati, °C", ru: "Температура эксплуатации, °С" },
+        value: "-30…+75"
       }
     ]
   }
