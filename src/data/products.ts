@@ -42,6 +42,8 @@ import plastfoilFerroplast from "@/assets/products/plastfoil-ferroplast.png";
 import penoplexSegments from "@/assets/products/penoplex-segments.png";
 import penoplexBlock from "@/assets/products/penoplex-block.png";
 import penoplexTrak from "@/assets/products/penoplex-trak.png";
+import proplugScrew from "@/assets/products/proplug-screw.png";
+import proplugDowel from "@/assets/products/proplug-dowel.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2214,6 +2216,82 @@ export const products: Product[] = [
         label: { uz: "Global isish potentsiali**", ru: "Потенциал глобального потепления**" }, 
         value: "от 2,22 кг CO₂ эквивалент",
         method: "ISO 14025 BS EN 15804"
+      }
+    ]
+  },
+  {
+    id: "proplug-screw",
+    name: "САМОРЕЗ ДЛЯ АНКЕР-ВТУЛКИ PROPLUG",
+    category: "penopleks",
+    images: [proplugScrew],
+    description: {
+      uz: "Tom mahkamlash elementi — samorез PROPLUG — issiqlik va gidroizolyatsiyani mahkamlashda teleskopik effektni ta'minlash uchun mo'ljallangan. Anker-vtulka PROPLUG bilan birgalikda qo'llaniladi.\n\n**Tavsif:**\n\nAnker-vtulka PROPLUG uchun samorез bino tomida issiqlik va gidroizolyatsiya materiallarini ishonchli mahkamlash uchun ishlatiladi. Profillangan qoplama asosiga, shuningdek yog'och (fanera, taxta, OSP) va beton yuzalarga (shu jumladan TSPS estrikasi) PROPLUG yoyiluvchi dubel bilan mahkamlash uchun keng qo'llaniladi. Yuqori sifatli himoya korroziyaga qarshi qoplama Kestenih iqlim kamerasida 15 tsiklga mos keladigan barqarorlikni ta'minlaydi. Samorез tig'idan kichikroq diametrli reduksiyalangan burg metall listlar va PROPLUG teleskopik vtulkalarida teshik o'lchamlarining buzilishining oldini oladi.\n\nSamorез prizma, chekka reykalar, shayba, shuningdek boshqa tom elementlarini sink bilan qoplangan profillangan list, yog'och va sendvich-panellardan tayyorlangan tayanch asosiga mahkamlash uchun ishlatiladi.\n\n**Afzalliklari:**\n\n• **KORROZIYAGA QARSHILIK** - Sifatli himoya qoplamasi tufayli yuqori korroziyaga qarshilik\n• **KUCHAYTIRILGAN YUZALI TIG'** - 4 mm gacha qalinlikdagi profillangan listdan tayyorlangan asosga mahkamlash imkoniyati\n• **O'Z-O'ZIDAN BURILISHGA CHIDAMLILIK** - Samorезlarning shakli mahkamlash ishonchliligini ta'minlaydi\n\n*Kestenih kamerasi galvanik va bo'yoq qoplamalari bilan himoyalangan namunalarni sinovdan o'tkazish uchun qurilmadir.",
+      ru: "Кровельный крепежный элемент — саморез PROPLUG — предназначен для обеспечения телескопического эффекта при креплении тепло- и гидроизоляции. Применяется совместно с анкер-втулкой PROPLUG.\n\n**Описание:**\n\nСаморез для анкер-втулки PROPLUG используется для надежного крепления тепло- и гидроизоляционных материалов на кровле зданий. Широко применяется для крепления к несущему основанию из профилированного настила, а также к деревянным (фанера, доска, ОСП) и бетонным поверхностям (в том числе стяжка из ЦПС) с применением распорного дюбеля PROPLUG. Высококачественное защитное антикоррозийное покрытие обеспечивает стойкость, соответствующую показателям 15 циклов в климатической камере Кестерниха. Редуцированное сверло диаметром меньше резьбы самореза предотвращает нарушение размеров отверстий в тонких листах металла и в телескопических втулках PROPLUG.\n\nСаморез используется для крепления прижимных, краевых реек, шайб, а так же иных кровельных элементов к несущему основанию из оцинкованного профилированного листа, дерева и сэндвич-панелей.\n\n**Преимущества:**\n\n• **КОРРОЗИОННАЯ СТОЙКОСТЬ** - Высокая коррозионная стойкость благодаря качественному защитному покрытию\n• **РЕЗЬБА С УСИЛЕННОЙ ПОВЕРХНОСТЬЮ** - Возможность крепления к основанию из профилированного листа толщиной до 4 мм\n• **УСТОЙЧИВОСТЬ К САМОВЫКРУЧИВАНИЮ** - Форма саморезов обеспечивает надежность крепления\n\n*камера Кестерниха является установкой для проведения испытаний образцов, защищенных гальваническими и лакокрасочными покрытиями."
+    },
+    specs: [
+      {
+        label: { uz: "Uzunligi", ru: "Длина, мм" },
+        value: "50-300 мм"
+      },
+      {
+        label: { uz: "Buzuvchi tortib oluvchi yuk", ru: "Разрушающая вытягивающая нагрузка" },
+        value: "от 0,96 до 7,27 кН"
+      },
+      {
+        label: { uz: "Cho'zilishdagi mustahkamlik chegarasi", ru: "Предел прочности на растяжение" },
+        value: "12,2 кН"
+      },
+      {
+        label: { uz: "Kesishdagi mustahkamlik chegarasi", ru: "Предел прочности на срез" },
+        value: "8 кН"
+      },
+      {
+        label: { uz: "Po'lat markasi", ru: "Марка стали" },
+        value: "SAE 1022"
+      },
+      {
+        label: { uz: "SO2 dagi korroziyaga qarshilik", ru: "Коррозионная стойкость в SO2" },
+        value: "15 циклов"
+      },
+      {
+        label: { uz: "Tuzli tumandagi korroziyaga qarshilik, soat", ru: "Коррозионная стойкость в солевом тумане, ч" },
+        value: "от 1200 до 1500"
+      }
+    ]
+  },
+  {
+    id: "proplug-dowel",
+    name: "ДЮБЕЛЬ РАСПОРНЫЙ PROPLUG",
+    category: "penopleks",
+    images: [proplugDowel],
+    description: {
+      uz: "Mahkamlash elementi. Anker-vtulkalar PROPLUG, metall reykalar va boshqa tom elementlarini beton asosiga mahkamlash uchun mo'ljallangan.\n\n**Tavsif:**\n\nYoyiluvchi dubel PROPLUG anker-vtulkalar PROPLUG, metall reykalar va boshqa tom elementlarini beton asosiga mahkamlash uchun mahkamlash elementidir. Dubel yuqori mustahkamlik xususiyatlariga ega yuqori sifatli polimerdan tayyorlangan. Turar-joy, jamoat, sanoat binolarida qo'llaniladi.\n\n**Afzalliklari:**\n\n• **YUQORI MUSTAHKAMLIK** — Dubel mexanik ta'sirlarga yuqori mustahkamlikka ega\n• **\"SOVUQ KO'PRIKLARI\"NING YO'QLIGI** — Dubel materialining xususiyatlari tufayli \"sovuq ko'priklari\"ning paydo bo'lishi istisno qilingan, shuningdek nuqtaviy yukda qoplamaning buzilishi\n\n**Qo'llanish sohasi:**\n\nTomlar va qoplamalar, Stilobatlar\n\n**Normalar / standartlar:**\n\nMahkamlash elementi. Anker-vtulkalar PROPLUG, metall reykalar va boshqa tom elementlarini beton asosiga mahkamlash uchun mo'ljallangan.",
+      ru: "Распорный дюбель PROPLUG — крепежный элемент для анкер-втулок PROPLUG, металлических реек и других кровельных элементов к бетонному основанию.\n\n**Описание:**\n\nРаспорный дюбель PROPLUG используется для крепления анкер-втулок PROPLUG, металлических реек и других кровельных элементов к бетонному основанию. Дюбель выполнен из высококачественного полимера, обладающего высокими прочностными характеристиками. Применяется в жилых, общественных, промышленных зданиях.\n\n**Преимущества:**\n\n• **ВЫСОКАЯ ПРОЧНОСТЬ** — Дюбель обладает высокой прочностью к механическим воздействиям\n• **ОТСУТСТВИЕ «МОСТИКОВ ХОЛОДА»** — Благодаря свойствам материала дюбеля исключено возникновение «мостиков холода», а также разрушение покрытия при точечной нагрузке\n\n**Область применения:**\n\nКрыши и покрытия, Стилобаты\n\n**Нормы / стандарты:**\n\nКрепежный элемент. Предназначен для анкер-втулок PROPLUG, металлических реек и других кровельных элементов к бетонному основанию."
+    },
+    specs: [
+      {
+        label: { uz: "Asosning minimal qalinligi", ru: "Минимальная толщина основания" },
+        value: "50 мм"
+      },
+      {
+        label: { uz: "Asosning maksimal qalinligi", ru: "Максимальная толщина основания" },
+        value: "не ограничена"
+      },
+      {
+        label: { uz: "Diametr", ru: "Диаметр" },
+        value: "8 мм"
+      },
+      {
+        label: { uz: "Uzunligi", ru: "Длина" },
+        value: "40 мм"
+      },
+      {
+        label: { uz: "Chiqarib olishga qarshilik (beton asosi)", ru: "Усилие на вырыв (бетонное основание)" },
+        value: "1,1 кН (110 кг)"
+      },
+      {
+        label: { uz: "Foydalanish harorat oralig'i", ru: "Температурный диапазон эксплуатации" },
+        value: "от -50 до +90°C"
       }
     ]
   }
