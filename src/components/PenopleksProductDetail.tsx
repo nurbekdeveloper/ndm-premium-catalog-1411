@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useCart } from "@/contexts/CartContext";
 import { Product } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -22,6 +23,7 @@ const PenopleksProductDetail = ({
   const {
     toast
   } = useToast();
+  const { addToCart } = useCart();
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
@@ -77,6 +79,7 @@ const PenopleksProductDetail = ({
     setQuantity(prev => Math.max(1, prev + delta));
   };
   const handleBuy = () => {
+    addToCart(product, quantity);
     toast({
       title: t("Savatga qo'shildi", "Добавлено в корзину"),
       description: `${product.name} - ${selectedThickness}mm (${quantity} ${t("dona", "шт")})`
@@ -125,6 +128,28 @@ const PenopleksProductDetail = ({
                       <p>{t("Poydevorlar", "Фундаменты")}</p>
                       <p className="text-primary font-medium mt-4">
                         {t("Tom tizimlarida paro izolyatsiyasini qurishda qo'llaniladi va issiqlik izolyatorini xonalar ichida hosil bo'ladigan suv bug'idan himoya qiladi", "Применяется для устройства пароизоляции в кровельных системах и защищает утеплитель от водяного пара, образующегося внутри помещений")}
+                      </p>
+                    </> : product.id === "plastfoil-pvc-cleaner" ? <>
+                      <p>{t("Tom va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Poydevorlar", "Фундаменты")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Iflos va/yoki eski PVX membranalar yuzasini mahalliy tozalash uchun issiq havo bilan payvandlashda yopishqoqlikni yaxshilash, shuningdek asboblarni tozalash uchun", "Локальная очистка поверхности загрязненных и/или старых ПВХ мембран для улучшения адгезии при сварке горячим воздухом, а также очистка инструмента")}
+                      </p>
+                    </> : product.id === "plastfoil-pvc-activator" ? <>
+                      <p>{t("Tom va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Poydevorlar", "Фундаменты")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("PVX membranalar yuzasini issiq havo bilan payvandlashda yopishqoqlikni yaxshilash uchun qayta ishlash", "Обработка поверхности ПВХ мембран для улучшения адгезии при сварке горячим воздухом")}
+                      </p>
+                    </> : product.id === "plastfoil-roof-aerator" ? <>
+                      <p>{t("Tom va qoplamalar", "Крыши и покрытия")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Tomda tashqi muhit ta'siriga yuqori ishonchlilik va chidamlilik. PVX membranalardan yasalgan tomlar uchun ideal variant", "Высокая надежность и стойкость к воздействиям внешней среды на кровле. Идеальный вариант для кровель из ПВХ мембран")}
+                      </p>
+                    </> : product.id === "plastfoil-test-fix" ? <>
+                      <p>{t("Tom va qoplamalar", "Крыши и покрытия")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Payvand tikuvlar joylarida oqish joylarini o'ta aniq diagnostika qilish imkonini beradi", "Позволяет выполнять сверхточную диагностику протечек в местах сварных швов")}
                       </p>
                     </> : product.id === "penoplex-extreme" ? <>
                       <p>{t("Poydevorlar", "Фундаменты")}</p>
