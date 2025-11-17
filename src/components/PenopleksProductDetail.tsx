@@ -237,7 +237,7 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Uch qatlamli temir-beton panellarini ishlab chiqaruvchi korxonalarda qo'llanish uchun mahsulot", "Продукция для применения на производствах трехслойных железобетонных панелей")}
                       </p>
-                    </> : product.id === "proplug-screw" ? <>
+                     </> : product.id === "proplug-screw" ? <>
                       <p className="font-semibold text-primary">{t("Mahkamlash elementi", "Крепежный элемент")}</p>
                       <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
                       <p>{t("Stilobatlar", "Стилобаты")}</p>
@@ -250,6 +250,19 @@ const PenopleksProductDetail = ({
                       <p>{t("Stilobatlar", "Стилобаты")}</p>
                       <p className="text-primary font-medium mt-4">
                         {t("Anker-vtulkalar PROPLUG, metall reykalar va boshqa tom elementlarini beton asosiga mahkamlash uchun", "Для анкер-втулок PROPLUG, металлических реек и других кровельных элементов к бетонному основанию")}
+                      </p>
+                    </> : product.id === "proplug-anchor-sleeve" ? <>
+                      <p className="font-semibold text-primary">{t("Mahkamlash elementi", "Крепежный элемент")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Stilobatlar", "Стилобаты")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Tom mahkamlash elementi. Issiqlik, gidro va tovush izolyatsiya materiallarini mexanik mahkamlash uchun", "Кровельный крепежный элемент для механической фиксации теплоизоляционных, гидроизоляционных и звукоизоляционных материалов")}
+                      </p>
+                    </> : product.id === "plastfoil-stepway" || product.id === "plastfoil-stepway-pvc" ? <>
+                      <p className="font-semibold text-primary">{t("Gidroizolyatsiyani himoya qilish", "Защита гидроизоляции")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("PVX qoplama bilan tom yuzasida xavfsiz harakatlanishni tashkil qilish uchun", "Для организации безопасного перемещения по поверхности кровли с ПВХ покрытием")}
                       </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
