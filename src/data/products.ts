@@ -49,6 +49,7 @@ import plastfoilStepway from "@/assets/products/plastfoil-stepway.png";
 import plastfoilStepwayPvc from "@/assets/products/plastfoil-stepway-pvc.png";
 import plastfoilAluminumRail1 from "@/assets/products/plastfoil-aluminum-rail-1.png";
 import plastfoilAluminumRail2 from "@/assets/products/plastfoil-aluminum-rail-2.png";
+import plastfoilUniversalTie from "@/assets/products/plastfoil-universal-tie.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2468,7 +2469,7 @@ export const products: Product[] = [
     id: "plastfoil-universal-tie",
     name: "УНИВЕРСАЛЬНАЯ СТЯЖКА ДЛЯ НЕСЪЕМНОЙ ОПАЛУБКИ",
     category: "penopleks",
-    images: [plastfoilAluminumRail1],
+    images: [plastfoilUniversalTie],
     description: {
       uz: "Universal tortma ko'chmas qolip uchun tez quriladigan monolit fundament, devor va boshqa murakkab elementlarni qurish uchun ishlatiladi.\n\nUniversal tortma fundament, devor va boshqa elementlarning tez quriladigan monolit konstruksiyalarini qurish uchun ko'chmas qolipni o'rnatish uchun ishlatiladi. Tortma ikki element va ikki ushlagichni o'z ichiga oladi. Tortma yordamida beton konstruksiyalarning qalinligini 150 dan 250 mm gacha belgilash mumkin; uzaytiruvchi ishlatilganda - 25 mm qadam bilan 400 mm gacha. Tortmalarda armatura uchun fiksatorni mahkamlash ko'zda tutilgan.",
       ru: "Универсальная стяжка используется для монтажа несъемной опалубки при устройстве быстровозводимых монолитных фундаментов, стен и других элементов любой сложности.\n\nУниверсальная стяжка используется для монтажа несъемной опалубки при устройстве быстровозводимых монолитных фундаментов, стен и других элементов любой сложности. Стяжка включает два элемента и два держателя. При помощи стяжки можно задать толщину бетонных конструкций от 150 до 250 мм; при использовании удлинителя — до 400 мм с шагом 25 мм. На стяжках предусмотрено крепление для фиксатора под арматуру."
