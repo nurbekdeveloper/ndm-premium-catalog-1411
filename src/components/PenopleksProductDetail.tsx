@@ -213,25 +213,7 @@ const PenopleksProductDetail = ({
                 {product.id !== "plastfoil-membrane"}
 
                 {/* Packaging Information */}
-                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness] && (
-                  <div className="bg-muted/50 rounded-lg p-4 space-y-2">
-                    <h3 className="font-semibold text-sm text-muted-foreground">{t("Qadoq ma'lumotlari", "Информация об упаковке")}</h3>
-                    <div className="grid grid-cols-3 gap-4 text-sm">
-                      <div>
-                        <p className="text-muted-foreground">{t("Miqdori", "Количество")}</p>
-                        <p className="font-semibold">{packagingData[selectedThickness].quantity} {t("dona", "шт")}</p>
-                      </div>
-                      <div>
-                        <p className="text-muted-foreground">{t("Maydon", "Площадь")}</p>
-                        <p className="font-semibold">{packagingData[selectedThickness].area} м²</p>
-                      </div>
-                      <div>
-                        <p className="text-muted-foreground">{t("Qirra turi", "Тип кромки")}</p>
-                        <p className="font-semibold">{packagingData[selectedThickness].edgeType}</p>
-                      </div>
-                    </div>
-                  </div>
-                )}
+                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness]}
 
                 {/* Order Button */}
                 <OrderDialog productName={`${product.name}${product.id !== "plastfoil-membrane" ? ` - ${selectedThickness}mm` : ""}`} className="w-full btn-premium" />
@@ -303,37 +285,9 @@ const PenopleksProductDetail = ({
                       <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                         {t("Описание", "Описание")}
                       </h3>
-                      <div className="text-muted-foreground leading-relaxed space-y-4">
-                        {(language === "uz" ? product.description.uz : product.description.ru).split('\n\n').map((paragraph, idx) => {
-                          // Check if it's a heading (starts with capitals or contains ":")
-                          if (paragraph.match(/^[А-ЯЎЁ\s]+:?$/) || paragraph.match(/^[A-Z\s]+:?$/)) {
-                            return (
-                              <h4 key={idx} className="font-semibold text-foreground mt-6 mb-3">
-                                {paragraph}
-                              </h4>
-                            );
-                          }
-                          // Check if it contains bullet points
-                          if (paragraph.includes('•') || paragraph.includes('-')) {
-                            const items = paragraph.split('\n').filter(line => line.trim());
-                            return (
-                              <ul key={idx} className="space-y-2 ml-4">
-                                {items.map((item, itemIdx) => (
-                                  <li key={itemIdx} className="flex items-start gap-2">
-                                    <span className="text-primary mt-1">•</span>
-                                    <span>{item.replace(/^[•\-]\s*/, '')}</span>
-                                  </li>
-                                ))}
-                              </ul>
-                            );
-                          }
-                          return (
-                            <p key={idx}>
-                              {paragraph}
-                            </p>
-                          );
-                        })}
-                      </div>
+                      <p className="text-muted-foreground leading-relaxed">
+                        {language === "uz" ? product.description.uz : product.description.ru}
+                      </p>
                     </div>
                     
                     {product.id === "plastfoil-membrane" ? <>
