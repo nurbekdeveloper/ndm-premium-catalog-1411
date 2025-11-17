@@ -167,6 +167,12 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Tom ostidagi bo'shliqni ventilyatsiya qilish uchun qurilma. Suv bug'larini chiqarish va tekis tomlarda shishishning oldini olish uchun ishlatiladi", "Устройство для вентиляции подкровельного пространства. Используется для отвода водяных паров и предотвращения вздутий на плоских кровлях")}
                       </p>
+                    </> : product.id === "terraisol-geotextile" ? <>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Stilobatlar", "Стилобаты")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("To'qilmagan termal mahkamlangan geotekstil. Kimyoviy jihatdan mos kelmaydigan materiallar uchun ajratuvchi va himoya qatlami sifatida ishlatiladi", "Нетканый термоскрепленный геотекстиль. Используется как разделительный и защитный слой для химически несовместимых материалов")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>

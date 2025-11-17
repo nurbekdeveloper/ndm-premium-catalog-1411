@@ -34,6 +34,7 @@ import penoplexSlopePackage from "@/assets/products/penoplex-slope-package.png";
 import penoplexFloorPackage from "@/assets/products/penoplex-floor-package.png";
 import plastfoilTestD from "@/assets/products/plastfoil-test-d.png";
 import plastfoilAero from "@/assets/products/plastfoil-aero.png";
+import terraisolGeotextile from "@/assets/products/terraisol-geotextile.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1053,14 +1054,60 @@ export const products: Product[] = [
     id: "terraisol-geotextile",
     name: "ГЕОТЕКСТИЛЬ TERRAISOL",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [terraisolGeotextile],
     description: {
-      uz: "TERRAISOL geotekstil. Polipropilen tolasidan ishlab chiqarilgan yuqori mustahkamlikdagi to'qilmagan geotekstil mato.",
-      ru: "Геотекстиль TERRAISOL из полипропиленового волокна высокой прочности для разделения, армирования и дренажа."
+      uz: "To'qilmagan termal mahkamlangan TERRAISOL geotekstili poliefir va polipropilen tolalar aralashmasidan ishlab chiqariladi. Fuqarolik qurilishida kimyoviy jihatdan bir-biriga mos kelmaydigan materiallar, masalan, PVX va XPS uchun ajratuvchi qatlam sifatida va gidroizolyatsiyani yig'ma yoki tsement-qum qoplamasi, beton asos bo'ylab o'rnatishda, shuningdek, mavjud bitum gidroizolyatsiya qatlami bo'ylab tomlarni rekonstruksiya qilishda himoya qatlami sifatida keng qo'llaniladi.\n\nTERRAISOL geotekstilini ishlab chiqarish jarayonida xom ashyo yorug'lik ta'siriga chidamlilik va namlikka chidamlilikni ta'minlaydigan maxsus qo'shimchalar bilan boyitiladi.\n\nGeotekstil tolalarining termal ishlov berish va ularning qisqa uzunligi materialni osongina burg'ulash yoki vintlarni burab kiritish imkonini beradi. Natijada, igna teshilgan geotekstilga xos bo'lgan tolalarning burgu yoki vint ustiga o'ralishi sodir bo'lmaydi.\n\nO'rnatish jarayonida material polosalari issiq havo bilan payvandlanishi mumkin.\n\nGeotekstil rulonining kengligi PLASTFOIL polimer membranasi ostiga ajratuvchi va himoya qatlami sifatida yotqizish uchun ideal.\n\n**Afzalliklari:**\n\n**MEXANIK MUSTAHKAMLIK** — Siqilish va yirtilishga yuqori mexanik mustahkamlik\n\n**KIMYOVIY BARQARORLIK** — Kimyoviy moddalar ta'siriga yuqori chidamlilik\n\n**BIOLOGIK BARQARORLIK** — Agressiv muhit va mikroorganizmlar ta'siriga chidamlilik\n\n**NOL SUV SHIMISHI** — Suvni shimirmaydi, nam havoda ishlatganda materialning massasi o'zgarmaydi\n\n**UV NURLANISHIGA CHIDAMLILIK** — Yorug'lik ta'siriga yuqori chidamlilik\n\n**O'RNATISH QULAYLIGI** — Yuqori o'rnatish tezligi, soddaligi va texnologikligi",
+      ru: "Нетканый термоскрепленный геотекстиль TERRAISOL производится из смеси полиэфирного и полипропиленового волокна. Широко используется в гражданском строительстве как разделительный слой для химически несовместимых между собой материалов, например, ПВХ и XPS, так и защитный — при устройстве гидроизоляции по сборной или ЦПС стяжке, бетонному основанию, а также при реконструкции кровель по существующему слою битумной гидроизоляции.\n\nВ процессе производства геотекстиля TERRAISOL исходное сырье обогащается специальными добавками, которые придают материалу стойкость к световому воздействию и влагоустойчивость.\n\nТермообработка волокон геотекстиля и их малая длина позволяют легко просверлить материал или закрутить саморезы. В результате не происходит наматывание волокон на сверло самореза, что характерно для иглопробивного геотекстиля.\n\nВ процессе монтажа полотна материала можно сваривать между собой горячим воздухом.\n\nШирина рулона геотекстиля идеально подходит для укладки под полимерную мембрану PLASTFOIL в качестве разделительного и защитного слоя.\n\n**Преимущества:**\n\n**МЕХАНИЧЕСКАЯ ПРОЧНОСТЬ** — Высокая механическая прочность на сжатие и разрыв\n\n**ХИМИЧЕСКАЯ СТОЙКОСТЬ** — Высокая стойкость к воздействию химических веществ\n\n**БИОСТОЙКОСТЬ** — Стойкость к воздействию агрессивных сред и микроорганизмов\n\n**НУЛЕВОЕ ВОДОПОГЛОЩЕНИЕ** — Не впитывает воду, при использовании в сырую погоду масса материала остается неизменной\n\n**УСТОЙЧИВОСТЬ К УФ-ИЗЛУЧЕНИЮ** — Высокая устойчивость к воздействию света\n\n**УДОБСТВО МОНТАЖА** — Высокая скорость монтажа, простота и технологичность"
     },
     specs: [
-      { label: { uz: "Material", ru: "Материал" }, value: "Полипропилен" },
-      { label: { uz: "Zichlik", ru: "Плотность" }, value: "100-600 г/м²" }
+      { 
+        label: { uz: "Model", ru: "Наименование" }, 
+        value: "Геотекстиль TERRAISOL 150" 
+      },
+      { 
+        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
+        value: "150 ± 10" 
+      },
+      { 
+        label: { uz: "Uzunlik/kenglik bo'yicha yirtilish yuki, kamida, kN/m", ru: "Разрывная нагрузка, по длине/ширине, не менее, кН/м" }, 
+        value: "4,0/5,0" 
+      },
+      { 
+        label: { uz: "Yirtilishdagi cho'zilish, ko'pi bilan, %", ru: "Удлинение при разрыве, не более, %" }, 
+        value: "80" 
+      },
+      { 
+        label: { uz: "Shar bilan bosishda mustahkamlik, kamida, kN", ru: "Прочность при продавливании шариком, не менее, кН" }, 
+        value: "0,4" 
+      },
+      { 
+        label: { uz: "200 kPa yukda filtratsiya koeffitsienti, ko'pi bilan, m/kun (sm/s)", ru: "Коэффициент фильтрации при нагрузке 200 кПа, не более, м/сут (см/с)" }, 
+        value: "4,0 (4•10⁻³)" 
+      },
+      { 
+        label: { uz: "Model", ru: "Наименование" }, 
+        value: "Геотекстиль TERRAISOL 300" 
+      },
+      { 
+        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
+        value: "300 ± 10" 
+      },
+      { 
+        label: { uz: "Uzunlik/kenglik bo'yicha yirtilish yuki, kamida, kN/m", ru: "Разрывная нагрузка, по длине/ширине, не менее, кН/м" }, 
+        value: "6,0/8,0" 
+      },
+      { 
+        label: { uz: "Yirtilishdagi cho'zilish, ko'pi bilan, %", ru: "Удлинение при разрыве, не более, %" }, 
+        value: "70" 
+      },
+      { 
+        label: { uz: "Shar bilan bosishda mustahkamlik, kamida, kN", ru: "Прочность при продавливании шариком, не менее, кН" }, 
+        value: "2,0" 
+      },
+      { 
+        label: { uz: "200 kPa yukda filtratsiya koeffitsienti, ko'pi bilan, m/kun (sm/s)", ru: "Коэффициент фильтрации при нагрузке 200 кПа, не более, м/сут (см/с)" }, 
+        value: "4,0 (4•10⁻³)" 
+      }
     ]
   },
   {
