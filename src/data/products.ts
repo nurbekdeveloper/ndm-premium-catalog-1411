@@ -47,6 +47,8 @@ import proplugDowel from "@/assets/products/proplug-dowel.png";
 import proplugAnchorSleeve from "@/assets/products/proplug-anchor-sleeve.png";
 import plastfoilStepway from "@/assets/products/plastfoil-stepway.png";
 import plastfoilStepwayPvc from "@/assets/products/plastfoil-stepway-pvc.png";
+import plastfoilAluminumRail1 from "@/assets/products/plastfoil-aluminum-rail-1.png";
+import plastfoilAluminumRail2 from "@/assets/products/plastfoil-aluminum-rail-2.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2411,6 +2413,86 @@ export const products: Product[] = [
       {
         label: { uz: "Yonish guruhi", ru: "Группа горючести" },
         value: "Г4"
+      }
+    ]
+  },
+  {
+    id: "plastfoil-aluminum-rail-clamp",
+    name: "ПРИЖИМНЫЕ АЛЮМИНИЕВЫЕ РЕЙКИ",
+    category: "penopleks",
+    images: [plastfoilAluminumRail1],
+    description: {
+      uz: "Alyuminiy-magniy qotishmasidan tayyorlangan reyка. Tom perimetri bo'ylab va barcha chiqib turgan konstruksiyalar atrofida membranani mahkamlash uchun ishlatiladi.\n\nDobornyy tom elementi PVX-membranani vertikal yuzalarda, gorizontaldan vertikalga o'tish joylarida mahkamlash uchun mo'ljallangan.\n\n**Afzalliklari:**\n\n**MUSTAHKAMLIK** — Egilish va buralishga yuqori mustahkamlik\n\n**HARORAT O'ZGARISHLARIGA CHIDAMLILIK** — O'zgaruvchan harorat ta'siriga chidamlilik\n\n**KORROZIYAGA CHIDAMLILIK** — Yuqori korroziyaga qarshilik",
+      ru: "Рейка из алюминиево-магниевого сплава. Используется для фиксации мембраны по периметру кровли и вокруг всех выступающих конструкций.\n\nДоборный кровельный элемент предназначен для фиксации ПВХ-мембраны на вертикальных поверхностях в местах перехода с горизонтальной на вертикальную поверхность.\n\n**Преимущества:**\n\n**ПРОЧНОСТЬ** — Повышенная прочность на изгиб и кручение\n\n**СТОЙКОСТЬ К ПЕРЕПАДАМ ТЕМПЕРАТУР** — Устойчивость к знакопеременным воздействиям температур\n\n**КОРРОЗИОННАЯ СТОЙКОСТЬ** — Высокая коррозионная стойкость"
+    },
+    specs: [
+      {
+        label: { uz: "Uzunligi, mm", ru: "Длина, мм" },
+        value: "2000"
+      },
+      {
+        label: { uz: "Kengligi, mm", ru: "Ширина, мм" },
+        value: "30,5"
+      },
+      {
+        label: { uz: "Qalinligi, mm", ru: "Толщина, мм" },
+        value: "1,8"
+      }
+    ]
+  },
+  {
+    id: "plastfoil-aluminum-rail-edge",
+    name: "КРАЕВЫЕ АЛЮМИНИЕВЫЕ РЕЙКИ",
+    category: "penopleks",
+    images: [plastfoilAluminumRail2],
+    description: {
+      uz: "Alyuminiy-magniy qotishmasidan tayyorlangan reyка. Membrananing yuqori chetini vertikal yuzalarga mahkamlash uchun qo'llaniladi.\n\nDobornyy tom elementi vertikal yuzalarda gidroizolyatsiyani yakunlash uchun PVX-membranani mahkamlash uchun mo'ljallangan. PU germetikni qo'llash uchun egiluvchan chetga ega.\n\n**Afzalliklari:**\n\n**MUSTAHKAMLIK** — Egilish va buralishga yuqori mustahkamlik\n\n**HARORAT O'ZGARISHLARIGA CHIDAMLILIK** — O'zgaruvchan harorat ta'siriga chidamlilik\n\n**KORROZIYAGA CHIDAMLILIK** — Yuqori korroziyaga qarshilik",
+      ru: "Рейка из алюминиево-магниевого сплава. Применяется для крепления верхнего края мембраны к вертикальным поверхностям.\n\nДоборный кровельный элемент предназначен для фиксации ПВХ-мембраны для завершения гидроизоляции на вертикальных поверхностях. Имеет отгибной край для нанесения ПУ герметика.\n\n**Преимущества:**\n\n**ПРОЧНОСТЬ** — Повышенная прочность на изгиб и кручение\n\n**СТОЙКОСТЬ К ПЕРЕПАДАМ ТЕМПЕРАТУР** — Устойчивость к знакопеременным воздействиям температур\n\n**КОРРОЗИОННАЯ СТОЙКОСТЬ** — Высокая коррозионная стойкость"
+    },
+    specs: [
+      {
+        label: { uz: "Uzunligi, mm", ru: "Длина, мм" },
+        value: "2000"
+      },
+      {
+        label: { uz: "Kengligi, mm", ru: "Ширина, мм" },
+        value: "30,5"
+      },
+      {
+        label: { uz: "Qalinligi, mm", ru: "Толщина, мм" },
+        value: "1,8"
+      }
+    ]
+  },
+  {
+    id: "plastfoil-universal-tie",
+    name: "УНИВЕРСАЛЬНАЯ СТЯЖКА ДЛЯ НЕСЪЕМНОЙ ОПАЛУБКИ",
+    category: "penopleks",
+    images: [plastfoilAluminumRail1],
+    description: {
+      uz: "Universal tortma ko'chmas qolip uchun tez quriladigan monolit fundament, devor va boshqa murakkab elementlarni qurish uchun ishlatiladi.\n\nUniversal tortma fundament, devor va boshqa elementlarning tez quriladigan monolit konstruksiyalarini qurish uchun ko'chmas qolipni o'rnatish uchun ishlatiladi. Tortma ikki element va ikki ushlagichni o'z ichiga oladi. Tortma yordamida beton konstruksiyalarning qalinligini 150 dan 250 mm gacha belgilash mumkin; uzaytiruvchi ishlatilganda - 25 mm qadam bilan 400 mm gacha. Tortmalarda armatura uchun fiksatorni mahkamlash ko'zda tutilgan.",
+      ru: "Универсальная стяжка используется для монтажа несъемной опалубки при устройстве быстровозводимых монолитных фундаментов, стен и других элементов любой сложности.\n\nУниверсальная стяжка используется для монтажа несъемной опалубки при устройстве быстровозводимых монолитных фундаментов, стен и других элементов любой сложности. Стяжка включает два элемента и два держателя. При помощи стяжки можно задать толщину бетонных конструкций от 150 до 250 мм; при использовании удлинителя — до 400 мм с шагом 25 мм. На стяжках предусмотрено крепление для фиксатора под арматуру."
+    },
+    specs: [
+      {
+        label: { uz: "Uzunligi, mm", ru: "Длина, мм" },
+        value: "260"
+      },
+      {
+        label: { uz: "Kengligi, mm", ru: "Ширина, мм" },
+        value: "30"
+      },
+      {
+        label: { uz: "Balandligi, mm", ru: "Высота, мм" },
+        value: "25"
+      },
+      {
+        label: { uz: "Zichligi, g/sm³", ru: "Плотность, г/см³" },
+        value: "1,4"
+      },
+      {
+        label: { uz: "Yirtilishga mustahkamlik, kg", ru: "Прочность на разрыв, кг" },
+        value: "300"
       }
     ]
   }
