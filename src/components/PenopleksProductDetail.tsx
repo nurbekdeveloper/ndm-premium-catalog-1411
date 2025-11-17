@@ -210,10 +210,46 @@ const PenopleksProductDetail = ({
                 </div>
 
                 {/* Thickness Selector for Penopleks */}
-                {product.id !== "plastfoil-membrane"}
+                {product.id !== "plastfoil-membrane" && (
+                  <div className="space-y-3">
+                    <label className="text-sm font-medium">
+                      {t("Qalinlik (mm)", "Толщина (мм)")}
+                    </label>
+                    <div className="flex flex-wrap gap-2">
+                      {thicknessOptions.map((thickness) => (
+                        <Button
+                          key={thickness}
+                          variant={selectedThickness === thickness ? "default" : "outline"}
+                          onClick={() => setSelectedThickness(thickness)}
+                          className="min-w-[60px]"
+                        >
+                          {thickness}
+                        </Button>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 {/* Packaging Information */}
-                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness]}
+                {product.id !== "plastfoil-membrane" && packagingData[selectedThickness] && (
+                  <div className="bg-muted/50 rounded-lg p-4 space-y-2">
+                    <p className="text-sm font-medium">{t("Qadoq ma'lumotlari", "Информация об упаковке")}</p>
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div>
+                        <span className="text-muted-foreground">{t("Soni", "Количество")}:</span>
+                        <span className="ml-2 font-medium">{packagingData[selectedThickness].quantity} {t("dona", "шт")}</span>
+                      </div>
+                      <div>
+                        <span className="text-muted-foreground">{t("Maydon", "Площадь")}:</span>
+                        <span className="ml-2 font-medium">{packagingData[selectedThickness].area} m²</span>
+                      </div>
+                      <div className="col-span-2">
+                        <span className="text-muted-foreground">{t("Qirra turi", "Тип кромки")}:</span>
+                        <span className="ml-2 font-medium">{packagingData[selectedThickness].edgeType}</span>
+                      </div>
+                    </div>
+                  </div>
+                )}
 
                 {/* Order Button */}
                 <OrderDialog productName={`${product.name}${product.id !== "plastfoil-membrane" ? ` - ${selectedThickness}mm` : ""}`} className="w-full btn-premium" />
