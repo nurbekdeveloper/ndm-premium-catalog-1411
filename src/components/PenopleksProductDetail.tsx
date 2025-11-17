@@ -161,6 +161,12 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Polipropilen korpusli va zanglamaydigan po'latdan qisishtiruvchi flansli, shuningdek, barg ushlagichli tom voronkasi tekis tomlardan yomg'ir va eritilgan suvni oqizish uchun mo'ljallangan", "Воронка кровельная с корпусом из полипропилена и прижимным фланцем из нержавеющей стали, а также с листоуловителем, предназначена для отвода дождевой и талой воды с плоских кровель")}
                       </p>
+                    </> : product.id === "plastfoil-aero" ? <>
+                      <p className="font-semibold text-primary">{t("Suv oqizish", "Водоотвод")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Tom ostidagi bo'shliqni ventilyatsiya qilish uchun qurilma. Suv bug'larini chiqarish va tekis tomlarda shishishning oldini olish uchun ishlatiladi", "Устройство для вентиляции подкровельного пространства. Используется для отвода водяных паров и предотвращения вздутий на плоских кровлях")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
