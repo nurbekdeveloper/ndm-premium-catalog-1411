@@ -36,6 +36,7 @@ import plastfoilTestD from "@/assets/products/plastfoil-test-d.png";
 import plastfoilAero from "@/assets/products/plastfoil-aero.png";
 import terraisolGeotextile from "@/assets/products/terraisol-geotextile.png";
 import terraisolEco from "@/assets/products/terraisol-eco.png";
+import fireProtectFabric from "@/assets/products/fire-protect-fabric.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1149,16 +1150,50 @@ export const products: Product[] = [
   },
   {
     id: "fire-protect-fabric",
-    name: "ПРОТИВОПОЖАРНАЯ ТКАНЬ FIRE PROTECT",
+    name: "ПРОТИВОПОЖАРНАЯ ТКАНЬ FIRE PROTECT PVC",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [fireProtectFabric],
     description: {
-      uz: "FIRE PROTECT yong'inga qarshi mato. Shisha toladan ishlab chiqarilgan, tom yong'inga qarshi to'siqlar uchun.",
-      ru: "Противопожарная ткань FIRE PROTECT из стекловолокна для устройства противопожарных барьеров на кровле."
+      uz: "FIRE PROTECT PVC yong'inga qarshi materialining asosi shisha toladan yasalgan yonmaydigan mato hisoblanadi. Matoning pastki tomoni PVX membrana bilan ishonchli birikma ta'minlaydigan maxsus tarkib bilan ishlov berilgan.\n\n**Afzalliklari:**\n\n**CHIDAMLILIK** — Tom ekspluatatsiya muddatini uzaytiradi\n\n**MUSTAHKAMLIK** — Matoning maxsus to'qilishi tufayli yuqori mexanik mustahkamlik, shu jumladan teshilishlarga chidamlilik\n\n**ATMOSFERAGA CHIDAMLILIK** — Ultrabinafsha nurlanishiga yuqori chidamlilik\n\n**O'RNATISH QULAYLIGI** — Yuqori o'rnatish tezligi, soddalik va texnologiklik",
+      ru: "Основой противопожарного материала Fire Protect PVC служит негорючая ткань из стекловолокна. Нижняя сторона полотна обработана специальным составом, обеспечивающим надежное соединение с ПВХ мембраной.\n\n**Преимущества:**\n\n**ДОЛГОВЕЧНОСТЬ** — Увеличение срока эксплуатации кровли\n\n**ПРОЧНОСТЬ** — Высокая механическая прочность, в том числе к проколам, благодаря специальному плетению ткани\n\n**АТМОСФЕРОСТОЙКОСТЬ** — Высокая устойчивость к воздействию ультрафиолета\n\n**УДОБСТВО МОНТАЖА** — Высокая скорость монтажа, простота и технологичность"
     },
     specs: [
-      { label: { uz: "Material", ru: "Материал" }, value: "Стекловолокно" },
-      { label: { uz: "Yonuvchanlik", ru: "Горючесть" }, value: "НГ (негорючий)" }
+      { 
+        label: { uz: "PO sinfi", ru: "Класс ПО" }, 
+        value: "КП0" 
+      },
+      { 
+        label: { uz: "Olov tarqalish guruhi", ru: "Группа распространения пламени" }, 
+        value: "РП1 (нераспространяющие огонь)" 
+      },
+      { 
+        label: { uz: "Yonish guruhi", ru: "Группа воспламеняемости" }, 
+        value: "В2 (трудновоспламеняемые материалы)" 
+      },
+      { 
+        label: { uz: "Yonuvchanlik guruhi (asos)", ru: "Группа горючести (основы)" }, 
+        value: "НГ" 
+      },
+      { 
+        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
+        value: "500 ±25" 
+      },
+      { 
+        label: { uz: "Uzilish yuklamasi, kamida, N", ru: "Разрывная нагрузка, не менее, Н" }, 
+        value: "1000" 
+      },
+      { 
+        label: { uz: "Payvand chokining mustahkamligi, N/50mm, H", ru: "Прочность сварного шва, Н/50мм, H" }, 
+        value: "140" 
+      },
+      { 
+        label: { uz: "To'qilish turi", ru: "Тип переплетения" }, 
+        value: "сатин" 
+      },
+      { 
+        label: { uz: "Rulon eni, mm", ru: "Ширина рулона, мм" }, 
+        value: "1000 ±5" 
+      }
     ]
   },
   {
