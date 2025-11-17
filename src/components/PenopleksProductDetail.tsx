@@ -303,9 +303,37 @@ const PenopleksProductDetail = ({
                       <h3 className="font-heading font-semibold text-lg mb-3 uppercase">
                         {t("Описание", "Описание")}
                       </h3>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {language === "uz" ? product.description.uz : product.description.ru}
-                      </p>
+                      <div className="text-muted-foreground leading-relaxed space-y-4">
+                        {(language === "uz" ? product.description.uz : product.description.ru).split('\n\n').map((paragraph, idx) => {
+                          // Check if it's a heading (starts with capitals or contains ":")
+                          if (paragraph.match(/^[А-ЯЎЁ\s]+:?$/) || paragraph.match(/^[A-Z\s]+:?$/)) {
+                            return (
+                              <h4 key={idx} className="font-semibold text-foreground mt-6 mb-3">
+                                {paragraph}
+                              </h4>
+                            );
+                          }
+                          // Check if it contains bullet points
+                          if (paragraph.includes('•') || paragraph.includes('-')) {
+                            const items = paragraph.split('\n').filter(line => line.trim());
+                            return (
+                              <ul key={idx} className="space-y-2 ml-4">
+                                {items.map((item, itemIdx) => (
+                                  <li key={itemIdx} className="flex items-start gap-2">
+                                    <span className="text-primary mt-1">•</span>
+                                    <span>{item.replace(/^[•\-]\s*/, '')}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            );
+                          }
+                          return (
+                            <p key={idx}>
+                              {paragraph}
+                            </p>
+                          );
+                        })}
+                      </div>
                     </div>
                     
                     {product.id === "plastfoil-membrane" ? <>
