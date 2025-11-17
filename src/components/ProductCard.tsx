@@ -2,8 +2,11 @@ import { useNavigate } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useCart } from "@/contexts/CartContext";
 import { Product } from "@/data/products";
+import { ShoppingCart } from "lucide-react";
 import OrderDialog from "@/components/OrderDialog";
+import { useToast } from "@/hooks/use-toast";
 
 interface ProductCardProps {
   product: Product;
@@ -12,6 +15,16 @@ interface ProductCardProps {
 const ProductCard = ({ product }: ProductCardProps) => {
   const { language, t } = useLanguage();
   const navigate = useNavigate();
+  const { addToCart } = useCart();
+  const { toast } = useToast();
+  
+  const handleAddToCart = () => {
+    addToCart(product, 1);
+    toast({
+      title: t("Savatga qo'shildi", "Добавлено в корзину"),
+      description: `${product.name} - 1 ${t("dona", "шт")}`
+    });
+  };
   
   // Get description and truncate to first line or 100 characters
   const getShortDescription = () => {
@@ -47,11 +60,21 @@ const ProductCard = ({ product }: ProductCardProps) => {
         >
           {t("Batafsil", "Подробнее")}
         </Button>
-        <OrderDialog 
-          productName={product.name}
-          className="w-full"
-          variant="outline"
-        />
+        <div className="flex gap-2">
+          <Button 
+            className="flex-1 transform transition-all duration-300 hover:scale-105 active:scale-95"
+            onClick={handleAddToCart}
+            variant="secondary"
+          >
+            <ShoppingCart className="mr-2 h-4 w-4" />
+            {t("Savatga", "В корзину")}
+          </Button>
+          <OrderDialog 
+            productName={product.name}
+            className="flex-1"
+            variant="outline"
+          />
+        </div>
       </CardContent>
     </Card>
   );
