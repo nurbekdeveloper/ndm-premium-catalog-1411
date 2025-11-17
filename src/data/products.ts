@@ -37,6 +37,7 @@ import plastfoilAero from "@/assets/products/plastfoil-aero.png";
 import terraisolGeotextile from "@/assets/products/terraisol-geotextile.png";
 import terraisolEco from "@/assets/products/terraisol-eco.png";
 import fireProtectFabric from "@/assets/products/fire-protect-fabric.png";
+import plastfoilCanvas from "@/assets/products/plastfoil-canvas.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1200,14 +1201,32 @@ export const products: Product[] = [
     id: "plastfoil-canvas",
     name: "СТЕКЛОХОЛСТ PLASTFOIL CANVAS",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [plastfoilCanvas],
     description: {
-      uz: "PLASTFOIL CANVAS shisha mato. Sintetic yopishtiruvchi bilan sintezlangan sintetik iplarga birlashtirilgan oyna tolalari.",
-      ru: "Стеклохолст PLASTFOIL CANVAS из стеклянных волокон, скрепленных синтетическим связующим. Применяется для армирования и защиты."
+      uz: "PLASTFOIL CANVAS rulonli materiali tartibsiz joylashgan shisha tolalari va sintetik bog'lovchi moddadan iborat. Material chirishga chidamli va har qanday ob-havo sharoitlariga bardoshli.\n\n**Afzalliklar:**\n\n**BIOBARQARORLIK** - Aggressiv muhitlar, mikroorganizmlar ta'siriga chidamli, chirishga moyil emas\n\n**OB-HAVO BARQARORLIGI** - Past va yuqori haroratlar, yog'ingarchilik va ultrabinafsha nurlariga yuqori bardoshlilik\n\n**O'RNATISH QULAYLIGI** - Yuqori o'rnatish tezligi, soddaligi va texnologikligi",
+      ru: "Рулонный материал PLASTFOIL CANVAS состоит из беспорядочно расположенных волокон стекла и синтетического связующего. Материал не подвержен гниению и устойчив к любым погодным условиям.\n\n**Преимущества:**\n\n**БИОСТОЙКОСТЬ** - Стойкость к воздействию агрессивных сред, микроорганизмов, не подвержен гниению\n\n**АТМОСФЕРОСТОЙКОСТЬ** - Высокая устойчость к воздействию низких и высоких температур, осадков и ультрафиолета\n\n**УДОБСТВО МОНТАЖА** - Высокая скорость монтажа, простота и технологичность"
     },
     specs: [
-      { label: { uz: "Material", ru: "Материал" }, value: "Стекловолокно" },
-      { label: { uz: "Zichlik", ru: "Плотность" }, value: "50-200 г/м²" }
+      { 
+        label: { uz: "O'ziga xos og'irlik, g/m²", ru: "Удельный вес, г/м²" }, 
+        value: "100 ±15" 
+      },
+      { 
+        label: { uz: "Rulon eni, mm", ru: "Ширина рулона, мм" }, 
+        value: "1000 ±10" 
+      },
+      { 
+        label: { uz: "Qalinligi, mm", ru: "Толщина, мм" }, 
+        value: "0,82 ±0,08" 
+      },
+      { 
+        label: { uz: "Namlik miqdori, kamida, %", ru: "Содержание влажности, не менее, %" }, 
+        value: "1" 
+      },
+      { 
+        label: { uz: "Rang", ru: "Цвет" }, 
+        value: "Oq / Белый" 
+      }
     ]
   },
   {

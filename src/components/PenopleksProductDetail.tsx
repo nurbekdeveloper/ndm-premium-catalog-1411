@@ -194,6 +194,13 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Shisha toladan tayyorlangan yonmaydigan mato. PVX tomlarida tutun chiqarish lyuklari va zenit fonarlar atrofida olovdan himoya kamarlari uchun qo'llaniladi", "Негорючая ткань из стекловолокна. Применяется для устройства огнезащитных поясов вокруг люков дымоудаления и зенитных фонарей на кровлях из ПВХ")}
                       </p>
+                    </> : product.id === "plastfoil-canvas" ? <>
+                      <p className="font-semibold text-primary">{t("Ajratuvchi qatlam", "Разделительный слой")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Stilobatlar", "Стилобаты")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("XPS va PVX membrana o'rtasida ajratuvchi qatlam sifatida qo'llaniladi", "Применяется в качестве разделительного слоя между XPS и ПВХ мембраной")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
