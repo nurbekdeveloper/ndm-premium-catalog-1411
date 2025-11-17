@@ -1123,99 +1123,27 @@ export const products: Product[] = [
     specs: [
       { 
         label: { uz: "Nomi", ru: "Наименование" }, 
-        value: "Геотекстиль TERRAISOL ЭКО 100" 
+        value: "Геотекстиль TERRAISOL ЭКО 100 | Геотекстиль TERRAISOL ЭКО 150 | Геотекстиль TERRAISOL ЭКО 200 | Геотекстиль TERRAISOL ЭКО 250"
       },
       { 
         label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
-        value: "100 ±10" 
+        value: "100 ±10 | 150 ±10 | 200 ±10 | 250 ±10" 
       },
       { 
         label: { uz: "Cho'zilishda mustahkamlik uzunligi/eni bo'yicha, kN/m", ru: "Прочность при растяжении по длине/по ширине, кН/м" }, 
-        value: "2,5/2,5" 
+        value: "2,5/2,5 | 3,3/3,5 | 4,5/4,5 | 5,8/6,0" 
       },
       { 
         label: { uz: "Uzilishda cho'zilish uzunligi/eni bo'yicha, %", ru: "Удлинение при разрыве по длине/по ширине, %" }, 
-        value: "20/20" 
+        value: "20/20 | 70/90 | 70/90 | 70/90" 
       },
       { 
         label: { uz: "Ochiq teshiklar o'lchami, mkm", ru: "Размер открытых пор, мкм" }, 
-        value: "130" 
+        value: "130 | 130 | 130 | 130" 
       },
       { 
         label: { uz: "Filtratsiya koeffitsienti, m/kun", ru: "Коэффициент фильтрации, м/сут" }, 
-        value: "15" 
-      },
-      { 
-        label: { uz: "Nomi", ru: "Наименование" }, 
-        value: "Геотекстиль TERRAISOL ЭКО 150" 
-      },
-      { 
-        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
-        value: "150 ±10" 
-      },
-      { 
-        label: { uz: "Cho'zilishda mustahkamlik uzunligi/eni bo'yicha, kN/m", ru: "Прочность при растяжении по длине/по ширине, кН/м" }, 
-        value: "3,3/3,5" 
-      },
-      { 
-        label: { uz: "Uzilishda cho'zilish uzunligi/eni bo'yicha, %", ru: "Удлинение при разрыве по длине/по ширине, %" }, 
-        value: "70/90" 
-      },
-      { 
-        label: { uz: "Ochiq teshiklar o'lchami, mkm", ru: "Размер открытых пор, мкм" }, 
-        value: "130" 
-      },
-      { 
-        label: { uz: "Filtratsiya koeffitsienti, m/kun", ru: "Коэффициент фильтрации, м/сут" }, 
-        value: "15" 
-      },
-      { 
-        label: { uz: "Nomi", ru: "Наименование" }, 
-        value: "Геотекстиль TERRAISOL ЭКО 200" 
-      },
-      { 
-        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
-        value: "200 ±10" 
-      },
-      { 
-        label: { uz: "Cho'zilishda mustahkamlik uzunligi/eni bo'yicha, kN/m", ru: "Прочность при растяжении по длине/по ширине, кН/м" }, 
-        value: "4,5/4,5" 
-      },
-      { 
-        label: { uz: "Uzilishda cho'zilish uzunligi/eni bo'yicha, %", ru: "Удлинение при разрыве по длине/по ширине, %" }, 
-        value: "70/90" 
-      },
-      { 
-        label: { uz: "Ochiq teshiklar o'lchami, mkm", ru: "Размер открытых пор, мкм" }, 
-        value: "130" 
-      },
-      { 
-        label: { uz: "Filtratsiya koeffitsienti, m/kun", ru: "Коэффициент фильтрации, м/сут" }, 
-        value: "15" 
-      },
-      { 
-        label: { uz: "Nomi", ru: "Наименование" }, 
-        value: "Геотекстиль TERRAISOL ЭКО 250" 
-      },
-      { 
-        label: { uz: "Sirt zichligi, g/m²", ru: "Поверхностная плотность, г/м²" }, 
-        value: "250 ±10" 
-      },
-      { 
-        label: { uz: "Cho'zilishda mustahkamlik uzunligi/eni bo'yicha, kN/m", ru: "Прочность при растяжении по длине/по ширине, кН/м" }, 
-        value: "5,8/6,0" 
-      },
-      { 
-        label: { uz: "Uzilishda cho'zilish uzunligi/eni bo'yicha, %", ru: "Удлинение при разрыве по длине/по ширине, %" }, 
-        value: "70/90" 
-      },
-      { 
-        label: { uz: "Ochiq teshiklar o'lchami, mkm", ru: "Размер открытых пор, мкм" }, 
-        value: "130" 
-      },
-      { 
-        label: { uz: "Filtratsiya koeffitsienti, m/kun", ru: "Коэффициент фильтрации, м/сут" }, 
-        value: "15" 
+        value: "15 | 15 | 15 | 15" 
       }
     ]
   },
