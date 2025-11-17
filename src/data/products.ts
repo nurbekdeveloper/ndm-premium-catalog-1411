@@ -41,6 +41,7 @@ import plastfoilCanvas from "@/assets/products/plastfoil-canvas.png";
 import plastfoilFerroplast from "@/assets/products/plastfoil-ferroplast.png";
 import penoplexSegments from "@/assets/products/penoplex-segments.png";
 import penoplexBlock from "@/assets/products/penoplex-block.png";
+import penoplexTrak from "@/assets/products/penoplex-trak.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2021,6 +2022,106 @@ export const products: Product[] = [
       {
         label: { uz: "Uzunligi", ru: "Длина" },
         value: "от 1 200 до 3 000 мм"
+      }
+    ]
+  },
+  {
+    id: "penoplex-trak",
+    name: "ПЕНОПЛЭКС ТРАК",
+    category: "penopleks",
+    images: [penoplexTrak],
+    description: {
+      uz: "Termoizolyatsion plitalar ПЕНОПЛЭКС® ТРАК — izotermik furgonlar, modulli vagonchalar va boshqa inshootlarni qoplashda foydalanish uchun frezalanish va bo'shliqlar bilan maxsus ishlab chiqilgan plitalar.\n\n**Tavsif:**\n\nТерmoizolyatsion plitalar ПЕНОПЛЭКС ТРАК izotermik furgonlarni qoplashda foydalanish uchun korxonalarga yetkazib beriladi. Plitalar yonuvchanlikka, o'lchamlar aniqligi va geometriyasiga yuqori talablar qo'yilgan, shuningdek yopishqoq moddalar sarfini optimallashtiruvchi maxsus frezerovkaga ega.\n\n**Afzalliklari:**\n\n• O'lchamlarni nazorat qilishning yuqori darajasi\n• Barcha sanitariya-gigiena talablarini bajarish\n• Yopishqoq mahsulotlar sarfini minimallashtirish\n• Yonuvchanlik bo'yicha yuqori talablar\n• Deyarli nol suv shimishi (yopiq mustaqil hujayralardan bir xil tuzilma)\n• Siqishda yuqori mustahkamlik\n• Tasdiqlangan bardoshliligi\n\n**Normalar / standartlar:**\n\nТУ 5767-006-54349294-2014\nIshlab chiqarishni nazorat qilish va baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi.\n\n**Tashqi ko'rinish / rang:**\n\nYuza: frezalangan/uzunlamasına chuqurchalar bilan frezalangan\nRang: oq yoki ko'k\n\n**Qadoqlash to'g'risida ma'lumot:**\n\nПЕНОПЛЭКС plitalari termo-siqiluvchi UV-stabillashtirilgan plyonkaga o'raladi. Ishlab chiqarish korxonalariga yetkazib beriladi. Yetkazib berish shartlarini aniqlashtirish uchun ПЕНОПЛЭКС ning Sendvichlar va JBI bo'limiga murojaat qiling.",
+      ru: "Теплоизоляционные плиты ПЕНОПЛЭКС® ТРАК — специально разработанные плиты с фрезеровкой и канавками для использования при обшивке изотермических фургонов, модульных вагончиков и других сооружений.\n\n**Описание:**\n\nТеплоизоляционные плиты ПЕНОПЛЭКС ТРАК поставляются на предприятия для использования в обшивке изотермических фургонов. У плит повышены требования к горючести, точности габаритов и геометрии, а также специальная фрезеровка, позволяющая оптимизировать расход клеевых составов.\n\n**Преимущества:**\n\n• Высокий уровень контроля габаритов\n• Выполнение всех санитарно-гигиенических требований\n• Минимизация расхода клеевых продуктов\n• Повышенные требования по горючести\n• Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)\n• Высокая прочность на сжатие\n• Подтвержденная долговечность\n\n**Нормы / стандарты:**\n\nТУ 5767-006-54349294-2014\nКонтроль и оценка производства проводится аккредитованными лабораториями.\n\n**Внешний вид / цвет:**\n\nПоверхность: фрезерованная/фрезерованная с продольными канавками\nЦвет: белый или голубой\n\n**Сведения об упаковке:**\n\nПлиты ПЕНОПЛЭКС упаковывают в термоусадочную УФ-стабилизированную пленку. Поставляются на производственные предприятия. Для уточнения условий поставки обращайтесь в отдел Сэндвичи и ЖБИ ПЕНОПЛЭКС."
+    },
+    specs: [
+      {
+        label: { uz: "10% chiziqli deformatsiyada siqilish mustahkamligi (ТРАК 200)", ru: "Прочность на сжатие при 10% линейной деформации (ТРАК 200)" },
+        value: "200 кПа",
+        method: "GOST EN 826"
+      },
+      {
+        label: { uz: "10% chiziqli deformatsiyada siqilish mustahkamligi (ТРАК 250)", ru: "Прочность на сжатие при 10% линейной деформации (ТРАК 250)" },
+        value: "250 кПа",
+        method: "GOST EN 826"
+      },
+      {
+        label: { uz: "10% chiziqli deformatsiyada siqilish mustahkamligi (ТРАК 400)", ru: "Прочность на сжатие при 10% линейной деформации (ТРАК 400)" },
+        value: "400 кПа",
+        method: "GOST EN 826"
+      },
+      {
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" },
+        value: "Г3",
+        method: "GOST 30244"
+      },
+      {
+        label: { uz: "24 soatda suv shimishi, ko'pi bilan", ru: "Водопоглощение за 24 часа, не более" },
+        value: "0,6% hajm bo'yicha | 0,6% по объему",
+        method: "GOST EN 12087"
+      },
+      {
+        label: { uz: "Issiqlik o'tkazuvchanligi (10±0,3)°C da, ko'pi bilan", ru: "Теплопроводность при (10±0,3)°C, не более" },
+        value: "0,034 Вт/(м·К)",
+        method: "GOST 7076"
+      },
+      {
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" },
+        value: "от -70 до +75°С"
+      }
+    ]
+  },
+  {
+    id: "penoplex-osnova-jbi",
+    name: "ПЕНОПЛЭКС ОСНОВА (ЖБИ)",
+    category: "penopleks",
+    images: [penoplexOsnova],
+    description: {
+      uz: "ПЕНОПЛЭКС ОСНОВА (ЖБИ) — sanoat sektori uchun plitalar turi.\n\n**Tavsif:**\n\nПЕНОПЛЭКС ОСНОВА (ЖБИ) uch qatlamli temir-beton buyumlarini ishlab chiqarishda qo'llaniladi.\n\n**Qo'llanish:**\n\nUch qatlamli temir-beton buyumlarini ishlab chiqarishda qo'llaniladi.\n\n**Afzalliklari:**\n\n• Ekologik jihatdan xavfsizligi\n• Xavfsizlik\n• Isbotlangan bio-barqarorlik\n• O'zgarmas past issiqlik o'tkazuvchanlik\n• Deyarli nol suv shimishi (yopiq mustaqil hujayralardan bir xil tuzilma)\n• Siqishda yuqori mustahkamlik\n• Tasdiqlangan bardoshliligi\n\n**Normalar / standartlar:**\n\nТУ 5767-006-54349294-2014\nIshlab chiqarishni nazorat qilish va baholash akkreditatsiyalangan laboratoriyalar tomonidan amalga oshiriladi.\n\n**Tashqi ko'rinish / rang:**\n\nYuza: silliq\nRang: to'q sariq\nChekka turi: to'g'ri\n\n**Qadoqlash to'g'risida ma'lumot:**\n\nПЕНОПЛЭКС plitalari termo-siqiluvchi UV-stabillashtirilgan plyonkaga o'raladi.\n\n**Qo'llanish sohalari:**\n\nUch qatlamli temir-beton buyumlar",
+      ru: "ПЕНОПЛЭКС ОСНОВА (ЖБИ) — тип плит для индустриального сектора.\n\n**Описание:**\n\nПЕНОПЛЭКС ОСНОВА (ЖБИ) применяется в производстве трехслойных железобетонных изделий.\n\n**Применение:**\n\nПрименяется в производстве трехслойных железобетонных изделий.\n\n**Преимущества:**\n\n• Экологичность\n• Безопасность\n• Доказанная биостойкость\n• Неизменно низкая теплопроводность\n• Практически нулевое водопоглощение (однородная структура из закрытых независимых ячеек)\n• Высокая прочность на сжатие\n• Подтвержденная долговечность\n\n**Нормы / стандарты:**\n\nТУ 5767-006-54349294-2014\nКонтроль и оценка производства проводится аккредитованными лабораториями.\n\n**Внешний вид / цвет:**\n\nПоверхность: гладкая\nЦвет: оранжевый\nТип кромки: прямой\n\n**Сведения об упаковке:**\n\nПлиты ПЕНОПЛЭКС упаковывают в термоусадочную УФ-стабилизированную пленку.\n\n**Области применения:**\n\nТрехслойные железобетонные изделия"
+    },
+    specs: [
+      {
+        label: { uz: "10% chiziqli deformatsiyada siqilish mustahkamligi (qalinligi >100 mm uchun), ko'pi bilan", ru: "Прочность на сжатие при 10% линейной деформации (для толщин >100 мм), не менее" },
+        value: "150 кПа",
+        method: "GOST EN 826"
+      },
+      {
+        label: { uz: "10% chiziqli deformatsiyada siqilish mustahkamligi (qalinligi 100-150 mm uchun), ko'pi bilan", ru: "Прочность на сжатие при 10% линейной деформации (для толщин 100-150 мм), не менее" },
+        value: "200 кПа",
+        method: "GOST EN 826"
+      },
+      {
+        label: { uz: "24 soatda suv shimishi, ko'pi bilan", ru: "Водопоглощение за 24 часа, не более" },
+        value: "0,4% hajm bo'yicha | 0,4% по объему",
+        method: "GOST EN 12087"
+      },
+      {
+        label: { uz: "Issiqlik o'tkazuvchanligi (10±0,3)°C da", ru: "Теплопроводность при (10±0,3)°C" },
+        value: "0,034 Вт/(м⋅K)",
+        method: "GOST 7076"
+      },
+      {
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" },
+        value: "Г4",
+        method: "GOST 30244"
+      },
+      {
+        label: { uz: "Eni", ru: "Ширина" },
+        value: "600 мм"
+      },
+      {
+        label: { uz: "Uzunligi", ru: "Длина" },
+        value: "1200 мм"
+      },
+      {
+        label: { uz: "Qalinligi", ru: "Толщина" },
+        value: "80; 100; 120; 140; 150 мм",
+        method: "GOST EN 823"
+      },
+      {
+        label: { uz: "Foydalanish harorat oralig'i", ru: "Температурный диапазон эксплуатации" },
+        value: "от -70 до +75°С"
       }
     ]
   },
