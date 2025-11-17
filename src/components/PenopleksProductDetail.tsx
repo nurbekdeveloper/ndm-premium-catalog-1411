@@ -237,6 +237,20 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Uch qatlamli temir-beton panellarini ishlab chiqaruvchi korxonalarda qo'llanish uchun mahsulot", "Продукция для применения на производствах трехслойных железобетонных панелей")}
                       </p>
+                    </> : product.id === "proplug-screw" ? <>
+                      <p className="font-semibold text-primary">{t("Mahkamlash elementi", "Крепежный элемент")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Stilobatlar", "Стилобаты")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Tom mahkamlash elementi. Issiqlik va gidroizolyatsiyani mahkamlashda teleskopik effektni ta'minlash uchun", "Кровельный крепежный элемент. Для обеспечения телескопического эффекта при креплении тепло- и гидроизоляции")}
+                      </p>
+                    </> : product.id === "proplug-dowel" ? <>
+                      <p className="font-semibold text-primary">{t("Mahkamlash elementi", "Крепежный элемент")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Stilobatlar", "Стилобаты")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Anker-vtulkalar PROPLUG, metall reykalar va boshqa tom elementlarini beton asosiga mahkamlash uchun", "Для анкер-втулок PROPLUG, металлических реек и других кровельных элементов к бетонному основанию")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
