@@ -155,6 +155,12 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Xususiy uy qurilishi uchun ekstruzion penopolistiroldan issiqlik izolyatsiya plitalari. Yuklangan konstruksiyalarda foydalanish uchun", "Теплоизоляционные плиты из экструзионного пенополистирола для частного домостроения. Для использования в нагружаемых конструкциях")}
                       </p>
+                    </> : (product.id === "plastfoil-vortex-roof" || product.id === "plastfoil-vortex-heated" || product.id === "plastfoil-vortex-parapet") ? <>
+                      <p className="font-semibold text-primary">{t("Suv oqizish", "Водоотвод")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Polipropilen korpusli va zanglamaydigan po'latdan qisishtiruvchi flansli, shuningdek, barg ushlagichli tom voronkasi tekis tomlardan yomg'ir va eritilgan suvni oqizish uchun mo'ljallangan", "Воронка кровельная с корпусом из полипропилена и прижимным фланцем из нержавеющей стали, а также с листоуловителем, предназначена для отвода дождевой и талой воды с плоских кровель")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
