@@ -222,6 +222,21 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Beqaror tuproqlarda yo'l va muhandislik inshootlarini qurishda qo'llaniladi. Yengil to'ldirish texnologiyasi yukni sezilarli darajada kamaytiradi", "Применяется в строительстве дорог и инженерных сооружений на нестабильных грунтах. Технология легкой насыпи значительно уменьшает нагрузку")}
                       </p>
+                    </> : product.id === "penoplex-trak" ? <>
+                      <p className="font-semibold text-primary">{t("Qo'llanish sohasi", "Область применения")}</p>
+                      <p>{t("Termofurgonlar", "Термофургоны")}</p>
+                      <p>{t("Vaqtinchalik yig'ma ma'muriy-maishiy xonalar", "Временные сборные административно-бытовые помещения")}</p>
+                      <p>{t("Modulli maishiy vagonchalar", "Модульные бытовые вагончики")}</p>
+                      <p>{t("Boshqa inshootlar", "Другие сооружения")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Izotermik furgonlar, modulli vagonchalar va boshqa inshootlarni qoplashda maxsus frezalangan plitalar", "Специально фрезерованные плиты для обшивки изотермических фургонов, модульных вагончиков и других сооружений")}
+                      </p>
+                    </> : product.id === "penoplex-osnova-jbi" ? <>
+                      <p className="font-semibold text-primary">{t("Qo'llanish sohasi", "Область применения")}</p>
+                      <p>{t("Uch qatlamli temir-beton buyumlari", "Трехслойные железобетонные изделия")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Uch qatlamli temir-beton panellarini ishlab chiqaruvchi korxonalarda qo'llanish uchun mahsulot", "Продукция для применения на производствах трехслойных железобетонных панелей")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
