@@ -23,6 +23,7 @@ import penoplexFastfixStandard from "@/assets/products/penoplex-fastfix-standard
 import plastfoilMembrane from "@/assets/products/plastfoil-membrane.png";
 import plastfoilVortexParapet from "@/assets/products/plastfoil-vortex-parapet.png";
 import plastfoilVortexRoof from "@/assets/products/plastfoil-vortex-roof.png";
+import plastfoilVortexHeated from "@/assets/products/plastfoil-vortex-heated.png";
 import penoplexFoundation from "@/assets/products/penoplex-foundation.png";
 import penoplexExtreme from "@/assets/products/penoplex-extreme.png";
 import penoplexOsnova from "@/assets/products/penoplex-osnova.png";
@@ -935,14 +936,72 @@ export const products: Product[] = [
     id: "plastfoil-vortex-heated",
     name: "ВОРОНКА КРОВЕЛЬНАЯ С ОБОГРЕВОМ PLASTFOIL VORTEX",
     category: "penopleks",
-    images: [plastfoilMembrane],
+    images: [plastfoilVortexHeated],
     description: {
-      uz: "Isitish tizimli tom voronkasi PLASTFOIL VORTEX. Qish faslida muzlashning oldini olish uchun isitgich bilan jihozlangan.",
-      ru: "Воронка кровельная с обогревом PLASTFOIL VORTEX для предотвращения замерзания воды в стоках."
+      uz: "Voronka suv qabul qilish kosasini isitish uchun termokabel bilan jihozlanishi mumkin. O'rnatilgan isitgich voronkaning ishlashini ta'minlaydi va atrofdagi havo harorati manfiy bo'lganda muzlashdan himoya qiladi. Voronka isitishini ulash termostat yoki qo'shish tugmasi yordamida termokabel orqali amalga oshiriladi.\n\nAfzalliklar:\n• CHIDAMLILIK - Xizmat muddati kamida 50 yil\n• IQLIMGA CHIDAMLIK - Past va yuqori haroratga, yog'ingarchilikkka va ultrabinafsha nuriga yuqori chidamlilik\n• KIMYOVIY BARQARORLIK - Kislotalarga va qum bilan abraziv aşınmaga yuqori chidamlilik\n• MONTAJ - Yuqori montaj tezligi, oddiy va texnologik",
+      ru: "Воронка может комплектоваться термокабелем для обогрева водоприемной чаши. Встроенный обогреватель обеспечит работоспособность воронки и защитит от обледенения при отрицательных температурах окружающего воздуха. Подключение обогрева воронки осуществляется через термокабель с помощью термостата или кнопки включения.\n\nПреимущества:\n• ДОЛГОВЕЧНОСТЬ - Срок службы не менее 50 лет\n• АТМОСФЕРОСТОЙКОСТЬ - Высокая устойчивость к воздействию низких и высоких температур, осадков и ультрафиолета\n• ХИМИЧЕСКАЯ УСТОЙЧИВОСТЬ - Высокая устойчивость к кислотам, абразивному истиранию песком\n• МОНТАЖ - Высокая скорость монтажа, простота и технологичность"
     },
     specs: [
-      { label: { uz: "Turi", ru: "Тип" }, value: "С обогревом" },
-      { label: { uz: "Material", ru: "Материал" }, value: "ПВХ с нагревательным элементом" }
+      { 
+        label: { uz: "Kuchlanish, V / maksimal iste'mol qilinadigan tok, A", ru: "Напряжение, В / максимальный потребляемый ток, А" }, 
+        value: "220-230 / 0,16" 
+      },
+      { 
+        label: { uz: "Kabelning issiqlik berishi, ko'pi bilan, Vt/(m²•K)", ru: "Теплоотдача кабеля, не более, Вт/(м²•K)" }, 
+        value: "30" 
+      },
+      { 
+        label: { uz: "Ulanish kabelining uzunligi, kamida, m", ru: "Длина соединительного кабеля, не менее, м" }, 
+        value: "1,5 (3 х 1,5)" 
+      },
+      { 
+        label: { uz: "Kabelning eng kichik bukish radiusi, mm", ru: "Наименьший радиус изгиба кабеля, мм" }, 
+        value: "10" 
+      },
+      { 
+        label: { uz: "Kabel yuzasining maksimal harorati, °С", ru: "Максимальная температура поверхности кабеля, °С" }, 
+        value: "+65" 
+      },
+      { 
+        label: { uz: "Voronka ichki yuzasining maksimal harorati, °C (D=110/160mm)", ru: "Максимальная температура внутренней поверхности воронки, °C (D=110/160mm)" }, 
+        value: "+55 / +55" 
+      },
+      { 
+        label: { uz: "Qabul qiluvchi voronka diametri, mm (D=110/160mm)", ru: "Диаметр приемной воронки, мм (D=110/160mm)" }, 
+        value: "360 / 444" 
+      },
+      { 
+        label: { uz: "Chiqish diametri, mm (D=110/160mm)", ru: "Выходной диаметр, мм (D=110/160mm)" }, 
+        value: "110 / 160" 
+      },
+      { 
+        label: { uz: "Chiqarish shtutserining shartli balandligi, mm", ru: "Условная высота выпускного патрубка, мм" }, 
+        value: "170" 
+      },
+      { 
+        label: { uz: "O'tkazish qobiliyati, kamida, l/s (D=110/160mm)", ru: "Пропускная способность, не менее, л/с (D=110/160mm)" }, 
+        value: "8 / 12" 
+      },
+      { 
+        label: { uz: "Atrof-muhit harorati, °C", ru: "Температура окружающей среды, °C" }, 
+        value: "от -50 до +90" 
+      },
+      { 
+        label: { uz: "Chiqariladigan suyuqlik harorati, ko'pi bilan, °C", ru: "Температура отводящей жидкости, не более, °C" }, 
+        value: "+85" 
+      },
+      { 
+        label: { uz: "Netto massasi, ko'pi bilan, kg (D=110/160mm)", ru: "Масса нетто, не более, кг (D=110/160mm)" }, 
+        value: "1,55 / 2,0" 
+      },
+      { 
+        label: { uz: "Maksimal ruxsat etilgan yuk, ko'pi bilan, kg", ru: "Максимальная разрешенная нагрузка, не более, кг" }, 
+        value: "150" 
+      },
+      { 
+        label: { uz: "Chiqarish shtutserining balandligi, mm", ru: "Высота выпускного патрубка, мм" }, 
+        value: "450" 
+      }
     ]
   },
   {
