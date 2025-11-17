@@ -187,6 +187,13 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("Poliefir tolalaridan tayyorlangan material. Poydevor konstruksiyalarida, shuningdek, avtomobil, temir yo'l va piyoda yo'llarida drenajni himoya qilish uchun, tuproq ishlari paytida qo'llaniladi", "Материал из полиэфирных волокон. Применяется для защиты дренажа в конструкциях фундаментов, а также авто, ж/д и пешеходных дорог, при земляных работах")}
                       </p>
+                    </> : product.id === "fire-protect-fabric" ? <>
+                      <p className="font-semibold text-primary">{t("Olovdan himoya qatlami", "Огнезащитный слой")}</p>
+                      <p>{t("Tomlar va qoplamalar", "Крыши и покрытия")}</p>
+                      <p>{t("Stilobatlar", "Стилобаты")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Shisha toladan tayyorlangan yonmaydigan mato. PVX tomlarida tutun chiqarish lyuklari va zenit fonarlar atrofida olovdan himoya kamarlari uchun qo'llaniladi", "Негорючая ткань из стекловолокна. Применяется для устройства огнезащитных поясов вокруг люков дымоудаления и зенитных фонарей на кровлях из ПВХ")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>
