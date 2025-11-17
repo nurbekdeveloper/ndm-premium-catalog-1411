@@ -207,6 +207,12 @@ const PenopleksProductDetail = ({
                       <p className="text-primary font-medium mt-4">
                         {t("PVX membrana yordamida tom qurish paytida tutashish reykalarini va boshqa detallarni tayyorlash uchun ishlatiladi", "Применяется для изготовления планок примыканий и других деталей при устройстве кровли с применением ПВХ мембраны")}
                       </p>
+                    </> : product.id === "penoplex-segments" ? <>
+                      <p className="font-semibold text-primary">{t("Issiqlik izolyatsiya", "Теплоизоляция")}</p>
+                      <p>{t("Quvur liniyalari", "Трубопроводы")}</p>
+                      <p className="text-primary font-medium mt-4">
+                        {t("Quvur liniyalari, gaz-neft quvurlarini issiqlik izolyatsiyalash uchun", "Для теплоизоляции трубопроводов, газо-нефтепроводов")}
+                      </p>
                     </> : <>
                       <p>{t("Shtukaturka fasadlar", "Штукатурные фасады")}</p>
                       <p>{t("Dekorativ plitka bilan fasadlar", "Фасады с декоративной плиткой")}</p>

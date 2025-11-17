@@ -39,6 +39,7 @@ import terraisolEco from "@/assets/products/terraisol-eco.png";
 import fireProtectFabric from "@/assets/products/fire-protect-fabric.png";
 import plastfoilCanvas from "@/assets/products/plastfoil-canvas.png";
 import plastfoilFerroplast from "@/assets/products/plastfoil-ferroplast.png";
+import penoplexSegments from "@/assets/products/penoplex-segments.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1951,6 +1952,50 @@ export const products: Product[] = [
         label: { uz: "Zaharlilik guruhi", ru: "Группа токсичности" }, 
         value: "Т2", 
         method: "ГОСТ 12.1.044" 
+      }
+    ]
+  },
+  {
+    id: "penoplex-segments",
+    name: "ПЕНОПЛЭКС СЕГМЕНТЫ",
+    category: "penopleks",
+    images: [penoplexSegments],
+    description: {
+      uz: "Issiqlik izolyatsiya segmentlari ПЕНОПЛЭКС — bu ishonchli, mustahkam va uzoq xizmat qiladigan material bo'lib, quvur liniyalari, gaz-neft quvurlari uchun issiqlik izolyatsiyalash uchun maxsus ishlab chiqilgan, shu jumladan Uzoq Shimol sharoitlarida. Quvur liniyalarini issiqlik izolyatsiyalashning asosiy maqsadi maksimal xavfsizlik, ekspluatatsiya samaradorligi va ishonchliligini ta'minlash, tashiladigan modda (neft, gaz) va atrof-muhit o'rtasidagi issiqlik o'zaro ta'siri intensivligini kamaytirish.\n\nIssiqlik izolyatsiya segmentlari ПЕНОПЛЭКС past issiqlik o'tkazuvchanlik koeffitsiyenti, minimal suv shimishi, uzoq ekspluatatsiya muddati bilan ajralib turadi. Ekstruzion penopolistirol ПЕНОПЛЭКС — ekologik toza material, tabiatan kimyoviy inert, chirishga moyil emas.\n\n**Afzalliklari:**\n• Ekologik xavfsizlik\n• Yuqori kimyoviy barqarorlik\n• Past issiqlik o'tkazuvchanlik\n• Minimal suv shimishi\n• Yuqori mustahkamlik\n• Uzoq xizmat muddati\n\n**Normalar / standartlar:**\nТУ 5767-003-54349294-2013\n\n**Qo'llanish sohalari:**\n\nIssiqlik izolyatsiya segmentlari ПЕНОПЛЭКС 57÷1420 mm tashqi diametrli quvur liniyalarini issiqlik izolyatsiyalash uchun qo'llaniladi, tashiladigan moddalarning harorati -40°C dan 75°C gacha, ochiq havoda, xonalarda, o'tib bo'lmaydigan kanallarda joylashgan, shuningdek kanalsiz usulda o'tkaziladigan, shu jumladan abadiy muzlagan tuproqli hududlarda.\n\n35 tipidagi ПЕНОПЛЭКС segmentlari kanalsiz usuldan tashqari har qanday usulda o'tkaziladigan quvur liniyalarini issiqlik izolyatsiyalash uchun tavsiya etiladi.\n\nTuproqda kanalsiz o'tkazishda, issiqlik izolyatsiya materialining siqilishga yuqori mustahkamligi talab qilinadigan joylarda 45 tipidagi mahsulotlardan foydalanish tavsiya etiladi.",
+      ru: "Теплоизоляционные сегменты ПЕНОПЛЭКС — это надежный, прочный и долговечный материал, специально разработанный для теплоизоляции трубопроводов, газо-нефтепроводов, в том числе в условиях Крайнего Севера. Основным назначением теплоизоляции трубопроводов является обеспечение максимальной безопасности, эксплуатационной эффективности и надежности, снижение интенсивности теплового взаимодействия между транспортируемым веществом (нефтью, газом) и окружающей средой.\n\nТеплоизоляционные сегменты ПЕНОПЛЭКС отличаются низким коэффициентом теплопроводности, минимальным водопоглощением, продолжительным сроком эксплуатации. Экструзионный пенополистирол ПЕНОПЛЭКС — экологически чистый материал, по природе химически инертный, не подвержен гниению.\n\n**Преимущества:**\n• Экологическая чистота\n• Высокая химическая стойкость\n• Низкая теплопроводность\n• Минимальное водопоглощение\n• Высокая прочность\n• Продолжительный срок эксплуатации\n\n**Нормы / стандарты:**\nТУ 5767-003-54349294-2013\n\n**Области применения:**\n\nТеплоизоляционные сегменты ПЕНОПЛЭКС применяются для теплоизоляции трубопроводов наружным диаметром 57÷1420 мм с температурой транспортируемых веществ от -40°С до 75°С, расположенных на открытом воздухе, в помещении, непроходных каналах, а также прокладываемых бесканальным способом, в том числе в районах с вечномерзлыми грунтами.\n\nСегменты ПЕНОПЛЭКС типа 35 рекомендуется применять для теплоизоляции трубопроводов, прокладываемых любым способом, кроме бесканального.\n\nПри бесканальной прокладке трубопроводов в грунте, где требуется высокая прочность теплоизоляционного материала на сжатие, рекомендуется использовать изделия типа 45."
+    },
+    specs: [
+      {
+        label: { uz: "Nomi", ru: "Наименование" },
+        value: "Тип 35 | Тип 45"
+      },
+      {
+        label: { uz: "Siqilishdagi mustahkamlik, kPa, kamida", ru: "Прочность на сжатие, кПа, не менее" },
+        value: "250 | 500"
+      },
+      {
+        label: { uz: "24 soat ichida suv shimishi, hajm bo'yicha %, ko'pi bilan", ru: "Водопоглощение за 24 часа, % по объему, не более" },
+        value: "0,4 | 0,2"
+      },
+      {
+        label: { uz: "(10±0,3) °C da issiqlik o'tkazuvchanlik, Vt/(m⋅K), ko'pi bilan", ru: "Теплопроводность при (10±0,3) °С, Вт/(м⋅K), не более" },
+        value: "0,034 | 0,034"
+      },
+      {
+        label: { uz: "(25±5) °C da issiqlik o'tkazuvchanlik, Vt/(m⋅K), ko'pi bilan", ru: "Теплопроводность при (25±5) °С, Вт/(м⋅K), не более" },
+        value: "0,035 | 0,035"
+      },
+      {
+        label: { uz: "Bug' o'tkazuvchanlik koeffitsiyenti, mg/(m⋅soat⋅Pa)", ru: "Коэффициент паропроницаемости, мг/(м⋅ч⋅Па)" },
+        value: "0,005 | 0,005"
+      },
+      {
+        label: { uz: "Qo'llanish harorati, °C", ru: "Температура применения, °С" },
+        value: "от -70 до 75 | от -70 до 75"
+      },
+      {
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" },
+        value: "Г4 | Г4"
       }
     ]
   },
