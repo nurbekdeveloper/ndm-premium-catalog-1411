@@ -73,6 +73,8 @@ import shimgeBwie104 from "@/assets/products/shimge-bwie10-4.png";
 import shimgeBwie46 from "@/assets/products/shimge-bwje4-6.png";
 import shimgeCa200 from "@/assets/products/shimge-ca200.png";
 import shimgeCa600 from "@/assets/products/shimge-ca600.png";
+import shimgePx203e from "@/assets/products/shimge-px203e.png";
+import shimgePx404e from "@/assets/products/shimge-px404e.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4900,6 +4902,56 @@ export const products: Product[] = [
       { label: { uz: "Dasturlashtirish", ru: "Программирование" }, value: "Ha / Да" },
       { label: { uz: "Tezlik boshqaruvi", ru: "Управление скоростью" }, value: "Ha / Да" },
       { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Ha / Да" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-px203e",
+    name: "SHIMGE PX203E",
+    category: "shimge",
+    images: [shimgePx203e],
+    description: {
+      uz: "SHIMGE PX203E - avtomatik nasos stantsiyasi zanglamaydigan po'lat korpusli markazdan qochma nasos bilan. Toza suvni uzatish uchun mo'ljallangan va xususiy uylarda maishiy suv ta'minoti va bosimni oshirish uchun qo'llaniladi. Maksimal unumdorlik 5 m³/soat, maksimal napor 32 m. 370 Vt maksimal quvvat. Avtomatika bilan jihozlangan - o'z-o'zini yoqish va o'chirish. Gidroakkumulyator bilan komplektda - bosimni barqarorlashtirish. Zanglamaydigan po'lat korpus - korroziyaga chidamli va uzoq xizmat muddati. Kompakt dizayn - kam joy talab qiladi. Gorizontal o'rnatish - qulay montaj. Toza suv uchun mo'ljallangan - ichimlik suvi, suv ta'minoti. Ishonchli dvigatel - yuqori samaradorlik. Past shovqin darajasi - jimjitlik. Oson o'rnatish va texnik xizmat ko'rsatish. Energiya tejamkor - optimal quvvat iste'moli. Tizimda bosimni avtomatik boshqarish. Xususiy uylar, villalar va kichik ob'ektlar uchun ideal. Professional sifat - ishonchli ish. 24 oy kafolat. Xitoyda ishlab chiqarilgan SHIMGE brendidan.",
+      ru: "SHIMGE PX203E - автоматическая насосная станция с центробежным насосом в корпусе из нержавеющей стали. Предназначена для перекачивания чистой воды и применяется для бытового водоснабжения и повышения давления в частных домах. Максимальная производительность 5 м³/час, максимальный напор 32 м. Максимальная мощность 370 Вт. Оснащена автоматикой - автоматическое включение и выключение. В комплекте с гидроаккумулятором - стабилизация давления. Корпус из нержавеющей стали - коррозионная стойкость и долгий срок службы. Компактный дизайн - занимает мало места. Горизонтальная установка - удобный монтаж. Предназначена для чистой воды - питьевая вода, водоснабжение. Надежный двигатель - высокая эффективность. Низкий уровень шума - бесшумность. Простой монтаж и обслуживание. Энергосберегающая - оптимальное энергопотребление. Автоматическое управление давлением в системе. Идеальна для частных домов, вилл и небольших объектов. Профессиональное качество - надежная работа. Гарантия 24 месяца. Производство Китай, бренд SHIMGE."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PX203E" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "PX" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Avtomatik nasos stantsiyasi / Автоматическая насосная станция" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "370W" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальная производительность" }, value: "5 m³/soat / м³/час" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "32 m" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Ha / Да" },
+      { label: { uz: "Gidroakkumulyator", ru: "Гидроаккумулятор" }, value: "Komplektda / В комплекте" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, bosim oshirish / Водоснабжение, повышение давления" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-px404e",
+    name: "SHIMGE PX404E",
+    category: "shimge",
+    images: [shimgePx404e],
+    description: {
+      uz: "SHIMGE PX404E - yuqori quvvatli avtomatik nasos stantsiyasi zanglamaydigan po'lat korpusli markazdan qochma nasos bilan. Toza suvni uzatish uchun mo'ljallangan va xususiy uylarda maishiy suv ta'minoti va bosimni oshirish uchun qo'llaniladi. Maksimal unumdorlik 9 m³/soat, maksimal napor 45 m - PX203E modeliga qaraganda yuqori quvvat va unumdorlik. 750 Vt maksimal quvvat - kuchli ishlash. Avtomatika bilan jihozlangan - o'z-o'zini yoqish va o'chirish. Gidroakkumulyator bilan komplektda - bosimni barqarorlashtirish va gidrozarbadan himoya. Zanglamaydigan po'lat korpus - korroziyaga chidamli va uzoq xizmat muddati. Kompakt dizayn - kam joy talab qiladi. Gorizontal o'rnatish - qulay montaj. Toza suv uchun mo'ljallangan - ichimlik suvi, suv ta'minoti. Ishonchli dvigatel - yuqori samaradorlik. Past shovqin darajasi - jimjitlik. Oson o'rnatish va texnik xizmat ko'rsatish. Energiya tejamkor - optimal quvvat iste'moli. Tizimda bosimni avtomatik boshqarish. Yuqori unumdorlik - katta uylar va ko'p qavatli binolar uchun. Xususiy uylar, villalar va o'rta ob'ektlar uchun ideal. Professional sifat - ishonchli ish. 24 oy kafolat. Xitoyda ishlab chiqarilgan SHIMGE brendidan.",
+      ru: "SHIMGE PX404E - мощная автоматическая насосная станция с центробежным насосом в корпусе из нержавеющей стали. Предназначена для перекачивания чистой воды и применяется для бытового водоснабжения и повышения давления в частных домах. Максимальная производительность 9 м³/час, максимальный напор 45 м - более высокая мощность и производительность по сравнению с моделью PX203E. Максимальная мощность 750 Вт - мощная работа. Оснащена автоматикой - автоматическое включение и выключение. В комплекте с гидроаккумулятором - стабилизация давления и защита от гидроудара. Корпус из нержавеющей стали - коррозионная стойкость и долгий срок службы. Компактный дизайн - занимает мало места. Горизонтальная установка - удобный монтаж. Предназначена для чистой воды - питьевая вода, водоснабжение. Надежный двигатель - высокая эффективность. Низкий уровень шума - бесшумность. Простой монтаж и обслуживание. Энергосберегающая - оптимальное энергопотребление. Автоматическое управление давлением в системе. Высокая производительность - для больших домов и многоэтажных зданий. Идеальна для частных домов, вилл и средних объектов. Профессиональное качество - надежная работа. Гарантия 24 месяца. Производство Китай, бренд SHIMGE."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PX404E" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "PX" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Avtomatik nasos stantsiyasi / Автоматическая насосная станция" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "750W" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальная производительность" }, value: "9 m³/soat / м³/час" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "45 m" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Ha / Да" },
+      { label: { uz: "Gidroakkumulyator", ru: "Гидроаккумулятор" }, value: "Komplektda / В комплекте" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, bosim oshirish / Водоснабжение, повышение давления" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
     ]
   }
