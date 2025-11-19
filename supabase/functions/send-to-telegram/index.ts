@@ -15,11 +15,11 @@ interface TelegramMessage {
 
 const formatContactMessage = (data: any): string => {
   return `
-🆕 *YANGI KONTAKT MUROJAAT*
+🆕 <b>YANGI KONTAKT MUROJAAT</b>
 
-👤 *Ism:* ${data.name}
-📧 *Email:* ${data.email}
-💬 *Xabar:*
+👤 <b>Ism:</b> ${data.name}
+📧 <b>Email:</b> ${data.email}
+💬 <b>Xabar:</b>
 ${data.message}
 
 ⏰ Vaqt: ${new Date().toLocaleString('uz-UZ')}
@@ -28,13 +28,13 @@ ${data.message}
 
 const formatOrderMessage = (data: any): string => {
   return `
-🛒 *YANGI BUYURTMA*
+🛒 <b>YANGI BUYURTMA</b>
 
-👤 *Ism:* ${data.name}
-📞 *Telefon:* ${data.phone}
-📦 *Mahsulot:* ${data.product}
-🔢 *Soni:* ${data.quantity}
-${data.comment ? `💭 *Izoh:* ${data.comment}` : ''}
+👤 <b>Ism:</b> ${data.name}
+📞 <b>Telefon:</b> ${data.phone}
+📦 <b>Mahsulot:</b> ${data.product}
+🔢 <b>Soni:</b> ${data.quantity}
+${data.comment ? `💭 <b>Izoh:</b> ${data.comment}` : ''}
 
 ⏰ Vaqt: ${new Date().toLocaleString('uz-UZ')}
   `.trim();
@@ -46,12 +46,12 @@ const formatCartMessage = (data: any): string => {
   ).join('\n');
 
   return `
-🛍️ *YANGI SAVATCHA BUYURTMA*
+🛍️ <b>YANGI SAVATCHA BUYURTMA</b>
 
-📋 *Mahsulotlar:*
+📋 <b>Mahsulotlar:</b>
 ${itemsList}
 
-📊 *Jami mahsulotlar:* ${data.totalItems} dona
+📊 <b>Jami mahsulotlar:</b> ${data.totalItems} dona
 
 ⏰ Vaqt: ${new Date().toLocaleString('uz-UZ')}
   `.trim();
@@ -95,7 +95,7 @@ const handler = async (req: Request): Promise<Response> => {
       body: JSON.stringify({
         chat_id: TELEGRAM_CHAT_ID,
         text: message,
-        parse_mode: "Markdown",
+        parse_mode: "HTML",
       }),
     });
 
