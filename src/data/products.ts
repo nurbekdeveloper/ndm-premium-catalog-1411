@@ -75,6 +75,7 @@ import shimgeCa200 from "@/assets/products/shimge-ca200.png";
 import shimgeCa600 from "@/assets/products/shimge-ca600.png";
 import shimgePx203e from "@/assets/products/shimge-px203e.png";
 import shimgePx404e from "@/assets/products/shimge-px404e.png";
+import shimgePw250z from "@/assets/products/shimge-pw250z.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4952,6 +4953,43 @@ export const products: Product[] = [
       { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Ha / Да" },
       { label: { uz: "Gidroakkumulyator", ru: "Гидроаккумулятор" }, value: "Komplektda / В комплекте" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, bosim oshirish / Водоснабжение, повышение давления" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-pw250z",
+    name: "SHIMGE PW250Z",
+    category: "shimge",
+    images: [shimgePw250z],
+    description: {
+      uz: "SHIMGE PW250Z - avtomatik o'z-o'zidan so'rayotgan elektr nasos vorteks (girdob) ish g'ildiragili. Abraziv qo'shimchalarsiz toza suvni va suvga o'xshash xususiyatlariga ega agressiv bo'lmagan suyuqliklarni uzatish uchun mo'ljallangan. Maishiy maqsadlarda foydalanish uchun ishlab chiqilgan. Loadalar, vilalar, xo'jalik va tijorat ob'ektlarining avtomatik uzluksiz suv ta'minoti uchun mukammal. Suv quvuri, quduqlar, quduqlar va suv yig'ish idishlaridan keladigan suv bilan sug'orish, yuvish va sug'orish tashkil etish. Sowuq (0°C dan) va issiq suv (90°C gacha) uchun mo'ljallangan - quyosh suvi isitish va issiq suv ta'minoti tizimlarida ishlatish imkonini beradi. PW-Z seriyasida elektrоn barqarorlash sxemasi ishlatiladi - oqim va bosim rеlеsidan olingan ma'lumotlar boshqaruv bloki tomonidan tahlil qilinadi va nasos avtomatik ravishda yoqiladi yoki o'chiriladi, barqaror suv ta'minotini ta'minlaydi. Quruq ishlashdan ichki himoya. Maksimal unumdorlik: 3.5 m³/soat. Maksimal napor: 25 m. Quvvat: 250 Vt. Maksimal bosim: 5 bar. Suv harorati: 0°C dan 90°C gacha. Jimjit, yopiq tipli dvigatel, tashqi ventilyatsiya va ichki issiqlik himoyasi bilan. IP55 himoya darajasi. B sinfidagi izolyatsiya. Korpus: чугун. Ish g'ildiragı: latun. Mil: zanglamaydigan po'lat 304. 24 oy kafolat.",
+      ru: "SHIMGE PW250Z - автоматический самовсасывающий электронасос с вихревым рабочим колесом. Предназначен для перекачивания чистой воды без абразивных включений и не агрессивных жидкостей, схожих по своим свойствам с водой. Разработан для бытового применения. Превосходно подходит для автоматического непрерывного водоснабжения загородных домов, дач, хозяйственных и коммерческих объектов. Организация полива, мойки и орошения водой из водопровода, колодцев, скважин и водосборных емкостей. Предназначен как для холодной (от 0°C), так и горячей воды (до 90°C) - позволяет использование в системах солнечного нагрева воды и горячего водоснабжения. В электронасосах серии PW-Z используется электронная схема стабилизации - данные с реле потока и реле давления анализируются блоком управления, который автоматически подает команду на пуск или остановку насоса, обеспечивая стабильное водоснабжение. Встроенная защита от сухого хода. Максимальная производительность: 3.5 м³/час. Максимальный напор: 25 м. Мощность: 250 Вт. Максимальное давление: 5 бар. Температура воды: от 0°C до 90°C. Бесшумный электродвигатель закрытого типа с наружной вентиляцией и встроенной тепловой защитой. Класс защиты: IP55. Класс изоляции: B. Корпус: чугун. Рабочее колесо: латунь. Вал: нержавеющая сталь 304. Гарантия 24 месяца."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PW250Z" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "PW-Z" },
+      { label: { uz: "Turi", ru: "Тип насоса" }, value: "Vorteks, o'z-o'zidan so'rayotgan / Вихревой, самовсасывающий" },
+      { label: { uz: "Quvvat", ru: "Потребляемая мощность" }, value: "250W" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальный расход" }, value: "3.5 m³/soat / м³/ч" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "25 m" },
+      { label: { uz: "Aylanishlar", ru: "Частота вращения" }, value: "2850 ayl/min / об/мин" },
+      { label: { uz: "Faza", ru: "Фаза" }, value: "1-fazali / 1-фазный" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V, 50Hz" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное давление" }, value: "5 bar" },
+      { label: { uz: "Suv harorati", ru: "Температура воды" }, value: "0°C dan 90°C gacha / от 0°C до 90°C" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "0°C dan 40°C gacha / от 0°C до 40°C" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "8 m gacha / до 8 м" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Чугун / Чугун" },
+      { label: { uz: "Ish g'ildiragı", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
+      { label: { uz: "Mil materiali", ru: "Материал вала" }, value: "Zanglamaydigan po'lat 304 / Нержавеющая сталь 304" },
+      { label: { uz: "Dvigatel korpusi", ru: "Корпус двигателя" }, value: "Alyuminiy / Алюминий" },
+      { label: { uz: "Himoya darajasi", ru: "Класс защиты" }, value: "IPX4" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс изоляции" }, value: "B" },
+      { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Ha / Да" },
+      { label: { uz: "Quruq ishlashdan himoya", ru: "Защита от сухого хода" }, value: "Ha / Да" },
+      { label: { uz: "O'rnatish", ru: "Способ установки" }, value: "Faqat gorizontal / Только горизонтально" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, issiq suv / Водоснабжение, полив, горячая вода" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
     ]
   }
