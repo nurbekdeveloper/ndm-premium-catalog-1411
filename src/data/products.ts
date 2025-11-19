@@ -24,6 +24,8 @@ import shimgeWt400aDetail from "@/assets/products/shimge-wt400a-detail.png";
 import shimgeWt400c from "@/assets/products/shimge-wt400c.png";
 import shimgeWt400cSide from "@/assets/products/shimge-wt400c-side.png";
 import shimgeWt400cDetail from "@/assets/products/shimge-wt400c-detail.png";
+import shimgeWvsd75f from "@/assets/products/shimge-wvsd-75f.png";
+import shimgeWvsd110f from "@/assets/products/shimge-wvsd-110f.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -436,6 +438,59 @@ export const products: Product[] = [
       { label: { uz: "Maksimal unumdorlik", ru: "Максимальный расход" }, value: "7 м³/ч" },
       { label: { uz: "Qadoqdagi soni", ru: "Количество в упаковке" }, value: "1 dona / шт" },
       { label: { uz: "Minimal buyurtma", ru: "Минимальное количество отгрузки" }, value: "1 dona / шт" }
+    ]
+  },
+  {
+    id: "shimge-wvsd-75f",
+    name: "SHIMGE WVSD 75F",
+    category: "shimge",
+    images: [shimgeWvsd75f],
+    description: {
+      uz: "Cho'kindi nasos SHIMGE WVSD 75F, 750 Vt quvvat bilan, 21 m³/soat unumdorlik, 12 m napor. Vertikal o'rnatish, sho'r suzish boshqaruvi, quruq yurishdan himoya. Iflos suv uchun.",
+      ru: "Насос погружной фекальный SHIMGE WVSD 75F мощностью 750 Вт, производительностью 21 м³/ч, напором 12 м. Вертикальная установка, поплавковый контроль уровня, защита от сухого хода. Для грязной воды."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "O'rnatish", ru: "Установка насоса" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Quvvat", ru: "Потребляемая мощность" }, value: "750 Вт" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "12 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "5 m" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220/230 В" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Iflos / Грязная" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Cho'kindi nasos / Погружной фекальный" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "21 м³/soat / куб. м/час" },
+      { label: { uz: "Himoya", ru: "Защита" }, value: "Quruq yurishdan / От сухого хода" },
+      { label: { uz: "Nazorat", ru: "Автоматический контроль за уровнем воды" }, value: "Sho'r suzish / Поплавковый" }
+    ]
+  },
+  {
+    id: "shimge-wvsd-110f",
+    name: "SHIMGE WVSD 110F",
+    category: "shimge",
+    images: [shimgeWvsd110f],
+    description: {
+      uz: "Cho'kindi nasos SHIMGE WVSD 110F, 1100 Vt quvvat bilan, 27 m³/soat unumdorlik, 13 m napor. Cho'yan korpus, 45mm zarralar o'tishi, sho'r suzish boshqaruvi, quruq yurishdan va qizib ketishdan himoya.",
+      ru: "Насос погружной фекальный SHIMGE WVSD 110F мощностью 1100 Вт, производительностью 27 м³/ч, напором 13 м. Корпус из чугуна, пропуск частиц 45мм, поплавковый контроль, защита от сухого хода и перегрева."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "O'rnatish", ru: "Установка насоса" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Cho'yan / Чугун" },
+      { label: { uz: "Quvvat", ru: "Потребляемая мощность" }, value: "1100 Вт" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "13 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "5 m" },
+      { label: { uz: "Diametr", ru: "Диаметр входного/выходного отверстия" }, value: "2\"" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220/230 В" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Iflos / Грязная" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Cho'kindi nasos / Погружной фекальный" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "27 м³/soat / куб. м/час" },
+      { label: { uz: "Zarralar o'lchami", ru: "Размер пропускаемых частиц" }, value: "45 mm" },
+      { label: { uz: "Himoya", ru: "Защита" }, value: "Quruq yurishdan va qizib ketishdan / От сухого хода и перегрева" },
+      { label: { uz: "Nazorat", ru: "Автоматический контроль за уровнем воды" }, value: "Sho'r suzish / Поплавковый" }
     ]
   },
   // Penopleks - Insulation Materials
