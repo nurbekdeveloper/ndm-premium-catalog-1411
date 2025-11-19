@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Minus, Plus, Trash2, ShoppingBag } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useNavigate } from "react-router-dom";
+import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 interface CartProps {
   isOpen: boolean;
@@ -15,10 +17,50 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
   const { items, updateQuantity, removeFromCart, clearCart, getTotalItems } = useCart();
   const { language, t } = useLanguage();
   const navigate = useNavigate();
+  const { toast } = useToast();
 
   const handleProductClick = (productId: string) => {
     onClose();
     navigate(`/product/${productId}`);
+  };
+
+  const handleCheckout = async () => {
+    try {
+      const { error } = await supabase.functions.invoke('send-to-telegram', {
+        body: {
+          type: 'cart',
+          data: {
+            items: items.map(item => ({
+              name: item.product.name,
+              quantity: item.quantity
+            })),
+            totalItems: getTotalItems()
+          }
+        }
+      });
+
+      if (error) throw error;
+
+      toast({
+        title: t("Buyurtma qabul qilindi!", "Заказ принят!"),
+        description: t(
+          "Tez orada siz bilan bog'lanamiz",
+          "Мы свяжемся с вами в ближайшее время"
+        ),
+      });
+
+      clearCart();
+      onClose();
+    } catch (error) {
+      toast({
+        title: t("Xatolik", "Ошибка"),
+        description: t(
+          "Buyurtma yuborishda xatolik yuz berdi",
+          "Произошла ошибка при отправке заказа"
+        ),
+        variant: "destructive",
+      });
+    }
   };
 
   return (
@@ -126,10 +168,7 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
                 </Button>
                 <Button 
                   className="w-full btn-premium" 
-                  onClick={() => {
-                    onClose();
-                    navigate("/contact");
-                  }}
+                  onClick={handleCheckout}
                 >
                   {t("Buyurtma berish", "Оформить заказ")}
                 </Button>
