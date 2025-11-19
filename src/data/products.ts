@@ -71,6 +71,8 @@ import shimgeQy250_14_15 from "@/assets/products/shimge-qy250-14-15.png";
 import shimgeHc24l from "@/assets/products/shimge-hc-24l.png";
 import shimgeBwie104 from "@/assets/products/shimge-bwie10-4.png";
 import shimgeBwie46 from "@/assets/products/shimge-bwje4-6.png";
+import shimgeCa200 from "@/assets/products/shimge-ca200.png";
+import shimgeCa600 from "@/assets/products/shimge-ca600.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4835,6 +4837,70 @@ export const products: Product[] = [
       { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
       { label: { uz: "Xususiyatlar", ru: "Особенности" }, value: "Inverter, energiya tejamkor / Инвертер, энергосберегающий" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, isitish, sovutish / Водоснабжение, отопление, охлаждение" }
+    ]
+  },
+  {
+    id: "shimge-ca200",
+    name: "SHIMGE CA200",
+    category: "shimge",
+    images: [shimgeCa200],
+    description: {
+      uz: "SHIMGE CA200 - chastota tartibga solish bilan avtomatik nasoslar stantsiyasi. Toza suvni uzatish uchun mo'ljallangan va xususiy uylarda maishiy suv ta'minoti va bosimni oshirish uchun qo'llaniladi. Maksimal unumdorlik 3,5 m³/soat, maksimal napor 25 m. 200 Vt maksimal quvvat. Dasturlashtirish funksiyasi - sozlamalarni sozlash imkoniyati. Tezlikni boshqarish - chastota tartibga solish. Gorizontal o'rnatish - faqat namlik va atmosfera ta'siridan himoyalangan joylarda. 0-60°C ish harorati diapazoni. Atrof-muhit harorati 0-40°C. Maksimal tizim bosimi 5 Bar. Texnopolimer ish g'ildiragi - bardoshli. Zanglamaydigan po'lat mil - korroziyaga chidamli. Plastik nasos qopqog'i. 220V elektr ta'minoti, 50 Hz chastota. IP55 himoya darajasi - chang va suvdan himoya. B izolyatsiya sinfi - issiqlik bardoshliligi. Avtomatika bilan jihozlangan - o'z-o'zini boshqarish. Ichki rezba ulanish - qulay o'rnatish. Ximiyaviy neytral muhit - zararsiz. Qattiq aralashmalar 0,1% dan ortiq emas, zarracha o'lchami 0,2 mm dan oshmasligi kerak. Energiya tejamkor - chastota o'zgartirgich. Past shovqin darajasi. Oson o'rnatish va texnik xizmat ko'rsatish. Xususiy uylar uchun ideal. Ishonchli va bardoshli. 24 oy kafolat. Xitoyda ishlab chiqarilgan SHIMGE brendidan.",
+      ru: "SHIMGE CA200 - автоматическая насосная станция с частотным регулированием. Предназначена для перекачивания чистой воды и применяется для бытового водоснабжения и повышения давления в частных домах. Максимальная производительность 3,5 м³/час, максимальный напор 25 м. Максимальная мощность 200 Вт. Функция программирования - возможность настройки параметров. Управление скоростью - частотное регулирование. Горизонтальная установка - только в местах, защищенных от влаги и атмосферного воздействия. Диапазон рабочих температур 0-60°C. Температура окружающей среды 0-40°C. Максимальное давление в системе 5 Бар. Рабочее колесо из технополимера - износостойкость. Вал из нержавеющей стали - коррозионная стойкость. Крышка насоса из пластика. Электропитание 220В, частота 50 Гц. Степень защиты IP55 - защита от пыли и воды. Класс изоляции B - термостойкость. Оснащена автоматикой - самоуправление. Внутренняя резьба присоединения - удобный монтаж. Химически нейтральная среда - безопасность. Твердые примеси не более 0,1%, размер частиц не более 0,2 мм. Энергосберегающая - частотный преобразователь. Низкий уровень шума. Простой монтаж и обслуживание. Идеальна для частных домов. Надежная и долговечная. Гарантия 24 месяца. Производство Китай, бренд SHIMGE."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "CA200" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Avtomatik nasos stantsiyasi / Автоматическая насосная станция" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "200W" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V (-10%/+6%)" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальная производительность" }, value: "3.5 m³/soat / м³/час" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "25 m" },
+      { label: { uz: "Harorat diapazoni", ru: "Диапазон температур" }, value: "0-60°C" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное давление" }, value: "5 Bar" },
+      { label: { uz: "Himoya sinfi", ru: "Степень защиты" }, value: "IP55" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс изоляции" }, value: "B" },
+      { label: { uz: "Ulanish turi", ru: "Тип присоединения" }, value: "Ichki rezba / Внутренняя резьба" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Ish g'ildiragi", ru: "Рабочее колесо" }, value: "Texnopolimer / Технополимер" },
+      { label: { uz: "Mil materiali", ru: "Материал вала" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Dasturlashtirish", ru: "Программирование" }, value: "Ha / Да" },
+      { label: { uz: "Tezlik boshqaruvi", ru: "Управление скоростью" }, value: "Ha / Да" },
+      { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Ha / Да" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-ca600",
+    name: "SHIMGE CA600",
+    category: "shimge",
+    images: [shimgeCa600],
+    description: {
+      uz: "SHIMGE CA600 - chastota tartibga solish bilan avtomatik nasoslar stantsiyasi. Toza suvni uzatish uchun mo'ljallangan va xususiy uylarda maishiy suv ta'minoti va bosimni oshirish uchun qo'llaniladi. Maksimal unumdorlik 5 m³/soat, maksimal napor 35 m. 650 Vt maksimal quvvat - CA200 modeliga qaraganda yuqori quvvat va unumdorlik. Dasturlashtirish funksiyasi - sozlamalarni sozlash imkoniyati. Tezlikni boshqarish - chastota tartibga solish. Gorizontal o'rnatish - faqat namlik va atmosfera ta'siridan himoyalangan joylarda. 0-60°C ish harorati diapazoni. Atrof-muhit harorati 0-40°C. Maksimal tizim bosimi 5 Bar. Texnopolimer ish g'ildiragi - bardoshli. Zanglamaydigan po'lat mil - korroziyaga chidamli. Plastik nasos qopqog'i. 220V elektr ta'minoti, 50 Hz chastota. IP55 himoya darajasi - chang va suvdan himoya. B izolyatsiya sinfi - issiqlik bardoshliligi. Avtomatika bilan jihozlangan - o'z-o'zini boshqarish. Ichki rezba ulanish - qulay o'rnatish. Ximiyaviy neytral muhit - zararsiz. Qattiq aralashmalar 0,1% dan ortiq emas, zarracha o'lchami 0,2 mm dan oshmasligi kerak. Energiya tejamkor - chastota o'zgartirgich. Past shovqin darajasi. Oson o'rnatish va texnik xizmat ko'rsatish. Xususiy uylar va katta ob'ektlar uchun ideal. Yuqori unumdorlik va quvvat. Ishonchli va bardoshli. 24 oy kafolat. Xitoyda ishlab chiqarilgan SHIMGE brendidan.",
+      ru: "SHIMGE CA600 - автоматическая насосная станция с частотным регулированием. Предназначена для перекачивания чистой воды и применяется для бытового водоснабжения и повышения давления в частных домах. Максимальная производительность 5 м³/час, максимальный напор 35 м. Максимальная мощность 650 Вт - более высокая мощность и производительность по сравнению с моделью CA200. Функция программирования - возможность настройки параметров. Управление скоростью - частотное регулирование. Горизонтальная установка - только в местах, защищенных от влаги и атмосферного воздействия. Диапазон рабочих температур 0-60°C. Температура окружающей среды 0-40°C. Максимальное давление в системе 5 Бар. Рабочее колесо из технополимера - износостойкость. Вал из нержавеющей стали - коррозионная стойкость. Крышка насоса из пластика. Электропитание 220В, частота 50 Гц. Степень защиты IP55 - защита от пыли и воды. Класс изоляции B - термостойкость. Оснащена автоматикой - самоуправление. Внутренняя резьба присоединения - удобный монтаж. Химически нейтральная среда - безопасность. Твердые примеси не более 0,1%, размер частиц не более 0,2 мм. Энергосберегающая - частотный преобразователь. Низкий уровень шума. Простой монтаж и обслуживание. Идеальна для частных домов и крупных объектов. Высокая производительность и мощность. Надежная и долговечная. Гарантия 24 месяца. Производство Китай, бренд SHIMGE."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "CA600" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Avtomatik nasos stantsiyasi / Автоматическая насосная станция" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "650W" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V (-10%/+6%)" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальная производительность" }, value: "5 m³/soat / м³/час" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "35 m" },
+      { label: { uz: "Harorat diapazoni", ru: "Диапазон температур" }, value: "0-60°C" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное давление" }, value: "5 Bar" },
+      { label: { uz: "Himoya sinfi", ru: "Степень защиты" }, value: "IP55" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс изоляции" }, value: "B" },
+      { label: { uz: "Ulanish turi", ru: "Тип присоединения" }, value: "Ichki rezba / Внутренняя резьба" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Ish g'ildiragi", ru: "Рабочее колесо" }, value: "Texnopolimer / Технополимер" },
+      { label: { uz: "Mil materiali", ru: "Материал вала" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Dasturlashtirish", ru: "Программирование" }, value: "Ha / Да" },
+      { label: { uz: "Tezlik boshqaruvi", ru: "Управление скоростью" }, value: "Ha / Да" },
+      { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Ha / Да" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
     ]
   }
 ];
