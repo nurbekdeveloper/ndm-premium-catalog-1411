@@ -3378,7 +3378,8 @@ export const categories = [
     description: {
       uz: "Yuqori sifatli PPR quvurlar va fitinglar. Ishonchli suv ta'minoti tizimlari uchun.",
       ru: "Высококачественные PPR трубы и фитинги. Для надежных систем водоснабжения."
-    }
+    },
+    logo: "/src/assets/partners/hydro-plast-logo.png"
   },
   {
     id: "penopleks",
@@ -3386,7 +3387,8 @@ export const categories = [
     description: {
       uz: "Zamonaviy issiqlik izolyatsiya materiallari. Energiya tejash va qulay muhit.",
       ru: "Современные теплоизоляционные материалы. Энергосбережение и комфорт."
-    }
+    },
+    logo: "/src/assets/partners/penopleks-logo-new.png"
   },
   {
     id: "shimge",
@@ -3394,7 +3396,8 @@ export const categories = [
     description: {
       uz: "Professional nasos uskunalari. Suv ta'minoti va havzalar uchun kuchli yechimlar.",
       ru: "Профессиональное насосное оборудование. Мощные решения для водоснабжения и бассейнов."
-    }
+    },
+    logo: "/src/assets/partners/shimge-logo-new.png"
   },
   {
     id: "deryo-plast",
@@ -3402,7 +3405,8 @@ export const categories = [
     description: {
       uz: "Professional plastik quvur tizimlari. Zamonaviy qurilish yechimlari.",
       ru: "Профессиональные пластиковые трубопроводные системы. Современные строительные решения."
-    }
+    },
+    logo: "/src/assets/partners/hydro-plast-logo.png"
   },
   {
     id: "isocom",
@@ -3410,7 +3414,8 @@ export const categories = [
     description: {
       uz: "Yuqori sifatli izolyatsiya materiallari. Energiya samaradorligi va bardoshlilik.",
       ru: "Высококачественные изоляционные материалы. Энергоэффективность и долговечность."
-    }
+    },
+    logo: "/src/assets/partners/isocom-logo.png"
   },
   {
     id: "tetra-plast",
@@ -3418,7 +3423,8 @@ export const categories = [
     description: {
       uz: "Innovatsion plastik mahsulotlar. Qurilish va ta'mirlash uchun.",
       ru: "Инновационные пластиковые изделия. Для строительства и ремонта."
-    }
+    },
+    logo: "/src/assets/partners/hydro-plast-logo.png"
   },
   {
     id: "lider-line",
@@ -3426,7 +3432,8 @@ export const categories = [
     description: {
       uz: "Premium darajadagi qurilish materiallari. Sifat va ishonchlilik kafolati.",
       ru: "Строительные материалы премиум класса. Гарантия качества и надежности."
-    }
+    },
+    logo: "/src/assets/partners/hydro-plast-logo.png"
   },
   {
     id: "blesk",
@@ -3434,7 +3441,8 @@ export const categories = [
     description: {
       uz: "Zamonaviy bo'yoq va qoplama materiallari. Chiroyli va uzoq muddatli himoya.",
       ru: "Современные лакокрасочные и покрывающие материалы. Красота и долговечная защита."
-    }
+    },
+    logo: "/src/assets/partners/hydro-plast-logo.png"
   },
   {
     id: "ndm",
@@ -3442,6 +3450,7 @@ export const categories = [
     description: {
       uz: "Premium maishiy texnika. Qulay va zamonaviy yechimlar uyingiz uchun.",
       ru: "Премиум бытовая техника. Удобные и современные решения для вашего дома."
-    }
+    },
+    logo: "/src/assets/ndm-logo.png"
   }
 ];
