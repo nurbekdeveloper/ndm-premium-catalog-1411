@@ -48,6 +48,9 @@ const formatCartMessage = (data: any): string => {
   return `
 🛍️ <b>YANGI SAVATCHA BUYURTMA</b>
 
+👤 <b>Ism:</b> ${data.name}
+📞 <b>Telefon:</b> ${data.phone}
+
 📋 <b>Mahsulotlar:</b>
 ${itemsList}
 
