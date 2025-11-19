@@ -67,6 +67,7 @@ import shimgeQdx10160_75 from "@/assets/products/shimge-qdx10-16-0.75.png";
 import shimgeQd1026_2_15 from "@/assets/products/shimge-qd10-26-2-1.5.png";
 import grandfarQd1040_3_22 from "@/assets/products/grandfar-qd10-40-3-2.2.png";
 import shimgeQd1236_3_18 from "@/assets/products/shimge-qd12-36-3-1.8.png";
+import shimgeQy250_14_15 from "@/assets/products/shimge-qy250-14-15.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4647,6 +4648,33 @@ export const products: Product[] = [
       { label: { uz: "pH darajasi", ru: "Уровень pH" }, value: "6.5-8.5" },
       { label: { uz: "Qum miqdori", ru: "Содержание песка" }, value: "Maks 0.1%" },
       { label: { uz: "Korpus", ru: "Материал корпуса" }, value: "Choynak / Чугун" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-qy250-14-15",
+    name: "SHIMGE QY250-14-15",
+    category: "shimge",
+    images: [shimgeQy250_14_15],
+    description: {
+      uz: "SHIMGE QY250-14-15 - yuqori bosimli ko'p bosqichli cho'kma nasos. QY seriyali nasoslar qishloq xo'jaligida sug'orish, yomg'ir yordamida sug'orish, bog' sug'orish, quduqlar yoki suv omborlari suv ta'minoti, akvakultura va boshqa sohalarda keng qo'llaniladi. Bardoshli butun choynak konstruksiyasi. Ixcham struktura, ishlatishda oddiy. Yuqori sifatli ikki tomonlama mexanik muhr ishonchli ishlash uchun. Ko'p bosqichli markazdan qochma yuqori naporli nasos. 15 kW yuqori quvvat - sanoat va qishloq xo'jaligi uchun. 336 m³/soat (5600 l/daq) juda yuqori unumdorlik. 200mm katta chiqish diametri. 0.5m dan 5m gacha cho'kish chuqurligi. Maksimal suyuqlik harorati +40°C. pH darajasi 6.5-8.5. Maksimal qum miqdori 0.1%. 0.2mm gacha suzuvchi zarrachalar o'tishi. 380V uch fazali (-10% dan +10% gacha). Vertikal o'rnatish. Og'ir yuklar uchun professional yechim. 6 oy kafolat.",
+      ru: "SHIMGE QY250-14-15 - многоступенчатый погружной насос с высоким давлением. Насосы серии QY широко применяются в сельскохозяйственном орошении, дождевании, садовом орошении, водоснабжении колодцев или водохранилищ, аквакультуре и других областях. Износостойкая конструкция из цельного чугуна. Компактная структура, проста в использовании. Высококачественное двустороннее механическое уплотнение для надежной работы. Многоступенчатый центробежный насос с высоким напором. Мощность 15 кВт - для промышленных и сельскохозяйственных нужд. Очень высокая производительность 336 м³/час (5600 л/мин). Большой диаметр выхода 200мм. Глубина погружения от 0.5м до 5м. Максимальная температура жидкости +40°C. Уровень pH 6.5-8.5. Максимальное содержание песка 0.1%. Прохождение взвешенных частиц до 0.2мм. 380В трехфазное (диапазон от -10% до +10%). Вертикальная установка. Профессиональное решение для тяжелых нагрузок. Гарантия 6 месяцев."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "QY250-14-15" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Ko'p bosqichli cho'kma / Многоступенчатый погружной" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "15 kW" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "380V (3 faza / 3 фазы)" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "336 m³/soat / м³/час" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр выхода" }, value: "200 mm" },
+      { label: { uz: "Cho'kish chuqurligi", ru: "Глубина погружения" }, value: "0.5-5 m" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "Maks +40°C" },
+      { label: { uz: "pH darajasi", ru: "Уровень pH" }, value: "6.5-8.5" },
+      { label: { uz: "Qum miqdori", ru: "Содержание песка" }, value: "Maks 0.1%" },
+      { label: { uz: "Korpus", ru: "Материал корпуса" }, value: "Butun choynak / Цельный чугун" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
     ]
   }
