@@ -15,6 +15,9 @@ import shimgeJet750l1 from "@/assets/products/shimge-jet750l1.png";
 import shimgeQb60l from "@/assets/products/shimge-qb60l.png";
 import shimgeCpm130 from "@/assets/products/shimge-cpm130.png";
 import shimge50wq15qg from "@/assets/products/shimge-50wq15qg.png";
+import shimgeWt500b from "@/assets/products/shimge-wt500b.png";
+import shimgeWt500bSide from "@/assets/products/shimge-wt500b-side.png";
+import shimgeWt500bDetail from "@/assets/products/shimge-wt500b-detail.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -352,6 +355,31 @@ export const products: Product[] = [
       { label: { uz: "Mator g'altagi", ru: "Обмотка мотора" }, value: "Mis" },
       { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "Shimge (Китай)" },
       { label: { uz: "Qo'llanilish", ru: "Применение" }, value: "Kanalizatsiya, iflos suvlar" }
+    ]
+  },
+  {
+    id: "shimge-wt500b",
+    name: "SHIMGE WT500-B",
+    category: "shimge",
+    images: [shimgeWt500b, shimgeWt500bSide, shimgeWt500bDetail],
+    description: {
+      uz: "Kanalizatsiya o'rnatish qurilmasi WT500-B yon ulanishli, 500 Vt quvvat bilan, 7.5 m³/soat unumdorlik, 9 m napor. Kanalizatsiya va chiqindi suvlarni pompalash uchun ishonchli yechim.",
+      ru: "Канализационная установка WT500-B с боковым соединением, мощностью 500 Вт, производительностью 7.5 м³/ч, напором 9 м. Надежное решение для перекачки канализационных и сточных вод."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "SHIMGE" },
+      { label: { uz: "Artikul", ru: "Артикул" }, value: "TCK/10310100078" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "500 Вт" },
+      { label: { uz: "Maksimal harorat", ru: "Максимальная температура применения" }, value: "75°C" },
+      { label: { uz: "Minimal harorat", ru: "Минимальная температура применения" }, value: "1°C" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "9 m" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220 В" },
+      { label: { uz: "Chastota", ru: "Частота тока" }, value: "50 Гц" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальный расход" }, value: "7.5 м³/ч" },
+      { label: { uz: "Qadoqdagi soni", ru: "Количество в упаковке" }, value: "1 dona / шт" },
+      { label: { uz: "Minimal buyurtma", ru: "Минимальное количество отгрузки" }, value: "1 dona / шт" }
     ]
   },
   // Penopleks - Insulation Materials
