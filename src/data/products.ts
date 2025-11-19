@@ -51,6 +51,9 @@ import shimgeSgt100200_22 from "@/assets/products/shimge-sgt100-200-22.png";
 import shimge2sgpm25_160b from "@/assets/products/shimge-2sgpm25-160b.png";
 import shimgeShfm5a from "@/assets/products/shimge-shfm5a.png";
 import shimgeShfm5am from "@/assets/products/shimge-shfm5am.png";
+import shimgeShfm5bm from "@/assets/products/shimge-shfm5bm.png";
+import shimgeShfm6a from "@/assets/products/shimge-shfm6a.png";
+import shimgeShfm6b from "@/assets/products/shimge-shfm6b.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -1159,6 +1162,85 @@ export const products: Product[] = [
       { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C gacha / до +40°C" },
       { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-shfm5bm",
+    name: "SHIMGE SHFm5BM",
+    category: "shimge",
+    images: [shimgeShfm5bm],
+    description: {
+      uz: "SHIMGE SHFm5BM markazdan qochma nasosi abraziv zarralar bo'lmagan suv yoki suvga o'xshash xususiyatlarga ega boshqa suyuqliklarni ko'chirish uchun mo'ljallangan. Bog' sug'orish, sabzavotchilik, issiqxona suv ta'minoti, chorvachilikda suv ta'minoti va suv chiqarish, turli o'g'it berish uskunalarida keng foydalaniladi. 7 metrgacha so'rish chuqurligi. Suyuqlik harorati +40°C gacha, atrof-muhit harorati +40°C gacha ishlash imkoniyati. Maksimal ish bosimi 3 bar. Kuchlanish o'zgarishlari nominal qiymatdan 10% dan oshmasligi kerak. pH darajasi 6.5 dan 8.5 gacha. Katta oqim va yuqori samaradorlik bilan. Ixcham konstruksiya, oson o'rnatish. 1.1 kW quvvat va 36 m³/soat o'tkazish qobiliyati yuqori unumdorlikni ta'minlaydi. 50 mm chiqish teshigi diametri katta quvur tizimlariga ulanish uchun qulay. Barcha asosiy qismlar yuqori sifatli materiallardan yasalgan bo'lib, uzoq xizmat muddatini ta'minlaydi. Issiqxonalar, fermer xo'jaliklari, bog'lar va qishloq xo'jaligi ob'ektlarida ishlatish uchun mukammal. Energiya tejamkor va samarali ishlash. 6 oy kafolat bilan.",
+      ru: "Центробежный насос SHIMGE SHFm5BM подходит для переноса воды без абразивных частиц или другой жидкости, свойства которой похожи на воду. Широко используется в садовой ирригации, овощеводстве, тепличном водоснабжении, водоснабжении и водоотведении в животноводстве, различном оборудовании для внесения удобрений и т.д. Всасывающая головка до 7 метров. Температура жидкости до +40°С, температура окружающей среды до +40°С. Максимальное рабочее давление 3 бар. Колебания напряжения не должны превышать 10% от номинального значения. pH от 6.5 до 8.5. Большой поток и высокая эффективность. Компактная структура, простота установки. Мощность 1.1 кВт и пропускная способность 36 м³/час обеспечивают высокую производительность. Диаметр выходного отверстия 50 мм удобен для подключения к крупным трубопроводным системам. Все основные детали изготовлены из высококачественных материалов, что обеспечивает длительный срок службы. Идеально подходит для использования в теплицах, фермерских хозяйствах, садах и сельскохозяйственных объектах. Энергосберегающая и эффективная работа. Гарантия 6 месяцев."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "SHFm5BM" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Kategoriya", ru: "Категория" }, value: "Markazdan qochma nasoslar / Центробежные насосы" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1.1 kW (1100 W)" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Пропускная способность" }, value: "36 m³/soat / м³/час" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр резьбы выходящего отверстия" }, value: "50 mm" },
+      { label: { uz: "So'rish chuqurligi", ru: "Всасывающая головка" }, value: "7 m gacha / до 7 м" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное рабочее давление" }, value: "3 bar" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-shfm6a",
+    name: "SHIMGE SHFm6A",
+    category: "shimge",
+    images: [shimgeShfm6a],
+    description: {
+      uz: "SHIMGE SHFm6A markazdan qochma nasosi abraziv zarralar bo'lmagan suv yoki suvga o'xshash xususiyatlarga ega boshqa suyuqliklarni ko'chirish uchun mo'ljallangan. Bog' sug'orish, sabzavotchilik, issiqxona suv ta'minoti, chorvachilikda suv ta'minoti va suv chiqarish, turli o'g'it berish uskunalarida keng foydalaniladi. 7 metrgacha so'rish chuqurligi. Suyuqlik harorati +40°C gacha, atrof-muhit harorati +40°C gacha ishlash imkoniyati. Maksimal ish bosimi 3 bar. Kuchlanish o'zgarishlari nominal qiymatdan 10% dan oshmasligi kerak. pH darajasi 6.5 dan 8.5 gacha. Katta oqim va yuqori samaradorlik bilan. Ixcham konstruksiya, oson o'rnatish. 6 kW yuqori quvvat katta hajmdagi suv ta'minoti uchun. 78 m³/soat katta o'tkazish qobiliyati sanoat va fermer xo'jaliklari uchun ideal. 80 mm chiqish teshigi diametri yirik quvur tizimlariga ulanish uchun. Barcha asosiy qismlar yuqori sifatli materiallardan yasalgan. Katta issiqxonalar, fermer xo'jaliklari, intensiv sug'orish tizimlari uchun professional yechim. 6 oy kafolat.",
+      ru: "Центробежный насос SHIMGE SHFm6A подходит для переноса воды без абразивных частиц или другой жидкости, свойства которой похожи на воду. Широко используется в садовой ирригации, овощеводстве, тепличном водоснабжении, водоснабжении и водоотведении в животноводстве, различном оборудовании для внесения удобрений и т.д. Всасывающая головка до 7 метров. Температура жидкости до +40°С, температура окружающей среды до +40°С. Максимальное рабочее давление 3 бар. Колебания напряжения не должны превышать 10% от номинального значения. pH от 6.5 до 8.5. Большой поток и высокая эффективность. Компактная структура, простота установки. Высокая мощность 6 кВт для водоснабжения больших объемов. Большая пропускная способность 78 м³/час идеальна для промышленности и фермерских хозяйств. Диаметр выходного отверстия 80 мм для подключения к крупным трубопроводным системам. Все основные детали изготовлены из высококачественных материалов. Профессиональное решение для крупных теплиц, фермерских хозяйств, интенсивных систем орошения. Гарантия 6 месяцев."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "SHFm6A" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Kategoriya", ru: "Категория" }, value: "Markazdan qochma nasoslar / Центробежные насосы" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "6 kW (6000 W)" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Пропускная способность" }, value: "78 m³/soat / м³/час" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр резьбы выходящего отверстия" }, value: "80 mm" },
+      { label: { uz: "So'rish chuqurligi", ru: "Всасывающая головка" }, value: "7 m gacha / до 7 м" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное рабочее давление" }, value: "3 bar" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-shfm6b",
+    name: "SHIMGE SHFm6B",
+    category: "shimge",
+    images: [shimgeShfm6b],
+    description: {
+      uz: "SHIMGE SHFm6B markazdan qochma nasosi suv havzalari, sug'orish, quduqlar uchun mo'ljallangan. Toza suvni quyish uchun yuqori samarali qurilma. 1500 Vt (1.5 kW) quvvat. 14.7 metr maksimal suv napori. 7 metrgacha maksimal so'rish chuqurligi. 72 m³/soat (1200 litr/daqiqa) yuqori o'tkazish qobiliyati. Toza suv sifati uchun mo'ljallangan. Maksimal ish harorati 40°C. Quyma temir korpus va ishchi g'ildirak yuqori chidamlilikni ta'minlaydi. Mis stator va zanglamaydigan po'lat val uzoq xizmat muddatini kafolatlaydi. 1.3 metr kabel uzunligi. Ipli ulanish turi, 3 dyuymli (76mm) ulanish diametri. 220V kuchlanish. 31 kg og'irlik. Suv havzalari, sug'orish tizimlari va quduqlar uchun ideal. Yuqori o'tkazish qobiliyati va ishonchlilik. SHIMGE brendi - Xitoyda ro'yxatdan o'tgan, yuqori sifat standartlari.",
+      ru: "Центробежный насос SHIMGE SHFm6B предназначен для водоёмов, полива, колодцев. Высокоэффективное устройство для перекачивания чистой воды. Мощность 1500 Вт (1.5 кВт). Максимальный напор воды 14.7 метров. Максимальная глубина всасывания 7 метров. Высокая производительность 72 м³/ч (1200 л/мин). Предназначен для чистой воды. Максимальная рабочая температура 40°C. Корпус и рабочее колесо из чугуна обеспечивают высокую прочность. Статор из меди и вал из нержавеющей стали гарантируют длительный срок службы. Длина кабеля 1.3 метра. Тип подключения резьба, диаметр подключения 3 дюйма (76мм). Напряжение 220В. Вес 31 кг. Идеально для водоёмов, систем полива и колодцев. Высокая производительность и надежность. Бренд SHIMGE - зарегистрирован в Китае, стандарты высокого качества."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "SHFm6B" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Qo'llanilishi", ru: "Сфера применения" }, value: "Suv havzalari, sug'orish, quduqlar / Для водоёмов, полива, колодца" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1500 W (1.5 kW)" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор воды" }, value: "14.7 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Максимальная глубина всасывания" }, value: "7 m" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Производительность" }, value: "72 m³/soat (1200 L/min) / м³/ч (л/мин)" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza / Чистая" },
+      { label: { uz: "Maksimal harorat", ru: "Макс. рабочая температура" }, value: "40°C" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Quyma temir / Чугун" },
+      { label: { uz: "Ishchi g'ildirak", ru: "Материал рабочего колеса" }, value: "Quyma temir / Чугун" },
+      { label: { uz: "Stator", ru: "Материал статора" }, value: "Mis / Медь" },
+      { label: { uz: "Val", ru: "Материал вала" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Ulanish turi", ru: "Тип подключения" }, value: "Ipli / Резьба" },
+      { label: { uz: "Ulanish diametri", ru: "Диаметр подключения" }, value: "3\" (76 mm)" },
+      { label: { uz: "Kuchlanish", ru: "Питание" }, value: "220 V" },
+      { label: { uz: "Og'irlik", ru: "Вес" }, value: "31 kg" },
+      { label: { uz: "Mamlakat", ru: "Страна регистрации бренда" }, value: "Xitoy / Китай" }
     ]
   },
   // Penopleks - Insulation Materials
