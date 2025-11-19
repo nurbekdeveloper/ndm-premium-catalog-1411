@@ -70,6 +70,7 @@ import shimgeQd1236_3_18 from "@/assets/products/shimge-qd12-36-3-1.8.png";
 import shimgeQy250_14_15 from "@/assets/products/shimge-qy250-14-15.png";
 import shimgeHc24l from "@/assets/products/shimge-hc-24l.png";
 import shimgeBwie104 from "@/assets/products/shimge-bwie10-4.png";
+import shimgeBwie46 from "@/assets/products/shimge-bwje4-6.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4799,6 +4800,41 @@ export const products: Product[] = [
       { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Uglerodli po'lat / Углеродистая сталь" },
       { label: { uz: "Membrana turi", ru: "Тип мембраны" }, value: "Olinadigan EPDM / Съемная EPDM" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Ichimlik suvi, suv ta'minoti / Питьевая вода, водоснабжение" }
+    ]
+  },
+  {
+    id: "shimge-bwje4-6",
+    name: "SHIMGE BWJE4-6",
+    category: "shimge",
+    images: [shimgeBwie46],
+    description: {
+      uz: "SHIMGE BWJE4-6 - zanglamaydigan po'lat SUS304dan yasalgan to'liq integratsiyalashgan aqlli o'zgaruvchan chastotali (inverter) ko'p bosqichli markazdan qochma nasos. IE2 dvigateli bilan jihozlangan. 1,1 kVt (1,5 HP) quvvatli, 116 L/daqiqa (6,96 m³/soat) nominal unumdorlik, 45 m nominal napor, maksimal 57 m napor. Avtomatik ravishda doimiy bosim va o'zgaruvchan chastotali suv ta'minotini sozlaydi - optimal energiya samaradorligi. Barcha nasos qismlari zanglamaydigan po'lat 304dan yasalgan - yuqori korroziyaga chidamlilik. Inverter IP65 himoya sinfi - chang va suvdan himoya. Nasos IP55 himoya sinfi. F izolyatsiya sinfi - yuqori issiqlik bardoshliligi. 220V/50Hz elektr ta'minoti. DN32/25 kirish va chiqish diametrlari. 0-68°C ish harorati diapazoni. Maksimal ish bosimi 10 Bar. Atrof-muhit harorati +40°C gacha. Atrof-muhit namligi 10-90% RH (kondensatsiyalanmaydigan). O'rnatish balandligi 1000 metrdan past. Energiya tejamkor - inverter texnologiyasi. Avtomatik bosim boshqaruvi - doimiy suv bosimi. Yuqori samaradorlik - IE2 dvigatel. Kompakt dizayn - gorizontal o'rnatish. Past shovqin darajasi - serjilish. Oson o'rnatish va texnik xizmat ko'rsatish. Korroziyaga chidamli - to'liq zanglamaydigan po'lat. Professional va sanoat maqsadlari uchun. Suv ta'minoti, isitish va sovutish tizimlarida ishlatiladi. Ko'p qavatli binolar va villar uchun ideal. Pasport va kafolat bilan. Xitoyda ishlab chiqarilgan SHIMGE brendidan.",
+      ru: "SHIMGE BWJE4-6 - полностью интегрированный интеллектуальный частотно-регулируемый (инверторный) многоступенчатый центробежный насос из нержавеющей стали SUS304. Оснащен двигателем IE2. Мощность 1,1 кВт (1,5 л.с.), номинальная производительность 116 л/мин (6,96 м³/час), номинальный напор 45 м, максимальный напор 57 м. Автоматически регулирует постоянное давление и частотное водоснабжение - оптимальная энергоэффективность. Все проточные части насоса изготовлены из нержавеющей стали 304 - высокая коррозионная стойкость. Инвертор класса защиты IP65 - защита от пыли и воды. Насос класса защиты IP55. Класс изоляции F - высокая термостойкость. Электропитание 220В/50Гц. Диаметры входа и выхода DN32/25. Диапазон рабочих температур 0-68°C. Максимальное рабочее давление 10 Бар. Температура окружающей среды до +40°C. Влажность окружающей среды 10-90% RH (неконденсирующая). Высота установки менее 1000 метров. Энергосберегающий - инверторная технология. Автоматическое управление давлением - постоянное давление воды. Высокая эффективность - двигатель IE2. Компактный дизайн - горизонтальная установка. Низкий уровень шума - бесшумность. Простой монтаж и обслуживание. Коррозионностойкий - полностью из нержавеющей стали. Для профессионального и промышленного применения. Используется в системах водоснабжения, отопления и охлаждения. Идеален для многоэтажных зданий и вилл. С паспортом и гарантией. Производство Китай, бренд SHIMGE."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "BWJE4-6" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "BWJE" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Ko'p bosqichli markazdan qochma / Многоступенчатый центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1100W (1.1kW, 1.5HP)" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "116 L/min (6.96 m³/soat / м³/час)" },
+      { label: { uz: "Nominal napor", ru: "Номинальный напор" }, value: "45 m" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "57 m" },
+      { label: { uz: "Nominal diametri", ru: "Диаметр номинальный" }, value: "DN32/25" },
+      { label: { uz: "Harorat diapazoni", ru: "Диапазон температур" }, value: "0-68°C" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное давление" }, value: "10 Bar" },
+      { label: { uz: "Dvigatel", ru: "Двигатель" }, value: "IE2" },
+      { label: { uz: "Himoya sinfi (nasos)", ru: "Класс защиты (насос)" }, value: "IP55" },
+      { label: { uz: "Himoya sinfi (inverter)", ru: "Класс защиты (инвертер)" }, value: "IP65" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс изоляции" }, value: "F" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Zanglamaydigan po'lat SUS304 / Нержавеющая сталь SUS304" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "max 40°C" },
+      { label: { uz: "Namlik", ru: "Влажность" }, value: "10-90% RH" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Xususiyatlar", ru: "Особенности" }, value: "Inverter, energiya tejamkor / Инвертер, энергосберегающий" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, isitish, sovutish / Водоснабжение, отопление, охлаждение" }
     ]
   }
 ];
