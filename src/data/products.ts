@@ -34,6 +34,7 @@ import shimgeJet750g1 from "@/assets/products/shimge-jet750g1.png";
 import shimgeJet1100g1 from "@/assets/products/shimge-jet1100g1.png";
 import shimgeSgjw37s from "@/assets/products/shimge-sgjw37s.png";
 import shimgeSgjw37 from "@/assets/products/shimge-sgjw37.png";
+import shimgeJet100p from "@/assets/products/shimge-jet100p.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -709,6 +710,38 @@ export const products: Product[] = [
       { label: { uz: "Himoya klassi", ru: "Защита" }, value: "IP44" },
       { label: { uz: "Izolyatsiya klassi", ru: "Изоляция" }, value: "B" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-jet100p",
+    name: "SHIMGE JET 100P",
+    category: "shimge",
+    images: [shimgeJet100p],
+    description: {
+      uz: "SHIMGE JET 100P markazdan qochma sirt nasosi 0.75 kW quvvat bilan. Ochiq suv havzalaridan, quduqlardan, qudiqlardan va yig'ish idishlaridan avtomatik rejimda suv va kimyoviy jihatdan agressiv bo'lmagan suyuqliklarni haydash uchun mo'ljallangan. Bog' va poliz sug'orish tizimlari, tomchi sug'orish tizimlari, turli maqsadlardagi bosim oshirish tizimlarida ishlatiladi. Uzoq xizmat muddati, yuqori FIK, pulsatsiyasiz doimiy ta'minot, yuqori samaradorlik. Ishchi g'ildirak (choyan qismi) harakati va markazdan qochma kuch yaratish orqali suvni harakatga keltiradi. Havoni chiqarish uchun korpus butunlay suv bilan to'ldiriladi. Jihozni yoqganingizda, ishchi g'ildirak harakatlanadi, suvni chiqish teshigiga itarib yuboradigan markazdan qochma kuch hosil bo'ladi. Havo yoki gaz bo'lgan suyuqliklarni haydashi mumkin. Xususiy uylar va kottejlar uchun avtomatik bosim oshirish stansiyalarida ishlatish uchun yaxshi yechim. Qo'pol chidamli plastik diffuzor, zanglamaydigan po'lat vali, keramika va grafit mexanik muhr, korpus ventilyator bilan sovitiladi. SHIMGE 30 yildan ortiq vaqt davomida nasoslar ishlab chiqarish bilan shug'ullanadi, dunyoda eng mashhur kompaniyalardan biri. Yillik ishlab chiqarish 1.5 milliondan ortiq. Sifatni ta'minlash uchun ISO9001, ISO14001 va OHSAS18001 sertifikatlariga ega. Mahsulotlar GS, CE va UL sertifikatlaridan o'tgan va RoHS direktivasiga mos keladi.",
+      ru: "Центробежный поверхностный насос SHIMGE JET 100P мощностью 0.75 кВт, самовсасывающий, предназначен для подачи воды из открытых водоемов, колодцев, скважин, накопительных емкостей в автоматическом режиме для перекачки воды и химически неагрессивных жидкостей. Используется в системах полива садов и огородов, системах капельного орошения, системах повышения давления различного назначения. Долгий срок службы, высокий КПД, постоянная подача без пульсаций, высокая производительность. Поверхностный насос работает на основе движения рабочего колеса (крыльчатки) внутри его корпуса и создании центробежной силы, продвигающей воду. Корпус прибора полностью заполняется водой для вытеснения из него воздуха. При включении устройства начинается движение рабочего колеса, создается центробежная сила, выталкивающая воду к выпускному отверстию. Может перекачивать жидкости, в которых присутствует воздух или газ. Является хорошим решением для использования в станциях автоматического повышения давления для систем водоснабжения частных домов и коттеджей. Насосная часть изготовлена из чугуна, рабочее колесо из латуни, диффузор из высокопрочного пластика, вал двигателя из нержавеющей стали, механическое уплотнение из керамики и графита. Корпус электродвигателя охлаждается вентилятором. Опоры вала двигателя - шарикоподшипники, свободно доступные для обслуживания. Класс изоляции F, термозащитное реле встроено в двигатель. SHIMGE специализируется на производстве водяных насосов более 30 лет, одна из самых известных компаний в Китае. Годовое производство водяных насосов более 1.5 миллиона. Для обеспечения качества продукции SHIMGE прошла сертификацию ISO9001, ISO14001 и OHSAS18001. Продукция прошла сертификацию GS, CE и UL и соответствует директиве RoHS."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип двигателя" }, value: "Markazdan qochma, sirt, o'z-o'zidan so'ruvchi / Центробежный, поверхностный, самовсасывающий" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.75 kW" },
+      { label: { uz: "Maksimal napor", ru: "Напор" }, value: "46 m / метров" },
+      { label: { uz: "Maksimal oqim", ru: "Производительность" }, value: "4.2 m³/soat (70 l/daqiqa) / м³/час (70 л/мин)" },
+      { label: { uz: "So'rish chuqurligi", ru: "Высота всасывания" }, value: "9 m gacha / до 9 метров" },
+      { label: { uz: "Kirish/Chiqish", ru: "Диаметр подключения" }, value: "1 dyuym / дюйм (25 mm)" },
+      { label: { uz: "Material", ru: "Материал изделия" }, value: "Choyan / Чугун" },
+      { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
+      { label: { uz: "Diffuzor", ru: "Диффузор" }, value: "Yuqori mustahkam plastik / Высокопрочный пластик" },
+      { label: { uz: "Vali", ru: "Вал двигателя" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Suv harorati", ru: "Максимальная температура воды" }, value: "+40°C gacha / до 40 градусов" },
+      { label: { uz: "Kuchlanish", ru: "Источник питания" }, value: "220 V / 50 Hz" },
+      { label: { uz: "Fazalar soni", ru: "Количество фаз" }, value: "1" },
+      { label: { uz: "Izolyatsiya klassi", ru: "Класс изоляции" }, value: "F" },
+      { label: { uz: "Himoya", ru: "Защита" }, value: "IP44 + Termal himoya / Термозащитное реле" },
+      { label: { uz: "Ishchi g'ildiraklarning soni", ru: "Количество рабочих колес" }, value: "1" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
     ]
   },
   // Penopleks - Insulation Materials
