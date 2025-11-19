@@ -56,6 +56,8 @@ import shimgeShfm6a from "@/assets/products/shimge-shfm6a.png";
 import shimgeShfm6b from "@/assets/products/shimge-shfm6b.png";
 import shimgeShfm6c from "@/assets/products/shimge-shfm6c.png";
 import shimge3sem18_27_075t from "@/assets/products/shimge-3sem1.8-27-0.75t.png";
+import shimge3sem25_15_055t from "@/assets/products/shimge-3sem2.5-15-0.55t.png";
+import shimge3sem18_14_037t from "@/assets/products/shimge-3sem1.8-14-0.37t.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -1289,6 +1291,74 @@ export const products: Product[] = [
       { label: { uz: "Quvvat", ru: "Макс. мощность" }, value: "0.75 kW (750 W)" },
       { label: { uz: "Maksimal oqim", ru: "Максимальный расход" }, value: "2.7 m³/soat / м³/ч" },
       { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "115 m" },
+      { label: { uz: "Maksimal chuqurlik", ru: "Максимальная глубина" }, value: "70 m (statik suv sathidan / от статического уровня)" },
+      { label: { uz: "Ulanish turi", ru: "Тип присоединения" }, value: "Ichki ipli 1\" / Внутренняя резьба 1\"" },
+      { label: { uz: "O'rnatish usuli", ru: "Способ установки" }, value: "Faqat vertikal / Только вертикально" },
+      { label: { uz: "Ish muhiti harorati", ru: "Температура рабочей среды" }, value: "+1°C dan +40°C gacha / от +1°C до +40°C" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "0°C dan +40°C gacha / от 0°C до +40°C" },
+      { label: { uz: "Qum miqdori", ru: "Содержание песка" }, value: "0.01% dan oshmasligi / не более 0.01%" },
+      { label: { uz: "pH darajasi", ru: "pH уровень" }, value: "6.5-8.5" },
+      { label: { uz: "Korpus", ru: "Материал корпуса" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Val", ru: "Материал вала" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Ishchi g'ildiraklar", ru: "Рабочие колеса" }, value: "Texnopolimer / Технополимер" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220V (-10%/+6%), 50 Hz" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IPX8" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс изоляции" }, value: "B sinf / Класс B" },
+      { label: { uz: "Diametr talabi", ru: "Минимальный диаметр скважины" }, value: "85 mm (3\")" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-3sem2.5-15-0.55t",
+    name: "SHIMGE 3SEm2.5/15-0.55T",
+    category: "shimge",
+    images: [shimge3sem25_15_055t],
+    description: {
+      uz: "SHIMGE 3SEm2.5/15-0.55T chuqur quduq uchun suv osti nasosi ichki diametri 85 mm yoki undan katta bo'lgan quduqlar, chuqur quduqlar va ochiq suv havzalaridan toza sovuq suvni quyish uchun mo'ljallangan. Xususiy uylar, kottejlar uchun avtonom suv ta'minoti, bog' uchastkalarini sug'orish, rezervuarlarni suv bilan to'ldirish, kichik fuqarolik, qishloq xo'jaligi va ishlab chiqarish ob'ektlarini suv bilan ta'minlash uchun ideal. Dvigatel oziq-ovqat moyi bilan to'ldirilgan. 'Suzuvchi' ishchi g'ildiraklar qumdan yaxshilangan himoya bilan jihozlangan. Dvigatelning ichki issiqlik himoyasi o'rnatilgan, almashtirish uchun qulay. Nasosning chiqish patrubok guruchdan yasalgan korroziyaga qarshi qoplama bilan. Statik suv sathidan maksimal chuqurlik 70 metr. 3.6 m³/soat maksimal oqim, 62 metr maksimal napor. 0.55 kW quvvat energiya tejamkorligini ta'minlaydi. Faqat vertikal o'rnatish. Zanglamaydigan po'lat korpus va val. Texnopolimerdan yasalgan ishchi g'ildiraklar. Yuqori ishonchlilik va uzoq xizmat muddati. 24 oy kafolat.",
+      ru: "SHIMGE 3SEm2.5/15-0.55T - глубинный погружной насос для подачи чистой холодной воды из скважин с внутренним диаметром 85 мм или больше, глубоких колодцев, открытых водоемов. Идеально подходит для автономного водоснабжения частных домов, коттеджей, организации полива садовых участков, наполнения водой резервуаров, обеспечения водой малых гражданских, сельскохозяйственных и производственных объектов. Двигатель заполнен пищевым маслом. 'Плавающие' рабочие колеса с улучшенной защитой от песка. Встроенная термозащита двигателя, удобная для замены. Выходной патрубок насоса из латуни с антикоррозионным покрытием. Максимальная глубина от статического уровня воды в скважине 70 метров. Максимальный расход 3.6 м³/ч, максимальный напор 62 метра. Мощность 0.55 кВт обеспечивает энергоэффективность. Только вертикальная установка. Корпус и вал из нержавеющей стали. Рабочие колеса из технополимера. Высокая надежность и долгий срок службы. Гарантия 24 месяца."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "3SEm2.5/15-0.55T" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Chuqur quduq uchun suv osti nasosi / Погружной скважинный насос" },
+      { label: { uz: "Quvvat", ru: "Макс. мощность" }, value: "0.55 kW (550 W)" },
+      { label: { uz: "Maksimal oqim", ru: "Максимальный расход" }, value: "3.6 m³/soat / м³/ч" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "62 m" },
+      { label: { uz: "Maksimal chuqurlik", ru: "Максимальная глубина" }, value: "70 m (statik suv sathidan / от статического уровня)" },
+      { label: { uz: "Ulanish turi", ru: "Тип присоединения" }, value: "Ichki ipli 1\" / Внутренняя резьба 1\"" },
+      { label: { uz: "O'rnatish usuli", ru: "Способ установки" }, value: "Faqat vertikal / Только вертикально" },
+      { label: { uz: "Ish muhiti harorati", ru: "Температура рабочей среды" }, value: "+1°C dan +40°C gacha / от +1°C до +40°C" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "0°C dan +40°C gacha / от 0°C до +40°C" },
+      { label: { uz: "Qum miqdori", ru: "Содержание песка" }, value: "0.01% dan oshmasligi / не более 0.01%" },
+      { label: { uz: "pH darajasi", ru: "pH уровень" }, value: "6.5-8.5" },
+      { label: { uz: "Korpus", ru: "Материал корпуса" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Val", ru: "Материал вала" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Ishchi g'ildiraklar", ru: "Рабочие колеса" }, value: "Texnopolimer / Технополимер" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220V (-10%/+6%), 50 Hz" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IPX8" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс изоляции" }, value: "B sinf / Класс B" },
+      { label: { uz: "Diametr talabi", ru: "Минимальный диаметр скважины" }, value: "85 mm (3\")" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-3sem1.8-14-0.37t",
+    name: "SHIMGE 3SEm1.8/14-0.37T",
+    category: "shimge",
+    images: [shimge3sem18_14_037t],
+    description: {
+      uz: "SHIMGE 3SEm1.8/14-0.37T chuqur quduq uchun suv osti nasosi ichki diametri 85 mm yoki undan katta bo'lgan quduqlar, chuqur quduqlar va ochiq suv havzalaridan toza sovuq suvni quyish uchun mo'ljallangan. Xususiy uylar, kottejlar uchun avtonom suv ta'minoti, bog' uchastkalarini sug'orish, rezervuarlarni suv bilan to'ldirish, kichik fuqarolik, qishloq xo'jaligi va ishlab chiqarish ob'ektlarini suv bilan ta'minlash uchun ideal. Dvigatel oziq-ovqat moyi bilan to'ldirilgan. 'Suzuvchi' ishchi g'ildiraklar qumdan yaxshilangan himoya bilan jihozlangan. Dvigatelning ichki issiqlik himoyasi o'rnatilgan, almashtirish uchun qulay. Nasosning chiqish patrubok guruchdan yasalgan korroziyaga qarshi qoplama bilan. Statik suv sathidan maksimal chuqurlik 70 metr. 2.7 m³/soat maksimal oqim, 60 metr maksimal napor. 0.37 kW kam quvvat iste'moli bilan samarali ishlash. Faqat vertikal o'rnatish. Zanglamaydigan po'lat korpus va val. Texnopolimerdan yasalgan ishchi g'ildiraklar. Ixcham va iqtisodiy yechim. 24 oy kafolat.",
+      ru: "SHIMGE 3SEm1.8/14-0.37T - глубинный погружной насос для подачи чистой холодной воды из скважин с внутренним диаметром 85 мм или больше, глубоких колодцев, открытых водоемов. Идеально подходит для автономного водоснабжения частных домов, коттеджей, организации полива садовых участков, наполнения водой резервуаров, обеспечения водой малых гражданских, сельскохозяйственных и производственных объектов. Двигатель заполнен пищевым маслом. 'Плавающие' рабочие колеса с улучшенной защитой от песка. Встроенная термозащита двигателя, удобная для замены. Выходной патрубок насоса из латуни с антикоррозионным покрытием. Максимальная глубина от статического уровня воды в скважине 70 метров. Максимальный расход 2.7 м³/ч, максимальный напор 60 метров. Мощность 0.37 кВт для эффективной работы с низким энергопотреблением. Только вертикальная установка. Корпус и вал из нержавеющей стали. Рабочие колеса из технополимера. Компактное и экономичное решение. Гарантия 24 месяца."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "3SEm1.8/14-0.37T" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Chuqur quduq uchun suv osti nasosi / Погружной скважинный насос" },
+      { label: { uz: "Quvvat", ru: "Макс. мощность" }, value: "0.37 kW (370 W)" },
+      { label: { uz: "Maksimal oqim", ru: "Максимальный расход" }, value: "2.7 m³/soat / м³/ч" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "60 m" },
       { label: { uz: "Maksimal chuqurlik", ru: "Максимальная глубина" }, value: "70 m (statik suv sathidan / от статического уровня)" },
       { label: { uz: "Ulanish turi", ru: "Тип присоединения" }, value: "Ichki ipli 1\" / Внутренняя резьба 1\"" },
       { label: { uz: "O'rnatish usuli", ru: "Способ установки" }, value: "Faqat vertikal / Только вертикально" },
