@@ -36,6 +36,8 @@ import shimgeSgjw37s from "@/assets/products/shimge-sgjw37s.png";
 import shimgeSgjw37 from "@/assets/products/shimge-sgjw37.png";
 import shimgeJet100p from "@/assets/products/shimge-jet100p.png";
 import shimgeSgjw110s from "@/assets/products/shimge-sgjw110s.png";
+import shimgeCpm370 from "@/assets/products/shimge-cpm370.png";
+import shimgeCpm550 from "@/assets/products/shimge-cpm550.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -768,6 +770,56 @@ export const products: Product[] = [
       { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220 V / 50 Hz" },
       { label: { uz: "Fazalar soni", ru: "Количество фаз" }, value: "1" },
       { label: { uz: "Material", ru: "Материал изделия" }, value: "Choyan / Чугун" },
+      { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
+      { label: { uz: "Vali", ru: "Вал двигателя" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-cpm370",
+    name: "SHIMGE CPM 370",
+    category: "shimge",
+    images: [shimgeCpm370],
+    description: {
+      uz: "SHIMGE CPM 370 sirt nasosi - ishonchli va samarali qurilma, uy va sanoat sharoitida toza suvni haydash uchun mo'ljallangan. Bu markazdan qochma nasos toza suv va kimyoviy jihatdan agressiv bo'lmagan suyuqliklarni haydash uchun ishlab chiqilgan. 370 Vt (0.5 ot kuchi) quvvat o'rtacha energiya sarfi bilan yetarli ish qobiliyatini ta'minlaydi. Nasos daqiqada 35 litrgacha (soatiga 2.1 kubometr) suv haydashi mumkin. Maksimal napor 30 metr, bu nasosni suvni sezilarli balandliklarga yoki uzoq masofalarga yetkazib berish uchun ishlatishga imkon beradi. Maksimal so'rish chuqurligi 9 metrgacha bo'lib, chuqur bo'lmagan quduqlar va rezervuarlardan suvni ko'tarish uchun javob beradi. Xususiy uylar va kottejlarni suv ta'minoti, bog' va polizlarni sug'orish, bosim oshirish tizimlari, shuningdek toza suvni haydash talab qilinadigan sanoat va qishloq xo'jaligi ehtiyojlari uchun mos. Nasos korpusi yuqori sifatli choyandan yasalgan bo'lib, chidamlilik va korroziyaga chidamlilikni ta'minlaydi. Ishchi g'ildirak latundan, vali zanglamaydigan po'latdan yasalgan. Nasos haddan tashqari qizish va ortiqcha yuklardan himoya bilan jihozlangan ishonchli elektr dvigateliga ega. Yuqori ish qobiliyati, o'rtacha energiya sarfi, barqaror napor va doimiy ish imkoniyati. Ixcham o'lchamlari va engil vazni o'rnatish va tashishni osonlashtiradi. Oddiy montaj va texnik xizmat ko'rsatish qulay konstruksiya va asosiy komponentlarning ochiqligiga qarab. Nasos nisbatan jim ishlaydi, bu esa uni turar-joy hududlarida ishlatish uchun qulay qiladi. SHIMGE - Xitoyning eng yirik nasos ishlab chiqaruvchilaridan biri, 30 yildan ortiq tajribaga ega.",
+      ru: "Поверхностный насос SHIMGE CPM 370 – это надежное и эффективное устройство, предназначенное для перекачивания чистой воды в бытовых и промышленных условиях. Это поверхностный центробежный насос, предназначенный для перекачивания чистой воды и других химически неагрессивных жидкостей. Мощность 370 Вт (0.5 л.с.) обеспечивает достаточную производительность при умеренном энергопотреблении. Производительность до 35 литров в минуту (2.1 кубометра в час) означает, что насос способен перекачивать до 2.1 кубометра воды за один час работы. Максимальный напор 30 метров позволяет использовать насос для подачи воды на значительные высоты или на дальние расстояния. Максимальная глубина всасывания до 9 метров делает его подходящим для подъема воды из неглубоких колодцев и резервуаров. Подходит для водоснабжения частных домов и коттеджей, полива и орошения садов и огородов, систем повышения давления, промышленных и сельскохозяйственных нужд, где требуется перекачка чистой воды. Корпус насоса изготовлен из высококачественного чугуна, что обеспечивает долговечность и устойчивость к коррозии. Рабочее колесо выполнено из латуни, вал насоса изготовлен из нержавеющей стали. Насос оснащен надежным электродвигателем с защитой от перегрева и перегрузок, что продлевает срок службы устройства. Высокая производительность при умеренном энергопотреблении, стабильный напор и способность работать в непрерывном режиме без перегрева. Компактные размеры и легкий вес облегчают установку и транспортировку. Простой монтаж и обслуживание благодаря удобной конструкции. Насос работает относительно тихо, что делает его удобным для использования в жилых зонах. SHIMGE - один из крупнейших производителей насосов в Китае с опытом более 30 лет."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "CPM 370" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt nasosi / Поверхностный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "370 W (0.5 ot kuchi / л.с.)" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "30 m" },
+      { label: { uz: "Maksimal oqim", ru: "Производительность" }, value: "35 l/daqiqa (2.1 m³/soat) / л/мин (м³/час)" },
+      { label: { uz: "So'rish balandligi", ru: "Глубина всасывания" }, value: "9 m gacha / до 9 м" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220-240 V / 50 Hz" },
+      { label: { uz: "Material", ru: "Материал" }, value: "Choyan / Чугун" },
+      { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
+      { label: { uz: "Vali", ru: "Вал двигателя" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-cpm550",
+    name: "SHIMGE CPM 550",
+    category: "shimge",
+    images: [shimgeCpm550],
+    description: {
+      uz: "SHIMGE CPM 550 markazdan qochma nasosi uy va sanoat sharoitida toza suv va kimyoviy jihatdan agressiv bo'lmagan suyuqliklarni haydash uchun mo'ljallangan yuqori sifatli va ishonchli qurilma. Bu markazdan qochma nasos toza suv va kimyoviy jihatdan agressiv bo'lmagan suyuqliklarni haydash uchun ishlab chiqilgan. 550 Vt (0.75 ot kuchi) quvvat nasosning yuqori ish qobiliyati va samarali ishlashini ta'minlaydi. Imkoniyati daqiqada 50 litrgacha (soatiga 3 kubometr) - bu nasos bir soat ishlaganda 3 kubometrgacha suv haydashi mumkinligini anglatadi. Maksimal napor 40 metr bo'lib, bu nasosni suvni sezilarli balandliklarga yoki uzoq masofalarga yetkazib berish uchun ishlatishga imkon beradi. Maksimal so'rish chuqurligi 9 metrgacha, bu chuqur quduqlar va rezervuarlardan suvni ko'tarish uchun javob beradi. Xususiy uylar va kottejlar uchun suv ta'minoti, bog'lar va polizlarni sug'orish va sug'orish, bosim oshirish tizimlari, toza suvni haydash talab qilinadigan sanoat va qishloq xo'jaligi ehtiyojlari uchun mos. Nasos korpusi yuqori sifatli choyandan yasalgan bo'lib, chidamlilik va korroziyaga chidamlilikni ta'minlaydi. Ishchi g'ildirak latundan yasalgan, bu ham nasosning chidamliligi va ishonchliligini oshiradi. Nasos vali zanglamaydigan po'latdan yasalgan bo'lib, korroziyaga qo'shimcha chidamlilik beradi. Nasos qurilmaning ishlash muddatini uzaytiradigan haddan tashqari qizish va ortiqcha yuklardan himoya bilan jihozlangan ishonchli elektr dvigateliga ega. O'rtacha energiya sarfi bilan yuqori ish qobiliyati, kirish bosimining o'zgarishi bilan ham barqaror napor va ish qobiliyati, haddan tashqari qizib ketmasdan uzluksiz ishlash imkoniyati. Ixcham o'lchamlari va engil vazni o'rnatish va tashishni osonlashtiradi. Qulay dizayn va asosiy komponentlarning ochiqligiga qarab oddiy montaj va texnik xizmat ko'rsatish. Nasos nisbatan jim ishlaydi, bu esa uni turar-joy hududlarida ishlatish uchun qulay qiladi.",
+      ru: "SHIMGE CPM 550 центробежный насос - это высококачественное и надежное устройство, предназначенное для перекачивания чистой воды и других химически неагрессивных жидкостей в бытовых и промышленных условиях. Это центробежный насос, предназначенный для перекачивания чистой воды и других химически неагрессивных жидкостей. Мощность 550 Вт (0.75 л.с.) обеспечивает высокую производительность и эффективную работу насоса. Производительность до 50 литров в минуту (3 кубометра в час) означает, что насос способен перекачивать до 3 кубометров воды за один час работы. Максимальный напор 40 метров позволяет использовать насос для подачи воды на значительные высоты или на дальние расстояния. Максимальная глубина всасывания до 9 метров делает его подходящим для подъема воды из глубоких колодцев и резервуаров. Подходит для водоснабжения частных домов и коттеджей, полива и орошения садов и огородов, систем повышения давления, промышленных и сельскохозяйственных нужд, где требуется перекачка чистой воды. Корпус насоса изготовлен из высококачественного чугуна, что обеспечивает долговечность и устойчивость к коррозии. Рабочее колесо выполнено из латуни, что также повышает долговечность и надежность насоса. Вал насоса изготовлен из нержавеющей стали, что обеспечивает дополнительную устойчивость к коррозии. Насос оснащен надежным электродвигателем с защитой от перегрева и перегрузок, что продлевает срок службы устройства. Высокая производительность при умеренном энергопотреблении, стабильный напор и производительность даже при колебаниях давления на входе, способность работать в непрерывном режиме без перегрева. Компактные размеры и легкий вес облегчают установку и транспортировку насоса. Простой монтаж и обслуживание благодаря удобной конструкции и доступности ключевых компонентов. Насос работает относительно тихо, что делает его удобным для использования в жилых зонах."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "CPM 550" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "550 W (0.75 ot kuchi / л.с.)" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "40 m (32 m ish nuqtasida / в рабочей точке)" },
+      { label: { uz: "Maksimal oqim", ru: "Производительность" }, value: "50 l/daqiqa (3 m³/soat) / л/мин (м³/час)" },
+      { label: { uz: "So'rish balandligi", ru: "Глубина всасывания" }, value: "9 m gacha / до 9 м" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220-240 V / 50 Hz" },
+      { label: { uz: "Material", ru: "Материал" }, value: "Choyan / Чугун" },
       { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
       { label: { uz: "Vali", ru: "Вал двигателя" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
       { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
