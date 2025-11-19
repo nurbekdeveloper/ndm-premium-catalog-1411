@@ -65,6 +65,14 @@ const ProductDetail = () => {
 
   const product = products.find((p) => p.id === id);
 
+  const handleBackToCatalog = () => {
+    if (product?.category) {
+      navigate("/catalog", { state: { selectedCategory: product.category } });
+    } else {
+      navigate("/catalog");
+    }
+  };
+
   if (!product) {
     return (
       <div className="container mx-auto px-4 py-16 text-center">
@@ -134,7 +142,7 @@ const ProductDetail = () => {
         <div className="container mx-auto px-4 py-8">
           <Button
             variant="ghost"
-            onClick={() => navigate("/catalog")}
+            onClick={handleBackToCatalog}
             className="mb-6"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />

@@ -2,12 +2,21 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { products, categories } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 import SEO from "@/components/SEO";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Catalog = () => {
   const { language, t } = useLanguage();
+  const location = useLocation();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
+  // Check if there's a category in the navigation state
+  useEffect(() => {
+    if (location.state?.selectedCategory) {
+      setSelectedCategory(location.state.selectedCategory);
+    }
+  }, [location.state]);
 
   const categoryProducts = selectedCategory 
     ? products.filter((p) => p.category === selectedCategory)

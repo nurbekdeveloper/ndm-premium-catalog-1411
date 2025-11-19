@@ -29,6 +29,14 @@ const PenopleksProductDetail = ({
   const [quantity, setQuantity] = useState(1);
   const [selectedThickness, setSelectedThickness] = useState<number>(product.id === "penoplex-geo" ? 40 : product.id === "penoplex-facade" ? 40 : product.id === "penoplex-roof" ? 50 : product.id === "penoplex-45" ? 50 : product.id === "penoplex-slope" ? 50 : 50);
 
+  const handleBackToCatalog = () => {
+    if (product?.category) {
+      navigate("/catalog", { state: { selectedCategory: product.category } });
+    } else {
+      navigate("/catalog");
+    }
+  };
+
   // Thickness options based on product
   const thicknessOptions = product.id === "penoplex-geo" ? [40, 50, 60, 80, 100] : product.id === "penoplex-facade" ? [30, 40, 50, 60, 80, 100, 120, 150] : product.id === "penoplex-roof" ? [30, 40, 50, 60, 80, 100] : product.id === "penoplex-45" ? [40, 50, 60, 80, 100] : product.id === "penoplex-slope" ? [40, 50, 60, 80, 100] : [50, 100];
 
@@ -94,7 +102,7 @@ const PenopleksProductDetail = ({
       
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-8">
-          <Button variant="ghost" onClick={() => navigate("/catalog")} className="mb-6">
+          <Button variant="ghost" onClick={handleBackToCatalog} className="mb-6">
             <ArrowLeft className="mr-2 h-4 w-4" />
             {t("Katalogga qaytish", "Вернуться в каталог")}
           </Button>
