@@ -80,6 +80,9 @@ import shimgePw125z from "@/assets/products/shimge-pw125z.png";
 import shimgePw550z from "@/assets/products/shimge-pw550z.png";
 import shimgePzSeries from "@/assets/products/shimge-pz-series.png";
 
+// Product images - ACC
+import accSurfacePump from "@/assets/products/acc-surface-pump.png";
+
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
 import penoplexWall from "@/assets/products/penoplex-wall.png";
@@ -148,7 +151,7 @@ import aeroluxSilent90Installed from "@/assets/products/aerolux-silent-90-instal
 export interface Product {
   id: string;
   name: string;
-  category: "hydro-plast" | "shimge" | "penopleks";
+  category: "hydro-plast" | "shimge" | "penopleks" | "acc";
   images: string[];
   description: {
     uz: string;
@@ -5137,6 +5140,60 @@ export const products: Product[] = [
       { label: { uz: "Himoya", ru: "Защита" }, value: "Ortiqcha qizish va yuklashdan / От перегрева и перегрузок" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosim oshirish / Водоснабжение, полив, повышение давления" }
     ]
+  },
+  {
+    id: "acc-pw125",
+    name: "ACC Surface Pump 0.125 kW",
+    category: "acc",
+    images: [accSurfacePump],
+    description: {
+      uz: "ACC sirt nasosi - texnik va ichimlik suvini sug'orish va shahar tashqarisidagi uyning suv ta'minoti tizimalariga uzatish uchun mo'ljallangan. Suyuqlikni quduqlardan, yig'ish idishlaridan, quduqlardan va boshqalardan olish mumkin. Sirt uzatish qurilmalari - ixcham va arzon qurilmalar. Bunday uskunaning asosiy farqi shundaki, qurilmalar yer osti manbasidan kichik masofada o'rnatiladi. Korpus uchun material sifatida zanglamaydigan po'lat, чугун yoki polimerlar ishlatiladi. Oxirgi variant afzalroq, chunki kompozit modellar kam og'irlikka, yaxshi aşınma bardoshliligiga ega va korroziyaga uchramaydi. Standart quvvat 10 metr chuqurlikdan ko'p bo'lmagan manbalardan suvni olish imkonini beradi. Agregatning texnik imkoniyatlarini yaxshilash uchun ta'minot tizimiga sho'ng'in injektorlar ulanadi, bu bosim kuchini oshirishga va suyuqlikni 30 metrgacha balandlikka ko'tarishga imkon beradi. Uzatish uskunasining ishlash printsipi shundan iboratki, o'rnatishning o'zi sirtda joylashgan, quduqqa esa teskari klapan bilan jihozlangan olish shlangı tushiriladi. Suyuqlik qurilma kamerasiga kiradi, u erdan pichoqlar va bosim quvuri yordamida iste'molchiga uzatiladi. Ba'zi modellar uchun suvni ko'tarish faqat olish quvuri va nasos kamerasini oldindan to'ldirish sharti bilan ruxsat etiladi. Bunday qurilmalar normal so'rish qurilmalari deb ataladi. Qo'llanish yo'nalishlari: mustaqil suv ta'minoti, hovli uchastkasini sug'orish, yerto'lalarni quritish, tizimda bosimni oshirish. Agregatlar nasos stantsiyalari bilan komplektda yetkaziladi, ularning tuzilmasida avtomatik yoqish va o'chirish uchun mo'ljallangan boshqaruv va nazorat tizimi elementlari mavjud. Maksimal napor: 27 m. Unumdorlik: 2.1 m³/soat. Quvvat: 0.125 kW. Chastota: 50 Hz. IP44 himoya darajasi. Xitoyda ishlab chiqarilgan.",
+      ru: "ACC поверхностный насос - предназначен для подачи технической и питьевой воды в системы полива и водоснабжения загородного дома. Забор жидкости может осуществляться из скважин, накопительных емкостей, колодцев и др. Поверхностные перекачивающие устройства - компактные и недорогие установки. Главным отличием такого оборудования является то, что приборы устанавливают на небольшом отдалении от подземного источника. Материалом для изготовления корпуса служат нержавеющая сталь, чугун или полимеры. Последний вариант предпочтительнее, т.к. композитные модели имеют небольшой вес, хорошую износостойкость и не поддаются коррозии. Стандартная мощность аппарата позволяет производить забор воды с источников, находящихся на глубине не более 10 метров. Для улучшения технических возможностей агрегата к системе подачи подключают погружные инжекторы, позволяющие увеличить силу напора и производить подъем жидкости на высоту до 30 метров. Принцип работы перекачивающего оборудования заключается в том, что сама установка находится на поверхности, а в скважину опускают заборный шланг, оснащенный обратным клапаном. Жидкость поступает в камеру устройства, откуда при помощи лопастей и напорного трубопровода перекачивается к потребителю. Для некоторых моделей подъем воды допускается только при условии предварительного наполнения заборной трубы и насосной камеры. Такие аппараты называются устройствами с нормальным всасыванием. Применение: независимое водоснабжение загородного дома, орошение приусадебного участка, осушение подвалов, повышение давления в системе. Агрегаты поставляются в комплекте с насосными станциями, в структуре которых находятся элементы системы управления и контроля, предназначенные для автоматического включения и отключения устройства. Максимальный напор: 27 м. Производительность: 2.1 м³/час. Мощность: 0.125 кВт. Частота: 50 Гц. Класс защиты: IP44. Производство Китай."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "ACC" },
+      { label: { uz: "Model", ru: "Модель" }, value: "Surface Pump 0.125 kW" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt nasosi / Поверхностный насос" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.125 kW (125W)" },
+      { label: { uz: "Maksimal napor", ru: "Класс головки" }, value: "27 m" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "2.1 m³/soat / м³/ч" },
+      { label: { uz: "Aylanishlar", ru: "Частота вращения" }, value: "2860 ayl/min / об/мин" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Himoya darajasi", ru: "Класс защиты" }, value: "IP44" },
+      { label: { uz: "Bosim", ru: "Давление 0-C" }, value: "80-120" },
+      { label: { uz: "O'lchamlari", ru: "Размеры (ДхШхВ)" }, value: "295 x 230 x 300 mm" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosimni oshirish / Водоснабжение, полив, повышение давления" }
+    ]
+  },
+  {
+    id: "acc-pw250",
+    name: "ACC PW 250",
+    category: "acc",
+    images: [accSurfacePump],
+    description: {
+      uz: "ACC PW 250 sirt nasosi - texnik va ichimlik suvini sug'orish va shahar tashqarisidagi uyning suv ta'minoti tizimalariga uzatish uchun mo'ljallangan. Suyuqlikni quduqlardan, yig'ish idishlaridan, quduqlardan va boshqalardan olish mumkin. Sirt uzatish qurilmalari - ixcham va arzon qurilmalar. Qurilmalar yer osti manbasidan kichik masofada o'rnatiladi. Korpus uchun material - zanglamaydigan po'lat, чугун yoki polimerlar. Oxirgi variant afzalroq - kam og'irlik, yaxshi aşınma bardoshliligi va korroziyaga uchramaydi. Standart quvvat 10 metr chuqurlikdan ko'p bo'lmagan manbalardan suvni olish imkonini beradi. Texnik imkoniyatlarni yaxshilash uchun sho'ng'in injektorlar ulanadi - bosim kuchini oshirish va suyuqlikni 30 metrgacha ko'tarish. O'rnatish sirtda, quduqqa teskari klapanli olish shlangı tushiriladi. Suyuqlik kamerasiga kiradi, pichoqlar va bosim quvuri orqali iste'molchiga uzatiladi. Ba'zi modellar uchun oldindan to'ldirish kerak - normal so'rish qurilmalari. Qo'llanish: mustaqil suv ta'minoti, hovli sug'orish, yerto'lalarni quritish, tizimda bosimni oshirish. Nasos stantsiyalari bilan komplektda - avtomatik boshqaruv va nazorat elementlari. Maksimal napor: 30 m. Unumdorlik: 2.2 m³/soat. So'rish: 8 m. Quvvat: 0.25 kW. IP44 himoya. 1 yil kafolat. Xitoyda ishlab chiqarilgan.",
+      ru: "ACC PW 250 поверхностный насос - предназначен для подачи технической и питьевой воды в системы полива и водоснабжения загородного дома. Забор жидкости может осуществляться из скважин, накопительных емкостей, колодцев и др. Поверхностные перекачивающие устройства - компактные и недорогие установки. Приборы устанавливают на небольшом отдалении от подземного источника. Материал корпуса - нержавеющая сталь, чугун или полимеры. Последний вариант предпочтительнее - небольшой вес, хорошая износостойкость и не поддаются коррозии. Стандартная мощность позволяет забор воды с глубины не более 10 метров. Для улучшения технических возможностей подключают погружные инжекторы - увеличение силы напора и подъем жидкости до 30 метров. Установка на поверхности, в скважину опускают заборный шланг с обратным клапаном. Жидкость поступает в камеру, откуда лопастями и напорным трубопроводом перекачивается к потребителю. Для некоторых моделей требуется предварительное наполнение трубы и камеры - устройства с нормальным всасыванием. Применение: независимое водоснабжение загородного дома, орошение приусадебного участка, осушение подвалов, повышение давления в системе. Поставляются в комплекте с насосными станциями с элементами системы управления и контроля для автоматического включения и отключения. Максимальный напор: 30 м. Производительность: 2.2 м³/час. Всасывание: 8 м. Мощность: 0.25 кВт. Класс защиты: IP44. Гарантия 1 год. Производство Китай."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "ACC" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PW 250" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt nasosi / Поверхностный насос" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.25 kW (250W)" },
+      { label: { uz: "Maksimal napor", ru: "Класс головки" }, value: "30 m" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "2.2 m³/soat / м³/ч" },
+      { label: { uz: "So'rish", ru: "Всасывания" }, value: "8 m" },
+      { label: { uz: "Aylanishlar", ru: "Частота вращения" }, value: "2860 ayl/min / об/мин" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Himoya darajasi", ru: "Класс защиты" }, value: "IP44" },
+      { label: { uz: "Bosim", ru: "Давление 0-C" }, value: "80-130" },
+      { label: { uz: "O'lchamlari", ru: "Размеры (ДхШхВ)" }, value: "295 x 230 x 300 mm" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "1 yil / год" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosimni oshirish / Водоснабжение, полив, повышение давления" }
+    ]
   }
 ];
 
@@ -5221,5 +5278,14 @@ export const categories = [
       ru: "Премиум бытовая техника. Удобные и современные решения для вашего дома."
     },
     logo: ndmLogoImg
+  },
+  {
+    id: "acc",
+    name: { uz: "ACC", ru: "ACC" },
+    description: {
+      uz: "Sirt nasos qurilmalari. Kompakt va ishonchli suv ta'minoti yechimlari.",
+      ru: "Поверхностные насосные устройства. Компактные и надежные решения для водоснабжения."
+    },
+    logo: shimgeLogoImg
   }
 ];
