@@ -27,6 +27,7 @@ import shimgeWt400cDetail from "@/assets/products/shimge-wt400c-detail.png";
 import shimgeWvsd75f from "@/assets/products/shimge-wvsd-75f.png";
 import shimgeWvsd110f from "@/assets/products/shimge-wvsd-110f.png";
 import shimgeQb60a from "@/assets/products/shimge-qb60a.png";
+import shimgeQb70 from "@/assets/products/shimge-qb70.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -511,6 +512,35 @@ export const products: Product[] = [
       { label: { uz: "Quvvat", ru: "Мощность" }, value: "370 Вт" },
       { label: { uz: "Nominal napor", ru: "Номинальный напор" }, value: "33 m" },
       { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "8 m" }
+    ]
+  },
+  {
+    id: "shimge-qb70",
+    name: "SHIMGE QB70",
+    category: "shimge",
+    images: [shimgeQb70],
+    description: {
+      uz: "SHIMGE 30 yildan ortiq vaqt davomida suv nasoslari ishlab chiqarish bo'yicha ixtisoslashgan va Xitoyning eng mashhur aksiyadorlik kompaniyalaridan biridir. Yillik ishlab chiqarish 1.5 milliondan ortiq nasosni tashkil qiladi. SHIMGE ISO9001, ISO14001 va OHSAS18001 sertifikatlariga ega. Mahsulotlar GS, CE va UL sertifikatiga ega va RoHS direktivasiga javob beradi. QB seriyali nasoslar toza suvni tashish uchun mo'ljallangan va bog' sug'orish, issiqxona suv ta'minoti, chorvachilik suv ta'minoti va drenaj uchun keng qo'llaniladi. 550 Vt quvvat, 48 m maksimal napor, 50 l/daqiqa maksimal unumdorlik. Guruch parvanel, mis o'rash, keramik-grafit mexanik zichlagich.",
+      ru: "SHIMGE специализируется на производстве водяных насосов более 30 лет и является одной из самых известных публичных компаний Китая. Годовое производство составляет более 1,5 млн насосов. SHIMGE имеет сертификаты ISO9001, ISO14001 и OHSAS18001. Продукция сертифицирована GS, CE и UL, соответствует требованиям директивы RoHS. Насосы серии QB предназначены для перекачки чистой воды и широко применяются для полива садов, водоснабжения теплиц, водоснабжения и дренажа в животноводстве. Мощность 550 Вт, максимальный напор 48 м, максимальная производительность 50 л/мин. Латунное рабочее колесо, медная обмотка, керамико-графитное механическое уплотнение."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Vihrevoy / Вихревой" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "550 Вт" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "230V / 50Hz" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "48 m" },
+      { label: { uz: "Maksimal oqim", ru: "Максимальный расход" }, value: "50 l/daqiqa / л/мин" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "5 m gacha / до 5м" },
+      { label: { uz: "Kirish/Chiqish", ru: "Вход/Выход" }, value: "1 dyuym / дюйм" },
+      { label: { uz: "Parvanel", ru: "Рабочее колесо" }, value: "Guruch / Латунь" },
+      { label: { uz: "O'rash", ru: "Обмотка двигателя" }, value: "Mis / Медь" },
+      { label: { uz: "Mexanik zichlagich", ru: "Механическое уплотнение" }, value: "Keramika-grafit / Керамика-графит" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C" },
+      { label: { uz: "Himoya klassi", ru: "Класс защиты" }, value: "IP44" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "1 yil / год" }
     ]
   },
   // Penopleks - Insulation Materials
