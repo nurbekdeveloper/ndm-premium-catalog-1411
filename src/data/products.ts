@@ -55,6 +55,8 @@ import plastfoilPvcCleaner from "@/assets/products/plastfoil-pvc-cleaner.png";
 import plastfoilPvcActivator from "@/assets/products/plastfoil-pvc-activator.png";
 import plastfoilRoofAerator from "@/assets/products/plastfoil-roof-aerator.png";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
+import plastguardTape from "@/assets/products/plastguard-tape.png";
+import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2703,6 +2705,144 @@ export const products: Product[] = [
       {
         label: { uz: "Foydalanish harorati, °C", ru: "Температура эксплуатации, °С" },
         value: "-30…+75"
+      }
+    ]
+  },
+  {
+    id: "plastguard-tape",
+    name: "ДВУСТОРОННЯЯ СОЕДИНИТЕЛЬНАЯ ЛЕНТА PLASTGUARD",
+    category: "penopleks",
+    images: [plastguardTape],
+    description: {
+      uz: "Profillangan membranani ulash uchun yopishqoq lenta. Butilpolimer asosidagi ikki tomonlama o'z-o'zidan yopishqoq lenta, ikki tomondan antiadeziyon plyonka bilan qoplangan.\n\n**Qo'llanilish sohasi:**\n• Tomlar va qoplamalar\n• Stilobatlar\n• Pollar va qoplamalar\n• Poydevorlar\n• Tunnellar\n\n**Afzalliklari:**\n\n**UNIVERSALLIK** — PLASTGUARD profillangan membranasining bo'ylama va ko'ndalang tikuvlarini ulash imkoniyati.\n\n**O'RNATISH QULAYLIGI** — yuqori o'rnatish tezligi va PLASTGUARD bilan turli konstruksiyalarda qo'llash imkoniyati.",
+      ru: "Клеевая лента для соединения профилированной мембраны. Двусторонняя самоклеящаяся соединительная лента на основе бутилполимера, с обеих сторон покрытая антиадгезионными пленками.\n\n**Область применения:**\n• Крыши и покрытия\n• Стилобаты\n• Полы и перекрытия\n• Фундаменты\n• Тоннели\n\n**Преимущества:**\n\n**УНИВЕРСАЛЬНОСТЬ** – возможность соединения как продольных, так и поперечных швов профилированной мембраны PLASTGUARD.\n\n**УДОБСТВО МОНТАЖА** – высокая скорость монтажа и возможность применения в различных конструктивах с PLASTGUARD."
+    },
+    specs: [
+      {
+        label: { uz: "Uzunlik, m", ru: "Длина, м" },
+        value: "10,0 ± 1%"
+      },
+      {
+        label: { uz: "Enlik, mm", ru: "Ширина, мм" },
+        value: "50,0 ± 1%"
+      },
+      {
+        label: { uz: "Qalinlik, mm", ru: "Толщина, мм" },
+        value: "1,0 ± 5%",
+        method: "GOST 2678-94"
+      },
+      {
+        label: { uz: "24 soat ichida suv shimishi, ko'pi bilan, %", ru: "Водопоглощение в течении 24 часов, не более, %" },
+        value: "1",
+        method: "GOST 2678-94"
+      },
+      {
+        label: { uz: "Bog'lovchi yumshatish harorati, kamida, °C", ru: "Температура размягчения вяжущего, не менее, °C" },
+        value: "+95",
+        method: "GOST 2678-94"
+      },
+      {
+        label: { uz: "R=5 mm bo'lgan balka ustida egilish harorati, ko'pi bilan, °C", ru: "Температура гибкости на брусе R=5 мм, не более, °C" },
+        value: "-40",
+        method: "GOST 2678-94"
+      },
+      {
+        label: { uz: "Beton bilan adgesiya, kamida, H/sm", ru: "Адгезия с бетоном, не менее, H/см" },
+        value: "3,0",
+        method: "GOST 10174"
+      },
+      {
+        label: { uz: "Metall bilan adgesiya, kamida, H/sm", ru: "Адгезия с металлом, не менее, H/см" },
+        value: "3,0",
+        method: "GOST 10174"
+      },
+      {
+        label: { uz: "Himoya qoplama turi (yuqori/past)", ru: "Тип защитного покрытия (верх/низ)" },
+        value: "antiadeziyon plyonka / антиадгезионная пленка"
+      },
+      {
+        label: { uz: "Xizmat muddati, kamida, yil", ru: "Срок эксплуатации, не менее, лет" },
+        value: "10"
+      }
+    ]
+  },
+  {
+    id: "penoplex-fastmix",
+    name: "Наливной пол PENOPLEX FASTMIX",
+    category: "penopleks",
+    images: [penoplexFastmix],
+    description: {
+      uz: "PENOPLEX FASTMIX NALIVNOY POL — pol qoplamalarini o'rnatishdan oldin tekislovchi qatlamlar yaratish uchun quruq o'z-o'zidan tekislovchi pol aralashmasi. Maxsus tsementlar asosida yuqori samarali modifikatsiyalovchi qo'shimchalar bilan tayyorlangan.\n\n**Qo'llanilish:**\n• Keramik va keramogranit plitka\n• To'qimachilik gilamlari\n• Linoleum, parket, laminat, parket taxtasi\n\nQo'lda va mashinada qo'llash uchun mo'ljallangan. Turar joy va jamoat binolarida qo'llaniladi: monolit beton, tsement, tsement-qum va gips-qum asoslarda.\n\nQuruq xonalar, o'rtacha namlik darajasiga ega xonalar va harorat tebranishlariga duchor bo'lgan xonalar (hammom xonalari, yopiq teraslar, verandalar, balkonlar) uchun mos.\n\n\"Issiq pol\" tizimida foydalanish uchun tavsiya etiladi.",
+      ru: "Смесь сухая напольная самовыравнивающаяся PENOPLEX FASTMIX НАЛИВНОЙ ПОЛ предназначена для устройства выравнивающих слоев под дальнейшую укладку напольных покрытий (керамическая и керамогранитная плитка, текстильные ковры, линолеум, паркет, ламинат, паркетная доска и т.п.).\n\nИзготовлена на основе специальных цементов с использованием высокоэффективных модифицирующих добавок. Предназначена для нанесения ручным и машинным способом.\n\nПрименяется в жилых и общественных зданиях по основаниям: монолитный бетон, цементные, цементо-песчаные и гипсопесчаные основания.\n\nПодходит для сухих помещений, помещений с умеренным уровнем влажности и подверженных температурным колебаниям (ванные комнаты, крытые террасы, веранды, балконы).\n\nРекомендуется для применения в системе «теплый пол»."
+    },
+    specs: [
+      {
+        label: { uz: "Rang", ru: "Цвет" },
+        value: "Kulrang / Серый"
+      },
+      {
+        label: { uz: "1 kg quruq aralashmaga suv miqdori", ru: "Количество воды на 1 кг сухой смеси" },
+        value: "0,29-0,32 l / л"
+      },
+      {
+        label: { uz: "Qotgan eritmaning zichligi", ru: "Плотность затвердевшего раствора" },
+        value: "Kamida 2000 kg/m³ / Не менее 2000 кг/м³"
+      },
+      {
+        label: { uz: "Qo'llaniladigan qatlam qalinligi", ru: "Толщина наносимого слоя" },
+        value: "5-100 mm / мм"
+      },
+      {
+        label: { uz: "10 mm qalinlikda sarfi", ru: "Расход при толщине слоя 10 мм" },
+        value: "18 kg/m² / кг/м²"
+      },
+      {
+        label: { uz: "Eritmaning ishga yaroqlik vaqti", ru: "Время пригодности раствора к работе" },
+        value: "30 daqiqa / минут"
+      },
+      {
+        label: { uz: "Yurish imkoniyati", ru: "Возможность хождения" },
+        value: "5-6 soatdan keyin / через 5-6 часов"
+      },
+      {
+        label: { uz: "28 kundan keyin asosga yopishish", ru: "Адгезия к основанию через 28 суток" },
+        value: "Kamida 0.8 MPa / не менее 0.8 МПа"
+      },
+      {
+        label: { uz: "28 kundan keyin egilishda tortishish mustahkamligi", ru: "Прочность на растяжение при изгибе через 28 суток" },
+        value: "Kamida 4 MPa / не менее 4 МПа"
+      },
+      {
+        label: { uz: "28 kundan keyin siqilishdagi mustahkamlik", ru: "Прочность при сжатии через 28 суток" },
+        value: "Kamida 20 MPa / не менее 20 МПа"
+      },
+      {
+        label: { uz: "Harakatchanlik (oqish qobiliyati)", ru: "Подвижность (растекаемость) растворной смеси" },
+        value: "260-300 mm / мм"
+      },
+      {
+        label: { uz: "Qisqarish deformatsiyasi", ru: "Деформация усадки" },
+        value: "Ko'pi bilan 1,5 mm/m / Не более 1,5 мм/м"
+      },
+      {
+        label: { uz: "Kengayish deformatsiyasi", ru: "Деформация расширения" },
+        value: "Ko'pi bilan 0,5 mm/m / Не более 0,5 мм/м"
+      },
+      {
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" },
+        value: "NG (yonmaydigan) / НГ (не горючая)"
+      },
+      {
+        label: { uz: "Ish harorati", ru: "Температура проведения работ" },
+        value: "+5°C...+30°C"
+      },
+      {
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" },
+        value: "-40°C...+70°C"
+      },
+      {
+        label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
+        value: "12 oy / месяцев"
       }
     ]
   }
