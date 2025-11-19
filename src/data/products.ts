@@ -3406,7 +3406,7 @@ export const categories = [
       uz: "Professional plastik quvur tizimlari. Zamonaviy qurilish yechimlari.",
       ru: "Профессиональные пластиковые трубопроводные системы. Современные строительные решения."
     },
-    logo: "/src/assets/partners/hydro-plast-logo.png"
+    logo: "/src/assets/partners/deryo-plast-logo.png"
   },
   {
     id: "isocom",
