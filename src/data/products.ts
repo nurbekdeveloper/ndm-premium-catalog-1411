@@ -78,6 +78,7 @@ import shimgePx404e from "@/assets/products/shimge-px404e.png";
 import shimgePw250z from "@/assets/products/shimge-pw250z.png";
 import shimgePw125z from "@/assets/products/shimge-pw125z.png";
 import shimgePw550z from "@/assets/products/shimge-pw550z.png";
+import shimgePzSeries from "@/assets/products/shimge-pz-series.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -5046,6 +5047,94 @@ export const products: Product[] = [
       { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IPX4" },
       { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C gacha / до +40°C" },
       { label: { uz: "Antikorrozion ishlov", ru: "Антикоррозионная обработка" }, value: "Ha / Да" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosim oshirish / Водоснабжение, полив, повышение давления" }
+    ]
+  },
+  {
+    id: "shimge-pz250",
+    name: "SHIMGE PZ 250",
+    category: "shimge",
+    images: [shimgePzSeries],
+    description: {
+      uz: "SHIMGE PZ 250 - mini nasos stantsiyasi 0.25 kVt quvvatli vorteks (girdob) tipidagi dvigatel va 1 litrlik gidrobak bilan. Suv ta'minoti tizimida bosimni oshirish va ushlab turish, abraziv zarralar, qum va boshqa kimyoviy birikmalar bo'lmagan toza suvni yoki suyuqlikni uzatish uchun mo'ljallangan. Sug'orish va kam quvvat bilan suv ishlab chiqarishni olish kerak bo'lgan barcha joylarda qo'llaniladi. Iqtisodiy - kam energiya sarflaydi. Kichik o'lchamlar - kam joy talab qiladi. Yuqori unumdorlik - samarali suv ta'minoti. Jimjit dvigatel ishlashi - shovqinsiz. Dachalar va bog'lar uchun ko'p qo'llaniladi - sug'orish, markazlashtirilgan suv ta'minotida past bosimda bosimni ushlab turish, quduq yoki sayoz quduqdan toza suv olish. Vorteks dvigatel - ish g'ildiragidan suv o'tganda girdob hosil bo'ladi, kinetik energiya va bosim oshadi. Vorteks usulidagi nasosda bosim bir xil o'lcham va aylanishlar chastotasida 4-8 marta yuqori. Korpus - чугун va zanglamaydigan po'lat qo'shimcha ish g'ildiragı maydonida. Ish g'ildiragı - latun, uzoq vaqt ishlatilganda oksidlanmaydi. Gidroakkumulyator - uglerodli po'lat, tizimda kerakli bosimni ushlab turish uchun ichki membrana bilan. Zichlovchi - keramika va grafit. Termohimoya rеlеsi - dvigatеlda o'rnatilgan. IPX4 himoya darajasi - namlikdan qo'rqmaydi, lekin suvga cho'mdirilmasligi kerak. Avtomatika - manometr, pyaternik va bosim relesidan iborat. 24 oy kafolat.",
+      ru: "SHIMGE PZ 250 - мини насосная станция с двигателем вихревого типа 0.25 кВт и гидробаком на 1 литр. Предназначена для повышения и поддержания давления в системе водоснабжения, перекачки чистой воды или жидкости без абразивных частиц, песка и химических соединений. Применяется для полива и везде, где нужно получить нормальную производительность воды с малой мощностью. Экономичность - низкое энергопотребление. Небольшие размеры - компактная. Высокая производительность - эффективное водоснабжение. Тихая работа двигателя - бесшумная. Часто используется дачниками и огородниками - полив, поддержание давления при низком давлении централизованной подачи, получение чистой воды из колодца или неглубокой скважины. Вихревой двигатель - через рабочее колесо всасывается вода и передается дальше, образуя вихрь, увеличивая кинетическую энергию и давление. Давление в 4-8 раз выше при одинаковых размерах и оборотах. Корпус - чугун с нержавеющей вставкой в области рабочего колеса. Рабочее колесо - латунь, не окисляется при длительном использовании. Гидроаккумулятор - углеродистая сталь со встроенной мембраной для поддержания давления. Уплотнение - керамика и графит. Термозащитное реле встроено в двигатель. Степень защиты IPX4 - не боится влаги, но не должен быть погружен в воду. Автоматика - манометр, пятерник и реле давления. Гарантия 24 месяца."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PZ 250" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "PZ" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Mini nasos stantsiyasi / Мини насосная станция" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.25 kW (250W)" },
+      { label: { uz: "Dvigatel turi", ru: "Тип двигателя" }, value: "Vorteks / Вихревой" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Производительность" }, value: "33.3 l/min (2 m³/soat) / л/мин (м³/час)" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "28 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Высота всасывания" }, value: "6 m gacha / до 6 м" },
+      { label: { uz: "Ulanish diametri", ru: "Диаметр подключения" }, value: "1 dyuym / дюйм" },
+      { label: { uz: "Bak hajmi", ru: "Объем бака" }, value: "1 L" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Чугун / Чугун" },
+      { label: { uz: "Gidroakkumulyator materiali", ru: "Материал гидроаккумулятора" }, value: "Plastik / Пластик" },
+      { label: { uz: "Maksimal suv harorati", ru: "Макс. температура воды" }, value: "60°C" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V, 50Hz" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IPX4" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс изоляции" }, value: "B" },
+      { label: { uz: "Quruq ishlashdan himoya", ru: "Защита сухого хода" }, value: "Ha / Есть" },
+      { label: { uz: "Maksimal yoqilishlar", ru: "Макс. включений в час" }, value: "40" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-pz550",
+    name: "SHIMGE PZ 550",
+    category: "shimge",
+    images: [shimgePzSeries],
+    description: {
+      uz: "SHIMGE PZ 550 - kuchli va ishonchli suv ta'minoti stantsiyasi, avtomatik suv ta'minoti va suv ta'minoti tizimlarida bosimni ushlab turish uchun mo'ljallangan. 550 Vt (0.75 ot kuchi) quvvatli - yuqori unumdorlik va samaradorlik. Unumdorlik: daqiqasiga 50 litrgacha (soatiga 3 kub metr). Maksimal napor: 45 metr - katta balandlikka yoki uzoq masofalarga suv berish imkonini beradi. Maksimal so'rish chuqurligi: 9 metrgacha - chuqur quduqlar va idishlardan suv ko'tarish uchun mos. Gidroakkumulyator bilan komplektda - barqaror suv bosimini ta'minlaydi va nasos yoqilishlar chastotasini kamaytiradi, xizmat muddatini uzaytiradi. Bosim relesi - nasos ishini avtomatik boshqaradi, tizimda doimiy bosimni ushlab turadi. Manometr - tizimda bosimni nazorat qilish uchun. Xususiy uylar va kottejlarning avtomatik suv ta'minoti, suv ta'minoti tizimlarida bosimni ushlab turish, bog' va poligonlarni sug'orish, bosimni oshirish tizimlari, toza suvni uzatish kerak bo'lgan kichik sanoat ehtiyojlari uchun. Yuqori sifatli чугун korpus - uzoq xizmat muddati va korroziyaga chidamli. Latun ish g'ildiragı - chidamlilik va ishonchlilik. Zanglamaydigan po'lat mil - korroziyaga qo'shimcha chidamlilik. Ishonchli elektr dvigatel - ortiqcha qizishdan va ortiqcha yuklashdan himoya. Xitoyda ishlab chiqarilgan.",
+      ru: "SHIMGE PZ 550 - мощное и надежное устройство для автоматического водоснабжения и поддержания давления в системах водоснабжения. Мощность 550 Вт (0.75 л.с.) - высокая производительность и эффективность. Производительность: до 50 литров в минуту (3 кубометра в час). Максимальный напор: 45 метров - позволяет подавать воду на значительные высоты или дальние расстояния. Максимальная глубина всасывания: до 9 метров - подходит для подъема воды из глубоких колодцев и резервуаров. Комплектуется гидроаккумулятором - обеспечивает стабильное давление воды и уменьшает частоту включений насоса, продлевая срок службы. Реле давления - автоматическое управление работой насоса, поддерживая постоянное давление в системе. Манометр - контроль давления в системе. Подходит для автоматического водоснабжения частных домов и коттеджей, поддержания давления в системах водоснабжения, полива и орошения садов и огородов, систем повышения давления, небольших промышленных нужд с перекачкой чистой воды. Корпус из высококачественного чугуна - долговечность и устойчивость к коррозии. Рабочее колесо из латуни - долговечность и надежность. Вал из нержавеющей стали - дополнительная устойчивость к коррозии. Надежный электродвигатель с защитой от перегрева и перегрузок. Производство Китай."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PZ 550" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "PZ" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Suv ta'minoti stantsiyasi / Станция водоснабжения" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "550W (0.75 HP)" },
+      { label: { uz: "Dvigatel turi", ru: "Тип двигателя" }, value: "Vorteks / Вихревой" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Производительность" }, value: "50 l/min (3 m³/soat) / л/мин (м³/час)" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "45 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "9 m gacha / до 9 м" },
+      { label: { uz: "Korpus materiali", ru: "Материал" }, value: "Чугун / Чугун" },
+      { label: { uz: "Ish g'ildiragı", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
+      { label: { uz: "Mil materiali", ru: "Материал вала" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Kabel uzunligi", ru: "Длина кабеля" }, value: "130 sm / см" },
+      { label: { uz: "Gidroakkumulyator", ru: "Гидроаккумулятор" }, value: "Komplektda / В комплекте" },
+      { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Bosim relesi, manometr / Реле давления, манометр" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosim oshirish / Водоснабжение, полив, повышение давления" }
+    ]
+  },
+  {
+    id: "shimge-pz750",
+    name: "SHIMGE PZ 750",
+    category: "shimge",
+    images: [shimgePzSeries],
+    description: {
+      uz: "SHIMGE PZ 750 - yuqori samarali va ishonchli nasos stantsiyasi, avtomatik suv ta'minoti va suv ta'minoti tizimlarida bosimni ushlab turish uchun mo'ljallangan. 750 Vt (1 ot kuchi) quvvatli - yuqori unumdorlik va samaradorlik. Unumdorlik: daqiqasiga 60 litrgacha (soatiga 3.6 kub metr). Bu nasos stantsiyasi bir soatlik ishida 3.6 kub metr suvni uzatishga qodir. Maksimal napor: 50 metr - katta balandlikka yoki uzoq masofalarga suv berish imkonini beradi. Maksimal so'rish chuqurligi: 9 metrgacha - chuqur quduqlar va idishlardan suv ko'tarish uchun mos. Gidroakkumulyator bilan komplektda - barqaror suv bosimini ta'minlaydi va nasos yoqilishlar chastotasini kamaytiradi. Bosim relesi - avtomatik boshqaruv, doimiy bosimni ushlab turadi. Manometr - bosimni nazorat qilish. Xususiy uylar va kottejlarning avtomatik suv ta'minoti, suv ta'minoti tizimlarida bosimni ushlab turish, bog' va poligonlarni sug'orish, bosimni oshirish tizimlari, toza suvni uzatish kerak bo'lgan kichik sanoat ehtiyojlari uchun. Yuqori sifatli чугун korpus - chidamlilik va korroziyaga chidamlilik. Latun ish g'ildiragı - chidamlilik va ishonchlilik. Zanglamaydigan po'lat mil - korroziyaga chidamlilik. Ishonchli elektr dvigatel - ortiqcha qizishdan va ortiqcha yuklashdan himoya. Yuqori unumdorlik o'rtacha energiya iste'molida. Barqaror napor va unumdorlik kirishdagi bosim o'zgarishlarida ham. Uzluksiz rejimda ishlash qobiliyati - ortiqcha qizishsiz. Yaxshi o'z-o'zidan so'rish qobiliyati. Kompakt o'lchamlar va engil vazn. Oddiy montaj va texnik xizmat ko'rsatish. Shovqinni yutish elementlari - jimjit ishlash. Xitoyda ishlab chiqarilgan.",
+      ru: "SHIMGE PZ 750 - высокоэффективное и надежное устройство для автоматического водоснабжения и поддержания давления в системах водоснабжения. Мощность 750 Вт (1 л.с.) - высокая производительность и эффективность. Производительность: до 60 литров в минуту (3.6 кубометра в час). Насосная станция способна перекачивать до 3.6 кубометров воды за один час работы. Максимальный напор: 50 метров - позволяет подавать воду на значительные высоты или дальние расстояния. Максимальная глубина всасывания: до 9 метров - подходит для подъема воды из глубоких колодцев и резервуаров. Комплектуется гидроаккумулятором - обеспечивает стабильное давление воды и уменьшает частоту включений насоса. Реле давления - автоматическое управление, поддерживая постоянное давление. Манометр - контроль давления. Подходит для автоматического водоснабжения частных домов и коттеджей, поддержания давления в системах водоснабжения, полива и орошения садов и огородов, систем повышения давления, небольших промышленных нужд с перекачкой чистой воды. Корпус из высококачественного чугуна - долговечность и устойчивость к коррозии. Рабочее колесо из латуни - долговечность и надежность. Вал из нержавеющей стали - устойчивость к коррозии. Надежный электродвигатель с защитой от перегрева и перегрузок. Высокая производительность при умеренном энергопотреблении. Стабильный напор и производительность даже при колебаниях давления. Способность работать в непрерывном режиме без перегрева. Хорошая способность самовсасывания. Компактные размеры и легкий вес. Простой монтаж и обслуживание. Шумопоглощающие элементы - тихая работа. Производство Китай."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PZ 750" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "PZ" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Nasos stantsiyasi / Насосная станция" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "750W (1 HP)" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Производительность" }, value: "60 l/min (3.6 m³/soat) / л/мин (м³/час)" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "50 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "9 m gacha / до 9 м" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Korpus materiali", ru: "Материал" }, value: "Чугун / Чугун" },
+      { label: { uz: "Ish g'ildiragı", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
+      { label: { uz: "Mil materiali", ru: "Материал вала" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Gidroakkumulyator", ru: "Гидроаккумулятор" }, value: "Komplektda / В комплекте" },
+      { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Bosim relesi, manometr / Реле давления, манометр" },
+      { label: { uz: "Himoya", ru: "Защита" }, value: "Ortiqcha qizish va yuklashdan / От перегрева и перегрузок" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosim oshirish / Водоснабжение, полив, повышение давления" }
     ]
   }
