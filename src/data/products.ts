@@ -3442,7 +3442,7 @@ export const categories = [
       uz: "Zamonaviy bo'yoq va qoplama materiallari. Chiroyli va uzoq muddatli himoya.",
       ru: "Современные лакокрасочные и покрывающие материалы. Красота и долговечная защита."
     },
-    logo: "/src/assets/partners/hydro-plast-logo.png"
+    logo: "/src/assets/partners/blesk-logo.png"
   },
   {
     id: "ndm",
