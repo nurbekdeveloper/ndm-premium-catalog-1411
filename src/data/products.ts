@@ -3381,6 +3381,14 @@ export const categories = [
     }
   },
   {
+    id: "penopleks",
+    name: { uz: "Penopleks", ru: "Пеноплэкс" },
+    description: {
+      uz: "Zamonaviy issiqlik izolyatsiya materiallari. Energiya tejash va qulay muhit.",
+      ru: "Современные теплоизоляционные материалы. Энергосбережение и комфорт."
+    }
+  },
+  {
     id: "shimge",
     name: { uz: "Shimge", ru: "Shimge" },
     description: {
@@ -3389,11 +3397,51 @@ export const categories = [
     }
   },
   {
-    id: "penopleks",
-    name: { uz: "Penopleks", ru: "Пеноплэкс" },
+    id: "deryo-plast",
+    name: { uz: "Deryo Plast", ru: "Deryo Plast" },
     description: {
-      uz: "Zamonaviy issiqlik izolyatsiya materiallari. Energiya tejash va qulay muhit.",
-      ru: "Современные теплоизоляционные материалы. Энергосбережение и комфорт."
+      uz: "Professional plastik quvur tizimlari. Zamonaviy qurilish yechimlari.",
+      ru: "Профессиональные пластиковые трубопроводные системы. Современные строительные решения."
+    }
+  },
+  {
+    id: "isocom",
+    name: { uz: "Isocom", ru: "Isocom" },
+    description: {
+      uz: "Yuqori sifatli izolyatsiya materiallari. Energiya samaradorligi va bardoshlilik.",
+      ru: "Высококачественные изоляционные материалы. Энергоэффективность и долговечность."
+    }
+  },
+  {
+    id: "tetra-plast",
+    name: { uz: "Tetra Plast", ru: "Tetra Plast" },
+    description: {
+      uz: "Innovatsion plastik mahsulotlar. Qurilish va ta'mirlash uchun.",
+      ru: "Инновационные пластиковые изделия. Для строительства и ремонта."
+    }
+  },
+  {
+    id: "lider-line",
+    name: { uz: "Lider Line", ru: "Lider Line" },
+    description: {
+      uz: "Premium darajadagi qurilish materiallari. Sifat va ishonchlilik kafolati.",
+      ru: "Строительные материалы премиум класса. Гарантия качества и надежности."
+    }
+  },
+  {
+    id: "blesk",
+    name: { uz: "Blesk", ru: "Blesk" },
+    description: {
+      uz: "Zamonaviy bo'yoq va qoplama materiallari. Chiroyli va uzoq muddatli himoya.",
+      ru: "Современные лакокрасочные и покрывающие материалы. Красота и долговечная защита."
+    }
+  },
+  {
+    id: "ndm",
+    name: { uz: "NDM", ru: "NDM" },
+    description: {
+      uz: "Premium maishiy texnika. Qulay va zamonaviy yechimlar uyingiz uchun.",
+      ru: "Премиум бытовая техника. Удобные и современные решения для вашего дома."
     }
   }
 ];
