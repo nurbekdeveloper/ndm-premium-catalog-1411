@@ -16,6 +16,7 @@ import Partners from "./pages/Partners";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import ImageBackgroundRemover from "./pages/ImageBackgroundRemover";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,7 @@ const App = () => (
                     <Route path="/partners" element={<Partners />} />
                     <Route path="/team" element={<Team />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/bg-remover" element={<ImageBackgroundRemover />} />
                     <Route path="*" element={<NotFound />} />
                   </Routes>
                 </main>
