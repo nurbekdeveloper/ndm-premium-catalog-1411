@@ -59,6 +59,9 @@ import shimge3sem18_27_075t from "@/assets/products/shimge-3sem1.8-27-0.75t.png"
 import shimge3sem25_15_055t from "@/assets/products/shimge-3sem2.5-15-0.55t.png";
 import shimge3sem18_14_037t from "@/assets/products/shimge-3sem1.8-14-0.37t.png";
 import shimge4sgm10_10_15 from "@/assets/products/shimge-4sgm10-10-1.5.png";
+import shimgeQdx15170_37 from "@/assets/products/shimge-qdx1.5-17-0.37.png";
+import leoQdx6180_75a from "@/assets/products/leo-qdx6-18-0.75a.png";
+import shimgeQdx1570_55 from "@/assets/products/shimge-qdx15-7-0.55.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4425,6 +4428,85 @@ export const products: Product[] = [
         label: { uz: "Qadoqdagi mahsulot soni, dona", ru: "Количество товара в упаковке, шт." },
         value: "3600"
       }
+    ]
+  },
+  {
+    id: "shimge-qdx1.5-17-0.37",
+    name: "SHIMGE QDX1.5-17-0.37",
+    category: "shimge",
+    images: [shimgeQdx15170_37],
+    description: {
+      uz: "SHIMGE QDX1.5-17-0.37 - qishloq xo'jalik yerlarini sug'orish va drenaj qilish, bog' maydonchalari sug'orish, maishiy suv ta'minoti, suv toshqinlarini bartaraf etish uchun cho'kma drenaj nasosi. QDX-L seriyasi GB/T25409 standarti asosida ishlab chiqarilgan. Dvigatelda faqat mis o'rash ishlatilgan. Korpus va dvigatel alyuminiy qotishmadan tayyorlangan. Yopiq turdagi markazdan qochma ish g'ildiraklari ham alyuminiy qotishmadan. Nasosning kichik o'lchami tufayli keng qo'llaniladi. Faqat toza suvni pompalashtirish uchun mo'ljallangan. Avtomatik termik himoya o'rnatilgan. Yog' bilan to'ldirilgan ikki tomonlama mexanik muhr. 0.37 kW quvvat. 18 metr maksimal napor. 6 m³/soat unumdorlik. 25mm chiqish diametri. Vertikal o'rnatish. IP68 himoya darajasi.",
+      ru: "SHIMGE QDX1.5-17-0.37 - погружной дренажный насос для орошения и дренажа сельскохозяйственных земель, полива садовых участков, бытового водоснабжения, ликвидации подтоплений. Серия QDX-L производится в соответствии со стандартом GB/T25409. В двигателе используется только медная обмотка. Корпус двигателя и насоса выполнены из алюминиевого сплава. Центробежные рабочие колеса закрытого типа также из алюминиевого сплава. Благодаря небольшому размеру широко применяется. Предназначен для перекачивания только чистой воды. Встроенная термозащита. Двойное механическое уплотнение в маслозаполненной камере. Мощность 0.37 кВт. Максимальный напор 18 метров. Производительность 6 м³/час. Диаметр выхода 25мм. Вертикальная установка. Степень защиты IP68."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "QDX1.5-17-0.37" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Cho'kma drenaj nasosi / Погружной дренажный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.37 kW" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Maksimal napor", ru: "Макс. напор" }, value: "18 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "6 m³/soat / м³/час" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр выхода" }, value: "25 mm" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza suv / Чистая вода" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Alyuminiy qotishmasi / Алюминиевый сплав" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP68" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "leo-qdx6-18-0.75a",
+    name: "LEO QDX6-18-0.75A",
+    category: "shimge",
+    images: [leoQdx6180_75a],
+    description: {
+      uz: "LEO QDX6-18-0.75A - sug'orish va drenaj, bog'larni sug'orish, maishiy suv ta'minoti uchun cho'kma drenaj nasosi. Kichik elektr tizimlarida, shahar sharoitida quduqlardan suv chiqarish, dala sug'orish va drenaj, bog' va uy xo'jaliklari suv ta'minoti uchun mo'ljallangan. Suzuvchi o'chiruvchi bilan jihozlangan bo'lib, u suv satchi belgilangan darajadan pastga tushganda nasosni avtomatik ravishda o'chiradi va belgilangan darajaga yetganda yoqadi. Mis o'rash. O'rnatilgan issiqlik himoyasi. Zanglamaydigan po'latdan payvandlangan val. B sinf izolyatsiya. IP68 himoya darajasi. Choynak korpus maxsus korroziyaga qarshi ishlov berilgan. Maksimal cho'kish chuqurligi 5 metr. Maksimal suyuqlik harorati +40°C. Suyuqlik pH darajasi: 6.5-8. 0.75 kW quvvat. 19.2 metr maksimal napor. 16.5 m³/soat unumdorlik.",
+      ru: "LEO QDX6-18-0.75A - погружной дренажный насос для ирригации и дренажа, полива садов, бытового водоснабжения. Предназначен для работы в малых электрифицированных системах, выкачивания воды из скважин в городских условиях, полевая ирригация и дренаж, водоснабжение садов и домохозяйств. Оснащен поплавковым выключателем, автоматически отключающим насос при падении уровня воды ниже установленного и включающим при достижении заданного. Медная обмотка. Встроенная тепловая защита. Сварной вал из нержавеющей стали. Класс изоляции B. Степень защиты IP68. Чугунный корпус с специальной антикоррозийной обработкой. Максимальная глубина погружения 5 метров. Максимальная температура жидкости +40°C. Уровень pH жидкости: 6.5-8. Мощность 0.75 кВт. Максимальный напор 19.2 метра. Производительность 16.5 м³/час."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "LEO" },
+      { label: { uz: "Model", ru: "Модель" }, value: "QDX6-18-0.75A" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Cho'kma drenaj nasosi / Погружной дренажный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.75 kW" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Maksimal napor", ru: "Макс. напор" }, value: "19.2 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "16.5 m³/soat / м³/час" },
+      { label: { uz: "Maksimal chuqurlik", ru: "Макс. глубина" }, value: "5 m" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza suv / Чистая вода" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Choynak korroziyaga qarshi ishlov / Чугун антикоррозийный" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP68" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс изоляции" }, value: "B sinf / Класс B" },
+      { label: { uz: "Harorat", ru: "Температура" }, value: "Maks +40°C" }
+    ]
+  },
+  {
+    id: "shimge-qdx15-7-0.55",
+    name: "SHIMGE QDX15-7-0.55",
+    category: "shimge",
+    images: [shimgeQdx1570_55],
+    description: {
+      uz: "SHIMGE QDX15-7-0.55 - qishloq xo'jalik yerlarini sug'orish va drenaj qilish, bog' maydonchalari sug'orish, maishiy suv ta'minoti va qurilishda ishlatish uchun QDX seriyali cho'kma drenaj nasosi. GB/T25409 standarti asosida ishlab chiqarilgan. Nasosning ixcham o'lchami tufayli keng qo'llaniladi. Dvigatelda faqat mis o'rash ishlatilgan. Korpus va dvigatel alyuminiy qotishmadan. Yopiq turdagi markazdan qochma ish g'ildiragi alyuminiy qotishmadan. Yog' bilan to'ldirilgan ikki tomonlama mexanik muhr nasosning va dvigatelning orasida o'rnatilgan. Faqat toza suvni pompalashtirish uchun mo'ljallangan. Avtomatik termik himoya o'rnatilgan. 0.55 kW quvvat. 9 metr maksimal napor. 15 m³/soat yuqori unumdorlik. 50mm katta chiqish diametri. Vertikal o'rnatish. IP68 himoya darajasi. 6 oy kafolat.",
+      ru: "SHIMGE QDX15-7-0.55 - погружной дренажный насос серии QDX для орошения и дренажа, полива садовых участков, бытового водоснабжения и строительства. Производится в соответствии со стандартом GB/T25409. Благодаря компактному размеру широко применяется. В двигателе используется только медная обмотка. Корпус двигателя и насоса из алюминиевого сплава. Центробежное рабочее колесо закрытого типа из алюминиевого сплава. Двойное механическое уплотнение установлено между насосом и двигателем в маслозаполненной камере. Предназначен для перекачивания только чистой воды. Встроенная термозащита. Мощность 0.55 кВт. Максимальный напор 9 метров. Высокая производительность 15 м³/час. Большой диаметр выхода 50мм. Вертикальная установка. Степень защиты IP68. Гарантия 6 месяцев."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "QDX15-7-0.55" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Cho'kma drenaj nasosi / Погружной дренажный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.55 kW" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Maksimal napor", ru: "Макс. напор" }, value: "9 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "15 m³/soat / м³/час" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр выхода" }, value: "50 mm" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza suv / Чистая вода" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Alyuminiy qotishmasi / Алюминиевый сплав" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP68" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
     ]
   }
 ];
