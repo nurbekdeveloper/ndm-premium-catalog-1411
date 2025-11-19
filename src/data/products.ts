@@ -61,6 +61,8 @@ import penoplexFastmixScreed from "@/assets/products/penoplex-fastmix-screed.png
 import penoplexXpsUnderlay from "@/assets/products/penoplex-xps-underlay.png";
 import plastguardMembraneRoll from "@/assets/products/plastguard-membrane-roll.png";
 import penoplexFastmixFacadePro from "@/assets/products/penoplex-fastmix-facade-pro.png";
+import penoplexFastmixFacade from "@/assets/products/penoplex-fastmix-facade.png";
+import penoplexFastfix from "@/assets/products/penoplex-fastfix.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -3173,6 +3175,150 @@ export const products: Product[] = [
         value: "12 oy / месяцев"
       }
     ]
+  },
+  {
+    id: "penoplex-fastmix-facade",
+    name: "PENOPLEX FASTMIX ФАСАД",
+    category: "penopleks",
+    images: [penoplexFastmixFacade],
+    description: {
+      uz: "PENOPLEX FASTMIX FASAD quruq dispersli aralashma penopolistirol va mineral yung plitalarini mineral asoslarga mahkamlash va ularning ustiga shisha to'qima to'r bilan kuchaytirilgan bazis shtukaturka qatlamini o'rnatish uchun mo'ljallangan. Yuqori yorilishga chidamlilik va issiqlik izolyatsiya materiallariga yuqori adheziyaga ega.",
+      ru: "Смесь сухая дисперсная PENOPLEX FASTMIX ФАСАД предназначена для крепления пенополистирольных и минераловатных плит к минеральным основаниям и устройства на них базового штукатурного слоя, армированного стеклотканевой сеткой. Обладает высокой трещиностойкостью и высокой адгезией к теплоизоляционным материалам.",
+    },
+    specs: [
+      {
+        label: { uz: "Rang", ru: "Цвет" },
+        value: "Kulrang / Серый"
+      },
+      {
+        label: { uz: "1 kg quruq aralashma uchun suv miqdori", ru: "Количество воды на 1 кг сухой смеси" },
+        value: "0,18-0,22 l / л"
+      },
+      {
+        label: { uz: "Qotgan eritmaning zichligi", ru: "Плотность затвердевшего раствора" },
+        value: "1450-1550 g/sm3 / г/см3"
+      },
+      {
+        label: { uz: "Issiqlik izolyatsiyani yopishtirishda aralashma sarfi", ru: "Расход смеси при приклеивании теплоизоляции" },
+        value: "5,0-6,0 kg/m2 / кг/м2"
+      },
+      {
+        label: { uz: "Armaturlash qatlamida aralashma sarfi (3 mm qalinlikda)", ru: "Расход смеси при выполнении армирующего слоя (при толщине 3 мм)" },
+        value: "3,0-4,0 kg/m2 / кг/м2"
+      },
+      {
+        label: { uz: "Eritmaning ishga yaroqlilik vaqti", ru: "Время пригодности раствора к работе" },
+        value: "kamida 3 soat / не менее 3 часов"
+      },
+      {
+        label: { uz: "Quritish vaqti", ru: "Время высыхания" },
+        value: "24 soatdan keyin / через 24 часа"
+      },
+      {
+        label: { uz: "Beton asosga adheziya (28 sutka)", ru: "Адгезия к бетонному основанию через 28 суток" },
+        value: "kamida 0,8 MPa / не менее 0,8 МПа"
+      },
+      {
+        label: { uz: "Penopolistirolga adheziya (28 sutka)", ru: "Адгезия к пенополистиролу через 28 суток" },
+        value: "kamida 0,12 MPa / не менее 0,12 МПа"
+      },
+      {
+        label: { uz: "Penopolistirol asosga adheziya (28 sutka, 48 soat suvda)", ru: "Адгезия к пенополистирольному основанию через 28 суток и после выдержки в воде в течение 48 часов" },
+        value: "kamida 0,08 MPa / не менее 0.08 МПа"
+      },
+      {
+        label: { uz: "Siqishda mustahkamlik (28 sutka)", ru: "Прочность при сжатии через 28 суток" },
+        value: "kamida 10 MPa / не менее 10 МПа"
+      },
+      {
+        label: { uz: "Egilishda cho'zilishda mustahkamlik (28 sutka)", ru: "Прочность на растяжение при изгибе через 28 суток" },
+        value: "kamida 4 MPa / не менее 4 МПа"
+      },
+      {
+        label: { uz: "Suv yutilishi (28 kunlikda)", ru: "Водопоглощение в возрасте 28 суток" },
+        value: "15% dan ortiq emas / не более 15%"
+      },
+      {
+        label: { uz: "Bug' o'tkazuvchanlik koeffitsienti", ru: "Коэффициент паропроницаемости" },
+        value: "0,08 mg/m*soat*Pa / мг/м*ч*Па"
+      },
+      {
+        label: { uz: "Qisqarish deformatsiyasi", ru: "Деформация усадки" },
+        value: "0,5 mm/m dan ortiq emas / не более 0,5 мм/м"
+      },
+      {
+        label: { uz: "Sovuqqa chidamlilik", ru: "Морозостойкость" },
+        value: "100 tsikl / циклов"
+      },
+      {
+        label: { uz: "Zarba mustahkamligi", ru: "Ударная прочность" },
+        value: "kamida 4 J / не менее 4 Дж"
+      },
+      {
+        label: { uz: "Yonish guruhi", ru: "Группа горючести" },
+        value: "NG (yonmaydigan) / НГ (не горючая)"
+      },
+      {
+        label: { uz: "Ish harorati", ru: "Температура проведения работ" },
+        value: "+5°C...+30°C"
+      },
+      {
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" },
+        value: "-40°C...+70°C"
+      },
+      {
+        label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
+        value: "12 oy / месяцев"
+      }
+    ],
+    images: [penoplexFastmixFacade],
+    category: "penopleks",
+  },
+  {
+    id: "penoplex-fastfix",
+    name: "PENOPLEX FASTFIX",
+    category: "penopleks",
+    images: [penoplexFastfix],
+    description: {
+      uz: "PENOPLEX FASTFIX - gibrid polimerlar asosida universal qurilish germetik. Gidroizolyatsiya membranasini tom o'tkazgichlari bilan bog'lash joylarini germetizatsiya qilish uchun qo'llaniladi. Atmosferaga chidamli, yuqori elastik va ko'pchilik qurilish materiallariga yaxshi yopishadi.",
+      ru: "Однокомпонентный универсальный строительный клей-герметик на основе гибридных полимеров. Применяется для герметизации мест соединения гидроизоляционной ПВХ мембраны c кровельными проходками. Атмосферостойкий, высокоэластичный с отличной адгезией к большинству строительных материалов.",
+    },
+    specs: [
+      {
+        label: { uz: "Qadoq uzunligi", ru: "Длина упаковки" },
+        value: "380 mm / мм"
+      },
+      {
+        label: { uz: "Qadoq kengligi", ru: "Ширина упаковки" },
+        value: "220 mm / мм"
+      },
+      {
+        label: { uz: "Qadoq balandligi", ru: "Высота упаковки" },
+        value: "160 mm / мм"
+      },
+      {
+        label: { uz: "Qadoq maydoni", ru: "Площадь упаковки" },
+        value: "0,0836 m² / м²"
+      },
+      {
+        label: { uz: "Qadoq hajmi", ru: "Объем упаковки" },
+        value: "0,01338 m³ / м³"
+      },
+      {
+        label: { uz: "Qadoq og'irligi", ru: "Вес упаковки" },
+        value: "11,3 kg / кг"
+      },
+      {
+        label: { uz: "Qadoqdagi mahsulot soni", ru: "Количество товара в упаковке" },
+        value: "12 dona / шт."
+      },
+      {
+        label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
+        value: "12 oy / месяцев"
+      }
+    ],
+    images: [penoplexFastfix],
+    category: "penopleks",
   }
 ];
 
