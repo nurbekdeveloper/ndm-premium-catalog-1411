@@ -3433,7 +3433,7 @@ export const categories = [
       uz: "Premium darajadagi qurilish materiallari. Sifat va ishonchlilik kafolati.",
       ru: "Строительные материалы премиум класса. Гарантия качества и надежности."
     },
-    logo: "/src/assets/partners/hydro-plast-logo.png"
+    logo: "/src/assets/partners/lider-logo.png"
   },
   {
     id: "blesk",
