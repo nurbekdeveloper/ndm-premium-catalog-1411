@@ -107,6 +107,16 @@ import plastfoilRoofWasher from "@/assets/products/plastfoil-roof-washer.png";
 import plastfoilPvcCleaner from "@/assets/products/plastfoil-pvc-cleaner.png";
 import plastfoilPvcActivator from "@/assets/products/plastfoil-pvc-activator.png";
 import plastfoilRoofAerator from "@/assets/products/plastfoil-roof-aerator.png";
+
+// Category logos
+import hydroPlastLogoImg from "@/assets/partners/hydro-plast-logo.png";
+import penopleksLogoImg from "@/assets/partners/penopleks-logo-new.png";
+import shimgeLogoImg from "@/assets/partners/shimge-logo-new.png";
+import deryoPlastLogoImg from "@/assets/partners/deryo-plast-logo.png";
+import isocomLogoImg from "@/assets/partners/isocom-logo.png";
+import liderLogoImg from "@/assets/partners/lider-logo.png";
+import bleskLogoImg from "@/assets/partners/blesk-logo.png";
+import ndmLogoImg from "@/assets/ndm-logo.png";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
@@ -4688,7 +4698,7 @@ export const categories = [
       uz: "Yuqori sifatli PPR quvurlar va fitinglar. Ishonchli suv ta'minoti tizimlari uchun.",
       ru: "Высококачественные PPR трубы и фитинги. Для надежных систем водоснабжения."
     },
-    logo: "/src/assets/partners/hydro-plast-logo.png"
+    logo: hydroPlastLogoImg
   },
   {
     id: "penopleks",
@@ -4697,7 +4707,7 @@ export const categories = [
       uz: "Zamonaviy issiqlik izolyatsiya materiallari. Energiya tejash va qulay muhit.",
       ru: "Современные теплоизоляционные материалы. Энергосбережение и комфорт."
     },
-    logo: "/src/assets/partners/penopleks-logo-new.png"
+    logo: penopleksLogoImg
   },
   {
     id: "shimge",
@@ -4706,7 +4716,7 @@ export const categories = [
       uz: "Professional nasos uskunalari. Suv ta'minoti va havzalar uchun kuchli yechimlar.",
       ru: "Профессиональное насосное оборудование. Мощные решения для водоснабжения и бассейнов."
     },
-    logo: "/src/assets/partners/shimge-logo-new.png"
+    logo: shimgeLogoImg
   },
   {
     id: "deryo-plast",
@@ -4715,7 +4725,7 @@ export const categories = [
       uz: "Professional plastik quvur tizimlari. Zamonaviy qurilish yechimlari.",
       ru: "Профессиональные пластиковые трубопроводные системы. Современные строительные решения."
     },
-    logo: "/src/assets/partners/deryo-plast-logo.png"
+    logo: deryoPlastLogoImg
   },
   {
     id: "isocom",
@@ -4724,7 +4734,7 @@ export const categories = [
       uz: "Yuqori sifatli izolyatsiya materiallari. Energiya samaradorligi va bardoshlilik.",
       ru: "Высококачественные изоляционные материалы. Энергоэффективность и долговечность."
     },
-    logo: "/src/assets/partners/isocom-logo.png"
+    logo: isocomLogoImg
   },
   {
     id: "tetra-plast",
@@ -4733,7 +4743,7 @@ export const categories = [
       uz: "Innovatsion plastik mahsulotlar. Qurilish va ta'mirlash uchun.",
       ru: "Инновационные пластиковые изделия. Для строительства и ремонта."
     },
-    logo: "/src/assets/partners/hydro-plast-logo.png"
+    logo: hydroPlastLogoImg
   },
   {
     id: "lider-line",
@@ -4742,7 +4752,7 @@ export const categories = [
       uz: "Premium darajadagi qurilish materiallari. Sifat va ishonchlilik kafolati.",
       ru: "Строительные материалы премиум класса. Гарантия качества и надежности."
     },
-    logo: "/src/assets/partners/lider-logo.png"
+    logo: liderLogoImg
   },
   {
     id: "blesk",
@@ -4751,7 +4761,7 @@ export const categories = [
       uz: "Zamonaviy bo'yoq va qoplama materiallari. Chiroyli va uzoq muddatli himoya.",
       ru: "Современные лакокрасочные и покрывающие материалы. Красота и долговечная защита."
     },
-    logo: "/src/assets/partners/blesk-logo.png"
+    logo: bleskLogoImg
   },
   {
     id: "ndm",
@@ -4760,6 +4770,6 @@ export const categories = [
       uz: "Premium maishiy texnika. Qulay va zamonaviy yechimlar uyingiz uchun.",
       ru: "Премиум бытовая техника. Удобные и современные решения для вашего дома."
     },
-    logo: "/src/assets/ndm-logo.png"
+    logo: ndmLogoImg
   }
 ];

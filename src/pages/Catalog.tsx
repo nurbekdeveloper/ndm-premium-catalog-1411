@@ -60,6 +60,7 @@ const Catalog = () => {
                       <img 
                         src={category.logo} 
                         alt={language === "uz" ? category.name.uz : category.name.ru}
+                        loading="lazy"
                         className="max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110"
                       />
                     </div>
