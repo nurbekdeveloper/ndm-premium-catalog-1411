@@ -5194,6 +5194,60 @@ export const products: Product[] = [
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "1 yil / год" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosimni oshirish / Водоснабжение, полив, повышение давления" }
     ]
+  },
+  {
+    id: "acc-pw370",
+    name: "ACC PW 370",
+    category: "acc",
+    images: [accSurfacePump],
+    description: {
+      uz: "ACC PW 370 sirt nasosi - texnik va ichimlik suvini sug'orish va shahar tashqarisidagi uyning suv ta'minoti tizimalariga uzatish uchun. Quduqlar, yig'ish idishlari, quduqlar va boshqalardan suyuqlik olish mumkin. Sirt uzatish qurilmalari - ixcham va arzon. Yer osti manbasidan kichik masofada o'rnatiladi. Korpus materiali - zanglamaydigan po'lat, chugyn yoki polimerlar. Kompozit modellar - engil, yaxshi aşınma bardoshliligi, korroziyaga chidamli. Standart quvvat 10 metr chuqurlikdan olish imkonini beradi. Sho'ng'in injektorlar ulanishi - 30 metrgacha ko'tarish. O'rnatish sirtda, quduqqa teskari klapanli shlangi tushiriladi. Suyuqlik kamerasiga kiradi, pichoqlar va quvur orqali iste'molchiga uzatiladi. Ba'zi modellarda oldindan to'ldirish kerak - normal so'rish qurilmalari. Qo'llanish: mustaqil suv ta'minoti, hovli sug'orish, yerto'lalarni quritish, bosimni oshirish. Nasos stantsiyalari bilan - avtomatik boshqaruv va nazorat. Maksimal napor: 36 m. Unumdorlik: 2.2 m³/soat. So'rish: 8 m. Quvvat: 0.37 kW. IP44 himoya. Xitoyda ishlab chiqarilgan.",
+      ru: "ACC PW 370 поверхностный насос - для подачи технической и питьевой воды в системы полива и водоснабжения загородного дома. Забор жидкости из скважин, накопительных емкостей, колодцев и др. Поверхностные перекачивающие устройства - компактные и недорогие. Устанавливают на небольшом отдалении от подземного источника. Материал корпуса - нержавеющая сталь, чугун или полимеры. Композитные модели - небольшой вес, износостойкость, не поддаются коррозии. Стандартная мощность позволяет забор с глубины не более 10 метров. Подключение погружных инжекторов - подъем до 30 метров. Установка на поверхности, в скважину опускают шланг с обратным клапаном. Жидкость в камеру, лопастями и трубопроводом к потребителю. Некоторые модели требуют предварительного наполнения - устройства с нормальным всасыванием. Применение: независимое водоснабжение загородного дома, орошение приусадебного участка, осушение подвалов, повышение давления. В комплекте с насосными станциями - автоматическое управление и контроль. Максимальный напор: 36 м. Производительность: 2.2 м³/час. Всасывание: 8 м. Мощность: 0.37 кВт. Класс защиты: IP44. Производство Китай."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "ACC" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PW 370" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt nasosi / Поверхностный насос" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.37 kW (370W)" },
+      { label: { uz: "Maksimal napor", ru: "Класс головки" }, value: "36 m" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "2.2 m³/soat / м³/ч" },
+      { label: { uz: "So'rish", ru: "Всасывания" }, value: "8 m" },
+      { label: { uz: "Aylanishlar", ru: "Частота вращения" }, value: "2860 ayl/min / об/мин" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Himoya darajasi", ru: "Класс защиты" }, value: "IP44" },
+      { label: { uz: "Bosim", ru: "Давление 0-C" }, value: "120-180" },
+      { label: { uz: "O'lchamlari", ru: "Размеры (ДхШхВ)" }, value: "295 x 230 x 300 mm" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosimni oshirish / Водоснабжение, полив, повышение давления" }
+    ]
+  },
+  {
+    id: "acc-pw750",
+    name: "ACC PW 750",
+    category: "acc",
+    images: [accSurfacePump],
+    description: {
+      uz: "ACC PW 750 sirt nasosi - texnik va ichimlik suvini sug'orish va shahar tashqarisidagi uyning suv ta'minoti tizimalariga uzatish uchun. Quduqlar, yig'ish idishlari, quduqlar va boshqalardan suyuqlik olish mumkin. Sirt uzatish qurilmalari - ixcham va arzon. Yer osti manbasidan kichik masofada o'rnatiladi. Korpus materiali - zanglamaydigan po'lat, chugyn yoki polimerlar. Kompozit modellar afzalroq - engil, aşınma bardoshliligi yuqori, korroziyaga chidamli. Standart quvvat 10 metr chuqurlikdan olish imkonini beradi. Texnik imkoniyatlarni yaxshilash uchun sho'ng'in injektorlar ulanadi - 30 metrgacha ko'tarish. O'rnatish sirtda, quduqqa teskari klapanli shlangi tushiriladi. Suyuqlik kamerasiga kiradi, pichoqlar va quvur orqali iste'molchiga uzatiladi. Ba'zi modellarda oldindan to'ldirish kerak - normal so'rish qurilmalari. Qo'llanish yo'nalishlari: mustaqil suv ta'minoti, hovli sug'orish, yerto'lalarni quritish, tizimda bosimni oshirish. Nasos stantsiyalari bilan komplektda - avtomatik boshqaruv va nazorat elementlari. Yuqori unumdorlik - 3.4 m³/soat. Maksimal napor: 52 m - yuqori bosim. So'rish: 8 m. Quvvat: 0.75 kW - samarali ishlash. IP44 himoya darajasi. Xitoyda ishlab chiqarilgan.",
+      ru: "ACC PW 750 поверхностный насос - для подачи технической и питьевой воды в системы полива и водоснабжения загородного дома. Забор жидкости из скважин, накопительных емкостей, колодцев и др. Поверхностные перекачивающие устройства - компактные и недорогие. Устанавливают на небольшом отдалении от подземного источника. Материал корпуса - нержавеющая сталь, чугун или полимеры. Композитные модели предпочтительнее - небольшой вес, износостойкость, не поддаются коррозии. Стандартная мощность позволяет забор с глубины не более 10 метров. Для улучшения технических возможностей подключают погружные инжекторы - подъем до 30 метров. Установка на поверхности, в скважину опускают шланг с обратным клапаном. Жидкость в камеру, лопастями и трубопроводом к потребителю. Для некоторых моделей требуется предварительное наполнение - устройства с нормальным всасыванием. Применение: независимое водоснабжение загородного дома, орошение приусадебного участка, осушение подвалов, повышение давления в системе. В комплекте с насосными станциями - элементы управления и контроля для автоматического включения и отключения. Высокая производительность - 3.4 м³/час. Максимальный напор: 52 м - высокое давление. Всасывание: 8 м. Мощность: 0.75 кВт - эффективная работа. Класс защиты: IP44. Производство Китай."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "ACC" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PW 750" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt nasosi / Поверхностный насос" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.75 kW (750W)" },
+      { label: { uz: "Maksimal napor", ru: "Класс головки" }, value: "52 m" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "3.4 m³/soat / м³/ч" },
+      { label: { uz: "So'rish", ru: "Всасывания" }, value: "8 m" },
+      { label: { uz: "Aylanishlar", ru: "Частота вращения" }, value: "2860 ayl/min / об/мин" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Himoya darajasi", ru: "Класс защиты" }, value: "IP44" },
+      { label: { uz: "Bosim", ru: "Давление 0-C" }, value: "205-280" },
+      { label: { uz: "O'lchamlari", ru: "Размеры (ДхШхВ)" }, value: "295 x 230 x 300 mm" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosimni oshirish / Водоснабжение, полив, повышение давления" }
+    ]
   }
 ];
 
