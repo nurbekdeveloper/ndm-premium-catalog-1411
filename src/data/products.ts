@@ -32,6 +32,8 @@ import shimgeQb80 from "@/assets/products/shimge-qb80.png";
 import shimgeJet550g1 from "@/assets/products/shimge-jet550g1.png";
 import shimgeJet750g1 from "@/assets/products/shimge-jet750g1.png";
 import shimgeJet1100g1 from "@/assets/products/shimge-jet1100g1.png";
+import shimgeSgjw37s from "@/assets/products/shimge-sgjw37s.png";
+import shimgeSgjw37 from "@/assets/products/shimge-sgjw37.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -647,6 +649,66 @@ export const products: Product[] = [
       { label: { uz: "pH", ru: "pH" }, value: "6.5 - 8.5" },
       { label: { uz: "Himoya klassi", ru: "Класс защиты" }, value: "IP44" },
       { label: { uz: "Izolyatsiya klassi", ru: "Класс изоляции" }, value: "B" }
+    ]
+  },
+  {
+    id: "shimge-sgjw37s",
+    name: "SHIMGE SGJW37S",
+    category: "shimge",
+    images: [shimgeSgjw37s],
+    description: {
+      uz: "SHIMGE SGJW37S markazdan qochma o'z-o'zidan so'radigan sirt nasos 0.37 kW quvvat bilan. Ochiq suv havzalari, quduqlar, quduqlar va yig'ish idishlaridan avtomatik rejimda suv ta'minoti uchun mo'ljallangan. Kimyoviy agressiv bo'lmagan suyuqliklarni haydash uchun ishlatiladi. Bog' va poliz sug'orish tizimlari, tomchi sug'orish tizimlari, turli maqsadlardagi bosimni oshirish tizimlariga mos. Choynak korpus qismi, latun ish g'ildiragi, keramika-grafit mexanik muhr. Uzoq xizmat muddati, yuqori FIE, pulsatsiyasiz doimiy ta'minot, yuqori samaradorlik. 55 m maksimal napor, 50 l/daqiqa maksimal oqim, 9 m so'rish balandligi.",
+      ru: "Центробежный поверхностный самовсасывающий насос SHIMGE SGJW37S мощностью 0.37 кВт. Предназначен для подачи воды из открытых водоемов, колодцев, скважин, накопительных емкостей в автоматическом режиме. Используется для перекачки воды и химически неагрессивных жидкостей. Применяется в системах полива садов и огородов, системах капельного орошения, системах повышения давления различного назначения. Чугунная насосная часть, латунное рабочее колесо, керамико-графитное механическое уплотнение. Долгий срок службы, высокий КПД, постоянная подача без пульсаций, высокая производительность. Максимальный напор 55 м, максимальный расход 50 л/мин, высота всасывания 9 м."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип двигателя" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.37 kW (370 Вт)" },
+      { label: { uz: "Kuchlanish", ru: "Источник питания" }, value: "220V / 1 faza / 1 фаза" },
+      { label: { uz: "Maksimal napor", ru: "Напор" }, value: "55 m" },
+      { label: { uz: "Maksimal oqim", ru: "Производительность" }, value: "50 l/daqiqa (3 m³/soat) / л/мин (3 м³/час)" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "9 m" },
+      { label: { uz: "Kirish/Chiqish", ru: "Диаметр подключения" }, value: "1 dyuym (25 mm) / дюйм (25 мм)" },
+      { label: { uz: "Korpus materiali", ru: "Материал изделия" }, value: "Choynak / Чугун" },
+      { label: { uz: "Ish g'ildiragi", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
+      { label: { uz: "Mexanik muhr", ru: "Механическое уплотнение" }, value: "Keramika-grafit / Керамика-графит" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Maksimal ish bosimi", ru: "Макс. рабочее давление" }, value: "6 bar" },
+      { label: { uz: "pH", ru: "pH" }, value: "6.5 - 8.5" },
+      { label: { uz: "Himoya klassi", ru: "Защита" }, value: "IP44" },
+      { label: { uz: "Izolyatsiya klassi", ru: "Изоляция" }, value: "F" },
+      { label: { uz: "Vazn", ru: "Вес" }, value: "9.5 kg" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-sgjw37",
+    name: "SHIMGE SGJW37",
+    category: "shimge",
+    images: [shimgeSgjw37],
+    description: {
+      uz: "SHIMGE SGJW37 sirt nasos 0.37 kW quvvat bilan. Abraziv zarralar bo'lmagan suv yoki suvga o'xshash boshqa suyuqlikni haydash uchun mos. Quduq suvini ko'tarish, bog' sug'orish, sabzavot issiqxonalarida suv ta'minoti, chorvachilikning suv ta'minoti va drenaji, quvur liniyalarini kuchaytirish uchun keng qo'llaniladi. SHIMGE kompaniyasi 30 yildan ortiq tajribaga ega, yiliga 1.5 milliondan ortiq nasos ishlab chiqaradi. ISO9001, ISO14001, OHSAS18001 sertifikatlariga ega. GS, CE, UL sertifikatlariga ega va RoHS direktivasiga mos. Yuqori samaradorlik, ishonchli ishlash, uzoq xizmat muddati.",
+      ru: "Поверхностный насос SHIMGE SGJW37 мощностью 0.37 кВт. Подходит для перекачки воды без абразивных частиц или другой жидкости, свойства которой похожи на воду. Широко используется в водоподъеме скважин, орошении сада, водоснабжении овощных теплиц, водоснабжении и водоотведении в селекционной промышленности, прокладке трубопроводов. Компания SHIMGE специализируется на производстве водяных насосов более 30 лет, годовое производство более 1.5 миллиона насосов. Имеет сертификаты ISO9001, ISO14001, OHSAS18001. Сертифицирована GS, CE, UL и соответствует директиве RoHS. Высокая эффективность, надежная работа, долгий срок службы."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt / Поверхностный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.37 kW" },
+      { label: { uz: "Maksimal oqim", ru: "Пропускная способность" }, value: "3 m³/soat (32 l/daqiqa) / м³/час (32 л/мин)" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "9 m gacha / до 9 м" },
+      { label: { uz: "Kirish/Chiqish", ru: "Диаметр резьбы выходящего отверстия" }, value: "25 mm" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Maksimal ish bosimi", ru: "Макс. рабочее давление" }, value: "6 bar" },
+      { label: { uz: "pH", ru: "pH" }, value: "6.5 - 8.5" },
+      { label: { uz: "Himoya klassi", ru: "Защита" }, value: "IP44" },
+      { label: { uz: "Izolyatsiya klassi", ru: "Изоляция" }, value: "B" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
     ]
   },
   // Penopleks - Insulation Materials
