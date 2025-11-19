@@ -69,6 +69,7 @@ import grandfarQd1040_3_22 from "@/assets/products/grandfar-qd10-40-3-2.2.png";
 import shimgeQd1236_3_18 from "@/assets/products/shimge-qd12-36-3-1.8.png";
 import shimgeQy250_14_15 from "@/assets/products/shimge-qy250-14-15.png";
 import shimgeHc24l from "@/assets/products/shimge-hc-24l.png";
+import shimgeBwie104 from "@/assets/products/shimge-bwie10-4.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4720,6 +4721,60 @@ export const products: Product[] = [
       { label: { uz: "Kabel uzunligi", ru: "Длина кабеля" }, value: "1.3 m" },
       { label: { uz: "Og'irligi", ru: "Вес" }, value: "2.6 kg" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-bwie10-4",
+    name: "SHIMGE BWIE10-4",
+    category: "shimge",
+    images: [shimgeBwie104],
+    description: {
+      uz: "SHIMGE BWIE10-4 - zanglamaydigan po'latdan yasalgan ko'p bosqichli gorizontal markazdan qochma nasos integratsiyalashgan chastota o'zgartirgich bilan. 1,5 kVt quvvatli, 10 m³/soat nominal unumdorlik, 30 m nominal napor. Suv ta'minoti va isitish tizimlarida ishlatiladi. Chastota o'zgartirgichi tufayli energiya samaradorligi yuqori va bosimni avtomatik ravishda rostlaydi. Toza suv uchun mo'ljallangan. 220V/50Hz elektr ta'minoti. DN40 nominal diametri. 0-68°C ish harorati diapazoni. Zanglamaydigan po'lat qismlari - uzoq umr. IP55 himoya darajasi. Past shovqin darajasi. O'rnatish oson - gorizontal joy. Sovutish tizimi - samarali va turg'un. Energiyani tejash - chastota o'zgartirgich. Avtomatik ish rejimi - doimiy bosim. Kompakt dizayn - kam joy. Professional va sanoat maqsadlari uchun. Suv ta'minoti stantsiyalari uchun ideal. Isitish tizimlari uchun mos. Yuqori samaradorlik - 50% gacha energiya tejash. Pasport va kafolat bilan. Xitoyda ishlab chiqarilgan SHIMGE brendidan.",
+      ru: "SHIMGE BWIE10-4 - горизонтальный многоступенчатый центробежный насос из нержавеющей стали с интегрированным частотным преобразователем. Мощность 1,5 кВт, номинальная производительность 10 м³/час, номинальный напор 30 м. Используется в системах водоснабжения и отопления. Благодаря частотному преобразователю обеспечивает высокую энергоэффективность и автоматическое регулирование давления. Предназначен для чистой воды. Электропитание 220V/50Hz. Номинальный диаметр DN40. Диапазон рабочих температур 0-68°С. Детали из нержавеющей стали - долговечность. Степень защиты IP55. Низкий уровень шума. Простой монтаж - горизонтальная установка. Система охлаждения - эффективная и стабильная. Энергосбережение - частотный преобразователь. Автоматический режим работы - постоянное давление. Компактный дизайн - экономия места. Для профессионального и промышленного применения. Идеален для водоснабжения. Подходит для систем отопления. Высокая эффективность - экономия энергии до 50%. С паспортом и гарантией. Производство Китай, бренд SHIMGE."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "BWIE10-4" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "BWIE" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Ko'p bosqichli markazdan qochma / Многоступенчатый центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1500W (1.5kW)" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "10 m³/soat / м³/час" },
+      { label: { uz: "Napor", ru: "Напор" }, value: "30 m" },
+      { label: { uz: "Nominal diametri", ru: "Диаметр номинальный" }, value: "DN40" },
+      { label: { uz: "Harorat diapazoni", ru: "Диапазон температур" }, value: "0-68°C" },
+      { label: { uz: "Chastota o'zgartirgichi", ru: "Частотный преобразователь" }, value: "Integratsiyalashgan / Интегрированный" },
+      { label: { uz: "Material", ru: "Материал" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "12 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-bwie10-5",
+    name: "SHIMGE BWIE10-5",
+    category: "shimge",
+    images: [shimgeBwie104],
+    description: {
+      uz: "SHIMGE BWIE10-5 - zanglamaydigan po'latdan yasalgan ko'p bosqichli gorizontal markazdan qochma nasos integratsiyalashgan chastota o'zgartirgich bilan. 1,8 kVt quvvatli, 10 m³/soat nominal unumdorlik, 39 m nominal napor. Suv ta'minoti va isitish tizimlarida ishlatiladi. BWIE10-4 modeliga qaraganda yuqori napor va quvvatga ega. Chastota o'zgartirgichi tufayli energiya samaradorligi yuqori va bosimni avtomatik ravishda rostlaydi. Toza suv uchun mo'ljallangan. 220V/50Hz elektr ta'minoti. DN40 nominal diametri. 0-120°C kengaytirilgan ish harorati diapazoni - issiq suv uchun. Zanglamaydigan po'lat qismlari - uzoq umr. IP55 himoya darajasi. Past shovqin darajasi. O'rnatish oson - gorizontal joy. Sovutish tizimi - yuqori haroratga bardoshli. Energiyani tejash - chastota o'zgartirgich. Avtomatik ish rejimi - doimiy bosim. Kompakt dizayn - kam joy. Professional va sanoat maqsadlari uchun. Suv ta'minoti stantsiyalari uchun ideal. Issiq suv tizimlarida ishlatish mumkin. Ko'p qavatli binolar uchun mos. Yuqori samaradorlik - 50% gacha energiya tejash. Pasport va kafolat bilan. Xitoyda ishlab chiqarilgan SHIMGE brendidan.",
+      ru: "SHIMGE BWIE10-5 - горизонтальный многоступенчатый центробежный насос из нержавеющей стали с интегрированным частотным преобразователем. Мощность 1,8 кВт, номинальная производительность 10 м³/час, номинальный напор 39 м. Используется в системах водоснабжения и отопления. По сравнению с моделью BWIE10-4 имеет более высокий напор и мощность. Благодаря частотному преобразователю обеспечивает высокую энергоэффективность и автоматическое регулирование давления. Предназначен для чистой воды. Электропитание 220V/50Hz. Номинальный диаметр DN40. Расширенный диапазон рабочих температур 0-120°С - для горячей воды. Детали из нержавеющей стали - долговечность. Степень защиты IP55. Низкий уровень шума. Простой монтаж - горизонтальная установка. Система охлаждения - выдерживает высокие температуры. Энергосбережение - частотный преобразователь. Автоматический режим работы - постоянное давление. Компактный дизайн - экономия места. Для профессионального и промышленного применения. Идеален для водоснабжения. Может использоваться в системах горячего водоснабжения. Подходит для многоэтажных зданий. Высокая эффективность - экономия энергии до 50%. С паспортом и гарантией. Производство Китай, бренд SHIMGE."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "BWIE10-5" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "BWIE" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Ko'p bosqichli markazdan qochma / Многоступенчатый центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1800W (1.8kW)" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "10 m³/soat / м³/час" },
+      { label: { uz: "Napor", ru: "Напор" }, value: "39 m" },
+      { label: { uz: "Nominal diametri", ru: "Диаметр номинальный" }, value: "DN40" },
+      { label: { uz: "Harorat diapazoni", ru: "Диапазон температур" }, value: "0-120°C" },
+      { label: { uz: "Chastota o'zgartirgichi", ru: "Частотный преобразователь" }, value: "Integratsiyalashgan / Интегрированный" },
+      { label: { uz: "Material", ru: "Материал" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "12 oy / месяцев" }
     ]
   },
   {
