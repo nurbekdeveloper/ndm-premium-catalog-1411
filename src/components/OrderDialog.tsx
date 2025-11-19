@@ -15,6 +15,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { ShoppingCart } from "lucide-react";
 import { z } from "zod";
+import { supabase } from "@/integrations/supabase/client";
 
 interface OrderDialogProps {
   productName?: string;
@@ -43,31 +44,26 @@ const OrderDialog = ({ productName, className, variant = "default", size = "defa
     comment: z.string().max(500).optional()
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     try {
       orderSchema.parse(formData);
       
-      // WhatsApp orqali yuborish
-      const message = `${t("Yangi buyurtma!", "Новый заказ!")}
+      const { error } = await supabase.functions.invoke('send-to-telegram', {
+        body: {
+          type: 'order',
+          data: formData
+        }
+      });
 
-${t("Ism", "Имя")}: ${formData.name}
-${t("Telefon", "Телефон")}: ${formData.phone}
-${t("Mahsulot", "Товар")}: ${formData.product}
-${t("Miqdor", "Количество")}: ${formData.quantity}
-${formData.comment ? `${t("Izoh", "Комментарий")}: ${formData.comment}` : ""}`;
-
-      const encodedMessage = encodeURIComponent(message);
-      const whatsappUrl = `https://wa.me/998908212000?text=${encodedMessage}`;
-      
-      window.open(whatsappUrl, '_blank');
+      if (error) throw error;
       
       toast({
         title: t("Buyurtma qabul qilindi!", "Заказ принят!"),
         description: t(
-          "Tez orada siz bilan bog'lanamiz. WhatsApp orqali ham yozishingiz mumkin.",
-          "Мы свяжемся с вами в ближайшее время. Вы также можете написать нам в WhatsApp."
+          "Tez orada siz bilan bog'lanamiz",
+          "Мы свяжемся с вами в ближайшее время"
         ),
       });
       
@@ -95,6 +91,15 @@ ${formData.comment ? `${t("Izoh", "Комментарий")}: ${formData.comment
                   : firstError.message === "Miqdor musbat son bo'lishi kerak"
                     ? "Количество должно быть положительным числом"
                     : "Пожалуйста, заполните все поля правильно",
+          variant: "destructive",
+        });
+      } else {
+        toast({
+          title: t("Xatolik", "Ошибка"),
+          description: t(
+            "Buyurtma yuborishda xatolik yuz berdi",
+            "Произошла ошибка при отправке заказа"
+          ),
           variant: "destructive",
         });
       }

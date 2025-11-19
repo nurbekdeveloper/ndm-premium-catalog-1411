@@ -9,6 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 import { Mail, Phone, MapPin, Facebook, Instagram, Send } from "lucide-react";
 import { useState } from "react";
 import { z } from "zod";
+import { supabase } from "@/integrations/supabase/client";
 
 const Contact = () => {
   const { language, t } = useLanguage();
@@ -21,11 +22,20 @@ const Contact = () => {
     message: z.string().trim().min(1, { message: "Message is required" }).max(1000)
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     try {
       contactSchema.parse(formData);
+      
+      const { error } = await supabase.functions.invoke('send-to-telegram', {
+        body: {
+          type: 'contact',
+          data: formData
+        }
+      });
+
+      if (error) throw error;
       
       toast({
         title: t("Xabar yuborildi", "Сообщение отправлено"),
@@ -43,6 +53,15 @@ const Contact = () => {
           description: t(
             "Iltimos, barcha maydonlarni to'g'ri to'ldiring",
             "Пожалуйста, заполните все поля правильно"
+          ),
+          variant: "destructive",
+        });
+      } else {
+        toast({
+          title: t("Xatolik", "Ошибка"),
+          description: t(
+            "Xabar yuborishda xatolik yuz berdi",
+            "Произошла ошибка при отправке сообщения"
           ),
           variant: "destructive",
         });
