@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Zap, Award, FileText } from "lucide-react";
 import SEO from "@/components/SEO";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-pipes.png";
 
 const Home = () => {
   const { t } = useLanguage();
