@@ -3270,9 +3270,7 @@ export const products: Product[] = [
         label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
         value: "12 oy / месяцев"
       }
-    ],
-    images: [penoplexFastmixFacade],
-    category: "penopleks",
+    ]
   },
   {
     id: "penoplex-fastfix",
@@ -3316,9 +3314,7 @@ export const products: Product[] = [
         label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
         value: "12 oy / месяцев"
       }
-    ],
-    images: [penoplexFastfix],
-    category: "penopleks",
+    ]
   }
 ];
 
