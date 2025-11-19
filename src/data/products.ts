@@ -42,6 +42,9 @@ import shimgeCpm750 from "@/assets/products/shimge-cpm750.png";
 import shimgeCpm170 from "@/assets/products/shimge-cpm170.png";
 import shimgeCpm190 from "@/assets/products/shimge-cpm190.png";
 import shimgeCpm200 from "@/assets/products/shimge-cpm200.png";
+import shimgeSgt32160_3 from "@/assets/products/shimge-sgt32-160-3.png";
+import shimgeSgt40160_4 from "@/assets/products/shimge-sgt40-160-4.png";
+import shimgeSgt40200_5_5 from "@/assets/products/shimge-sgt40-200-5.5.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -937,6 +940,75 @@ export const products: Product[] = [
       { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Mis / Медь" },
       { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-sgt32-160-3",
+    name: "SHIMGE SGT32-160/3",
+    category: "shimge",
+    images: [shimgeSgt32160_3],
+    description: {
+      uz: "SHIMGE SGT32-160/3 markazdan qochma nasosi abraziv zarralar bo'lmagan suv yoki suvga o'xshash xususiyatlarga ega boshqa suyuqliklarni ko'chirish uchun mo'ljallangan. Sanoat va shahar suv ta'minoti, baland binolarda bosimni oshirish, yong'inga qarshi himoya tizimlarida keng qo'llaniladi. Yuqori mustahkamlikdagi konstruksiya xavfsiz va ishonchli. Dvigatel va nasos bir xil valga ega, bu qurilmani ixcham va samarali qiladi. Mexanik yuza zichlagichi: kremniy karbid / grafit / NBR rezina uzoq muddatli xizmat ko'rsatishni ta'minlaydi. Yangi gidravlik qism samarali va energiyani tejaydi. 2-qutbli asinxron dvigatel, mis lasan, to'liq yopiq ventilyator sovutish tizimi bilan, uzluksiz ishlash uchun mo'ljallangan. Qo'shimcha opsiyalar: F-sinf dvigatel, NSK podshipniklar, payvandlangan val. Yuqori sifatli materiallar va texnologiyalar mahsulotning uzoq muddatli ishlashini kafolatlaydi. Professional ta'mirlash va texnik xizmat ko'rsatish oson va qulay. SHIMGE brendi - dunyo miqyosidagi ishonchlilik va yuqori samaradorlik belgisi.",
+      ru: "Центробежный насос SHIMGE SGT32-160/3 подходит для перекачки воды без абразивных частиц или другой жидкости, свойства которой схожи с водой. Широко используется в промышленном и городском водоснабжении, усилении напора в высотных зданиях, системе противопожарной защиты и др. Высокопрочная конструкция, безопасная и надежная. Двигатель и насос имеют один и тот же вал, что делает устройство компактным и эффективным. Механическое торцевое уплотнение: карбид кремния / графит / резина NBR обеспечивает долговременную эксплуатацию. Совершенно новая гидравлическая часть, эффективная и энергосберегающая. 2-полюсный асинхронный двигатель, медная катушка, полностью закрытое вентиляторное охлаждение, рассчитан на непрерывную работу. Опционально доступны: двигатель F-класса, подшипники NSK, сварной вал. Высококачественные материалы и технологии гарантируют долговечную работу изделия. Профессиональный ремонт и техническое обслуживание просты и удобны. Бренд SHIMGE - знак мирового класса надежности и высокой эффективности."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "SGT32-160/3" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "3 kW" },
+      { label: { uz: "Teshik diametri", ru: "Диаметр отверстия" }, value: "50/32 mm" },
+      { label: { uz: "Oqim", ru: "Поток" }, value: "35 m" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "380 V" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Производительность" }, value: "21 m³/soat / м³/ч" },
+      { label: { uz: "Dvigatel", ru: "Двигатель" }, value: "2-qutbli asinxron, mis lasan / 2-полюсный асинхронный, медная катушка" },
+      { label: { uz: "Sovutish", ru: "Охлаждение" }, value: "To'liq yopiq ventilyator / Полностью закрытое вентиляторное" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" }
+    ]
+  },
+  {
+    id: "shimge-sgt40-160-4",
+    name: "SHIMGE SGT40-160/4",
+    category: "shimge",
+    images: [shimgeSgt40160_4],
+    description: {
+      uz: "SHIMGE SGT40-160/4 markazdan qochma nasosi abraziv zarralar bo'lmagan suv yoki suvga o'xshash xususiyatlarga ega boshqa suyuqliklarni ko'chirish uchun mo'ljallangan. Sanoat va shahar suv ta'minoti, baland binolarda bosimni oshirish, yong'inga qarshi himoya tizimlarida keng qo'llaniladi. Yuqori mustahkamlikdagi konstruksiya xavfsiz va ishonchli. Dvigatel va nasos bir xil valga ega, bu qurilmani ixcham va samarali qiladi. Mexanik yuza zichlagichi: kremniy karbid / grafit / NBR rezina uzoq muddatli xizmat ko'rsatishni ta'minlaydi. Yangi gidravlik qism samarali va energiyani tejaydi. 2-qutbli asinxron dvigatel, mis lasan, to'liq yopiq ventilyator sovutish tizimi bilan, uzluksiz ishlash uchun mo'ljallangan. Qo'shimcha opsiyalar: F-sinf dvigatel, NSK podshipniklar, payvandlangan val. 4 kW quvvat va 30 m³/soat o'tkazish qobiliyati katta ob'ektlar uchun ideal. 65/40 mm teshik diametri katta quvur tizimlariga ulanish imkonini beradi. SHIMGE brendi - sanoat standartlari va yuqori ishonchlilik.",
+      ru: "Центробежный насос SHIMGE SGT40-160/4 подходит для перекачки воды без абразивных частиц или другой жидкости, свойства которой схожи с водой. Широко используется в промышленном и городском водоснабжении, усилении напора в высотных зданиях, системе противопожарной защиты и др. Высокопрочная конструкция, безопасная и надежная. Двигатель и насос имеют один и тот же вал, что делает устройство компактным и эффективным. Механическое торцевое уплотнение: карбид кремния / графит / резина NBR обеспечивает долговременную эксплуатацию. Совершенно новая гидравлическая часть, эффективная и энергосберегающая. 2-полюсный асинхронный двигатель, медная катушка, полностью закрытое вентиляторное охлаждение, рассчитан на непрерывную работу. Опционально доступны: двигатель F-класса, подшипники NSK, сварной вал. Мощность 4 кВт и производительность 30 м³/час идеальны для крупных объектов. Диаметр отверстия 65/40 мм позволяет подключаться к крупным трубопроводным системам. Бренд SHIMGE - промышленные стандарты и высокая надежность."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "SGT40-160/4" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "4 kW" },
+      { label: { uz: "Teshik diametri", ru: "Диаметр отверстия" }, value: "65/40 mm" },
+      { label: { uz: "Oqim", ru: "Поток" }, value: "36 m" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "380 V" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Производительность" }, value: "30 m³/soat / м³/ч" },
+      { label: { uz: "Dvigatel", ru: "Двигатель" }, value: "2-qutbli asinxron, mis lasan / 2-полюсный асинхронный, медная катушка" },
+      { label: { uz: "Sovutish", ru: "Охлаждение" }, value: "To'liq yopiq ventilyator / Полностью закрытое вентиляторное" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" }
+    ]
+  },
+  {
+    id: "shimge-sgt40-200-5.5",
+    name: "SHIMGE SGT40-200/5.5",
+    category: "shimge",
+    images: [shimgeSgt40200_5_5],
+    description: {
+      uz: "SHIMGE SGT40-200/5.5 markazdan qochma nasosi abraziv zarralar bo'lmagan suv yoki suvga o'xshash xususiyatlarga ega boshqa suyuqliklarni ko'chirish uchun mo'ljallangan. Sanoat va shahar suv ta'minoti, baland binolarda bosimni oshirish, yong'inga qarshi himoya tizimlarida keng qo'llaniladi. Yuqori mustahkamlikdagi konstruksiya xavfsiz va ishonchli. Dvigatel va nasos bir xil valga ega, bu qurilmani ixcham va samarali qiladi. Mexanik yuza zichlagichi: kremniy karbid / grafit / NBR rezina uzoq muddatli xizmat ko'rsatishni ta'minlaydi. Yangi gidravlik qism samarali va energiyani tejaydi. 2-qutbli asinxron dvigatel, mis lasan, to'liq yopiq ventilyator sovutish tizimi bilan, uzluksiz ishlash uchun mo'ljallangan. Qo'shimcha opsiyalar: F-sinf dvigatel, NSK podshipniklar, payvandlangan val. 5.5 kW quvvat va 39 m³/soat o'tkazish qobiliyati eng yuqori talab qilinadigan ishlar uchun. 42 metr oqim yuqori balandliklar va uzoq masofalar uchun ideal. Sanoat ob'ektlari va katta binolar uchun professional yechim.",
+      ru: "Центробежный насос SHIMGE SGT40-200/5.5 подходит для перекачки воды без абразивных частиц или другой жидкости, свойства которой схожи с водой. Широко используется в промышленном и городском водоснабжении, усилении напора в высотных зданиях, системе противопожарной защиты и др. Высокопрочная конструкция, безопасная и надежная. Двигатель и насос имеют один и тот же вал, что делает устройство компактным и эффективным. Механическое торцевое уплотнение: карбид кремния / графит / резина NBR обеспечивает долговременную эксплуатацию. Совершенно новая гидравлическая часть, эффективная и энергосберегающая. 2-полюсный асинхронный двигатель, медная катушка, полностью закрытое вентиляторное охлаждение, рассчитан на непрерывную работу. Опционально доступны: двигатель F-класса, подшипники NSK, сварной вал. Мощность 5.5 кВт и производительность 39 м³/час для самых требовательных задач. Поток 42 метра идеален для больших высот и расстояний. Профессиональное решение для промышленных объектов и крупных зданий."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "SGT40-200/5.5" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "5.5 kW" },
+      { label: { uz: "Teshik diametri", ru: "Диаметр отверстия" }, value: "65/40 mm" },
+      { label: { uz: "Oqim", ru: "Поток" }, value: "42 m" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "380 V" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Производительность" }, value: "39 m³/soat / м³/ч" },
+      { label: { uz: "Dvigatel", ru: "Двigatel" }, value: "2-qutbli asinxron, mis lasan / 2-полюсный асинхронный, медная катушка" },
+      { label: { uz: "Sovutish", ru: "Охлаждение" }, value: "To'liq yopiq ventilyator / Полностью закрытое вентиляторное" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" }
     ]
   },
   // Penopleks - Insulation Materials
