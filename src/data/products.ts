@@ -30,6 +30,8 @@ import shimgeQb60a from "@/assets/products/shimge-qb60a.png";
 import shimgeQb70 from "@/assets/products/shimge-qb70.png";
 import shimgeQb80 from "@/assets/products/shimge-qb80.png";
 import shimgeJet550g1 from "@/assets/products/shimge-jet550g1.png";
+import shimgeJet750g1 from "@/assets/products/shimge-jet750g1.png";
+import shimgeJet1100g1 from "@/assets/products/shimge-jet1100g1.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -589,6 +591,62 @@ export const products: Product[] = [
       { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.25 kW (250 Вт)" },
       { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "3.3 m³/soat (28 l/daqiqa) / куб. м/час (л/мин)" },
       { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza / Чистая" }
+    ]
+  },
+  {
+    id: "shimge-jet750g1",
+    name: "SHIMGE JET750G1",
+    category: "shimge",
+    images: [shimgeJet750g1],
+    description: {
+      uz: "SHIMGE JET750G1 sirt markazdan qochma nasos abraziv zarralar bo'lmagan toza suvni yoki zichligi suv kabi suyuqliklarni ko'chirish uchun mos. Quduq suvini ko'tarish, bog' sug'orish, issiqxona suv ta'minoti, chorvachilik suv ta'minoti va drenaj, quvur liniyalarini kuchaytirish uchun keng qo'llaniladi. 0.75 kW quvvat, 40 l/daqiqa maksimal oqim, 9 m gacha so'rish balandligi. 304 zanglamaydigan po'lat korpus va qopqoq, IP44 himoya klassi.",
+      ru: "Поверхностный центробежный насос SHIMGE JET750G1 подходит для переноса воды без абразивных частиц или другой жидкости, свойства которой похожи на воду. Широко используется в водоподъеме скважин, орошении сада, овощеводстве, тепличном водоснабжении, водоснабжении и водоотведении в селекционной промышленности, прокладке трубопроводов. Мощность 0.75 кВт, максимальная подача 40 л/мин, высота всасывания до 9 м. Корпус и крышка из нержавеющей стали 304, класс защиты IP44."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt, markazdan qochma / Поверхностный, центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.75 kW (750 Вт)" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "5.1 m³/soat (40 l/daqiqa) / куб. м/час (л/мин)" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "9 m gacha / до 9м" },
+      { label: { uz: "Maksimal ish bosimi", ru: "Макс. рабочее давление" }, value: "6 bar" },
+      { label: { uz: "Chiqish teshigi diametri", ru: "Диаметр резьбы выходящего отверстия" }, value: "25 mm" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C" },
+      { label: { uz: "pH", ru: "pH" }, value: "6.5 - 8.5" },
+      { label: { uz: "Himoya klassi", ru: "Класс защиты" }, value: "IP44" },
+      { label: { uz: "Izolyatsiya klassi", ru: "Класс изоляции" }, value: "B" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-jet1100g1",
+    name: "SHIMGE JET1100G1 AUTO",
+    category: "shimge",
+    images: [shimgeJet1100g1],
+    description: {
+      uz: "SHIMGE JET1100G1 zanglamaydigan po'lat o'z-o'zidan so'radigan sirt nasos stansiyasi avtomatik boshqaruv bilan. 30 yildan ortiq tajriba bilan ishlab chiqarilgan, ISO9001, ISO14001, OHSAS18001 sertifikatlariga ega. GS, CE, UL sertifikatlariga ega va RoHS direktivasiga mos. Abraziv zarralar bo'lmagan toza suvni ko'chirish uchun mos. Quduq suvini ko'tarish, bog' sug'orish, issiqxona suv ta'minoti, chorvachilik suv ta'minoti, quvur liniyalarini kuchaytirish uchun ideal. 1.1 kW quvvat, 48 m maksimal napor, 100 l/daqiqa maksimal oqim. 304 zanglamaydigan po'lat korpus, IP44 himoya klassi.",
+      ru: "Автоматическая насосная станция SHIMGE JET1100G1 из нержавеющей стали с самовсасыванием и автоматическим управлением. Произведена с опытом более 30 лет, имеет сертификаты ISO9001, ISO14001, OHSAS18001. Сертифицирована GS, CE, UL и соответствует директиве RoHS. Подходит для перекачки чистой воды без абразивных частиц. Идеален для подъема воды из скважин, полива садов, водоснабжения теплиц, животноводства, повышения давления в трубопроводах. Мощность 1.1 кВт, максимальный напор 48 м, максимальная производительность 100 л/мин. Корпус из нержавеющей стали 304, класс защиты IP44."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt, o'z-o'zidan so'radigan, avtomatik / Поверхностный, самовсасывающий, автоматический" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1.1 kW (1100 Вт)" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "240V / 50Hz" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "48 m" },
+      { label: { uz: "Maksimal oqim", ru: "Максимальный расход" }, value: "100 l/daqiqa / л/мин" },
+      { label: { uz: "Maksimal ish bosimi", ru: "Максимальное рабочее давление" }, value: "6 bar (87 psi)" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "9 m gacha / до 9м" },
+      { label: { uz: "Kirish/Chiqish", ru: "Вход/Выход" }, value: "1 dyuym / дюйм" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "304 zanglamaydigan po'lat / Нержавеющая сталь 304" },
+      { label: { uz: "Suyuqlik harorati", ru: "Максимальная температура жидкости" }, value: "+40°C" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Максимальная температура окружающей среды" }, value: "+40°C" },
+      { label: { uz: "pH", ru: "pH" }, value: "6.5 - 8.5" },
+      { label: { uz: "Himoya klassi", ru: "Класс защиты" }, value: "IP44" },
+      { label: { uz: "Izolyatsiya klassi", ru: "Класс изоляции" }, value: "B" }
     ]
   },
   // Penopleks - Insulation Materials
