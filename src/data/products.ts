@@ -40,6 +40,8 @@ import shimgeCpm370 from "@/assets/products/shimge-cpm370.png";
 import shimgeCpm550 from "@/assets/products/shimge-cpm550.png";
 import shimgeCpm750 from "@/assets/products/shimge-cpm750.png";
 import shimgeCpm170 from "@/assets/products/shimge-cpm170.png";
+import shimgeCpm190 from "@/assets/products/shimge-cpm190.png";
+import shimgeCpm200 from "@/assets/products/shimge-cpm200.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -881,6 +883,60 @@ export const products: Product[] = [
       { label: { uz: "Og'irlik", ru: "Вес" }, value: "20 kg" },
       { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-cpm190",
+    name: "SHIMGE CPm190",
+    category: "shimge",
+    images: [shimgeCpm190],
+    description: {
+      uz: "SHIMGE CPm190 markazdan qochma nasosi abraziv zarralar bo'lmagan suv yoki suvga o'xshash xususiyatlarga ega boshqa suyuqliklarni ko'chirish uchun mos. Bog' sug'orish, sabzavotchilik, issiqxona suv ta'minoti, chorvachilikda suv ta'minoti va suv chiqarish, turli o'g'it berish uskunalarida keng qo'llaniladi. Bir tomonlama so'radigan markazdan qochma nasos. Mis ishchi g'ildirak bilan barqaror ish qobiliyati. Yuqori napor, kichik oqim. 7 metrgacha so'rish chuqurligi. Suyuqlik harorati +40°C gacha, atrof-muhit harorati +40°C gacha. Maksimal ish bosimi 6 bar. Kuchlanish tebranishlari nominal qiymatdan 10% dan oshmasligi kerak. pH darajasi 6.5 dan 8.5 gacha. 1500 Vt quvvat yuqori samaradorlikni ta'minlaydi. 7.8 kubometr/soat o'tkazish qobiliyati. 25 mm chiqish diametri standart quvurlarga ulanish uchun qulay. Nasos korpusi va barcha asosiy qismlar yuqori sifatli materiallardan yasalgan bo'lib, uzoq xizmat muddatini ta'minlaydi. Oddiy o'rnatish va texnik xizmat ko'rsatish. Issiqxonalar, fermer xo'jaliklari, bog'lar va qishloq xo'jaligi ob'ektlarida ishlatish uchun mukammal. SHIMGE brendi sifat va ishonchlilik kafolati.",
+      ru: "Центробежный насос SHIMGE CPm190 подходит для переноса воды без абразивных частиц или другой жидкости, свойства которой похожи на воду. Широко используется в садовой ирригации, овощеводстве, тепличном водоснабжении, водоснабжении и водоотведении в животноводстве, различном оборудовании для внесения удобрений и т.д. Центробежный насос с одним всасыванием. Медное рабочее колесо обеспечивает стабильную производительность. Высокий напор, маленький расход. Всасывающая головка до 7 метров. Температура жидкости до +40°С, температура окружающей среды до +40°С. Максимальное рабочее давление 6 бар. Колебания напряжения не должны превышать 10% от номинального значения. pH от 6.5 до 8.5. Мощность 1500 Вт обеспечивает высокую эффективность. Пропускная способность 7.8 кубометров в час. Диаметр выходящего отверстия 25 мм удобен для подключения к стандартным трубам. Корпус насоса и все основные детали изготовлены из высококачественных материалов, что обеспечивает длительный срок службы. Простой монтаж и техническое обслуживание. Идеально подходит для использования в теплицах, фермерских хозяйствах, садах и сельскохозяйственных объектах. Бренд SHIMGE - гарантия качества и надежности."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "CPm190" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Kategoriya", ru: "Категория" }, value: "Markazdan qochma nasoslar / Центробежные насосы" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1500 W (1.5 kW)" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Пропускная способность" }, value: "7.8 m³/soat / м³/час" },
+      { label: { uz: "So'rish chuqurligi", ru: "Всасывающая головка" }, value: "7 m gacha / до 7 м" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр резьбы выходящего отверстия" }, value: "25 mm" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное рабочее давление" }, value: "6 bar" },
+      { label: { uz: "pH daraja", ru: "pH" }, value: "6.5 - 8.5" },
+      { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Mis / Медь" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-cpm200",
+    name: "SHIMGE CPm200",
+    category: "shimge",
+    images: [shimgeCpm200],
+    description: {
+      uz: "SHIMGE CPm200 markazdan qochma nasosi abraziv zarralar bo'lmagan suv yoki suvga o'xshash xususiyatlarga ega boshqa suyuqliklarni ko'chirish uchun mo'ljallangan. Bog' sug'orish, sabzavotchilik, issiqxona suv ta'minoti, chorvachilikda suv ta'minoti va suv chiqarish, turli o'g'it berish uskunalarida keng foydalaniladi. Bir tomonlama so'radigan markazdan qochma nasos konstruksiyasi. Mis ishchi g'ildirak barqaror va samarali ish qobiliyatini ta'minlaydi. Yuqori napor va kam oqim xususiyatlari. 7 metrgacha so'rish boshligiga ega. Suyuqlik harorati +40°C gacha, atrof-muhit harorati +40°C gacha ishlash imkoniyati. Maksimal ish bosimi 6 bar. Kuchlanish o'zgarishlari nominal qiymatdan 10% dan oshmasligi kerak. pH darajasi 6.5 dan 8.5 gacha bo'lgan suyuqliklar uchun mos. 2000 Vt quvvat yuqori samaradorlik va katta hajmdagi suv ta'minoti uchun. 8.4 kubometr/soat o'tkazish qobiliyati CPm190 ga nisbatan yuqori. 25 mm chiqish teshigi diametri standart quvur tizimlariga oson ulanish imkonini beradi. Barcha asosiy qismlar chidamli va sifatli materiallardan yasalgan. O'rnatish va parvarishlash sodda va qulay. Katta issiqxonalar, fermer xo'jaliklari, intensiv bog'lar va qishloq xo'jaligi ob'ektlari uchun ideal yechim. SHIMGE brendi - ishonchlilik va yuqori sifat belgisi.",
+      ru: "Центробежный насос SHIMGE CPm200 предназначен для переноса воды без абразивных частиц или другой жидкости, свойства которой похожи на воду. Широко используется в садовой ирригации, овощеводстве, тепличном водоснабжении, водоснабжении и водоотведении в животноводстве, различном оборудовании для внесения удобрений и т.д. Конструкция центробежного насоса с одним всасыванием. Медное рабочее колесо обеспечивает стабильную и эффективную производительность. Характеристики высокого напора и малого расхода. Всасывающая головка до 7 метров. Возможность работы при температуре жидкости до +40°С, температуре окружающей среды до +40°С. Максимальное рабочее давление 6 бар. Колебания напряжения не должны превышать 10% от номинального значения. Подходит для жидкостей с pH от 6.5 до 8.5. Мощность 2000 Вт для высокой эффективности и большого объема водоснабжения. Пропускная способность 8.4 кубометра в час, что выше чем у CPm190. Диаметр выходного отверстия 25 мм позволяет легко подключаться к стандартным трубопроводным системам. Все основные детали изготовлены из прочных и качественных материалов. Установка и обслуживание просты и удобны. Идеальное решение для крупных теплиц, фермерских хозяйств, интенсивных садов и сельскохозяйственных объектов. Бренд SHIMGE - знак надежности и высокого качества."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "CPm200" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Kategoriya", ru: "Категория" }, value: "Markazdan qochma nasoslar / Центробежные насосы" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2000 W (2 kW)" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Пропускная способность" }, value: "8.4 m³/soat / м³/час" },
+      { label: { uz: "So'rish chuqurligi", ru: "Всасывающая головка" }, value: "7 m gacha / до 7 м" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр резьбы выходящего отверстия" }, value: "25 mm" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное рабочее давление" }, value: "6 bar" },
+      { label: { uz: "pH daraja", ru: "pH" }, value: "6.5 - 8.5" },
+      { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Mis / Медь" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
     ]
   },
   // Penopleks - Insulation Materials
