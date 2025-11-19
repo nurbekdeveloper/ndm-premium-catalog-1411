@@ -59,6 +59,8 @@ import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
 import penoplexFastmixScreed from "@/assets/products/penoplex-fastmix-screed.png";
 import penoplexXpsUnderlay from "@/assets/products/penoplex-xps-underlay.png";
+import plastguardMembraneRoll from "@/assets/products/plastguard-membrane-roll.png";
+import penoplexFastmixFacadePro from "@/assets/products/penoplex-fastmix-facade-pro.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2985,6 +2987,190 @@ export const products: Product[] = [
       {
         label: { uz: "Issiqlik o'tkazuvchanligi, Vt/(m·K)", ru: "Теплопроводность, Вт/(м·К), не более" },
         value: "0,033"
+      }
+    ]
+  },
+  {
+    id: "plastguard-membrane",
+    name: "ПРОФИЛИРОВАННАЯ МЕМБРАНА PLASTGUARD",
+    category: "penopleks",
+    images: [plastguardMembraneRoll],
+    description: {
+      uz: "PLASTGUARD profillangan membranasi — yuqori zichlikdagi polietilen (HDPE) dan yasalgan matoda, sirtida tekis taqsimlangan kesik konus shaklidagi chiqintilar bor. Material sanoat, fuqarolik, yo'l qurilishida va ob'ektlarni rekonstruksiya qilishda keng ko'lamda qo'llaniladi.\n\n**Qo'llanilish sohasi:**\n• Yumshoq va yashil otmostkalar\n• Poydevor izolyatsiyasini himoya qilish\n• Poydevorlar ostidagi asoslar\n• Tomlarda gidroizolyatsiyani himoya qilish\n• Piyoda va bog' yo'laklari\n\n**Turi bo'yicha:**\n\n**HIMOYA MEMBRANALARI (PLASTGUARD 400, 500)** — ballastli tomlarning gidroizolyatsiyasini himoya qilish, poydevor devorlarini himoyalash, poydevor plitasi ostidagi beton tayyorgarligini almashtirish, otmostkalar va piyoda yo'laklarini qurishda qo'llaniladi.\n\n**DRENAJ-HIMOYA MEMBRANALARI GEOTEKSTIL BILAN (PLASTGUARD GEO, 900, 900G)** — ikki qavatli rulon materiali, geotekstil termik usul bilan chiqintilar uchlariga biriktirilgan. Profillangan asos drenaj va himoyani ta'minlaydi.\n\n**AFZALLIKLARI:**\n\n**BARCHA MAVSUMDA** — Barcha iqlim zonalarida yil davomida qo'llash mumkin\n\n**MUSTAHKAMLIK** — Siqilish va yirtilishga yuqori mexanik mustahkamlik\n\n**BIOSTOYLIK** — Agressiv muhit va mikroorganizmlarga chidamlilik\n\n**MONTAJ** — Yuqori montaj tezligi, oddiy va texnologik\n\n**KO'P FUNKSIONALLIK** — Turli xil vazifalarni hal qilish imkoniyati",
+      ru: "Профилированная мембрана PLASTGUARD — это полотно из полиэтилена высокой плотности (HDPE) с равномерно расположенными на поверхности полотна выступами в форме усеченных конусов. Материал имеет широкий спектр применения в промышленном, гражданском, дорожном строительстве и при реконструкции объектов.\n\n**Область применения:**\n• Мягкие и зеленые отмостки\n• Защита изоляции фундаментов\n• Основания под фундаменты\n• Защита гидроизоляции в кровлях\n• Пешеходные и садовые дорожки\n\n**По типу:**\n\n**ЗАЩИТНЫЕ МЕМБРАНЫ (PLASTGUARD 400, 500)** — применяются для защиты гидроизоляции балластных кровель, стен фундамента, замены бетонной подготовки под фундаментную плиту, устройства отмосток и пешеходных дорожек.\n\n**ДРЕНАЖНО-ЗАЩИТНЫЕ МЕМБРАНЫ С ГЕОТЕКСТИЛЕМ (PLASTGUARD GEO, 900, 900G)** — двухслойный рулонный материал с равномерно размещенными выступами, к вершинам которых термически прикреплен геотекстиль. Профилированное основание обеспечивает дренаж и защиту.\n\n**ПРЕИМУЩЕСТВА:**\n\n**ВСЕСЕЗОННОСТЬ** — Круглогодичное применение во всех климатических зонах\n\n**ПРОЧНОСТЬ** — Высокая механическая прочность на сжатие и разрыв\n\n**БИОСТОЙКОСТЬ** — Стойкость к воздействию агрессивных сред и микроорганизмов\n\n**МОНТАЖ** — Высокая скорость монтажа, простота и технологичность\n\n**МНОГОФУНКЦИОНАЛЬНОСТЬ** — Возможность решения различных задач"
+    },
+    specs: [
+      {
+        label: { uz: "Mahsulot turi / Tip", ru: "Наименование / Тип" },
+        value: "PLASTGUARD 400 / 500 / GEO / 900 / 900G"
+      },
+      {
+        label: { uz: "Rulon o'lchamlari (400/500), m", ru: "Размеры рулона (400/500), м" },
+        value: "1,0×20,0 / 2,0×20,0"
+      },
+      {
+        label: { uz: "Rulon o'lchamlari (GEO), m", ru: "Размеры рулона (GEO), м" },
+        value: "2,0×20,0"
+      },
+      {
+        label: { uz: "Rulon o'lchamlari (900/900G), m", ru: "Размеры рулона (900/900G), м" },
+        value: "2,0×10,0 / 2,0×20,0"
+      },
+      {
+        label: { uz: "Konus shaklidagi chiqinti balandligi, mm", ru: "Высота конусообразного выступа, мм" },
+        value: "8"
+      },
+      {
+        label: { uz: "Siqilish mustahkamligi (400), kPa", ru: "Прочность на сжатие (400), кПа" },
+        value: "100"
+      },
+      {
+        label: { uz: "Siqilish mustahkamligi (500), kPa", ru: "Прочность на сжатие (500), кПа" },
+        value: "130"
+      },
+      {
+        label: { uz: "Siqilish mustahkamligi (GEO), kPa", ru: "Прочность на сжатие (GEO), кПа" },
+        value: "150"
+      },
+      {
+        label: { uz: "Siqilish mustahkamligi (900), kPa", ru: "Прочность на сжатие (900), кПа" },
+        value: "320"
+      },
+      {
+        label: { uz: "Siqilish mustahkamligi (900G), kPa", ru: "Прочность на сжатие (900G), кПа" },
+        value: "340"
+      },
+      {
+        label: { uz: "Siqilish mustahkamligining chegarasi (400), kPa", ru: "Предел прочности на сжатие (400), кПа" },
+        value: "200"
+      },
+      {
+        label: { uz: "Siqilish mustahkamligining chegarasi (500), kPa", ru: "Предел прочности на сжатие (500), кПа" },
+        value: "280"
+      },
+      {
+        label: { uz: "Siqilish mustahkamligining chegarasi (GEO), kPa", ru: "Предел прочности на сжатие (GEO), кПа" },
+        value: "350"
+      },
+      {
+        label: { uz: "1 m² mahsulot massasi (400), g", ru: "Масса 1м² изделия (400), г" },
+        value: "400"
+      },
+      {
+        label: { uz: "1 m² mahsulot massasi (500), g", ru: "Масса 1м² изделия (500), г" },
+        value: "500"
+      },
+      {
+        label: { uz: "1 m² mahsulot massasi (GEO), g", ru: "Масса 1м² изделия (GEO), г" },
+        value: "600"
+      },
+      {
+        label: { uz: "Maksimal tortish kuchi (400), N/50mm", ru: "Максимальная сила растяжения (400), Н/50мм" },
+        value: "200 (bo'ylama) / 190 (ko'ndalang)"
+      },
+      {
+        label: { uz: "Maksimal tortish kuchi (500), N/50mm", ru: "Максимальная сила растяжения (500), Н/50мм" },
+        value: "280 (bo'ylama) / 270 (ko'ndalang)"
+      },
+      {
+        label: { uz: "Nisbiy cho'zilish, %", ru: "Относительное удлинение при максимальной силе растяжения, %" },
+        value: "30"
+      }
+    ]
+  },
+  {
+    id: "penoplex-fastmix-facade-pro",
+    name: "PENOPLEX FASTMIX ФАСАД ПРО",
+    category: "penopleks",
+    images: [penoplexFastmixFacadePro],
+    description: {
+      uz: "PENOPLEX FASTMIX FASAD PRO quruq dispers aralashmasi penopolistirol va mineral yung plitalarini mineral asosgga (g'isht, tosh, beton va gazobeton sirtlari) mahkamlash va ularda shishali to'r bilan mustahkamlangan asosiy shtukatur qatlamini qurishda qo'llaniladi.\n\n**Qo'llanilish sohasi:**\n• Devorlar (SFTK - Fasad Issiqlik Izolyatsiya Kompozitsion Tizimi)\n• Tashqi fasad ishlari\n• Ichki ishlar\n\n**Xususiyatlari:**\n• Penopolistirol plitalarini mahkamlash\n• Mineral yung plitalarini mahkamlash\n• Shishali to'r bilan mustahkamlangan asosiy shtukatur qatlami\n• Yuqori yoriqlarga chidamlilik\n• Zarba bardoshlilik\n• Issiqlik izolyatsiya materiallariga va asosgga yuqori adgesiya\n• Namlikning issiqlik izolyatsiyasi sirtiga kirishiga to'sqinlik qiladi\n• Kerakli bug' o'tkazuvchanligini ta'minlaydi\n\n**AFZALLIKLARI:**\n\n**2 IN 1 TARKIB** — Yopishtiruvchi va shtukatur funktsiyalarini birlashtiradi\n\n**YUQORI MUSTAHKAMLIK** — Zarba bardoshliligi kamida 6 J, siqilishda 10 MPa gacha\n\n**SOVUQQA CHIDAMLILIK** — 100 tsiklgacha muzlash/eritish bardosh beradi\n\n**UZOQ ISHLASH VAQTI** — Eritmaning yaroqlilik muddati 3 soatdan kam emas\n\n**EKOLOGIK XAVFSIZ** — Yonmaydigan material (NG guruhi)\n\n**YUQORI ADGESIYA** — Beton bilan 1,0 MPa, penopolistirol bilan 0,12 MPa",
+      ru: "Штукатурно-клеевой состав для систем фасадных теплоизоляционных композиционных с наружными штукатурными слоями (СФТК) PENOPLEX FASTMIX ФАСАД ПРО применяется для крепления плит из экструзионного полистирола, пенополистирольных и минераловатных плит к минеральным основаниям и устройства на них базового штукатурного слоя.\n\n**Область применения:**\n• Стены (СФТК - Системы Фасадные Теплоизоляционные Композиционные)\n• Наружные фасадные работы\n• Внутренние работы\n\n**Характеристики:**\n• Крепление пенополистирольных плит\n• Крепление минераловатных плит\n• Устройство базового штукатурного слоя, армированного стеклотканевой сеткой\n• Высокая трещиностойкость\n• Ударопрочность\n• Высокая адгезия к теплоизоляционным материалам и основаниям\n• Препятствует проникновению влаги к поверхности теплоизоляции\n• Обеспечивает необходимую паропроницаемость\n\n**ПРЕИМУЩЕСТВА:**\n\n**СОСТАВ 2 В 1** — Совмещает клеевую и штукатурную функции\n\n**ВЫСОКАЯ ПРОЧНОСТЬ** — Ударная прочность не менее 6 Дж, прочность при сжатии до 10 МПа\n\n**МОРОЗОСТОЙКОСТЬ** — Выдерживает до 100 циклов замораживания/оттаивания\n\n**ДЛИТЕЛЬНОЕ ВРЕМЯ РАБОТЫ** — Время пригодности раствора не менее 3 часов\n\n**ЭКОЛОГИЧЕСКИ БЕЗОПАСЕН** — Не горючий материал (группа НГ)\n\n**ВЫСОКАЯ АДГЕЗИЯ** — С бетоном 1,0 МПа, с пенополистиролом 0,12 МПа"
+    },
+    specs: [
+      {
+        label: { uz: "Rang", ru: "Цвет" },
+        value: "Kulrang / Серый"
+      },
+      {
+        label: { uz: "1 kg quruq aralashmaga suv miqdori, l", ru: "Количество воды на 1 кг сухой смеси, л" },
+        value: "0,18-0,22"
+      },
+      {
+        label: { uz: "Qotgan eritmaning zichligi", ru: "Плотность затвердевшего раствора" },
+        value: "1500-1600 g/sm³ / г/см³"
+      },
+      {
+        label: { uz: "Issiqlik izolyatsiyasini yopishtirishda aralashma sarfi, kg/m²", ru: "Расход смеси при приклеивании теплоизоляции, кг/м²" },
+        value: "5,0-6,0"
+      },
+      {
+        label: { uz: "Mustahkamlash qatlamida aralashma sarfi (3mm), kg/m²", ru: "Расход смеси при выполнении армирующего слоя (при толщине 3 мм), кг/м²" },
+        value: "3,0-4,0"
+      },
+      {
+        label: { uz: "Eritmaning ishga yaroqlik vaqti", ru: "Время пригодности раствора к работе" },
+        value: "Kamida 3 soat / не менее 3 часов"
+      },
+      {
+        label: { uz: "Quritish vaqti", ru: "Время высыхания" },
+        value: "24 soatdan keyin / через 24 часа"
+      },
+      {
+        label: { uz: "28 kundan keyin beton asos bilan adgesiya", ru: "Адгезия к бетонному основанию через 28 суток" },
+        value: "Kamida 1,0 MPa / не менее 1,0 МПа"
+      },
+      {
+        label: { uz: "28 kundan keyin penopolistirol bilan adgesiya", ru: "Адгезия к пенополистиролу через 28 суток" },
+        value: "Kamida 0,12 MPa / не менее 0,12 МПа"
+      },
+      {
+        label: { uz: "28 kundan keyin va 48 soat suvda ushlab turganidan keyin penopolistirol bilan adgesiya", ru: "Адгезия к пенополистирольному основанию через 28 суток и после выдержки в воде в течение 48 часов" },
+        value: "Kamida 0,08 MPa / не менее 0,08 МПа"
+      },
+      {
+        label: { uz: "28 kundan keyin siqilishdagi mustahkamlik", ru: "Прочность при сжатии через 28 суток" },
+        value: "Kamida 10 MPa / не менее 10 МПа"
+      },
+      {
+        label: { uz: "28 kundan keyin egilishda tortishish mustahkamligi", ru: "Прочность на растяжение при изгибе через 28 суток" },
+        value: "Kamida 4 MPa / не менее 4 МПа"
+      },
+      {
+        label: { uz: "28 kunlik yoshida suv shimishi", ru: "Водопоглощение в возрасте 28 суток" },
+        value: "Ko'pi bilan 15% / не более 15%"
+      },
+      {
+        label: { uz: "Bug' o'tkazuvchanlik koeffitsienti", ru: "Коэффициент паропроницаемости" },
+        value: "0,08 mg/(m·h·Pa) / мг/(м·ч·Па)"
+      },
+      {
+        label: { uz: "Qisqarish deformatsiyasi", ru: "Деформация усадки" },
+        value: "Ko'pi bilan 0,5 mm/m / не более 0,5 мм/м"
+      },
+      {
+        label: { uz: "Sovuqqa chidamlilik", ru: "Морозостойкость" },
+        value: "100 tsikl / циклов"
+      },
+      {
+        label: { uz: "Zarba mustahkamligi", ru: "Ударная прочность" },
+        value: "Kamida 6 J / не менее 6 Дж"
+      },
+      {
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" },
+        value: "NG (yonmaydigan) / НГ (не горючая)"
+      },
+      {
+        label: { uz: "Ish harorati", ru: "Температура проведения работ" },
+        value: "+5°C...+30°C"
+      },
+      {
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" },
+        value: "-40°C...+70°C"
+      },
+      {
+        label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
+        value: "12 oy / месяцев"
       }
     ]
   }
