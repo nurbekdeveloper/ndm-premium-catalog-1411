@@ -4,7 +4,6 @@ import ProductCard from "@/components/ProductCard";
 import SEO from "@/components/SEO";
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Package } from "lucide-react";
 
 const Catalog = () => {
   const { language, t } = useLanguage();
@@ -57,8 +56,12 @@ const Catalog = () => {
                   onClick={() => setSelectedCategory(category.id)}
                 >
                   <CardContent className="p-8 text-center">
-                    <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                      <Package className="w-10 h-10 text-primary" />
+                    <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center">
+                      <img 
+                        src={category.logo} 
+                        alt={language === "uz" ? category.name.uz : category.name.ru}
+                        className="max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110"
+                      />
                     </div>
                     <h2 className="text-2xl font-heading font-bold mb-3 text-foreground group-hover:text-primary transition-colors">
                       {language === "uz" ? category.name.uz : category.name.ru}
@@ -103,7 +106,13 @@ const Catalog = () => {
                 </div>
               ) : (
                 <div className="text-center py-16">
-                  <Package className="w-16 h-16 mx-auto mb-4 text-muted-foreground/50" />
+                  <div className="w-32 h-32 mx-auto mb-6 opacity-30">
+                    <img 
+                      src={categories.find(c => c.id === selectedCategory)?.logo} 
+                      alt="No products"
+                      className="w-full h-full object-contain grayscale"
+                    />
+                  </div>
                   <p className="text-xl text-muted-foreground">
                     {t(
                       "Bu kategoriyada hozircha mahsulotlar yo'q",
