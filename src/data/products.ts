@@ -28,6 +28,8 @@ import shimgeWvsd75f from "@/assets/products/shimge-wvsd-75f.png";
 import shimgeWvsd110f from "@/assets/products/shimge-wvsd-110f.png";
 import shimgeQb60a from "@/assets/products/shimge-qb60a.png";
 import shimgeQb70 from "@/assets/products/shimge-qb70.png";
+import shimgeQb80 from "@/assets/products/shimge-qb80.png";
+import shimgeJet550g1 from "@/assets/products/shimge-jet550g1.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -541,6 +543,52 @@ export const products: Product[] = [
       { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C" },
       { label: { uz: "Himoya klassi", ru: "Класс защиты" }, value: "IP44" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "1 yil / год" }
+    ]
+  },
+  {
+    id: "shimge-qb80",
+    name: "SHIMGE QB80",
+    category: "shimge",
+    images: [shimgeQb80],
+    description: {
+      uz: "Uy-ro'zg'or vihrevoy elektr nasos SHIMGE QB80 seriyasi toza suv va zichlik bo'yicha suvga o'xshash tajovuzkor bo'lmagan suyuqliklarni quduqlar, ochiq suv havzalari va quduqlardan haydash uchun mo'ljallangan. Bundan tashqari, elektr nasos suv bosimini yaratuvchi tugun sifatida avtomatik suv ta'minoti stantsiyalarida ishlatilishi mumkin. 750 Vt quvvat, 60 l/daqiqa maksimal oqim, 8 m so'rish balandligi. Quyma temir korpus, IP44 himoya klassi.",
+      ru: "Бытовой вихревой электронасос SHIMGE серии QB80 предназначен для перекачки чистой воды и не агрессивных жидкостей по плотности идентичных воде из колодцев, открытых водоемов и скважин. Электронасос может быть использован в станциях автоматического водоснабжения в качестве узла, создающего давление воды. Мощность 750 Вт, максимальная подача 60 л/мин, высота всасывания 8 м. Корпус из чугуна, класс защиты IP44."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.75 kW (750 Вт)" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "3.6 m³/soat (60 l/daqiqa) / куб. м/час (л/мин)" },
+      { label: { uz: "Chiqish teshigi diametri", ru: "Диаметр резьбы выходящего отверстия" }, value: "25 mm" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "8 m" },
+      { label: { uz: "O'rnatish", ru: "Установка насоса" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Quyma temir / Чугун" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza / Чистая" },
+      { label: { uz: "Maksimal suv harorati", ru: "Максимальная температура рабочей жидкости" }, value: "+40°C" },
+      { label: { uz: "Himoya klassi", ru: "Класс защиты корпусов" }, value: "IP44" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "9.5 kg" }
+    ]
+  },
+  {
+    id: "shimge-jet550g1",
+    name: "SHIMGE JET550G1",
+    category: "shimge",
+    images: [shimgeJet550g1],
+    description: {
+      uz: "SHIMGE JET550G1 sirt o'z-o'zidan so'radigan markazdan qochma nasos toza suv va zichlik bo'yicha suvga o'xshash tajovuzkor bo'lmagan suyuqliklarni quduqlar, ochiq suv havzalari va quduqlardan haydash uchun mo'ljallangan. Ixcham o'lchamlari va sodda o'rnatilishi bilan ajralib turadi. 0.25 kW quvvat, 28 l/daqiqa maksimal oqim. Uy-ro'zg'or suv ta'minoti, bog' sug'orish va qishloq xo'jaligi uchun ideal.",
+      ru: "Поверхностный самовсасывающий центробежный насос SHIMGE JET550G1 предназначен для перекачки чистой воды и не агрессивных жидкостей по плотности идентичных воде из колодцев, открытых водоемов и скважин. Отличается компактными размерами и простой установкой. Мощность 0.25 кВт, максимальная подача 28 л/мин. Идеален для бытового водоснабжения, полива садов и сельского хозяйства."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt, markazdan qochma, o'z-o'zidan so'radigan / Поверхностный, центробежный, самовсасывающий" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.25 kW (250 Вт)" },
+      { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "3.3 m³/soat (28 l/daqiqa) / куб. м/час (л/мин)" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza / Чистая" }
     ]
   },
   // Penopleks - Insulation Materials
