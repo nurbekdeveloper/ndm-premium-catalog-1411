@@ -76,6 +76,7 @@ import shimgeCa600 from "@/assets/products/shimge-ca600.png";
 import shimgePx203e from "@/assets/products/shimge-px203e.png";
 import shimgePx404e from "@/assets/products/shimge-px404e.png";
 import shimgePw250z from "@/assets/products/shimge-pw250z.png";
+import shimgePw125z from "@/assets/products/shimge-pw125z.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4991,6 +4992,31 @@ export const products: Product[] = [
       { label: { uz: "O'rnatish", ru: "Способ установки" }, value: "Faqat gorizontal / Только горизонтально" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, issiq suv / Водоснабжение, полив, горячая вода" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-pw125z",
+    name: "SHIMGE PW125Z",
+    category: "shimge",
+    images: [shimgePw125z],
+    description: {
+      uz: "SHIMGE PW125Z - sirt nasos stantsiyasi, gorizontal o'rnatish. Suyuqliklarni bir joydan boshqa joyga uzatish uchun kompleks tizim bo'lib, nasos agregatlarini - nasoslar, quvurlar va yordamchi qurilmalarni o'z ichiga oladi. Suv ta'minoti, kanalizatsiya ehtiyojlari uchun infratuzilma sifatida ishlatiladi. Pastlikdagi hududlarda, suv oqimi yoki toshqin natijasida suv bosgan joylarda suvni olib tashlash uchun ham qo'llaniladi. Faqat toza suv uchun mo'ljallangan - abraziv qo'shimchalar bo'lmagan. Gorizontal o'rnatish - sirt nasos stantsiyasi. Maksimal unumdorlik: 33 l/min (1.98 m³/soat). Quvvat: 0.125 kW (125 Vt). Chiqish diametri: 25 mm. Kompakt dizayn - kam joy talab qiladi. Oson o'rnatish va texnik xizmat ko'rsatish. Ishonchli dvigatel - uzoq xizmat muddati. Maishiy va xo'jalik maqsadlari uchun ideal. Xususiy uylar, dachalar, xo'jalik ob'ektlari uchun. Energiya tejamkor - past quvvat iste'moli. Jimjit ishlash - past shovqin darajasi. Professional sifat - Xitoyda ishlab chiqarilgan SHIMGE brendidan. 6 oy kafolat.",
+      ru: "SHIMGE PW125Z - поверхностная насосная станция, горизонтальная установка. Комплексная система для перекачки жидкостей из одного места в другое, включает в себя насосные агрегаты - насосы, трубопроводы и вспомогательные устройства. Используется в качестве инфраструктуры для нужд водоснабжения, канализации. Также применяется для удаления воды на территориях в низменности, обводненных в результате прорыва воды или наводнения. Предназначена только для чистой воды - без абразивных включений. Горизонтальная установка - поверхностная насосная станция. Максимальная подача: 33 л/мин (1.98 м³/час). Мощность: 0.125 кВт (125 Вт). Диаметр выходного отверстия: 25 мм. Компактный дизайн - занимает мало места. Простой монтаж и обслуживание. Надежный двигатель - долгий срок службы. Идеальна для бытовых и хозяйственных целей. Для частных домов, дач, хозяйственных объектов. Энергосберегающая - низкое энергопотребление. Бесшумная работа - низкий уровень шума. Профессиональное качество - производство Китай, бренд SHIMGE. Гарантия 6 месяцев."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PW125Z" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "PW-Z" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt nasos stantsiyasi / Поверхностная насосная станция" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.125 kW (125W)" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальная подача" }, value: "33 l/min (1.98 m³/soat) / л/мин (м³/час)" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр выходного отверстия" }, value: "25 mm" },
+      { label: { uz: "O'rnatish", ru: "Установка насоса" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Nasos turi", ru: "Категория" }, value: "Nasos stantsiyalari / Насосные станции" },
+      { label: { uz: "Suv turi", ru: "Для воды" }, value: "Faqat toza suv / Только чистая вода" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, kanalizatsiya / Водоснабжение, канализация" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
     ]
   }
 ];
