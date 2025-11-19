@@ -2560,69 +2560,81 @@ export const products: Product[] = [
   },
   {
     id: "plastfoil-pvc-cleaner",
-    name: "Очиститель для ПВХ мембран, 3 л",
+    name: "Очиститель для ПВХ мембран, 1 л",
     category: "penopleks",
     images: [plastfoilPvcCleaner],
     description: {
-      uz: "PVX membranalarning iflos va/yoki eski yuzasini mahalliy tozalash uchun maxsus ishlab chiqilgan tarkib. Issiq havo bilan payvandlashdan oldin yopishqoqlikni yaxshilash, shuningdek asbobni tozalash uchun qo'llaniladi.\n\nKuchaytirilgan va kuchaytrilmagan PVX membranalarning yuzasini issiq havo bilan payvandlashdan oldin (masalan, yamash ta'mirida) yoki suyuq PVX qo'llashdan oldin mahalliy tozalash uchun maxsus ishlab chiqilgan tarkib. Asbobni tozalash uchun ham qo'llaniladi. Konsentrlangan tarkib organik kelib chiqishli (yog'lar, bitum, moy izlari) va polimer tom qurilishi va foydalanishda paydo bo'ladigan noorganik ifloslanishlarni olib tashlaydi.",
-      ru: "Специально разработанный состав для локальной очистки поверхности армированных и неармированных ПВХ мембран перед сваркой горячим воздухом (например, при латочном ремонте) или нанесением жидкого ПВХ. Также применим для очистки инструмента.\n\nКонцентрированный состав удаляет загрязнения как органического происхождения (жиры, битум, следы масла), так и неорганического, возникающие при устройстве и эксплуатации полимерной кровли."
+      uz: "PVX membranalar yuzasini mahalliy tozalash uchun maxsus ishlab chiqilgan tarkib. Kuchaytirilgan va kuchaytrilmagan PVX membranalarning yuzasini issiq havo bilan payvandlashdan oldin (masalan, yamash ta'mirida) yoki suyuq PVX qo'llashdan oldin mahalliy tozalash uchun mo'ljallangan. Asbobni tozalash uchun ham qo'llaniladi.\n\nKonsentrlangan tarkib organik kelib chiqishli (yog'lar, bitum, moy izlari) va polimer tom qurilishi va foydalanishda paydo bo'ladigan noorganik ifloslanishlarni olib tashlaydi.",
+      ru: "Специально разработанный состав для локальной очистки поверхности загрязненных и/или старых ПВХ мембран для улучшения адгезии при сварке горячим воздухом, а также очистка инструмента.\n\nКонцентрированный состав удаляет загрязнения как органического происхождения (жиры, битум, следы масла), так и неорганического, возникающие при устройстве и эксплуатации полимерной кровли."
     },
     specs: [
       {
-        label: { uz: "O'rash uzunligi, mm", ru: "Длина упаковки, мм" },
-        value: "1200"
+        label: { uz: "Qadoq uzunligi, mm", ru: "Длина упаковки, мм" },
+        value: "410"
       },
       {
-        label: { uz: "O'rash eni, mm", ru: "Ширина упаковки, мм" },
-        value: "800"
+        label: { uz: "Qadoq kengligi, mm", ru: "Ширина упаковки, мм" },
+        value: "320"
       },
       {
-        label: { uz: "O'rash balandligi, mm", ru: "Высота упаковки, мм" },
-        value: "870"
+        label: { uz: "Qadoq balandligi, mm", ru: "Высота упаковки, мм" },
+        value: "170"
       },
       {
-        label: { uz: "O'rash maydoni, m²", ru: "Площадь упаковки, м²" },
-        value: "0,96"
+        label: { uz: "Qadoq maydoni, m²", ru: "Площадь упаковки, м²" },
+        value: "0,131"
       },
       {
-        label: { uz: "O'rash hajmi, m³", ru: "Объем упаковки, м³" },
-        value: "0,835"
+        label: { uz: "Qadoq hajmi, m³", ru: "Объем упаковки, м³" },
+        value: "0,022"
       },
       {
-        label: { uz: "O'rash og'irligi, kg", ru: "Вес упаковки, кг" },
-        value: "3,15"
+        label: { uz: "Qadoq og'irligi, kg", ru: "Вес упаковки, кг" },
+        value: "13,5"
       },
       {
-        label: { uz: "O'rashdagi mahsulot miqdori, dona", ru: "Количество товара в упаковке, шт." },
-        value: "1"
+        label: { uz: "Qadoqdagi mahsulot soni, dona", ru: "Количество товара в упаковке, шт." },
+        value: "12"
       }
     ]
   },
   {
     id: "plastfoil-pvc-activator",
-    name: "Активатор для ПВХ мембран, 3 л",
+    name: "Активатор для ПВХ мембран, 1 л",
     category: "penopleks",
     images: [plastfoilPvcActivator],
     description: {
-      uz: "Armaturalangan va armaturasiz PVX membranalarning yuzasini qayta ishlash uchun maxsus ishlab chiqilgan tarkib. Issiq havo bilan payvandlashdan yoki suyuq PVX qo'llashdan oldin ishlatiladi.\n\nQo'lda va avtomatik payvandlashda tom membranalarini o'rnatishni boshlashdan oldin har doim ishlatish tavsiya etiladi. Aktivator bilan qayta ishlash PVX materiallarni uzoq muddat saqlashda hosil bo'ladigan plastifikator plyonkasini yuzadan olib tashlaydi, bu esa sifatli payvand tikishni olish imkonini beradi.",
+      uz: "Kuchaytirilgan va kuchaytrilmagan PVX membranalarning yuzasini qayta ishlash uchun maxsus ishlab chiqilgan tarkib. Issiq havo bilan payvandlashdan yoki suyuq PVX qo'llashdan oldin ishlatiladi.\n\nQo'lda va avtomatik payvandlashda tom membranalarini o'rnatishni boshlashdan oldin har doim ishlatish tavsiya etiladi. Aktivator bilan qayta ishlash PVX materiallarni uzoq muddat saqlashda hosil bo'ladigan plastifikator plyonkasini yuzadan olib tashlaydi, bu esa sifatli payvand tikishni olish imkonini beradi.",
       ru: "Специально разработанный состав для обработки поверхности армированных и неармированных ПВХ мембран перед сваркой горячим воздухом или нанесением жидкого ПВХ.\n\nРекомендуется использовать всегда перед началом монтажа кровельных мембран при ручной и автоматической сварке. Обработка активатором удаляет с поверхности пленку пластификатора, образующуюся при длительном хранении ПВХ материалов, что позволяет получить качественных сварной шов."
     },
     specs: [
       {
-        label: { uz: "Hajmi, l", ru: "Объем, л" },
-        value: "3,0"
+        label: { uz: "Qadoq uzunligi, mm", ru: "Длина упаковки, мм" },
+        value: "410"
       },
       {
-        label: { uz: "Massasi, kg", ru: "Масса, кг" },
-        value: "3,0"
+        label: { uz: "Qadoq kengligi, mm", ru: "Ширина упаковки, мм" },
+        value: "320"
       },
       {
-        label: { uz: "Quritish vaqti, daq., ko'pi bilan", ru: "Время высыхания, мин, не более" },
-        value: "10"
+        label: { uz: "Qadoq balandligi, mm", ru: "Высота упаковки, мм" },
+        value: "170"
       },
       {
-        label: { uz: "1 mm² ga sarfi, l", ru: "Расход на 1 мм2, л" },
-        value: "0,25"
+        label: { uz: "Qadoq maydoni, m²", ru: "Площадь упаковки, м²" },
+        value: "0,131"
+      },
+      {
+        label: { uz: "Qadoq hajmi, m³", ru: "Объем упаковки, м³" },
+        value: "0,022"
+      },
+      {
+        label: { uz: "Qadoq og'irligi, kg", ru: "Вес упаковки, кг" },
+        value: "13,5"
+      },
+      {
+        label: { uz: "Qadoqdagi mahsulot soni, dona", ru: "Количество товара в упаковке, шт." },
+        value: "12"
       }
     ]
   },
