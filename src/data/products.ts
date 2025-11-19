@@ -68,6 +68,7 @@ import shimgeQd1026_2_15 from "@/assets/products/shimge-qd10-26-2-1.5.png";
 import grandfarQd1040_3_22 from "@/assets/products/grandfar-qd10-40-3-2.2.png";
 import shimgeQd1236_3_18 from "@/assets/products/shimge-qd12-36-3-1.8.png";
 import shimgeQy250_14_15 from "@/assets/products/shimge-qy250-14-15.png";
+import shimgeHc24l from "@/assets/products/shimge-hc-24l.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4719,6 +4720,30 @@ export const products: Product[] = [
       { label: { uz: "Kabel uzunligi", ru: "Длина кабеля" }, value: "1.3 m" },
       { label: { uz: "Og'irligi", ru: "Вес" }, value: "2.6 kg" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-hc-24l",
+    name: "SHIMGE HC-24L",
+    category: "shimge",
+    images: [shimgeHc24l],
+    description: {
+      uz: "SHIMGE HC-24L - 24 litrli gorizontal gidroakkumulyator ichimlik suvi uchun va avtonom suv ta'minoti tizimlarida qo'llash uchun mo'ljallangan. Qimmatbaho nasos uskunalarini gidrozarbadan himoya qiladi va suv ta'minoti tizimida belgilangan bosimni ushlab turadi. Har qanday markazdan qochma nasoslar va bosimni oshirish qurilmalari bilan ishlatiladi. Uglerodli po'latdan yasalgan korpus. EPDM qo'zg'almas membrana ikki bo'shliqqa ajratadi: gidravlik va pnevmatik. Bosimni rostlash uchun nippel. Bosim klapani uchun shtutser. Quvurga ulash uchun flanets va rezba. Nasos suv tizimiga suv beradi va bakga to'ldiriladi. Bosim oshadi, maksimalga yetganda avtomatik tizim nasosni o'chiradi. Suv sarflanib bosim kamayadi, minimal darajaga yetganda nasos avtomatik yoqiladi. 24 litr hajm - uy va kichik tizimlar uchun. 8 Bar maksimal ish bosimi. 10°C dan 100°C gacha ish harorati. 1 dyuym (25mm) ulash diametri. 1 Bar oldindan o'rnatilgan bosim. Gorizontal o'rnatish. Olinadigan membrana - oddiy ta'mirlash. Uglerodli po'lat korpus - yuqori bardoshlilik. Ishonchli Xitoy brendi.",
+      ru: "SHIMGE HC-24L - горизонтальный гидроаккумулятор объемом 24 литра предназначен для использования как резервуар накопления питьевой воды, а также в системах автономного водоснабжения. Дополнительно защищает дорогое насосное оборудование от гидроудара и поддерживает заданное давление в системе водоснабжения. Применяется с любыми типами центробежных насосов и установками повышения давления. Корпус из углеродистой стали. Фиксированная мембрана из EPDM разделяет на две полости: гидравлическую и пневматическую. Ниппель для регулировки давления. Штуцер для предохранительного клапана. Фланец с резьбой для присоединения к трубопроводу. Насос подает воду в систему и закачивается в бак. Давление газа возрастает, при достижении предельного значения автоматика отключает насос. Вода расходуется, давление понижается, при минимуме автоматика включает насос. Объем 24 литра - для дома и небольших систем. Максимальное рабочее давление 8 Бар. Рабочая температура от 10 до 100°C. Диаметр подключения 1 дюйм (25мм). Предустановленное давление 1 Бар. Горизонтальная установка. Съемная мембрана - простое обслуживание. Корпус из углеродистой стали - высокая долговечность. Надежный китайский бренд."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "HC-24L" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Gidroakkumulyator / Гидроаккумулятор" },
+      { label: { uz: "Hajm", ru: "Объем" }, value: "24 l / л" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальное давление" }, value: "8 Bar" },
+      { label: { uz: "Ish harorati", ru: "Рабочая температура" }, value: "10-100°C" },
+      { label: { uz: "Ulash diametri", ru: "Диаметр подключения" }, value: "1 dyuym / дюйм" },
+      { label: { uz: "Boshlang'ich bosim", ru: "Предустановленное давление" }, value: "1 Bar" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Uglerodli po'lat / Углеродистая сталь" },
+      { label: { uz: "Membrana turi", ru: "Тип мембраны" }, value: "Olinadigan EPDM / Съемная EPDM" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Ichimlik suvi, suv ta'minoti / Питьевая вода, водоснабжение" }
     ]
   }
 ];
