@@ -57,6 +57,8 @@ import plastfoilRoofAerator from "@/assets/products/plastfoil-roof-aerator.png";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
+import penoplexFastmixScreed from "@/assets/products/penoplex-fastmix-screed.png";
+import penoplexXpsUnderlay from "@/assets/products/penoplex-xps-underlay.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2843,6 +2845,146 @@ export const products: Product[] = [
       {
         label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
         value: "12 oy / месяцев"
+      }
+    ]
+  },
+  {
+    id: "penoplex-fastmix-screed",
+    name: "Стяжка для пола PENOPLEX FASTMIX",
+    category: "penopleks",
+    images: [penoplexFastmixScreed],
+    description: {
+      uz: "PENOPLEX FASTMIX STЯЖKA DLЯ POLA quruq dispers aralashma sirtlarni asosiy tekislash va nishab yaratish uchun mo'ljallangan, 10 dan 100 mm gacha qatlamda o'z-o'zidan tekislovchi aralashmalarni keyingi qo'llash va pol qoplamalarini mahkamlash ostida, sirtga yuklama 200 kg/sm2 dan oshmasligi kerak.\n\n**Qo'llanilish sohasi:**\n• Pollar\n• Asoslar\n\n**Xususiyatlari:**\n• Monolit qoplamalarni yaratish uchun ishlatiladi\n• «Suzuvchi» styajkalarni o'rnatish\n• Ajratish qatlami ustidagi styajkalar\n• Har qanday namlik darajasiga ega bo'lgan ichki xonalar uchun\n• Sezilarli harorat o'zgarishlariga duchor bo'lgan asoslar uchun (isitilmaydigan yopiq terrasalar va balkonlar, isitish bilan pollar)\n• Yuqori ekspluatatsion yuklarga duchor bo'lgan joylar uchun (omborlar, garajlar, sanoat binolari)\n\n**AFZALLIKLARI:**\n\n**YUQORI MUSTAHKAMLIK** – Siqilishda 20 MPa gacha mustahkamlik, og'ir yuklarga bardoshlilik\n\n**QULAY MONTAJ** – Qo'lda usulda qo'llash, 30 daqiqa ichida ishga tayyor\n\n**KENG HARORAT ORALIG'I** – -40°C dan +70°C gacha foydalanish mumkin\n\n**EKOLOGIK XAVFSIZ** – Yonmaydigan material (NG guruhi)",
+      ru: "Смесь сухая дисперсная PENOPLEX FASTMIX СТЯЖКА ДЛЯ ПОЛА предназначена для базового выравнивания поверхностей и создания уклонов слоем от 10 до 100 мм под последующее нанесения самовыравнивающихся смесей и крепление напольных покрытий с нагрузкой на поверхность не более 200 кг/см2.\n\n**Область применения:**\n• Полы\n• Основания\n\n**Используется для:**\n• Создания монолитных покрытий\n• Устройства «плавающих» стяжек\n• Стяжек на разделительном слое\n• Внутри помещений с любым уровнем влажности\n• Для оснований, подверженных значительным температурным колебаниям (неотапливаемые крытые террасы и балконы, полы с подогревом)\n• Для повышенных эксплуатационных нагрузок (склады, гаражи, промышленные помещения)\n\n**ПРЕИМУЩЕСТВА:**\n\n**ВЫСОКАЯ ПРОЧНОСТЬ** – Прочность при сжатии до 20 МПа, выдерживает значительные нагрузки\n\n**УДОБСТВО МОНТАЖА** – Применяется для заливки полов ручным способом, пригодность раствора 30 минут\n\n**ШИРОКИЙ ТЕМПЕРАТУРНЫЙ ДИАПАЗОН** – Эксплуатация от -40°C до +70°C\n\n**ЭКОЛОГИЧЕСКИ БЕЗОПАСЕН** – Не горючий материал (группа НГ)\n\n**МОРОЗОСТОЙКОСТЬ** – Не менее 50 циклов замораживания/оттаивания"
+    },
+    specs: [
+      {
+        label: { uz: "Rang", ru: "Цвет" },
+        value: "Kulrang / Серый"
+      },
+      {
+        label: { uz: "1 kg quruq aralashmaga suv miqdori, l", ru: "Количество воды на 1 кг сухой смеси, л" },
+        value: "0,13-0,16"
+      },
+      {
+        label: { uz: "Qotgan eritmaning zichligi", ru: "Плотность затвердевшего раствора" },
+        value: "2200 kg/m³ / кг/см³"
+      },
+      {
+        label: { uz: "Qo'llaniladigan qatlam qalinligi, mm", ru: "Толщина наносимого слоя, мм" },
+        value: "10-100"
+      },
+      {
+        label: { uz: "10 mm qatlam qalinligida sarfi, kg/m²", ru: "Расход при толщине слоя 10 мм, кг/м²" },
+        value: "18"
+      },
+      {
+        label: { uz: "Eritmaning ishga yaroqlik vaqti", ru: "Время пригодности раствора к работе" },
+        value: "30 daqiqa / минут"
+      },
+      {
+        label: { uz: "Yurish imkoniyati", ru: "Возможность хождения" },
+        value: "24 soatdan keyin / через 24 часа"
+      },
+      {
+        label: { uz: "Tekislovchi aralashmalarni qo'llash", ru: "Нанесение выравнивающих смесей" },
+        value: "7-14 kundan keyin / через 7-14 суток"
+      },
+      {
+        label: { uz: "Pol qoplamalarini yotqizish", ru: "Укладка напольного покрытия" },
+        value: "14-28 kundan keyin / через 14-28 суток"
+      },
+      {
+        label: { uz: "28 kundan keyin asosga yopishish", ru: "Адгезия к основанию через 28 суток" },
+        value: "Kamida 0.75 MPa / не менее 0,75 МПа"
+      },
+      {
+        label: { uz: "28 kundan keyin siqilishdagi mustahkamlik", ru: "Прочность при сжатии через 28 суток" },
+        value: "Kamida 20 MPa / не менее 20 МПа"
+      },
+      {
+        label: { uz: "28 kundan keyin egilishdagi mustahkamlik", ru: "Прочность на изгибе через 28 суток" },
+        value: "Kamida 4 MPa / не менее 4 МПа"
+      },
+      {
+        label: { uz: "Harakatchanlik (oqish qobiliyati), mm", ru: "Подвижность (растекаемость) растворной смеси, мм" },
+        value: "100-120"
+      },
+      {
+        label: { uz: "Sovuqqa chidamlilik", ru: "Морозостойкость" },
+        value: "Kamida 50 tsikl / Не менее 50 циклов"
+      },
+      {
+        label: { uz: "Yonuvchanlik guruhi", ru: "Группа горючести" },
+        value: "NG (yonmaydigan) / НГ (не горючая)"
+      },
+      {
+        label: { uz: "Ish harorati", ru: "Температура проведения работ" },
+        value: "+5°C...+30°C"
+      },
+      {
+        label: { uz: "Foydalanish harorati", ru: "Температура эксплуатации" },
+        value: "-40°C...+70°C"
+      },
+      {
+        label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
+        value: "12 oy / месяцев"
+      }
+    ]
+  },
+  {
+    id: "penoplex-xps-underlay",
+    name: "Подложка из XPS под ламинат и паркет",
+    category: "penopleks",
+    images: [penoplexXpsUnderlay],
+    description: {
+      uz: "PENOPLЭKS kompaniyasining XPS PODLOJKA — bu laminat va muhandislik taxtasi ostiga o'rnatish uchun maxsus ishlab chiqilgan yuqori sifatli va ishonchli pol qoplamasi elementi. Mahsulotning asosi — ekstruzion penopolistirol (XPS), eng mustahkam va uzoq muddatli issiqlik izolyatsiya materiallari sifatida o'zini isbotlagan.\n\n**Qo'llanilish sohasi:**\n• Laminat ostida\n• Parket taxtasi ostida\n• Muhandislik taxtasi ostida\n\n**O'lchamlar:**\n• Qalinligi: 3 mm va 5 mm\n• List o'lchami: 600 × 1200 mm\n• Qadoqda: 7 list (5,04 m²)\n\n**AFZALLIKLARI:**\n\n**YUKLARGA BARDOSHLILIK** – Vaqt o'tishi bilan siqilmaydi, doimiy xususiyatlarni saqlaydi\n\n**SIRTNI TEKISLASH** – Styajkaning notekisliklarini tekislaydi\n\n**SHOVQINNI PASAYTIRISH** – Zarba shovqini va tebranish darajasini pasaytiradi\n\n**OSON MONTAJ** – O'rnatishni soddalashtiradi va tezlashtiradi\n\n**PROFESSIONAL VA SHAXSIY FOYDALANISH** – Ham professional, ham shaxsiy foydalanish uchun mos keladi",
+      ru: "XPS ПОДЛОЖКА от компании ПЕНОПЛЭКС — это качественный и надёжный элемент для финишной отделки пола, специально разработанный для укладки под ламинат и инженерную доску. Основа изделия — экструзионный пенополистирол (XPS), зарекомендовавший себя как один из самых прочных и долговечных теплоизоляционных материалов.\n\n**Область применения:**\n• Финишная отделка полов\n• Под ламинат\n• Под паркетную доску\n• Под инженерную доску\n\n**Размеры:**\n• Толщина: 3 мм и 5 мм\n• Размер листа: 600 × 1200 мм\n• В упаковке: 7 листов (5,04 м²)\n\n**ПРЕИМУЩЕСТВА:**\n\n**ПОВЫШАЕТ УСТОЙЧИВОСТЬ К НАГРУЗКАМ** – Не сминается со временем, сохраняет постоянные характеристики\n\n**ВЫРАВНИВАЕТ НЕРОВНОСТИ** – Компенсирует неровности стяжки до 2-3,5 мм\n\n**СНИЖАЕТ УРОВЕНЬ ШУМА** – Уменьшает ударный шум и вибрацию\n\n**УПРОЩАЕТ МОНТАЖ** – Легко укладывается, ускоряет процесс монтажа\n\n**УНИВЕРСАЛЬНОСТЬ** – Подходит как для профессионального, так и для частного использования"
+    },
+    specs: [
+      {
+        label: { uz: "Nominal qalinlik, mm", ru: "Номинальная толщина, мм" },
+        value: "3 / 5"
+      },
+      {
+        label: { uz: "Qadoqdagi listlar soni, dona", ru: "Количество листов в упаковке, шт." },
+        value: "7"
+      },
+      {
+        label: { uz: "Qadoqdagi maydon, m²", ru: "Площадь в упаковке, м²" },
+        value: "5,04"
+      },
+      {
+        label: { uz: "O'rtacha zichlik, kg/m³", ru: "Средняя плотность, кг/м³" },
+        value: "28 ± 7"
+      },
+      {
+        label: { uz: "0,5 mm deformatsiyada siqilish mustahkamligi (3mm), kPa", ru: "Прочность на сжатие при деформации на 0,5 мм (3мм), кПа, не менее" },
+        value: "200"
+      },
+      {
+        label: { uz: "0,5 mm deformatsiyada siqilish mustahkamligi (5mm), kPa", ru: "Прочность на сжатие при деформации на 0,5 мм (5мм), кПа, не менее" },
+        value: "190"
+      },
+      {
+        label: { uz: "Nuqtaviy notekisliklarni tekislash qobiliyati (3mm), mm", ru: "Способность к выравниванию точечных неровностей (3мм), мм, не менее" },
+        value: "2"
+      },
+      {
+        label: { uz: "Nuqtaviy notekisliklarni tekislash qobiliyati (5mm), mm", ru: "Способность к выравниванию точечных неровностей (5мм), мм, не менее" },
+        value: "3,5"
+      },
+      {
+        label: { uz: "1,0 mm deformatsiyada siqilish mustahkamligi, kPa", ru: "Прочность на сжатие при деформации на 1,0 мм, кПа, не менее" },
+        value: "250"
+      },
+      {
+        label: { uz: "24 soat ichida hajm bo'yicha suv shimishi, %", ru: "Водопоглощение по объему за 24 ч, %, не более" },
+        value: "1"
+      },
+      {
+        label: { uz: "Issiqlik o'tkazuvchanligi, Vt/(m·K)", ru: "Теплопроводность, Вт/(м·К), не более" },
+        value: "0,033"
       }
     ]
   }
