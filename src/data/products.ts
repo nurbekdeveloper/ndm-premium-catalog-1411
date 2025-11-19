@@ -54,6 +54,7 @@ import shimgeShfm5am from "@/assets/products/shimge-shfm5am.png";
 import shimgeShfm5bm from "@/assets/products/shimge-shfm5bm.png";
 import shimgeShfm6a from "@/assets/products/shimge-shfm6a.png";
 import shimgeShfm6b from "@/assets/products/shimge-shfm6b.png";
+import shimgeShfm6c from "@/assets/products/shimge-shfm6c.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -1241,6 +1242,34 @@ export const products: Product[] = [
       { label: { uz: "Kuchlanish", ru: "Питание" }, value: "220 V" },
       { label: { uz: "Og'irlik", ru: "Вес" }, value: "31 kg" },
       { label: { uz: "Mamlakat", ru: "Страна регистрации бренда" }, value: "Xitoy / Китай" }
+    ]
+  },
+  {
+    id: "shimge-shfm6c",
+    name: "SHIMGE SHFm6C",
+    category: "shimge",
+    images: [shimgeShfm6c],
+    description: {
+      uz: "SHIMGE SHFm6C markazdan qochma nasosi toza suvni quyish uchun ishonchli va samarali qurilma. Tashqi joylashuvli nasos gorizontal o'rnatish uchun mo'ljallangan. 1100 Vt quvvat energiya tejamkorligini ta'minlaydi. 12 metr maksimal bosim balandligi. 7 metrgacha so'rish chuqurligi. 66 m³/soat yuqori o'tkazish qobiliyati fermer xo'jaliklari va sug'orish uchun ideal. 3 dyuymli (76mm) kirish va chiqish diametri standart quvur tizimlariga oson ulanish imkonini beradi. Quyma temir korpus chidamlilik va korroziyaga chidamlilikni ta'minlaydi. Markazdan qochma mexanizm yuqori samaradorlik va uzluksiz ishlashni kafolatlaydi. Ruxsat etilgan muhit va suyuqlik harorati 40°C gacha. Toza suv uchun mo'ljallangan. 220/230V kuchlanish. Bog'lar, issiqxonalar, fermer xo'jaliklari, maishiy suv ta'minoti uchun mukammal yechim. Oddiy o'rnatish va kam texnik xizmat talab qiladi.",
+      ru: "Центробежный насос SHIMGE SHFm6C - надежное и эффективное устройство для перекачивания чистой воды. Насос наружного размещения предназначен для горизонтальной установки. Мощность 1100 Вт обеспечивает энергоэффективность. Максимальный напор 12 метров. Глубина всасывания до 7 метров. Высокая производительность 66 м³/час идеальна для фермерских хозяйств и орошения. Диаметр входа и выхода 3 дюйма (76мм) позволяет легко подключаться к стандартным трубопроводным системам. Корпус из чугуна обеспечивает прочность и устойчивость к коррозии. Центробежный механизм гарантирует высокую эффективность и непрерывную работу. Допустимая температура окружающей среды и жидкости до 40°C. Предназначен для чистой воды. Напряжение 220/230В. Отличное решение для садов, теплиц, фермерских хозяйств, бытового водоснабжения. Простая установка и минимальное техническое обслуживание."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "SHFm6C" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Tashqi joylanuvchi, markazdan qochma / Наружного размещения, центробежный" },
+      { label: { uz: "O'rnatish", ru: "Установка насоса" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1100 W (1.1 kW)" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальный напор" }, value: "12 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "7 m" },
+      { label: { uz: "O'tkazish qobiliyati", ru: "Производительность" }, value: "66 m³/soat / м³/ч" },
+      { label: { uz: "Kirish/Chiqish diametri", ru: "Диаметр входа/выхода" }, value: "3\" (76 mm)" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220/230 V" },
+      { label: { uz: "Muhit harorati", ru: "Допустимая температура среды" }, value: "40°C gacha / до 40°C" },
+      { label: { uz: "Suyuqlik harorati", ru: "Допустимая температура жидкости" }, value: "40°C gacha / до 40°C" },
+      { label: { uz: "Korpus", ru: "Материал корпуса" }, value: "Quyma temir / Чугун" },
+      { label: { uz: "Mexanizm", ru: "Механизм насоса" }, value: "Markazdan qochma / Центробежный" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza suv / Чистая вода" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" }
     ]
   },
   // Penopleks - Insulation Materials
