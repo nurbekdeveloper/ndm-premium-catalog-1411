@@ -63,6 +63,7 @@ import plastguardMembraneRoll from "@/assets/products/plastguard-membrane-roll.p
 import penoplexFastmixFacadePro from "@/assets/products/penoplex-fastmix-facade-pro.png";
 import penoplexFastmixFacade from "@/assets/products/penoplex-fastmix-facade.png";
 import penoplexFastfix from "@/assets/products/penoplex-fastfix.png";
+import rebarFixator from "@/assets/products/rebar-fixator.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -3325,6 +3326,46 @@ export const products: Product[] = [
       {
         label: { uz: "Kafolat saqlash muddati", ru: "Гарантийный срок хранения" },
         value: "12 oy / месяцев"
+      }
+    ]
+  },
+  {
+    id: "rebar-fixator",
+    name: "ФИКСАТОР ДЛЯ АРМАТУРЫ",
+    category: "penopleks",
+    images: [rebarFixator],
+    description: {
+      uz: "Olinadigan qalopning mahkamlash elementi. Armaturani mahkamlash va beton himoya qatlamini shakllantirish uchun o'rnatishda ishlatiladigan armatura elementi.\n\nMahkamlash vositasi olinadigan qalopda armaturani to'g'ri pozitsiyada ushlab turadi va beton quyish jarayonida kerakli himoya qatlamini ta'minlaydi. Poydevor va devorlarni qurish uchun muhim.",
+      ru: "Элемент стяжки для несъемной опалубки, используется для фиксации арматуры и формирования защитного слоя бетона при монтаже.\n\nФиксатор удерживает арматуру в правильном положении внутри несъемной опалубки и обеспечивает необходимый защитный слой бетона при заливке. Важный элемент при строительстве фундаментов и стен."
+    },
+    specs: [
+      {
+        label: { uz: "Qadoq uzunligi, mm", ru: "Длина упаковки, мм" },
+        value: "340"
+      },
+      {
+        label: { uz: "Qadoq kengligi, mm", ru: "Ширина упаковки, мм" },
+        value: "270"
+      },
+      {
+        label: { uz: "Qadoq balandligi, mm", ru: "Высота упаковки, мм" },
+        value: "210"
+      },
+      {
+        label: { uz: "Qadoq maydoni, m²", ru: "Площадь упаковки, м²" },
+        value: "0,0918"
+      },
+      {
+        label: { uz: "Qadoq hajmi, m³", ru: "Объем упаковки, м³" },
+        value: "0,019278"
+      },
+      {
+        label: { uz: "Qadoq og'irligi, kg", ru: "Вес упаковки, кг" },
+        value: "0,95"
+      },
+      {
+        label: { uz: "Qadoqdagi mahsulot soni, dona", ru: "Количество товара в упаковке, шт." },
+        value: "3600"
       }
     ]
   }
