@@ -26,6 +26,7 @@ import shimgeWt400cSide from "@/assets/products/shimge-wt400c-side.png";
 import shimgeWt400cDetail from "@/assets/products/shimge-wt400c-detail.png";
 import shimgeWvsd75f from "@/assets/products/shimge-wvsd-75f.png";
 import shimgeWvsd110f from "@/assets/products/shimge-wvsd-110f.png";
+import shimgeQb60a from "@/assets/products/shimge-qb60a.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -490,7 +491,26 @@ export const products: Product[] = [
       { label: { uz: "Unumdorlik", ru: "Пропускная способность" }, value: "27 м³/soat / куб. м/час" },
       { label: { uz: "Zarralar o'lchami", ru: "Размер пропускаемых частиц" }, value: "45 mm" },
       { label: { uz: "Himoya", ru: "Защита" }, value: "Quruq yurishdan va qizib ketishdan / От сухого хода и перегрева" },
-      { label: { uz: "Nazorat", ru: "Автоматический контроль за уровнем воды" }, value: "Sho'r suzish / Поплавковый" }
+      { label: { uz: "Nazorat", ru: "Автоматический контроль за уровнем воды" }, value: "Sho'r suzish / Поплавkovый" }
+    ]
+  },
+  {
+    id: "shimge-qb60a",
+    name: "SHIMGE QB60A",
+    category: "shimge",
+    images: [shimgeQb60a],
+    description: {
+      uz: "SHIMGE QB60A vihrevoy nasos stansiyasi zanglamaydigan po'latdan yasalgan qo'shimchali quyma temirdan, dvigatel korpusi alyuminiydan, parvanel guruchdan va start o'rashlari misdan qilingan. Bu seriyali nasoslar ixcham o'lchamlari va past og'irligi bilan ajralib turadi. 370 Vt quvvat, 33 m napor, 36 l/daqiqa unumdorlik.",
+      ru: "Вихревая насосная станция SHIMGE QB60A изготовлена из чугуна с добавлением нержавеющей стали, корпус двигателя из алюминия, рабочее колесо из латуни, обмотки из меди. Компактные размеры и малый вес. Мощность 370 Вт, напор 33 м, производительность 36 л/мин."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Vihrevoy / Вихревой" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "370 Вт" },
+      { label: { uz: "Nominal napor", ru: "Номинальный напор" }, value: "33 m" },
+      { label: { uz: "So'rish chuqurligi", ru: "Глубина всасывания" }, value: "8 m" }
     ]
   },
   // Penopleks - Insulation Materials
