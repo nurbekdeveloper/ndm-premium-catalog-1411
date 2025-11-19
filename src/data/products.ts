@@ -66,6 +66,7 @@ import grandfarQdx8180_75f from "@/assets/products/grandfar-qdx8-18-0.75f.png";
 import shimgeQdx10160_75 from "@/assets/products/shimge-qdx10-16-0.75.png";
 import shimgeQd1026_2_15 from "@/assets/products/shimge-qd10-26-2-1.5.png";
 import grandfarQd1040_3_22 from "@/assets/products/grandfar-qd10-40-3-2.2.png";
+import shimgeQd1236_3_18 from "@/assets/products/shimge-qd12-36-3-1.8.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4619,6 +4620,34 @@ export const products: Product[] = [
       { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Alyuminiy qotishmasi / Алюминиевый сплав" },
       { label: { uz: "Filtr ekrani", ru: "Фильтрующий экран" }, value: "Zanglamaydigan po'lat AIS / Нержавеющая сталь AIS" },
       { label: { uz: "Fazalar soni", ru: "Количество фаз" }, value: "1" }
+    ]
+  },
+  {
+    id: "shimge-qd12-36-3-1.8",
+    name: "SHIMGE QD12-36/3-1.8",
+    category: "shimge",
+    images: [shimgeQd1236_3_18],
+    description: {
+      uz: "SHIMGE QD12-36/3-1.8 - ko'p bosqichli cho'kma nasosi yuqori napor bilan. Ko'p bosqichli konstruksiya tufayli Q(D) seriyali nasoslar qishloq xo'jaligida sug'orish, yomg'ir yordamida sug'orish, bog' sug'orish, quduqlardan suv ta'minoti, suv havzalari, akvakultura va boshqa sohalarda keng qo'llaniladi. Ko'p bosqichli markazdan qochma yuqori naporli nasos. Ixcham konstruksiya, kichik joy egallaydi, harakatlantirish va ishlatish uchun qulay. Radiyal-tayanch sharli podshipnik xizmat muddatini oshiradi. Mis o'rash. Choynak korpus va dvigatel. Alyuminiy qotishmadan ishchi g'ildirak. Zanglamaydigan po'latdan filtrlash ekrani. 1.8 kW quvvat. 36 metr maksimal napor. 21 m³/soat (43 l/daq) yuqori unumdorlik. 50mm chiqish diametri. 0.5m dan 5m gacha cho'kish chuqurligi. Maksimal suyuqlik harorati +40°C. pH darajasi 6.5-8.5. Maksimal qum miqdori 0.1%. 0.2mm gacha bo'lgan suzuvchi zarrachalar o'tishi. 220V 50Hz bir fazali yoki 380V uch fazali (-10% dan +10% gacha diapazon). Vertikal o'rnatish. 6 oy kafolat.",
+      ru: "SHIMGE QD12-36/3-1.8 - многоступенчатый погружной насос с повышенным напором. Благодаря многоступенчатой конструкции насосы серии Q(D) широко применяются в сельскохозяйственном орошении, дождевании, садовом орошении, водоснабжении колодцев, водоемов, аквакультуре и других областях. Многоступенчатый центробежный насос с высоким напором. Компактная структура, занимающая небольшую площадь, удобная для перемещения и использования. Радиально-упорный шарикоподшипник улучшает срок службы. Медная обмотка. Корпус и двигатель из чугуна. Рабочее колесо из алюминиевого сплава. Фильтрующий экран из нержавеющей стали. Мощность 1.8 кВт. Максимальный напор 36 метров. Высокая производительность 21 м³/час (43 л/мин). Диаметр выхода 50мм. Глубина погружения от 0.5м до 5м. Максимальная температура жидкости +40°C. Уровень pH 6.5-8.5. Максимальное содержание песка 0.1%. Прохождение взвешенных частиц до 0.2мм. 220В 50Гц однофазное или 380В трехфазное (диапазон от -10% до +10%). Вертикальная установка. Гарантия 6 месяцев."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "QD12-36/3-1.8" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Ko'p bosqichli cho'kma / Многоступенчатый погружной" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1.8 kW" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V / 380V" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Maksimal napor", ru: "Макс. напор" }, value: "36 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "21 m³/soat, 43 l/daq / м³/час, л/мин" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр выхода" }, value: "50 mm" },
+      { label: { uz: "Cho'kish chuqurligi", ru: "Глубина погружения" }, value: "0.5-5 m" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Suyuqlik harorati", ru: "Температура жидкости" }, value: "Maks +40°C" },
+      { label: { uz: "pH darajasi", ru: "Уровень pH" }, value: "6.5-8.5" },
+      { label: { uz: "Qum miqdori", ru: "Содержание песка" }, value: "Maks 0.1%" },
+      { label: { uz: "Korpus", ru: "Материал корпуса" }, value: "Choynak / Чугун" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
     ]
   }
 ];
