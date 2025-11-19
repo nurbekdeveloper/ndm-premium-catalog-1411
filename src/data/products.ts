@@ -18,6 +18,12 @@ import shimge50wq15qg from "@/assets/products/shimge-50wq15qg.png";
 import shimgeWt500b from "@/assets/products/shimge-wt500b.png";
 import shimgeWt500bSide from "@/assets/products/shimge-wt500b-side.png";
 import shimgeWt500bDetail from "@/assets/products/shimge-wt500b-detail.png";
+import shimgeWt400a from "@/assets/products/shimge-wt400a.png";
+import shimgeWt400aSide from "@/assets/products/shimge-wt400a-side.png";
+import shimgeWt400aDetail from "@/assets/products/shimge-wt400a-detail.png";
+import shimgeWt400c from "@/assets/products/shimge-wt400c.png";
+import shimgeWt400cSide from "@/assets/products/shimge-wt400c-side.png";
+import shimgeWt400cDetail from "@/assets/products/shimge-wt400c-detail.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -378,6 +384,56 @@ export const products: Product[] = [
       { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220 В" },
       { label: { uz: "Chastota", ru: "Частота тока" }, value: "50 Гц" },
       { label: { uz: "Maksimal unumdorlik", ru: "Максимальный расход" }, value: "7.5 м³/ч" },
+      { label: { uz: "Qadoqdagi soni", ru: "Количество в упаковке" }, value: "1 dona / шт" },
+      { label: { uz: "Minimal buyurtma", ru: "Минимальное количество отгрузки" }, value: "1 dona / шт" }
+    ]
+  },
+  {
+    id: "shimge-wt400a",
+    name: "SHIMGE WT400-A",
+    category: "shimge",
+    images: [shimgeWt400a, shimgeWt400aSide, shimgeWt400aDetail],
+    description: {
+      uz: "Kanalizatsiya o'rnatish qurilmasi WT400-A frontal ulanishli, 400 Vt quvvat bilan, 7 m³/soat unumdorlik, 8 m napor. Majburiy kanalizatsiya oqova suvlarini chiqarish uchun ishonchli qurilma.",
+      ru: "Канализационная установка для принудительного отвода стоков SHIMGE WT400-A с фронтальным соединением с унитазом, мощностью 400 Вт, производительностью 7 м³/ч, напором 8 м."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "SHIMGE" },
+      { label: { uz: "Artikul", ru: "Артикул" }, value: "TCK/10310100074" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "400 Вт" },
+      { label: { uz: "Maksimal harorat", ru: "Максимальная температура применения" }, value: "75°C" },
+      { label: { uz: "Minimal harorat", ru: "Минимальная температура применения" }, value: "1°C" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "8 m" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220 В" },
+      { label: { uz: "Chastota", ru: "Частота тока" }, value: "50 Гц" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальный расход" }, value: "7 м³/ч" },
+      { label: { uz: "Qadoqdagi soni", ru: "Количество в упаковке" }, value: "1 dona / шт" },
+      { label: { uz: "Minimal buyurtma", ru: "Минимальное количество отгрузки" }, value: "1 dona / шт" }
+    ]
+  },
+  {
+    id: "shimge-wt400c",
+    name: "SHIMGE WT400-C",
+    category: "shimge",
+    images: [shimgeWt400c, shimgeWt400cSide, shimgeWt400cDetail],
+    description: {
+      uz: "Kanalizatsiya o'rnatish qurilmasi WT400-C ulanishsiz, 400 Vt quvvat bilan, 7 m³/soat unumdorlik, 8 m napor. Majburiy kanalizatsiya oqova suvlarini chiqarish uchun universal qurilma.",
+      ru: "Канализационная установка для принудительного отвода стоков WT400-C без соединения с унитазом, мощностью 400 Вт, производительностью 7 м³/ч, напором 8 м."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Производитель" }, value: "SHIMGE" },
+      { label: { uz: "Artikul", ru: "Артикул" }, value: "TCK/10310100076" },
+      { label: { uz: "O'lchov birligi", ru: "Единица измерения" }, value: "dona / шт" },
+      { label: { uz: "Mamlakat", ru: "Страна" }, value: "Xitoy / Китай" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "400 Вт" },
+      { label: { uz: "Maksimal harorat", ru: "Максимальная температура применения" }, value: "75°C" },
+      { label: { uz: "Minimal harorat", ru: "Минимальная температура применения" }, value: "1°C" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "8 m" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220 В" },
+      { label: { uz: "Chastota", ru: "Частота тока" }, value: "50 Гц" },
+      { label: { uz: "Maksimal unumdorlik", ru: "Максимальный расход" }, value: "7 м³/ч" },
       { label: { uz: "Qadoqdagi soni", ru: "Количество в упаковке" }, value: "1 dona / шт" },
       { label: { uz: "Minimal buyurtma", ru: "Минимальное количество отгрузки" }, value: "1 dona / шт" }
     ]
