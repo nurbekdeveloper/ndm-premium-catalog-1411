@@ -35,6 +35,7 @@ import shimgeJet1100g1 from "@/assets/products/shimge-jet1100g1.png";
 import shimgeSgjw37s from "@/assets/products/shimge-sgjw37s.png";
 import shimgeSgjw37 from "@/assets/products/shimge-sgjw37.png";
 import shimgeJet100p from "@/assets/products/shimge-jet100p.png";
+import shimgeSgjw110s from "@/assets/products/shimge-sgjw110s.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -741,6 +742,35 @@ export const products: Product[] = [
       { label: { uz: "Izolyatsiya klassi", ru: "Класс изоляции" }, value: "F" },
       { label: { uz: "Himoya", ru: "Защита" }, value: "IP44 + Termal himoya / Термозащитное реле" },
       { label: { uz: "Ishchi g'ildiraklarning soni", ru: "Количество рабочих колес" }, value: "1" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-sgjw110s",
+    name: "SHIMGE SGJW110S",
+    category: "shimge",
+    images: [shimgeSgjw110s],
+    description: {
+      uz: "SHIMGE SGJW110S nasos stansiyasi - o'z-o'zidan so'radigan nasos 1.1 kW quvvat bilan. Ochiq suv havzalaridan, quduqlardan va yig'ish idishlaridan suv va kimyoviy jihatdan agressiv bo'lmagan suyuqliklarni haydash uchun mo'ljallangan. Bog' va poliz sug'orish tizimlari, tomchi sug'orish tizimlari, turli maqsadlardagi bosim oshirish tizimlarida ishlatish uchun ideal. O'z-o'zidan so'radigan nasos tizimi 9 metrgacha chuqurlikdan suvni tortib olish imkoniyatiga ega. Yuqori samaradorlik va ishonchlilik. Markazdan qochma kuch prinsipida ishlaydigan nasos, ishchi g'ildirak harakati orqali suvni chiqish teshigiga yo'naltiradi. Nasos korpusi ish boshlashidan oldin suv bilan to'ldiriladi, bu havoni tizimdan chiqarishga yordam beradi. Ishga tushirilganida, nasos suvni tizim orqali uzluksiz haydaydi va kerakli bosimni ta'minlaydi. Xususiy uylar, kottejlar va kichik fermer xo'jaliklarida suv ta'minoti uchun mukammal yechim. Nasos qismi yuqori sifatli materiallardan tayyorlangan - korpus choyan, ishchi g'ildirak latun, vali zanglamaydigan po'lat. Elektr dvigateli termik himoya va yuqori izolyatsiya klassi bilan jihozlangan. SHIMGE - Xitoyning eng yirik nasos ishlab chiqaruvchilaridan biri, 30 yildan ortiq tajribaga ega. Yillik ishlab chiqarish hajmi 1.5 milliondan ortiq nasos. ISO9001, ISO14001, OHSAS18001 sertifikatlari bilan sifat kafolati. Barcha mahsulotlar GS, CE, UL sertifikatlaridan o'tgan va RoHS talablariga javob beradi.",
+      ru: "Насосная станция SHIMGE SGJW110S - самовсасывающий насос мощностью 1.1 кВт. Предназначен для перекачки воды и химически неагрессивных жидкостей из открытых водоемов, колодцев и накопительных емкостей. Идеально подходит для систем полива садов и огородов, систем капельного орошения, систем повышения давления различного назначения. Самовсасывающая система насоса позволяет забирать воду с глубины до 9 метров. Высокая производительность и надежность. Насос работает по принципу центробежной силы, движение рабочего колеса направляет воду к выпускному отверстию. Корпус насоса заполняется водой перед началом работы, что помогает удалить воздух из системы. При запуске насос непрерывно перекачивает воду через систему и обеспечивает необходимое давление. Идеальное решение для водоснабжения частных домов, коттеджей и небольших фермерских хозяйств. Насосная часть изготовлена из высококачественных материалов - корпус из чугуна, рабочее колесо из латуни, вал из нержавеющей стали. Электродвигатель оснащен термической защитой и высоким классом изоляции. SHIMGE - один из крупнейших производителей насосов в Китае с опытом более 30 лет. Годовой объем производства более 1.5 миллиона насосов. Гарантия качества подтверждена сертификатами ISO9001, ISO14001, OHSAS18001. Вся продукция прошла сертификацию GS, CE, UL и соответствует требованиям RoHS."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "SGJW110S" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "SGJW-S" },
+      { label: { uz: "Turi", ru: "Тип товара" }, value: "Nasos stansiyasi / Насосная станция" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1.1 kW (1100 W)" },
+      { label: { uz: "Maksimal napor", ru: "Максимальный напор" }, value: "52 m" },
+      { label: { uz: "Maksimal oqim", ru: "Максимальный расход" }, value: "5.4 m³/soat / м³/час" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "9 m gacha / до 9 м" },
+      { label: { uz: "Kirish/Chiqish", ru: "Размер резьбы" }, value: "1\" (25.4 mm) / 1 дюйм" },
+      { label: { uz: "Suv harorati", ru: "Максимальная температура применения" }, value: "0°C dan +40°C gacha / от 0 до +40°С" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220 V / 50 Hz" },
+      { label: { uz: "Fazalar soni", ru: "Количество фаз" }, value: "1" },
+      { label: { uz: "Material", ru: "Материал изделия" }, value: "Choyan / Чугун" },
+      { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Latun / Латунь" },
+      { label: { uz: "Vali", ru: "Вал двигателя" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Mamlakat", ru: "Страна производитель" }, value: "Xitoy / Китай" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
     ]
   },
