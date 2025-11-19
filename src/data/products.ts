@@ -10,7 +10,7 @@ import hydroPlastHalfElbow45 from "@/assets/products/hydro-plast-half-elbow-45.j
 import hydroPlastTee from "@/assets/products/hydro-plast-tee.jpg";
 
 // Product images - Shimge
-import shimgeXps20 from "@/assets/products/shimge-xps20-4-130b.jpg";
+import shimgeXps20 from "@/assets/products/shimge-xps20-4-130b.png";
 import shimgeJet750l1 from "@/assets/products/shimge-jet750l1.png";
 import shimgeQb60l from "@/assets/products/shimge-qb60l.png";
 import shimgeCpm130 from "@/assets/products/shimge-cpm130.png";
@@ -4685,6 +4685,39 @@ export const products: Product[] = [
       { label: { uz: "pH darajasi", ru: "Уровень pH" }, value: "6.5-8.5" },
       { label: { uz: "Qum miqdori", ru: "Содержание песка" }, value: "Maks 0.1%" },
       { label: { uz: "Korpus", ru: "Материал корпуса" }, value: "Butun choynak / Цельный чугун" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-xps20-4-130b",
+    name: "SHIMGE XPS20-4-130B",
+    category: "shimge",
+    images: [shimgeXps20],
+    description: {
+      uz: "SHIMGE XPS20-4-130B - yuqori samarali aylanma nasos. Isitish tizimlari, suv ta'minoti va tozalash inshootlari, suv olish uchun ishlab chiqilgan. Ixcham dizayn va oson o'rnatish. Choynak korpus va alyuminiy dvigatel korpusi yuqori bardoshlilikni ta'minlaydi. Texnopolimer ishchi g'ildirak. 70W (0.07kW) iqtisodiy quvvat - past energiya iste'moli. 4m napor va 50 l/daq (3 m³/soat) unumdorlik. 130mm o'rnatish uzunligi. IP44 himoya darajasi. 220V bir fazali, 50Hz. H klassli izolyatsiya. 2.5 µF kondensator sig'imi. 10 bar ish bosimi. 2°C dan 110°C gacha harorat diapazoni. Yuqori haroratga bardoshli. Sanoat standartiga mos. 1.3m uzunlikdagi kabel. 2.6kg og'irlik. Horizontal o'rnatish. Toza suv uchun mo'ljallangan. Ishonchli Xitoy brendi. 6 oy kafolat.",
+      ru: "SHIMGE XPS20-4-130B - высокоэффективный циркуляционный насос. Разработан для систем отопления, водоснабжения и водоочистных сооружений, водозабора. Компактная конструкция и простой монтаж. Чугунный корпус и алюминиевый корпус двигателя обеспечивают высокую долговечность. Рабочее колесо из технополимера. Экономичная мощность 70Вт (0.07кВт) - низкое энергопотребление. Напор 4м и производительность 50 л/мин (3 м³/час). Монтажная длина 130мм. Степень защиты IP44. Однофазный 220В, 50Гц. Класс изоляции H. Емкость конденсатора 2.5 мкФ. Рабочее давление 10 бар. Диапазон температур от 2°C до 110°C. Высокая термостойкость. Соответствует промышленным стандартам. Длина кабеля 1.3м. Вес 2.6кг. Горизонтальная установка. Предназначен для чистой воды. Надежный китайский бренд. Гарантия 6 месяцев."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "XPS20-4-130B" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Aylanma / Циркуляционный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "70W (0.07kW)" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V (1 faza / 1 фаза)" },
+      { label: { uz: "Chastota", ru: "Частота" }, value: "50 Hz" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "50 l/daq (3 m³/soat) / л/мин (3 м³/час)" },
+      { label: { uz: "Napor", ru: "Напор" }, value: "4 m" },
+      { label: { uz: "Ish bosimi", ru: "Рабочее давление" }, value: "10 bar" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Gorizontal / Горизонтальная" },
+      { label: { uz: "O'rnatish uzunligi", ru: "Монтажная длина" }, value: "130 mm" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Choynak / Чугун" },
+      { label: { uz: "G'ildirak", ru: "Рабочее колесо" }, value: "Texnopolimer / Технополимер" },
+      { label: { uz: "Dvigatel korpusi", ru: "Корпус двигателя" }, value: "Alyuminiy / Алюминий" },
+      { label: { uz: "Harorat diapazoni", ru: "Диапазон температур" }, value: "2-110°C" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP44" },
+      { label: { uz: "Izolyatsiya klassi", ru: "Класс изоляции" }, value: "H" },
+      { label: { uz: "Kondensator", ru: "Конденсатор" }, value: "2.5 µF" },
+      { label: { uz: "Kabel uzunligi", ru: "Длина кабеля" }, value: "1.3 m" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "2.6 kg" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
     ]
   }
