@@ -77,6 +77,7 @@ import shimgePx203e from "@/assets/products/shimge-px203e.png";
 import shimgePx404e from "@/assets/products/shimge-px404e.png";
 import shimgePw250z from "@/assets/products/shimge-pw250z.png";
 import shimgePw125z from "@/assets/products/shimge-pw125z.png";
+import shimgePw550z from "@/assets/products/shimge-pw550z.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -5017,6 +5018,35 @@ export const products: Product[] = [
       { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, kanalizatsiya / Водоснабжение, канализация" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "shimge-pw550z",
+    name: "SHIMGE PW550Z",
+    category: "shimge",
+    images: [shimgePw550z],
+    description: {
+      uz: "SHIMGE PW550Z - avtomatik o'z-o'zidan so'rayotgan nasos stantsiyasi 2 litrlik bosim baki bilan. Toza suvni yoki o'xshash fizik va kimyoviy xususiyatlarga ega boshqa suyuqliklarni uzatish uchun mo'ljallangan. Quduqlardan suv ko'tarish, dala sug'orish, suv quvurlari tizimlarida bosimni oshirish va turli yordamchi inshootlarda foydalanish mumkin. 2 litrlik bosim baki bilan jihozlangan - avtomatik ishlash uchun. Maxsus antikorrozion ishlov - uzoq xizmat muddati. Latundan yasalgan ish g'ildiragi - korroziyaga chidamli. AISI 304 po'latdan yasalgan mil - yuqori mustahkamlik. Maksimal suv harorati: +40°C. Maksimal so'rish balandligi: 9 m gacha. C&U podshipniklari - ishonchli ishlash. Mis zanjir - yuqori o'tkazuvchanlik. Bir fazali dvigatel issiqlik relesiga ulangan. F sinfi isitkich - issiqlikka chidamli. IPX4 himoya darajasi - namlikdan himoya. Maksimal atrof-muhit harorati: +40°C. Kompakt dizayn - oson o'rnatish. Energiya tejamkor - optimal ish. Xususiy uylar, dachalar, sug'orish tizimlari uchun ideal. Ishonchli SHIMGE brendi. Professional sifat. Xitoyda ishlab chiqarilgan.",
+      ru: "SHIMGE PW550Z - автоматическая самовсасывающая насосная станция с напорным баком 2 л. Предназначена для передачи чистой воды или других жидкостей со сходными физическими и химическими свойствами. Может использоваться для подъема воды из скважины, полива дождеванием, повышения давления воды в водопроводных системах, различных вспомогательных сооружениях. Оснащена 2 л напорным баком для автоматической работы. Специальная антикоррозионная обработка - долгий срок службы. Латунная крыльчатка - устойчива к коррозии. Вал из стали AISI 304 - высокая прочность. Максимальная температура перекачиваемой жидкости: +40°C. Максимальная высота всасывания: 9 м. Подшипники C&U - надежная работа. Медная цепь - высокая проводимость. Однофазный мотор с соединением теплового реле. Класс нагревателя: F - термостойкий. Степень защиты: IPX4 - защита от влаги. Максимальная температура окружающей среды: +40°C. Компактный дизайн - простой монтаж. Энергосберегающая - оптимальная работа. Идеальна для частных домов, дач, систем полива. Надежный бренд SHIMGE. Профессиональное качество. Производство Китай."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "PW550Z" },
+      { label: { uz: "Seriya", ru: "Серия" }, value: "PW-Z" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Avtomatik o'z-o'zidan so'rayotgan nasos / Автоматическая самовсасывающая" },
+      { label: { uz: "Bosim baki", ru: "Напорный бак" }, value: "2 L" },
+      { label: { uz: "Maksimal suv harorati", ru: "Макс. температура жидкости" }, value: "+40°C" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "9 m gacha / до 9 м" },
+      { label: { uz: "Ish g'ildiragı", ru: "Крыльчатка" }, value: "Latun / Латунь" },
+      { label: { uz: "Mil materiali", ru: "Материал вала" }, value: "Po'lat AISI 304 / Сталь AISI 304" },
+      { label: { uz: "Podshipniklar", ru: "Подшипники" }, value: "C&U" },
+      { label: { uz: "Zanjir", ru: "Цепь" }, value: "Mis / Медная" },
+      { label: { uz: "Dvigatel", ru: "Мотор" }, value: "Bir fazali / Однофазный" },
+      { label: { uz: "Isitkich sinfi", ru: "Класс нагревателя" }, value: "F" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IPX4" },
+      { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C gacha / до +40°C" },
+      { label: { uz: "Antikorrozion ishlov", ru: "Антикоррозионная обработка" }, value: "Ha / Да" },
+      { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosim oshirish / Водоснабжение, полив, повышение давления" }
     ]
   }
 ];
