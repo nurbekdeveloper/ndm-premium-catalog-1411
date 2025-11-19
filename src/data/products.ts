@@ -58,6 +58,7 @@ import shimgeShfm6c from "@/assets/products/shimge-shfm6c.png";
 import shimge3sem18_27_075t from "@/assets/products/shimge-3sem1.8-27-0.75t.png";
 import shimge3sem25_15_055t from "@/assets/products/shimge-3sem2.5-15-0.55t.png";
 import shimge3sem18_14_037t from "@/assets/products/shimge-3sem1.8-14-0.37t.png";
+import shimge4sgm10_10_15 from "@/assets/products/shimge-4sgm10-10-1.5.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -1375,6 +1376,40 @@ export const products: Product[] = [
       { label: { uz: "Diametr talabi", ru: "Минимальный диаметр скважины" }, value: "85 mm (3\")" },
       { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-4sgm10-10-1.5",
+    name: "SHIMGE 4SGm10/10-1.5",
+    category: "shimge",
+    images: [shimge4sgm10_10_15],
+    description: {
+      uz: "SHIMGE 4SGm10/10-1.5 ichki diametri 100 mm bo'lgan chuqur quduqlardan toza sovuq suvni quyish uchun mo'ljallangan yuqori quvvatli suv osti nasosi. Xususiy uylar, kottejlar uchun avtonom suv ta'minoti, qishloq xo'jaligi va ishlab chiqarish ob'ektlarini suv bilan ta'minlash uchun professional yechim. Nasosda boshqarish bloki mavjud. Korpus zanglamaydigan po'latdan yasalgan, ishchi g'ildiraklar texnopolimerdan. 4 dyuymli o'lcham (100mm diametr) katta quduqlar uchun. 210 l/daqiqa (12.6 m³/soat) yuqori unumdorlik bilan 63 metr napor. 1.5 kW quvvatli samarali dvigatel. 70 metr maksimal chuqurlikka o'rnatish imkoniyati. Faqat vertikal o'rnatish. G2 ulanish. 220V ta'minoti. 19.5 kg og'irlik. IPX8 himoya darajasi. Ishonchli sanoat darajasidagi yechim. Professional quduq nasos tizimi.",
+      ru: "SHIMGE 4SGm10/10-1.5 - мощный погружной скважинный насос для подачи чистой холодной воды из скважин с внутренним диаметром 100 мм. Профессиональное решение для автономного водоснабжения частных домов, коттеджей, обеспечения водой сельскохозяйственных и производственных объектов. В комплекте с блоком управления. Корпус из нержавеющей стали, рабочие колеса из технополимера. 4-дюймовый размер (диаметр 100мм) для больших скважин. Высокая производительность 210 л/мин (12.6 м³/ч) с напором 63 метра. Эффективный двигатель мощностью 1.5 кВт. Установка на максимальной глубине 70 метров. Только вертикальная установка. Присоединение G2. Питание 220В. Вес 19.5 кг. Степень защиты IPX8. Надежное решение промышленного класса. Профессиональная система скважинного насоса."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "4SGm10/10-1.5" },
+      { label: { uz: "Turi", ru: "Тип оборудования" }, value: "Suv osti quduq nasosi / Погружной скважинный насос" },
+      { label: { uz: "Diametr", ru: "Диаметр насоса" }, value: "4\" (100 mm)" },
+      { label: { uz: "Quduq diametri", ru: "Диаметр скважины" }, value: "100 mm" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "210 l/daq, 12.6 m³/soat / л/мин, м³/час" },
+      { label: { uz: "Napor", ru: "Напор" }, value: "63 m" },
+      { label: { uz: "Maksimal chuqurlik", ru: "Глубина погружения" }, value: "70 m" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1500 W (1.5 kW)" },
+      { label: { uz: "Nominal tok", ru: "Номинальный ток" }, value: "12.2 A" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение питания" }, value: "220 V, 50 Hz" },
+      { label: { uz: "Fazalar soni", ru: "Количество фаз" }, value: "1" },
+      { label: { uz: "O'rnatish", ru: "Способ установки" }, value: "Faqat vertikal / Только вертикально" },
+      { label: { uz: "Korpus", ru: "Материал корпуса" }, value: "Zanglamaydigan po'lat / Нержавеющая сталь" },
+      { label: { uz: "Ishchi g'ildiraklar", ru: "Материал рабочего колеса" }, value: "Texnopolimer / Технополимер" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza suv / Чистая вода" },
+      { label: { uz: "Maksimal muhit harorati", ru: "Макс. температура окружающей среды" }, value: "40°C" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IPX8" },
+      { label: { uz: "Ulanish", ru: "Тип присоединения" }, value: "G2" },
+      { label: { uz: "O'lchamlar", ru: "Габаритные размеры" }, value: "B: 613 mm, A: 1061 mm" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "19.5 kg" },
+      { label: { uz: "Mamlakat", ru: "Страна бренда" }, value: "Xitoy / Китай" }
     ]
   },
   // Penopleks - Insulation Materials
