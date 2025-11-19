@@ -62,6 +62,8 @@ import shimge4sgm10_10_15 from "@/assets/products/shimge-4sgm10-10-1.5.png";
 import shimgeQdx15170_37 from "@/assets/products/shimge-qdx1.5-17-0.37.png";
 import leoQdx6180_75a from "@/assets/products/leo-qdx6-18-0.75a.png";
 import shimgeQdx1570_55 from "@/assets/products/shimge-qdx15-7-0.55.png";
+import grandfarQdx8180_75f from "@/assets/products/grandfar-qdx8-18-0.75f.png";
+import shimgeQdx10160_75 from "@/assets/products/shimge-qdx10-16-0.75.png";
 
 // Product images - Penopleks
 import penoplexComfort from "@/assets/products/penoplex-comfort.png";
@@ -4502,6 +4504,59 @@ export const products: Product[] = [
       { label: { uz: "Maksimal napor", ru: "Макс. напор" }, value: "9 m" },
       { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "15 m³/soat / м³/час" },
       { label: { uz: "Chiqish diametri", ru: "Диаметр выхода" }, value: "50 mm" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza suv / Чистая вода" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Alyuminiy qotishmasi / Алюминиевый сплав" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP68" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "6 oy / месяцев" }
+    ]
+  },
+  {
+    id: "grandfar-qdx8-18-0.75f",
+    name: "Grandfar QDX8-18-0.75F",
+    category: "shimge",
+    images: [grandfarQdx8180_75f],
+    description: {
+      uz: "Grandfar QDX8-18-0.75F - dacha uchaldalarida markaziy suv ta'minoti bo'lmaganda ideal yechim. Cho'kma drenaj nasosi quduqlar, ochiq suv havzalari va chuqur quduqlardan suv quyish uchun mo'ljallangan. Suzuvchi nazorat tizimi bilan jihozlangan - suv satchi belgilangan darajadan pastga tushganda avtomatik ravishda o'chiriladi. Guruh va shlanglar orqali suvni sirtga chiqaradi. Suv ta'minoti, drenaj va sug'orish uchun ishlatiladi. Gurux ishchi g'ildiragi. B sinf izolyatsiya himoyasi. Maksimal atrof-muhit harorati 40°C. 0.75 kW quvvat. 20 metr maksimal napor. 268 l/daq (16 m³/soat) unumdorlik. 5 metr maksimal cho'kish chuqurligi. G 1' / 1.25' / 1.5' ulanish o'lchamlari. 220V ta'minot. Vertikal o'rnatish. Toza suv uchun.",
+      ru: "Grandfar QDX8-18-0.75F - идеальное решение для дачных участков при отсутствии центрального водоснабжения. Погружной дренажный насос предназначен для подачи воды из скважин, открытых водоемов и глубоких колодцев. Оснащен поплавковой системой контроля - автоматически отключается при падении уровня воды ниже заданного. Выталкивает воду на поверхность через трубы и шланги. Используется для водоснабжения, дренажа и ирригации. Рабочее колесо из латуни. Класс защиты изоляции B. Максимальная температура окружающей среды 40°C. Мощность 0.75 кВт. Максимальный напор 20 метров. Производительность 268 л/мин (16 м³/час). Максимальная глубина всасывания 5 метров. Присоединительные размеры G 1' / 1.25' / 1.5'. Питание 220В. Вертикальная установка. Для чистой воды."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "Grandfar" },
+      { label: { uz: "Model", ru: "Модель" }, value: "QDX8-18-0.75F" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Cho'kma drenaj nasosi / Погружной дренажный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.75 kW" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Maksimal napor", ru: "Макс. напор" }, value: "20 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "268 l/daq, 16 m³/soat / л/мин, м³/час" },
+      { label: { uz: "So'rish balandligi", ru: "Высота всасывания" }, value: "5 m" },
+      { label: { uz: "O'rnatish", ru: "Установка" }, value: "Vertikal / Вертикальная" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza suv / Чистая вода" },
+      { label: { uz: "Ishchi g'ildirak", ru: "Рабочее колесо" }, value: "Gurux / Латунь" },
+      { label: { uz: "Izolyatsiya sinfi", ru: "Класс защиты изоляции" }, value: "B sinf / Класс B" },
+      { label: { uz: "Suzuvchi nazorat", ru: "Автоконтроль уровня" }, value: "Ha / Поплавковый" },
+      { label: { uz: "Ulanish", ru: "Присоединение" }, value: "G 1' / 1.25' / 1.5'" },
+      { label: { uz: "Harorat", ru: "Макс. температура" }, value: "40°C" },
+      { label: { uz: "Fazalar soni", ru: "Количество фаз" }, value: "1" }
+    ]
+  },
+  {
+    id: "shimge-qdx10-16-0.75",
+    name: "SHIMGE QDX10-16-0.75",
+    category: "shimge",
+    images: [shimgeQdx10160_75],
+    description: {
+      uz: "SHIMGE QDX10-16-0.75 - GB/T25409 standarti asosida ishlab chiqarilgan QDX seriyali cho'kma drenaj nasosi. Qishloq xo'jalik yerlarini sug'orish va drenaj, bog' maydonchalarini sug'orish, maishiy suv ta'minoti, suv toshqinlarini bartaraf etish va qurilishda keng qo'llaniladi. Ixcham o'lchami tufayli turli sharoitlarda ishlatish uchun qulay. Dvigatelda faqat mis o'rash. Korpus va dvigatel alyuminiy qotishmadan. Yopiq turdagi markazdan qochma ish g'ildiragi alyuminiy qotishmadan. Dvigatel va nasos orasida yog' bilan to'ldirilgan ikki tomonlama mexanik muhr. Faqat toza suvni pompalashtirish uchun. O'rnatilgan termik himoya. 0.75 kW quvvat. 20 metr maksimal napor. 10 m³/soat unumdorlik. 15mm chiqish diametri. Vertikal o'rnatish. IP68 himoya darajasi. 6 oy kafolat.",
+      ru: "SHIMGE QDX10-16-0.75 - погружной дренажный насос серии QDX, произведенный в соответствии со стандартом GB/T25409. Широко используется для орошения и дренажа сельскохозяйственных земель, полива садовых участков, бытового водоснабжения, ликвидации подтоплений и в строительстве. Благодаря компактному размеру удобен для использования в различных условиях. В двигателе только медная обмотка. Корпус двигателя и насоса из алюминиевого сплава. Центробежное рабочее колесо закрытого типа из алюминиевого сплава. Двойное механическое уплотнение в маслозаполненной камере между двигателем и насосом. Только для перекачивания чистой воды. Встроенная термозащита. Мощность 0.75 кВт. Максимальный напор 20 метров. Производительность 10 м³/час. Диаметр выхода 15мм. Вертикальная установка. Степень защиты IP68. Гарантия 6 месяцев."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "QDX10-16-0.75" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Cho'kma drenaj nasosi / Погружной дренажный" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "0.75 kW" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение" }, value: "220V" },
+      { label: { uz: "Maksimal napor", ru: "Макс. напор" }, value: "20 m" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "10 m³/soat / м³/час" },
+      { label: { uz: "Chiqish diametri", ru: "Диаметр выхода" }, value: "15 mm" },
       { label: { uz: "O'rnatish", ru: "Установка" }, value: "Vertikal / Вертикальная" },
       { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza suv / Чистая вода" },
       { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Alyuminiy qotishmasi / Алюминиевый сплав" },
