@@ -2,15 +2,11 @@ import { useCart } from "@/contexts/CartContext";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetFooter } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Minus, Plus, Trash2, ShoppingBag, Loader2 } from "lucide-react";
+import { Minus, Plus, Trash2, ShoppingBag } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useNavigate } from "react-router-dom";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
-import { useState } from "react";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 
 interface CartProps {
   isOpen: boolean;
@@ -22,44 +18,18 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
   const { language, t } = useLanguage();
   const navigate = useNavigate();
   const { toast } = useToast();
-  const [isCheckoutDialogOpen, setIsCheckoutDialogOpen] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [customerName, setCustomerName] = useState("");
-  const [customerPhone, setCustomerPhone] = useState("");
 
   const handleProductClick = (productId: string) => {
     onClose();
     navigate(`/product/${productId}`);
   };
 
-  const handleCheckoutClick = () => {
-    setIsCheckoutDialogOpen(true);
-  };
-
-  const handleCheckoutSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!customerName.trim() || !customerPhone.trim()) {
-      toast({
-        title: t("Xatolik", "Ошибка"),
-        description: t(
-          "Iltimos, barcha maydonlarni to'ldiring",
-          "Пожалуйста, заполните все поля"
-        ),
-        variant: "destructive",
-      });
-      return;
-    }
-
-    setIsSubmitting(true);
-
+  const handleCheckout = async () => {
     try {
       const { error } = await supabase.functions.invoke('send-to-telegram', {
         body: {
           type: 'cart',
           data: {
-            name: customerName,
-            phone: customerPhone,
             items: items.map(item => ({
               name: item.product.name,
               quantity: item.quantity
@@ -80,12 +50,8 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
       });
 
       clearCart();
-      setCustomerName("");
-      setCustomerPhone("");
-      setIsCheckoutDialogOpen(false);
       onClose();
     } catch (error) {
-      console.error("Checkout error:", error);
       toast({
         title: t("Xatolik", "Ошибка"),
         description: t(
@@ -94,28 +60,21 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
         ),
         variant: "destructive",
       });
-    } finally {
-      setIsSubmitting(false);
     }
   };
 
-  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
-    e.currentTarget.src = "/placeholder.svg";
-  };
-
   return (
-    <>
-      <Sheet open={isOpen} onOpenChange={onClose}>
-        <SheetContent className="w-full sm:max-w-lg flex flex-col">
-          <SheetHeader>
-            <SheetTitle className="flex items-center gap-2">
-              <ShoppingBag className="h-5 w-5" />
-              {t("Savat", "Корзина")} ({getTotalItems()})
-            </SheetTitle>
-          </SheetHeader>
+    <Sheet open={isOpen} onOpenChange={onClose}>
+      <SheetContent className="w-full sm:max-w-lg animate-slide-in-right">
+        <SheetHeader>
+          <SheetTitle className="flex items-center gap-2 animate-fade-in">
+            <ShoppingBag className="h-5 w-5 animate-bounce-subtle" />
+            {t("Savat", "Корзина")} ({getTotalItems()})
+          </SheetTitle>
+        </SheetHeader>
 
         {items.length === 0 ? (
-          <div className="flex flex-col items-center justify-center flex-1 text-center">
+          <div className="flex flex-col items-center justify-center h-[60vh] text-center">
             <ShoppingBag className="h-16 w-16 text-muted-foreground/50 mb-4" />
             <h3 className="text-lg font-medium mb-2">
               {t("Savat bo'sh", "Корзина пуста")}
@@ -129,23 +88,23 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
           </div>
         ) : (
           <>
-            <ScrollArea className="flex-1 pr-4 mt-6">
+            <ScrollArea className="h-[calc(100vh-220px)] pr-4 mt-6">
               <div className="space-y-4">
-                {items.map((item) => (
+                {items.map((item, index) => (
                   <div
                     key={item.product.id}
-                    className="flex gap-4 p-4 bg-card rounded-lg border hover:shadow-md transition-shadow"
+                    className="flex gap-4 p-4 bg-secondary/30 rounded-lg border animate-fade-in-up hover:shadow-md transition-all duration-300"
+                    style={{ animationDelay: `${0.05 * index}s` }}
                   >
                     <img
                       src={item.product.images[0]}
                       alt={item.product.name}
-                      className="w-20 h-20 object-cover rounded cursor-pointer hover:opacity-80 transition-opacity"
+                      className="w-20 h-20 object-cover rounded cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg"
                       onClick={() => handleProductClick(item.product.id)}
-                      onError={handleImageError}
                     />
                     <div className="flex-1 min-w-0">
-                      <h4
-                        className="font-medium mb-1 cursor-pointer hover:text-primary transition-colors line-clamp-1"
+                      <h4 
+                        className="font-medium text-sm mb-1 cursor-pointer hover:text-primary transition-colors truncate"
                         onClick={() => handleProductClick(item.product.id)}
                       >
                         {item.product.name}
@@ -160,32 +119,31 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
                           <Button
                             variant="outline"
                             size="icon"
-                            className="h-8 w-8"
+                            className="h-7 w-7"
                             onClick={() =>
-                              updateQuantity(item.product.id, Math.max(1, item.quantity - 1))
+                              updateQuantity(item.product.id, item.quantity - 1)
                             }
-                            disabled={item.quantity <= 1}
                           >
-                            <Minus className="h-4 w-4" />
+                            <Minus className="h-3 w-3" />
                           </Button>
-                          <span className="w-10 text-center text-sm font-medium">
+                          <span className="w-8 text-center text-sm font-medium">
                             {item.quantity}
                           </span>
                           <Button
                             variant="outline"
                             size="icon"
-                            className="h-8 w-8"
+                            className="h-7 w-7"
                             onClick={() =>
                               updateQuantity(item.product.id, item.quantity + 1)
                             }
                           >
-                            <Plus className="h-4 w-4" />
+                            <Plus className="h-3 w-3" />
                           </Button>
                         </div>
                         <Button
                           variant="ghost"
                           size="icon"
-                          className="h-8 w-8 text-destructive hover:text-destructive hover:bg-destructive/10"
+                          className="h-7 w-7 text-destructive hover:text-destructive"
                           onClick={() => removeFromCart(item.product.id)}
                         >
                           <Trash2 className="h-4 w-4" />
@@ -197,26 +155,20 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
               </div>
             </ScrollArea>
 
-            <SheetFooter className="mt-6 space-y-3 flex-shrink-0">
-              <div className="w-full flex justify-between items-center p-3 bg-muted rounded-lg">
-                <span className="text-sm font-medium">
+            <SheetFooter className="mt-6 space-y-3">
+              <div className="w-full flex justify-between items-center text-sm">
+                <span className="text-muted-foreground">
                   {t("Jami mahsulotlar:", "Всего товаров:")}
                 </span>
-                <span className="text-lg font-bold">{getTotalItems()}</span>
+                <span className="font-semibold">{getTotalItems()}</span>
               </div>
               <div className="w-full grid grid-cols-2 gap-2">
-                <Button 
-                  variant="outline" 
-                  onClick={clearCart} 
-                  className="w-full"
-                  disabled={items.length === 0}
-                >
+                <Button variant="outline" onClick={clearCart} className="w-full">
                   {t("Tozalash", "Очистить")}
                 </Button>
                 <Button 
-                  className="w-full" 
-                  onClick={handleCheckoutClick}
-                  disabled={items.length === 0}
+                  className="w-full btn-premium" 
+                  onClick={handleCheckout}
                 >
                   {t("Buyurtma berish", "Оформить заказ")}
                 </Button>
@@ -224,97 +176,8 @@ const Cart = ({ isOpen, onClose }: CartProps) => {
             </SheetFooter>
           </>
         )}
-        </SheetContent>
-      </Sheet>
-
-      <Dialog open={isCheckoutDialogOpen} onOpenChange={setIsCheckoutDialogOpen}>
-        <DialogContent className="sm:max-w-md">
-          <DialogHeader>
-            <DialogTitle>
-              {t("Buyurtma berish", "Оформление заказа")}
-            </DialogTitle>
-            <DialogDescription>
-              {t(
-                "Iltimos, ma'lumotlaringizni kiriting va biz tez orada siz bilan bog'lanamiz",
-                "Пожалуйста, введите ваши данные и мы свяжемся с вами в ближайшее время"
-              )}
-            </DialogDescription>
-          </DialogHeader>
-          <form onSubmit={handleCheckoutSubmit} className="space-y-4">
-            <div className="space-y-2">
-              <Label htmlFor="name">
-                {t("Ismingiz", "Ваше имя")} <span className="text-destructive">*</span>
-              </Label>
-              <Input
-                id="name"
-                type="text"
-                placeholder={t("Ismingizni kiriting", "Введите ваше имя")}
-                value={customerName}
-                onChange={(e) => setCustomerName(e.target.value)}
-                required
-                disabled={isSubmitting}
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="phone">
-                {t("Telefon raqamingiz", "Ваш телефон")} <span className="text-destructive">*</span>
-              </Label>
-              <Input
-                id="phone"
-                type="tel"
-                placeholder="+998 XX XXX XX XX"
-                value={customerPhone}
-                onChange={(e) => setCustomerPhone(e.target.value)}
-                required
-                disabled={isSubmitting}
-              />
-            </div>
-            <div className="bg-muted p-3 rounded-lg">
-              <p className="text-sm font-medium mb-2">
-                {t("Buyurtma tafsilotlari:", "Детали заказа:")}
-              </p>
-              <div className="space-y-1 text-sm text-muted-foreground">
-                {items.map((item) => (
-                  <div key={item.product.id} className="flex justify-between">
-                    <span className="line-clamp-1 flex-1">{item.product.name}</span>
-                    <span className="ml-2 flex-shrink-0">x {item.quantity}</span>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-2 pt-2 border-t flex justify-between font-medium">
-                <span>{t("Jami:", "Всего:")}</span>
-                <span>{getTotalItems()} {t("dona", "шт")}</span>
-              </div>
-            </div>
-            <div className="flex gap-2">
-              <Button
-                type="button"
-                variant="outline"
-                onClick={() => setIsCheckoutDialogOpen(false)}
-                disabled={isSubmitting}
-                className="flex-1"
-              >
-                {t("Bekor qilish", "Отмена")}
-              </Button>
-              <Button
-                type="submit"
-                disabled={isSubmitting}
-                className="flex-1"
-              >
-                {isSubmitting ? (
-                  <>
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    {t("Yuborilmoqda...", "Отправка...")}
-                  </>
-                ) : (
-                  t("Tasdiqlash", "Подтвердить")
-                )}
-              </Button>
-            </div>
-          </form>
-        </DialogContent>
-      </Dialog>
-    </>
+      </SheetContent>
+    </Sheet>
   );
 };
 

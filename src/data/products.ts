@@ -151,7 +151,7 @@ import aeroluxSilent90Installed from "@/assets/products/aerolux-silent-90-instal
 export interface Product {
   id: string;
   name: string;
-  category: "hydro-plast" | "shimge" | "penopleks";
+  category: "hydro-plast" | "shimge" | "penopleks" | "acc";
   images: string[];
   description: {
     uz: string;
@@ -5144,7 +5144,7 @@ export const products: Product[] = [
   {
     id: "acc-pw125",
     name: "ACC Surface Pump 0.125 kW",
-    category: "shimge",
+    category: "acc",
     images: [accSurfacePump],
     description: {
       uz: "ACC sirt nasosi - texnik va ichimlik suvini sug'orish va shahar tashqarisidagi uyning suv ta'minoti tizimalariga uzatish uchun mo'ljallangan. Suyuqlikni quduqlardan, yig'ish idishlaridan, quduqlardan va boshqalardan olish mumkin. Sirt uzatish qurilmalari - ixcham va arzon qurilmalar. Bunday uskunaning asosiy farqi shundaki, qurilmalar yer osti manbasidan kichik masofada o'rnatiladi. Korpus uchun material sifatida zanglamaydigan po'lat, чугун yoki polimerlar ishlatiladi. Oxirgi variant afzalroq, chunki kompozit modellar kam og'irlikka, yaxshi aşınma bardoshliligiga ega va korroziyaga uchramaydi. Standart quvvat 10 metr chuqurlikdan ko'p bo'lmagan manbalardan suvni olish imkonini beradi. Agregatning texnik imkoniyatlarini yaxshilash uchun ta'minot tizimiga sho'ng'in injektorlar ulanadi, bu bosim kuchini oshirishga va suyuqlikni 30 metrgacha balandlikka ko'tarishga imkon beradi. Uzatish uskunasining ishlash printsipi shundan iboratki, o'rnatishning o'zi sirtda joylashgan, quduqqa esa teskari klapan bilan jihozlangan olish shlangı tushiriladi. Suyuqlik qurilma kamerasiga kiradi, u erdan pichoqlar va bosim quvuri yordamida iste'molchiga uzatiladi. Ba'zi modellar uchun suvni ko'tarish faqat olish quvuri va nasos kamerasini oldindan to'ldirish sharti bilan ruxsat etiladi. Bunday qurilmalar normal so'rish qurilmalari deb ataladi. Qo'llanish yo'nalishlari: mustaqil suv ta'minoti, hovli uchastkasini sug'orish, yerto'lalarni quritish, tizimda bosimni oshirish. Agregatlar nasos stantsiyalari bilan komplektda yetkaziladi, ularning tuzilmasida avtomatik yoqish va o'chirish uchun mo'ljallangan boshqaruv va nazorat tizimi elementlari mavjud. Maksimal napor: 27 m. Unumdorlik: 2.1 m³/soat. Quvvat: 0.125 kW. Chastota: 50 Hz. IP44 himoya darajasi. Xitoyda ishlab chiqarilgan.",
@@ -5170,7 +5170,7 @@ export const products: Product[] = [
   {
     id: "acc-pw250",
     name: "ACC PW 250",
-    category: "shimge",
+    category: "acc",
     images: [accSurfacePump],
     description: {
       uz: "ACC PW 250 sirt nasosi - texnik va ichimlik suvini sug'orish va shahar tashqarisidagi uyning suv ta'minoti tizimalariga uzatish uchun mo'ljallangan. Suyuqlikni quduqlardan, yig'ish idishlaridan, quduqlardan va boshqalardan olish mumkin. Sirt uzatish qurilmalari - ixcham va arzon qurilmalar. Qurilmalar yer osti manbasidan kichik masofada o'rnatiladi. Korpus uchun material - zanglamaydigan po'lat, чугун yoki polimerlar. Oxirgi variant afzalroq - kam og'irlik, yaxshi aşınma bardoshliligi va korroziyaga uchramaydi. Standart quvvat 10 metr chuqurlikdan ko'p bo'lmagan manbalardan suvni olish imkonini beradi. Texnik imkoniyatlarni yaxshilash uchun sho'ng'in injektorlar ulanadi - bosim kuchini oshirish va suyuqlikni 30 metrgacha ko'tarish. O'rnatish sirtda, quduqqa teskari klapanli olish shlangı tushiriladi. Suyuqlik kamerasiga kiradi, pichoqlar va bosim quvuri orqali iste'molchiga uzatiladi. Ba'zi modellar uchun oldindan to'ldirish kerak - normal so'rish qurilmalari. Qo'llanish: mustaqil suv ta'minoti, hovli sug'orish, yerto'lalarni quritish, tizimda bosimni oshirish. Nasos stantsiyalari bilan komplektda - avtomatik boshqaruv va nazorat elementlari. Maksimal napor: 30 m. Unumdorlik: 2.2 m³/soat. So'rish: 8 m. Quvvat: 0.25 kW. IP44 himoya. 1 yil kafolat. Xitoyda ishlab chiqarilgan.",
@@ -5198,7 +5198,7 @@ export const products: Product[] = [
   {
     id: "acc-pw370",
     name: "ACC PW 370",
-    category: "shimge",
+    category: "acc",
     images: [accSurfacePump],
     description: {
       uz: "ACC PW 370 sirt nasosi - texnik va ichimlik suvini sug'orish va shahar tashqarisidagi uyning suv ta'minoti tizimalariga uzatish uchun. Quduqlar, yig'ish idishlari, quduqlar va boshqalardan suyuqlik olish mumkin. Sirt uzatish qurilmalari - ixcham va arzon. Yer osti manbasidan kichik masofada o'rnatiladi. Korpus materiali - zanglamaydigan po'lat, chugyn yoki polimerlar. Kompozit modellar - engil, yaxshi aşınma bardoshliligi, korroziyaga chidamli. Standart quvvat 10 metr chuqurlikdan olish imkonini beradi. Sho'ng'in injektorlar ulanishi - 30 metrgacha ko'tarish. O'rnatish sirtda, quduqqa teskari klapanli shlangi tushiriladi. Suyuqlik kamerasiga kiradi, pichoqlar va quvur orqali iste'molchiga uzatiladi. Ba'zi modellarda oldindan to'ldirish kerak - normal so'rish qurilmalari. Qo'llanish: mustaqil suv ta'minoti, hovli sug'orish, yerto'lalarni quritish, bosimni oshirish. Nasos stantsiyalari bilan - avtomatik boshqaruv va nazorat. Maksimal napor: 36 m. Unumdorlik: 2.2 m³/soat. So'rish: 8 m. Quvvat: 0.37 kW. IP44 himoya. Xitoyda ishlab chiqarilgan.",
@@ -5225,7 +5225,7 @@ export const products: Product[] = [
   {
     id: "acc-pw750",
     name: "ACC PW 750",
-    category: "shimge",
+    category: "acc",
     images: [accSurfacePump],
     description: {
       uz: "ACC PW 750 sirt nasosi - texnik va ichimlik suvini sug'orish va shahar tashqarisidagi uyning suv ta'minoti tizimalariga uzatish uchun. Quduqlar, yig'ish idishlari, quduqlar va boshqalardan suyuqlik olish mumkin. Sirt uzatish qurilmalari - ixcham va arzon. Yer osti manbasidan kichik masofada o'rnatiladi. Korpus materiali - zanglamaydigan po'lat, chugyn yoki polimerlar. Kompozit modellar afzalroq - engil, aşınma bardoshliligi yuqori, korroziyaga chidamli. Standart quvvat 10 metr chuqurlikdan olish imkonini beradi. Texnik imkoniyatlarni yaxshilash uchun sho'ng'in injektorlar ulanadi - 30 metrgacha ko'tarish. O'rnatish sirtda, quduqqa teskari klapanli shlangi tushiriladi. Suyuqlik kamerasiga kiradi, pichoqlar va quvur orqali iste'molchiga uzatiladi. Ba'zi modellarda oldindan to'ldirish kerak - normal so'rish qurilmalari. Qo'llanish yo'nalishlari: mustaqil suv ta'minoti, hovli sug'orish, yerto'lalarni quritish, tizimda bosimni oshirish. Nasos stantsiyalari bilan komplektda - avtomatik boshqaruv va nazorat elementlari. Yuqori unumdorlik - 3.4 m³/soat. Maksimal napor: 52 m - yuqori bosim. So'rish: 8 m. Quvvat: 0.75 kW - samarali ishlash. IP44 himoya darajasi. Xitoyda ishlab chiqarilgan.",
@@ -5334,12 +5334,12 @@ export const categories = [
     logo: ndmLogoImg
   },
   {
-    id: "blesk",
-    name: { uz: "Blesk", ru: "Blesk" },
+    id: "acc",
+    name: { uz: "ACC", ru: "ACC" },
     description: {
-      uz: "Zamonaviy bo'yoq va qoplama materiallari. Chiroyli va uzoq muddatli himoya.",
-      ru: "Современные лакокрасочные и покрывающие материалы. Красота и долговечная защита."
+      uz: "Sirt nasos qurilmalari. Kompakt va ishonchli suv ta'minoti yechimlari.",
+      ru: "Поверхностные насосные устройства. Компактные и надежные решения для водоснабжения."
     },
-    logo: bleskLogoImg
+    logo: shimgeLogoImg
   }
 ];
