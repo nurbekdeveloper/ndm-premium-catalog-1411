@@ -89,6 +89,10 @@ import bleskNova from "@/assets/products/blesk-nova.png";
 import bleskVc from "@/assets/products/blesk-vc.png";
 import bleskMi from "@/assets/products/blesk-mi.png";
 import bleskMiSide from "@/assets/products/blesk-mi-side.png";
+import bleskNeo from "@/assets/products/blesk-neo.png";
+import bleskNeoSide from "@/assets/products/blesk-neo-side.png";
+import bleskFl from "@/assets/products/blesk-fl.png";
+import bleskSlv from "@/assets/products/blesk-slv.png";
 
 // Product images - ACC
 import accSurfacePump from "@/assets/products/acc-surface-pump.png";
@@ -5578,7 +5582,7 @@ export const products: Product[] = [
     id: "blesk-slv500",
     name: "BLESK B/SLV500",
     category: "blesk",
-    images: [bleskVc],
+    images: [bleskSlv],
     description: {
       uz: "BLESK B/SLV500 - 50 litr hajmli ixcham vertikal suv isitgichi. Antikorrozion emalyali po'lat ichki idish. Mexanik isitish boshqaruvi. Kengaytirilgan magniy anod. Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
       ru: "BLESK B/SLV500 - компактный вертикальный водонагреватель объемом 50 литров. Стальной внутренний бак покрытый антикоррозийной эмалью. Механическое управление нагревом. Увеличенный магниевый анод. Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
@@ -5587,9 +5591,29 @@ export const products: Product[] = [
       { label: { uz: "Brend", ru: "Бренд" }, value: "BLESK" },
       { label: { uz: "Model", ru: "Модель" }, value: "B/SLV500" },
       { label: { uz: "Hajmi", ru: "Объём" }, value: "50 litr / л" },
-      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "405×370×890 mm" },
+      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "890×370×405 mm" },
       { label: { uz: "Quvvat", ru: "Мощность" }, value: "1500 Vt / Вт" },
       { label: { uz: "Og'irligi", ru: "Вес" }, value: "18.5 kg" },
+      { label: { uz: "Himoya darajasi", ru: "Водонепроницаемость" }, value: "IPX4" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "3 yil / года" }
+    ]
+  },
+  {
+    id: "blesk-slv800",
+    name: "BLESK B/SLV800",
+    category: "blesk",
+    images: [bleskSlv],
+    description: {
+      uz: "BLESK B/SLV800 - 80 litr hajmli ixcham vertikal suv isitgichi. Antikorrozion emalyali po'lat ichki idish. Mexanik isitish boshqaruvi. Kengaytirilgan magniy anod. Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
+      ru: "BLESK B/SLV800 - компактный вертикальный водонагреватель объемом 80 литров. Стальной внутренний бак покрытый антикоррозийной эмалью. Механическое управление нагревом. Увеличенный магниевый анод. Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
+    },
+    specs: [
+      { label: { uz: "Brend", ru: "Бренд" }, value: "BLESK" },
+      { label: { uz: "Model", ru: "Модель" }, value: "B/SLV800" },
+      { label: { uz: "Hajmi", ru: "Объём" }, value: "80 litr / л" },
+      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "1055×411×458 mm" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "1500 Vt / Вт" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "24.4 kg" },
       { label: { uz: "Himoya darajasi", ru: "Водонепроницаемость" }, value: "IPX4" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "3 yil / года" }
     ]
@@ -5759,60 +5783,125 @@ export const products: Product[] = [
     ]
   },
   
-  // Blesk Water Heaters - MI Series
+  // Blesk Water Heaters - NEO Series
   {
-    id: "blesk-mi100",
-    name: "BLESK B/MI100",
+    id: "blesk-neo100",
+    name: "BLESK B/NEO100",
     category: "blesk",
-    images: [bleskMi, bleskMiSide],
+    images: [bleskNeo, bleskNeoSide],
     description: {
-      uz: "BLESK B/MI100 - 10 litr hajmli ixcham kvadrat suv isitgichi. Turbo isitish elementlari orqali tezkor isish. Antikorrozion emalyali po'lat ichki idish. Kengaytirilgan magniy anod. Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
-      ru: "BLESK B/MI100 - компактный квадратный водонагреватель объемом 10 литров. Быстрый нагрев благодаря турбо нагревательным элементам. Стальной внутренний бак покрытый антикоррозийной эмалью. Увеличенный магниевый анод. Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
+      uz: "BLESK B/NEO100 - 10 litr hajmli ixcham kvadrat suv isitgichi. Turbo isitish elementlari orqali tezkor isish. Antikorrozion emalyali po'lat ichki idish. Kengaytirilgan magniy anod. Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
+      ru: "BLESK B/NEO100 - компактный квадратный водонагреватель объемом 10 литров. Быстрый нагрев благодаря турбо нагревательным элементам. Стальной внутренний бак покрытый антикоррозийной эмалью. Увеличенный магниевый анод. Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
     },
     specs: [
       { label: { uz: "Brend", ru: "Бренд" }, value: "BLESK" },
-      { label: { uz: "Model", ru: "Модель" }, value: "B/MI100" },
+      { label: { uz: "Model", ru: "Модель" }, value: "B/NEO100" },
       { label: { uz: "Hajmi", ru: "Объём" }, value: "10 litr / л" },
+      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "324×324×315 mm" },
       { label: { uz: "Quvvat", ru: "Мощность" }, value: "2000 Vt / Вт" },
-      { label: { uz: "Og'irligi", ru: "Вес" }, value: "7.4 kg" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "7.5 kg" },
       { label: { uz: "Himoya darajasi", ru: "Водонепроницаемость" }, value: "IPX4" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "3 yil / года" }
     ]
   },
   {
-    id: "blesk-mi150",
-    name: "BLESK B/MI150",
+    id: "blesk-neo150",
+    name: "BLESK B/NEO150",
     category: "blesk",
-    images: [bleskMi, bleskMiSide],
+    images: [bleskNeo, bleskNeoSide],
     description: {
-      uz: "BLESK B/MI150 - 15 litr hajmli ixcham kvadrat suv isitgichi. Turbo isitish elementlari orqali tezkor isish. Antikorrozion emalyali po'lat ichki idish. Kengaytirilgan magniy anod. Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
-      ru: "BLESK B/MI150 - компактный квадратный водонагреватель объемом 15 литров. Быстрый нагрев благодаря турбо нагревательным элементам. Стальной внутренний бак покрытый антикоррозийной эмалью. Увеличенный магниевый анод. Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
+      uz: "BLESK B/NEO150 - 15 litr hajmli ixcham kvadrat suv isitgichi. Turbo isitish elementlari orqali tezkor isish. Antikorrozion emalyali po'lat ichki idish. Kengaytirilgan magniy anod. Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
+      ru: "BLESK B/NEO150 - компактный квадратный водонагреватель объемом 15 литров. Быстрый нагрев благодаря турбо нагревательным элементам. Стальной внутренний бак покрытый антикоррозийной эмалью. Увеличенный магниевый анод. Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
     },
     specs: [
       { label: { uz: "Brend", ru: "Бренд" }, value: "BLESK" },
-      { label: { uz: "Model", ru: "Модель" }, value: "B/MI150" },
+      { label: { uz: "Model", ru: "Модель" }, value: "B/NEO150" },
       { label: { uz: "Hajmi", ru: "Объём" }, value: "15 litr / л" },
-      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2500 Vt / Вт" },
-      { label: { uz: "Og'irligi", ru: "Вес" }, value: "9.3 kg" },
+      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "368×368×340 mm" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2000 Vt / Вт" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "9.6 kg" },
       { label: { uz: "Himoya darajasi", ru: "Водонепроницаемость" }, value: "IPX4" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "3 yil / года" }
     ]
   },
   {
-    id: "blesk-mi300",
-    name: "BLESK B/MI300",
+    id: "blesk-neo300",
+    name: "BLESK B/NEO300",
     category: "blesk",
-    images: [bleskMi, bleskMiSide],
+    images: [bleskNeo, bleskNeoSide],
     description: {
-      uz: "BLESK B/MI300 - 30 litr hajmli ixcham kvadrat suv isitgichi. Turbo isitish elementlari orqali tezkor isish. Antikorrozion emalyali po'lat ichki idish. Kengaytirilgan magniy anod. Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
-      ru: "BLESK B/MI300 - компактный квадратный водонагреватель объемом 30 литров. Быстрый нагрев благодаря турбо нагревательным элементам. Стальной внутренний бак покрытый антикоррозийной эмалью. Увеличенный магниевый анод. Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
+      uz: "BLESK B/NEO300 - 30 litr hajmli ixcham kvadrat suv isitgichi. Turbo isitish elementlari orqali tezkor isish. Antikorrozion emalyali po'lat ichki idish. Kengaytirilgan magniy anod. Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
+      ru: "BLESK B/NEO300 - компактный квадратный водонагреватель объемом 30 литров. Быстрый нагрев благодаря турбо нагревательным элементам. Стальной внутренний бак покрытый антикоррозийной эмалью. Увеличенный магниевый анод. Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
     },
     specs: [
       { label: { uz: "Brend", ru: "Бренд" }, value: "BLESK" },
-      { label: { uz: "Model", ru: "Модель" }, value: "B/MI300" },
+      { label: { uz: "Model", ru: "Модель" }, value: "B/NEO300" },
       { label: { uz: "Hajmi", ru: "Объём" }, value: "30 litr / л" },
-      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2500 Vt / Вт" },
-      { label: { uz: "Og'irligi", ru: "Вес" }, value: "13 kg" },
+      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "440×440×420 mm" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2000 Vt / Вт" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "13.5 kg" },
+      { label: { uz: "Himoya darajasi", ru: "Водонепроницаемость" }, value: "IPX4" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "3 yil / года" }
+    ]
+  },
+  
+  // Blesk Water Heaters - FL Series  
+  {
+    id: "blesk-fl500",
+    name: "BLESK B/FL500",
+    category: "blesk",
+    images: [bleskFl],
+    description: {
+      uz: "BLESK B/FL500 - 50 litr hajmli ikki kamerali suv isitgichi. Ikki po'lat idish emalyali qoplama bilan. Ikki isitish elementi orqali turbo isitish. Elektron isitish boshqaruvi. Quruq Ten texnologiyasi. Universal o'rnatish (vertikal va gorizontal). Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
+      ru: "BLESK B/FL500 - водонагреватель объемом 50 литров с двумя камерами. Два стальных внутренних бака с эмалированным покрытием. Турбо нагрев благодаря двум нагревательным элементам. Электронное управление нагревом. Технология использования сухих Тенов. Универсальная установка (вертикально и горизонтально). Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
+    },
+    specs: [
+      { label: { uz: "Brend", ru: "Бренд" }, value: "BLESK" },
+      { label: { uz: "Model", ru: "Модель" }, value: "B/FL500" },
+      { label: { uz: "Hajmi", ru: "Объём" }, value: "50 litr / л" },
+      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "860×470×250 mm" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2000 Vt / Вт" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "25.71 kg" },
+      { label: { uz: "Himoya darajasi", ru: "Водонепроницаемость" }, value: "IPX4" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "3 yil / года" }
+    ]
+  },
+  {
+    id: "blesk-fl800",
+    name: "BLESK B/FL800",
+    category: "blesk",
+    images: [bleskFl],
+    description: {
+      uz: "BLESK B/FL800 - 80 litr hajmli ikki kamerali suv isitgichi. Ikki po'lat idish emalyali qoplama bilan. Ikki isitish elementi orqali turbo isitish. Elektron isitish boshqaruvi. Quruq Ten texnologiyasi. Universal o'rnatish (vertikal va gorizontal). Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
+      ru: "BLESK B/FL800 - водонагреватель объемом 80 литров с двумя камерами. Два стальных внутренних бака с эмалированным покрытием. Турбо нагрев благодаря двум нагревательным элементам. Электронное управление нагревом. Технология использования сухих Тенов. Универсальная установка (вертикально и горизонтально). Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
+    },
+    specs: [
+      { label: { uz: "Brend", ru: "Бренд" }, value: "BLESK" },
+      { label: { uz: "Model", ru: "Модель" }, value: "B/FL800" },
+      { label: { uz: "Hajmi", ru: "Объём" }, value: "80 litr / л" },
+      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "900×570×300 mm" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2000 Vt / Вт" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "32.64 kg" },
+      { label: { uz: "Himoya darajasi", ru: "Водонепроницаемость" }, value: "IPX4" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "3 yil / года" }
+    ]
+  },
+  {
+    id: "blesk-fl1000",
+    name: "BLESK B/FL1000",
+    category: "blesk",
+    images: [bleskFl],
+    description: {
+      uz: "BLESK B/FL1000 - 100 litr hajmli ikki kamerali suv isitgichi. Ikki po'lat idish emalyali qoplama bilan. Ikki isitish elementi orqali turbo isitish. Elektron isitish boshqaruvi. Quruq Ten texnologiyasi. Universal o'rnatish (vertikal va gorizontal). Heat More texnologiyasi. Ti+ emalyali isitish elementi. IPX4 himoya darajasi. 3 yillik kafolat.",
+      ru: "BLESK B/FL1000 - водонагреватель объемом 100 литров с двумя камерами. Два стальных внутренних бака с эмалированным покрытием. Турбо нагрев благодаря двум нагревательным элементам. Электронное управление нагревом. Технология использования сухих Тенов. Универсальная установка (вертикально и горизонтально). Технология Heat More. Нагревательный элемент Ti+ эмаль. Степень водонепроницаемости IPX4. 3 года гарантии."
+    },
+    specs: [
+      { label: { uz: "Brend", ru: "Бренд" }, value: "BLESK" },
+      { label: { uz: "Model", ru: "Модель" }, value: "B/FL1000" },
+      { label: { uz: "Hajmi", ru: "Объём" }, value: "100 litr / л" },
+      { label: { uz: "O'lchamlari", ru: "Размер (H×W×D)" }, value: "1090×570×300 mm" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "2000 Vt / Вт" },
+      { label: { uz: "Og'irligi", ru: "Вес" }, value: "39.3 kg" },
       { label: { uz: "Himoya darajasi", ru: "Водонепроницаемость" }, value: "IPX4" },
       { label: { uz: "Kafolat", ru: "Гарантия" }, value: "3 yil / года" }
     ]
