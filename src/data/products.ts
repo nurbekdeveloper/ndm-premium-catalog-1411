@@ -161,7 +161,7 @@ import aeroluxSilent90Installed from "@/assets/products/aerolux-silent-90-instal
 export interface Product {
   id: string;
   name: string;
-  category: "hydro-plast" | "shimge" | "penopleks" | "acc";
+  category: "hydro-plast" | "shimge" | "penopleks" | "acc" | "blesk";
   images: string[];
   description: {
     uz: string;
