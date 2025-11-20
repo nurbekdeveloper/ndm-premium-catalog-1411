@@ -5812,7 +5812,7 @@ export const categories = [
   },
   {
     id: "tetra-plast",
-    name: { uz: "Tetra Plast", ru: "Tetra Plast" },
+    name: { uz: "TETRA PLAST", ru: "TETRA PLAST" },
     description: {
       uz: "Innovatsion plastik mahsulotlar. Qurilish va ta'mirlash uchun.",
       ru: "Инновационные пластиковые изделия. Для строительства и ремонта."
