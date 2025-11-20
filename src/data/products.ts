@@ -5767,7 +5767,7 @@ export const products: Product[] = [
 export const categories = [
   {
     id: "hydro-plast",
-    name: { uz: "Hydro Plast", ru: "Hydro Plast" },
+    name: { uz: "HYDRO PLAST", ru: "HYDRO PLAST" },
     description: {
       uz: "Yuqori sifatli PPR quvurlar va fitinglar. Ishonchli suv ta'minoti tizimlari uchun.",
       ru: "Высококачественные PPR трубы и фитинги. Для надежных систем водоснабжения."
