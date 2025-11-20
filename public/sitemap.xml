@@ -1,110 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- Home Page -->
+  <!-- Main Pages -->
   <url>
     <loc>https://ndm.uz/</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="uz" href="https://ndm.uz/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ndm.uz/" />
   </url>
   
-  <!-- Catalog Page -->
   <url>
     <loc>https://ndm.uz/catalog</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="uz" href="https://ndm.uz/catalog" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ndm.uz/catalog" />
   </url>
   
-  <!-- Solutions Page -->
   <url>
     <loc>https://ndm.uz/solutions</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="uz" href="https://ndm.uz/solutions" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ndm.uz/solutions" />
   </url>
   
-  <!-- Partners Page -->
   <url>
     <loc>https://ndm.uz/partners</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="uz" href="https://ndm.uz/partners" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ndm.uz/partners" />
   </url>
   
-  <!-- Team Page -->
   <url>
     <loc>https://ndm.uz/team</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="uz" href="https://ndm.uz/team" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ndm.uz/team" />
   </url>
   
-  <!-- Contact Page -->
   <url>
     <loc>https://ndm.uz/contact</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="uz" href="https://ndm.uz/contact" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ndm.uz/contact" />
   </url>
   
-  <!-- Product Pages - Hydro Plast -->
+  <!-- BLESK Water Heaters (Merged Products) -->
+  <url>
+    <loc>https://ndm.uz/product/blesk-concept</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/blesk-flatx</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/blesk-nova</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/blesk-slv</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/blesk-vc</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/blesk-mi</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/blesk-neo</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/blesk-fl</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- Hydro Plast PPR Products -->
   <url>
     <loc>https://ndm.uz/product/ppr-pn10-20</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://ndm.uz/product/ppr-coupling</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   
   <url>
     <loc>https://ndm.uz/product/ppr-elbow-90</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   
-  <!-- Product Pages - Shimge -->
+  <url>
+    <loc>https://ndm.uz/product/ppr-composite-pn20</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/ppr-tee</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- Shimge Pumps & Water Systems -->
   <url>
     <loc>https://ndm.uz/product/shimge-xps20-4-130b</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Product Pages - Penopleks -->
+  <url>
+    <loc>https://ndm.uz/product/shimge-wt500b</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/shimge-wt400a</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/shimge-wt400c</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/shimge-jet750l1</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/shimge-qb60l</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/shimge-cpm130</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/shimge-smart-circulation</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- Penopleks Insulation -->
   <url>
     <loc>https://ndm.uz/product/penoplex-comfort</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://ndm.uz/product/penoplex-wall</loc>
-    <lastmod>2025-01-16</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/penoplex-foundation</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/penoplex-roof</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/penoplex-fastfix-standard</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/penoplex-geo</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- Plastfoil Roofing Materials -->
+  <url>
+    <loc>https://ndm.uz/product/plastfoil-membrane</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/plastfoil-vortex-roof</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <url>
+    <loc>https://ndm.uz/product/plastfoil-aero</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
   </url>
   
 </urlset>
