@@ -79,6 +79,8 @@ import shimgePw250z from "@/assets/products/shimge-pw250z.png";
 import shimgePw125z from "@/assets/products/shimge-pw125z.png";
 import shimgePw550z from "@/assets/products/shimge-pw550z.png";
 import shimgePzSeries from "@/assets/products/shimge-pz-series.png";
+import shimgeSmartCirculation from "@/assets/products/shimge-smart-circulation-pump.png";
+import shimgeHbs15 from "@/assets/products/shimge-hbs-15.png";
 
 // Product images - ACC
 import accSurfacePump from "@/assets/products/acc-surface-pump.png";
@@ -5051,6 +5053,69 @@ export const products: Product[] = [
       { label: { uz: "Atrof-muhit harorati", ru: "Температура окружающей среды" }, value: "+40°C gacha / до +40°C" },
       { label: { uz: "Antikorrozion ishlov", ru: "Антикоррозионная обработка" }, value: "Ha / Да" },
       { label: { uz: "Qo'llanilishi", ru: "Применение" }, value: "Suv ta'minoti, sug'orish, bosim oshirish / Водоснабжение, полив, повышение давления" }
+    ]
+  },
+  {
+    id: "shimge-smart-circulation",
+    name: "SHIMGE Smart Циркуляционный насос",
+    category: "shimge",
+    images: [shimgeSmartCirculation],
+    description: {
+      uz: "SHIMGE Smart - zamonaviy aqlli sirkulyatsion nasos, issiq suv ta'minoti tizimlarida ishlatiladi. WiFi boshqaruvi, dasturlash va taymer funksiyalari mavjud. Sensorli boshqaruv paneli orqali yoki masofadan WiFi tarmog'i orqali boshqarish mumkin. Avtomatik rejimlar: o'rnatilgan haroratga ko'ra, vaqt intervaliga ko'ra, bosimga ko'ra (kranani ochganingizda avtomatik yonadi). Maksimal sarflov: 0.54 m³/soat. Maksimal bosim: 12 m. Quvvat: 55 Vt. Montaj uzunligi: 163 mm. Ulanish: G1/2\" ipli ulanish. Faqat gorizontal holatda o'rnatiladi. Ish harorati: +2°C dan +90°C gacha. Maksimal tizim bosimi: 10 Bar. Korpus plastikdan, ish g'ildiragi texnopolimerdan. Energiya samaradorligi: A sinfi. Himoya darajasi: IP44. 24 oy kafolat.",
+      ru: "SHIMGE Smart - современный интеллектуальный циркуляционный насос для систем горячего водоснабжения. Имеет WiFi-управление, программирование и функции таймера. Управление через сенсорную панель или дистанционно по сети WiFi. Автоматические режимы: по установленной температуре, по заданному временному интервалу работы, включение по давлению (откроете кран - насос включится автоматически). Максимальный расход: 0.54 м³/ч. Максимальный напор: 12 м. Мощность: 55 Вт. Монтажная длина: 163 мм. Присоединение: резьбовое G1/2\". Установка только в горизонтальном положении. Рабочая температура: от +2°C до +90°C. Максимальное давление в системе: 10 Бар. Корпус из пластика, рабочее колесо из технополимера. Класс энергоэффективности: A. Степень защиты: IP44. Гарантия 24 месяца."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "Smart Circulation" },
+      { label: { uz: "Dasturlash", ru: "Программирование" }, value: "Ha / Да" },
+      { label: { uz: "Maksimal sarflov", ru: "Максимальный расход" }, value: "0.54 m³/soat / м³/ч" },
+      { label: { uz: "Maksimal bosim", ru: "Максимальный напор" }, value: "12 m / м" },
+      { label: { uz: "Quvvat", ru: "Макс. мощность" }, value: "55 Vt / Вт" },
+      { label: { uz: "Montaj uzunligi", ru: "Монтажная длина" }, value: "163 mm / мм" },
+      { label: { uz: "Ulanish turi", ru: "Тип присоединения" }, value: "G1/2\" ipli / Резьбовое" },
+      { label: { uz: "O'rnatish usuli", ru: "Способ установки" }, value: "Faqat gorizontal / Только горизонтальное" },
+      { label: { uz: "Ish harorati", ru: "Температура рабочей среды" }, value: "+2°C dan +90°C gacha / от +2°C до +90°C" },
+      { label: { uz: "Maks. bosim", ru: "Максимальное давление" }, value: "10 Bar / Бар" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Plastik / Пластик" },
+      { label: { uz: "Kuchlanish", ru: "Напряжение сети" }, value: "220V, 50 Hz" },
+      { label: { uz: "Energiya sinfi", ru: "Класс энергоэффективности" }, value: "A" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IP44" },
+      { label: { uz: "Avtomatika", ru: "Автоматика" }, value: "Harorat, vaqt, bosim, WiFi / Температура, время, давление, WiFi" },
+      { label: { uz: "Taymer", ru: "Таймер" }, value: "Ha / Да" },
+      { label: { uz: "Tezlikni boshqarish", ru: "Управление скоростью" }, value: "Ha / Да" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "24 oy / месяца" }
+    ]
+  },
+  {
+    id: "shimge-hbs-15",
+    name: "SHIMGE HBS-15",
+    category: "shimge",
+    images: [shimgeHbs15],
+    description: {
+      uz: "SHIMGE HBS-15 - yuqori sifatli sirkulyatsion nasos, issiq suv ta'minoti tizimlari uchun mo'ljallangan. Kompakt va ishonchli konstruksiya. Quruq ishlashdan himoya tizimi mavjud. Korpus latundan yasalgan - mustahkam va korroziyaga chidamli. Elektromotor 220V tarmoqdan ishlaydi. Unumdorlik: 10 l/daqiqa. Quvvat: 9 Vt - energiya tejaydigan model. Maksimal bosim: 10 atm. Maksimal napor: 2 m. Montaj uzunligi: 80 mm. Ulanish diametri: 1/2\". Himoya darajasi: IPX4. Faqat toza suv uchun. Kompakt o'lcham - oson o'rnatish. Past energiya iste'moli - iqtisodiy. Jimjit ishlash. Professional SHIMGE brendi. Ishlab chiqarish: Xitoy. 2 yil kafolat.",
+      ru: "SHIMGE HBS-15 - высококачественный циркуляционный насос для систем горячего водоснабжения. Компактная и надежная конструкция. Защита от сухого хода. Корпус из латуни - прочный и устойчивый к коррозии. Электродвигатель работает от сети 220В. Производительность: 10 л/мин. Мощность: 9 Вт - энергосберегающая модель. Максимальное давление: 10 атм. Максимальный напор: 2 м. Монтажная длина: 80 мм. Диаметр соединения: 1/2\". Степень защиты: IPX4. Только для чистой воды. Компактные размеры - легкий монтаж. Низкое энергопотребление - экономичный. Тихая работа. Профессиональный бренд SHIMGE. Производство: Китай. Гарантия 2 года."
+    },
+    specs: [
+      { label: { uz: "Ishlab chiqaruvchi", ru: "Бренд" }, value: "SHIMGE" },
+      { label: { uz: "Model", ru: "Модель" }, value: "HBS-15" },
+      { label: { uz: "Artikul", ru: "Артикул" }, value: "1746141884" },
+      { label: { uz: "Turi", ru: "Тип" }, value: "Sirt nasos / Поверхностный" },
+      { label: { uz: "Mexanizm", ru: "Механизм насоса" }, value: "Sirkulyatsion / Циркуляционный" },
+      { label: { uz: "Dvigatel", ru: "Двигатель" }, value: "Elektromotor / Электродвигатель" },
+      { label: { uz: "Quvvat manbai", ru: "Вид питания" }, value: "220V tarmoq / От сети 220В" },
+      { label: { uz: "Quruq ishlashdan himoya", ru: "Защита от сухого хода" }, value: "Ha / Да" },
+      { label: { uz: "Unumdorlik", ru: "Производительность" }, value: "10 l/min / л/мин" },
+      { label: { uz: "Ejektor", ru: "Эжектор" }, value: "Yo'q / Нет" },
+      { label: { uz: "Quvvat", ru: "Мощность" }, value: "9 Vt / Вт" },
+      { label: { uz: "Maks. bosim", ru: "Максимальное давление" }, value: "10 atm / атм (кг/см²)" },
+      { label: { uz: "Maks. napor", ru: "Макс. напор" }, value: "2 m / м" },
+      { label: { uz: "Himoya darajasi", ru: "Степень защиты" }, value: "IPX4" },
+      { label: { uz: "Korpus materiali", ru: "Материал корпуса" }, value: "Latun / Латунь" },
+      { label: { uz: "Montaj uzunligi", ru: "Монтажная длина" }, value: "80 mm / мм" },
+      { label: { uz: "Ulanish diametri", ru: "Диаметр соединения" }, value: "1/2\"" },
+      { label: { uz: "Suv sifati", ru: "Качество воды" }, value: "Toza / Чистая" },
+      { label: { uz: "Kafolat", ru: "Гарантия" }, value: "2 yil / года" },
+      { label: { uz: "Ishlab chiqaruvchi mamlakat", ru: "Страна-изготовитель" }, value: "Xitoy / Китай" }
     ]
   },
   {
