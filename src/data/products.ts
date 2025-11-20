@@ -5776,7 +5776,7 @@ export const categories = [
   },
   {
     id: "penopleks",
-    name: { uz: "PENOPLEKS", ru: "ПЕНОПЛЭКС" },
+    name: { uz: "PENOPLEKS", ru: "ПЕНОПЛЕХ" },
     description: {
       uz: "Zamonaviy issiqlik izolyatsiya materiallari. Energiya tejash va qulay muhit.",
       ru: "Современные теплоизоляционные материалы. Энергосбережение и комфорт."
