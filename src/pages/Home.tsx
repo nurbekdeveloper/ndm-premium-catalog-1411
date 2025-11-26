@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Zap, Award, FileText } from "lucide-react";
 import SEO from "@/components/SEO";
+import FAQSchema from "@/components/FAQSchema";
 import heroBg from "@/assets/hero-pipes.png";
 
 const Home = () => {
@@ -48,18 +49,54 @@ const Home = () => {
     <>
       <SEO 
         url="/"
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          name: "NDM.uz",
-          url: "https://ndm.uz",
-          potentialAction: {
-            "@type": "SearchAction",
-            target: "https://ndm.uz/catalog?q={search_term_string}",
-            "query-input": "required name=search_term_string"
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "NDM.uz",
+            url: "https://ndm.uz",
+            potentialAction: {
+              "@type": "SearchAction",
+              target: "https://ndm.uz/catalog?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://ndm.uz",
+            name: "NDM.uz",
+            image: "https://ndm.uz/favicon.png",
+            url: "https://ndm.uz",
+            telephone: "+998-90-123-45-67",
+            priceRange: "$$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Tashkent",
+              addressLocality: "Tashkent",
+              addressRegion: "Tashkent",
+              postalCode: "100000",
+              addressCountry: "UZ"
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 41.311081,
+              longitude: 69.240562
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              opens: "09:00",
+              closes: "18:00"
+            },
+            sameAs: [
+              "https://t.me/ndm_uz",
+              "https://instagram.com/ndm.uz"
+            ]
           }
-        }}
+        ]}
       />
+      <FAQSchema />
       <div className="min-h-screen">
       {/* Hero Section */}
       <section
