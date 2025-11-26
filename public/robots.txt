@@ -10,5 +10,18 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: Yandex
+Allow: /
+
 User-agent: *
 Allow: /
+
+# Sitemaps
+Sitemap: https://ndm.uz/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Disallow admin or internal pages (if any in future)
+Disallow: /admin/
+Disallow: /*.json$

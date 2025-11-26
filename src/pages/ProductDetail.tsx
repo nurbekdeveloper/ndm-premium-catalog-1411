@@ -8,8 +8,16 @@ import SEO from "@/components/SEO";
 import ImageLightbox from "@/components/ImageLightbox";
 import PenopleksProductDetail from "@/components/PenopleksProductDetail";
 import OrderDialog from "@/components/OrderDialog";
-import { ArrowLeft, Expand, Minus, Plus, ShoppingCart, Heart, Facebook, Send, Mail } from "lucide-react";
+import { ArrowLeft, Expand, Minus, Plus, ShoppingCart, Heart, Facebook, Send, Mail, Home, ChevronRight } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 
 const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -90,6 +98,32 @@ const ProductDetail = () => {
     return <PenopleksProductDetail product={product} />;
   }
 
+  // Get category name for breadcrumb
+  const categoryNames = {
+    "hydro-plast": { uz: "Hydro Plast", ru: "Hydro Plast" },
+    "shimge": { uz: "SHIMGE", ru: "SHIMGE" },
+    "penopleks": { uz: "ПЕНОПЛЕХ", ru: "ПЕНОПЛЕХ" },
+    "blesk": { uz: "BLESK", ru: "BLESK" },
+    "plastfoil": { uz: "PLASTFOIL", ru: "PLASTFOIL" },
+    "tetra-plast": { uz: "TETRA PLAST", ru: "TETRA PLAST" },
+  };
+  
+  const categoryName = categoryNames[product.category as keyof typeof categoryNames] || 
+    { uz: product.category, ru: product.category };
+
+  // Generate SEO-optimized keywords
+  const generateKeywords = () => {
+    const baseKeywords = language === "uz" 
+      ? `${product.name}, ${categoryName.uz}, NDM.uz, sotib olish, narx, O'zbekiston, Toshkent`
+      : `${product.name}, ${categoryName.ru}, NDM.uz, купить, цена, Узбекистан, Ташкент`;
+    
+    const specKeywords = product.specs
+      .map(spec => language === "uz" ? spec.label.uz : spec.label.ru)
+      .join(", ");
+    
+    return `${baseKeywords}, ${specKeywords}`;
+  };
+
   const productImages = product.images.map((img, index) => ({
     src: img,
     alt: `${product.name} - ${index === 0 ? 'Main' : index === 1 ? 'Detail' : index === 2 ? 'Side' : 'Installation'}`
@@ -105,32 +139,72 @@ const ProductDetail = () => {
   return (
     <>
       <SEO
-        title={`${product.name} | NDM.uz`}
-        description={language === "uz" ? product.description.uz : product.description.ru}
+        title={`${product.name} - ${language === "uz" ? categoryName.uz : categoryName.ru} | NDM.uz`}
+        description={`${language === "uz" ? product.description.uz : product.description.ru} ✓ ${language === "uz" ? "Rasmiy narxlar" : "Официальные цены"} ✓ ${language === "uz" ? "Kafolat" : "Гарантия"} ✓ ${language === "uz" ? "Tez yetkazib berish O'zbekiston bo'ylab" : "Быстрая доставка по Узбекистану"}`}
+        keywords={generateKeywords()}
         url={`/product/${product.id}`}
         image={product.images[0]}
         type="product"
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "Product",
-          name: product.name,
-          description: language === "uz" ? product.description.uz : product.description.ru,
-          image: product.images,
-          brand: {
-            "@type": "Brand",
-            name: product.category === "hydro-plast" ? "Hydro Plast" : 
-                  product.category === "shimge" ? "Shimge" : "Penopleks"
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: product.name,
+            description: language === "uz" ? product.description.uz : product.description.ru,
+            image: product.images,
+            brand: {
+              "@type": "Brand",
+              name: language === "uz" ? categoryName.uz : categoryName.ru
+            },
+            category: language === "uz" ? categoryName.uz : categoryName.ru,
+            offers: {
+              "@type": "Offer",
+              availability: "https://schema.org/InStock",
+              priceCurrency: "UZS",
+              url: `https://ndm.uz/product/${product.id}`,
+              seller: {
+                "@type": "Organization",
+                name: "NDM.uz",
+                url: "https://ndm.uz"
+              }
+            },
+            additionalProperty: product.specs.map(spec => ({
+              "@type": "PropertyValue",
+              name: language === "uz" ? spec.label.uz : spec.label.ru,
+              value: spec.value
+            }))
           },
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: "UZS",
-            seller: {
-              "@type": "Organization",
-              name: "NDM.uz"
-            }
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: language === "uz" ? "Bosh sahifa" : "Главная",
+                item: "https://ndm.uz"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: language === "uz" ? "Katalog" : "Каталог",
+                item: "https://ndm.uz/catalog"
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: language === "uz" ? categoryName.uz : categoryName.ru,
+                item: `https://ndm.uz/catalog?category=${product.category}`
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                name: product.name,
+                item: `https://ndm.uz/product/${product.id}`
+              }
+            ]
           }
-        }}
+        ]}
       />
       <ImageLightbox
         images={productImages}
@@ -141,14 +215,45 @@ const ProductDetail = () => {
       
       <div className="min-h-screen bg-background">
         <div className="container mx-auto px-4 py-8">
-          <Button
-            variant="ghost"
-            onClick={handleBackToCatalog}
-            className="mb-6"
-          >
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            {t("Katalogga qaytish", "Вернуться в каталог")}
-          </Button>
+          {/* Breadcrumb Navigation */}
+          <Breadcrumb className="mb-6">
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/" className="flex items-center gap-1">
+                  <Home className="h-4 w-4" />
+                  {t("Bosh sahifa", "Главная")}
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator>
+                <ChevronRight className="h-4 w-4" />
+              </BreadcrumbSeparator>
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/catalog">
+                  {t("Katalog", "Каталог")}
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator>
+                <ChevronRight className="h-4 w-4" />
+              </BreadcrumbSeparator>
+              <BreadcrumbItem>
+                <BreadcrumbLink 
+                  href="/catalog"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleBackToCatalog();
+                  }}
+                >
+                  {language === "uz" ? categoryName.uz : categoryName.ru}
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator>
+                <ChevronRight className="h-4 w-4" />
+              </BreadcrumbSeparator>
+              <BreadcrumbItem>
+                <BreadcrumbPage>{product.name}</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
 
           <div className="bg-card rounded-lg shadow-sm border p-6 md:p-8">
             <div className="grid md:grid-cols-3 gap-8">
@@ -261,8 +366,10 @@ const ProductDetail = () => {
               >
                 <img
                   src={product.images[selectedImageIndex]}
-                  alt={`${product.name} - ${language === "uz" ? imageLabels[selectedImageIndex].uz : imageLabels[selectedImageIndex].ru}`}
+                  alt={`${product.name} - ${language === "uz" ? imageLabels[selectedImageIndex].uz : imageLabels[selectedImageIndex].ru} | ${language === "uz" ? categoryName.uz : categoryName.ru} | NDM.uz`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="eager"
+                  fetchPriority="high"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="bg-background/90 rounded-full p-3">
@@ -290,8 +397,9 @@ const ProductDetail = () => {
                   >
                     <img
                       src={img}
-                      alt={`${product.name} - ${language === "uz" ? imageLabels[index].uz : imageLabels[index].ru}`}
+                      alt={`${product.name} - ${language === "uz" ? imageLabels[index].uz : imageLabels[index].ru} | ${language === "uz" ? categoryName.uz : categoryName.ru} | NDM.uz`}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-2">
                       <p className="text-xs text-white font-medium text-center">
