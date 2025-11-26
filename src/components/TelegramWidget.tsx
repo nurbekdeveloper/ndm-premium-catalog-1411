@@ -8,13 +8,9 @@ const TelegramWidget = () => {
   const { t } = useLanguage();
   
   const telegramUsername = "ndmsantexnika";
-  const message = t(
-    "Assalomu alaykum! Mahsulotlar haqida ma'lumot olmoqchiman.",
-    "Здравствуйте! Хочу получить информацию о продуктах."
-  );
 
   const handleTelegramClick = () => {
-    const url = `https://t.me/${telegramUsername}?text=${encodeURIComponent(message)}`;
+    const url = `https://t.me/${telegramUsername}`;
     window.open(url, "_blank");
   };
 
