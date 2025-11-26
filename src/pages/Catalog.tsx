@@ -26,19 +26,24 @@ const Catalog = () => {
     <>
       <SEO
         title={language === "uz" 
-          ? "Katalog - Maishiy Texnika | NDM.uz" 
-          : "Каталог - Бытовая Техника | NDM.uz"}
+          ? "Katalog - Suv Isitgich, PPR Quvurlar, Nasos | NDM.uz Toshkent" 
+          : "Каталог - Водонагреватели, ППР Трубы, Насосы | NDM.uz Ташкент"}
         description={language === "uz"
-          ? "PPR quvurlar, nasos qurilmalari, issiqlik izolyatsiya materiallari. Hydro Plast, Shimge, Penopleks. O'zbekistonda eng yaxshi narxlar."
-          : "ППР трубы, насосное оборудование, теплоизоляционные материалы. Hydro Plast, Shimge, Пеноплэкс. Лучшие цены в Узбекистане."}
+          ? "🏆 To'liq katalog: Shimge nasos, Hydro Plast PPR quvurlar, ПЕНОПЛЕХ izolyatsiya, Blesk suv isitgichlar Toshkentda. ✓ 500+ mahsulot ✓ Rasmiy kafolat ✓ Tez yetkazish"
+          : "🏆 Полный каталог: насосы Shimge, трубы PPR Hydro Plast, изоляция ПЕНОПЛЕХ, водонагреватели Blesk в Ташкенте. ✓ 500+ товаров ✓ Гарантия ✓ Быстрая доставка"}
+        keywords={language === "uz"
+          ? "katalog, suv isitgich toshkent, shimge nasos narx, hydro plast quvur, penopleks sotish, ventilyatsiya katalog uzbekistan"
+          : "каталог, водонагреватели ташкент, насосы shimge цена, трубы hydro plast, пеноплекс купить, вентиляция каталог узбекистан"}
         url="/catalog"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           name: language === "uz" ? "Mahsulotlar katalogi" : "Каталог продукции",
           description: language === "uz" 
-            ? "Premium maishiy texnika to'plami" 
-            : "Коллекция премиум бытовой техники",
+            ? "To'liq mahsulotlar to'plami - Shimge, Hydro Plast, ПЕНОПЛЕХ, Blesk" 
+            : "Полная коллекция товаров - Shimge, Hydro Plast, ПЕНОПЛЕХ, Blesk",
+          numberOfItems: products.length,
+          url: "https://ndm.uz/catalog"
         }}
       />
       <div className="min-h-screen py-12 bg-gradient-to-b from-background to-muted/20">
@@ -68,8 +73,10 @@ const Catalog = () => {
                     <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center">
                       <img 
                         src={category.logo} 
-                        alt={language === "uz" ? category.name.uz : category.name.ru}
+                        alt={`${language === "uz" ? category.name.uz : category.name.ru} - ${language === "uz" ? category.description.uz : category.description.ru} | NDM.uz Toshkent`}
                         loading="lazy"
+                        width="128"
+                        height="128"
                         className="max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110"
                       />
                     </div>
