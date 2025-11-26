@@ -1,6 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { products, categories } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
+import ProductSearch from "@/components/ProductSearch";
 import SEO from "@/components/SEO";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -10,6 +11,7 @@ const Catalog = () => {
   const { language, t } = useLanguage();
   const location = useLocation();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
 
   // Check if there's a category in the navigation state
   useEffect(() => {
@@ -18,9 +20,20 @@ const Catalog = () => {
     }
   }, [location.state]);
 
-  const categoryProducts = selectedCategory 
-    ? products.filter((p) => p.category === selectedCategory)
-    : [];
+  // Filter products based on search query and category
+  const filteredProducts = products.filter((product) => {
+    const matchesCategory = selectedCategory ? product.category === selectedCategory : true;
+    const matchesSearch = searchQuery ? (
+      product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      product.description.uz.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      product.description.ru.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      product.category.toLowerCase().includes(searchQuery.toLowerCase())
+    ) : true;
+    
+    return matchesCategory && matchesSearch;
+  });
+
+  const categoryProducts = selectedCategory ? filteredProducts : [];
 
   return (
     <>
@@ -59,6 +72,14 @@ const Catalog = () => {
               )}
             </p>
           </div>
+
+          {/* Search Bar */}
+          {selectedCategory && (
+            <ProductSearch 
+              onSearch={setSearchQuery}
+              searchQuery={searchQuery}
+            />
+          )}
 
           {!selectedCategory ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
@@ -131,7 +152,10 @@ const Catalog = () => {
                     />
                   </div>
                   <p className="text-xl text-muted-foreground">
-                    {t(
+                    {searchQuery ? t(
+                      `"${searchQuery}" bo'yicha natija topilmadi`,
+                      `По запросу "${searchQuery}" ничего не найдено`
+                    ) : t(
                       "Bu kategoriyada hozircha mahsulotlar yo'q",
                       "В этой категории пока нет товаров"
                     )}

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useCart } from "@/contexts/CartContext";
-import { Menu, X, ShoppingCart, Globe } from "lucide-react";
+import { Menu, X, ShoppingCart, Globe, Phone } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
@@ -44,8 +44,16 @@ const Header = () => {
           ))}
         </div>
 
-        {/* Cart and Language Toggle */}
+        {/* Phone, Cart and Language Toggle */}
         <div className="flex items-center space-x-2">
+          <a 
+            href="tel:+998908212000"
+            className="hidden lg:flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 hover:bg-primary/20 transition-colors group"
+          >
+            <Phone className="h-4 w-4 text-primary transition-transform duration-300 group-hover:scale-110" />
+            <span className="text-sm font-semibold text-primary">+998 90 821 20 00</span>
+          </a>
+          
           <Button
             variant="ghost"
             size="icon"
