@@ -8,7 +8,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 import { CartProvider } from "@/contexts/CartContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WhatsAppWidget from "@/components/WhatsAppWidget";
+import TelegramWidget from "@/components/TelegramWidget";
 import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
 import ProductDetail from "./pages/ProductDetail";
@@ -46,7 +46,7 @@ const App = () => (
                   </Routes>
                 </main>
                 <Footer />
-                <WhatsAppWidget />
+                <TelegramWidget />
               </div>
             </BrowserRouter>
           </CartProvider>
