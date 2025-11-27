@@ -110,12 +110,12 @@ const Home = () => {
         <div className="absolute inset-0 gradient-overlay" />
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6 animate-fade-in-down">
-            {t("NDM.uz – Premium maishiy texnika katalogi", "NDM.uz – Каталог премиум бытовой техники")}
+            {t("O'zbekistonning yirik qurilish va texnika brendlari yagona katalogda", "Крупнейшие строительные и технические бренды Узбекистана в одном каталоге")}
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" }}>
             {t(
-              "Eng ishonchli, zamonaviy va energiya tejamkor texnika modellari bir joyda.",
-              "Современные и надежные решения для вашего дома."
+              "Eng ishonchli qurilish materiallari, izolyatsiya yechimlari, plastik quvurlar, nasos tizimlari hamda zamonaviy maishiy texnikalar — barchasi bir joyda. Yetakchi brendlarning sifatli mahsulotlari bilan tanishing.",
+              "Самые надежные строительные материалы, изоляционные решения, пластиковые трубы, насосные системы и современная бытовая техника — все в одном месте. Знакомьтесь с качественной продукцией ведущих брендов."
             )}
           </p>
           <Link to="/catalog" className="inline-block animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
@@ -135,8 +135,8 @@ const Home = () => {
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed animate-fade-in" style={{ animationDelay: "0.1s" }}>
               {t(
-                "NDM.uz - bu premium maishiy elektronika va texnika katalogi. Biz energiya samaradorligi, dizayn va innovatsiyaga alohida e'tibor beramiz. Har bir mahsulot puxta tanlab olingan va eng yuqori standartlarga javob beradi. Bizning maqsadimiz - sizning uyingizni zamonaviy va ishonchli texnika bilan ta'minlash.",
-                "NDM.uz - это кураторский каталог премиум бытовой электроники и техники. Мы уделяем особое внимание энергоэффективности, дизайну и инновациям. Каждый продукт тщательно отобран и соответствует высочайшим стандартам. Наша цель - обеспечить ваш дом современной и надежной техникой."
+                "NDM.uz — bu O'zbekiston bozoridagi eng ishonchli qurilish materiallari, izolyatsiya mahsulotlari, quvur tizimlari, nasos texnikalari va maishiy elektronika brendlarini jamlagan yagona platforma. Biz Hydro Plast, Penoplex, Shimge, Deryo Plast, Isocom, Tetra Plast, Lider Line, Blesk, NDM kabi yetakchi ishlab chiqaruvchilarning sifatli va sertifikatlangan mahsulotlarini taqdim etamiz. Saytimizning maqsadi — mijozlarga qulay, ishonchli va zamonaviy xarid tajribasini yaratish, uy-joy, qurilish va texnika ehtiyojlari uchun eng yaxshi tanlovni taklif qilishdir.",
+                "NDM.uz — это единая платформа, объединяющая самые надежные бренды строительных материалов, изоляционной продукции, трубопроводных систем, насосного оборудования и бытовой электроники на рынке Узбекистана. Мы предлагаем качественную и сертифицированную продукцию ведущих производителей, таких как Hydro Plast, Penoplex, Shimge, Deryo Plast, Isocom, Tetra Plast, Lider Line, Blesk, NDM. Цель нашего сайта — создать для клиентов удобный, надежный и современный опыт покупок, предлагая лучший выбор для дома, строительства и технических нужд."
               )}
             </p>
           </div>
