@@ -9,7 +9,7 @@ const Team = () => {
   const team = [
     {
       name: "Akbar Jo'rayev",
-      position: { uz: "Mijozlar xizmati menejeri", ru: "Менеджер по работе с клиентами" },
+      position: { uz: "Mijozlarga xizmat ko'rsatish menejeri", ru: "Менеджер по обслуживанию клиентов" },
       bio: {
         uz: "Mijozlarga yuqori darajadagi xizmat ko'rsatish va qo'llab-quvvatlash.",
         ru: "Высокий уровень обслуживания клиентов и поддержка."
