@@ -54,7 +54,7 @@ const SEO = ({
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+998-90-123-45-67",
+      telephone: "+998-92-001-01-01",
       contactType: "Customer Service",
     },
   };

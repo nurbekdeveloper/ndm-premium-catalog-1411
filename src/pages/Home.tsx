@@ -68,7 +68,7 @@ const Home = () => {
             name: "NDM.uz",
             image: "https://ndm.uz/favicon.png",
             url: "https://ndm.uz",
-            telephone: "+998-90-123-45-67",
+            telephone: "+998-92-001-01-01",
             priceRange: "$$",
             address: {
               "@type": "PostalAddress",

@@ -153,7 +153,7 @@ const OrderDialog = ({ productName, className, variant = "default", size = "defa
             <Input
               id="phone"
               type="tel"
-              placeholder="+998 90 123 45 67"
+              placeholder="+998 92 001 01 01"
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
               required

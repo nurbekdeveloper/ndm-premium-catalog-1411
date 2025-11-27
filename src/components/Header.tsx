@@ -47,11 +47,11 @@ const Header = () => {
         {/* Phone, Cart and Language Toggle */}
         <div className="flex items-center space-x-2">
           <a 
-            href="tel:+998908212000"
+            href="tel:+998920010101"
             className="hidden lg:flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 hover:bg-primary/20 transition-colors group"
           >
             <Phone className="h-4 w-4 text-primary transition-transform duration-300 group-hover:scale-110" />
-            <span className="text-sm font-semibold text-primary">+998 90 821 20 00</span>
+            <span className="text-sm font-semibold text-primary">+998 92 001 01 01</span>
           </a>
           
           <Button

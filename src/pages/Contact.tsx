@@ -79,8 +79,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: t("Telefon", "Телефон"),
-      value: "+998 90 821 20 00",
-      href: "tel:+998908212000"
+      value: "+998 92 001 01 01",
+      href: "tel:+998920010101"
     },
     {
       icon: MapPin,
@@ -97,8 +97,8 @@ const Contact = () => {
           ? "Aloqa - Bog'lanish | NDM.uz" 
           : "Контакты - Связаться с нами | NDM.uz"}
         description={language === "uz"
-          ? "NDM.uz bilan bog'laning. Telefon: +998 90 821 20 00. Email: ndmbusines@gmail.com. Toshkent, O'zbekiston."
-          : "Свяжитесь с NDM.uz. Телефон: +998 90 821 20 00. Email: ndmbusines@gmail.com. Ташкент, Узбекистан."}
+          ? "NDM.uz bilan bog'laning. Telefon: +998 92 001 01 01. Email: ndmbusines@gmail.com. Toshkent, O'zbekiston."
+          : "Свяжитесь с NDM.uz. Телефон: +998 92 001 01 01. Email: ndmbusines@gmail.com. Ташкент, Узбекистан."}
         url="/contact"
         structuredData={{
           "@context": "https://schema.org",
@@ -106,7 +106,7 @@ const Contact = () => {
           mainEntity: {
             "@type": "Organization",
             name: "NDM.uz",
-            telephone: "+998908212000",
+            telephone: "+998920010101",
             email: "ndmbusines@gmail.com",
             address: {
               "@type": "PostalAddress",

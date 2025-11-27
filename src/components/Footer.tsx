@@ -60,8 +60,8 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <a href="tel:+998908212000" className="hover:text-accent transition-colors">
-                  Tel: +998 90 821 20 00
+                <a href="tel:+998920010101" className="hover:text-accent transition-colors">
+                  Tel: +998 92 001 01 01
                 </a>
               </p>
               <p>{t("Toshkent, O'zbekiston", "Ташкент, Узбекистан")}</p>
