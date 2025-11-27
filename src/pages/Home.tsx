@@ -13,34 +13,34 @@ const Home = () => {
   const benefits = [
     {
       icon: Award,
-      title: { uz: "Sertifikatlangan mahsulotlar", ru: "Сертифицированная продукция" },
+      title: { uz: "Sertifikatlangan sifat", ru: "Сертифицированное качество" },
       description: {
-        uz: "Barcha mahsulotlar xalqaro sifat standartlariga javob beradi",
-        ru: "Вся продукция соответствует международным стандартам качества"
-      }
-    },
-    {
-      icon: CheckCircle2,
-      title: { uz: "Ishonchli brendlar", ru: "Надежные бренды" },
-      description: {
-        uz: "Hydro Plast, Penoplex, Shimge, Blesk va boshqa yetakchi ishlab chiqaruvchilar",
-        ru: "Hydro Plast, Penoplex, Shimge, Blesk и другие ведущие производители"
+        uz: "Barcha mahsulotlar xalqaro standartlarga javob beradi",
+        ru: "Все продукты соответствуют международным стандартам"
       }
     },
     {
       icon: Zap,
-      title: { uz: "Keng assortiment", ru: "Широкий ассортимент" },
+      title: { uz: "Energiya tejamkor", ru: "Энергоэффективность" },
       description: {
-        uz: "Qurilish materiallari, nasos tizimlari, izolyatsiya va maishiy texnika",
-        ru: "Строительные материалы, насосные системы, изоляция и бытовая техника"
+        uz: "Yuqori A+ va A++ energiya samaradorlik sinfi",
+        ru: "Высокий класс энергоэффективности A+ и A++"
+      }
+    },
+    {
+      icon: CheckCircle2,
+      title: { uz: "Ishonchli ishlab chiqaruvchilar", ru: "Надежные производители" },
+      description: {
+        uz: "Faqat isbotlangan brendlar va yetkazib beruvchilar",
+        ru: "Только проверенные бренды и поставщики"
       }
     },
     {
       icon: FileText,
-      title: { uz: "To'liq ma'lumot", ru: "Полная информация" },
+      title: { uz: "To'liq xususiyatlar", ru: "Полные характеристики" },
       description: {
-        uz: "Har bir mahsulot uchun batafsil texnik tavsif va xususiyatlar",
-        ru: "Подробные технические описания и характеристики каждого продукта"
+        uz: "Har bir model uchun batafsil tavsif va texnik ma'lumotlar",
+        ru: "Подробное описание и технические данные для каждой модели"
       }
     }
   ];
