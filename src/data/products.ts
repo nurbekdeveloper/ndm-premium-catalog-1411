@@ -146,6 +146,7 @@ import liderLogoImg from "@/assets/partners/lider-logo.png";
 import bleskLogoImg from "@/assets/partners/blesk-logo.png";
 import ndmLogoImg from "@/assets/ndm-logo.png";
 import waterProLogoAsset from "@/assets/partners/waterpro-logo.png.asset.json";
+import waterProPertPipeAsset from "@/assets/products/waterpro-pert-pipe.png.asset.json";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
@@ -192,6 +193,23 @@ export interface Product {
 }
 
 export const products: Product[] = [
+  {
+    id: "waterpro-pert-16x2",
+    name: "WaterPRO Труба PE-RT Ø16×2.0",
+    category: "waterpro",
+    images: [waterProPertPipeAsset.url],
+    description: {
+      uz: "WaterPRO PE-RT quvuri Ø16×2.0 mm \u2014 issiq va sovuq suv ta'minoti hamda issiqlik ta'minoti (yerdan isitish) tizimlari uchun mo'ljallangan moslashuvchan quvur. Bir o'ramda 200 metr.\n\nYuqori issiqlikka chidamlilik, korroziyaga qarshi barqarorlik va uzoq xizmat muddati.",
+      ru: "Труба WaterPRO PE-RT Ø16×2.0 мм \u2014 гибкая труба для систем горячего и холодного водоснабжения, а также напольного отопления. В упаковке 200 м.\n\nВысокая термостойкость, устойчивость к коррозии и длительный срок службы."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PE-RT" },
+      { label: { uz: "O'lchami", ru: "Размер" }, value: "Ø16×2.0" },
+      { label: { uz: "Qadoqdagi miqdor", ru: "Кол-во в упаковке" }, value: "200 m" },
+      { label: { uz: "Raqamlanishi", ru: "Нумерация" }, value: "100101" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1001" }
+    ]
+  },
   // Hydro Plast - PP-R Pipes (only 1 product)
   {
     id: "ppr-pn10-20",
