@@ -5767,6 +5767,15 @@ export const products: Product[] = [
 
 export const categories = [
   {
+    id: "waterpro",
+    name: { uz: "WATERPRO", ru: "WATERPRO" },
+    description: {
+      uz: "Suv ta'minoti va filtrlash yechimlari. Toza suv uchun ishonchli uskunalar.",
+      ru: "Решения для водоснабжения и фильтрации. Надежное оборудование для чистой воды."
+    },
+    logo: waterProLogoAsset.url
+  },
+  {
     id: "hydro-plast",
     name: { uz: "HYDRO PLAST", ru: "HYDRO PLAST" },
     description: {
@@ -5837,15 +5846,6 @@ export const categories = [
       ru: "Электрические водонагреватели. Высокое качество и долгий срок службы."
     },
     logo: bleskLogoImg
-  },
-  {
-    id: "waterpro",
-    name: { uz: "WATERPRO", ru: "WATERPRO" },
-    description: {
-      uz: "Suv ta'minoti va filtrlash yechimlari. Toza suv uchun ishonchli uskunalar.",
-      ru: "Решения для водоснабжения и фильтрации. Надежное оборудование для чистой воды."
-    },
-    logo: waterProLogoAsset.url
   },
   {
     id: "ndm",
