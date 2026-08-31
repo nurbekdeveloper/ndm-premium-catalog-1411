@@ -529,6 +529,52 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1017" }
     ]
   },
+  {
+    id: "waterpro-ppr-pn20-hvs-4m",
+    name: "WaterPRO Труба PN20 ХВС / PP-R Pipe PN20 Cold (4м/штук)",
+    category: "waterpro",
+    images: [wpPprPn20_4mAsset.url],
+    description: {
+      uz: "WaterPRO PP-R PN20 sovuq suv quvuri, 4 metrlik shtangalarda. Sovuq suv ta'minoti tizimlari uchun. 9 xil o'lchamda (Ø20–Ø110).",
+      ru: "Труба WaterPRO PP-R PN20 ХВС в отрезках по 4 м. Для систем холодного водоснабжения. 9 типоразмеров (Ø20–Ø110)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R PN20 ХВС (4м/штук)" },
+      { label: { uz: "Ø20×3.4", ru: "Ø20×3.4" }, value: "140m / 101801" },
+      { label: { uz: "Ø25×4.2", ru: "Ø25×4.2" }, value: "100m / 101802" },
+      { label: { uz: "Ø32×5.4", ru: "Ø32×5.4" }, value: "60m / 101803" },
+      { label: { uz: "Ø40×6.7", ru: "Ø40×6.7" }, value: "40m / 101804" },
+      { label: { uz: "Ø50×8.3", ru: "Ø50×8.3" }, value: "24m / 101805" },
+      { label: { uz: "Ø63×10.5", ru: "Ø63×10.5" }, value: "16m / 101806" },
+      { label: { uz: "Ø75×12.5", ru: "Ø75×12.5" }, value: "12m / 101807" },
+      { label: { uz: "Ø90×15", ru: "Ø90×15" }, value: "8m / 101808" },
+      { label: { uz: "Ø110×18.3", ru: "Ø110×18.3" }, value: "8m / 101809" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1018" }
+    ]
+  },
+  {
+    id: "waterpro-ppr-pn25-4m",
+    name: "WaterPRO Труба PN25 ГВС / PP-R Pipe PN25 Hot (4м/штук)",
+    category: "waterpro",
+    images: [wpPprPn20_4mAsset.url],
+    description: {
+      uz: "WaterPRO PP-R PN25 issiq suv quvuri, 4 metrlik shtangalarda. Issiq suv ta'minoti va isitish tizimlari uchun eng bardoshli seriya. 9 xil o'lchamda (Ø20–Ø110).",
+      ru: "Труба WaterPRO PP-R PN25 ГВС в отрезках по 4 м. Самая прочная серия для горячего водоснабжения и отопления. 9 типоразмеров (Ø20–Ø110)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R PN25 ГВС (4м/штук)" },
+      { label: { uz: "Ø20×3.4", ru: "Ø20×3.4" }, value: "140m / 101901" },
+      { label: { uz: "Ø25×4.2", ru: "Ø25×4.2" }, value: "100m / 101902" },
+      { label: { uz: "Ø32×5.4", ru: "Ø32×5.4" }, value: "60m / 101903" },
+      { label: { uz: "Ø40×6.7", ru: "Ø40×6.7" }, value: "40m / 101904" },
+      { label: { uz: "Ø50×8.3", ru: "Ø50×8.3" }, value: "24m / 101905" },
+      { label: { uz: "Ø63×10.5", ru: "Ø63×10.5" }, value: "16m / 101906" },
+      { label: { uz: "Ø75×12.5", ru: "Ø75×12.5" }, value: "12m / 101907" },
+      { label: { uz: "Ø90×15", ru: "Ø90×15" }, value: "8m / 101908" },
+      { label: { uz: "Ø110×18.3", ru: "Ø110×18.3" }, value: "8m / 101909" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1019" }
+    ]
+  },
 
 
 
