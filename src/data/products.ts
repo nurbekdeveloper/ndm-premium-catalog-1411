@@ -145,6 +145,7 @@ import isocomLogoImg from "@/assets/partners/isocom-logo.png";
 import liderLogoImg from "@/assets/partners/lider-logo.png";
 import bleskLogoImg from "@/assets/partners/blesk-logo.png";
 import ndmLogoImg from "@/assets/ndm-logo.png";
+import waterProLogoAsset from "@/assets/partners/waterpro-logo.png.asset.json";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
@@ -176,7 +177,7 @@ export interface ProductVariant {
 export interface Product {
   id: string;
   name: string;
-  category: "hydro-plast" | "shimge" | "penopleks" | "acc" | "blesk";
+  category: "hydro-plast" | "shimge" | "penopleks" | "acc" | "blesk" | "waterpro";
   images: string[];
   description: {
     uz: string;
@@ -5836,6 +5837,15 @@ export const categories = [
       ru: "Электрические водонагреватели. Высокое качество и долгий срок службы."
     },
     logo: bleskLogoImg
+  },
+  {
+    id: "waterpro",
+    name: { uz: "WATERPRO", ru: "WATERPRO" },
+    description: {
+      uz: "Suv ta'minoti va filtrlash yechimlari. Toza suv uchun ishonchli uskunalar.",
+      ru: "Решения для водоснабжения и фильтрации. Надежное оборудование для чистой воды."
+    },
+    logo: waterProLogoAsset.url
   },
   {
     id: "ndm",
