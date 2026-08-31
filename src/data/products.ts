@@ -161,6 +161,8 @@ import wpPprPn16_2mAsset from "@/assets/products/waterpro-ppr-pn16-2m.png.asset.
 import wpPprPn20_2mAsset from "@/assets/products/waterpro-ppr-pn20-2m.png.asset.json";
 import wpPprAlPertPn25Asset from "@/assets/products/waterpro-ppr-al-pert-pn25.png.asset.json";
 import wpPprPn10Asset from "@/assets/products/waterpro-ppr-pn10.png.asset.json";
+import wpPprPn16_4mAsset from "@/assets/products/waterpro-ppr-pn16-4m.png.asset.json";
+import wpPprPn20_4mAsset from "@/assets/products/waterpro-ppr-pn20-4m.png.asset.json";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
