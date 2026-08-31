@@ -155,6 +155,7 @@ import wpPexAlPexAsset from "@/assets/products/waterpro-pex-al-pex.png.asset.jso
 import wpPertAlPertAsset from "@/assets/products/waterpro-pert-al-pert.png.asset.json";
 import wpInsRedAsset from "@/assets/products/waterpro-insulated-pex-red.png.asset.json";
 import wpInsBlueAsset from "@/assets/products/waterpro-insulated-pex-blue.png.asset.json";
+import wpPprPn16InsAsset from "@/assets/products/waterpro-ppr-pn16-insulated.png.asset.json";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
