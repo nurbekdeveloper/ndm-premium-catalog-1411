@@ -575,6 +575,136 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1019" }
     ]
   },
+  {
+    id: "waterpro-equal-socket",
+    name: "WaterPRO Муфта / Equal Socket",
+    category: "waterpro",
+    images: [wpEqualSocketAsset.url],
+    description: {
+      uz: "WaterPRO PP-R mufta (Equal Socket) — bir xil diametrli quvurlarni ulash uchun. 9 xil o'lchamda (Ø20–Ø110).",
+      ru: "Муфта WaterPRO PP-R (Equal Socket) — для соединения труб одинакового диаметра. 9 типоразмеров (Ø20–Ø110)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Муфта / Equal Socket" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "960 (40) / 102001" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "700 (25) / 102002" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "440 (20) / 102003" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "216 (12) / 102004" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "144 (6) / 102005" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "96 (4) / 102006" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "45 / 102007" },
+      { label: { uz: "Ø90", ru: "Ø90" }, value: "36 / 102008" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "16 / 102009" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1020" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-45",
+    name: "WaterPRO Полуотвод 45° / 45° Elbow",
+    category: "waterpro",
+    images: [wpElbow45Asset.url],
+    description: {
+      uz: "WaterPRO PP-R 45° burchakli otvod — quvur yo'nalishini 45 gradusga burish uchun. 9 xil o'lchamda (Ø20–Ø110).",
+      ru: "Полуотвод WaterPRO PP-R 45° — для изменения направления трубопровода на 45 градусов. 9 типоразмеров (Ø20–Ø110)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Полуотвод 45° / 45° Elbow" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "750 (30) / 102101" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "400 (20) / 102102" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "200 (10) / 102103" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "162 (9) / 102104" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "90 (6) / 102105" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "54 (3) / 102106" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "28 / 102107" },
+      { label: { uz: "Ø90", ru: "Ø90" }, value: "20 / 102108" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "10 / 102109" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1021" }
+    ]
+  },
+  {
+    id: "waterpro-reduced-tee",
+    name: "WaterPRO Тройник переходник / Reduced Tee",
+    category: "waterpro",
+    images: [wpTeeAsset.url],
+    description: {
+      uz: "WaterPRO PP-R o'tuvchi troynik (Reduced Tee) — turli diametrli quvurlarni tarmoqlash uchun. 27 xil o'lchamda.",
+      ru: "Тройник переходник WaterPRO PP-R (Reduced Tee) — для разветвления труб разного диаметра. 27 типоразмеров."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Тройник переходник / Reduced Tee" },
+      { label: { uz: "Ø20-25-20", ru: "Ø20-25-20" }, value: "300 (15) / 102201" },
+      { label: { uz: "Ø32-20-32", ru: "Ø32-20-32" }, value: "252 (9) / 102202" },
+      { label: { uz: "Ø32-25-32", ru: "Ø32-25-32" }, value: "198 (9) / 102203" },
+      { label: { uz: "Ø40-20-40", ru: "Ø40-20-40" }, value: "150 (5) / 102204" },
+      { label: { uz: "Ø40-25-40", ru: "Ø40-25-40" }, value: "108 (6) / 102205" },
+      { label: { uz: "Ø40-32-40", ru: "Ø40-32-40" }, value: "108 (6) / 102206" },
+      { label: { uz: "Ø50-20-50", ru: "Ø50-20-50" }, value: "96 (4) / 102207" },
+      { label: { uz: "Ø50-25-50", ru: "Ø50-25-50" }, value: "88 (4) / 102208" },
+      { label: { uz: "Ø50-32-50", ru: "Ø50-32-50" }, value: "88 (4) / 102209" },
+      { label: { uz: "Ø50-40-50", ru: "Ø50-40-50" }, value: "72 (4) / 102210" },
+      { label: { uz: "Ø63-20-63", ru: "Ø63-20-63" }, value: "72 (4) / 102211" },
+      { label: { uz: "Ø63-25-63", ru: "Ø63-25-63" }, value: "48 (4) / 102212" },
+      { label: { uz: "Ø63-32-63", ru: "Ø63-32-63" }, value: "40 (2) / 102213" },
+      { label: { uz: "Ø63-40-63", ru: "Ø63-40-63" }, value: "40 (2) / 102214" },
+      { label: { uz: "Ø63-50-63", ru: "Ø63-50-63" }, value: "38 (2) / 102215" },
+      { label: { uz: "Ø75-32-75", ru: "Ø75-32-75" }, value: "28 / 102216" },
+      { label: { uz: "Ø75-40-75", ru: "Ø75-40-75" }, value: "28 / 102217" },
+      { label: { uz: "Ø75-50-75", ru: "Ø75-50-75" }, value: "28 / 102218" },
+      { label: { uz: "Ø75-63-75", ru: "Ø75-63-75" }, value: "20 / 102219" },
+      { label: { uz: "Ø90-40-90", ru: "Ø90-40-90" }, value: "24 / 102220" },
+      { label: { uz: "Ø90-50-90", ru: "Ø90-50-90" }, value: "16 / 102221" },
+      { label: { uz: "Ø90-63-90", ru: "Ø90-63-90" }, value: "14 / 102222" },
+      { label: { uz: "Ø90-75-90", ru: "Ø90-75-90" }, value: "12 / 102223" },
+      { label: { uz: "Ø110-50-110", ru: "Ø110-50-110" }, value: "10 / 102224" },
+      { label: { uz: "Ø110-63-110", ru: "Ø110-63-110" }, value: "10 / 102225" },
+      { label: { uz: "Ø110-75-110", ru: "Ø110-75-110" }, value: "10 / 102226" },
+      { label: { uz: "Ø110-90-110", ru: "Ø110-90-110" }, value: "8 / 102227" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1022" }
+    ]
+  },
+  {
+    id: "waterpro-equal-tee",
+    name: "WaterPRO Тройник / Equal Tee",
+    category: "waterpro",
+    images: [wpTeeAsset.url],
+    description: {
+      uz: "WaterPRO PP-R troynik (Equal Tee) — bir xil diametrli quvurlarni tarmoqlash uchun. 9 xil o'lchamda (Ø20–Ø110).",
+      ru: "Тройник WaterPRO PP-R (Equal Tee) — для разветвления труб одинакового диаметра. 9 типоразмеров (Ø20–Ø110)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Тройник / Equal Tee" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "400 (20) / 102301" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "250 (10) / 102302" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "176 (8) / 102303" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "104 (4) / 102304" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "64 (4) / 102305" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "38 (2) / 102306" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "20 / 102307" },
+      { label: { uz: "Ø90", ru: "Ø90" }, value: "10 / 102308" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "6 / 102309" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1023" }
+    ]
+  },
+  {
+    id: "waterpro-pipe-cap",
+    name: "WaterPRO Заглушка / Pipe Caps",
+    category: "waterpro",
+    images: [wpPipeCapAsset.url],
+    description: {
+      uz: "WaterPRO PP-R zaglushka (Pipe Cap) — quvur uchini berkitish uchun. 6 xil o'lchamda (Ø20–Ø63).",
+      ru: "Заглушка WaterPRO PP-R (Pipe Cap) — для герметичного закрытия конца трубы. 6 типоразмеров (Ø20–Ø63)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Заглушка / Pipe Caps" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "1260 (70) / 102801" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "800 (40) / 102802" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "450 (30) / 102803" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "320 (16) / 102804" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "192 (12) / 102805" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "120 (6) / 102806" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1028" }
+    ]
+  },
 
 
 
