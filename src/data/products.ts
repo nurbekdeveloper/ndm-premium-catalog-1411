@@ -379,6 +379,29 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1010" }
     ]
   },
+  {
+    id: "waterpro-ppr-pn20-insulated",
+    name: "WaterPRO Труба PN-20 ГВС (с термоизоляционной оболочкой)",
+    category: "waterpro",
+    images: [wpPprPn20InsAsset.url],
+    description: {
+      uz: "WaterPRO PP-R PN-20 issiq suv ta'minoti (ГВС) quvuri — termoizolyatsion qoplama bilan. Qizil va ko'k rangda, 8 xil o'lchamda mavjud.",
+      ru: "Труба WaterPRO PP-R PN-20 ГВС с термоизоляционной оболочкой — красная и синяя, 8 типоразмеров."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R PN-20 ГВС" },
+      { label: { uz: "Ø20×2.8 (qizil)", ru: "Ø20×2.8 (красный)" }, value: "140m / 101101" },
+      { label: { uz: "Ø25×3.5 (qizil)", ru: "Ø25×3.5 (красный)" }, value: "100m / 101102" },
+      { label: { uz: "Ø32×4.4 (qizil)", ru: "Ø32×4.4 (красный)" }, value: "60m / 101103" },
+      { label: { uz: "Ø40×5.5 (qizil)", ru: "Ø40×5.5 (красный)" }, value: "40m / 101104" },
+      { label: { uz: "Ø20×2.8 (ko'k)", ru: "Ø20×2.8 (синий)" }, value: "140m / 101105" },
+      { label: { uz: "Ø25×3.5 (ko'k)", ru: "Ø25×3.5 (синий)" }, value: "100m / 101106" },
+      { label: { uz: "Ø32×4.4 (ko'k)", ru: "Ø32×4.4 (синий)" }, value: "60m / 101107" },
+      { label: { uz: "Ø40×5.5 (ko'k)", ru: "Ø40×5.5 (синий)" }, value: "40m / 101108" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1011" }
+    ]
+  },
+
 
   // Hydro Plast - PP-R Pipes (only 1 product)
   {
