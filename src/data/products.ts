@@ -157,6 +157,10 @@ import wpInsRedAsset from "@/assets/products/waterpro-insulated-pex-red.png.asse
 import wpInsBlueAsset from "@/assets/products/waterpro-insulated-pex-blue.png.asset.json";
 import wpPprPn16InsAsset from "@/assets/products/waterpro-ppr-pn16-insulated.png.asset.json";
 import wpPprPn20InsAsset from "@/assets/products/waterpro-ppr-pn20-insulated.png.asset.json";
+import wpPprPn16_2mAsset from "@/assets/products/waterpro-ppr-pn16-2m.png.asset.json";
+import wpPprPn20_2mAsset from "@/assets/products/waterpro-ppr-pn20-2m.png.asset.json";
+import wpPprAlPertPn25Asset from "@/assets/products/waterpro-ppr-al-pert-pn25.png.asset.json";
+import wpPprPn10Asset from "@/assets/products/waterpro-ppr-pn10.png.asset.json";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
@@ -400,6 +404,81 @@ export const products: Product[] = [
       { label: { uz: "Ø32×4.4 (ko'k)", ru: "Ø32×4.4 (синий)" }, value: "60m / 101107" },
       { label: { uz: "Ø40×5.5 (ko'k)", ru: "Ø40×5.5 (синий)" }, value: "40m / 101108" },
       { label: { uz: "Kod", ru: "Код" }, value: "1011" }
+    ]
+  },
+  {
+    id: "waterpro-ppr-pn16-2m",
+    name: "WaterPRO Труба PN16 ХВС / PP-R Pipe PN16 Cold (2м/штук)",
+    category: "waterpro",
+    images: [wpPprPn16_2mAsset.url],
+    description: {
+      uz: "WaterPRO PP-R PN16 sovuq suv quvuri, 2 metrlik shtangalarda. Ichimlik va texnik sovuq suv tizimlari uchun. 3 xil o'lchamda.",
+      ru: "Труба WaterPRO PP-R PN16 ХВС в отрезках по 2 м. Для систем холодного питьевого и технического водоснабжения. 3 типоразмера."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R PN16 ХВС (2м/штук)" },
+      { label: { uz: "Ø20×2.8", ru: "Ø20×2.8" }, value: "70m / 101201" },
+      { label: { uz: "Ø25×3.5", ru: "Ø25×3.5" }, value: "50m / 101202" },
+      { label: { uz: "Ø32×4.4", ru: "Ø32×4.4" }, value: "30m / 101203" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1012" }
+    ]
+  },
+  {
+    id: "waterpro-ppr-pn20-2m",
+    name: "WaterPRO Труба PN20 ГВС / PP-R Pipe PN20 Hot (2м/штук)",
+    category: "waterpro",
+    images: [wpPprPn20_2mAsset.url],
+    description: {
+      uz: "WaterPRO PP-R PN20 issiq suv quvuri, 2 metrlik shtangalarda. Issiq suv ta'minoti va isitish tizimlari uchun. 3 xil o'lchamda.",
+      ru: "Труба WaterPRO PP-R PN20 ГВС в отрезках по 2 м. Для систем горячего водоснабжения и отопления. 3 типоразмера."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R PN20 ГВС (2м/штук)" },
+      { label: { uz: "Ø20×2.8", ru: "Ø20×2.8" }, value: "70m / 101301" },
+      { label: { uz: "Ø25×3.5", ru: "Ø25×3.5" }, value: "50m / 101302" },
+      { label: { uz: "Ø32×4.4", ru: "Ø32×4.4" }, value: "30m / 101303" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1013" }
+    ]
+  },
+  {
+    id: "waterpro-ppr-al-pert-pn25",
+    name: "WaterPRO Труба PN-25 ГВС PPR/AL/PERT (с алюминиевой фольгой)",
+    category: "waterpro",
+    images: [wpPprAlPertPn25Asset.url],
+    description: {
+      uz: "WaterPRO PN-25 PPR/AL/PERT armaturali quvur — alyuminiy folga qatlami bilan. Kengayishni kamaytiradi, kislorod o'tishini to'sadi. Isitish va ГВС uchun, 6 xil o'lchamda.",
+      ru: "Труба WaterPRO PN-25 ГВС PPR/AL/PERT с алюминиевой фольгой — минимальное линейное расширение и кислородный барьер. Для отопления и ГВС, 6 типоразмеров."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR/AL/PERT PN-25" },
+      { label: { uz: "Ø20×3.4", ru: "Ø20×3.4" }, value: "120m / 101401" },
+      { label: { uz: "Ø25×4.2", ru: "Ø25×4.2" }, value: "80m / 101402" },
+      { label: { uz: "Ø32×5.4", ru: "Ø32×5.4" }, value: "60m / 101403" },
+      { label: { uz: "Ø40×6.7", ru: "Ø40×6.7" }, value: "40m / 101404" },
+      { label: { uz: "Ø50×6.9", ru: "Ø50×6.9" }, value: "24m / 101405" },
+      { label: { uz: "Ø63×9.5", ru: "Ø63×9.5" }, value: "16m / 101406" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1014" }
+    ]
+  },
+  {
+    id: "waterpro-ppr-pn10",
+    name: "WaterPRO Труба PN10 ХВС / PP-R Pipe PN10 Cold (4м/штук)",
+    category: "waterpro",
+    images: [wpPprPn10Asset.url],
+    description: {
+      uz: "WaterPRO PP-R PN10 sovuq suv quvuri, 4 metrlik shtangalarda. Katta diametrli magistral sovuq suv liniyalari uchun. 7 xil o'lchamda (Ø32–Ø110).",
+      ru: "Труба WaterPRO PP-R PN10 ХВС в отрезках по 4 м. Для магистральных линий холодного водоснабжения большого диаметра. 7 типоразмеров (Ø32–Ø110)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R PN10 ХВС (4м/штук)" },
+      { label: { uz: "Ø32×3.0", ru: "Ø32×3.0" }, value: "60m / 101501" },
+      { label: { uz: "Ø40×3.7", ru: "Ø40×3.7" }, value: "40m / 101502" },
+      { label: { uz: "Ø50×4.6", ru: "Ø50×4.6" }, value: "24m / 101503" },
+      { label: { uz: "Ø63×5.8", ru: "Ø63×5.8" }, value: "16m / 101504" },
+      { label: { uz: "Ø75×6.9", ru: "Ø75×6.9" }, value: "12m / 101505" },
+      { label: { uz: "Ø90×8.2", ru: "Ø90×8.2" }, value: "8m / 101506" },
+      { label: { uz: "Ø110×10.1", ru: "Ø110×10.1" }, value: "8m / 101507" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1015" }
     ]
   },
 
