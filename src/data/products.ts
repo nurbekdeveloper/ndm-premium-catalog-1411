@@ -147,6 +147,14 @@ import bleskLogoImg from "@/assets/partners/blesk-logo.png";
 import ndmLogoImg from "@/assets/ndm-logo.png";
 import waterProLogoAsset from "@/assets/partners/waterpro-logo.png.asset.json";
 import waterProPertPipeAsset from "@/assets/products/waterpro-pert-pipe.png.asset.json";
+import wpPertRed300Asset from "@/assets/products/waterpro-pert-red-300m.png.asset.json";
+import wpPertBlackAsset from "@/assets/products/waterpro-pert-black.png.asset.json";
+import wpPertEvohAsset from "@/assets/products/waterpro-pert-evoh.png.asset.json";
+import wpPexaAsset from "@/assets/products/waterpro-pexa.png.asset.json";
+import wpPexAlPexAsset from "@/assets/products/waterpro-pex-al-pex.png.asset.json";
+import wpPertAlPertAsset from "@/assets/products/waterpro-pert-al-pert.png.asset.json";
+import wpInsRedAsset from "@/assets/products/waterpro-insulated-pex-red.png.asset.json";
+import wpInsBlueAsset from "@/assets/products/waterpro-insulated-pex-blue.png.asset.json";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
@@ -208,6 +216,148 @@ export const products: Product[] = [
       { label: { uz: "Qadoqdagi miqdor", ru: "Кол-во в упаковке" }, value: "200 m" },
       { label: { uz: "Raqamlanishi", ru: "Нумерация" }, value: "100101" },
       { label: { uz: "Kod", ru: "Код" }, value: "1001" }
+    ]
+  },
+  {
+    id: "waterpro-pert-red-16x2",
+    name: "WaterPRO Труба PE-RT Ø16×2.0 (красная, 300м)",
+    category: "waterpro",
+    images: [wpPertRed300Asset.url],
+    description: {
+      uz: "WaterPRO PE-RT qizil quvuri Ø16×2.0 mm — issiq va sovuq suv ta'minoti hamda yerdan isitish tizimlari uchun. Bir o'ramda 300 metr.",
+      ru: "Красная труба WaterPRO PE-RT Ø16×2.0 мм — для горячего и холодного водоснабжения и напольного отопления. В упаковке 300 м."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PE-RT" },
+      { label: { uz: "Rangi", ru: "Цвет" }, value: "Qizil / Красный" },
+      { label: { uz: "O'lchami", ru: "Размер" }, value: "Ø16×2.0" },
+      { label: { uz: "Qadoqdagi miqdor", ru: "Кол-во в упаковке" }, value: "300 m" },
+      { label: { uz: "Raqamlanishi", ru: "Нумерация" }, value: "100201" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1002" }
+    ]
+  },
+  {
+    id: "waterpro-pert-black-16x2",
+    name: "WaterPRO Труба PE-RT Ø16×2.0 (чёрная)",
+    category: "waterpro",
+    images: [wpPertBlackAsset.url],
+    description: {
+      uz: "WaterPRO PE-RT qora quvuri Ø16×2.0 mm — issiq va sovuq suv ta'minoti hamda isitish tizimlari uchun. Bir o'ramda 200 metr.",
+      ru: "Чёрная труба WaterPRO PE-RT Ø16×2.0 мм — для систем водоснабжения и отопления. В упаковке 200 м."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PE-RT" },
+      { label: { uz: "Rangi", ru: "Цвет" }, value: "Qora / Чёрный" },
+      { label: { uz: "O'lchami", ru: "Размер" }, value: "Ø16×2.0" },
+      { label: { uz: "Qadoqdagi miqdor", ru: "Кол-во в упаковке" }, value: "200 m" },
+      { label: { uz: "Raqamlanishi", ru: "Нумерация" }, value: "100301" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1003" }
+    ]
+  },
+  {
+    id: "waterpro-pert-evoh-16x2",
+    name: "WaterPRO Труба PERT-EVOH Ø16×2.0",
+    category: "waterpro",
+    images: [wpPertEvohAsset.url],
+    description: {
+      uz: "WaterPRO PERT-EVOH quvuri Ø16×2.0 mm — kislorod o'tkazmaydigan EVOH qatlamli quvur, yerdan isitish tizimlari uchun ideal. Bir o'ramda 200 metr.",
+      ru: "Труба WaterPRO PERT-EVOH Ø16×2.0 мм — с кислородонепроницаемым слоем EVOH, идеальна для напольного отопления. В упаковке 200 м."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PERT-EVOH" },
+      { label: { uz: "O'lchami", ru: "Размер" }, value: "Ø16×2.0" },
+      { label: { uz: "Qadoqdagi miqdor", ru: "Кол-во в упаковке" }, value: "200 m" },
+      { label: { uz: "Raqamlanishi", ru: "Нумерация" }, value: "100401" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1004" }
+    ]
+  },
+  {
+    id: "waterpro-pexa-16x2",
+    name: "WaterPRO Труба PE-Xa Ø16×2.0",
+    category: "waterpro",
+    images: [wpPexaAsset.url],
+    description: {
+      uz: "WaterPRO PE-Xa quvuri Ø16×2.0 mm — peroksid usulida tikilgan polietilen quvur, yuqori bosim va haroratga chidamli. Bir o'ramda 200 metr.",
+      ru: "Труба WaterPRO PE-Xa Ø16×2.0 мм — сшитый пероксидным методом полиэтилен, устойчива к высокому давлению и температуре. В упаковке 200 м."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PE-Xa" },
+      { label: { uz: "O'lchami", ru: "Размер" }, value: "Ø16×2.0" },
+      { label: { uz: "Qadoqdagi miqdor", ru: "Кол-во в упаковке" }, value: "200 m" },
+      { label: { uz: "Raqamlanishi", ru: "Нумерация" }, value: "100501" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1005" }
+    ]
+  },
+  {
+    id: "waterpro-pex-al-pex-laser",
+    name: "WaterPRO Труба PEX-AL-PEX LASER",
+    category: "waterpro",
+    images: [wpPexAlPexAsset.url],
+    description: {
+      uz: "WaterPRO PEX-AL-PEX LASER metall-plastik quvuri — lazer payvandlangan alyuminiy qatlamli, shakl saqlovchi, kislorod o'tkazmaydigan quvur. 4 xil o'lchamda.",
+      ru: "Металлопластиковая труба WaterPRO PEX-AL-PEX LASER — с лазерной сваркой алюминиевого слоя, держит форму, кислородонепроницаемая. 4 типоразмера."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PEX-AL-PEX LASER" },
+      { label: { uz: "Ø16×2.0", ru: "Ø16×2.0" }, value: "200m / 100601" },
+      { label: { uz: "Ø20×2.0", ru: "Ø20×2.0" }, value: "100m / 100602" },
+      { label: { uz: "Ø26×3.0", ru: "Ø26×3.0" }, value: "50m / 100603" },
+      { label: { uz: "Ø32×3.0", ru: "Ø32×3.0" }, value: "50m / 100604" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1006" }
+    ]
+  },
+  {
+    id: "waterpro-pert-al-pert",
+    name: "WaterPRO Труба PERT-AL-PERT",
+    category: "waterpro",
+    images: [wpPertAlPertAsset.url],
+    description: {
+      uz: "WaterPRO PERT-AL-PERT metall-plastik quvuri — alyuminiy qatlamli, egiluvchan va mustahkam, isitish va suv ta'minoti uchun. 2 xil o'lchamda.",
+      ru: "Металлопластиковая труба WaterPRO PERT-AL-PERT — с алюминиевым слоем, гибкая и прочная, для отопления и водоснабжения. 2 типоразмера."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PERT-AL-PERT" },
+      { label: { uz: "Ø16×2.0", ru: "Ø16×2.0" }, value: "200m / 100701" },
+      { label: { uz: "Ø20×2.0", ru: "Ø20×2.0" }, value: "100m / 100702" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1007" }
+    ]
+  },
+  {
+    id: "waterpro-insulated-pex-red",
+    name: "WaterPRO Изолированная труба PEX-AL-PEX LASER (красная)",
+    category: "waterpro",
+    images: [wpInsRedAsset.url],
+    description: {
+      uz: "WaterPRO izolyatsiyalangan metall-plastik quvuri PEX-AL-PEX LASER (qizil) — issiqlik yo'qotishini kamaytiruvchi qoplamali quvur. 4 xil o'lchamda.",
+      ru: "Изолированная металлопластиковая труба WaterPRO PEX-AL-PEX LASER (красная) — с теплоизоляционной оболочкой, снижает теплопотери. 4 типоразмера."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Insulated PEX-AL-PEX LASER" },
+      { label: { uz: "Rangi", ru: "Цвет" }, value: "Qizil / Красный" },
+      { label: { uz: "Ø16×2.0", ru: "Ø16×2.0" }, value: "100m / 100801" },
+      { label: { uz: "Ø20×2.0", ru: "Ø20×2.0" }, value: "50m / 100802" },
+      { label: { uz: "Ø26×3.0", ru: "Ø26×3.0" }, value: "50m / 100803" },
+      { label: { uz: "Ø32×3.0", ru: "Ø32×3.0" }, value: "25m / 100804" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1008" }
+    ]
+  },
+  {
+    id: "waterpro-insulated-pex-blue",
+    name: "WaterPRO Изолированная труба PEX-AL-PEX LASER (синяя)",
+    category: "waterpro",
+    images: [wpInsBlueAsset.url],
+    description: {
+      uz: "WaterPRO izolyatsiyalangan metall-plastik quvuri PEX-AL-PEX LASER (ko'k) — sovuq suv liniyalari uchun izolyatsiyali quvur. 4 xil o'lchamda.",
+      ru: "Изолированная металлопластиковая труба WaterPRO PEX-AL-PEX LASER (синяя) — для линий холодного водоснабжения. 4 типоразмера."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Insulated PEX-AL-PEX LASER" },
+      { label: { uz: "Rangi", ru: "Цвет" }, value: "Ko'k / Синий" },
+      { label: { uz: "Ø16×2.0", ru: "Ø16×2.0" }, value: "100m / 100901" },
+      { label: { uz: "Ø20×2.0", ru: "Ø20×2.0" }, value: "50m / 100902" },
+      { label: { uz: "Ø26×3.0", ru: "Ø26×3.0" }, value: "50m / 100903" },
+      { label: { uz: "Ø32×3.0", ru: "Ø32×3.0" }, value: "25m / 100904" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1009" }
     ]
   },
   // Hydro Plast - PP-R Pipes (only 1 product)
