@@ -360,6 +360,25 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1009" }
     ]
   },
+  {
+    id: "waterpro-ppr-pn16-insulated",
+    name: "WaterPRO Труба PN-16 ХВС (с термоизоляционной оболочкой)",
+    category: "waterpro",
+    images: [wpPprPn16InsAsset.url],
+    description: {
+      uz: "WaterPRO PP-R PN-16 sovuq suv quvuri — termoizolyatsion qoplama bilan. Kondensat va issiqlik yo'qotishidan himoya qiladi. 4 xil o'lchamda.",
+      ru: "Труба WaterPRO PP-R PN-16 ХВС с термоизоляционной оболочкой — защита от конденсата и теплопотерь. 4 типоразмера."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R PN-16 ХВС" },
+      { label: { uz: "Ø20×2.8", ru: "Ø20×2.8" }, value: "140m / 101001" },
+      { label: { uz: "Ø25×3.5", ru: "Ø25×3.5" }, value: "100m / 101002" },
+      { label: { uz: "Ø32×4.4", ru: "Ø32×4.4" }, value: "60m / 101003" },
+      { label: { uz: "Ø40×4.8", ru: "Ø40×4.8" }, value: "40m / 101004" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1010" }
+    ]
+  },
+
   // Hydro Plast - PP-R Pipes (only 1 product)
   {
     id: "ppr-pn10-20",
