@@ -238,6 +238,11 @@ import wpAdapterMale1074 from "@/assets/products/waterpro-adapter-male-1074.png"
 import wpDoubleElbow1075 from "@/assets/products/waterpro-double-elbow-1075.png";
 import wpAdapterUnion1076 from "@/assets/products/waterpro-adapter-union-1076.png";
 import wpUElbow1089 from "@/assets/products/waterpro-u-elbow-1089.png";
+import wpDoubleElbow1078 from "@/assets/products/waterpro-double-elbow-1078.png";
+import wpStopCheckValve1077 from "@/assets/products/waterpro-stop-check-valve-1077.png";
+import wpAngleRadValve1079 from "@/assets/products/waterpro-angle-radiator-valve-1079.png";
+import wpStraightRadValve1080 from "@/assets/products/waterpro-straight-radiator-valve-1080.png";
+import wpBallValve1081 from "@/assets/products/waterpro-ball-valve-1081.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
