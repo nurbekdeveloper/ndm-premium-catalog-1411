@@ -1802,6 +1802,100 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1072" }
     ]
   },
+  {
+    id: "waterpro-adapter-female-1073",
+    name: "WaterPRO Адаптер с внутренней резьбой полипропиленовый PP-R «S-CLASS»",
+    category: "waterpro",
+    images: [wpAdapterFemale1073],
+    description: {
+      uz: "WaterPRO ichki rezbali adapter, polipropilen PP-R «S-CLASS». O'lchamlari: Ø20×1/2\" dan Ø63×2\" gacha.",
+      ru: "Адаптер с внутренней резьбой полипропиленовый PP-R WaterPRO «S-CLASS». Размеры: от Ø20×1/2\" до Ø63×2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R Female Adapter S-CLASS" },
+      { label: { uz: "Ø20 x 1/2\"", ru: "Ø20 x 1/2\"" }, value: "150 (10) шт / 1073.20.12" },
+      { label: { uz: "Ø25 x 1/2\"", ru: "Ø25 x 1/2\"" }, value: "120 (10) шт / 1073.25.12" },
+      { label: { uz: "Ø25 x 3/4\"", ru: "Ø25 x 3/4\"" }, value: "120 (10) шт / 1073.25.34" },
+      { label: { uz: "Ø32 x 3/4\"", ru: "Ø32 x 3/4\"" }, value: "72 (6) шт / 1073.32.34" },
+      { label: { uz: "Ø32 x 1\"", ru: "Ø32 x 1\"" }, value: "48 (4) шт / 1073.32.1" },
+      { label: { uz: "Ø40 x 1 1/4\"", ru: "Ø40 x 1 1/4\"" }, value: "30 (3) шт / 1073.40.114" },
+      { label: { uz: "Ø50 x 1 1/2\"", ru: "Ø50 x 1 1/2\"" }, value: "24 (2) шт / 1073.50.112" },
+      { label: { uz: "Ø63 x 2\"", ru: "Ø63 x 2\"" }, value: "19 (1) шт / 1073.63.2" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1073" }
+    ]
+  },
+  {
+    id: "waterpro-adapter-male-1074",
+    name: "WaterPRO Адаптер с наружной резьбой полипропиленовый PP-R «S-CLASS»",
+    category: "waterpro",
+    images: [wpAdapterMale1074],
+    description: {
+      uz: "WaterPRO tashqi rezbali adapter, polipropilen PP-R «S-CLASS». O'lchamlari: Ø20×1/2\" dan Ø63×2\" gacha.",
+      ru: "Адаптер с наружной резьбой полипропиленовый PP-R WaterPRO «S-CLASS». Размеры: от Ø20×1/2\" до Ø63×2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R Male Adapter S-CLASS" },
+      { label: { uz: "Ø20 x 1/2\"", ru: "Ø20 x 1/2\"" }, value: "150 (10) шт / 1074.20.12" },
+      { label: { uz: "Ø25 x 1/2\"", ru: "Ø25 x 1/2\"" }, value: "120 (10) шт / 1074.25.12" },
+      { label: { uz: "Ø25 x 3/4\"", ru: "Ø25 x 3/4\"" }, value: "120 (10) шт / 1074.25.34" },
+      { label: { uz: "Ø32 x 3/4\"", ru: "Ø32 x 3/4\"" }, value: "72 (6) шт / 1074.32.34" },
+      { label: { uz: "Ø32 x 1\"", ru: "Ø32 x 1\"" }, value: "48 (4) шт / 1074.32.1" },
+      { label: { uz: "Ø40 x 1 1/4\"", ru: "Ø40 x 1 1/4\"" }, value: "30 (3) шт / 1074.40.114" },
+      { label: { uz: "Ø50 x 1 1/2\"", ru: "Ø50 x 1 1/2\"" }, value: "20 (2) шт / 1074.50.112" },
+      { label: { uz: "Ø63 x 2\"", ru: "Ø63 x 2\"" }, value: "16 (1) шт / 1074.63.2" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1074" }
+    ]
+  },
+  {
+    id: "waterpro-double-elbow-1075",
+    name: "WaterPRO U-Двойной отвод с креплением В/Р «S-CLASS»",
+    category: "waterpro",
+    images: [wpDoubleElbow1075],
+    description: {
+      uz: "WaterPRO U-shaklidagi qo'sh otvod, mahkamlagichli, ichki rezbali (V/R) «S-CLASS». O'lchamlari: Ø20×1/2 va Ø25×1/2.",
+      ru: "U-Двойной отвод с креплением В/Р WaterPRO «S-CLASS». Размеры: Ø20×1/2 и Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Double Elbow S-CLASS" },
+      { label: { uz: "Ø20 x 1/2", ru: "Ø20 x 1/2" }, value: "24 шт / 107501" },
+      { label: { uz: "Ø25 x 1/2", ru: "Ø25 x 1/2" }, value: "20 шт / 107502" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1075" }
+    ]
+  },
+  {
+    id: "waterpro-adapter-union-1076",
+    name: "WaterPRO Адаптер с накидной гайкой «S-CLASS»",
+    category: "waterpro",
+    images: [wpAdapterUnion1076],
+    description: {
+      uz: "WaterPRO gaykali adapter «S-CLASS». O'lchamlari: Ø20×1/2 dan Ø32×3/4 gacha.",
+      ru: "Адаптер с накидной гайкой WaterPRO «S-CLASS». Размеры: от Ø20×1/2 до Ø32×3/4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Male Seated Elbow S-CLASS" },
+      { label: { uz: "Ø20 x 1/2", ru: "Ø20 x 1/2" }, value: "120 шт / 107601" },
+      { label: { uz: "Ø25 x 1/2", ru: "Ø25 x 1/2" }, value: "120 шт / 107602" },
+      { label: { uz: "Ø25 x 3/4", ru: "Ø25 x 3/4" }, value: "90 шт / 107603" },
+      { label: { uz: "Ø32 x 3/4", ru: "Ø32 x 3/4" }, value: "72 шт / 107604" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1076" }
+    ]
+  },
+  {
+    id: "waterpro-u-elbow-1089",
+    name: "WaterPRO U-Двойной отвод В/Р «S-CLASS»",
+    category: "waterpro",
+    images: [wpUElbow1089],
+    description: {
+      uz: "WaterPRO U-shaklidagi qo'sh otvod, ichki rezbali (V/R) «S-CLASS». O'lchamlari: Ø20×1/2 va Ø25×1/2.",
+      ru: "U-Двойной отвод В/Р WaterPRO «S-CLASS». Размеры: Ø20×1/2 и Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "U Elbow S-CLASS" },
+      { label: { uz: "Ø20 x 1/2", ru: "Ø20 x 1/2" }, value: "108901" },
+      { label: { uz: "Ø25 x 1/2", ru: "Ø25 x 1/2" }, value: "44 шт / 108902" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1089" }
+    ]
+  },
 
 
 
