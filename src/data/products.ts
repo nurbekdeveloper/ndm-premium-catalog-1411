@@ -207,6 +207,11 @@ import wpDoubleWallElbow from "@/assets/products/waterpro-double-wall-elbow.png"
 import wpElbowMaleEco from "@/assets/products/waterpro-elbow-male.png";
 import wpSeatedElbowFemale from "@/assets/products/waterpro-seated-elbow-female.png";
 import wpSeatedElbowMale from "@/assets/products/waterpro-seated-elbow-male.png";
+import wpExtendedFemaleElbow from "@/assets/products/waterpro-extended-female-elbow.png";
+import wpTeeFemale1057 from "@/assets/products/waterpro-tee-female-1057.png";
+import wpTeeMale1058 from "@/assets/products/waterpro-tee-male-1058.png";
+import wpUElbow1092 from "@/assets/products/waterpro-u-elbow-1092.png";
+import wpUnionNut1046 from "@/assets/products/waterpro-union-nut-1046.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1318,6 +1323,94 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1056" }
     ]
   },
+  {
+    id: "waterpro-extended-female-elbow-1093",
+    name: "WaterPRO Адаптер комбинированный удлиненный В/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpExtendedFemaleElbow],
+    description: {
+      uz: "WaterPRO uzaytirilgan kombinatsiyalangan ichki rezbali adapter (burchakli) PP-R «ECOLINE». O'lchamlari: L 20×1/2, L 25×1/2.",
+      ru: "Адаптер комбинированный удлиненный В/Р полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: L 20×1/2, L 25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Extended Female Elbow, PP-R ECOLINE" },
+      { label: { uz: "L 20 × 1/2", ru: "L 20 × 1/2" }, value: "120 шт / 109301" },
+      { label: { uz: "L 25 × 1/2", ru: "L 25 × 1/2" }, value: "100 шт / 109302" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1093" }
+    ]
+  },
+  {
+    id: "waterpro-tee-female-1057",
+    name: "WaterPRO Адаптер тройник комбинированный В/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpTeeFemale1057],
+    description: {
+      uz: "WaterPRO kombinatsiyalangan ichki rezbali troynik-adapter PP-R «ECOLINE». O'lchamlari: Ø25×1/2, Ø32×1/2.",
+      ru: "Адаптер тройник комбинированный В/Р полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: Ø25×1/2, Ø32×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Female Tee, PP-R ECOLINE" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "120 шт / 1057.25.12" },
+      { label: { uz: "Ø32 × 1/2", ru: "Ø32 × 1/2" }, value: "100 шт / 1057.32.12" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1057" }
+    ]
+  },
+  {
+    id: "waterpro-tee-male-1058",
+    name: "WaterPRO Тройник комбинированный Н/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpTeeMale1058],
+    description: {
+      uz: "WaterPRO kombinatsiyalangan tashqi rezbali troynik PP-R «ECOLINE». O'lchamlari: Ø20×1/2 dan Ø32×1 gacha.",
+      ru: "Тройник комбинированный Н/Р полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: от Ø20×1/2 до Ø32×1."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Male Tee, PP-R ECOLINE" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "180 шт / 105801" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "160 шт / 105802" },
+      { label: { uz: "Ø25 × 3/4", ru: "Ø25 × 3/4" }, value: "128 шт / 105803" },
+      { label: { uz: "Ø32 × 1/2", ru: "Ø32 × 1/2" }, value: "96 шт / 105804" },
+      { label: { uz: "Ø32 × 3/4", ru: "Ø32 × 3/4" }, value: "96 шт / 105805" },
+      { label: { uz: "Ø32 × 1", ru: "Ø32 × 1" }, value: "72 шт / 105806" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1058" }
+    ]
+  },
+  {
+    id: "waterpro-u-elbow-1092",
+    name: "WaterPRO U-Двойной отвод В/Р PP-R «S CLASS»",
+    category: "waterpro",
+    images: [wpUElbow1092],
+    description: {
+      uz: "WaterPRO U-shaklidagi ikki tomonlama ichki rezbali otvod PP-R «S CLASS». O'lchamlari: Ø20×1/2, Ø25×1/2.",
+      ru: "U-Двойной отвод В/Р полипропиленовый PP-R WaterPRO «S CLASS». Размеры: Ø20×1/2, Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "U Elbow, PP-R S CLASS" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "140 шт / 109201" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "100 шт / 109202" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1092" }
+    ]
+  },
+  {
+    id: "waterpro-union-nut-1046",
+    name: "WaterPRO Адаптер с накидной гайкой PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpUnionNut1046],
+    description: {
+      uz: "WaterPRO nakidnoy gaykali adapter PP-R «ECOLINE». O'lchamlari: Ø20×1/2 dan Ø32×1 gacha.",
+      ru: "Адаптер с накидной гайкой полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: от Ø20×1/2 до Ø32×1."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Female Seated Elbow, PP-R ECOLINE" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "260 шт / 104601" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "200 шт / 104602" },
+      { label: { uz: "Ø25 × 3/4", ru: "Ø25 × 3/4" }, value: "190 шт / 104603" },
+      { label: { uz: "Ø32 × 3/4", ru: "Ø32 × 3/4" }, value: "140 шт / 104604" },
+      { label: { uz: "Ø32 × 1", ru: "Ø32 × 1" }, value: "100 шт / 104605" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1046" }
+    ]
+  },
+
 
   // Hydro Plast - PP-R Pipes (only 1 product)
   {
