@@ -194,6 +194,11 @@ import wpWallCouplingLeft from "@/assets/products/waterpro-wall-coupling-left.pn
 import wpWallCouplingRight from "@/assets/products/waterpro-wall-coupling-right.png";
 import wpTeeY from "@/assets/products/waterpro-tee-y.png";
 import wpTeeBiplane from "@/assets/products/waterpro-tee-biplane.png";
+import wpCrossBridge from "@/assets/products/waterpro-cross-bridge.png";
+import wpCross from "@/assets/products/waterpro-cross.png";
+import wpDistributionBlock from "@/assets/products/waterpro-distribution-block.png";
+import wpUnionFemale from "@/assets/products/waterpro-union-female.png";
+import wpUnionMale from "@/assets/products/waterpro-union-male.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1021,6 +1026,109 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1085" }
     ]
   },
+  {
+    id: "waterpro-cross-bridge",
+    name: "WaterPRO Крестовина образный мостик полипропиленовый PP-R",
+    category: "waterpro",
+    images: [wpCrossBridge],
+    description: {
+      uz: "WaterPRO PP-R krestovina-ko'prik — quvurlar kesishgan joyda o'tkazish uchun. Ø20, Ø25, Ø32.",
+      ru: "Крестовина образный мостик полипропиленовый PP-R WaterPRO — для обвода в местах пересечения труб. Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Крестовина образный мостик PP-R" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "255 (15) / 1037.20" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "144 (8) / 1037.25" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "108 (6) / 1037.32" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1037" }
+    ]
+  },
+  {
+    id: "waterpro-cross",
+    name: "WaterPRO Крестовина полипропиленовая PP-R",
+    category: "waterpro",
+    images: [wpCross],
+    description: {
+      uz: "WaterPRO PP-R krestovina — quvurni to'rt tomonga tarmoqlash uchun. Ø20, Ø25, Ø32.",
+      ru: "Крестовина полипропиленовая PP-R WaterPRO — для разветвления трубопровода на четыре направления. Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Крестовина PP-R" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "400 (20) / 1038.20" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "250 (10) / 1038.25" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "144 (6) / 1038.32" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1038" }
+    ]
+  },
+  {
+    id: "waterpro-distribution-block",
+    name: "WaterPRO Распределительный блок ППР",
+    category: "waterpro",
+    images: [wpDistributionBlock],
+    description: {
+      uz: "WaterPRO PPR taqsimlovchi blok — suv taqsimlash tugunlarini yig'ish uchun. Ø20, Ø25.",
+      ru: "Распределительный блок ППР WaterPRO — для сборки узлов распределения воды. Ø20, Ø25."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Распределительный блок ППР" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "150 / 108301" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "96 / 108302" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1083" }
+    ]
+  },
+  {
+    id: "waterpro-union-female",
+    name: "WaterPRO Ракор (американка) с внутренней резьбой PP-R «PREMIUM»",
+    category: "waterpro",
+    images: [wpUnionFemale],
+    description: {
+      uz: "WaterPRO ichki rezbali amerikanka (rakor) PP-R «PREMIUM» — jihozlarni ajratiladigan ulash uchun. Ø20×1/2\" dan Ø110×4\" gacha.",
+      ru: "Ракор (американка) с внутренней резьбой полипропиленовый PP-R WaterPRO «PREMIUM» — для разъёмного соединения оборудования. От Ø20×1/2\" до Ø110×4\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Ракор (американка) В/Р, PREMIUM" },
+      { label: { uz: "Ø20 × 1/2\"", ru: "Ø20 × 1/2\"" }, value: "400 (1) / 1040.20.12" },
+      { label: { uz: "Ø25 × 1/2\"", ru: "Ø25 × 1/2\"" }, value: "200 (1) / 1040.25.12" },
+      { label: { uz: "Ø25 × 3/4\"", ru: "Ø25 × 3/4\"" }, value: "200 (1) / 1040.25.34" },
+      { label: { uz: "Ø25 × 1\"", ru: "Ø25 × 1\"" }, value: "180 (1) / 1040.25.1" },
+      { label: { uz: "Ø32 × 3/4\"", ru: "Ø32 × 3/4\"" }, value: "150 (1) / 1040.32.34" },
+      { label: { uz: "Ø32 × 1\"", ru: "Ø32 × 1\"" }, value: "130 (1) / 1040.32.1" },
+      { label: { uz: "Ø40 × 1 1/4\"", ru: "Ø40 × 1 1/4\"" }, value: "80 (8) / 1040.40.114" },
+      { label: { uz: "Ø50 × 1 1/2\"", ru: "Ø50 × 1 1/2\"" }, value: "50 (5) / 1040.50.112" },
+      { label: { uz: "Ø63 × 2\"", ru: "Ø63 × 2\"" }, value: "40 (4) / 1040.63.2" },
+      { label: { uz: "Ø75 × 2 1/2\"", ru: "Ø75 × 2 1/2\"" }, value: "1 (1) / 1040.75.212" },
+      { label: { uz: "Ø90 × 3\"", ru: "Ø90 × 3\"" }, value: "1 (1) / 1040.90.3" },
+      { label: { uz: "Ø110 × 4\"", ru: "Ø110 × 4\"" }, value: "1 (1) / 1040.110.4" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1040" }
+    ]
+  },
+  {
+    id: "waterpro-union-male",
+    name: "WaterPRO Ракор (американка) с наружной резьбой — Brass Male Union (Premium)",
+    category: "waterpro",
+    images: [wpUnionMale],
+    description: {
+      uz: "WaterPRO tashqi rezbali amerikanka (rakor), latun — Brass Male Union (Premium). Ø20×1/2 dan Ø110×4 gacha.",
+      ru: "Ракор (американка) с наружной резьбой WaterPRO — Brass Male Union (Premium). От Ø20×1/2 до Ø110×4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Ракор (американка) Н/Р, Premium" },
+      { label: { uz: "Ø20×1/2", ru: "Ø20×1/2" }, value: "230 / 104101" },
+      { label: { uz: "Ø25×1/2", ru: "Ø25×1/2" }, value: "150 / 104102" },
+      { label: { uz: "Ø25×3/4", ru: "Ø25×3/4" }, value: "150 / 104103" },
+      { label: { uz: "Ø25×1", ru: "Ø25×1" }, value: "110 / 104104" },
+      { label: { uz: "Ø32×3/4", ru: "Ø32×3/4" }, value: "100 / 104105" },
+      { label: { uz: "Ø32×1", ru: "Ø32×1" }, value: "90 / 104106" },
+      { label: { uz: "Ø40×1 1/4", ru: "Ø40×1 1/4" }, value: "50 / 104107" },
+      { label: { uz: "Ø50×1 1/2", ru: "Ø50×1 1/2" }, value: "36 / 104108" },
+      { label: { uz: "Ø63×2", ru: "Ø63×2" }, value: "20 / 104109" },
+      { label: { uz: "Ø75×2 1/2", ru: "Ø75×2 1/2" }, value: "50 / 104110" },
+      { label: { uz: "Ø90×3", ru: "Ø90×3" }, value: "32 / 104111" },
+      { label: { uz: "Ø110×4", ru: "Ø110×4" }, value: "25 / 104112" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1041" }
+    ]
+  },
+
 
   // Hydro Plast - PP-R Pipes (only 1 product)
   {
