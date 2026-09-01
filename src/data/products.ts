@@ -2604,6 +2604,93 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "6052" }
     ]
   },
+  {
+    id: "waterpro-brass-ball-valve-4000",
+    name: "WaterPRO Кран шаровой из латуни (Премиум) В/Р–В/Р 4000",
+    category: "waterpro",
+    images: [wpBallValve4000],
+    description: {
+      uz: "WaterPRO latun sharli kran (Premium), tutqichli, ichki–ichki rezba (В/Р–В/Р).",
+      ru: "Кран шаровой из латуни WaterPRO (Премиум), рычаг, В/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2F", ru: "1/2F×1/2F" }, value: "100 / 400001" },
+      { label: { uz: "3/4F×3/4F", ru: "3/4F×3/4F" }, value: "60 / 400002" },
+      { label: { uz: "1F×1F", ru: "1F×1F" }, value: "36 / 400003" },
+      { label: { uz: "11/4F×11/4F", ru: "11/4F×11/4F" }, value: "20 / 400004" },
+      { label: { uz: "11/2F×11/2F", ru: "11/2F×11/2F" }, value: "12 / 400005" },
+      { label: { uz: "2F×2F", ru: "2F×2F" }, value: "8 / 400006" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4000" }
+    ]
+  },
+  {
+    id: "waterpro-brass-ball-valve-4001",
+    name: "WaterPRO Кран шаровой из латуни (Премиум) В/Р–В/Р 4001",
+    category: "waterpro",
+    images: [wpBallValve4001],
+    description: {
+      uz: "WaterPRO latun sharli kran (Premium), tutqichli, ichki–ichki rezba (В/Р–В/Р).",
+      ru: "Кран шаровой из латуни WaterPRO (Премиум), рычаг, В/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2F", ru: "1/2F×1/2F" }, value: "104 / 400101" },
+      { label: { uz: "3/4F×3/4F", ru: "3/4F×3/4F" }, value: "80 / 400102" },
+      { label: { uz: "1F×1F", ru: "1F×1F" }, value: "40 / 400103" },
+      { label: { uz: "11/4F×11/4F", ru: "11/4F×11/4F" }, value: "24 / 400104" },
+      { label: { uz: "11/2F×11/2F", ru: "11/2F×11/2F" }, value: "16 / 400105" },
+      { label: { uz: "2F×2F", ru: "2F×2F" }, value: "8 / 400106" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4001" }
+    ]
+  },
+  {
+    id: "waterpro-brass-ball-valve-4002",
+    name: "WaterPRO Кран шаровой из латуни (бабочка) В/Р–В/Р 4002",
+    category: "waterpro",
+    images: [wpBallValve4002],
+    description: {
+      uz: "WaterPRO latun sharli kran (kapalak tutqich), ichki–ichki rezba (В/Р–В/Р).",
+      ru: "Кран шаровой из латуни WaterPRO (бабочка), В/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2F", ru: "1/2F×1/2F" }, value: "100 / 400201" },
+      { label: { uz: "3/4F×3/4F", ru: "3/4F×3/4F" }, value: "72 / 400202" },
+      { label: { uz: "1F×1F", ru: "1F×1F" }, value: "40 / 400203" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4002" }
+    ]
+  },
+  {
+    id: "waterpro-brass-ball-valve-4003",
+    name: "WaterPRO Кран шаровой из латуни (бабочка) Н/Р–В/Р 4003",
+    category: "waterpro",
+    images: [wpBallValve4003],
+    description: {
+      uz: "WaterPRO latun sharli kran (kapalak tutqich), tashqi–ichki rezba (Н/Р–В/Р).",
+      ru: "Кран шаровой из латуни WaterPRO (бабочка), Н/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2M", ru: "1/2F×1/2M" }, value: "100 / 400301" },
+      { label: { uz: "3/4F×3/4M", ru: "3/4F×3/4M" }, value: "60 / 400302" },
+      { label: { uz: "1F×1M", ru: "1F×1M" }, value: "40 / 400303" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4003" }
+    ]
+  },
+  {
+    id: "waterpro-brass-ball-valve-4004",
+    name: "WaterPRO Кран шаровой из латуни (бабочка) Н/Р–В/Р 4004",
+    category: "waterpro",
+    images: [wpBallValve4004],
+    description: {
+      uz: "WaterPRO latun sharli kran (ko'k kapalak tutqich), tashqi–ichki rezba (Н/Р–В/Р).",
+      ru: "Кран шаровой из латуни WaterPRO (бабочка, синяя ручка), Н/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2M", ru: "1/2F×1/2M" }, value: "100 / 400401" },
+      { label: { uz: "3/4F×3/4M", ru: "3/4F×3/4M" }, value: "60 / 400402" },
+      { label: { uz: "1F×1M", ru: "1F×1M" }, value: "40 / 400403" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4004" }
+    ]
+  },
+
 
 
 
