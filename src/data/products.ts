@@ -233,6 +233,11 @@ import wpValveCartridge1069 from "@/assets/products/waterpro-valve-cartridge-106
 import wpValveCartridge1070 from "@/assets/products/waterpro-valve-cartridge-1070.png";
 import wpWallElbow1071 from "@/assets/products/waterpro-wall-elbow-1071.png";
 import wpWallElbow1072 from "@/assets/products/waterpro-wall-elbow-1072.png";
+import wpAdapterFemale1073 from "@/assets/products/waterpro-adapter-female-1073.png";
+import wpAdapterMale1074 from "@/assets/products/waterpro-adapter-male-1074.png";
+import wpDoubleElbow1075 from "@/assets/products/waterpro-double-elbow-1075.png";
+import wpAdapterUnion1076 from "@/assets/products/waterpro-adapter-union-1076.png";
+import wpUElbow1089 from "@/assets/products/waterpro-u-elbow-1089.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
