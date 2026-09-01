@@ -261,6 +261,11 @@ import wpPvcuPipe from "@/assets/products/waterpro-pvcu-pipe.png";
 import wpPvcuCoupling from "@/assets/products/waterpro-pvcu-coupling.png";
 import wpPvcuBend45 from "@/assets/products/waterpro-pvcu-bend-45.png";
 import wpPvcuElbow90 from "@/assets/products/waterpro-pvcu-elbow-90.png";
+import wpPvcuTee90 from "@/assets/products/waterpro-pvcu-tee-90.png";
+import wpPvcuTeeReduce90 from "@/assets/products/waterpro-pvcu-tee-reduce-90.png";
+import wpPvcuAdapter from "@/assets/products/waterpro-pvcu-adapter.png";
+import wpPvcuTee45 from "@/assets/products/waterpro-pvcu-tee-45.png";
+import wpPvcuTeeReduce45 from "@/assets/products/waterpro-pvcu-tee-reduce-45.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2426,6 +2431,86 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "3007" }
     ]
   },
+  {
+    id: "waterpro-pvcu-tee-90-3008",
+    name: "WaterPRO Тройник 90° PVC-U",
+    category: "waterpro",
+    images: [wpPvcuTee90],
+    description: {
+      uz: "WaterPRO PVC-U 90° troynik. O'lchamlari: Ø160, Ø200.",
+      ru: "Тройник 90° PVC-U WaterPRO. Размеры: Ø160, Ø200."
+    },
+    specs: [
+      { label: { uz: "Ø160", ru: "Ø160" }, value: "6 / 300802" },
+      { label: { uz: "Ø200", ru: "Ø200" }, value: "4 / 300803" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3008" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-tee-reduce-90-3010",
+    name: "WaterPRO Тройник переходник 90° PVC-U",
+    category: "waterpro",
+    images: [wpPvcuTeeReduce90],
+    description: {
+      uz: "WaterPRO PVC-U 90° o'tkazgich troynik. O'lchamlari: Ø110×50, Ø160×110, Ø200×160.",
+      ru: "Тройник переходник 90° PVC-U WaterPRO. Размеры: Ø110×50, Ø160×110, Ø200×160."
+    },
+    specs: [
+      { label: { uz: "Ø110×50", ru: "Ø110×50" }, value: "32 / 301001" },
+      { label: { uz: "Ø160×110", ru: "Ø160×110" }, value: "9 / 301002" },
+      { label: { uz: "Ø200×160", ru: "Ø200×160" }, value: "4 / 301003" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3010" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-adapter-3011",
+    name: "WaterPRO Переходник PVC-U",
+    category: "waterpro",
+    images: [wpPvcuAdapter],
+    description: {
+      uz: "WaterPRO PVC-U o'tkazgich. O'lchamlari: Ø110×50, Ø160×110, Ø200×160.",
+      ru: "Переходник PVC-U WaterPRO. Размеры: Ø110×50, Ø160×110, Ø200×160."
+    },
+    specs: [
+      { label: { uz: "Ø110×50", ru: "Ø110×50" }, value: "105 / 301101" },
+      { label: { uz: "Ø160×110", ru: "Ø160×110" }, value: "44 / 301102" },
+      { label: { uz: "Ø200×160", ru: "Ø200×160" }, value: "22 / 301103" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3011" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-tee-45-3012",
+    name: "WaterPRO Тройник 45° PVC-U",
+    category: "waterpro",
+    images: [wpPvcuTee45],
+    description: {
+      uz: "WaterPRO PVC-U 45° troynik. O'lchamlari: Ø110, Ø160, Ø200.",
+      ru: "Тройник 45° PVC-U WaterPRO. Размеры: Ø110, Ø160, Ø200."
+    },
+    specs: [
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "15 / 301201" },
+      { label: { uz: "Ø160", ru: "Ø160" }, value: "4 / 301202" },
+      { label: { uz: "Ø200", ru: "Ø200" }, value: "2 / 301203" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3012" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-tee-reduce-45-3013",
+    name: "WaterPRO Тройник переходник 45° PVC-U",
+    category: "waterpro",
+    images: [wpPvcuTeeReduce45],
+    description: {
+      uz: "WaterPRO PVC-U 45° o'tkazgich troynik. O'lchamlari: Ø160×110, Ø200×110, Ø200×160.",
+      ru: "Тройник переходник 45° PVC-U WaterPRO. Размеры: Ø160×110, Ø200×110, Ø200×160."
+    },
+    specs: [
+      { label: { uz: "Ø160×110", ru: "Ø160×110" }, value: "7 / 301301" },
+      { label: { uz: "Ø200×110", ru: "Ø200×110" }, value: "4 / 301302" },
+      { label: { uz: "Ø200×160", ru: "Ø200×160" }, value: "3 / 301303" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3013" }
+    ]
+  },
+
 
 
 
