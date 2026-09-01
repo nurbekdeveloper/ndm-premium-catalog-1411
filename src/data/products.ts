@@ -1995,6 +1995,100 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1081" }
     ]
   },
+  {
+    id: "waterpro-sewer-pipe-2000",
+    name: "WaterPRO Труба канализационная Ø50 PPH (1,8 мм)",
+    category: "waterpro",
+    images: [wpSewerGrey],
+    description: {
+      uz: "WaterPRO PPH kanalizatsiya trubasi Ø50, devor qalinligi 1,8 mm. Uzunliklari: 0.5 m, 1 m, 2 m, 3 m.",
+      ru: "Труба канализационная PPH WaterPRO Ø50, толщина стенки 1,8 мм. Длины: 0.5 м, 1 м, 2 м, 3 м."
+    },
+    specs: [
+      { label: { uz: "Devor qalinligi", ru: "Толщина стенки" }, value: "1,8 мм" },
+      { label: { uz: "Ø50 x 0.5", ru: "Ø50 x 0.5" }, value: "75 шт / 2000.05" },
+      { label: { uz: "Ø50 x 1", ru: "Ø50 x 1" }, value: "10 шт / 2000.1" },
+      { label: { uz: "Ø50 x 2", ru: "Ø50 x 2" }, value: "10 шт / 2000.2" },
+      { label: { uz: "Ø50 x 3", ru: "Ø50 x 3" }, value: "10 шт / 2000.3" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2000" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-pipe-2001",
+    name: "WaterPRO Труба PPH Ø75 (1,8 мм)",
+    category: "waterpro",
+    images: [wpSewerGrey],
+    description: {
+      uz: "WaterPRO PPH trubasi Ø75, devor qalinligi 1,8 mm. Uzunliklari: 0.25 m dan 3 m gacha.",
+      ru: "Труба PPH WaterPRO Ø75, толщина стенки 1,8 мм. Длины: от 0.25 м до 3 м."
+    },
+    specs: [
+      { label: { uz: "Devor qalinligi", ru: "Толщина стенки" }, value: "1,8 мм" },
+      { label: { uz: "0.25 M", ru: "0.25 М" }, value: "12 шт / 200101" },
+      { label: { uz: "0.5 M", ru: "0.5 М" }, value: "12 шт / 200102" },
+      { label: { uz: "1 M", ru: "1 М" }, value: "12 шт / 200103" },
+      { label: { uz: "2 M", ru: "2 М" }, value: "12 шт / 200104" },
+      { label: { uz: "3 M", ru: "3 М" }, value: "12 шт / 200105" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2001" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-pipe-2003",
+    name: "WaterPRO Труба PPH Ø110 (3,4 мм)",
+    category: "waterpro",
+    images: [wpSewerOrange],
+    description: {
+      uz: "WaterPRO PPH trubasi Ø110, devor qalinligi 3,4 mm. Uzunliklari: 0.25 m dan 3 m gacha.",
+      ru: "Труба PPH WaterPRO Ø110, толщина стенки 3,4 мм. Длины: от 0.25 м до 3 м."
+    },
+    specs: [
+      { label: { uz: "Devor qalinligi", ru: "Толщина стенки" }, value: "3,4 мм" },
+      { label: { uz: "0.25 M", ru: "0.25 М" }, value: "10 шт / 200301" },
+      { label: { uz: "0.5 M", ru: "0.5 М" }, value: "10 шт / 200302" },
+      { label: { uz: "1 M", ru: "1 М" }, value: "10 шт / 200303" },
+      { label: { uz: "2 M", ru: "2 М" }, value: "10 шт / 200304" },
+      { label: { uz: "3 M", ru: "3 М" }, value: "10 шт / 200305" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2003" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-pipe-2004",
+    name: "WaterPRO Труба PPH Ø160 (4,4 мм)",
+    category: "waterpro",
+    images: [wpSewerOrange],
+    description: {
+      uz: "WaterPRO PPH trubasi Ø160, devor qalinligi 4,4 mm. Uzunliklari: 0.25 m dan 3 m gacha.",
+      ru: "Труба PPH WaterPRO Ø160, толщина стенки 4,4 мм. Длины: от 0.25 м до 3 м."
+    },
+    specs: [
+      { label: { uz: "Devor qalinligi", ru: "Толщина стенки" }, value: "4,4 мм" },
+      { label: { uz: "0.25 M", ru: "0.25 М" }, value: "4 шт / 200401" },
+      { label: { uz: "0.5 M", ru: "0.5 М" }, value: "4 шт / 200402" },
+      { label: { uz: "1 M", ru: "1 М" }, value: "4 шт / 200403" },
+      { label: { uz: "2 M", ru: "2 М" }, value: "4 шт / 200404" },
+      { label: { uz: "3 M", ru: "3 М" }, value: "4 шт / 200405" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2004" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-pipe-2005",
+    name: "WaterPRO Труба PPH Ø200 (5,5 мм)",
+    category: "waterpro",
+    images: [wpSewerOrange],
+    description: {
+      uz: "WaterPRO PPH trubasi Ø200, devor qalinligi 5,5 mm. Uzunliklari: 0.25 m dan 3 m gacha.",
+      ru: "Труба PPH WaterPRO Ø200, толщина стенки 5,5 мм. Длины: от 0.25 м до 3 м."
+    },
+    specs: [
+      { label: { uz: "Devor qalinligi", ru: "Толщина стенки" }, value: "5,5 мм" },
+      { label: { uz: "0.25 M", ru: "0.25 М" }, value: "4 шт / 200501" },
+      { label: { uz: "0.5 M", ru: "0.5 М" }, value: "4 шт / 200502" },
+      { label: { uz: "1 M", ru: "1 М" }, value: "4 шт / 200503" },
+      { label: { uz: "2 M", ru: "2 М" }, value: "4 шт / 200504" },
+      { label: { uz: "3 M", ru: "3 М" }, value: "4 шт / 200505" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2005" }
+    ]
+  },
 
 
 
