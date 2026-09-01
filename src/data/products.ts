@@ -204,6 +204,9 @@ import wpAdapterFemale from "@/assets/products/waterpro-adapter-female.png";
 import wpWallElbowMale from "@/assets/products/waterpro-wall-elbow-male.png";
 import wpWallElbowFemale from "@/assets/products/waterpro-wall-elbow-female.png";
 import wpDoubleWallElbow from "@/assets/products/waterpro-double-wall-elbow.png";
+import wpElbowMaleEco from "@/assets/products/waterpro-elbow-male.png";
+import wpSeatedElbowFemale from "@/assets/products/waterpro-seated-elbow-female.png";
+import wpSeatedElbowMale from "@/assets/products/waterpro-seated-elbow-male.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1214,6 +1217,107 @@ export const products: Product[] = [
     ]
   },
 
+
+  {
+    id: "waterpro-adapter-female-1048",
+    name: "WaterPRO Адаптер с внутренней резьбой PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpAdapterFemale],
+    description: {
+      uz: "WaterPRO ichki rezbali polipropilen adapter PP-R «ECOLINE» — PP-R quvurni rezbali jihozlarga ulash uchun. O'lchamlari: Ø20×1/2\" dan Ø110×4\" gacha.",
+      ru: "Адаптер с внутренней резьбой полипропиленовый PP-R WaterPRO «ECOLINE» — для соединения PP-R трубы с резьбовым оборудованием. Размеры: от Ø20×1/2\" до Ø110×4\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Адаптер В/Р, PP-R ECOLINE" },
+      { label: { uz: "Ø20 × 1/2\"", ru: "Ø20 × 1/2\"" }, value: "300 (1) шт / 1048.20.12" },
+      { label: { uz: "Ø25 × 1/2\"", ru: "Ø25 × 1/2\"" }, value: "300 (1) шт / 1048.25.12" },
+      { label: { uz: "Ø25 × 3/4\"", ru: "Ø25 × 3/4\"" }, value: "240 (1) шт / 1048.25.34" },
+      { label: { uz: "Ø32 × 3/4\"", ru: "Ø32 × 3/4\"" }, value: "192 (1) шт / 1048.32.34" },
+      { label: { uz: "Ø32 × 1\"", ru: "Ø32 × 1\"" }, value: "140 (1) шт / 1048.32.1" },
+      { label: { uz: "Ø40 × 1 1/4\"", ru: "Ø40 × 1 1/4\"" }, value: "78 (1) шт / 1048.40.114" },
+      { label: { uz: "Ø50 × 1 1/2\"", ru: "Ø50 × 1 1/2\"" }, value: "48 (6) шт / 1048.50.112" },
+      { label: { uz: "Ø63 × 2\"", ru: "Ø63 × 2\"" }, value: "30 (3) шт / 1048.63.2" },
+      { label: { uz: "Ø75 × 2 1/2\"", ru: "Ø75 × 2 1/2\"" }, value: "21 (1) шт / 1048.75.212" },
+      { label: { uz: "Ø90 × 3\"", ru: "Ø90 × 3\"" }, value: "10 (1) шт / 1048.90.3" },
+      { label: { uz: "Ø110 × 4\"", ru: "Ø110 × 4\"" }, value: "7 (1) шт / 1048.110.4" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1048" }
+    ]
+  },
+  {
+    id: "waterpro-adapter-male-1049",
+    name: "WaterPRO Адаптер с наружной резьбой PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpAdapterMale],
+    description: {
+      uz: "WaterPRO tashqi rezbali polipropilen adapter PP-R «ECOLINE» — PP-R quvurni rezbali jihozlarga ulash uchun. O'lchamlari: Ø20×1/2\" dan Ø110×4\" gacha.",
+      ru: "Адаптер с наружной резьбой полипропиленовый PP-R WaterPRO «ECOLINE» — для соединения PP-R трубы с резьбовым оборудованием. Размеры: от Ø20×1/2\" до Ø110×4\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Адаптер Н/Р, PP-R ECOLINE" },
+      { label: { uz: "Ø20 × 1/2\"", ru: "Ø20 × 1/2\"" }, value: "220 (1) шт / 1049.20.12" },
+      { label: { uz: "Ø25 × 1/2\"", ru: "Ø25 × 1/2\"" }, value: "220 (1) шт / 1049.25.12" },
+      { label: { uz: "Ø25 × 3/4\"", ru: "Ø25 × 3/4\"" }, value: "180 (1) шт / 1049.25.34" },
+      { label: { uz: "Ø32 × 3/4\"", ru: "Ø32 × 3/4\"" }, value: "160 (1) шт / 1049.32.34" },
+      { label: { uz: "Ø32 × 1\"", ru: "Ø32 × 1\"" }, value: "108 (1) шт / 1049.32.1" },
+      { label: { uz: "Ø40 × 1 1/4\"", ru: "Ø40 × 1 1/4\"" }, value: "60 (1) шт / 1049.40.114" },
+      { label: { uz: "Ø50 × 1 1/2\"", ru: "Ø50 × 1 1/2\"" }, value: "48 (4) шт / 1049.50.112" },
+      { label: { uz: "Ø63 × 2\"", ru: "Ø63 × 2\"" }, value: "30 (3) шт / 1049.63.2" },
+      { label: { uz: "Ø75 × 2 1/2\"", ru: "Ø75 × 2 1/2\"" }, value: "18 (1) шт / 1049.75.212" },
+      { label: { uz: "Ø90 × 3\"", ru: "Ø90 × 3\"" }, value: "10 (1) шт / 1049.90.3" },
+      { label: { uz: "Ø110 × 4\"", ru: "Ø110 × 4\"" }, value: "6 (1) шт / 1049.110.4" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1049" }
+    ]
+  },
+  {
+    id: "waterpro-male-elbow-1052",
+    name: "WaterPRO Угол комбинированный Н/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpElbowMaleEco],
+    description: {
+      uz: "WaterPRO kombinatsiyalangan tashqi rezbali burchak (90°) PP-R «ECOLINE» — quvurni rezbali jihozlarga burchak ostida ulash uchun. O'lchamlari: Ø20×1/2 dan Ø32×3/4 gacha.",
+      ru: "Угол комбинированный Н/Р полипропиленовый PP-R WaterPRO «ECOLINE» — для углового подключения трубы к резьбовому оборудованию. Размеры: от Ø20×1/2 до Ø32×3/4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Угол комбинированный Н/Р, PP-R ECOLINE" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "160 шт / 105201" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "160 шт / 105202" },
+      { label: { uz: "Ø25 × 3/4", ru: "Ø25 × 3/4" }, value: "120 шт / 105203" },
+      { label: { uz: "Ø32 × 3/4", ru: "Ø32 × 3/4" }, value: "96 шт / 105204" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1052" }
+    ]
+  },
+  {
+    id: "waterpro-seated-elbow-female-1055",
+    name: "WaterPRO Отвод с настенным креплением В/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpSeatedElbowFemale],
+    description: {
+      uz: "WaterPRO devorga o'rnatiladigan ichki rezbali otvod PP-R «ECOLINE» — smesitel va sanitariya jihozlarini ulash uchun. O'lchamlari: Ø20×1/2, Ø25×1/2.",
+      ru: "Отвод с настенным креплением В/Р полипропиленовый PP-R WaterPRO «ECOLINE» — для подключения смесителей и сантехприборов. Размеры: Ø20×1/2, Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Отвод настенный В/Р, PP-R ECOLINE" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "160 шт / 105501" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "140 шт / 105502" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1055" }
+    ]
+  },
+  {
+    id: "waterpro-seated-elbow-male-1056",
+    name: "WaterPRO Отвод с настенным креплением Н/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpSeatedElbowMale],
+    description: {
+      uz: "WaterPRO devorga o'rnatiladigan tashqi rezbali otvod PP-R «ECOLINE» — smesitel va sanitariya jihozlarini ulash uchun. O'lchamlari: Ø20×1/2, Ø25×1/2.",
+      ru: "Отвод с настенным креплением Н/Р полипропиленовый PP-R WaterPRO «ECOLINE» — для подключения смесителей и сантехприборов. Размеры: Ø20×1/2, Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Отвод настенный Н/Р, PP-R ECOLINE" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "140 шт / 105601" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "120 шт / 105602" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1056" }
+    ]
+  },
 
   // Hydro Plast - PP-R Pipes (only 1 product)
   {
