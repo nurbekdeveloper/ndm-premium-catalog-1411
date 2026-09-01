@@ -184,6 +184,11 @@ import penoplexFastmixFacadePro from "@/assets/products/penoplex-fastmix-facade-
 import penoplexFastmixFacade from "@/assets/products/penoplex-fastmix-facade.png";
 import penoplexFastfix from "@/assets/products/penoplex-fastfix.png";
 import rebarFixator from "@/assets/products/rebar-fixator.png";
+import wpPlugCuff from "@/assets/products/waterpro-plug-cuff.png";
+import wpTakerClamp from "@/assets/products/waterpro-taker-clamp.png";
+import wpAdjustableFixator from "@/assets/products/waterpro-adjustable-fixator.png";
+import wpTurnFixator from "@/assets/products/waterpro-turn-fixator.png";
+import wpElbowFullBore from "@/assets/products/waterpro-elbow-full-bore.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -850,6 +855,84 @@ export const products: Product[] = [
   },
 
 
+
+  {
+    id: "waterpro-plug-cuff",
+    name: "WaterPRO Пробка с резьбой манжетом DN 1/2",
+    category: "waterpro",
+    images: [wpPlugCuff],
+    description: {
+      uz: "WaterPRO manjetli rezbali tiqin DN 1/2 — sinov va vaqtinchalik berkitish uchun.",
+      ru: "Пробка с резьбой манжетом WaterPRO DN 1/2 — для опрессовки и временной заглушки."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Пробка с резьбой манжетом DN 1/2" },
+      { label: { uz: "Ø15", ru: "Ø15" }, value: "1400 (50) / 103101" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1031" }
+    ]
+  },
+  {
+    id: "waterpro-taker-clamp",
+    name: "WaterPRO Скоба для такера / Clamp 16mm",
+    category: "waterpro",
+    images: [wpTakerClamp],
+    description: {
+      uz: "WaterPRO taker uchun skoba (Clamp) 16 mm — issiq pol quvurlarini mahkamlash uchun.",
+      ru: "Скоба для такера WaterPRO (Clamp) 16 мм — для крепления труб тёплого пола."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Скоба для такера / Clamp" },
+      { label: { uz: "16mm", ru: "16mm" }, value: "8000 / 103201" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1032" }
+    ]
+  },
+  {
+    id: "waterpro-adjustable-fixator",
+    name: "WaterPRO Фиксатор регулируемый 16mm",
+    category: "waterpro",
+    images: [wpAdjustableFixator],
+    description: {
+      uz: "WaterPRO rostlanadigan fiksator 16 mm — quvur burilish radiusini saqlash uchun.",
+      ru: "Фиксатор регулируемый WaterPRO 16 мм — для сохранения радиуса изгиба трубы."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Фиксатор регулируемый" },
+      { label: { uz: "16mm", ru: "16mm" }, value: "300 / 103301" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1033" }
+    ]
+  },
+  {
+    id: "waterpro-turn-fixator",
+    name: "WaterPRO Фиксатор поворота (Башмак) Ø16 90°",
+    category: "waterpro",
+    images: [wpTurnFixator],
+    description: {
+      uz: "WaterPRO burilish fiksatori (Bashmak) Ø16 90° — quvurni 90° burilishda mahkam ushlaydi.",
+      ru: "Фиксатор поворота (Башмак) WaterPRO Ø16 90° — надёжно удерживает трубу на повороте."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Фиксатор поворота (Башмак)" },
+      { label: { uz: "Ø16mm 90°", ru: "Ø16mm 90°" }, value: "60 / 103311" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1033-1" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-full-bore",
+    name: "WaterPRO Отвод (полнопроходной) / Elbow",
+    category: "waterpro",
+    images: [wpElbowFullBore],
+    description: {
+      uz: "WaterPRO to'liq o'tishli otvod (Elbow full bore) — Ø20, Ø25, Ø32 o'lchamlarda.",
+      ru: "Отвод полнопроходной WaterPRO (Elbow full bore) — размеры Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Отвод (полнопроходной) / Elbow" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "300 (15) / 103401" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "200 (8) / 103402" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "100 (5) / 103403" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1034" }
+    ]
+  },
 
   // Hydro Plast - PP-R Pipes (only 1 product)
   {
