@@ -266,6 +266,11 @@ import wpPvcuTeeReduce90 from "@/assets/products/waterpro-pvcu-tee-reduce-90.png
 import wpPvcuAdapter from "@/assets/products/waterpro-pvcu-adapter.png";
 import wpPvcuTee45 from "@/assets/products/waterpro-pvcu-tee-45.png";
 import wpPvcuTeeReduce45 from "@/assets/products/waterpro-pvcu-tee-reduce-45.png";
+import wpPvcElectroPipe from "@/assets/products/waterpro-pvc-electro-pipe.png";
+import wpPvcElectroCoupling from "@/assets/products/waterpro-pvc-electro-coupling.png";
+import wpPvcBoxCoupling from "@/assets/products/waterpro-pvc-box-coupling.png";
+import wpBendingSpring from "@/assets/products/waterpro-bending-spring.png";
+import wpCablePuller from "@/assets/products/waterpro-cable-puller.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2508,6 +2513,90 @@ export const products: Product[] = [
       { label: { uz: "Ø200×110", ru: "Ø200×110" }, value: "4 / 301302" },
       { label: { uz: "Ø200×160", ru: "Ø200×160" }, value: "3 / 301303" },
       { label: { uz: "Kod", ru: "Код" }, value: "3013" }
+    ]
+  },
+  {
+    id: "waterpro-pvc-electro-pipe-3015",
+    name: "WaterPRO Трубки из ПВХ для электропроводок",
+    category: "waterpro",
+    images: [wpPvcElectroPipe],
+    description: {
+      uz: "WaterPRO elektr simlar uchun PVX quvurlari. O'lchamlari: Ø16×1.5, Ø20×1.6, Ø25×1.8, Ø32×2.0 (4m).",
+      ru: "Трубки из ПВХ для электропроводок WaterPRO. Размеры: Ø16×1.5, Ø20×1.6, Ø25×1.8, Ø32×2.0 (4м)."
+    },
+    specs: [
+      { label: { uz: "Ø16×1.5 4m", ru: "Ø16×1.5 4m" }, value: "240 / 301501" },
+      { label: { uz: "Ø20×1.6 4m", ru: "Ø20×1.6 4m" }, value: "140 / 301502" },
+      { label: { uz: "Ø25×1.8 4m", ru: "Ø25×1.8 4m" }, value: "100 / 301503" },
+      { label: { uz: "Ø32×2.0 4m", ru: "Ø32×2.0 4m" }, value: "60 / 301504" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3015" }
+    ]
+  },
+  {
+    id: "waterpro-pvc-electro-coupling-3016",
+    name: "WaterPRO Муфта для ПВХ-трубы для электропроводки",
+    category: "waterpro",
+    images: [wpPvcElectroCoupling],
+    description: {
+      uz: "WaterPRO elektr PVX quvurlari uchun mufta. O'lchamlari: Ø16, Ø20, Ø25.",
+      ru: "Муфта для ПВХ-трубы для электропроводки WaterPRO. Размеры: Ø16, Ø20, Ø25."
+    },
+    specs: [
+      { label: { uz: "Ø16", ru: "Ø16" }, value: "2000 / 301601" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "1200 / 301602" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "720 / 301603" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3016" }
+    ]
+  },
+  {
+    id: "waterpro-pvc-box-coupling-3017",
+    name: "WaterPRO Муфта труба-коробка ПВХ",
+    category: "waterpro",
+    images: [wpPvcBoxCoupling],
+    description: {
+      uz: "WaterPRO PVX quvur-quti mufta. O'lchamlari: 16, 20.",
+      ru: "Муфта труба-коробка ПВХ WaterPRO. Размеры: 16, 20."
+    },
+    specs: [
+      { label: { uz: "16", ru: "16" }, value: "2000 / 301701" },
+      { label: { uz: "20", ru: "20" }, value: "1200 / 301702" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3017" }
+    ]
+  },
+  {
+    id: "waterpro-bending-spring-6051",
+    name: "WaterPRO Пружина для гибки труб",
+    category: "waterpro",
+    images: [wpBendingSpring],
+    description: {
+      uz: "WaterPRO quvurlarni egish uchun prujina. O'lchamlari: 16, 20, 25, 32.",
+      ru: "Пружина для гибки труб WaterPRO. Размеры: 16, 20, 25, 32."
+    },
+    specs: [
+      { label: { uz: "16", ru: "16" }, value: "605101" },
+      { label: { uz: "20", ru: "20" }, value: "605102" },
+      { label: { uz: "25", ru: "25" }, value: "605103" },
+      { label: { uz: "32", ru: "32" }, value: "605104" },
+      { label: { uz: "Kod", ru: "Код" }, value: "6051" }
+    ]
+  },
+  {
+    id: "waterpro-cable-puller-6052",
+    name: "WaterPRO Протяжка кабеля",
+    category: "waterpro",
+    images: [wpCablePuller],
+    description: {
+      uz: "WaterPRO kabel tortish moslamasi. Uzunliklari: 5m, 10m, 15m, 20m, 25m, 30m.",
+      ru: "Протяжка кабеля WaterPRO. Длины: 5м, 10м, 15м, 20м, 25м, 30м."
+    },
+    specs: [
+      { label: { uz: "5m", ru: "5m" }, value: "605201" },
+      { label: { uz: "10m", ru: "10m" }, value: "605202" },
+      { label: { uz: "15m", ru: "15m" }, value: "605203" },
+      { label: { uz: "20m", ru: "20m" }, value: "605204" },
+      { label: { uz: "25m", ru: "25m" }, value: "605205" },
+      { label: { uz: "30m", ru: "30m" }, value: "605206" },
+      { label: { uz: "Kod", ru: "Код" }, value: "6052" }
     ]
   },
 
