@@ -217,6 +217,11 @@ import wpFilter1059 from "@/assets/products/waterpro-filter-1059.png";
 import wpDoubleElbow1060 from "@/assets/products/waterpro-double-elbow-1060.png";
 import wpDoubleElbow10602 from "@/assets/products/waterpro-double-elbow-1060-2.png";
 import wpDoubleElbow10603 from "@/assets/products/waterpro-double-elbow-1060-3.png";
+import wpAngleValve1053 from "@/assets/products/waterpro-angle-valve-1053.png";
+import wpStraightValve1054 from "@/assets/products/waterpro-straight-valve-1054.png";
+import wpAngleValve1086 from "@/assets/products/waterpro-angle-valve-1086.png";
+import wpStraightValve1087 from "@/assets/products/waterpro-straight-valve-1087.png";
+import wpBallValve1061 from "@/assets/products/waterpro-ball-valve-1061.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1500,6 +1505,94 @@ export const products: Product[] = [
       { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "40 шт / 106031" },
       { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "40 шт / 106032" },
       { label: { uz: "Kod", ru: "Код" }, value: "1060-3" }
+    ]
+  },
+  {
+    id: "waterpro-angle-valve-1053",
+    name: "WaterPRO Угловой кран для радиатора PP-R (Brass Ball)",
+    category: "waterpro",
+    images: [wpAngleValve1053],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kran PP-R (latun sharli). O'lchamlari: Ø20×1/2 dan Ø25×3/4 gacha.",
+      ru: "Угловой кран для радиатора полипропиленовый PP-R WaterPRO (Brass Ball). Размеры: от Ø20×1/2 до Ø25×3/4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Angle Radiator Valve (Brass Ball)" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "90 шт / 105301" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "80 шт / 105302" },
+      { label: { uz: "Ø25 × 3/4", ru: "Ø25 × 3/4" }, value: "75 шт / 105303" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1053" }
+    ]
+  },
+  {
+    id: "waterpro-straight-valve-1054",
+    name: "WaterPRO Прямой кран для радиатора PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpStraightValve1054],
+    description: {
+      uz: "WaterPRO radiator uchun to'g'ri kran PP-R «ECOLINE». O'lchamlari: Ø20×1/2 dan Ø25×3/4 gacha.",
+      ru: "Прямой кран для радиатора полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: от Ø20×1/2 до Ø25×3/4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Straight Radiator Valve (Ecoline)" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "90 шт / 1054.20.12" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "85 шт / 1054.25.12" },
+      { label: { uz: "Ø25 × 3/4", ru: "Ø25 × 3/4" }, value: "80 шт / 1054.25.34" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1054" }
+    ]
+  },
+  {
+    id: "waterpro-angle-valve-1086",
+    name: "WaterPRO Угловой кран для радиатора PP-R",
+    category: "waterpro",
+    images: [wpAngleValve1086],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kran PP-R. O'lchamlari: Ø20×1/2 dan Ø25×3/4 gacha.",
+      ru: "Угловой кран для радиатора полипропиленовый PP-R WaterPRO. Размеры: от Ø20×1/2 до Ø25×3/4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Angle Radiator Valve" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "70 шт / 108601" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "70 шт / 108602" },
+      { label: { uz: "Ø25 × 3/4", ru: "Ø25 × 3/4" }, value: "70 шт / 108603" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1086" }
+    ]
+  },
+  {
+    id: "waterpro-straight-valve-1087",
+    name: "WaterPRO Кран для радиатора PP-R (прямой)",
+    category: "waterpro",
+    images: [wpStraightValve1087],
+    description: {
+      uz: "WaterPRO radiator uchun to'g'ri kran PP-R. O'lchamlari: Ø20×1/2 dan Ø25×3/4 gacha.",
+      ru: "Кран для радиатора полипропиленовый PP-R WaterPRO (Straight Radiator Valve). Размеры: от Ø20×1/2 до Ø25×3/4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Straight Radiator Valve" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "70 шт / 108701" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "70 шт / 108702" },
+      { label: { uz: "Ø25 × 3/4", ru: "Ø25 × 3/4" }, value: "70 шт / 108703" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1087" }
+    ]
+  },
+  {
+    id: "waterpro-ball-valve-1061",
+    name: "WaterPRO Шаровой кран PP-R «PREMIUM»",
+    category: "waterpro",
+    images: [wpBallValve1061],
+    description: {
+      uz: "WaterPRO sharli kran PP-R «PREMIUM». O'lchamlari: Ø20 dan Ø63 gacha.",
+      ru: "Шаровой кран полипропиленовый PP-R WaterPRO «PREMIUM». Размеры: от Ø20 до Ø63."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Ball Valve (Premium)" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "95 шт / 1061.20" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "75 шт / 1061.25" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "48 шт / 1061.32" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "36 шт / 1061.40" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "18 шт / 1061.50" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "15 шт / 1061.63" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1061" }
     ]
   },
 
