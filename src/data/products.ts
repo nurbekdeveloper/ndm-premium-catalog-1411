@@ -184,6 +184,11 @@ import penoplexFastmixFacadePro from "@/assets/products/penoplex-fastmix-facade-
 import penoplexFastmixFacade from "@/assets/products/penoplex-fastmix-facade.png";
 import penoplexFastfix from "@/assets/products/penoplex-fastfix.png";
 import rebarFixator from "@/assets/products/rebar-fixator.png";
+import wpPlugCuff from "@/assets/products/waterpro-plug-cuff.png";
+import wpTakerClamp from "@/assets/products/waterpro-taker-clamp.png";
+import wpAdjustableFixator from "@/assets/products/waterpro-adjustable-fixator.png";
+import wpTurnFixator from "@/assets/products/waterpro-turn-fixator.png";
+import wpElbowFullBore from "@/assets/products/waterpro-elbow-full-bore.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
