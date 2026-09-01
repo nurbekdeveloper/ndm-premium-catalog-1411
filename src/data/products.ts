@@ -227,6 +227,10 @@ import wpEmbeddedValve1063 from "@/assets/products/waterpro-embedded-valve-1063.
 import wpBallValve1064 from "@/assets/products/waterpro-ball-valve-1064.png";
 import wpCheckValve1065 from "@/assets/products/waterpro-check-valve-1065.png";
 import wpBallValve1066 from "@/assets/products/waterpro-ball-valve-1066.png";
+import wpStopValve1067 from "@/assets/products/waterpro-stop-valve-1067.png";
+import wpStopValve1068 from "@/assets/products/waterpro-stop-valve-1068.png";
+import wpValveCartridge1069 from "@/assets/products/waterpro-valve-cartridge-1069.png";
+import wpValveCartridge1070 from "@/assets/products/waterpro-valve-cartridge-1070.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
