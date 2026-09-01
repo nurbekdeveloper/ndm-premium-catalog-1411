@@ -1600,6 +1600,97 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1061" }
     ]
   },
+  {
+    id: "waterpro-gate-valve-1062",
+    name: "WaterPRO Барашковый кран PPR (Brass)",
+    category: "waterpro",
+    images: [wpGateValve1062],
+    description: {
+      uz: "WaterPRO barashkali kran PPR (latun). O'lchamlari: Ø20, Ø25, Ø32.",
+      ru: "Барашковый кран PPR (Brass) WaterPRO. Размеры: Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Gate Valve (Brass)" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "60 шт / 106201" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "60 шт / 106202" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "40 шт / 106203" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1062" }
+    ]
+  },
+  {
+    id: "waterpro-embedded-valve-1063",
+    name: "WaterPRO Барашковый кран с хромированной ручкой",
+    category: "waterpro",
+    images: [wpEmbeddedValve1063],
+    description: {
+      uz: "WaterPRO xromlangan dastali barashkali kran (Embedded ball valve). O'lchami: Ø25.",
+      ru: "Барашковый кран с хромированной ручкой WaterPRO (Embedded ball valve). Размер: Ø25."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Embedded ball valve" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "27 шт / 106301" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1063" }
+    ]
+  },
+  {
+    id: "waterpro-ball-valve-1064",
+    name: "WaterPRO Шаровой кран с алюм. ручкой «PREMIUM»",
+    category: "waterpro",
+    images: [wpBallValve1064],
+    description: {
+      uz: "WaterPRO alyumin dastali sharli kran (Brass Ball) «PREMIUM». O'lchamlari: Ø20 dan Ø110 gacha.",
+      ru: "Шаровой кран с алюминиевой ручкой WaterPRO PPR Valve (Brass Ball) «PREMIUM». Размеры: от Ø20 до Ø110."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Valve (Brass Ball) Premium" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "90 шт / 106401" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "60 шт / 106402" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "45 шт / 106403" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "36 шт / 106404" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "18 шт / 106405" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "12 шт / 106406" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "16 шт / 106407" },
+      { label: { uz: "Ø90", ru: "Ø90" }, value: "7 шт / 106408" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "5 шт / 106409" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1064" }
+    ]
+  },
+  {
+    id: "waterpro-check-valve-1065",
+    name: "WaterPRO Обратный клапан PPR",
+    category: "waterpro",
+    images: [wpCheckValve1065],
+    description: {
+      uz: "WaterPRO teskari klapan PPR. O'lchamlari: Ø20, Ø25, Ø32.",
+      ru: "Обратный клапан PPR WaterPRO. Размеры: Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Check Valve" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "120 шт / 106501" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "100 шт / 106502" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "60 шт / 106503" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1065" }
+    ]
+  },
+  {
+    id: "waterpro-ball-valve-1066",
+    name: "WaterPRO Шаровой кран с синей алюминиевой ручкой PP-R «PREMIUM»",
+    category: "waterpro",
+    images: [wpBallValve1066],
+    description: {
+      uz: "WaterPRO ko'k alyumin dastali polipropilen sharli kran PP-R «PREMIUM». O'lchamlari: Ø20 dan Ø40 gacha.",
+      ru: "Шаровой кран с синей алюминиевой ручкой полипропиленовый PP-R WaterPRO «PREMIUM». Размеры: от Ø20 до Ø40."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R Ball Valve Premium" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "90 шт / 1066.20" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "60 шт / 1066.25" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "45 шт / 1066.32" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "36 шт / 1066.40" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1066" }
+    ]
+  },
+
 
 
   // Hydro Plast - PP-R Pipes (only 1 product)
