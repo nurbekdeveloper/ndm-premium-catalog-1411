@@ -1690,6 +1690,80 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1066" }
     ]
   },
+  {
+    id: "waterpro-stop-valve-1067",
+    name: "WaterPRO Барашковый кран (эксклюзивный) полипропиленовый PP-R",
+    category: "waterpro",
+    images: [wpStopValve1067],
+    description: {
+      uz: "WaterPRO barashkali kran (eksklyuziv) polipropilen PP-R. O'lchamlari: Ø20 dan Ø32 gacha.",
+      ru: "Барашковый кран (эксклюзивный) полипропиленовый PP-R WaterPRO. Размеры: от Ø20 до Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Stop Check Valve" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "85 шт / 1067.20" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "60 шт / 1067.25" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "55 шт / 1067.32" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1067" }
+    ]
+  },
+  {
+    id: "waterpro-stop-valve-1068",
+    name: "WaterPRO Барашковый кран полипропиленовый PP-R",
+    category: "waterpro",
+    images: [wpStopValve1068],
+    description: {
+      uz: "WaterPRO barashkali kran polipropilen PP-R. O'lchamlari: Ø40 dan Ø110 gacha.",
+      ru: "Барашковый кран полипропиленовый PP-R WaterPRO. Размеры: от Ø40 до Ø110."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Stop Check Valve" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "36 шт / 1068.40" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "30 шт / 1068.50" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "16 шт / 1068.63" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "12 шт / 1068.75" },
+      { label: { uz: "Ø90", ru: "Ø90" }, value: "8 шт / 1068.90" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "6 шт / 1068.110" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1068" }
+    ]
+  },
+  {
+    id: "waterpro-valve-cartridge-1069",
+    name: "WaterPRO Кран-букса для барашкового вентиля",
+    category: "waterpro",
+    images: [wpValveCartridge1069],
+    description: {
+      uz: "WaterPRO barashkali ventil uchun kran-buksa. O'lchamlari: Ø20 dan Ø32 gacha.",
+      ru: "Кран-букса для барашкового вентиля WaterPRO. Размеры: от Ø20 до Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Valve Cartridge" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "100 шт / 106901" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "100 шт / 106902" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "100 шт / 106903" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1069" }
+    ]
+  },
+  {
+    id: "waterpro-valve-cartridge-1070",
+    name: "WaterPRO Кран-букса для барашкового вентиля (большие размеры)",
+    category: "waterpro",
+    images: [wpValveCartridge1070],
+    description: {
+      uz: "WaterPRO barashkali ventil uchun kran-buksa. O'lchamlari: Ø40 dan Ø110 gacha.",
+      ru: "Кран-букса для барашкового вентиля WaterPRO. Размеры: от Ø40 до Ø110."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Valve Cartridge" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "50 шт / 107001" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "50 шт / 107002" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "50 шт / 107003" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "100 шт / 107004" },
+      { label: { uz: "Ø90", ru: "Ø90" }, value: "100 шт / 107005" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "100 шт / 107006" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1070" }
+    ]
+  },
 
 
 
