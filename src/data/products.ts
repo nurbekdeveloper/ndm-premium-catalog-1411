@@ -167,6 +167,10 @@ import wpEqualSocketAsset from "@/assets/products/waterpro-equal-socket.png";
 import wpElbow45Asset from "@/assets/products/waterpro-elbow-45.png";
 import wpTeeAsset from "@/assets/products/waterpro-tee.png";
 import wpPipeCapAsset from "@/assets/products/waterpro-pipe-cap.png";
+import wpElbow90Asset from "@/assets/products/waterpro-elbow-90.png";
+import wpBridgeTubeAsset from "@/assets/products/waterpro-bridge-tube.png";
+import wpClampAsset from "@/assets/products/waterpro-clamp.png";
+import wpFlangeAsset from "@/assets/products/waterpro-flange.png";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
@@ -707,6 +711,83 @@ export const products: Product[] = [
       { label: { uz: "Ø50", ru: "Ø50" }, value: "192 (12) / 102805" },
       { label: { uz: "Ø63", ru: "Ø63" }, value: "120 (6) / 102806" },
       { label: { uz: "Kod", ru: "Код" }, value: "1028" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-90",
+    name: "WaterPRO Отвод 90° / 90° Elbow",
+    category: "waterpro",
+    images: [wpElbow90Asset],
+    description: {
+      uz: "WaterPRO PP-R 90° burchak (Elbow) — quvur yo'nalishini 90 gradusga o'zgartirish uchun. 9 xil o'lchamda (Ø20–Ø110).",
+      ru: "Отвод 90° WaterPRO PP-R (90° Elbow) — для изменения направления трубопровода на 90°. 9 типоразмеров (Ø20–Ø110)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Отвод 90° / 90° Elbow" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "600 (30) / 102501" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "400 (20) / 102502" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "200 (10) / 102503" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "120 (8) / 102504" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "84 (4) / 102505" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "40 (2) / 102506" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "28 / 102507" },
+      { label: { uz: "Ø90", ru: "Ø90" }, value: "12 / 102508" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "7 / 102509" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1025" }
+    ]
+  },
+  {
+    id: "waterpro-bridge-tube",
+    name: "WaterPRO Обвод / Bridge Tube",
+    category: "waterpro",
+    images: [wpBridgeTubeAsset],
+    description: {
+      uz: "WaterPRO PP-R obvod (Bridge Tube) — kesishuvchi quvurlarni aylanib o'tish uchun. 3 xil o'lchamda (Ø20–Ø32).",
+      ru: "Обвод WaterPRO PP-R (Bridge Tube) — для обхода пересекающихся труб. 3 типоразмера (Ø20–Ø32)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Обвод / Bridge Tube" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "300 (15) / 102601" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "180 (10) / 102602" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "120 (5) / 102603" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1026" }
+    ]
+  },
+  {
+    id: "waterpro-clamp",
+    name: "WaterPRO Клипса / Clamp",
+    category: "waterpro",
+    images: [wpClampAsset],
+    description: {
+      uz: "WaterPRO klipsa (Clamp) — quvurlarni devorga mahkamlash uchun. 6 xil o'lchamda (Ø20–Ø63).",
+      ru: "Клипса WaterPRO (Clamp) — для крепления труб к стене. 6 типоразмеров (Ø20–Ø63)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Клипса / Clamp" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "2000 / 102701" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "1440 / 102702" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "1000 / 102703" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "600 / 102704" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "440 / 102705" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "280 / 102706" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1027" }
+    ]
+  },
+  {
+    id: "waterpro-flange",
+    name: "WaterPRO Фланец / Flange",
+    category: "waterpro",
+    images: [wpFlangeAsset],
+    description: {
+      uz: "WaterPRO PP-R flanets (Flange) — katta diametrli quvurlarni ulash uchun. 3 xil o'lchamda (Ø75–Ø110).",
+      ru: "Фланец WaterPRO PP-R (Flange) — для соединения труб большого диаметра. 3 типоразмера (Ø75–Ø110)."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Фланец / Flange" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "30 / 108401" },
+      { label: { uz: "Ø90", ru: "Ø90" }, value: "20 / 108402" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "15 / 108403" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1084" }
     ]
   },
 
