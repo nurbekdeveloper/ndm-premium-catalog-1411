@@ -244,6 +244,11 @@ import wpAngleRadValve1079 from "@/assets/products/waterpro-angle-radiator-valve
 import wpStraightRadValve1080 from "@/assets/products/waterpro-straight-radiator-valve-1080.png";
 import wpBallValve1081 from "@/assets/products/waterpro-ball-valve-1081.png";
 import wpSewerOrange from "@/assets/products/waterpro-sewer-pipe-orange.png";
+import wpSewerElbow90 from "@/assets/products/waterpro-sewer-elbow-90.png";
+import wpSewerTee90 from "@/assets/products/waterpro-sewer-tee-90.png";
+import wpSewerElbow45 from "@/assets/products/waterpro-sewer-elbow-45.png";
+import wpSewerTee45 from "@/assets/products/waterpro-sewer-tee-45.png";
+import wpSewerCoupling from "@/assets/products/waterpro-sewer-coupling.png";
 import wpSewerGrey from "@/assets/products/waterpro-sewer-pipe-grey.png";
 
 // Product images - Kitchen Hoods
@@ -2087,6 +2092,86 @@ export const products: Product[] = [
       { label: { uz: "2 M", ru: "2 М" }, value: "4 шт / 200504" },
       { label: { uz: "3 M", ru: "3 М" }, value: "4 шт / 200505" },
       { label: { uz: "Kod", ru: "Код" }, value: "2005" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-elbow-90-2006",
+    name: "WaterPRO Отвод 90° PPH",
+    category: "waterpro",
+    images: [wpSewerElbow90],
+    description: {
+      uz: "WaterPRO PPH 90° otvod (burchak) kanalizatsiya tizimlari uchun. O'lchamlari: Ø50, Ø75, Ø110.",
+      ru: "Отвод 90° PPH WaterPRO для канализационных систем. Размеры: Ø50, Ø75, Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "200 (25) / 200601" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "75 / 200602" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "30 / 200603" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2006" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-tee-90-2007",
+    name: "WaterPRO Тройник 90° PPH",
+    category: "waterpro",
+    images: [wpSewerTee90],
+    description: {
+      uz: "WaterPRO PPH 90° troynik kanalizatsiya tizimlari uchun. O'lchamlari: Ø50, Ø75, Ø110.",
+      ru: "Тройник 90° PPH WaterPRO для канализационных систем. Размеры: Ø50, Ø75, Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "120 (15) / 200701" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "45 / 200702" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "22 / 200703" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2007" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-elbow-45-2008",
+    name: "WaterPRO Полуотвод 45° PPH",
+    category: "waterpro",
+    images: [wpSewerElbow45],
+    description: {
+      uz: "WaterPRO PPH 45° yarim otvod kanalizatsiya tizimlari uchun. O'lchamlari: Ø50, Ø75, Ø110.",
+      ru: "Полуотвод 45° PPH WaterPRO для канализационных систем. Размеры: Ø50, Ø75, Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "240 (30) / 200801" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "200802" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "32 / 200803" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2008" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-tee-45-2009",
+    name: "WaterPRO Тройник 45° PPH",
+    category: "waterpro",
+    images: [wpSewerTee45],
+    description: {
+      uz: "WaterPRO PPH 45° troynik kanalizatsiya tizimlari uchun. O'lchamlari: Ø50, Ø75, Ø110.",
+      ru: "Тройник 45° PPH WaterPRO для канализационных систем. Размеры: Ø50, Ø75, Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "96 / 200901" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "200902" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "14 / 200903" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2009" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-coupling-2010",
+    name: "WaterPRO Муфта PPH",
+    category: "waterpro",
+    images: [wpSewerCoupling],
+    description: {
+      uz: "WaterPRO PPH mufta kanalizatsiya trubalarini ulash uchun. O'lchamlari: Ø50, Ø75, Ø110.",
+      ru: "Муфта PPH WaterPRO для соединения канализационных труб. Размеры: Ø50, Ø75, Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "240 (30) / 201001" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "100 / 201002" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "56 / 201003" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2010" }
     ]
   },
 
