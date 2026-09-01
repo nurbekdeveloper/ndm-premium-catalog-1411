@@ -793,6 +793,61 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1084" }
     ]
   },
+  {
+    id: "waterpro-threaded-plug",
+    name: "WaterPRO Пробка с резьбой DN 1/2",
+    category: "waterpro",
+    images: [wpThreadedPlugAsset],
+    description: {
+      uz: "WaterPRO rezbali tiqin (Пробка с резьбой) DN 1/2 — quvur chiqishlarini berkitish uchun.",
+      ru: "Пробка с резьбой WaterPRO DN 1/2 — для заглушки резьбовых выходов."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Пробка с резьбой DN 1/2" },
+      { label: { uz: "Ø15", ru: "Ø15" }, value: "3000 (150) / 102901" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1029" }
+    ]
+  },
+  {
+    id: "waterpro-clamp-16",
+    name: "WaterPRO Клипса / Clamp Ø16",
+    category: "waterpro",
+    images: [wpClamp16Asset],
+    description: {
+      uz: "WaterPRO klipsa (Clamp) Ø16 — quvurlarni devorga mahkamlash uchun.",
+      ru: "Клипса WaterPRO (Clamp) Ø16 — для крепления труб к стене."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Клипса / Clamp" },
+      { label: { uz: "Ø16", ru: "Ø16" }, value: "5000 / 103001" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1030" }
+    ]
+  },
+  {
+    id: "waterpro-metal-clamp",
+    name: "WaterPRO Металлический хомут EPDM",
+    category: "waterpro",
+    images: [wpMetalClampAsset],
+    description: {
+      uz: "WaterPRO metall xomut EPDM rezinali — quvurlarni mustahkam mahkamlash uchun. 20 mm dan 200 mm gacha o'lchamlar.",
+      ru: "Металлический хомут WaterPRO с EPDM прокладкой — для надёжного крепления труб. Размеры от 20 до 200 мм."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Металлический хомут EPDM" },
+      { label: { uz: "20", ru: "20" }, value: "250 / 103901" },
+      { label: { uz: "25", ru: "25" }, value: "200 / 103902" },
+      { label: { uz: "32", ru: "32" }, value: "200 / 103903" },
+      { label: { uz: "40", ru: "40" }, value: "200 / 103904" },
+      { label: { uz: "50", ru: "50" }, value: "150 / 103905" },
+      { label: { uz: "63", ru: "63" }, value: "150 / 103906" },
+      { label: { uz: "75", ru: "75" }, value: "100 / 103907" },
+      { label: { uz: "90", ru: "90" }, value: "100 / 103908" },
+      { label: { uz: "110", ru: "110" }, value: "100 / 103909" },
+      { label: { uz: "160", ru: "160" }, value: "50 / 103910" },
+      { label: { uz: "200", ru: "200" }, value: "50 / 103911" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1039" }
+    ]
+  },
 
 
 
