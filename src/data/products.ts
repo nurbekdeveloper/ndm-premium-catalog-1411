@@ -938,6 +938,89 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1034" }
     ]
   },
+  {
+    id: "waterpro-elbow-z",
+    name: "WaterPRO Отвод Z-образный полипропиленовый PP-R",
+    category: "waterpro",
+    images: [wpElbowZ],
+    description: {
+      uz: "WaterPRO Z-shaklli polipropilen PP-R otvod — quvurlarni bir tekislikda siljitib ulash uchun. Ø20, Ø25, Ø32.",
+      ru: "Отвод Z-образный полипропиленовый PP-R WaterPRO — для смещения трубопровода в одной плоскости. Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Отвод Z-образный PP-R" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "420 (15) / 1035.20" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "240 (10) / 1035.25" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "176 (8) / 1035.32" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1035" }
+    ]
+  },
+  {
+    id: "waterpro-wall-coupling-left",
+    name: "WaterPRO Комбинированный отвод — левый (Access Wall Coupling Left)",
+    category: "waterpro",
+    images: [wpWallCouplingLeft],
+    description: {
+      uz: "WaterPRO kombinatsiyalangan chap otvod (Access Wall Coupling Left) — devorga chiqish uchun. L20, L25.",
+      ru: "Комбинированный отвод левый WaterPRO (Access Wall Coupling Left) — для вывода к стене. L20, L25."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Комбинированный отвод — левый" },
+      { label: { uz: "L 20 (Left)", ru: "L 20 (Left)" }, value: "270 / 109401" },
+      { label: { uz: "L 25 (Left)", ru: "L 25 (Left)" }, value: "150 / 109402" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1094" }
+    ]
+  },
+  {
+    id: "waterpro-wall-coupling-right",
+    name: "WaterPRO Комбинированный отвод — правый (Access Wall Coupling Right)",
+    category: "waterpro",
+    images: [wpWallCouplingRight],
+    description: {
+      uz: "WaterPRO kombinatsiyalangan o'ng otvod (Access Wall Coupling Right) — devorga chiqish uchun. L20, L25.",
+      ru: "Комбинированный отвод правый WaterPRO (Access Wall Coupling Right) — для вывода к стене. L20, L25."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Комбинированный отвод — правый" },
+      { label: { uz: "L 20 (Right)", ru: "L 20 (Right)" }, value: "270 / 109501" },
+      { label: { uz: "L 25 (Right)", ru: "L 25 (Right)" }, value: "150 / 109502" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1095" }
+    ]
+  },
+  {
+    id: "waterpro-tee-y",
+    name: "WaterPRO Тройник Y-образный полнопроходной PP-R",
+    category: "waterpro",
+    images: [wpTeeY],
+    description: {
+      uz: "WaterPRO Y-shaklli to'liq o'tishli PP-R troynik — oqim qarshiligini kamaytiradi. Ø20, Ø25, Ø32.",
+      ru: "Тройник Y-образный полнопроходной PP-R WaterPRO — снижает гидравлическое сопротивление. Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Тройник Y-образный полнопроходной" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "250 (10) / 1036.20" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "144 (6) / 1036.25" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "80 (4) / 1036.32" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1036" }
+    ]
+  },
+  {
+    id: "waterpro-tee-biplane",
+    name: "WaterPRO Тройник двухплоскостной",
+    category: "waterpro",
+    images: [wpTeeBiplane],
+    description: {
+      uz: "WaterPRO ikki tekislikli troynik — quvurlarni turli yo'nalishlarda tarmoqlash uchun. Ø20, Ø25, Ø32.",
+      ru: "Тройник двухплоскостной WaterPRO — для разветвления трубопровода в разных плоскостях. Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Тройник двухплоскостной" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "400 (20) / 1085.20" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "300 (15) / 1085.25" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "160 (20) / 1085.35" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1085" }
+    ]
+  },
 
   // Hydro Plast - PP-R Pipes (only 1 product)
   {
