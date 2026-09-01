@@ -250,6 +250,11 @@ import wpSewerElbow45 from "@/assets/products/waterpro-sewer-elbow-45.png";
 import wpSewerTee45 from "@/assets/products/waterpro-sewer-tee-45.png";
 import wpSewerCoupling from "@/assets/products/waterpro-sewer-coupling.png";
 import wpSewerGrey from "@/assets/products/waterpro-sewer-pipe-grey.png";
+import wpSewerRevision from "@/assets/products/waterpro-sewer-revision.png";
+import wpSewerReducer from "@/assets/products/waterpro-sewer-reducer.png";
+import wpSewerTeeReduce90 from "@/assets/products/waterpro-sewer-tee-reduce-90.png";
+import wpSewerTeeReduce45 from "@/assets/products/waterpro-sewer-tee-reduce-45.png";
+import wpSewerCap from "@/assets/products/waterpro-sewer-cap.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2172,6 +2177,84 @@ export const products: Product[] = [
       { label: { uz: "Ø75", ru: "Ø75" }, value: "100 / 201002" },
       { label: { uz: "Ø110", ru: "Ø110" }, value: "56 / 201003" },
       { label: { uz: "Kod", ru: "Код" }, value: "2010" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-revision-2011",
+    name: "WaterPRO Ревизия PPH",
+    category: "waterpro",
+    images: [wpSewerRevision],
+    description: {
+      uz: "WaterPRO PPH reviziya (tozalash lyuki) kanalizatsiya tizimlari uchun. O'lchamlari: Ø50, Ø75, Ø110.",
+      ru: "Ревизия PPH WaterPRO для канализационных систем. Размеры: Ø50, Ø75, Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "144 (18) / 201101" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "201102" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "26 / 201103" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2011" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-reducer-2012",
+    name: "WaterPRO Муфта переходная PPH",
+    category: "waterpro",
+    images: [wpSewerReducer],
+    description: {
+      uz: "WaterPRO PPH o'tkazgich mufta kanalizatsiya uchun. O'lchami: Ø110 - Ø50.",
+      ru: "Муфта переходная канализационная PPH WaterPRO. Размер: Ø110 - Ø50."
+    },
+    specs: [
+      { label: { uz: "Ø110 - Ø50", ru: "Ø110 - Ø50" }, value: "120 dona / шт" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2012" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-tee-reduce-90-2013",
+    name: "WaterPRO Тройник переходник 90° PPH",
+    category: "waterpro",
+    images: [wpSewerTeeReduce90],
+    description: {
+      uz: "WaterPRO PPH 90° o'tkazgich troynik. O'lchamlari: Ø110-Ø50, Ø110-Ø75, Ø75-Ø50.",
+      ru: "Тройник переходник 90° PPH WaterPRO. Размеры: Ø110-Ø50, Ø110-Ø75, Ø75-Ø50."
+    },
+    specs: [
+      { label: { uz: "Ø110 - Ø50", ru: "Ø110 - Ø50" }, value: "35 / 201301" },
+      { label: { uz: "Ø110 - Ø75", ru: "Ø110 - Ø75" }, value: "201302" },
+      { label: { uz: "Ø75 - Ø50", ru: "Ø75 - Ø50" }, value: "201303" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2013" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-tee-reduce-45-2015",
+    name: "WaterPRO Тройник переходник 45° PPH",
+    category: "waterpro",
+    images: [wpSewerTeeReduce45],
+    description: {
+      uz: "WaterPRO PPH 45° o'tkazgich troynik. O'lchamlari: Ø110-Ø50, Ø110-Ø75, Ø75-Ø50.",
+      ru: "Тройник переходник 45° PPH WaterPRO. Размеры: Ø110-Ø50, Ø110-Ø75, Ø75-Ø50."
+    },
+    specs: [
+      { label: { uz: "Ø110 - Ø50", ru: "Ø110 - Ø50" }, value: "32 (4) / 201501" },
+      { label: { uz: "Ø110 - Ø75", ru: "Ø110 - Ø75" }, value: "201502" },
+      { label: { uz: "Ø75 - Ø50", ru: "Ø75 - Ø50" }, value: "201503" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2015" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-cap-2017",
+    name: "WaterPRO Заглушка PPH",
+    category: "waterpro",
+    images: [wpSewerCap],
+    description: {
+      uz: "WaterPRO PPH zaglushka (tiqin) kanalizatsiya trubalari uchun. O'lchamlari: Ø50, Ø75, Ø110.",
+      ru: "Заглушка PPH WaterPRO для канализационных труб. Размеры: Ø50, Ø75, Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "1040 / 201701" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "201702" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "200 / 201703" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2017" }
     ]
   },
 
