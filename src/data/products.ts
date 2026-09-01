@@ -1768,6 +1768,38 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1070" }
     ]
   },
+  {
+    id: "waterpro-wall-elbow-1071",
+    name: "WaterPRO Отвод с настенным креплением Н/Р полипропиленовый PP-R «S-CLASS»",
+    category: "waterpro",
+    images: [wpWallElbow1071],
+    description: {
+      uz: "WaterPRO devorga mahkamlanadigan burchak, tashqi rezbali (N/R) polipropilen PP-R «S-CLASS». O'lchamlari: Ø20×1/2\" va Ø25×1/2\".",
+      ru: "Отвод с настенным креплением Н/Р полипропиленовый PP-R WaterPRO «S-CLASS». Размеры: Ø20×1/2\" и Ø25×1/2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R Wall Elbow Male S-CLASS" },
+      { label: { uz: "Ø20 x 1/2\"", ru: "Ø20 x 1/2\"" }, value: "72 (6) шт / 1071.20.12" },
+      { label: { uz: "Ø25 x 1/2\"", ru: "Ø25 x 1/2\"" }, value: "72 (6) шт / 1071.25.12" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1071" }
+    ]
+  },
+  {
+    id: "waterpro-wall-elbow-1072",
+    name: "WaterPRO Отвод с настенным креплением В/Р полипропиленовый PP-R «S-CLASS»",
+    category: "waterpro",
+    images: [wpWallElbow1072],
+    description: {
+      uz: "WaterPRO devorga mahkamlanadigan burchak, ichki rezbali (V/R) polipropilen PP-R «S-CLASS». O'lchamlari: Ø20×1/2\" va Ø25×1/2\".",
+      ru: "Отвод с настенным креплением В/Р полипропиленовый PP-R WaterPRO «S-CLASS». Размеры: Ø20×1/2\" и Ø25×1/2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PP-R Wall Elbow Female S-CLASS" },
+      { label: { uz: "Ø20 x 1/2\"", ru: "Ø20 x 1/2\"" }, value: "96 (8) шт / 1072.20.12" },
+      { label: { uz: "Ø25 x 1/2\"", ru: "Ø25 x 1/2\"" }, value: "72 (6) шт / 1072.25.12" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1072" }
+    ]
+  },
 
 
 
