@@ -212,6 +212,11 @@ import wpTeeFemale1057 from "@/assets/products/waterpro-tee-female-1057.png";
 import wpTeeMale1058 from "@/assets/products/waterpro-tee-male-1058.png";
 import wpUElbow1092 from "@/assets/products/waterpro-u-elbow-1092.png";
 import wpUnionNut1046 from "@/assets/products/waterpro-union-nut-1046.png";
+import wpAngleUnion1050 from "@/assets/products/waterpro-angle-union-1050.png";
+import wpFilter1059 from "@/assets/products/waterpro-filter-1059.png";
+import wpDoubleElbow1060 from "@/assets/products/waterpro-double-elbow-1060.png";
+import wpDoubleElbow10602 from "@/assets/products/waterpro-double-elbow-1060-2.png";
+import wpDoubleElbow10603 from "@/assets/products/waterpro-double-elbow-1060-3.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -1408,6 +1413,93 @@ export const products: Product[] = [
       { label: { uz: "Ø32 × 3/4", ru: "Ø32 × 3/4" }, value: "140 шт / 104604" },
       { label: { uz: "Ø32 × 1", ru: "Ø32 × 1" }, value: "100 шт / 104605" },
       { label: { uz: "Kod", ru: "Код" }, value: "1046" }
+    ]
+  },
+  {
+    id: "waterpro-angle-union-1050",
+    name: "WaterPRO Угол с накидной гайкой PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpAngleUnion1050],
+    description: {
+      uz: "WaterPRO nakidnoy gaykali burchak (Female Seated) PP-R «ECOLINE». O'lchamlari: Ø20×1/2 dan Ø32×1 gacha.",
+      ru: "Угол с накидной гайкой полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: от Ø20×1/2 до Ø32×1."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Female Seated (Ecoline)" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "220 шт / 105001" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "150 шт / 105002" },
+      { label: { uz: "Ø25 × 3/4", ru: "Ø25 × 3/4" }, value: "140 шт / 105003" },
+      { label: { uz: "Ø32 × 3/4", ru: "Ø32 × 3/4" }, value: "100 шт / 105004" },
+      { label: { uz: "Ø32 × 1", ru: "Ø32 × 1" }, value: "90 шт / 105005" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1050" }
+    ]
+  },
+  {
+    id: "waterpro-filter-1059",
+    name: "WaterPRO Фильтр сетчатый PP-R",
+    category: "waterpro",
+    images: [wpFilter1059],
+    description: {
+      uz: "WaterPRO to'rli filtr (PPR Filter). O'lchamlari: Ø20 dan Ø63 gacha.",
+      ru: "Фильтр сетчатый полипропиленовый PP-R WaterPRO. Размеры: от Ø20 до Ø63."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Filter" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "160 шт / 105901" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "80 шт / 105902" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "52 шт / 105903" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "40 шт / 105904" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "26 шт / 105905" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "12 шт / 105906" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1059" }
+    ]
+  },
+  {
+    id: "waterpro-double-elbow-1060",
+    name: "WaterPRO Двойной отвод с креплением В/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpDoubleElbow1060],
+    description: {
+      uz: "WaterPRO mahkamlagichli ikkilamchi otvod B/P PP-R «ECOLINE». O'lchamlari: Ø20×1/2, Ø25×1/2.",
+      ru: "Двойной отвод с креплением В/Р полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: Ø20×1/2, Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Double Elbow (Ecoline)" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "60 шт / 106001" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "40 шт / 106002" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1060" }
+    ]
+  },
+  {
+    id: "waterpro-double-elbow-1060-2",
+    name: "WaterPRO Монтажная группа, 2 выхода съёмный В/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpDoubleElbow10602],
+    description: {
+      uz: "WaterPRO montaj guruhi, 2 chiqishli yechiladigan B/P PP-R «ECOLINE». O'lchamlari: Ø20×1/2, Ø25×1/2.",
+      ru: "Монтажная группа, 2 выхода съёмный В/Р полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: Ø20×1/2, Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Detachable Double Elbow (Ecoline)" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "50 шт / 106021" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "40 шт / 106022" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1060-2" }
+    ]
+  },
+  {
+    id: "waterpro-double-elbow-1060-3",
+    name: "WaterPRO Эквипотенциальная монтажная группа, 2 выхода В/Р PP-R «ECOLINE»",
+    category: "waterpro",
+    images: [wpDoubleElbow10603],
+    description: {
+      uz: "WaterPRO ekvipotensial montaj guruhi, 2 chiqishli B/P PP-R «ECOLINE». O'lchamlari: Ø20×1/2, Ø25×1/2.",
+      ru: "Эквипотенциальная монтажная группа, 2 выхода В/Р полипропиленовый PP-R WaterPRO «ECOLINE». Размеры: Ø20×1/2, Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Equalpotential Double Elbow (Ecoline)" },
+      { label: { uz: "Ø20 × 1/2", ru: "Ø20 × 1/2" }, value: "40 шт / 106031" },
+      { label: { uz: "Ø25 × 1/2", ru: "Ø25 × 1/2" }, value: "40 шт / 106032" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1060-3" }
     ]
   },
 
