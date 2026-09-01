@@ -258,6 +258,9 @@ import wpSewerCap from "@/assets/products/waterpro-sewer-cap.png";
 import wpSewerBend135 from "@/assets/products/waterpro-sewer-bend-135.png";
 import wpSewerClip from "@/assets/products/waterpro-sewer-clip.png";
 import wpPvcuPipe from "@/assets/products/waterpro-pvcu-pipe.png";
+import wpPvcuCoupling from "@/assets/products/waterpro-pvcu-coupling.png";
+import wpPvcuBend45 from "@/assets/products/waterpro-pvcu-bend-45.png";
+import wpPvcuElbow90 from "@/assets/products/waterpro-pvcu-elbow-90.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2339,6 +2342,88 @@ export const products: Product[] = [
       { label: { uz: "2M", ru: "2М" }, value: "10 / 300203" },
       { label: { uz: "3M", ru: "3М" }, value: "10 / 300204" },
       { label: { uz: "Kod", ru: "Код" }, value: "3002" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-pipe-160-3003",
+    name: "WaterPRO Труба PVC-U Ø160 (4.0мм)",
+    category: "waterpro",
+    images: [wpPvcuPipe],
+    description: {
+      uz: "WaterPRO PVC-U kanalizatsiya trubasi Ø160, devor qalinligi 4.0mm. Uzunliklari: 0.5M, 1M, 2M, 3M.",
+      ru: "Труба PVC-U WaterPRO Ø160, толщина стенки 4.0мм. Длины: 0.5М, 1М, 2М, 3М."
+    },
+    specs: [
+      { label: { uz: "0.5M", ru: "0.5М" }, value: "4 / 300301" },
+      { label: { uz: "1M", ru: "1М" }, value: "4 / 300302" },
+      { label: { uz: "2M", ru: "2М" }, value: "4 / 300303" },
+      { label: { uz: "3M", ru: "3М" }, value: "4 / 300304" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3003" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-pipe-200-3004",
+    name: "WaterPRO Труба PVC-U Ø200 (5.0мм)",
+    category: "waterpro",
+    images: [wpPvcuPipe],
+    description: {
+      uz: "WaterPRO PVC-U kanalizatsiya trubasi Ø200, devor qalinligi 5.0mm. Uzunliklari: 0.5M, 1M, 2M, 3M.",
+      ru: "Труба PVC-U WaterPRO Ø200, толщина стенки 5.0мм. Длины: 0.5М, 1М, 2М, 3М."
+    },
+    specs: [
+      { label: { uz: "0.5M", ru: "0.5М" }, value: "4 / 300401" },
+      { label: { uz: "1M", ru: "1М" }, value: "4 / 300402" },
+      { label: { uz: "2M", ru: "2М" }, value: "4 / 300403" },
+      { label: { uz: "3M", ru: "3М" }, value: "4 / 300404" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3004" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-coupling-3005",
+    name: "WaterPRO Муфта PVC-U",
+    category: "waterpro",
+    images: [wpPvcuCoupling],
+    description: {
+      uz: "WaterPRO PVC-U mufta. O'lchamlari: Ø110, Ø160, Ø200.",
+      ru: "Муфта PVC-U WaterPRO. Размеры: Ø110, Ø160, Ø200."
+    },
+    specs: [
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "49 / 300501" },
+      { label: { uz: "Ø160", ru: "Ø160" }, value: "18 / 300502" },
+      { label: { uz: "Ø200", ru: "Ø200" }, value: "12 / 300503" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3005" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-bend-45-3006",
+    name: "WaterPRO Полуотвод 45° PVC-U",
+    category: "waterpro",
+    images: [wpPvcuBend45],
+    description: {
+      uz: "WaterPRO PVC-U 45° yarim burilish. O'lchamlari: Ø110, Ø160, Ø200.",
+      ru: "Полуотвод 45° PVC-U WaterPRO. Размеры: Ø110, Ø160, Ø200."
+    },
+    specs: [
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "32 / 300601" },
+      { label: { uz: "Ø160", ru: "Ø160" }, value: "12 / 300602" },
+      { label: { uz: "Ø200", ru: "Ø200" }, value: "6 / 300603" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3006" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-elbow-90-3007",
+    name: "WaterPRO Отвод 90° PVC-U",
+    category: "waterpro",
+    images: [wpPvcuElbow90],
+    description: {
+      uz: "WaterPRO PVC-U 90° burchak. O'lchamlari: Ø110, Ø160, Ø200.",
+      ru: "Отвод 90° PVC-U WaterPRO. Размеры: Ø110, Ø160, Ø200."
+    },
+    specs: [
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "27 / 300701" },
+      { label: { uz: "Ø160", ru: "Ø160" }, value: "11 / 300702" },
+      { label: { uz: "Ø200", ru: "Ø200" }, value: "4 / 300703" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3007" }
     ]
   },
 
