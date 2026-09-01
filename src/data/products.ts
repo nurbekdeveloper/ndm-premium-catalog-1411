@@ -261,6 +261,11 @@ import wpPvcuPipe from "@/assets/products/waterpro-pvcu-pipe.png";
 import wpPvcuCoupling from "@/assets/products/waterpro-pvcu-coupling.png";
 import wpPvcuBend45 from "@/assets/products/waterpro-pvcu-bend-45.png";
 import wpPvcuElbow90 from "@/assets/products/waterpro-pvcu-elbow-90.png";
+import wpPvcuTee90 from "@/assets/products/waterpro-pvcu-tee-90.png";
+import wpPvcuTeeReduce90 from "@/assets/products/waterpro-pvcu-tee-reduce-90.png";
+import wpPvcuAdapter from "@/assets/products/waterpro-pvcu-adapter.png";
+import wpPvcuTee45 from "@/assets/products/waterpro-pvcu-tee-45.png";
+import wpPvcuTeeReduce45 from "@/assets/products/waterpro-pvcu-tee-reduce-45.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
