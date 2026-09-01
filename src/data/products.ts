@@ -2695,6 +2695,86 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "4004" }
     ]
   },
+  {
+    id: "waterpro-brass-ball-valve-4005",
+    name: "WaterPRO Кран шаровой с разъемной муфтой из латуни (бабочка) Н/Р–В/Р 4005",
+    category: "waterpro",
+    images: [wpBallValve4005],
+    description: {
+      uz: "WaterPRO ajraladigan muftali latun sharli kran (kapalak tutqich), tashqi–ichki rezba.",
+      ru: "Кран шаровой с разъемной муфтой из латуни WaterPRO (бабочка), Н/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2M", ru: "1/2F×1/2M" }, value: "80 / 400501" },
+      { label: { uz: "3/4F×3/4M", ru: "3/4F×3/4M" }, value: "60 / 400502" },
+      { label: { uz: "1F×1M", ru: "1F×1M" }, value: "32 / 400503" },
+      { label: { uz: "11/4F×11/4M", ru: "11/4F×11/4M" }, value: "16 / 400504" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4005" }
+    ]
+  },
+  {
+    id: "waterpro-brass-ball-valve-4006",
+    name: "WaterPRO Кран шаровой с разъемной муфтой из латуни (бабочка) Н/Р–В/Р 4006",
+    category: "waterpro",
+    images: [wpBallValve4006],
+    description: {
+      uz: "WaterPRO ajraladigan muftali latun sharli kran (ko'k kapalak tutqich), tashqi–ichki rezba.",
+      ru: "Кран шаровой с разъемной муфтой из латуни WaterPRO (бабочка, синяя ручка), Н/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2M", ru: "1/2F×1/2M" }, value: "80 / 400601" },
+      { label: { uz: "3/4F×3/4M", ru: "3/4F×3/4M" }, value: "60 / 400602" },
+      { label: { uz: "1F×1M", ru: "1F×1M" }, value: "32 / 400603" },
+      { label: { uz: "11/4F×11/4M", ru: "11/4F×11/4M" }, value: "16 / 400604" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4006" }
+    ]
+  },
+  {
+    id: "waterpro-compression-fitting-4078",
+    name: "WaterPRO Разъемное соединение (евроконус) 4078",
+    category: "waterpro",
+    images: [wpCompressionFitting4078],
+    description: {
+      uz: "WaterPRO ajraladigan siqiluvchi birikma (evrokonus). O'lchamlari: Ø16, Ø20.",
+      ru: "Разъемное компрессионное соединение (евроконус) WaterPRO. Размеры: Ø16, Ø20."
+    },
+    specs: [
+      { label: { uz: "Ø16", ru: "Ø16" }, value: "640 / 407801" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "448 / 407802" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4078" }
+    ]
+  },
+  {
+    id: "waterpro-brass-ball-valve-4079",
+    name: "WaterPRO Кран шаровой с разъемной муфтой из латуни (бабочка) Н/Р–В/Р 4079",
+    category: "waterpro",
+    images: [wpBallValve4079],
+    description: {
+      uz: "WaterPRO ajraladigan muftali latun sharli kran (qizil kapalak tutqich), tashqi–ichki rezba.",
+      ru: "Кран шаровой с разъемной муфтой из латуни WaterPRO (бабочка), Н/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2M", ru: "1/2F×1/2M" }, value: "160 / 407901" },
+      { label: { uz: "3/4F×3/4M", ru: "3/4F×3/4M" }, value: "120 / 407902" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4079" }
+    ]
+  },
+  {
+    id: "waterpro-brass-ball-valve-4080",
+    name: "WaterPRO Кран шаровой с разъемной муфтой из латуни (бабочка) Н/Р–В/Р 4080",
+    category: "waterpro",
+    images: [wpBallValve4080],
+    description: {
+      uz: "WaterPRO ajraladigan muftali latun sharli kran (ko'k kapalak tutqich), tashqi–ichki rezba.",
+      ru: "Кран шаровой с разъемной муфтой из латуни WaterPRO (бабочка, синяя ручка), Н/Р–В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2M", ru: "1/2F×1/2M" }, value: "160 / 408001" },
+      { label: { uz: "3/4F×3/4M", ru: "3/4F×3/4M" }, value: "120 / 408002" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4080" }
+    ]
+  },
+
 
 
 
