@@ -244,6 +244,11 @@ import wpAngleRadValve1079 from "@/assets/products/waterpro-angle-radiator-valve
 import wpStraightRadValve1080 from "@/assets/products/waterpro-straight-radiator-valve-1080.png";
 import wpBallValve1081 from "@/assets/products/waterpro-ball-valve-1081.png";
 import wpSewerOrange from "@/assets/products/waterpro-sewer-pipe-orange.png";
+import wpSewerElbow90 from "@/assets/products/waterpro-sewer-elbow-90.png";
+import wpSewerTee90 from "@/assets/products/waterpro-sewer-tee-90.png";
+import wpSewerElbow45 from "@/assets/products/waterpro-sewer-elbow-45.png";
+import wpSewerTee45 from "@/assets/products/waterpro-sewer-tee-45.png";
+import wpSewerCoupling from "@/assets/products/waterpro-sewer-coupling.png";
 import wpSewerGrey from "@/assets/products/waterpro-sewer-pipe-grey.png";
 
 // Product images - Kitchen Hoods
