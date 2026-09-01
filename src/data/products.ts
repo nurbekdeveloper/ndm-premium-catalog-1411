@@ -1906,6 +1906,93 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1089" }
     ]
   },
+  {
+    id: "waterpro-double-elbow-1078",
+    name: "WaterPRO Двойной отвод с креплением В/Р «S-CLASS»",
+    category: "waterpro",
+    images: [wpDoubleElbow1078],
+    description: {
+      uz: "WaterPRO qo'sh otvod, mahkamlagichli, ichki rezbali (V/R) «S-CLASS». O'lchamlari: Ø20×1/2 va Ø25×1/2.",
+      ru: "Двойной отвод с креплением В/Р WaterPRO «S-CLASS». Размеры: Ø20×1/2 и Ø25×1/2."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Double Elbow-S CLASS" },
+      { label: { uz: "Ø20 x 1/2", ru: "Ø20 x 1/2" }, value: "30 шт / 107801" },
+      { label: { uz: "Ø25 x 1/2", ru: "Ø25 x 1/2" }, value: "30 шт / 107802" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1078" }
+    ]
+  },
+  {
+    id: "waterpro-stop-check-valve-1077",
+    name: "WaterPRO Барашковый кран (эксклюзивный) «S-CLASS»",
+    category: "waterpro",
+    images: [wpStopCheckValve1077],
+    description: {
+      uz: "WaterPRO barashka kran (eksklyuziv) «S-CLASS». O'lchamlari: Ø20, Ø25, Ø32.",
+      ru: "Барашковый кран (эксклюзивный) WaterPRO «S-CLASS». Размеры: Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Stop Check Valve-S CLASS" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "40 шт / 107701" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "24 шт / 107702" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "24 шт / 107703" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1077" }
+    ]
+  },
+  {
+    id: "waterpro-angle-radiator-valve-1079",
+    name: "WaterPRO Угловой кран для радиатора (Brass Ball) «S-CLASS»",
+    category: "waterpro",
+    images: [wpAngleRadValve1079],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kran (latun sharli) «S-CLASS». O'lchamlari: Ø20×1/2 dan Ø25×3/4 gacha.",
+      ru: "Угловой кран для радиатора (Brass Ball) WaterPRO «S-CLASS». Размеры: от Ø20×1/2 до Ø25×3/4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Angle Radiator Valve-S CLASS" },
+      { label: { uz: "Ø20 x 1/2", ru: "Ø20 x 1/2" }, value: "48 шт / 107901" },
+      { label: { uz: "Ø25 x 1/2", ru: "Ø25 x 1/2" }, value: "48 шт / 107902" },
+      { label: { uz: "Ø25 x 3/4", ru: "Ø25 x 3/4" }, value: "40 шт / 107903" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1079" }
+    ]
+  },
+  {
+    id: "waterpro-straight-radiator-valve-1080",
+    name: "WaterPRO Кран для радиатора (Brass Ball) «S-CLASS»",
+    category: "waterpro",
+    images: [wpStraightRadValve1080],
+    description: {
+      uz: "WaterPRO radiator uchun to'g'ri kran (latun sharli) «S-CLASS». O'lchamlari: Ø20×1/2 dan Ø25×3/4 gacha.",
+      ru: "Кран для радиатора (Brass Ball) WaterPRO «S-CLASS». Размеры: от Ø20×1/2 до Ø25×3/4."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Straight Radiator Valve-S CLASS" },
+      { label: { uz: "Ø20 x 1/2", ru: "Ø20 x 1/2" }, value: "48 шт / 108001" },
+      { label: { uz: "Ø25 x 1/2", ru: "Ø25 x 1/2" }, value: "48 шт / 108002" },
+      { label: { uz: "Ø25 x 3/4", ru: "Ø25 x 3/4" }, value: "40 шт / 108003" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1080" }
+    ]
+  },
+  {
+    id: "waterpro-ball-valve-1081",
+    name: "WaterPRO Шаровой кран (Brass Ball) «S-CLASS»",
+    category: "waterpro",
+    images: [wpBallValve1081],
+    description: {
+      uz: "WaterPRO sharli kran (latun sharli) «S-CLASS». O'lchamlari: Ø20 dan Ø63 gacha.",
+      ru: "Шаровой кран (Brass Ball) WaterPRO «S-CLASS». Размеры: от Ø20 до Ø63."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "PPR Valve (Brass Ball)-S CLASS" },
+      { label: { uz: "Ø20", ru: "Ø20" }, value: "72 шт / 108101" },
+      { label: { uz: "Ø25", ru: "Ø25" }, value: "56 шт / 108102" },
+      { label: { uz: "Ø32", ru: "Ø32" }, value: "30 шт / 108103" },
+      { label: { uz: "Ø40", ru: "Ø40" }, value: "28 шт / 108104" },
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "13 шт / 108105" },
+      { label: { uz: "Ø63", ru: "Ø63" }, value: "10 шт / 108106" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1081" }
+    ]
+  },
 
 
 
