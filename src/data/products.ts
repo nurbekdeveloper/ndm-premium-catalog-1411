@@ -1133,6 +1133,86 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "1041" }
     ]
   },
+  {
+    id: "waterpro-adapter-male-1042",
+    name: "WaterPRO Адаптер с наружной резьбой PP-R «PREMIUM»",
+    category: "waterpro",
+    images: [wpAdapterMale],
+    description: {
+      uz: "WaterPRO tashqi rezbali adapter (mufta) PP-R «PREMIUM» — PP-R quvurni rezbali jihozlarga ulash uchun. O'lchamlari: Ø20×1/2\", Ø25×1/2\".",
+      ru: "Адаптер с наружной резьбой полипропиленовый PP-R WaterPRO «PREMIUM» — для соединения PP-R трубы с резьбовым оборудованием. Размеры: Ø20×1/2\", Ø25×1/2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Адаптер Н/Р, PP-R PREMIUM" },
+      { label: { uz: "Ø20 × 1/2\"", ru: "Ø20 × 1/2\"" }, value: "300 (1) шт / 1042.20.12" },
+      { label: { uz: "Ø25 × 1/2\"", ru: "Ø25 × 1/2\"" }, value: "300 (1) шт / 1042.25.12" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1042" }
+    ]
+  },
+  {
+    id: "waterpro-adapter-female-1043",
+    name: "WaterPRO Адаптер с внутренней резьбой PP-R «PREMIUM»",
+    category: "waterpro",
+    images: [wpAdapterFemale],
+    description: {
+      uz: "WaterPRO ichki rezbali adapter (mufta) PP-R «PREMIUM» — PP-R quvurni rezbali jihozlarga ulash uchun. O'lchamlari: Ø20×1/2\", Ø25×1/2\".",
+      ru: "Адаптер с внутренней резьбой полипропиленовый PP-R WaterPRO «PREMIUM» — для соединения PP-R трубы с резьбовым оборудованием. Размеры: Ø20×1/2\", Ø25×1/2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Адаптер В/Р, PP-R PREMIUM" },
+      { label: { uz: "Ø20 × 1/2\"", ru: "Ø20 × 1/2\"" }, value: "300 (1) шт / 1043.20.12" },
+      { label: { uz: "Ø25 × 1/2\"", ru: "Ø25 × 1/2\"" }, value: "300 (1) шт / 1043.25.12" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1043" }
+    ]
+  },
+  {
+    id: "waterpro-wall-elbow-male-1044",
+    name: "WaterPRO Отвод с настенным креплением Н/Р PP-R «PREMIUM»",
+    category: "waterpro",
+    images: [wpWallElbowMale],
+    description: {
+      uz: "WaterPRO devorga o'rnatiladigan tashqi rezbali burchak (otvod) PP-R «PREMIUM» — sanitariya jihozlarini ulash uchun. O'lchamlari: Ø20×1/2\", Ø25×1/2\".",
+      ru: "Отвод с настенным креплением Н/Р полипропиленовый PP-R WaterPRO «PREMIUM» — для подключения сантехнических приборов. Размеры: Ø20×1/2\", Ø25×1/2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Отвод настенный Н/Р, PP-R PREMIUM" },
+      { label: { uz: "Ø20 × 1/2\"", ru: "Ø20 × 1/2\"" }, value: "110 (1) шт / 1044.20.12" },
+      { label: { uz: "Ø25 × 1/2\"", ru: "Ø25 × 1/2\"" }, value: "110 (1) шт / 1044.25.12" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1044" }
+    ]
+  },
+  {
+    id: "waterpro-wall-elbow-female-1045",
+    name: "WaterPRO Отвод с настенным креплением В/Р PP-R «PREMIUM»",
+    category: "waterpro",
+    images: [wpWallElbowFemale],
+    description: {
+      uz: "WaterPRO devorga o'rnatiladigan ichki rezbali burchak (otvod) PP-R «PREMIUM» — smesitel va sanitariya jihozlarini ulash uchun. O'lchamlari: Ø20×1/2\", Ø25×1/2\".",
+      ru: "Отвод с настенным креплением В/Р полипропиленовый PP-R WaterPRO «PREMIUM» — для подключения смесителей и сантехприборов. Размеры: Ø20×1/2\", Ø25×1/2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Отвод настенный В/Р, PP-R PREMIUM" },
+      { label: { uz: "Ø20 × 1/2\"", ru: "Ø20 × 1/2\"" }, value: "120 (1) шт / 1045.20.12" },
+      { label: { uz: "Ø25 × 1/2\"", ru: "Ø25 × 1/2\"" }, value: "100 (1) шт / 1045.25.12" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1045" }
+    ]
+  },
+  {
+    id: "waterpro-double-wall-elbow-1047",
+    name: "WaterPRO Двойной отвод с креплением В/Р PP-R «PREMIUM»",
+    category: "waterpro",
+    images: [wpDoubleWallElbow],
+    description: {
+      uz: "WaterPRO ikkilangan (juft) devorga mahkamlanadigan ichki rezbali otvod PP-R «PREMIUM» — dush va smesitellarni ulash uchun. O'lchamlari: Ø20×1/2\", Ø25×1/2\".",
+      ru: "Двойной отвод с креплением В/Р полипропиленовый PP-R WaterPRO «PREMIUM» — для подключения смесителей и душа. Размеры: Ø20×1/2\", Ø25×1/2\"."
+    },
+    specs: [
+      { label: { uz: "Turi", ru: "Тип" }, value: "Двойной отвод В/Р, PP-R PREMIUM" },
+      { label: { uz: "Ø20 × 1/2\"", ru: "Ø20 × 1/2\"" }, value: "36 (2) шт / 1047.20.12" },
+      { label: { uz: "Ø25 × 1/2\"", ru: "Ø25 × 1/2\"" }, value: "36 (2) шт / 1047.25.12" },
+      { label: { uz: "Kod", ru: "Код" }, value: "1047" }
+    ]
+  },
 
 
   // Hydro Plast - PP-R Pipes (only 1 product)
