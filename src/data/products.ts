@@ -145,28 +145,28 @@ import isocomLogoImg from "@/assets/partners/isocom-logo.png";
 import liderLogoImg from "@/assets/partners/lider-logo.png";
 import bleskLogoImg from "@/assets/partners/blesk-logo.png";
 import ndmLogoImg from "@/assets/ndm-logo.png";
-import waterProLogoAsset from "@/assets/partners/waterpro-logo.png.asset.json";
-import waterProPertPipeAsset from "@/assets/products/waterpro-pert-pipe.png.asset.json";
-import wpPertRed300Asset from "@/assets/products/waterpro-pert-red-300m.png.asset.json";
-import wpPertBlackAsset from "@/assets/products/waterpro-pert-black.png.asset.json";
-import wpPertEvohAsset from "@/assets/products/waterpro-pert-evoh.png.asset.json";
-import wpPexaAsset from "@/assets/products/waterpro-pexa.png.asset.json";
-import wpPexAlPexAsset from "@/assets/products/waterpro-pex-al-pex.png.asset.json";
-import wpPertAlPertAsset from "@/assets/products/waterpro-pert-al-pert.png.asset.json";
-import wpInsRedAsset from "@/assets/products/waterpro-insulated-pex-red.png.asset.json";
-import wpInsBlueAsset from "@/assets/products/waterpro-insulated-pex-blue.png.asset.json";
-import wpPprPn16InsAsset from "@/assets/products/waterpro-ppr-pn16-insulated.png.asset.json";
-import wpPprPn20InsAsset from "@/assets/products/waterpro-ppr-pn20-insulated.png.asset.json";
-import wpPprPn16_2mAsset from "@/assets/products/waterpro-ppr-pn16-2m.png.asset.json";
-import wpPprPn20_2mAsset from "@/assets/products/waterpro-ppr-pn20-2m.png.asset.json";
-import wpPprAlPertPn25Asset from "@/assets/products/waterpro-ppr-al-pert-pn25.png.asset.json";
-import wpPprPn10Asset from "@/assets/products/waterpro-ppr-pn10.png.asset.json";
-import wpPprPn16_4mAsset from "@/assets/products/waterpro-ppr-pn16-4m.png.asset.json";
-import wpPprPn20_4mAsset from "@/assets/products/waterpro-ppr-pn20-4m.png.asset.json";
-import wpEqualSocketAsset from "@/assets/products/waterpro-equal-socket.png.asset.json";
-import wpElbow45Asset from "@/assets/products/waterpro-elbow-45.png.asset.json";
-import wpTeeAsset from "@/assets/products/waterpro-tee.png.asset.json";
-import wpPipeCapAsset from "@/assets/products/waterpro-pipe-cap.png.asset.json";
+import waterProLogoAsset from "@/assets/partners/waterpro-logo.png";
+import waterProPertPipeAsset from "@/assets/products/waterpro-pert-pipe.png";
+import wpPertRed300Asset from "@/assets/products/waterpro-pert-red-300m.png";
+import wpPertBlackAsset from "@/assets/products/waterpro-pert-black.png";
+import wpPertEvohAsset from "@/assets/products/waterpro-pert-evoh.png";
+import wpPexaAsset from "@/assets/products/waterpro-pexa.png";
+import wpPexAlPexAsset from "@/assets/products/waterpro-pex-al-pex.png";
+import wpPertAlPertAsset from "@/assets/products/waterpro-pert-al-pert.png";
+import wpInsRedAsset from "@/assets/products/waterpro-insulated-pex-red.png";
+import wpInsBlueAsset from "@/assets/products/waterpro-insulated-pex-blue.png";
+import wpPprPn16InsAsset from "@/assets/products/waterpro-ppr-pn16-insulated.png";
+import wpPprPn20InsAsset from "@/assets/products/waterpro-ppr-pn20-insulated.png";
+import wpPprPn16_2mAsset from "@/assets/products/waterpro-ppr-pn16-2m.png";
+import wpPprPn20_2mAsset from "@/assets/products/waterpro-ppr-pn20-2m.png";
+import wpPprAlPertPn25Asset from "@/assets/products/waterpro-ppr-al-pert-pn25.png";
+import wpPprPn10Asset from "@/assets/products/waterpro-ppr-pn10.png";
+import wpPprPn16_4mAsset from "@/assets/products/waterpro-ppr-pn16-4m.png";
+import wpPprPn20_4mAsset from "@/assets/products/waterpro-ppr-pn20-4m.png";
+import wpEqualSocketAsset from "@/assets/products/waterpro-equal-socket.png";
+import wpElbow45Asset from "@/assets/products/waterpro-elbow-45.png";
+import wpTeeAsset from "@/assets/products/waterpro-tee.png";
+import wpPipeCapAsset from "@/assets/products/waterpro-pipe-cap.png";
 import plastfoilTestFix from "@/assets/products/plastfoil-test-fix.png";
 import plastguardTape from "@/assets/products/plastguard-tape.png";
 import penoplexFastmix from "@/assets/products/penoplex-fastmix.png";
@@ -217,7 +217,7 @@ export const products: Product[] = [
     id: "waterpro-pert-16x2",
     name: "WaterPRO Труба PE-RT Ø16×2.0",
     category: "waterpro",
-    images: [waterProPertPipeAsset.url],
+    images: [waterProPertPipeAsset],
     description: {
       uz: "WaterPRO PE-RT quvuri Ø16×2.0 mm \u2014 issiq va sovuq suv ta'minoti hamda issiqlik ta'minoti (yerdan isitish) tizimlari uchun mo'ljallangan moslashuvchan quvur. Bir o'ramda 200 metr.\n\nYuqori issiqlikka chidamlilik, korroziyaga qarshi barqarorlik va uzoq xizmat muddati.",
       ru: "Труба WaterPRO PE-RT Ø16×2.0 мм \u2014 гибкая труба для систем горячего и холодного водоснабжения, а также напольного отопления. В упаковке 200 м.\n\nВысокая термостойкость, устойчивость к коррозии и длительный срок службы."
@@ -234,7 +234,7 @@ export const products: Product[] = [
     id: "waterpro-pert-red-16x2",
     name: "WaterPRO Труба PE-RT Ø16×2.0 (красная, 300м)",
     category: "waterpro",
-    images: [wpPertRed300Asset.url],
+    images: [wpPertRed300Asset],
     description: {
       uz: "WaterPRO PE-RT qizil quvuri Ø16×2.0 mm — issiq va sovuq suv ta'minoti hamda yerdan isitish tizimlari uchun. Bir o'ramda 300 metr.",
       ru: "Красная труба WaterPRO PE-RT Ø16×2.0 мм — для горячего и холодного водоснабжения и напольного отопления. В упаковке 300 м."
@@ -252,7 +252,7 @@ export const products: Product[] = [
     id: "waterpro-pert-black-16x2",
     name: "WaterPRO Труба PE-RT Ø16×2.0 (чёрная)",
     category: "waterpro",
-    images: [wpPertBlackAsset.url],
+    images: [wpPertBlackAsset],
     description: {
       uz: "WaterPRO PE-RT qora quvuri Ø16×2.0 mm — issiq va sovuq suv ta'minoti hamda isitish tizimlari uchun. Bir o'ramda 200 metr.",
       ru: "Чёрная труба WaterPRO PE-RT Ø16×2.0 мм — для систем водоснабжения и отопления. В упаковке 200 м."
@@ -270,7 +270,7 @@ export const products: Product[] = [
     id: "waterpro-pert-evoh-16x2",
     name: "WaterPRO Труба PERT-EVOH Ø16×2.0",
     category: "waterpro",
-    images: [wpPertEvohAsset.url],
+    images: [wpPertEvohAsset],
     description: {
       uz: "WaterPRO PERT-EVOH quvuri Ø16×2.0 mm — kislorod o'tkazmaydigan EVOH qatlamli quvur, yerdan isitish tizimlari uchun ideal. Bir o'ramda 200 metr.",
       ru: "Труба WaterPRO PERT-EVOH Ø16×2.0 мм — с кислородонепроницаемым слоем EVOH, идеальна для напольного отопления. В упаковке 200 м."
@@ -287,7 +287,7 @@ export const products: Product[] = [
     id: "waterpro-pexa-16x2",
     name: "WaterPRO Труба PE-Xa Ø16×2.0",
     category: "waterpro",
-    images: [wpPexaAsset.url],
+    images: [wpPexaAsset],
     description: {
       uz: "WaterPRO PE-Xa quvuri Ø16×2.0 mm — peroksid usulida tikilgan polietilen quvur, yuqori bosim va haroratga chidamli. Bir o'ramda 200 metr.",
       ru: "Труба WaterPRO PE-Xa Ø16×2.0 мм — сшитый пероксидным методом полиэтилен, устойчива к высокому давлению и температуре. В упаковке 200 м."
@@ -304,7 +304,7 @@ export const products: Product[] = [
     id: "waterpro-pex-al-pex-laser",
     name: "WaterPRO Труба PEX-AL-PEX LASER",
     category: "waterpro",
-    images: [wpPexAlPexAsset.url],
+    images: [wpPexAlPexAsset],
     description: {
       uz: "WaterPRO PEX-AL-PEX LASER metall-plastik quvuri — lazer payvandlangan alyuminiy qatlamli, shakl saqlovchi, kislorod o'tkazmaydigan quvur. 4 xil o'lchamda.",
       ru: "Металлопластиковая труба WaterPRO PEX-AL-PEX LASER — с лазерной сваркой алюминиевого слоя, держит форму, кислородонепроницаемая. 4 типоразмера."
@@ -322,7 +322,7 @@ export const products: Product[] = [
     id: "waterpro-pert-al-pert",
     name: "WaterPRO Труба PERT-AL-PERT",
     category: "waterpro",
-    images: [wpPertAlPertAsset.url],
+    images: [wpPertAlPertAsset],
     description: {
       uz: "WaterPRO PERT-AL-PERT metall-plastik quvuri — alyuminiy qatlamli, egiluvchan va mustahkam, isitish va suv ta'minoti uchun. 2 xil o'lchamda.",
       ru: "Металлопластиковая труба WaterPRO PERT-AL-PERT — с алюминиевым слоем, гибкая и прочная, для отопления и водоснабжения. 2 типоразмера."
@@ -338,7 +338,7 @@ export const products: Product[] = [
     id: "waterpro-insulated-pex-red",
     name: "WaterPRO Изолированная труба PEX-AL-PEX LASER (красная)",
     category: "waterpro",
-    images: [wpInsRedAsset.url],
+    images: [wpInsRedAsset],
     description: {
       uz: "WaterPRO izolyatsiyalangan metall-plastik quvuri PEX-AL-PEX LASER (qizil) — issiqlik yo'qotishini kamaytiruvchi qoplamali quvur. 4 xil o'lchamda.",
       ru: "Изолированная металлопластиковая труба WaterPRO PEX-AL-PEX LASER (красная) — с теплоизоляционной оболочкой, снижает теплопотери. 4 типоразмера."
@@ -357,7 +357,7 @@ export const products: Product[] = [
     id: "waterpro-insulated-pex-blue",
     name: "WaterPRO Изолированная труба PEX-AL-PEX LASER (синяя)",
     category: "waterpro",
-    images: [wpInsBlueAsset.url],
+    images: [wpInsBlueAsset],
     description: {
       uz: "WaterPRO izolyatsiyalangan metall-plastik quvuri PEX-AL-PEX LASER (ko'k) — sovuq suv liniyalari uchun izolyatsiyali quvur. 4 xil o'lchamda.",
       ru: "Изолированная металлопластиковая труба WaterPRO PEX-AL-PEX LASER (синяя) — для линий холодного водоснабжения. 4 типоразмера."
@@ -376,7 +376,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn16-insulated",
     name: "WaterPRO Труба PN-16 ХВС (с термоизоляционной оболочкой)",
     category: "waterpro",
-    images: [wpPprPn16InsAsset.url],
+    images: [wpPprPn16InsAsset],
     description: {
       uz: "WaterPRO PP-R PN-16 sovuq suv quvuri — termoizolyatsion qoplama bilan. Kondensat va issiqlik yo'qotishidan himoya qiladi. 4 xil o'lchamda.",
       ru: "Труба WaterPRO PP-R PN-16 ХВС с термоизоляционной оболочкой — защита от конденсата и теплопотерь. 4 типоразмера."
@@ -394,7 +394,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn20-insulated",
     name: "WaterPRO Труба PN-20 ГВС (с термоизоляционной оболочкой)",
     category: "waterpro",
-    images: [wpPprPn20InsAsset.url],
+    images: [wpPprPn20InsAsset],
     description: {
       uz: "WaterPRO PP-R PN-20 issiq suv ta'minoti (ГВС) quvuri — termoizolyatsion qoplama bilan. Qizil va ko'k rangda, 8 xil o'lchamda mavjud.",
       ru: "Труба WaterPRO PP-R PN-20 ГВС с термоизоляционной оболочкой — красная и синяя, 8 типоразмеров."
@@ -416,7 +416,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn16-2m",
     name: "WaterPRO Труба PN16 ХВС / PP-R Pipe PN16 Cold (2м/штук)",
     category: "waterpro",
-    images: [wpPprPn16_2mAsset.url],
+    images: [wpPprPn16_2mAsset],
     description: {
       uz: "WaterPRO PP-R PN16 sovuq suv quvuri, 2 metrlik shtangalarda. Ichimlik va texnik sovuq suv tizimlari uchun. 3 xil o'lchamda.",
       ru: "Труба WaterPRO PP-R PN16 ХВС в отрезках по 2 м. Для систем холодного питьевого и технического водоснабжения. 3 типоразмера."
@@ -433,7 +433,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn20-2m",
     name: "WaterPRO Труба PN20 ГВС / PP-R Pipe PN20 Hot (2м/штук)",
     category: "waterpro",
-    images: [wpPprPn20_2mAsset.url],
+    images: [wpPprPn20_2mAsset],
     description: {
       uz: "WaterPRO PP-R PN20 issiq suv quvuri, 2 metrlik shtangalarda. Issiq suv ta'minoti va isitish tizimlari uchun. 3 xil o'lchamda.",
       ru: "Труба WaterPRO PP-R PN20 ГВС в отрезках по 2 м. Для систем горячего водоснабжения и отопления. 3 типоразмера."
@@ -450,7 +450,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-al-pert-pn25",
     name: "WaterPRO Труба PN-25 ГВС PPR/AL/PERT (с алюминиевой фольгой)",
     category: "waterpro",
-    images: [wpPprAlPertPn25Asset.url],
+    images: [wpPprAlPertPn25Asset],
     description: {
       uz: "WaterPRO PN-25 PPR/AL/PERT armaturali quvur — alyuminiy folga qatlami bilan. Kengayishni kamaytiradi, kislorod o'tishini to'sadi. Isitish va ГВС uchun, 6 xil o'lchamda.",
       ru: "Труба WaterPRO PN-25 ГВС PPR/AL/PERT с алюминиевой фольгой — минимальное линейное расширение и кислородный барьер. Для отопления и ГВС, 6 типоразмеров."
@@ -470,7 +470,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn10",
     name: "WaterPRO Труба PN10 ХВС / PP-R Pipe PN10 Cold (4м/штук)",
     category: "waterpro",
-    images: [wpPprPn10Asset.url],
+    images: [wpPprPn10Asset],
     description: {
       uz: "WaterPRO PP-R PN10 sovuq suv quvuri, 4 metrlik shtangalarda. Katta diametrli magistral sovuq suv liniyalari uchun. 7 xil o'lchamda (Ø32–Ø110).",
       ru: "Труба WaterPRO PP-R PN10 ХВС в отрезках по 4 м. Для магистральных линий холодного водоснабжения большого диаметра. 7 типоразмеров (Ø32–Ø110)."
@@ -491,7 +491,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn16-4m",
     name: "WaterPRO Труба PN16 ХВС / PP-R Pipe PN16 Cold (4м/штук)",
     category: "waterpro",
-    images: [wpPprPn16_4mAsset.url],
+    images: [wpPprPn16_4mAsset],
     description: {
       uz: "WaterPRO PP-R PN16 sovuq suv quvuri, 4 metrlik shtangalarda. Sovuq suv ta'minoti tizimlari uchun. 9 xil o'lchamda (Ø20–Ø110).",
       ru: "Труба WaterPRO PP-R PN16 ХВС в отрезках по 4 м. Для систем холодного водоснабжения. 9 типоразмеров (Ø20–Ø110)."
@@ -514,7 +514,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn20-4m",
     name: "WaterPRO Труба PN20 ГВС / PP-R Pipe PN20 Hot (4м/штук)",
     category: "waterpro",
-    images: [wpPprPn20_4mAsset.url],
+    images: [wpPprPn20_4mAsset],
     description: {
       uz: "WaterPRO PP-R PN20 issiq suv quvuri, 4 metrlik shtangalarda. Issiq suv ta'minoti va isitish tizimlari uchun. 9 xil o'lchamda (Ø20–Ø110).",
       ru: "Труба WaterPRO PP-R PN20 ГВС в отрезках по 4 м. Для систем горячего водоснабжения и отопления. 9 типоразмеров (Ø20–Ø110)."
@@ -537,7 +537,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn20-hvs-4m",
     name: "WaterPRO Труба PN20 ХВС / PP-R Pipe PN20 Cold (4м/штук)",
     category: "waterpro",
-    images: [wpPprPn20_4mAsset.url],
+    images: [wpPprPn20_4mAsset],
     description: {
       uz: "WaterPRO PP-R PN20 sovuq suv quvuri, 4 metrlik shtangalarda. Sovuq suv ta'minoti tizimlari uchun. 9 xil o'lchamda (Ø20–Ø110).",
       ru: "Труба WaterPRO PP-R PN20 ХВС в отрезках по 4 м. Для систем холодного водоснабжения. 9 типоразмеров (Ø20–Ø110)."
@@ -560,7 +560,7 @@ export const products: Product[] = [
     id: "waterpro-ppr-pn25-4m",
     name: "WaterPRO Труба PN25 ГВС / PP-R Pipe PN25 Hot (4м/штук)",
     category: "waterpro",
-    images: [wpPprPn20_4mAsset.url],
+    images: [wpPprPn20_4mAsset],
     description: {
       uz: "WaterPRO PP-R PN25 issiq suv quvuri, 4 metrlik shtangalarda. Issiq suv ta'minoti va isitish tizimlari uchun eng bardoshli seriya. 9 xil o'lchamda (Ø20–Ø110).",
       ru: "Труба WaterPRO PP-R PN25 ГВС в отрезках по 4 м. Самая прочная серия для горячего водоснабжения и отопления. 9 типоразмеров (Ø20–Ø110)."
@@ -583,7 +583,7 @@ export const products: Product[] = [
     id: "waterpro-equal-socket",
     name: "WaterPRO Муфта / Equal Socket",
     category: "waterpro",
-    images: [wpEqualSocketAsset.url],
+    images: [wpEqualSocketAsset],
     description: {
       uz: "WaterPRO PP-R mufta (Equal Socket) — bir xil diametrli quvurlarni ulash uchun. 9 xil o'lchamda (Ø20–Ø110).",
       ru: "Муфта WaterPRO PP-R (Equal Socket) — для соединения труб одинакового диаметра. 9 типоразмеров (Ø20–Ø110)."
@@ -606,7 +606,7 @@ export const products: Product[] = [
     id: "waterpro-elbow-45",
     name: "WaterPRO Полуотвод 45° / 45° Elbow",
     category: "waterpro",
-    images: [wpElbow45Asset.url],
+    images: [wpElbow45Asset],
     description: {
       uz: "WaterPRO PP-R 45° burchakli otvod — quvur yo'nalishini 45 gradusga burish uchun. 9 xil o'lchamda (Ø20–Ø110).",
       ru: "Полуотвод WaterPRO PP-R 45° — для изменения направления трубопровода на 45 градусов. 9 типоразмеров (Ø20–Ø110)."
@@ -629,7 +629,7 @@ export const products: Product[] = [
     id: "waterpro-reduced-tee",
     name: "WaterPRO Тройник переходник / Reduced Tee",
     category: "waterpro",
-    images: [wpTeeAsset.url],
+    images: [wpTeeAsset],
     description: {
       uz: "WaterPRO PP-R o'tuvchi troynik (Reduced Tee) — turli diametrli quvurlarni tarmoqlash uchun. 27 xil o'lchamda.",
       ru: "Тройник переходник WaterPRO PP-R (Reduced Tee) — для разветвления труб разного диаметра. 27 типоразмеров."
@@ -670,7 +670,7 @@ export const products: Product[] = [
     id: "waterpro-equal-tee",
     name: "WaterPRO Тройник / Equal Tee",
     category: "waterpro",
-    images: [wpTeeAsset.url],
+    images: [wpTeeAsset],
     description: {
       uz: "WaterPRO PP-R troynik (Equal Tee) — bir xil diametrli quvurlarni tarmoqlash uchun. 9 xil o'lchamda (Ø20–Ø110).",
       ru: "Тройник WaterPRO PP-R (Equal Tee) — для разветвления труб одинакового диаметра. 9 типоразмеров (Ø20–Ø110)."
@@ -693,7 +693,7 @@ export const products: Product[] = [
     id: "waterpro-pipe-cap",
     name: "WaterPRO Заглушка / Pipe Caps",
     category: "waterpro",
-    images: [wpPipeCapAsset.url],
+    images: [wpPipeCapAsset],
     description: {
       uz: "WaterPRO PP-R zaglushka (Pipe Cap) — quvur uchini berkitish uchun. 6 xil o'lchamda (Ø20–Ø63).",
       ru: "Заглушка WaterPRO PP-R (Pipe Cap) — для герметичного закрытия конца трубы. 6 типоразмеров (Ø20–Ø63)."
@@ -6293,7 +6293,7 @@ export const categories = [
       uz: "Suv ta'minoti va filtrlash yechimlari. Toza suv uchun ishonchli uskunalar.",
       ru: "Решения для водоснабжения и фильтрации. Надежное оборудование для чистой воды."
     },
-    logo: waterProLogoAsset.url
+    logo: waterProLogoAsset
   },
   {
     id: "hydro-plast",
