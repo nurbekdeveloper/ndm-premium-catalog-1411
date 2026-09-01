@@ -255,6 +255,9 @@ import wpSewerReducer from "@/assets/products/waterpro-sewer-reducer.png";
 import wpSewerTeeReduce90 from "@/assets/products/waterpro-sewer-tee-reduce-90.png";
 import wpSewerTeeReduce45 from "@/assets/products/waterpro-sewer-tee-reduce-45.png";
 import wpSewerCap from "@/assets/products/waterpro-sewer-cap.png";
+import wpSewerBend135 from "@/assets/products/waterpro-sewer-bend-135.png";
+import wpSewerClip from "@/assets/products/waterpro-sewer-clip.png";
+import wpPvcuPipe from "@/assets/products/waterpro-pvcu-pipe.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2255,6 +2258,87 @@ export const products: Product[] = [
       { label: { uz: "Ø75", ru: "Ø75" }, value: "201702" },
       { label: { uz: "Ø110", ru: "Ø110" }, value: "200 / 201703" },
       { label: { uz: "Kod", ru: "Код" }, value: "2017" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-bend-135-2016",
+    name: "WaterPRO Отвод 135° PPH",
+    category: "waterpro",
+    images: [wpSewerBend135],
+    description: {
+      uz: "WaterPRO PPH 135° otvod kanalizatsiya tizimlari uchun. O'lchami: Ø110.",
+      ru: "Отвод 135° PPH WaterPRO для канализационных систем. Размер: Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "20 / 201601" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2016" }
+    ]
+  },
+  {
+    id: "waterpro-sewer-clip-2018",
+    name: "WaterPRO Клипса PPH",
+    category: "waterpro",
+    images: [wpSewerClip],
+    description: {
+      uz: "WaterPRO PPH klipsa (quvur qisqichi). O'lchamlari: Ø50, Ø75, Ø110.",
+      ru: "Клипса PPH WaterPRO для крепления труб. Размеры: Ø50, Ø75, Ø110."
+    },
+    specs: [
+      { label: { uz: "Ø50", ru: "Ø50" }, value: "880 (55) / 201801" },
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "201802" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "225 / 201803" },
+      { label: { uz: "Kod", ru: "Код" }, value: "2018" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-pipe-50-3000",
+    name: "WaterPRO Труба PVC-U Ø50 (2.7мм)",
+    category: "waterpro",
+    images: [wpPvcuPipe],
+    description: {
+      uz: "WaterPRO PVC-U kanalizatsiya trubasi Ø50, devor qalinligi 2.7mm. Uzunliklari: 0.5M, 1M, 2M, 3M.",
+      ru: "Труба PVC-U WaterPRO Ø50, толщина стенки 2.7мм. Длины: 0.5М, 1М, 2М, 3М."
+    },
+    specs: [
+      { label: { uz: "0.5M", ru: "0.5М" }, value: "10 / 300001" },
+      { label: { uz: "1M", ru: "1М" }, value: "10 / 300002" },
+      { label: { uz: "2M", ru: "2М" }, value: "10 / 300003" },
+      { label: { uz: "3M", ru: "3М" }, value: "10 / 300004" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3000" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-pipe-75-3001",
+    name: "WaterPRO Труба PVC-U Ø75 (2.7мм)",
+    category: "waterpro",
+    images: [wpPvcuPipe],
+    description: {
+      uz: "WaterPRO PVC-U kanalizatsiya trubasi Ø75, devor qalinligi 2.7mm. Uzunliklari: 0.5M, 1M, 2M, 3M.",
+      ru: "Труба PVC-U WaterPRO Ø75, толщина стенки 2.7мм. Длины: 0.5М, 1М, 2М, 3М."
+    },
+    specs: [
+      { label: { uz: "0.5M", ru: "0.5М" }, value: "10 / 300101" },
+      { label: { uz: "1M", ru: "1М" }, value: "10 / 300102" },
+      { label: { uz: "2M", ru: "2М" }, value: "10 / 300103" },
+      { label: { uz: "3M", ru: "3М" }, value: "10 / 300104" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3001" }
+    ]
+  },
+  {
+    id: "waterpro-pvcu-pipe-110-3002",
+    name: "WaterPRO Труба PVC-U Ø110 (3.2мм)",
+    category: "waterpro",
+    images: [wpPvcuPipe],
+    description: {
+      uz: "WaterPRO PVC-U kanalizatsiya trubasi Ø110, devor qalinligi 3.2mm. Uzunliklari: 0.5M, 1M, 2M, 3M.",
+      ru: "Труба PVC-U WaterPRO Ø110, толщина стенки 3.2мм. Длины: 0.5М, 1М, 2М, 3М."
+    },
+    specs: [
+      { label: { uz: "0.5M", ru: "0.5М" }, value: "10 / 300201" },
+      { label: { uz: "1M", ru: "1М" }, value: "10 / 300202" },
+      { label: { uz: "2M", ru: "2М" }, value: "10 / 300203" },
+      { label: { uz: "3M", ru: "3М" }, value: "10 / 300204" },
+      { label: { uz: "Kod", ru: "Код" }, value: "3002" }
     ]
   },
 
