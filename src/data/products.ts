@@ -304,6 +304,11 @@ import wpBallValveFilter4020 from "@/assets/products/waterpro-ball-valve-filter-
 import wpShutoff4021 from "@/assets/products/waterpro-shutoff-valve-4021.png";
 import wpCheckValve4022 from "@/assets/products/waterpro-check-valve-4022.png";
 import wpCheckValve4023 from "@/assets/products/waterpro-check-valve-4023.png";
+import wpMeshFilter4024 from "@/assets/products/waterpro-mesh-filter-4024.png";
+import wpUnion4025 from "@/assets/products/waterpro-union-4025.png";
+import wpUnion904026 from "@/assets/products/waterpro-union-90-4026.png";
+import wpNipple4027 from "@/assets/products/waterpro-nipple-4027.png";
+import wpAdapter4028 from "@/assets/products/waterpro-adapter-4028.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -3033,6 +3038,95 @@ export const products: Product[] = [
       { label: { uz: "1 1/2F/F (Ø 40)", ru: "1 1/2F/F (Ø 40)" }, value: "20 (5) / 4023.40" },
       { label: { uz: "2F/F (Ø 50)", ru: "2F/F (Ø 50)" }, value: "12 (3) / 4023.50" },
       { label: { uz: "Kod", ru: "Код" }, value: "4023" }
+    ]
+  },
+  {
+    id: "waterpro-mesh-filter-4024",
+    name: "WaterPRO Фильтр сетчатый из латуни (4024)",
+    category: "waterpro",
+    images: [wpMeshFilter4024],
+    description: {
+      uz: "WaterPRO latun to'rli filtr. O'lchamlari: 1/2 dan 2 gacha.",
+      ru: "Фильтр сетчатый из латуни WaterPRO. Размеры: от 1/2 до 2."
+    },
+    specs: [
+      { label: { uz: "1/2F/F", ru: "1/2F/F" }, value: "120 / 402401" },
+      { label: { uz: "3/4F/F", ru: "3/4F/F" }, value: "80 / 402402" },
+      { label: { uz: "1F/F", ru: "1F/F" }, value: "40 / 402403" },
+      { label: { uz: "1 1/4F/F", ru: "1 1/4F/F" }, value: "24 / 402404" },
+      { label: { uz: "1 1/2F/F", ru: "1 1/2F/F" }, value: "16 / 402405" },
+      { label: { uz: "2F/F", ru: "2F/F" }, value: "8 / 402406" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4024" }
+    ]
+  },
+  {
+    id: "waterpro-union-4025",
+    name: "WaterPRO Ракор разъёмный металический (американка) Н/Р - В/Р (4025)",
+    category: "waterpro",
+    images: [wpUnion4025],
+    description: {
+      uz: "WaterPRO metall ajraladigan rakor (amerikanka), E/I.",
+      ru: "Ракор разъёмный металический (американка) WaterPRO, Brass union male-female."
+    },
+    specs: [
+      { label: { uz: "1/2", ru: "1/2" }, value: "200 / 402501" },
+      { label: { uz: "3/4", ru: "3/4" }, value: "120 / 402502" },
+      { label: { uz: "1", ru: "1" }, value: "80 / 402503" },
+      { label: { uz: "1 1/4", ru: "1 1/4" }, value: "48 / 402504" },
+      { label: { uz: "1 1/2", ru: "1 1/2" }, value: "24 / 402505" },
+      { label: { uz: "2", ru: "2" }, value: "12 / 402506" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4025" }
+    ]
+  },
+  {
+    id: "waterpro-union-90-4026",
+    name: "WaterPRO Ракор 90° разъёмный (американка) из латуни Н/Р - В/Р (4026)",
+    category: "waterpro",
+    images: [wpUnion904026],
+    description: {
+      uz: "WaterPRO latundan 90° ajraladigan rakor (amerikanka), E/I.",
+      ru: "Ракор 90° разъёмный (американка) из латуни WaterPRO Н/Р - В/Р."
+    },
+    specs: [
+      { label: { uz: "1/2 (Ø 15)", ru: "1/2 (Ø 15)" }, value: "160 (1) / 4026.15" },
+      { label: { uz: "3/4 (Ø 20)", ru: "3/4 (Ø 20)" }, value: "80 (1) / 4026.20" },
+      { label: { uz: "1 (Ø 25)", ru: "1 (Ø 25)" }, value: "56 (1) / 4026.25" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4026" }
+    ]
+  },
+  {
+    id: "waterpro-nipple-4027",
+    name: "WaterPRO Бочонок латунный Н/Р - Н/Р (4027)",
+    category: "waterpro",
+    images: [wpNipple4027],
+    description: {
+      uz: "WaterPRO latun bochonok (nippel), E/E.",
+      ru: "Бочонок латунный WaterPRO Н/Р - Н/Р."
+    },
+    specs: [
+      { label: { uz: "1/2M/M (Ø 15)", ru: "1/2M/M (Ø 15)" }, value: "400 (100) / 4027.15" },
+      { label: { uz: "3/4M/M (Ø 20)", ru: "3/4M/M (Ø 20)" }, value: "240 (60) / 4027.20" },
+      { label: { uz: "1M/M (Ø 25)", ru: "1M/M (Ø 25)" }, value: "160 (40) / 4027.25" },
+      { label: { uz: "1 1/4M/M (Ø 32)", ru: "1 1/4M/M (Ø 32)" }, value: "80 (20) / 4027.32" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4027" }
+    ]
+  },
+  {
+    id: "waterpro-adapter-4028",
+    name: "WaterPRO Переходник латунный Н/Р - Н/Р (4028)",
+    category: "waterpro",
+    images: [wpAdapter4028],
+    description: {
+      uz: "WaterPRO latun o'tkazgich (perexodnik), E/E.",
+      ru: "Переходник латунный WaterPRO Н/Р - Н/Р."
+    },
+    specs: [
+      { label: { uz: "1/2M×3/4M (Ø 15)", ru: "1/2M×3/4M (Ø 15)" }, value: "260 (65) / 4028.15" },
+      { label: { uz: "1/2M×1M (Ø 20)", ru: "1/2M×1M (Ø 20)" }, value: "200 (50) / 4028.20" },
+      { label: { uz: "3/4M×1M (Ø 25)", ru: "3/4M×1M (Ø 25)" }, value: "180 (45) / 4028.25" },
+      { label: { uz: "3/4M×1 1/4M (Ø 32)", ru: "3/4M×1 1/4M (Ø 32)" }, value: "100 (25) / 4028.32" },
+      { label: { uz: "1M×1 1/4M (Ø 40)", ru: "1M×1 1/4M (Ø 40)" }, value: "100 (25) / 4027.40" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4028" }
     ]
   },
   {
