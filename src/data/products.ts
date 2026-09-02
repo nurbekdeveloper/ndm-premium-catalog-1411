@@ -2782,6 +2782,64 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-ball-valve-thermometer-4011",
+    name: "WaterPRO Кран шаровой с термометром для коллектора «Угловой» (4011)",
+    category: "waterpro",
+    images: [wpValve4011],
+    description: {
+      uz: "WaterPRO kollektor uchun termometrli burchakli sharli kran, PPR 32×1\"м.",
+      ru: "Кран шаровой с термометром для коллектора «Угловой» WaterPRO, PPR 32×1\"м."
+    },
+    specs: [
+      { label: { uz: "PPR 32×1\"м", ru: "PPR 32×1\"м" }, value: "40 / 401101" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4011" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-valve-4012",
+    name: "WaterPRO Краны для радиатора угловой DN 15 (комплект подача и обратка) (4012)",
+    category: "waterpro",
+    images: [wpValve4012],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kranlar DN 15, to'plam (kirish va qaytish).",
+      ru: "Краны для радиатора угловой DN 15 WaterPRO, в комплекте подача и обратка."
+    },
+    specs: [
+      { label: { uz: "L1/2M×1/2F", ru: "L1/2M×1/2F" }, value: "60 / 401201" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4012" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-valve-4012-2",
+    name: "WaterPRO Краны для радиатора угловой DN 15 (комплект подача и обратка) (4012-2)",
+    category: "waterpro",
+    images: [wpValve4012_2],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kranlar DN 15, to'plam (kirish va qaytish).",
+      ru: "Краны для радиатора угловой DN 15 WaterPRO, в комплекте подача и обратка."
+    },
+    specs: [
+      { label: { uz: "L1/2M×1/2F", ru: "L1/2M×1/2F" }, value: "60 / 401221" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4012-2" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-valve-4013",
+    name: "WaterPRO Кран для радиатора угловой с соединительной (4013)",
+    category: "waterpro",
+    images: [wpValve4013Silver, wpValve4013Black, wpValve4013Gold],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kran, ulagichli. Ranglar: kumush, qora, oltin.",
+      ru: "Кран для радиатора угловой с соединительной WaterPRO. Цвета: серебряный, чёрный, золотой."
+    },
+    specs: [
+      { label: { uz: "Kumush / Silver L 1216×1/2M", ru: "Серебряный Silver L 1216×1/2M" }, value: "60 / 401301" },
+      { label: { uz: "Qora / Black L 1216×1/2M", ru: "Чёрный Black L 1216×1/2M" }, value: "60 / 401302" },
+      { label: { uz: "Oltin / Golden L 1216×1/2M", ru: "Золотой Golden L 1216×1/2M" }, value: "60 / 401303" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4013" }
+    ]
+  },
+  {
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
     category: "waterpro",
