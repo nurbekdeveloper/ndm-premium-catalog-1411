@@ -281,6 +281,9 @@ import wpBallValve4079 from "@/assets/products/waterpro-ball-valve-4079.png";
 import wpBallValve4080 from "@/assets/products/waterpro-ball-valve-4080.png";
 import wpBallValve4005 from "@/assets/products/waterpro-ball-valve-4005.png";
 import wpBallValve4006 from "@/assets/products/waterpro-ball-valve-4006.png";
+import wpBallValve4007 from "@/assets/products/waterpro-ball-valve-4007.png";
+import wpBallValve4008 from "@/assets/products/waterpro-ball-valve-4008.png";
+import wpBallValve4009 from "@/assets/products/waterpro-ball-valve-4009.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2727,6 +2730,49 @@ export const products: Product[] = [
       { label: { uz: "1F×1M", ru: "1F×1M" }, value: "32 / 400603" },
       { label: { uz: "11/4F×11/4M", ru: "11/4F×11/4M" }, value: "16 / 400604" },
       { label: { uz: "Kod", ru: "Код" }, value: "4006" }
+    ]
+  },
+  {
+    id: "waterpro-mini-ball-valve-4007",
+    name: "WaterPRO Мини шаровой кран под обжим трубы Ø 16x16 (4007)",
+    category: "waterpro",
+    images: [wpBallValve4007],
+    description: {
+      uz: "WaterPRO mini sharli kran, quvurni siqib ulash uchun Ø 16x16.",
+      ru: "Мини шаровой кран WaterPRO под обжим трубы Ø 16x16."
+    },
+    specs: [
+      { label: { uz: "1216×1216 (Ø16)", ru: "1216 × 1216 (Ø 16)" }, value: "120 (30) / 4007" },
+      { label: { uz: "O'lchov birligi", ru: "Ед. изм" }, value: "шт" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4007" }
+    ]
+  },
+  {
+    id: "waterpro-mini-ball-valve-4008",
+    name: "WaterPRO Мини шаровой кран Dn 16 x 1/2 В/Р (4008)",
+    category: "waterpro",
+    images: [wpBallValve4008],
+    description: {
+      uz: "WaterPRO mini sharli kran Dn 16 x 1/2, ichki rezba (В/Р).",
+      ru: "Мини шаровой кран WaterPRO Dn 16 x 1/2, В/Р."
+    },
+    specs: [
+      { label: { uz: "1216×1/2F", ru: "1216 × 1/2F" }, value: "140 / 400801" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4008" }
+    ]
+  },
+  {
+    id: "waterpro-mini-ball-valve-4009",
+    name: "WaterPRO Мини шаровой кран Dn 16 x 1/2 Н/Р (4009)",
+    category: "waterpro",
+    images: [wpBallValve4009],
+    description: {
+      uz: "WaterPRO mini sharli kran Dn 16 x 1/2, tashqi rezba (Н/Р)."
+      ,ru: "Мини шаровой кран WaterPRO Dn 16 x 1/2, Н/Р."
+    },
+    specs: [
+      { label: { uz: "1216×1/2M", ru: "1216 × 1/2M" }, value: "140 / 400901" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4009" }
     ]
   },
   {
