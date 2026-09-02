@@ -284,6 +284,12 @@ import wpBallValve4006 from "@/assets/products/waterpro-ball-valve-4006.png";
 import wpBallValve4007 from "@/assets/products/waterpro-ball-valve-4007.png";
 import wpBallValve4008 from "@/assets/products/waterpro-ball-valve-4008.png";
 import wpBallValve4009 from "@/assets/products/waterpro-ball-valve-4009.png";
+import wpValve4011 from "@/assets/products/waterpro-valve-4011.png";
+import wpValve4012 from "@/assets/products/waterpro-valve-4012.png";
+import wpValve4012_2 from "@/assets/products/waterpro-valve-4012-2.png";
+import wpValve4013Silver from "@/assets/products/waterpro-valve-4013-silver.png";
+import wpValve4013Black from "@/assets/products/waterpro-valve-4013-black.png";
+import wpValve4013Gold from "@/assets/products/waterpro-valve-4013-gold.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2773,6 +2779,64 @@ export const products: Product[] = [
     specs: [
       { label: { uz: "1216×1/2M", ru: "1216 × 1/2M" }, value: "140 / 400901" },
       { label: { uz: "Kod", ru: "Код" }, value: "4009" }
+    ]
+  },
+  {
+    id: "waterpro-ball-valve-thermometer-4011",
+    name: "WaterPRO Кран шаровой с термометром для коллектора «Угловой» (4011)",
+    category: "waterpro",
+    images: [wpValve4011],
+    description: {
+      uz: "WaterPRO kollektor uchun termometrli burchakli sharli kran, PPR 32×1\"м.",
+      ru: "Кран шаровой с термометром для коллектора «Угловой» WaterPRO, PPR 32×1\"м."
+    },
+    specs: [
+      { label: { uz: "PPR 32×1\"м", ru: "PPR 32×1\"м" }, value: "40 / 401101" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4011" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-valve-4012",
+    name: "WaterPRO Краны для радиатора угловой DN 15 (комплект подача и обратка) (4012)",
+    category: "waterpro",
+    images: [wpValve4012],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kranlar DN 15, to'plam (kirish va qaytish).",
+      ru: "Краны для радиатора угловой DN 15 WaterPRO, в комплекте подача и обратка."
+    },
+    specs: [
+      { label: { uz: "L1/2M×1/2F", ru: "L1/2M×1/2F" }, value: "60 / 401201" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4012" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-valve-4012-2",
+    name: "WaterPRO Краны для радиатора угловой DN 15 (комплект подача и обратка) (4012-2)",
+    category: "waterpro",
+    images: [wpValve4012_2],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kranlar DN 15, to'plam (kirish va qaytish).",
+      ru: "Краны для радиатора угловой DN 15 WaterPRO, в комплекте подача и обратка."
+    },
+    specs: [
+      { label: { uz: "L1/2M×1/2F", ru: "L1/2M×1/2F" }, value: "60 / 401221" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4012-2" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-valve-4013",
+    name: "WaterPRO Кран для радиатора угловой с соединительной (4013)",
+    category: "waterpro",
+    images: [wpValve4013Silver, wpValve4013Black, wpValve4013Gold],
+    description: {
+      uz: "WaterPRO radiator uchun burchakli kran, ulagichli. Ranglar: kumush, qora, oltin.",
+      ru: "Кран для радиатора угловой с соединительной WaterPRO. Цвета: серебряный, чёрный, золотой."
+    },
+    specs: [
+      { label: { uz: "Kumush / Silver L 1216×1/2M", ru: "Серебряный Silver L 1216×1/2M" }, value: "60 / 401301" },
+      { label: { uz: "Qora / Black L 1216×1/2M", ru: "Чёрный Black L 1216×1/2M" }, value: "60 / 401302" },
+      { label: { uz: "Oltin / Golden L 1216×1/2M", ru: "Золотой Golden L 1216×1/2M" }, value: "60 / 401303" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4013" }
     ]
   },
   {
