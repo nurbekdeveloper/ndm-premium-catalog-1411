@@ -290,6 +290,10 @@ import wpValve4012_2 from "@/assets/products/waterpro-valve-4012-2.png";
 import wpValve4013Silver from "@/assets/products/waterpro-valve-4013-silver.png";
 import wpValve4013Black from "@/assets/products/waterpro-valve-4013-black.png";
 import wpValve4013Gold from "@/assets/products/waterpro-valve-4013-gold.png";
+import wpRadiatorSet4014 from "@/assets/products/waterpro-radiator-set-4014.png";
+import wpRadiatorSet40142 from "@/assets/products/waterpro-radiator-set-4014-2.png";
+import wpAngleValve4015 from "@/assets/products/waterpro-angle-valve-4015.png";
+import wpAngleValve40152 from "@/assets/products/waterpro-angle-valve-4015-2.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
