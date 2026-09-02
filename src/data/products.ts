@@ -3564,11 +3564,6 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "waterpro-compression-fitting-4078",
-    name: "WaterPRO Разъемное соединение (евроконус) 4078",
-    category: "waterpro",
-  },
-  {
     id: "waterpro-coupling-4052",
     name: "WaterPRO Муфта соединительная комбинированная наружная резьба 16x1/2M (4052)",
     category: "waterpro",
