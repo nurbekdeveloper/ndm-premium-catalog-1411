@@ -3135,6 +3135,91 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-swivel-nipple-4029",
+    name: "WaterPRO Ниппель поворотный для соединения коллектора Н/Р - Н/Р (4029)",
+    category: "waterpro",
+    images: [wpSwivelNipple4029],
+    description: {
+      uz: "WaterPRO kollektorni ulash uchun aylanuvchi nippel, E/E.",
+      ru: "Ниппель поворотный для соединения коллектора WaterPRO Н/Р - Н/Р."
+    },
+    specs: [
+      { label: { uz: "1M × 1M (Ø 25)", ru: "1M × 1M (Ø 25)" }, value: "140 (35) / 4029" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4029" }
+    ]
+  },
+  {
+    id: "waterpro-reducer-4030",
+    name: "WaterPRO Переходник редукционный латунный В/Р - Н/Р (4030)",
+    category: "waterpro",
+    images: [wpReducer4030],
+    description: {
+      uz: "WaterPRO latun reduksion o'tkazgich, I/E.",
+      ru: "Переходник редукционный латунный WaterPRO В/Р - Н/Р."
+    },
+    specs: [
+      { label: { uz: "1/2F×3/4M", ru: "1/2F×3/4M" }, value: "400 / 403001" },
+      { label: { uz: "1/2F×1M", ru: "1/2F×1M" }, value: "240 / 403002" },
+      { label: { uz: "3/4F×1M", ru: "3/4F×1M" }, value: "240 / 403003" },
+      { label: { uz: "3/4F×1 1/4M", ru: "3/4F×1 1/4M" }, value: "160 / 403004" },
+      { label: { uz: "1F×1 1/4M", ru: "1F×1 1/4M" }, value: "160 / 403005" },
+      { label: { uz: "1F×1 1/2M", ru: "1F×1 1/2M" }, value: "160 / 403006" },
+      { label: { uz: "1F×2M", ru: "1F×2M" }, value: "80 / 403007" },
+      { label: { uz: "1 1/4F×1 1/2M", ru: "1 1/4F×1 1/2M" }, value: "160 / 403008" },
+      { label: { uz: "1 1/4F×2M", ru: "1 1/4F×2M" }, value: "80 / 403009" },
+      { label: { uz: "1 1/2F×2M", ru: "1 1/2F×2M" }, value: "80 / 403010" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4030" }
+    ]
+  },
+  {
+    id: "waterpro-tank-fitting-4043",
+    name: "WaterPRO Врезка в бак латунная усиленная (4043)",
+    category: "waterpro",
+    images: [wpTankFitting4043],
+    description: {
+      uz: "WaterPRO kuchaytirilgan latun bak ulagichi.",
+      ru: "Врезка в бак латунная усиленная WaterPRO."
+    },
+    specs: [
+      { label: { uz: "1/2M/M", ru: "1/2M/M" }, value: "180 / 404301" },
+      { label: { uz: "3/4M/M", ru: "3/4M/M" }, value: "140 / 404302" },
+      { label: { uz: "1M/M", ru: "1M/M" }, value: "100 / 404303" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4043" }
+    ]
+  },
+  {
+    id: "waterpro-tank-fitting-4044",
+    name: "WaterPRO Врезка в бак латунная усиленная В/Р (4044)",
+    category: "waterpro",
+    images: [wpTankFitting4044],
+    description: {
+      uz: "WaterPRO kuchaytirilgan latun bak ulagichi, I/R.",
+      ru: "Врезка в бак латунная усиленная В/Р WaterPRO."
+    },
+    specs: [
+      { label: { uz: "1/2F", ru: "1/2F" }, value: "480 / 404401" },
+      { label: { uz: "3/4F", ru: "3/4F" }, value: "400 / 404402" },
+      { label: { uz: "1F", ru: "1F" }, value: "240 / 404403" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4044" }
+    ]
+  },
+  {
+    id: "waterpro-tank-fitting-4045",
+    name: "WaterPRO Врезка в бак латунная усиленная Н/Р (4045)",
+    category: "waterpro",
+    images: [wpTankFitting4045],
+    description: {
+      uz: "WaterPRO kuchaytirilgan latun bak ulagichi, E/R.",
+      ru: "Врезка в бак латунная усиленная Н/Р WaterPRO."
+    },
+    specs: [
+      { label: { uz: "1/2M", ru: "1/2M" }, value: "520 / 404501" },
+      { label: { uz: "3/4M", ru: "3/4M" }, value: "400 / 404502" },
+      { label: { uz: "1M", ru: "1M" }, value: "240 / 404503" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4045" }
+    ]
+  },
+  {
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
     category: "waterpro",
