@@ -290,6 +290,10 @@ import wpValve4012_2 from "@/assets/products/waterpro-valve-4012-2.png";
 import wpValve4013Silver from "@/assets/products/waterpro-valve-4013-silver.png";
 import wpValve4013Black from "@/assets/products/waterpro-valve-4013-black.png";
 import wpValve4013Gold from "@/assets/products/waterpro-valve-4013-gold.png";
+import wpRadiatorSet4014 from "@/assets/products/waterpro-radiator-set-4014.png";
+import wpRadiatorSet40142 from "@/assets/products/waterpro-radiator-set-4014-2.png";
+import wpAngleValve4015 from "@/assets/products/waterpro-angle-valve-4015.png";
+import wpAngleValve40152 from "@/assets/products/waterpro-angle-valve-4015-2.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2837,6 +2841,63 @@ export const products: Product[] = [
       { label: { uz: "Qora / Black L 1216×1/2M", ru: "Чёрный Black L 1216×1/2M" }, value: "60 / 401302" },
       { label: { uz: "Oltin / Golden L 1216×1/2M", ru: "Золотой Golden L 1216×1/2M" }, value: "60 / 401303" },
       { label: { uz: "Kod", ru: "Код" }, value: "4013" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-set-4014",
+    name: "WaterPRO Комплект кранов для радиатора с термоголовкой Н/Р - В/Р (4014)",
+    category: "waterpro",
+    images: [wpRadiatorSet4014],
+    description: {
+      uz: "WaterPRO termoboshli radiator kranlari to'plami Н/Р - В/Р.",
+      ru: "Комплект кранов для радиатора с термоголовкой WaterPRO Н/Р - В/Р."
+    },
+    specs: [
+      { label: { uz: "L1/2M × 1/2F (Ø15)", ru: "L1/2M × 1/2F (Ø 15)" }, value: "60 (1) / 4014" },
+      { label: { uz: "O'lchov birligi", ru: "Ед. изм" }, value: "шт" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4014" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-set-4014-2",
+    name: "WaterPRO Комплект кранов для радиатора с термоголовкой (4014-2)",
+    category: "waterpro",
+    images: [wpRadiatorSet40142],
+    description: {
+      uz: "WaterPRO termoboshli radiator kranlari to'plami.",
+      ru: "Комплект кранов для радиатора с термоголовкой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "L1/2M×1/2F", ru: "L1/2M×1/2F" }, value: "20 / 401421" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4014-2" }
+    ]
+  },
+  {
+    id: "waterpro-angle-valve-4015",
+    name: "WaterPRO Кран для радиатора угловой (сушилка кран) Серебряный (4015)",
+    category: "waterpro",
+    images: [wpAngleValve4015],
+    description: {
+      uz: "WaterPRO burchakli radiator krani (quritgich kran), kumush rang.",
+      ru: "Кран для радиатора угловой (сушилка кран) WaterPRO, серебряный."
+    },
+    specs: [
+      { label: { uz: "L1/2F×1/2M", ru: "L1/2F×1/2M" }, value: "120 / 401501" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4015" }
+    ]
+  },
+  {
+    id: "waterpro-angle-valve-4015-2",
+    name: "WaterPRO Кран для радиатора угловой (сушилка кран) Чёрный (4015-2)",
+    category: "waterpro",
+    images: [wpAngleValve40152],
+    description: {
+      uz: "WaterPRO burchakli radiator krani (quritgich kran), qora rang.",
+      ru: "Кран для радиатора угловой (сушилка кран) WaterPRO, чёрный."
+    },
+    specs: [
+      { label: { uz: "L1/2F×1/2M", ru: "L1/2F×1/2M" }, value: "120 / 401521" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4015-2" }
     ]
   },
   {
