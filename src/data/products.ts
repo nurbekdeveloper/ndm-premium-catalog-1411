@@ -333,6 +333,11 @@ import wpExtMm4040 from "@/assets/products/waterpro-extension-mm-4040.png";
 import wpExtMm4042 from "@/assets/products/waterpro-extension-mm-4042.png";
 import wpCoupling4050 from "@/assets/products/waterpro-coupling-4050.png";
 import wpCoupling4051 from "@/assets/products/waterpro-coupling-4051.png";
+import wpCoupling4052 from "@/assets/products/waterpro-coupling-4052.png";
+import wpElbow4053 from "@/assets/products/waterpro-elbow-4053.png";
+import wpElbow4054 from "@/assets/products/waterpro-elbow-4054.png";
+import wpElbow4055 from "@/assets/products/waterpro-elbow-4055.png";
+import wpTee4056 from "@/assets/products/waterpro-tee-4056.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
