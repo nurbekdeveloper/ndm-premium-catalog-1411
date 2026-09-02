@@ -3241,7 +3241,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "waterpro-tee-4031",
+    id: "waterpro-coupling-4031",
     name: "WaterPRO Муфта латунная В/Р - В/Р (4031)",
     category: "waterpro",
     images: [wpCoupling4031],
