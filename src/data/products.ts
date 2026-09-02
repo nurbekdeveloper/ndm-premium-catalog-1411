@@ -294,6 +294,12 @@ import wpRadiatorSet4014 from "@/assets/products/waterpro-radiator-set-4014.png"
 import wpRadiatorSet40142 from "@/assets/products/waterpro-radiator-set-4014-2.png";
 import wpAngleValve4015 from "@/assets/products/waterpro-angle-valve-4015.png";
 import wpAngleValve40152 from "@/assets/products/waterpro-angle-valve-4015-2.png";
+import wpShutoff4016Gold from "@/assets/products/waterpro-shutoff-valve-4016-gold.png";
+import wpShutoff4016Silver from "@/assets/products/waterpro-shutoff-valve-4016-silver.png";
+import wpShutoff4016Black from "@/assets/products/waterpro-shutoff-valve-4016-black.png";
+import wpMixingValve4017 from "@/assets/products/waterpro-mixing-valve-4017.png";
+import wpFilter4018 from "@/assets/products/waterpro-filter-4018.png";
+import wpShutoff4019 from "@/assets/products/waterpro-shutoff-valve-4019.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
