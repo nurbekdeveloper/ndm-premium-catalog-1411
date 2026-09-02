@@ -294,6 +294,12 @@ import wpRadiatorSet4014 from "@/assets/products/waterpro-radiator-set-4014.png"
 import wpRadiatorSet40142 from "@/assets/products/waterpro-radiator-set-4014-2.png";
 import wpAngleValve4015 from "@/assets/products/waterpro-angle-valve-4015.png";
 import wpAngleValve40152 from "@/assets/products/waterpro-angle-valve-4015-2.png";
+import wpShutoff4016Gold from "@/assets/products/waterpro-shutoff-valve-4016-gold.png";
+import wpShutoff4016Silver from "@/assets/products/waterpro-shutoff-valve-4016-silver.png";
+import wpShutoff4016Black from "@/assets/products/waterpro-shutoff-valve-4016-black.png";
+import wpMixingValve4017 from "@/assets/products/waterpro-mixing-valve-4017.png";
+import wpFilter4018 from "@/assets/products/waterpro-filter-4018.png";
+import wpShutoff4019 from "@/assets/products/waterpro-shutoff-valve-4019.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2898,6 +2904,66 @@ export const products: Product[] = [
     specs: [
       { label: { uz: "L1/2F×1/2M", ru: "L1/2F×1/2M" }, value: "120 / 401521" },
       { label: { uz: "Kod", ru: "Код" }, value: "4015-2" }
+    ]
+  },
+  {
+    id: "waterpro-shutoff-valve-4016",
+    name: "WaterPRO Отсекающий кран Н/Р - Н/Р (4016)",
+    category: "waterpro",
+    images: [wpShutoff4016Silver, wpShutoff4016Gold, wpShutoff4016Black],
+    description: {
+      uz: "WaterPRO to'sib qo'yuvchi kran (E/E). Ranglari: qora, kumush, oltin.",
+      ru: "Отсекающий кран WaterPRO Н/Р - Н/Р. Цвета: чёрный, серебряный, золотой."
+    },
+    specs: [
+      { label: { uz: "Ø 15 x 1/2 (Black)", ru: "Ø 15 x 1/2 (Black)" }, value: "100 (1) / 4016.1" },
+      { label: { uz: "Ø 15 x 1/2 (Silver)", ru: "Ø 15 x 1/2 (Silver)" }, value: "100 (1) / 4016.2" },
+      { label: { uz: "Ø 15 x 1/2 (Gold)", ru: "Ø 15 x 1/2 (Gold)" }, value: "100 (1) / 4016.3" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4016" }
+    ]
+  },
+  {
+    id: "waterpro-mixing-valve-4017",
+    name: "WaterPRO Трехходовой термостатический смесительный клапан (4017)",
+    category: "waterpro",
+    images: [wpMixingValve4017],
+    description: {
+      uz: "WaterPRO uch yo'nalishli termostatik aralashtiruvchi klapan, 15-65°C.",
+      ru: "Трехходовой термостатический смесительный клапан WaterPRO, 15-65°C."
+    },
+    specs: [
+      { label: { uz: "Dn25", ru: "Dn25" }, value: "20 / 401701" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4017" }
+    ]
+  },
+  {
+    id: "waterpro-brass-filter-4018",
+    name: "WaterPRO Фильтр универсальный из латуни В/Р - В/Р (4018)",
+    category: "waterpro",
+    images: [wpFilter4018],
+    description: {
+      uz: "WaterPRO latundan universal filtr (I/I). O'lchamlari: 1/2, 3/4, 1.",
+      ru: "Фильтр универсальный из латуни WaterPRO В/Р - В/Р. Размеры: 1/2, 3/4, 1."
+    },
+    specs: [
+      { label: { uz: "1/2F/F (Ø 15)", ru: "1/2F/F (Ø 15)" }, value: "96 (24) / 4018.15" },
+      { label: { uz: "3/4F/F (Ø 20)", ru: "3/4F/F (Ø 20)" }, value: "64 (16) / 4018.20" },
+      { label: { uz: "1F/F (Ø 25)", ru: "1F/F (Ø 25)" }, value: "36 (9) / 4018.25" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4018" }
+    ]
+  },
+  {
+    id: "waterpro-shutoff-valve-4019",
+    name: "WaterPRO Отсекающий кран с трехугольной ручкой Н/Р - Н/Р (4019)",
+    category: "waterpro",
+    images: [wpShutoff4019],
+    description: {
+      uz: "WaterPRO uchburchak dastali to'sib qo'yuvchi kran (E/E).",
+      ru: "Отсекающий кран с трехугольной ручкой WaterPRO Н/Р - Н/Р."
+    },
+    specs: [
+      { label: { uz: "1/2M × 1/2M (Ø 15)", ru: "1/2M × 1/2M (Ø 15)" }, value: "100 (1) / 4019" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4019" }
     ]
   },
   {
