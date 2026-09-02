@@ -3567,6 +3567,81 @@ export const products: Product[] = [
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
     category: "waterpro",
+  },
+  {
+    id: "waterpro-coupling-4052",
+    name: "WaterPRO Муфта соединительная комбинированная наружная резьба 16x1/2M (4052)",
+    category: "waterpro",
+    images: [wpCoupling4052],
+    description: {
+      uz: "WaterPRO kombinatsiyalangan ulash muftasi, tashqi rezba 16x1/2M.",
+      ru: "Муфта соединительная комбинированная с наружной резьбой WaterPRO 16x1/2M."
+    },
+    specs: [
+      { label: { uz: "16×1/2M", ru: "16×1/2M" }, value: "320 / 405201" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4052" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-4053",
+    name: "WaterPRO Угол промежуточный, соединительный 16x16 (4053)",
+    category: "waterpro",
+    images: [wpElbow4053],
+    description: {
+      uz: "WaterPRO oraliq ulash burchagi 16x16 (metalloplastik quvurlar uchun).",
+      ru: "Угол промежуточный соединительный WaterPRO 16x16."
+    },
+    specs: [
+      { label: { uz: "1216×1216", ru: "1216×1216" }, value: "200 (50) / 4053" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4053" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-4054",
+    name: "WaterPRO Отвод промежуточный соединительный L16x1/2M (4054)",
+    category: "waterpro",
+    images: [wpElbow4054],
+    description: {
+      uz: "WaterPRO oraliq ulash otvodi, tashqi rezba L16x1/2M.",
+      ru: "Отвод промежуточная соединительная WaterPRO L16x1/2M."
+    },
+    specs: [
+      { label: { uz: "L16×1/2M", ru: "L16×1/2M" }, value: "200 / 405401" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4054" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-4055",
+    name: "WaterPRO Угол промежуточный, соединительный с В/Р L16x1/2F (4055)",
+    category: "waterpro",
+    images: [wpElbow4055],
+    description: {
+      uz: "WaterPRO oraliq ulash burchagi, ichki rezba L16x1/2F (Ø15).",
+      ru: "Угол промежуточный, соединительный с в/р WaterPRO L16x1/2F (Ø 15)."
+    },
+    specs: [
+      { label: { uz: "L16×1/2F (Ø15)", ru: "L16×1/2F (Ø 15)" }, value: "200 (50) / 4055" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4055" }
+    ]
+  },
+  {
+    id: "waterpro-tee-4056",
+    name: "WaterPRO Тройник промежуточный соединительный 16x16x16 (4056)",
+    category: "waterpro",
+    images: [wpTee4056],
+    description: {
+      uz: "WaterPRO oraliq ulash troynigi 16x16x16.",
+      ru: "Тройник промежуточная соединительная WaterPRO 16x16x16."
+    },
+    specs: [
+      { label: { uz: "T 16×16×16", ru: "T 16×16×16" }, value: "140 / 405601" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4056" }
+    ]
+  },
+  {
+    id: "waterpro-compression-fitting-4078",
+    name: "WaterPRO Разъемное соединение (евроконус) 4078",
+    category: "waterpro",
     images: [wpCompressionFitting4078],
     description: {
       uz: "WaterPRO ajraladigan siqiluvchi birikma (evrokonus). O'lchamlari: Ø16, Ø20.",
