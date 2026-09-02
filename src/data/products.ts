@@ -314,6 +314,11 @@ import wpReducer4030 from "@/assets/products/waterpro-reducer-4030.png";
 import wpTankFitting4043 from "@/assets/products/waterpro-tank-fitting-4043.png";
 import wpTankFitting4044 from "@/assets/products/waterpro-tank-fitting-4044.png";
 import wpTankFitting4045 from "@/assets/products/waterpro-tank-fitting-4045.png";
+import wpUnionNut4046 from "@/assets/products/waterpro-union-nut-4046.png";
+import wpTee4032 from "@/assets/products/waterpro-tee-4032.png";
+import wpTee4033 from "@/assets/products/waterpro-tee-4033.png";
+import wpCoupling4031 from "@/assets/products/waterpro-coupling-4031.png";
+import wpElbow4037 from "@/assets/products/waterpro-elbow-4037.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -3217,6 +3222,85 @@ export const products: Product[] = [
       { label: { uz: "3/4M", ru: "3/4M" }, value: "400 / 404502" },
       { label: { uz: "1M", ru: "1M" }, value: "240 / 404503" },
       { label: { uz: "Kod", ru: "Код" }, value: "4045" }
+    ]
+  },
+  {
+    id: "waterpro-union-nut-4046",
+    name: "WaterPRO Накидная гайка (4046)",
+    category: "waterpro",
+    images: [wpUnionNut4046],
+    description: {
+      uz: "WaterPRO nakidnoy gayka (amerikanka gaykasi).",
+      ru: "Накидная гайка WaterPRO."
+    },
+    specs: [
+      { label: { uz: "1/2M×1/2F", ru: "1/2M×1/2F" }, value: "240 / 404601" },
+      { label: { uz: "3/4M×3/4F", ru: "3/4M×3/4F" }, value: "160 / 404602" },
+      { label: { uz: "1M×1F", ru: "1\"M×1\"F" }, value: "80 / 404603" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4046" }
+    ]
+  },
+  {
+    id: "waterpro-coupling-4031",
+    name: "WaterPRO Муфта латунная В/Р - В/Р (4031)",
+    category: "waterpro",
+    images: [wpCoupling4031],
+    description: {
+      uz: "WaterPRO latun mufta, I/I.",
+      ru: "Муфта латунная WaterPRO В/Р - В/Р."
+    },
+    specs: [
+      { label: { uz: "S1/2F × 1/2F (Ø 15)", ru: "S1/2F × 1/2F (Ø 15)" }, value: "280 (70) / 4031.15" },
+      { label: { uz: "S3/4F × 3/4F (Ø 20)", ru: "S3/4F × 3/4F (Ø 20)" }, value: "180 (45) / 4031.20" },
+      { label: { uz: "S1F × 1F (Ø 25)", ru: "S1F × 1F (Ø 25)" }, value: "100 (25) / 4031.25" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4031" }
+    ]
+  },
+  {
+    id: "waterpro-tee-4032",
+    name: "WaterPRO Тройник редукционный латунный Н/Р - Н/Р - В/Р (4032)",
+    category: "waterpro",
+    images: [wpTee4032],
+    description: {
+      uz: "WaterPRO latun reduksion troynik, E/E/I.",
+      ru: "Тройник редукционный латунный WaterPRO н/р - н/р - в/р."
+    },
+    specs: [
+      { label: { uz: "T1/2M×1/2M×1/2F", ru: "T1/2M×1/2M×1/2F" }, value: "160 / 403201" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4032" }
+    ]
+  },
+  {
+    id: "waterpro-tee-4033",
+    name: "WaterPRO Тройник редукционный латунный В/Р - В/Р - Н/Р (4033)",
+    category: "waterpro",
+    images: [wpTee4033],
+    description: {
+      uz: "WaterPRO latun reduksion troynik, I/I/E.",
+      ru: "Тройник редукционный латунный WaterPRO В/Р - В/Р - Н/Р."
+    },
+    specs: [
+      { label: { uz: "T1/2M × 1/2F × 1/2F (Ø 15)", ru: "T1/2M × 1/2F × 1/2F (Ø 15)" }, value: "160 (40) / 4033" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4033" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-4037",
+    name: "WaterPRO Отвод 90° из латуни В/Р - В/Р (4037)",
+    category: "waterpro",
+    images: [wpElbow4037],
+    description: {
+      uz: "WaterPRO latun 90° burchak (otvod), I/I.",
+      ru: "Отвод 90° из латуни WaterPRO В/Р - В/Р."
+    },
+    specs: [
+      { label: { uz: "L1/2F × 1/2F (Ø 15)", ru: "L1/2F × 1/2F (Ø 15)" }, value: "200 (50) / 4037.15" },
+      { label: { uz: "L3/4F × 3/4F (Ø 20)", ru: "L3/4F × 3/4F (Ø 20)" }, value: "140 (35) / 4037.20" },
+      { label: { uz: "L1F × 1F (Ø 25)", ru: "L1F × 1F (Ø 25)" }, value: "80 (20) / 4037.25" },
+      { label: { uz: "L1 1/4F × 1 1/4F (Ø 32)", ru: "L1 1/4F × 1 1/4F (Ø 32)" }, value: "56 / 4037.32" },
+      { label: { uz: "L1 1/2F × 1 1/2F (Ø 40)", ru: "L1 1/2F × 1 1/2F (Ø 40)" }, value: "36 / 4037.40" },
+      { label: { uz: "L2F × 2F (Ø 50)", ru: "L2F × 2F (Ø 50)" }, value: "16 / 4037.50" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4037" }
     ]
   },
   {
