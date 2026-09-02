@@ -3488,6 +3488,73 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-extension-mm-4040",
+    name: "WaterPRO Удлинитель хромированный Н/Р - Н/Р 1/2 (4040)",
+    category: "waterpro",
+    images: [wpExtMm4040],
+    description: {
+      uz: "WaterPRO xromlangan uzaytirgich, tashqi rezba - tashqi rezba 1/2.",
+      ru: "Удлинитель хромированный WaterPRO н/р - н/р 1/2."
+    },
+    specs: [
+      { label: { uz: "1/2M×50MM", ru: "1/2M×50MM" }, value: "280 / 404001" },
+      { label: { uz: "1/2M×60MM", ru: "1/2M×60MM" }, value: "240 / 404002" },
+      { label: { uz: "1/2M×70MM", ru: "1/2M×70MM" }, value: "240 / 404003" },
+      { label: { uz: "1/2M×80MM", ru: "1/2M×80MM" }, value: "220 / 404004" },
+      { label: { uz: "1/2M×90MM", ru: "1/2M×90MM" }, value: "200 / 404005" },
+      { label: { uz: "1/2M×100MM", ru: "1/2M×100MM" }, value: "200 / 404006" },
+      { label: { uz: "1/2M×150MM", ru: "1/2M×150MM" }, value: "120 / 404007" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4040" }
+    ]
+  },
+  {
+    id: "waterpro-extension-mm-4042",
+    name: "WaterPRO Удлинитель хромированный Н/Р - Н/Р 1\" (4042)",
+    category: "waterpro",
+    images: [wpExtMm4042],
+    description: {
+      uz: "WaterPRO xromlangan uzaytirgich, tashqi rezba - tashqi rezba 1\".",
+      ru: "Удлинитель хромированный WaterPRO н/р - н/р 1\"."
+    },
+    specs: [
+      { label: { uz: "1\"×50MM", ru: "1\"×50MM" }, value: "144 / 404201" },
+      { label: { uz: "1\"×60MM", ru: "1\"×60MM" }, value: "132 / 404202" },
+      { label: { uz: "1\"×70MM", ru: "1\"×70MM" }, value: "88 / 404203" },
+      { label: { uz: "1\"×80MM", ru: "1\"×80MM" }, value: "84 / 404204" },
+      { label: { uz: "1\"×90MM", ru: "1\"×90MM" }, value: "80 / 404205" },
+      { label: { uz: "1\"×100MM", ru: "1\"×100MM" }, value: "72 / 404206" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4042" }
+    ]
+  },
+  {
+    id: "waterpro-coupling-4050",
+    name: "WaterPRO Муфта промежуточная, соединительная 16x16 (4050)",
+    category: "waterpro",
+    images: [wpCoupling4050],
+    description: {
+      uz: "WaterPRO oraliq ulash muftasi 16x16 (metalloplastik quvurlar uchun).",
+      ru: "Муфта промежуточная соединительная WaterPRO 16x16."
+    },
+    specs: [
+      { label: { uz: "216×1216", ru: "216×1216" }, value: "240 (60) / 4050" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4050" }
+    ]
+  },
+  {
+    id: "waterpro-coupling-4051",
+    name: "WaterPRO Муфта соединительная комбинированная с В/Р 16x1/2 (4051)",
+    category: "waterpro",
+    images: [wpCoupling4051],
+    description: {
+      uz: "WaterPRO kombinatsiyalangan ulash muftasi, ichki rezba 16x1/2.",
+      ru: "Муфта соединительная комбинированная с в/р WaterPRO 16x1/2."
+    },
+    specs: [
+      { label: { uz: "1216×1/2F (Ø15)", ru: "1216×1/2F (Ø 15)" }, value: "320 (80) / 4051.15" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4051" }
+    ]
+  },
+  {
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
     category: "waterpro",
