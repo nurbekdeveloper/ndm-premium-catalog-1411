@@ -300,6 +300,10 @@ import wpShutoff4016Black from "@/assets/products/waterpro-shutoff-valve-4016-bl
 import wpMixingValve4017 from "@/assets/products/waterpro-mixing-valve-4017.png";
 import wpFilter4018 from "@/assets/products/waterpro-filter-4018.png";
 import wpShutoff4019 from "@/assets/products/waterpro-shutoff-valve-4019.png";
+import wpBallValveFilter4020 from "@/assets/products/waterpro-ball-valve-filter-4020.png";
+import wpShutoff4021 from "@/assets/products/waterpro-shutoff-valve-4021.png";
+import wpCheckValve4022 from "@/assets/products/waterpro-check-valve-4022.png";
+import wpCheckValve4023 from "@/assets/products/waterpro-check-valve-4023.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -2964,6 +2968,71 @@ export const products: Product[] = [
     specs: [
       { label: { uz: "1/2M × 1/2M (Ø 15)", ru: "1/2M × 1/2M (Ø 15)" }, value: "100 (1) / 4019" },
       { label: { uz: "Kod", ru: "Код" }, value: "4019" }
+    ]
+  },
+  {
+    id: "waterpro-ball-valve-filter-4020",
+    name: "WaterPRO Отсекающий шаровой кран с фильтром Н/Р - Н/Р (4020)",
+    category: "waterpro",
+    images: [wpBallValveFilter4020],
+    description: {
+      uz: "WaterPRO filtrli to'sib qo'yuvchi sharli kran (E/E).",
+      ru: "Отсекающий шаровой кран с фильтром WaterPRO Н/Р - Н/Р."
+    },
+    specs: [
+      { label: { uz: "1/2M × 3/8M", ru: "1/2M × 3/8M" }, value: "60 (1) / 4020.1" },
+      { label: { uz: "1/2M × 1/2M", ru: "1/2M × 1/2M" }, value: "60 (1) / 4020.2" },
+      { label: { uz: "1/2M × 3/4M", ru: "1/2M × 3/4M" }, value: "60 (1) / 4020.3" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4020" }
+    ]
+  },
+  {
+    id: "waterpro-shutoff-valve-4021",
+    name: "WaterPRO Отсекающие краны Н/Р - Н/Р Dn 15 (в комплекте 2шт) (4021)",
+    category: "waterpro",
+    images: [wpShutoff4021],
+    description: {
+      uz: "WaterPRO to'sib qo'yuvchi kranlar (E/E) Dn 15, to'plamda 2 dona (ko'k va qizil).",
+      ru: "Отсекающие краны WaterPRO Н/Р - Н/Р Dn 15, в комплекте 2 шт (синий и красный)."
+    },
+    specs: [
+      { label: { uz: "1/2M×1/2M", ru: "1/2M×1/2M" }, value: "120 / 402101" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4021" }
+    ]
+  },
+  {
+    id: "waterpro-check-valve-4022",
+    name: "WaterPRO Обратный клапан разъемный для соединения ППР (4022)",
+    category: "waterpro",
+    images: [wpCheckValve4022],
+    description: {
+      uz: "WaterPRO PPR ulanish uchun ajraladigan teskari klapan. O'lchamlari: Ø20, Ø25, Ø32.",
+      ru: "Обратный клапан разъемный для соединения ППР WaterPRO. Размеры: Ø20, Ø25, Ø32."
+    },
+    specs: [
+      { label: { uz: "Ø 20", ru: "Ø 20" }, value: "80 / 402201" },
+      { label: { uz: "Ø 25", ru: "Ø 25" }, value: "60 / 402202" },
+      { label: { uz: "Ø 32", ru: "Ø 32" }, value: "32 / 402203" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4022" }
+    ]
+  },
+  {
+    id: "waterpro-check-valve-4023",
+    name: "WaterPRO Обратный клапан латунный В/Р - В/Р (4023)",
+    category: "waterpro",
+    images: [wpCheckValve4023],
+    description: {
+      uz: "WaterPRO latun teskari klapan (I/I). O'lchamlari: 1/2 dan 2 gacha.",
+      ru: "Обратный клапан латунный WaterPRO В/Р - В/Р. Размеры: от 1/2 до 2."
+    },
+    specs: [
+      { label: { uz: "1/2F/F (Ø 15)", ru: "1/2F/F (Ø 15)" }, value: "160 (40) / 4023.15" },
+      { label: { uz: "3/4F/F (Ø 20)", ru: "3/4F/F (Ø 20)" }, value: "120 (30) / 4023.20" },
+      { label: { uz: "1F/F (Ø 25)", ru: "1F/F (Ø 25)" }, value: "84 (12) / 4023.25" },
+      { label: { uz: "1 1/4F/F (Ø 32)", ru: "1 1/4F/F (Ø 32)" }, value: "48 (12) / 4023.32" },
+      { label: { uz: "1 1/2F/F (Ø 40)", ru: "1 1/2F/F (Ø 40)" }, value: "20 (5) / 4023.40" },
+      { label: { uz: "2F/F (Ø 50)", ru: "2F/F (Ø 50)" }, value: "12 (3) / 4023.50" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4023" }
     ]
   },
   {
