@@ -3394,6 +3394,100 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-pump-connector-4076",
+    name: "WaterPRO Соединительные элементы для насосов (4076)",
+    category: "waterpro",
+    images: [wpPumpConnector4076],
+    description: {
+      uz: "WaterPRO nasoslar uchun ulash elementlari (PPR amerikanka).",
+      ru: "Соединительные элементы для насосов WaterPRO."
+    },
+    specs: [
+      { label: { uz: "PPR32×G1-1/2F", ru: "PPR32×G1-1/2F" }, value: "200 / 407601" },
+      { label: { uz: "PPR32×G2\"", ru: "PPR32×G2\"" }, value: "120 / 407602" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4076" }
+    ]
+  },
+  {
+    id: "waterpro-check-valve-4077",
+    name: "WaterPRO Медный комбинированный отводной обратный клапан в/р-н/р (4077)",
+    category: "waterpro",
+    images: [wpCheckValve4077],
+    description: {
+      uz: "WaterPRO mis kombinatsiyalangan burchakli qaytarmas klapan, I/E.",
+      ru: "Медный комбинированный отводной обратный клапан WaterPRO в/р-н/р."
+    },
+    specs: [
+      { label: { uz: "1/2F/M", ru: "1/2F/M" }, value: "400 / 407701" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4077" }
+    ]
+  },
+  {
+    id: "waterpro-extension-dn15-4034",
+    name: "WaterPRO Удлинитель хромированный DN15 (4034)",
+    category: "waterpro",
+    images: [wpExtDn15_4034],
+    description: {
+      uz: "WaterPRO xromlangan uzaytirgich DN15.",
+      ru: "Удлинитель хромированный WaterPRO DN15."
+    },
+    specs: [
+      { label: { uz: "1/2×10mm", ru: "1/2×10mm" }, value: "400 / 403401" },
+      { label: { uz: "1/2×15mm", ru: "1/2×15mm" }, value: "360 / 403402" },
+      { label: { uz: "1/2×20mm", ru: "1/2×20mm" }, value: "320 / 403403" },
+      { label: { uz: "1/2×30mm", ru: "1/2×30mm" }, value: "240 / 403404" },
+      { label: { uz: "1/2×40mm", ru: "1/2×40mm" }, value: "200 / 403405" },
+      { label: { uz: "1/2×50mm", ru: "1/2×50mm" }, value: "160 / 403406" },
+      { label: { uz: "1/2×60mm", ru: "1/2×60mm" }, value: "184 / 403407" },
+      { label: { uz: "1/2×70mm", ru: "1/2×70mm" }, value: "168 / 403408" },
+      { label: { uz: "1/2×80mm", ru: "1/2×80mm" }, value: "128 / 403409" },
+      { label: { uz: "1/2×90mm", ru: "1/2×90mm" }, value: "140 / 403410" },
+      { label: { uz: "1/2×100mm", ru: "1/2×100mm" }, value: "112 / 403411" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4034" }
+    ]
+  },
+  {
+    id: "waterpro-extension-dn20-4035",
+    name: "WaterPRO Удлинитель хромированный DN20 (4035)",
+    category: "waterpro",
+    images: [wpExtDn20_4035],
+    description: {
+      uz: "WaterPRO xromlangan uzaytirgich DN20.",
+      ru: "Удлинитель хромированный WaterPRO DN20."
+    },
+    specs: [
+      { label: { uz: "3/4×10mm", ru: "3/4×10mm" }, value: "240 / 403501" },
+      { label: { uz: "3/4×20mm", ru: "3/4×20mm" }, value: "200 / 403502" },
+      { label: { uz: "3/4×30mm", ru: "3/4×30mm" }, value: "140 / 403503" },
+      { label: { uz: "3/4×40mm", ru: "3/4×40mm" }, value: "120 / 403504" },
+      { label: { uz: "3/4×50mm", ru: "3/4×50mm" }, value: "144 / 403505" },
+      { label: { uz: "3/4×60mm", ru: "3/4×60mm" }, value: "112 / 403506" },
+      { label: { uz: "3/4×70mm", ru: "3/4×70mm" }, value: "100 / 403507" },
+      { label: { uz: "3/4×80mm", ru: "3/4×80mm" }, value: "96 / 403508" },
+      { label: { uz: "3/4×90mm", ru: "3/4×90mm" }, value: "88 / 403509" },
+      { label: { uz: "3/4×100mm", ru: "3/4×100mm" }, value: "72 / 403510" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4035" }
+    ]
+  },
+  {
+    id: "waterpro-extension-dn25-4036",
+    name: "WaterPRO Удлинитель хромированный DN25 (4036)",
+    category: "waterpro",
+    images: [wpExtDn25_4036],
+    description: {
+      uz: "WaterPRO xromlangan uzaytirgich DN25.",
+      ru: "Удлинитель хромированный WaterPRO DN25."
+    },
+    specs: [
+      { label: { uz: "1\"×10mm", ru: "1\"×10mm" }, value: "160 / 403601" },
+      { label: { uz: "1\"×20mm", ru: "1\"×20mm" }, value: "120 / 403602" },
+      { label: { uz: "1\"×30mm", ru: "1\"×30mm" }, value: "100 / 403603" },
+      { label: { uz: "1\"×40mm", ru: "1\"×40mm" }, value: "100 / 403604" },
+      { label: { uz: "1\"×50mm", ru: "1\"×50mm" }, value: "100 / 403605" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4036" }
+    ]
+  },
+  {
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
     category: "waterpro",
