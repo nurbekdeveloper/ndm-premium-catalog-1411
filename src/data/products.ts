@@ -2732,7 +2732,6 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "4006" }
     ]
   },
-  },
   {
     id: "waterpro-mini-ball-valve-4007",
     name: "WaterPRO Мини шаровой кран под обжим трубы Ø 16x16 (4007)",
