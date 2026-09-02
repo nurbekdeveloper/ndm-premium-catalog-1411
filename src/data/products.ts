@@ -319,6 +319,11 @@ import wpTee4032 from "@/assets/products/waterpro-tee-4032.png";
 import wpTee4033 from "@/assets/products/waterpro-tee-4033.png";
 import wpCoupling4031 from "@/assets/products/waterpro-coupling-4031.png";
 import wpElbow4037 from "@/assets/products/waterpro-elbow-4037.png";
+import wpElbow45_4047 from "@/assets/products/waterpro-elbow-45-4047.png";
+import wpElbow4038 from "@/assets/products/waterpro-elbow-4038.png";
+import wpTee4039 from "@/assets/products/waterpro-tee-4039.png";
+import wpYTee4048 from "@/assets/products/waterpro-y-tee-4048.png";
+import wpRadiatorExt4049 from "@/assets/products/waterpro-radiator-extension-4049.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -3301,6 +3306,86 @@ export const products: Product[] = [
       { label: { uz: "L1 1/2F × 1 1/2F (Ø 40)", ru: "L1 1/2F × 1 1/2F (Ø 40)" }, value: "36 / 4037.40" },
       { label: { uz: "L2F × 2F (Ø 50)", ru: "L2F × 2F (Ø 50)" }, value: "16 / 4037.50" },
       { label: { uz: "Kod", ru: "Код" }, value: "4037" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-4038",
+    name: "WaterPRO Отвод 90° из латуни В/Р - Н/Р (4038)",
+    category: "waterpro",
+    images: [wpElbow4038],
+    description: {
+      uz: "WaterPRO latun 90° burchak (otvod), I/E.",
+      ru: "Отвод 90° из латуни WaterPRO В/Р - Н/Р."
+    },
+    specs: [
+      { label: { uz: "L1/2F×1/2M (Ø 15)", ru: "L1/2F×1/2M (Ø 15)" }, value: "200 (50) / 4038.15" },
+      { label: { uz: "L3/4F×3/4M (Ø 20)", ru: "L3/4F×3/4M (Ø 20)" }, value: "160 (40) / 4038.20" },
+      { label: { uz: "L1F×1M (Ø 25)", ru: "L1F×1M (Ø 25)" }, value: "80 (20) / 4038.25" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4038" }
+    ]
+  },
+  {
+    id: "waterpro-tee-4039",
+    name: "WaterPRO Тройник латунный В/Р - В/Р (4039)",
+    category: "waterpro",
+    images: [wpTee4039],
+    description: {
+      uz: "WaterPRO latun troynik, I/I.",
+      ru: "Тройник латунный WaterPRO В/Р - В/Р."
+    },
+    specs: [
+      { label: { uz: "T1/2F×1/2F×1/2F", ru: "T1/2F×1/2F×1/2F" }, value: "160 / 403901" },
+      { label: { uz: "T3/4F×3/4F×3/4F", ru: "T3/4F×3/4F×3/4F" }, value: "100 / 403902" },
+      { label: { uz: "T1F×1F×1F", ru: "T1F×1F×1F" }, value: "60 / 403903" },
+      { label: { uz: "T1 1/4F×1 1/4F×1 1/4F", ru: "T1 1/4F×1 1/4F×1 1/4F" }, value: "36 / 403904" },
+      { label: { uz: "T1 1/2F×1 1/2F×1 1/2F", ru: "T1 1/2F×1 1/2F×1 1/2F" }, value: "24 / 403905" },
+      { label: { uz: "T2F×2F×2F", ru: "T2F×2F×2F" }, value: "12 / 403906" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4039" }
+    ]
+  },
+  {
+    id: "waterpro-elbow-45-4047",
+    name: "WaterPRO Отвод латунный 45° В/Р - В/Р (4047)",
+    category: "waterpro",
+    images: [wpElbow45_4047],
+    description: {
+      uz: "WaterPRO latun 45° burchak (otvod), I/I.",
+      ru: "Отвод латунный 45° WaterPRO В/Р - В/Р."
+    },
+    specs: [
+      { label: { uz: "L1/2FF×45°", ru: "L1/2FF×45°" }, value: "200 / 404701" },
+      { label: { uz: "L3/4FF×45°", ru: "L3/4FF×45°" }, value: "120 / 404702" },
+      { label: { uz: "L1FF×45°", ru: "L1FF×45°" }, value: "80 / 404703" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4047" }
+    ]
+  },
+  {
+    id: "waterpro-y-tee-4048",
+    name: "WaterPRO Медный Y-образный комбинированный тройник В/Р - В/Р - Н/Р (4048)",
+    category: "waterpro",
+    images: [wpYTee4048],
+    description: {
+      uz: "WaterPRO mis Y-shaklidagi kombinatsiyalangan troynik, I/I/E.",
+      ru: "Медный Y-образный комбинированный тройник WaterPRO в/р - в/р - н/р."
+    },
+    specs: [
+      { label: { uz: "T1/2F×1/2F×1/2M", ru: "T1/2F×1/2F×1/2M" }, value: "160 / 404801" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4048" }
+    ]
+  },
+  {
+    id: "waterpro-radiator-extension-4049",
+    name: "WaterPRO Удлинительный регулируемый сгон для радиатора (4049)",
+    category: "waterpro",
+    images: [wpRadiatorExt4049],
+    description: {
+      uz: "WaterPRO radiator uchun sozlanadigan uzaytirgich sgon.",
+      ru: "Удлинительный регулируемый сгон для радиатора WaterPRO."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2M", ru: "1/2F×1/2M" }, value: "220 / 404901" },
+      { label: { uz: "3/4F×3/4M", ru: "3/4F×3/4M" }, value: "160 / 404902" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4049" }
     ]
   },
   {
