@@ -4122,6 +4122,94 @@ export const products: Product[] = [
   {
 
 
+  },
+  {
+    id: "waterpro-flex-gas-hose-4209",
+    name: "WaterPRO Гибкий шланг для газа (SS304) 4209",
+    category: "waterpro",
+    images: [wpFlexGasHose4209],
+    description: {
+      uz: "Gaz uchun egiluvchan shlang (SS304), 3/4F.",
+      ru: "Гибкий шланг для газа (SS304), 3/4F."
+    },
+    specs: [
+      { label: { uz: "3/4F×500MM", ru: "3/4F×500MM" }, value: "100 / 420901" },
+      { label: { uz: "3/4F×600MM", ru: "3/4F×600MM" }, value: "100 / 420902" },
+      { label: { uz: "3/4F×700MM", ru: "3/4F×700MM" }, value: "100 / 420903" },
+      { label: { uz: "3/4F×800MM", ru: "3/4F×800MM" }, value: "100 / 420904" },
+      { label: { uz: "3/4F×1000MM", ru: "3/4F×1000MM" }, value: "100 / 420905" },
+      { label: { uz: "3/4F×1200MM", ru: "3/4F×1200MM" }, value: "100 / 420906" },
+      { label: { uz: "3/4F×1500MM", ru: "3/4F×1500MM" }, value: "100 / 420907" },
+      { label: { uz: "3/4F×2000MM", ru: "3/4F×2000MM" }, value: "50 / 420908" }
+    ]
+  },
+  {
+    id: "waterpro-manifold-5001",
+    name: "WaterPRO Распределительный коллектор 5001",
+    category: "waterpro",
+    images: [wpManifold5001],
+    description: {
+      uz: "Taqsimlash kollektori, 16 mm chiqishlar bilan.",
+      ru: "Распределительный коллектор с выходами 16 мм."
+    },
+    specs: [
+      { label: { uz: "2 chiqish × 16 mm", ru: "2 вых × 16 мм" }, value: "22 / 5001.2" },
+      { label: { uz: "3 chiqish × 16 mm", ru: "3 вых × 16 мм" }, value: "24 / 5001.3" },
+      { label: { uz: "4 chiqish × 16 mm", ru: "4 вых × 16 мм" }, value: "18 / 5001.4" },
+      { label: { uz: "5 chiqish × 16 mm", ru: "5 вых × 16 мм" }, value: "13 / 5001.5" },
+      { label: { uz: "6 chiqish × 16 mm", ru: "6 вых × 16 мм" }, value: "12 / 5001.6" },
+      { label: { uz: "7 chiqish × 16 mm", ru: "7 вых × 16 мм" }, value: "12 / 5001.7" },
+      { label: { uz: "8 chiqish × 16 mm", ru: "8 вых × 16 мм" }, value: "9 / 5001.8" },
+      { label: { uz: "9 chiqish × 16 mm", ru: "9 вых × 16 мм" }, value: "9 / 5001.9" },
+      { label: { uz: "10 chiqish × 16 mm", ru: "10 вых × 16 мм" }, value: "6 / 5001.10" },
+      { label: { uz: "12 chiqish × 16 mm", ru: "12 вых × 16 мм" }, value: "6 / 5001.12" }
+    ]
+  },
+  {
+    id: "waterpro-manifold-5002",
+    name: "WaterPRO Распределительный коллектор с мини шаровым краном 5002",
+    category: "waterpro",
+    images: [wpManifold5002],
+    description: {
+      uz: "Mini sharli kran bilan taqsimlash kollektori.",
+      ru: "Распределительный коллектор с мини шаровым краном."
+    },
+    specs: [
+      { label: { uz: "2L×1216", ru: "2L×1216" }, value: "10 / 500201" },
+      { label: { uz: "3L×1216", ru: "3L×1216" }, value: "10 / 500202" },
+      { label: { uz: "4L×1216", ru: "4L×1216" }, value: "10 / 500203" },
+      { label: { uz: "5L×1216", ru: "5L×1216" }, value: "5 / 500204" },
+      { label: { uz: "6L×1216", ru: "6L×1216" }, value: "5 / 500205" },
+      { label: { uz: "7L×1216", ru: "7L×1216" }, value: "5 / 500206" },
+      { label: { uz: "8L×1216", ru: "8L×1216" }, value: "5 / 500207" },
+      { label: { uz: "9L×1216", ru: "9L×1216" }, value: "5 / 500208" },
+      { label: { uz: "10L×1216", ru: "10L×1216" }, value: "5 / 500209" },
+      { label: { uz: "12L×1216", ru: "12L×1216" }, value: "5 / 500210" }
+    ]
+  },
+  {
+    id: "waterpro-manifold-5003",
+    name: "WaterPRO Распределительный коллектор с барашковым краном 5003",
+    category: "waterpro",
+    images: [wpManifold5003],
+    description: {
+      uz: "Barashka kranli taqsimlash kollektori, 16 mm chiqishlar.",
+      ru: "Распределительный коллектор с барашковым краном, выходы 16 мм."
+    },
+    specs: [
+      { label: { uz: "2 chiqish × 16 mm", ru: "2 вых × 16 мм" }, value: "20 / 5003.2" },
+      { label: { uz: "3 chiqish × 16 mm", ru: "3 вых × 16 мм" }, value: "20 / 5003.3" },
+      { label: { uz: "4 chiqish × 16 mm", ru: "4 вых × 16 мм" }, value: "8 / 5003.4" },
+      { label: { uz: "5 chiqish × 16 mm", ru: "5 вых × 16 мм" }, value: "8 / 5003.5" },
+      { label: { uz: "6 chiqish × 16 mm", ru: "6 вых × 16 мм" }, value: "8 / 5003.6" },
+      { label: { uz: "7 chiqish × 16 mm", ru: "7 вых × 16 мм" }, value: "8 / 5003.7" },
+      { label: { uz: "8 chiqish × 16 mm", ru: "8 вых × 16 мм" }, value: "8 / 5003.8" },
+      { label: { uz: "9 chiqish × 16 mm", ru: "9 вых × 16 мм" }, value: "8 / 5003.9" },
+      { label: { uz: "10 chiqish × 16 mm", ru: "10 вых × 16 мм" }, value: "6 / 5003.10" },
+      { label: { uz: "12 chiqish × 16 mm", ru: "12 вых × 16 мм" }, value: "6 / 5003.12" }
+    ]
+  },
+  {
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
     category: "waterpro",
