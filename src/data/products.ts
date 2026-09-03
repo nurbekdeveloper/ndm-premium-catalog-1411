@@ -361,6 +361,11 @@ import wpBrassBallValveGas4200 from "@/assets/products/waterpro-brass-ball-valve
 import wpGasBallValveButterfly4201 from "@/assets/products/waterpro-gas-ball-valve-butterfly-4201.png";
 import wpFlexHose4202 from "@/assets/products/waterpro-flex-hose-4202.png";
 import wpFlexHose4203 from "@/assets/products/waterpro-flex-hose-4203.png";
+import wpDielectricCoupling4204 from "@/assets/products/waterpro-dielectric-coupling-4204.png";
+import wpDielectricCoupling4205 from "@/assets/products/waterpro-dielectric-coupling-4205.png";
+import wpFlexWaterHose4206 from "@/assets/products/waterpro-flex-water-hose-4206.png";
+import wpFlexWaterHose4207 from "@/assets/products/waterpro-flex-water-hose-4207.png";
+import wpFlexGasHose4208 from "@/assets/products/waterpro-flex-gas-hose-4208.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -4020,6 +4025,94 @@ export const products: Product[] = [
       { label: { uz: "3/4 x 600mm", ru: "3/4 x 600мм" }, value: "150 (2) / 4203.6" },
       { label: { uz: "3/4 x 800mm", ru: "3/4 x 800мм" }, value: "50 (2) / 4203.8" },
       { label: { uz: "3/4 x 1000mm", ru: "3/4 x 1000мм" }, value: "50 (2) / 4203.10" }
+    ]
+  },
+  {
+    id: "waterpro-dielectric-coupling-4204",
+    name: "WaterPRO Диэлектрическая муфта (4204)",
+    category: "waterpro",
+    images: [wpDielectricCoupling4204],
+    description: {
+      uz: "WaterPRO dielektrik mufta, tashqi-tashqi rezba.",
+      ru: "Диэлектрическая муфта WaterPRO, наружная-наружная резьба."
+    },
+    specs: [
+      { label: { uz: "1/2M×1/2M", ru: "1/2M×1/2M" }, value: "250 / 420401" },
+      { label: { uz: "3/4M×3/4M", ru: "3/4M×3/4M" }, value: "220 / 420402" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4204" }
+    ]
+  },
+  {
+    id: "waterpro-dielectric-coupling-4205",
+    name: "WaterPRO Диэлектрическая муфта (4205)",
+    category: "waterpro",
+    images: [wpDielectricCoupling4205],
+    description: {
+      uz: "WaterPRO dielektrik mufta, ichki-tashqi rezba.",
+      ru: "Диэлектрическая муфта WaterPRO, внутренняя-наружная резьба."
+    },
+    specs: [
+      { label: { uz: "1/2F×1/2M", ru: "1/2F×1/2M" }, value: "200 / 420501" },
+      { label: { uz: "3/4F×3/4M", ru: "3/4F×3/4M" }, value: "200 / 420502" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4205" }
+    ]
+  },
+  {
+    id: "waterpro-flex-water-hose-4206",
+    name: "WaterPRO Гибкий шланг для воды (SS304) 4206",
+    category: "waterpro",
+    images: [wpFlexWaterHose4206],
+    description: {
+      uz: "Suv uchun egiluvchan shlang (SS304).",
+      ru: "Гибкий шланг для воды (SS304)."
+    },
+    specs: [
+      { label: { uz: "1/2F×300MM", ru: "1/2F×300MM" }, value: "100 / 420601" },
+      { label: { uz: "1/2F×400MM", ru: "1/2F×400MM" }, value: "100 / 420602" },
+      { label: { uz: "1/2F×500MM", ru: "1/2F×500MM" }, value: "100 / 420603" },
+      { label: { uz: "1/2F×600MM", ru: "1/2F×600MM" }, value: "100 / 420604" },
+      { label: { uz: "1/2F×800MM", ru: "1/2F×800MM" }, value: "100 / 420605" },
+      { label: { uz: "1/2F×1000MM", ru: "1/2F×1000MM" }, value: "100 / 420606" }
+    ]
+  },
+  {
+    id: "waterpro-flex-water-hose-4207",
+    name: "WaterPRO Гибкий шланг для воды (SS304) 4207",
+    category: "waterpro",
+    images: [wpFlexWaterHose4207],
+    description: {
+      uz: "Suv uchun egiluvchan shlang (SS304), ko'k qoplamali.",
+      ru: "Гибкий шланг для воды (SS304), синее покрытие."
+    },
+    specs: [
+      { label: { uz: "1/2F×300MM", ru: "1/2F×300MM" }, value: "100 / 420701" },
+      { label: { uz: "1/2F×400MM", ru: "1/2F×400MM" }, value: "100 / 420702" },
+      { label: { uz: "1/2F×500MM", ru: "1/2F×500MM" }, value: "100 / 420703" },
+      { label: { uz: "1/2F×600MM", ru: "1/2F×600MM" }, value: "100 / 420704" },
+      { label: { uz: "1/2F×800MM", ru: "1/2F×800MM" }, value: "100 / 420705" },
+      { label: { uz: "1/2F×1000MM", ru: "1/2F×1000MM" }, value: "100 / 420706" }
+    ]
+  },
+  {
+    id: "waterpro-flex-gas-hose-4208",
+    name: "WaterPRO Гибкий шланг для газа (SS304) 4208",
+    category: "waterpro",
+    images: [wpFlexGasHose4208],
+    description: {
+      uz: "Gaz uchun egiluvchan shlang (SS304).",
+      ru: "Гибкий шланг для газа (SS304)."
+    },
+    specs: [
+      { label: { uz: "1/2F×500MM", ru: "1/2F×500MM" }, value: "100 / 420801" },
+      { label: { uz: "1/2F×600MM", ru: "1/2F×600MM" }, value: "100 / 420802" },
+      { label: { uz: "1/2F×700MM", ru: "1/2F×700MM" }, value: "100 / 420803" },
+      { label: { uz: "1/2F×800MM", ru: "1/2F×800MM" }, value: "100 / 420804" },
+      { label: { uz: "1/2F×1000MM", ru: "1/2F×1000MM" }, value: "100 / 420805" },
+      { label: { uz: "1/2F×1200MM", ru: "1/2F×1200MM" }, value: "100 / 420806" },
+      { label: { uz: "1/2F×1500MM", ru: "1/2F×1500MM" }, value: "100 / 420807" },
+      { label: { uz: "1/2F×2000MM", ru: "1/2F×2000MM" }, value: "50 / 420808" },
+      { label: { uz: "1/2F×2500MM", ru: "1/2F×2500MM" }, value: "50 / 420809" },
+      { label: { uz: "1/2F×3000MM", ru: "1/2F×3000MM" }, value: "50 / 420810" }
     ]
   },
   {
