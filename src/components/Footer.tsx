@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>© 2025 NDM.uz – {t("Premium maishiy texnika katalogi", "Каталог премиум бытовой техники")}</p>
+          <p>© 2017 - 2026 NDM.uz – {t("Premium maishiy texnika katalogi", "Каталог премиум бытовой техники")}</p>
           <p className="mt-1">
             {t(
               "Suv isitgichlar, havoni tortuvchilar, premium texnika katalogi",
