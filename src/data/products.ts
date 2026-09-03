@@ -4023,7 +4023,6 @@ export const products: Product[] = [
     ]
   },
   {
-  {
 
 
     id: "waterpro-compression-fitting-4078",
