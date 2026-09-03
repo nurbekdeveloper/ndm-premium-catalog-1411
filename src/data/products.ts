@@ -3866,7 +3866,6 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "4067" }
     ]
   },
-  },
   {
     id: "waterpro-press-ear-4068",
     name: "WaterPRO Пресс ушастик 60mm (4068)",
