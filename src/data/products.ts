@@ -3784,7 +3784,6 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "4064" }
     ]
   },
-  },
   {
     id: "waterpro-press-tee-4065",
     name: "WaterPRO Пресс тройник (4065)",
