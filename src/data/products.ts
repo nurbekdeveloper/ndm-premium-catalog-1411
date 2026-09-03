@@ -342,6 +342,10 @@ import wpWallElbow4057 from "@/assets/products/waterpro-wall-elbow-4057.png";
 import wpPressCoupling4058 from "@/assets/products/waterpro-press-coupling-4058.png";
 import wpPressCouplingReducer4059 from "@/assets/products/waterpro-press-coupling-reducer-4059.png";
 import wpPressCouplingFemale4060 from "@/assets/products/waterpro-press-coupling-female-4060.png";
+import wpPressCouplingMale4061 from "@/assets/products/waterpro-press-coupling-male-4061.png";
+import wpPressElbow4062 from "@/assets/products/waterpro-press-elbow-4062.png";
+import wpPressElbowMale4063 from "@/assets/products/waterpro-press-elbow-male-4063.png";
+import wpPressElbowFemale4064 from "@/assets/products/waterpro-press-elbow-female-4064.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -3705,6 +3709,78 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-press-coupling-male-4061",
+    name: "WaterPRO Пресс муфта комбинированная с Н/Р (4061)",
+    category: "waterpro",
+    images: [wpPressCouplingMale4061],
+    description: {
+      uz: "WaterPRO tashqi rezbali kombinatsiyalangan press mufta.",
+      ru: "Пресс муфта комбинированная с наружной резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "Ø16×1/2", ru: "Ø16×1/2" }, value: "180 (10) / 4061.16.12" },
+      { label: { uz: "Ø20×1/2", ru: "Ø20×1/2" }, value: "130 (10) / 4061.20.12" },
+      { label: { uz: "Ø20×3/4", ru: "Ø20×3/4" }, value: "120 (10) / 4061.20.34" },
+      { label: { uz: "Ø26×3/4", ru: "Ø26×3/4" }, value: "90 (10) / 4061.26.34" },
+      { label: { uz: "Ø32×1", ru: "Ø32×1" }, value: "55 (5) / 4061.31.1" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4061" }
+    ]
+  },
+  {
+    id: "waterpro-press-elbow-4062",
+    name: "WaterPRO Пресс отвод (4062)",
+    category: "waterpro",
+    images: [wpPressElbow4062],
+    description: {
+      uz: "WaterPRO press burchak (otvod).",
+      ru: "Пресс отвод WaterPRO."
+    },
+    specs: [
+      { label: { uz: "L16×16", ru: "L16×16" }, value: "120 / 406201" },
+      { label: { uz: "L20×20", ru: "L20×20" }, value: "80 / 406202" },
+      { label: { uz: "L26×26", ru: "L26×26" }, value: "50 / 406203" },
+      { label: { uz: "L32×32", ru: "L32×32" }, value: "25 / 406204" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4062" }
+    ]
+  },
+  {
+    id: "waterpro-press-elbow-male-4063",
+    name: "WaterPRO Пресс отвод 90° комбинированный с Н/Р (4063)",
+    category: "waterpro",
+    images: [wpPressElbowMale4063],
+    description: {
+      uz: "WaterPRO 90° tashqi rezbali kombinatsiyalangan press burchak.",
+      ru: "Пресс отвод 90° комбинированный с наружной резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "Ø16×1/2", ru: "Ø16×1/2" }, value: "120 (10) / 4063.16.12" },
+      { label: { uz: "Ø20×1/2", ru: "Ø20×1/2" }, value: "100 (10) / 4063.20.12" },
+      { label: { uz: "Ø20×3/4", ru: "Ø20×3/4" }, value: "80 (10) / 4063.20.34" },
+      { label: { uz: "Ø26×3/4", ru: "Ø26×3/4" }, value: "60 (10) / 4063.26.34" },
+      { label: { uz: "Ø32×1", ru: "Ø32×1" }, value: "30 (5) / 4063.31.1" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4063" }
+    ]
+  },
+  {
+    id: "waterpro-press-elbow-female-4064",
+    name: "WaterPRO Угол комбинированный с внутренней резьбой (4064)",
+    category: "waterpro",
+    images: [wpPressElbowFemale4064],
+    description: {
+      uz: "WaterPRO ichki rezbali kombinatsiyalangan press burchak.",
+      ru: "Угол комбинированный с внутренней резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "L16×1/2F", ru: "L16×1/2F" }, value: "100 / 406401" },
+      { label: { uz: "L20×1/2F", ru: "L20×1/2F" }, value: "90 / 406402" },
+      { label: { uz: "L20×3/4F", ru: "L20×3/4F" }, value: "60 / 406403" },
+      { label: { uz: "L26×3/4F", ru: "L26×3/4F" }, value: "50 / 406404" },
+      { label: { uz: "L32×1F", ru: "L32×1F" }, value: "30 / 406405" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4064" }
+    ]
+  },
+  {
+
 
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
