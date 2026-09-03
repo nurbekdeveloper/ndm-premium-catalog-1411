@@ -379,6 +379,11 @@ import wpHydroCollector5009 from "@/assets/products/waterpro-hydro-collector-500
 import wpConsole5014 from "@/assets/products/waterpro-console-5014.png";
 import wpPumpGroup5007 from "@/assets/products/waterpro-pump-group-5007.png";
 import wpPumpGroup5008 from "@/assets/products/waterpro-pump-group-5008.png";
+import wpHydroCollector5006 from "@/assets/products/waterpro-hydro-collector-5006.png";
+import wpPumpGroup50072 from "@/assets/products/waterpro-pump-group-5007-2.png";
+import wpPumpGroup50082 from "@/assets/products/waterpro-pump-group-5008-2.png";
+import wpActuator6048 from "@/assets/products/waterpro-actuator-6048.png";
+import wpHydroCollector5019 from "@/assets/products/waterpro-hydro-collector-5019.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -4379,6 +4384,74 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "DN25", ru: "DN25" }, value: "12 / 500801" }
+    ]
+  },
+  {
+    id: "waterpro-hydro-collector-5006",
+    name: "WaterPRO Гидроколлектор распределительный Мини 2-4х зонный 5006",
+    category: "waterpro",
+    images: [wpHydroCollector5006],
+    description: {
+      uz: "Mini gidrokollektor-taqsimlagich, 2-4 zonali.",
+      ru: "Гидроколлектор распределительный. Мини 2-4х зонный."
+    },
+    specs: [
+      { label: { uz: "2x", ru: "2x" }, value: "4 / 500601" },
+      { label: { uz: "3x", ru: "3x" }, value: "4 / 500602" },
+      { label: { uz: "4x", ru: "4x" }, value: "2 / 500603" }
+    ]
+  },
+  {
+    id: "waterpro-pump-group-5007-2",
+    name: "WaterPRO Насосная группа со смесителем 5007-2",
+    category: "waterpro",
+    images: [wpPumpGroup50072],
+    description: {
+      uz: "Aralashtirgichli nasos guruhi 11/2\" (500721).",
+      ru: "Насосная группа со смесителем 11/2\" (500721)."
+    },
+    specs: [
+      { label: { uz: "11/2\"", ru: "11/2\"" }, value: "1 / 500721" }
+    ]
+  },
+  {
+    id: "waterpro-pump-group-5008-2",
+    name: "WaterPRO Насосная группа Прямая 5008-2",
+    category: "waterpro",
+    images: [wpPumpGroup50082],
+    description: {
+      uz: "To'g'ri nasos guruhi 11/2\" (500821).",
+      ru: "Насосная группа Прямая 11/2\" (500821)."
+    },
+    specs: [
+      { label: { uz: "11/2\"", ru: "11/2\"" }, value: "1 / 500821" }
+    ]
+  },
+  {
+    id: "waterpro-actuator-6048",
+    name: "WaterPRO Электрический привод SEV 1200 6048",
+    category: "waterpro",
+    images: [wpActuator6048],
+    description: {
+      uz: "Elektr yuritma SEV 1200 (604801).",
+      ru: "Электрический привод SEV 1200 (604801)."
+    },
+    specs: [
+      { label: { uz: "SEV 1200", ru: "SEV 1200" }, value: "30 / 604801" }
+    ]
+  },
+  {
+    id: "waterpro-hydro-collector-5019",
+    name: "WaterPRO Гидроколлектор распределитель 5019",
+    category: "waterpro",
+    images: [wpHydroCollector5019],
+    description: {
+      uz: "Gidrokollektor-taqsimlagich, 2 kirish 2 chiqish.",
+      ru: "Гидроколлектор распределитель, 2 входа 2 выхода."
+    },
+    specs: [
+      { label: { uz: "80*80 2 kirish, 2 chiqish", ru: "80*80 2 входа, 2 выхода" }, value: "6 / 501901" },
+      { label: { uz: "100*100 2 kirish, 2 chiqish", ru: "100*100 2 входа, 2 выхода" }, value: "4 / 501902" }
     ]
   },
   {
