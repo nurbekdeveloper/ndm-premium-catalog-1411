@@ -338,6 +338,10 @@ import wpElbow4053 from "@/assets/products/waterpro-elbow-4053.png";
 import wpElbow4054 from "@/assets/products/waterpro-elbow-4054.png";
 import wpElbow4055 from "@/assets/products/waterpro-elbow-4055.png";
 import wpTee4056 from "@/assets/products/waterpro-tee-4056.png";
+import wpWallElbow4057 from "@/assets/products/waterpro-wall-elbow-4057.png";
+import wpPressCoupling4058 from "@/assets/products/waterpro-press-coupling-4058.png";
+import wpPressCouplingReducer4059 from "@/assets/products/waterpro-press-coupling-reducer-4059.png";
+import wpPressCouplingFemale4060 from "@/assets/products/waterpro-press-coupling-female-4060.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -3634,6 +3638,74 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-wall-elbow-4057",
+    name: "WaterPRO Отвод с настенным креплением ZL16x1/2F (4057)",
+    category: "waterpro",
+    images: [wpWallElbow4057],
+    description: {
+      uz: "WaterPRO devorga mahkamlanadigan oraliq ulash burchagi (ichki rezba) ZL16×1/2F.",
+      ru: "Отвод с наст. креплением промежуточная соединительная в/р WaterPRO ZL16×1/2F."
+    },
+    specs: [
+      { label: { uz: "ZL16×1/2F", ru: "ZL16×1/2F" }, value: "160 / 405701" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4057" }
+    ]
+  },
+  {
+    id: "waterpro-press-coupling-4058",
+    name: "WaterPRO Пресс муфта (4058)",
+    category: "waterpro",
+    images: [wpPressCoupling4058],
+    description: {
+      uz: "WaterPRO press mufta, metall-plastik quvurlar uchun.",
+      ru: "Пресс муфта WaterPRO для металлопластиковых труб."
+    },
+    specs: [
+      { label: { uz: "S16×16", ru: "S16×16" }, value: "150 / 405801" },
+      { label: { uz: "S20×20", ru: "S20×20" }, value: "100 / 405802" },
+      { label: { uz: "S26×26", ru: "S26×26" }, value: "70 / 405803" },
+      { label: { uz: "S32×32", ru: "S32×32" }, value: "40 / 405804" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4058" }
+    ]
+  },
+  {
+    id: "waterpro-press-coupling-reducer-4059",
+    name: "WaterPRO Пресс муфта переходник (4059)",
+    category: "waterpro",
+    images: [wpPressCouplingReducer4059],
+    description: {
+      uz: "WaterPRO press mufta o'tkazgich (reduksiya).",
+      ru: "Пресс муфта переходник WaterPRO."
+    },
+    specs: [
+      { label: { uz: "S20×16", ru: "S20×16" }, value: "120 / 405901" },
+      { label: { uz: "S26×16", ru: "S26×16" }, value: "80 / 405902" },
+      { label: { uz: "S26×20", ru: "S26×20" }, value: "90 / 405903" },
+      { label: { uz: "S32×20", ru: "S32×20" }, value: "55 / 405904" },
+      { label: { uz: "S32×26", ru: "S32×26" }, value: "50 / 405905" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4059" }
+    ]
+  },
+  {
+    id: "waterpro-press-coupling-female-4060",
+    name: "WaterPRO Пресс муфта с внутренней резьбой (4060)",
+    category: "waterpro",
+    images: [wpPressCouplingFemale4060],
+    description: {
+      uz: "WaterPRO ichki rezbali press mufta.",
+      ru: "Пресс муфта с внутренней резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "S16×1/2F", ru: "S16×1/2F" }, value: "140 / 406001" },
+      { label: { uz: "S20×1/2F", ru: "S20×1/2F" }, value: "120 / 406002" },
+      { label: { uz: "S20×3/4F", ru: "S20×3/4F" }, value: "100 / 406003" },
+      { label: { uz: "S26×3/4F", ru: "S26×3/4F" }, value: "80 / 406004" },
+      { label: { uz: "S32×1F", ru: "S32×1F" }, value: "45 / 406005" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4060" }
+    ]
+  },
+  {
+
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
     category: "waterpro",
