@@ -346,6 +346,11 @@ import wpPressCouplingMale4061 from "@/assets/products/waterpro-press-coupling-m
 import wpPressElbow4062 from "@/assets/products/waterpro-press-elbow-4062.png";
 import wpPressElbowMale4063 from "@/assets/products/waterpro-press-elbow-male-4063.png";
 import wpPressElbowFemale4064 from "@/assets/products/waterpro-press-elbow-female-4064.png";
+import wpPressTee4065 from "@/assets/products/waterpro-press-tee-4065.png";
+import wpPressTeeReducing4066 from "@/assets/products/waterpro-press-tee-reducing-4066.png";
+import wpPressTeeMale4074 from "@/assets/products/waterpro-press-tee-male-4074.png";
+import wpPressTeeFemale4075 from "@/assets/products/waterpro-press-tee-female-4075.png";
+import wpPressElbowWall4067 from "@/assets/products/waterpro-press-elbow-wall-4067.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
