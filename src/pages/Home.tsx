@@ -110,7 +110,7 @@ const Home = () => {
         <div className="absolute inset-0 gradient-overlay" />
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6 animate-fade-in-down">
-            {t("O'zbekistonning yirik qurilish va texnika brendlari yagona katalogda", "Крупнейшие строительные и технические бренды Узбекистана в одном каталоге")}
+            Ndm.uz
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" }}>
             {t(
