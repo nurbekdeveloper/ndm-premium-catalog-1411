@@ -3866,6 +3866,78 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "4067" }
     ]
   },
+  },
+  {
+    id: "waterpro-press-ear-4068",
+    name: "WaterPRO Пресс ушастик 60mm (4068)",
+    category: "waterpro",
+    images: [wpPressEar4068],
+    description: {
+      uz: "WaterPRO press ushastik 60mm, devorga mahkamlash uchun ichki rezbali press burchak.",
+      ru: "Пресс ушастик 60mm WaterPRO — пресс отвод с настенным креплением и внутренней резьбой."
+    },
+    specs: [
+      { label: { uz: "L16×1/2F", ru: "L16×1/2F" }, value: "50 / 406801" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4068" }
+    ]
+  },
+  {
+    id: "waterpro-press-ear-u-4069",
+    name: "WaterPRO U-образный пресс ушастик В/Р (4069)",
+    category: "waterpro",
+    images: [wpPressEarU4069],
+    description: {
+      uz: "WaterPRO U-simon press ushastik, ichki rezbali (B/P).",
+      ru: "U-образный пресс ушастик с внутренней резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "Ø16×1/2", ru: "Ø16×1/2" }, value: "30 (3) / 4069" },
+      { label: { uz: "O'lchov birligi", ru: "Ед. изм" }, value: "шт" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4069" }
+    ]
+  },
+  {
+    id: "waterpro-press-elbow-double-4070",
+    name: "WaterPRO Пресс угольник с двойной креплением (4070)",
+    category: "waterpro",
+    images: [wpPressElbowDouble4070],
+    description: {
+      uz: "WaterPRO qo'sh mahkamlagichli press ugolnik.",
+      ru: "Пресс угольник с двойным креплением WaterPRO."
+    },
+    specs: [
+      { label: { uz: "L16×1/2F", ru: "L16×1/2F" }, value: "20 / 407001" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4070" }
+    ]
+  },
+  {
+    id: "waterpro-press-elbow-double-u-4070-1",
+    name: "WaterPRO U-образный пресс угольник с двойной креплением (4070-1)",
+    category: "waterpro",
+    images: [wpPressElbowDoubleU40701],
+    description: {
+      uz: "WaterPRO U-simon qo'sh mahkamlagichli press ugolnik.",
+      ru: "U-образный пресс угольник с двойным креплением WaterPRO."
+    },
+    specs: [
+      { label: { uz: "UL16×1/2F", ru: "UL16×1/2F" }, value: "10 / 407011" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4070-1" }
+    ]
+  },
+  {
+    id: "waterpro-press-ball-valve-4072",
+    name: "WaterPRO Пресс шаровой кран В/Р (4072)",
+    category: "waterpro",
+    images: [wpPressBallValve4072],
+    description: {
+      uz: "WaterPRO ichki rezbali press sharli kran.",
+      ru: "Пресс шаровой кран с внутренней резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "Dn16×1/2F", ru: "Dn16×1/2F" }, value: "140 / 407201" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4072" }
+    ]
+  },
   {
 
 
