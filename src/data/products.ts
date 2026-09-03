@@ -3784,6 +3784,84 @@ export const products: Product[] = [
       { label: { uz: "Kod", ru: "Код" }, value: "4064" }
     ]
   },
+  },
+  {
+    id: "waterpro-press-tee-4065",
+    name: "WaterPRO Пресс тройник (4065)",
+    category: "waterpro",
+    images: [wpPressTee4065],
+    description: {
+      uz: "WaterPRO press troynik (teng o'lchamli).",
+      ru: "Пресс тройник WaterPRO (равнопроходной)."
+    },
+    specs: [
+      { label: { uz: "T16×16×16", ru: "T16×16×16" }, value: "70 / 406501" },
+      { label: { uz: "T20×20×20", ru: "T20×20×20" }, value: "40 / 406502" },
+      { label: { uz: "T26×26×26", ru: "T26×26×26" }, value: "30 / 406503" },
+      { label: { uz: "T32×32×32", ru: "T32×32×32" }, value: "15 / 406504" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4065" }
+    ]
+  },
+  {
+    id: "waterpro-press-tee-reducing-4066",
+    name: "WaterPRO Пресс тройник переходной (4066)",
+    category: "waterpro",
+    images: [wpPressTeeReducing4066],
+    description: {
+      uz: "WaterPRO o'tuvchi (reduksion) press troynik.",
+      ru: "Пресс тройник переходной WaterPRO."
+    },
+    specs: [
+      { label: { uz: "Ø20×16×20", ru: "Ø20×16×20" }, value: "50 (5) / 4066.20" },
+      { label: { uz: "Ø26×20×26", ru: "Ø26×20×26" }, value: "30 (5) / 4066.26" },
+      { label: { uz: "Ø32×26×32", ru: "Ø32×26×32" }, value: "15 (1) / 4066.32" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4066" }
+    ]
+  },
+  {
+    id: "waterpro-press-tee-male-4074",
+    name: "WaterPRO Пресс тройник с наружной резьбой (4074)",
+    category: "waterpro",
+    images: [wpPressTeeMale4074],
+    description: {
+      uz: "WaterPRO tashqi rezbali press troynik.",
+      ru: "Пресс тройник с наружной резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "T16×1/2M", ru: "T16×1/2M" }, value: "70 / 407401" },
+      { label: { uz: "T20×1/2M", ru: "T20×1/2M" }, value: "60 / 407402" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4074" }
+    ]
+  },
+  {
+    id: "waterpro-press-tee-female-4075",
+    name: "WaterPRO Пресс тройник с внутренней резьбой (4075)",
+    category: "waterpro",
+    images: [wpPressTeeFemale4075],
+    description: {
+      uz: "WaterPRO ichki rezbali press troynik.",
+      ru: "Пресс тройник с внутренней резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "T16×1/2F", ru: "T16×1/2F" }, value: "60 / 407501" },
+      { label: { uz: "T20×1/2F", ru: "T20×1/2F" }, value: "50 / 407502" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4075" }
+    ]
+  },
+  {
+    id: "waterpro-press-elbow-wall-4067",
+    name: "WaterPRO Пресс отвод с настенным креплением с В/Р 16×1/2 (4067)",
+    category: "waterpro",
+    images: [wpPressElbowWall4067],
+    description: {
+      uz: "WaterPRO devorga o'rnatiladigan ichki rezbali press burchak 16×1/2.",
+      ru: "Пресс отвод с настенным креплением с внутренней резьбой WaterPRO 16×1/2."
+    },
+    specs: [
+      { label: { uz: "ZL16×1/2F (Ø15)", ru: "ZL16×1/2F (Ø15)" }, value: "60 (10) / 4067" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4067" }
+    ]
+  },
   {
 
 
