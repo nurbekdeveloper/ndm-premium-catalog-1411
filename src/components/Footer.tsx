@@ -64,7 +64,7 @@ const Footer = () => {
                   Tel: +998 92 001 01 01
                 </a>
               </p>
-              <p>{t("Toshkent, O'zbekiston", "Ташкент, Узбекистан")}</p>
+              <p>{t("Namangan, O'zbekiston", "Наманган, Узбекистан")}</p>
             </div>
             <div className="flex space-x-4">
               <a href="https://www.instagram.com/ndm.business?utm_source=ig_web_button_share_sheet&igsh=MTRjM3k3cnR3NHFkMg==" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
