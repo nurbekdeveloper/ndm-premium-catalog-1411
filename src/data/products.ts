@@ -370,6 +370,10 @@ import wpFlexGasHose4209 from "@/assets/products/waterpro-flex-gas-hose-4209.png
 import wpManifold5001 from "@/assets/products/waterpro-manifold-5001.png";
 import wpManifold5002 from "@/assets/products/waterpro-manifold-5002.png";
 import wpManifold5003 from "@/assets/products/waterpro-manifold-5003.png";
+import wpManifold5004 from "@/assets/products/waterpro-manifold-5004.png";
+import wpManifold5005 from "@/assets/products/waterpro-manifold-5005.png";
+import wpManifold5016 from "@/assets/products/waterpro-manifold-5016.png";
+import wpManifold5017 from "@/assets/products/waterpro-manifold-5017.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
