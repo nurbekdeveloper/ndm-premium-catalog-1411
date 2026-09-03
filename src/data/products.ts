@@ -4210,6 +4210,94 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-manifold-5004",
+    name: "WaterPRO Распределительный коллектор с расходомером 5004",
+    category: "waterpro",
+    images: [wpManifold5004],
+    description: {
+      uz: "Rasxodomer (oqim o'lchagich) bilan taqsimlash kollektori.",
+      ru: "Распределительный коллектор с расходомером."
+    },
+    specs: [
+      { label: { uz: "2 chiqish × 1216", ru: "2 вых × 1216" }, value: "8 / 5004.2" },
+      { label: { uz: "3 chiqish × 1216", ru: "3 вых × 1216" }, value: "8 / 5004.3" },
+      { label: { uz: "4 chiqish × 1216", ru: "4 вых × 1216" }, value: "8 / 5004.4" },
+      { label: { uz: "5 chiqish × 1216", ru: "5 вых × 1216" }, value: "4 / 5004.5" },
+      { label: { uz: "6 chiqish × 1216", ru: "6 вых × 1216" }, value: "4 / 5004.6" },
+      { label: { uz: "7 chiqish × 1216", ru: "7 вых × 1216" }, value: "4 / 5004.7" },
+      { label: { uz: "8 chiqish × 1216", ru: "8 вых × 1216" }, value: "4 / 5004.8" },
+      { label: { uz: "9 chiqish × 1216", ru: "9 вых × 1216" }, value: "4 / 5004.9" },
+      { label: { uz: "10 chiqish × 1216", ru: "10 вых × 1216" }, value: "4 / 5004.10" },
+      { label: { uz: "12 chiqish × 1216", ru: "12 вых × 1216" }, value: "4 / 5004.12" }
+    ]
+  },
+  {
+    id: "waterpro-manifold-5005",
+    name: "WaterPRO Распределительный коллектор для лучевой разводки 5005",
+    category: "waterpro",
+    images: [wpManifold5005],
+    description: {
+      uz: "Nurli (lucheviy) tarqatish uchun taqsimlash kollektori.",
+      ru: "Распределительный коллектор для лучевой разводки."
+    },
+    specs: [
+      { label: { uz: "3 chiqish × 16 mm", ru: "3 вых × 16 мм" }, value: "8 / 5005.3" },
+      { label: { uz: "4 chiqish × 16 mm", ru: "4 вых × 16 мм" }, value: "4 / 5005.4" },
+      { label: { uz: "5 chiqish × 16 mm", ru: "5 вых × 16 мм" }, value: "4 / 5005.5" },
+      { label: { uz: "6 chiqish × 16 mm", ru: "6 вых × 16 мм" }, value: "4 / 5005.6" },
+      { label: { uz: "7 chiqish × 16 mm", ru: "7 вых × 16 мм" }, value: "4 / 5005.7" },
+      { label: { uz: "8 chiqish × 16 mm", ru: "8 вых × 16 мм" }, value: "4 / 5005.8" },
+      { label: { uz: "9 chiqish × 16 mm", ru: "9 вых × 16 мм" }, value: "4 / 5005.9" },
+      { label: { uz: "10 chiqish × 16 mm", ru: "10 вых × 16 мм" }, value: "4 / 5005.10" },
+      { label: { uz: "12 chiqish × 16 mm", ru: "12 вых × 16 мм" }, value: "4 / 5005.12" },
+      { label: { uz: "14 chiqish × 16 mm", ru: "14 вых × 16 мм" }, value: "4 / 5005.14" }
+    ]
+  },
+  {
+    id: "waterpro-manifold-5016",
+    name: "WaterPRO PPR распределительный коллектор с шаровым краном 5016",
+    category: "waterpro",
+    images: [wpManifold5016],
+    description: {
+      uz: "PPR taqsimlash kollektori, sharli kran bilan.",
+      ru: "PPR распределительный коллектор с шаровым краном."
+    },
+    specs: [
+      { label: { uz: "2L×1216", ru: "2L×1216" }, value: "12 / 501601" },
+      { label: { uz: "3L×1216", ru: "3L×1216" }, value: "12 / 501602" },
+      { label: { uz: "4L×1216", ru: "4L×1216" }, value: "9 / 501603" },
+      { label: { uz: "5L×1216", ru: "5L×1216" }, value: "9 / 501604" },
+      { label: { uz: "6L×1216", ru: "6L×1216" }, value: "9 / 501605" },
+      { label: { uz: "7L×1216", ru: "7L×1216" }, value: "6 / 501606" },
+      { label: { uz: "8L×1216", ru: "8L×1216" }, value: "6 / 501607" },
+      { label: { uz: "9L×1216", ru: "9L×1216" }, value: "6 / 501608" },
+      { label: { uz: "10L×1216", ru: "10L×1216" }, value: "6 / 501609" },
+      { label: { uz: "12L×1216", ru: "12L×1216" }, value: "6 / 501610" }
+    ]
+  },
+  {
+    id: "waterpro-manifold-5017",
+    name: "WaterPRO PPR распределительный коллектор (Барашковый) 5017",
+    category: "waterpro",
+    images: [wpManifold5017],
+    description: {
+      uz: "PPR taqsimlash kollektori (barashka kranli).",
+      ru: "PPR распределительный коллектор (Барашковый)."
+    },
+    specs: [
+      { label: { uz: "2L×1216", ru: "2L×1216" }, value: "12 / 501701" },
+      { label: { uz: "3L×1216", ru: "3L×1216" }, value: "12 / 501702" },
+      { label: { uz: "4L×1216", ru: "4L×1216" }, value: "9 / 501703" },
+      { label: { uz: "5L×1216", ru: "5L×1216" }, value: "9 / 501704" },
+      { label: { uz: "6L×1216", ru: "6L×1216" }, value: "9 / 501705" },
+      { label: { uz: "7L×1216", ru: "7L×1216" }, value: "6 / 501706" },
+      { label: { uz: "8L×1216", ru: "8L×1216" }, value: "6 / 501707" },
+      { label: { uz: "9L×1216", ru: "9L×1216" }, value: "6 / 501708" },
+      { label: { uz: "10L×1216", ru: "10L×1216" }, value: "6 / 501709" },
+      { label: { uz: "12L×1216", ru: "12L×1216" }, value: "6 / 501710" }
+    ]
+  },
+  {
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
     category: "waterpro",
