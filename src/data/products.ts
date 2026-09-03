@@ -3943,6 +3943,87 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-press-ball-valve-mt-4073",
+    name: "WaterPRO Пресс шаровой кран с Н/Р (4073)",
+    category: "waterpro",
+    images: [wpPressBallValveMt4073],
+    description: {
+      uz: "WaterPRO tashqi rezbali press sharli kran.",
+      ru: "Пресс шаровой кран с наружной резьбой WaterPRO."
+    },
+    specs: [
+      { label: { uz: "Ø 16 x 1/2", ru: "Ø 16 x 1/2" }, value: "120 (30) / 4073" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4073" }
+    ]
+  },
+  {
+    id: "waterpro-brass-ball-valve-gas-4200",
+    name: "WaterPRO Кран шаровой из латуни «STANDART» В/Р - В/Р (для газа) 4200",
+    category: "waterpro",
+    images: [wpBrassBallValveGas4200],
+    description: {
+      uz: "Gaz uchun latundan «STANDART» sharli kran, ichki-ichki rezba.",
+      ru: "Кран шаровой из латуни «STANDART» В/Р - В/Р для газа."
+    },
+    specs: [
+      { label: { uz: "1/2F x 1/2F (Ø 15)", ru: "1/2F x 1/2F (Ø 15)" }, value: "80 (20) / 4200.15" },
+      { label: { uz: "3/4F x 3/4F (Ø 20)", ru: "3/4F x 3/4F (Ø 20)" }, value: "60 (15) / 4200.20" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4200" }
+    ]
+  },
+  {
+    id: "waterpro-gas-ball-valve-butterfly-4201",
+    name: "WaterPRO Gas Кран шаровой из латуни Н/Р - В/Р (бабочка) 4201",
+    category: "waterpro",
+    images: [wpGasBallValveButterfly4201],
+    description: {
+      uz: "Gaz uchun latun sharli kran, tashqi-ichki rezba, kapalak dastali.",
+      ru: "Газовый шаровой кран из латуни Н/Р - В/Р с ручкой-бабочкой."
+    },
+    specs: [
+      { label: { uz: "1/2F x 1/2M", ru: "1/2F x 1/2M" }, value: "100 / 420101" },
+      { label: { uz: "3/4F x 3/4M", ru: "3/4F x 3/4M" }, value: "60 / 420102" },
+      { label: { uz: "Kod", ru: "Код" }, value: "4201" }
+    ]
+  },
+  {
+    id: "waterpro-flex-hose-4202",
+    name: "WaterPRO Гибкий металлический шланг из нержавеющей стали 1/2 (4202)",
+    category: "waterpro",
+    images: [wpFlexHose4202],
+    description: {
+      uz: "Zanglamaydigan po'latdan egiluvchan metall shlang 1/2.",
+      ru: "Гибкий металлический шланг из нержавеющей стали 1/2."
+    },
+    specs: [
+      { label: { uz: "1/2 x 300mm", ru: "1/2 x 300мм" }, value: "250 (2) / 4202.3" },
+      { label: { uz: "1/2 x 400mm", ru: "1/2 x 400мм" }, value: "200 (2) / 4202.4" },
+      { label: { uz: "1/2 x 500mm", ru: "1/2 x 500мм" }, value: "250 (2) / 4202.5" },
+      { label: { uz: "1/2 x 600mm", ru: "1/2 x 600мм" }, value: "250 (2) / 4202.6" },
+      { label: { uz: "1/2 x 800mm", ru: "1/2 x 800мм" }, value: "170 (2) / 4202.8" },
+      { label: { uz: "1/2 x 1000mm", ru: "1/2 x 1000мм" }, value: "100 (2) / 4202.10" }
+    ]
+  },
+  {
+    id: "waterpro-flex-hose-4203",
+    name: "WaterPRO Гибкий металлический шланг из нержавеющей стали 3/4 (4203)",
+    category: "waterpro",
+    images: [wpFlexHose4203],
+    description: {
+      uz: "Zanglamaydigan po'latdan egiluvchan metall shlang 3/4.",
+      ru: "Гибкий металлический шланг из нержавеющей стали 3/4."
+    },
+    specs: [
+      { label: { uz: "3/4 x 300mm", ru: "3/4 x 300мм" }, value: "250 (2) / 4203.3" },
+      { label: { uz: "3/4 x 400mm", ru: "3/4 x 400мм" }, value: "200 (2) / 4203.4" },
+      { label: { uz: "3/4 x 500mm", ru: "3/4 x 500мм" }, value: "200 (2) / 4203.5" },
+      { label: { uz: "3/4 x 600mm", ru: "3/4 x 600мм" }, value: "150 (2) / 4203.6" },
+      { label: { uz: "3/4 x 800mm", ru: "3/4 x 800мм" }, value: "50 (2) / 4203.8" },
+      { label: { uz: "3/4 x 1000mm", ru: "3/4 x 1000мм" }, value: "50 (2) / 4203.10" }
+    ]
+  },
+  {
+  {
 
 
     id: "waterpro-compression-fitting-4078",
