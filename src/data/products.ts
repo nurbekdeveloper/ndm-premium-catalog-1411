@@ -356,6 +356,11 @@ import wpPressEarU4069 from "@/assets/products/waterpro-press-ear-u-4069.png";
 import wpPressElbowDouble4070 from "@/assets/products/waterpro-press-elbow-double-4070.png";
 import wpPressElbowDoubleU40701 from "@/assets/products/waterpro-press-elbow-double-u-4070-1.png";
 import wpPressBallValve4072 from "@/assets/products/waterpro-press-ball-valve-4072.png";
+import wpPressBallValveMt4073 from "@/assets/products/waterpro-press-ball-valve-mt-4073.png";
+import wpBrassBallValveGas4200 from "@/assets/products/waterpro-brass-ball-valve-gas-4200.png";
+import wpGasBallValveButterfly4201 from "@/assets/products/waterpro-gas-ball-valve-butterfly-4201.png";
+import wpFlexHose4202 from "@/assets/products/waterpro-flex-hose-4202.png";
+import wpFlexHose4203 from "@/assets/products/waterpro-flex-hose-4203.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
