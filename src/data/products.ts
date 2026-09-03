@@ -4380,6 +4380,7 @@ export const products: Product[] = [
     specs: [
       { label: { uz: "DN25", ru: "DN25" }, value: "12 / 500801" }
     ]
+  },
   {
     id: "waterpro-compression-fitting-4078",
     name: "WaterPRO Разъемное соединение (евроконус) 4078",
