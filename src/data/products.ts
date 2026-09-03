@@ -4120,9 +4120,6 @@ export const products: Product[] = [
     ]
   },
   {
-
-
-  },
   {
     id: "waterpro-flex-gas-hose-4209",
     name: "WaterPRO Гибкий шланг для газа (SS304) 4209",
