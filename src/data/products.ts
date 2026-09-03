@@ -379,6 +379,11 @@ import wpHydroCollector5009 from "@/assets/products/waterpro-hydro-collector-500
 import wpConsole5014 from "@/assets/products/waterpro-console-5014.png";
 import wpPumpGroup5007 from "@/assets/products/waterpro-pump-group-5007.png";
 import wpPumpGroup5008 from "@/assets/products/waterpro-pump-group-5008.png";
+import wpHydroCollector5006 from "@/assets/products/waterpro-hydro-collector-5006.png";
+import wpPumpGroup50072 from "@/assets/products/waterpro-pump-group-5007-2.png";
+import wpPumpGroup50082 from "@/assets/products/waterpro-pump-group-5008-2.png";
+import wpActuator6048 from "@/assets/products/waterpro-actuator-6048.png";
+import wpHydroCollector5019 from "@/assets/products/waterpro-hydro-collector-5019.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
