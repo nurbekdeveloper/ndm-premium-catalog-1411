@@ -374,6 +374,11 @@ import wpManifold5004 from "@/assets/products/waterpro-manifold-5004.png";
 import wpManifold5005 from "@/assets/products/waterpro-manifold-5005.png";
 import wpManifold5016 from "@/assets/products/waterpro-manifold-5016.png";
 import wpManifold5017 from "@/assets/products/waterpro-manifold-5017.png";
+import wpCabinet5018 from "@/assets/products/waterpro-cabinet-5018.png";
+import wpHydroCollector5009 from "@/assets/products/waterpro-hydro-collector-5009.png";
+import wpConsole5014 from "@/assets/products/waterpro-console-5014.png";
+import wpPumpGroup5007 from "@/assets/products/waterpro-pump-group-5007.png";
+import wpPumpGroup5008 from "@/assets/products/waterpro-pump-group-5008.png";
 
 // Product images - Kitchen Hoods
 import aeroluxSilent90 from "@/assets/products/aerolux-silent-90.jpg";
@@ -4295,6 +4300,85 @@ export const products: Product[] = [
       { label: { uz: "9L×1216", ru: "9L×1216" }, value: "6 / 501708" },
       { label: { uz: "10L×1216", ru: "10L×1216" }, value: "6 / 501709" },
       { label: { uz: "12L×1216", ru: "12L×1216" }, value: "6 / 501710" }
+    ]
+  },
+  {
+    id: "waterpro-cabinet-5018",
+    name: "WaterPRO Шкаф для коллектора (встраиваемый) 5018",
+    category: "waterpro",
+    images: [wpCabinet5018],
+    description: {
+      uz: "Kollektor uchun o'rnatiladigan (ichki) shkaf.",
+      ru: "Шкаф для коллектора (встраиваемый)."
+    },
+    specs: [
+      { label: { uz: "400×600×110-150", ru: "400×600×110-150" }, value: "1 / 501801" },
+      { label: { uz: "500×600×110-150", ru: "500×600×110-150" }, value: "1 / 501802" },
+      { label: { uz: "600×600×110-150", ru: "600×600×110-150" }, value: "1 / 501803" },
+      { label: { uz: "800×600×110-150", ru: "800×600×110-150" }, value: "1 / 501804" },
+      { label: { uz: "1000×600×110-150", ru: "1000×600×110-150" }, value: "1 / 501805" },
+      { label: { uz: "1200×600×110-150", ru: "1200×600×110-150" }, value: "1 / 501806" }
+    ]
+  },
+  {
+    id: "waterpro-hydro-collector-5009",
+    name: "WaterPRO Гидроколлектор распределитель 5009",
+    category: "waterpro",
+    images: [wpHydroCollector5009],
+    description: {
+      uz: "Gidrokollektor-taqsimlagich (500901). L=125mm. Ulanishlar: A G1\"M, B G1\"F, C G1/2\"F, D G1/2\"F, E G1\"M.",
+      ru: "Гидроколлектор распределитель (500901). L=125mm. Присоединения: A G1\"M, B G1\"F, C G1/2\"F, D G1/2\"F, E G1\"M."
+    },
+    specs: [
+      { label: { uz: "125-(2+1)", ru: "125-(2+1)" }, value: "1 / L 125mm / A G1\"M" },
+      { label: { uz: "125-(3+1)", ru: "125-(3+1)" }, value: "1 / L 125mm / A G1\"M" },
+      { label: { uz: "125-(4+1)", ru: "125-(4+1)" }, value: "1 / L 125mm / A G11/4\"M" },
+      { label: { uz: "125-(5+1)", ru: "125-(5+1)" }, value: "1 / L 125mm / A G11/4\"M" },
+      { label: { uz: "125-(6+1)", ru: "125-(6+1)" }, value: "1 / L 125mm / A G11/4\"M" }
+    ]
+  },
+  {
+    id: "waterpro-console-5014",
+    name: "WaterPRO Консоль для расширительного бака 5014",
+    category: "waterpro",
+    images: [wpConsole5014],
+    description: {
+      uz: "Kengaytiruvchi bak uchun konsol (501401). L=172mm.",
+      ru: "Консоль для расширительного бака (501401). L=172mm."
+    },
+    specs: [
+      { label: { uz: "Qadoq / Упаковка", ru: "Упаковка" }, value: "1" },
+      { label: { uz: "L", ru: "L" }, value: "172mm" },
+      { label: { uz: "A", ru: "A" }, value: "G1/2\"M" },
+      { label: { uz: "B", ru: "B" }, value: "G1/2\"F" },
+      { label: { uz: "C", ru: "C" }, value: "G1/4\"F" },
+      { label: { uz: "D", ru: "D" }, value: "G3/4\"F" }
+    ]
+  },
+  {
+    id: "waterpro-pump-group-5007",
+    name: "WaterPRO Насосная группа со смесителем 5007",
+    category: "waterpro",
+    images: [wpPumpGroup5007],
+    description: {
+      uz: "Aralashtirgichli nasos guruhi (500701).",
+      ru: "Насосная группа со смесителем (500701)."
+    },
+    specs: [
+      { label: { uz: "DN25", ru: "DN25" }, value: "12 / 500701" }
+    ]
+  },
+  {
+    id: "waterpro-pump-group-5008",
+    name: "WaterPRO Насосная группа Прямая 5008",
+    category: "waterpro",
+    images: [wpPumpGroup5008],
+    description: {
+      uz: "To'g'ri nasos guruhi (500801).",
+      ru: "Насосная группа Прямая (500801)."
+    },
+    specs: [
+      { label: { uz: "DN25", ru: "DN25" }, value: "12 / 500801" }
     ]
   },
   {
