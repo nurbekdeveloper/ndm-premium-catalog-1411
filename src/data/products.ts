@@ -501,6 +501,11 @@ import wpFlexibleDuct8009 from "@/assets/products/waterpro-flexible-duct-8009.pn
 import wpSilencerSupply8010 from "@/assets/products/waterpro-silencer-supply-8010.png";
 import wpSilencerExhaust8011 from "@/assets/products/waterpro-silencer-exhaust-8011.png";
 import wpClip8012 from "@/assets/products/waterpro-clip-8012.png";
+import wpCeilingDiffuser8013 from "@/assets/products/waterpro-ceiling-diffuser-8013.png";
+import wpOutdoorDiffuser8014 from "@/assets/products/waterpro-outdoor-diffuser-8014.png";
+import wpMetalClamp8015 from "@/assets/products/waterpro-metal-clamp-8015.png";
+import wpBracket8016 from "@/assets/products/waterpro-bracket-8016.png";
+import wpFoilTape8017 from "@/assets/products/waterpro-foil-tape-8017.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -6551,6 +6556,72 @@ export const products: Product[] = [
     specs: [
       { label: { uz: "Ø75", ru: "Ø75" }, value: "300 / 801201" },
       { label: { uz: "Ø110", ru: "Ø110" }, value: "400 / 801202" }
+    ]
+  },
+  {
+    id: "waterpro-ceiling-diffuser-8013",
+    name: "WaterPRO Потолочный диффузор 8013",
+    category: "waterpro",
+    images: [wpCeilingDiffuser8013],
+    description: {
+      uz: "Shift diffuzori (havo tarqatgich).",
+      ru: "Потолочный диффузор."
+    },
+    specs: [
+      { label: { uz: "75", ru: "75" }, value: "100 / 801301" },
+      { label: { uz: "110", ru: "110" }, value: "801302" }
+    ]
+  },
+  {
+    id: "waterpro-outdoor-diffuser-8014",
+    name: "WaterPRO Диффузор наружный из нержавейки 8014",
+    category: "waterpro",
+    images: [wpOutdoorDiffuser8014],
+    description: {
+      uz: "Zanglamas po'latdan tashqi diffuzor.",
+      ru: "Диффузор наружный из нержавейки."
+    },
+    specs: [
+      { label: { uz: "160", ru: "160" }, value: "4 / 801401" }
+    ]
+  },
+  {
+    id: "waterpro-metal-clamp-8015",
+    name: "WaterPRO Металлический прижимной хомут 8015",
+    category: "waterpro",
+    images: [wpMetalClamp8015],
+    description: {
+      uz: "Metall siquvchi xomut.",
+      ru: "Металлический прижимной хомут."
+    },
+    specs: [
+      { label: { uz: "160", ru: "160" }, value: "200 / 801501" }
+    ]
+  },
+  {
+    id: "waterpro-bracket-8016",
+    name: "WaterPRO Кронштейн 8016",
+    category: "waterpro",
+    images: [wpBracket8016],
+    description: {
+      uz: "Kronshteyn (mahkamlagich).",
+      ru: "Кронштейн крепежный."
+    },
+    specs: [
+      { label: { uz: "10mm", ru: "10mm" }, value: "45 / 801601" }
+    ]
+  },
+  {
+    id: "waterpro-foil-tape-8017",
+    name: "WaterPRO Фольгированный скотч 8017",
+    category: "waterpro",
+    images: [wpFoilTape8017],
+    description: {
+      uz: "Folgali skotch (alyuminiy lenta).",
+      ru: "Фольгированный скотч."
+    },
+    specs: [
+      { label: { uz: "—", ru: "—" }, value: "54 / 801701" }
     ]
   },
   {
