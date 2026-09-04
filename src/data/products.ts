@@ -5584,11 +5584,6 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "waterpro-3way-mixing-valve-4087",
-    name: "WaterPRO Трехходовой смесительный клапан 4087",
-    category: "waterpro",
-  },
-  {
     id: "waterpro-press-female-elbow-7016",
     name: "WaterPRO Отвод пресс 90° с внутренней резьбой (A+F) 7016",
     category: "waterpro",
