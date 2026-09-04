@@ -4915,6 +4915,74 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-filter-udf-6017",
+    name: "WaterPRO Фильтр (UDF) 6017",
+    category: "waterpro",
+    images: [wpFilterUdf6017],
+    description: {
+      uz: "UDF granulali ko'mir filtr kartrij.",
+      ru: "Фильтр-картридж UDF (гранулированный уголь)."
+    },
+    specs: [
+      { label: { uz: "UDF", ru: "UDF" }, value: "25 / 601701" }
+    ]
+  },
+  {
+    id: "waterpro-filter-cto-6018",
+    name: "WaterPRO Фильтр (CTO) 6018",
+    category: "waterpro",
+    images: [wpFilterCto6018],
+    description: {
+      uz: "CTO presslangan ko'mir blok filtr kartrij.",
+      ru: "Фильтр-картридж CTO (прессованный угольный блок)."
+    },
+    specs: [
+      { label: { uz: "CTO", ru: "CTO" }, value: "25 / 601801" }
+    ]
+  },
+  {
+    id: "waterpro-filter-trio-6019",
+    name: "WaterPRO Фильтр TRIO 6019",
+    category: "waterpro",
+    images: [wpFilterTrio6019],
+    description: {
+      uz: "TRIO to'plam: 3 ta almashtiriladigan kartrij (PP + UDF + CTO).",
+      ru: "Комплект TRIO: 3 сменных модуля (PP + UDF + CTO)."
+    },
+    specs: [
+      { label: { uz: "PP+UDF+CTO", ru: "PP+UDF+CTO" }, value: "25 / 601901" }
+    ]
+  },
+  {
+    id: "waterpro-fum-tape-6020",
+    name: "WaterPRO ФУМ лента 6020",
+    category: "waterpro",
+    images: [wpFumTape6020],
+    description: {
+      uz: "P.T.F.E. zichlovchi ФУМ lenta.",
+      ru: "Уплотнительная ФУМ лента P.T.F.E."
+    },
+    specs: [
+      { label: { uz: "101-15m", ru: "101-15m" }, value: "500 / 602001" },
+      { label: { uz: "202-30m", ru: "202-30m" }, value: "250 / 602002" }
+    ]
+  },
+  {
+    id: "waterpro-seal-thread-6023",
+    name: "WaterPRO Профессиональная уплотнительная нить 6023",
+    category: "waterpro",
+    images: [wpSealThread6023],
+    description: {
+      uz: "Professional zichlovchi ip (nit).",
+      ru: "Профессиональная уплотнительная нить."
+    },
+    specs: [
+      { label: { uz: "20M", ru: "20M" }, value: "440 / 602301" },
+      { label: { uz: "80M", ru: "80M" }, value: "210 / 602302" }
+    ]
+  },
+  {
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
