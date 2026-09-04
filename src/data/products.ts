@@ -451,6 +451,11 @@ import wpMaleUnion7018 from "@/assets/products/waterpro-press-male-union-7018.pn
 import wpFemaleElbow7019 from "@/assets/products/waterpro-press-female-elbow-7019.png";
 import wpMaleElbow7020 from "@/assets/products/waterpro-press-male-elbow-7020.png";
 import wpFemaleUnion7023 from "@/assets/products/waterpro-press-female-union-7023.png";
+import wpFemaleElbow7016 from "@/assets/products/waterpro-press-female-elbow-7016.png";
+import wpMaleElbow7024 from "@/assets/products/waterpro-press-male-elbow-7024.png";
+import wpFemaleTee7017 from "@/assets/products/waterpro-press-female-tee-7017.png";
+import wpFemaleTee7009 from "@/assets/products/waterpro-press-female-tee-7009.png";
+import wpMaleTee7022 from "@/assets/products/waterpro-press-male-tee-7022.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
