@@ -481,6 +481,11 @@ import wpSs304FemaleUnion7521 from "@/assets/products/waterpro-ss304-female-unio
 import wpSs304MaleUnion7522 from "@/assets/products/waterpro-ss304-male-union-7522.png";
 import wpSs304FemaleAdaptorUnion7523 from "@/assets/products/waterpro-ss304-female-adaptor-union-7523.png";
 import wpSs304FemaleElbow7514 from "@/assets/products/waterpro-ss304-female-elbow-7514.png";
+import wpSs304MaleElbowShort7516 from "@/assets/products/waterpro-ss304-male-elbow-short-7516.png";
+import wpSs304PadElbow7527 from "@/assets/products/waterpro-ss304-pad-elbow-7527.png";
+import wpSs304FemaleElbow90_7513 from "@/assets/products/waterpro-ss304-female-elbow90-7513.png";
+import wpSs304MaleElbow90_7515 from "@/assets/products/waterpro-ss304-male-elbow90-7515.png";
+import wpSs304FlangeAdaptor7531 from "@/assets/products/waterpro-ss304-flange-adaptor-7531.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
