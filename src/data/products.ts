@@ -496,6 +496,11 @@ import wpTeeAdapter45_8004 from "@/assets/products/waterpro-tee-adapter-45-8004.
 import wpYTeeAdapter8005 from "@/assets/products/waterpro-y-tee-adapter-8005.png";
 import wpFlexibleConnector8006 from "@/assets/products/waterpro-flexible-connector-8006.png";
 import wpInsulatedDuct8007 from "@/assets/products/waterpro-insulated-duct-8007.png";
+import wpFlexibleDuct8008 from "@/assets/products/waterpro-flexible-duct-8008.png";
+import wpFlexibleDuct8009 from "@/assets/products/waterpro-flexible-duct-8009.png";
+import wpSilencerSupply8010 from "@/assets/products/waterpro-silencer-supply-8010.png";
+import wpSilencerExhaust8011 from "@/assets/products/waterpro-silencer-exhaust-8011.png";
+import wpClip8012 from "@/assets/products/waterpro-clip-8012.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
