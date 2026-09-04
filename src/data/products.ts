@@ -471,6 +471,11 @@ import wpSs304Elbow90B7502 from "@/assets/products/waterpro-ss304-elbow90-b-7502
 import wpSs304Elbow45B7504 from "@/assets/products/waterpro-ss304-elbow45-b-7504.png";
 import wpSs304StraightTee7510 from "@/assets/products/waterpro-ss304-straight-tee-7510.png";
 import wpSs304FemaleTee7511 from "@/assets/products/waterpro-ss304-female-tee-7511.png";
+import wpSs304CrossEqual7528 from "@/assets/products/waterpro-ss304-cross-equal-7528.png";
+import wpSs304CrossReducing7529 from "@/assets/products/waterpro-ss304-cross-reducing-7529.png";
+import wpSs304Cap7530 from "@/assets/products/waterpro-ss304-cap-7530.png";
+import wpSs304Bridge7520 from "@/assets/products/waterpro-ss304-bridge-7520.png";
+import wpSs304MaleCoupling7518 from "@/assets/products/waterpro-ss304-male-coupling-7518.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -6008,6 +6013,100 @@ export const products: Product[] = [
       { label: { uz: "Ø54×28", ru: "Ø54×28" }, value: "20 / 751113" },
       { label: { uz: "Ø54×35", ru: "Ø54×35" }, value: "20 / 751114" },
       { label: { uz: "Ø54×42", ru: "Ø54×42" }, value: "15 / 751115" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-cross-equal-7528",
+    name: "WaterPRO Крестовина пресс (A+A+A+A) SS304 Cross equal 7528",
+    category: "waterpro",
+    images: [wpSs304CrossEqual7528],
+    description: {
+      uz: "SS304 teng o'lchamli press krestovina (A+A+A+A).",
+      ru: "Крестовина пресс (A+A+A+A) SS304 Cross equal."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "752801" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "200 / 752802" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "50 / 752803" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "40 / 752804" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "20 / 752805" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-cross-reducing-7529",
+    name: "WaterPRO Пресс-крестовина переходная (A+A+A+A) SS304 Cross Reducing 7529",
+    category: "waterpro",
+    images: [wpSs304CrossReducing7529],
+    description: {
+      uz: "SS304 o'tkazgichli press krestovina (A+A+A+A).",
+      ru: "Пресс-крестовина переходная (A+A+A+A) SS304 Cross Reducing."
+    },
+    specs: [
+      { label: { uz: "Ø22×18", ru: "Ø22×18" }, value: "752901" },
+      { label: { uz: "Ø28×18", ru: "Ø28×18" }, value: "752902" },
+      { label: { uz: "Ø28×22", ru: "Ø28×22" }, value: "752903" },
+      { label: { uz: "Ø35×18", ru: "Ø35×18" }, value: "752904" },
+      { label: { uz: "Ø35×22", ru: "Ø35×22" }, value: "752905" },
+      { label: { uz: "Ø35×28", ru: "Ø35×28" }, value: "752906" },
+      { label: { uz: "Ø42×18", ru: "Ø42×18" }, value: "752907" },
+      { label: { uz: "Ø42×22", ru: "Ø42×22" }, value: "752908" },
+      { label: { uz: "Ø42×28", ru: "Ø42×28" }, value: "752909" },
+      { label: { uz: "Ø42×35", ru: "Ø42×35" }, value: "752910" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-cap-7530",
+    name: "WaterPRO Заглушка пресс (A) SS304 Caps 7530",
+    category: "waterpro",
+    images: [wpSs304Cap7530],
+    description: {
+      uz: "SS304 press tiqin (zaglushka).",
+      ru: "Заглушка пресс (A) SS304 Caps."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "450 / 753001" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "400 / 753002" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "200 / 753003" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "180 / 753004" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "100 / 753005" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-bridge-7520",
+    name: "WaterPRO Обвод- (Мостик) (B+B) SS304 Bridge 7520",
+    category: "waterpro",
+    images: [wpSs304Bridge7520],
+    description: {
+      uz: "SS304 aylanma o'tish (ko'prikcha) (B+B).",
+      ru: "Обвод- (Мостик) (B+B) SS304 Bridge."
+    },
+    specs: [
+      { label: { uz: "18", ru: "18" }, value: "100 / 752001" },
+      { label: { uz: "22", ru: "22" }, value: "50 / 752002" },
+      { label: { uz: "28", ru: "28" }, value: "40 / 752003" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-male-coupling-7518",
+    name: "WaterPRO Адаптер пресс с наружной резьбой (A+M) SS304 Male Coupling 7518",
+    category: "waterpro",
+    images: [wpSs304MaleCoupling7518],
+    description: {
+      uz: "SS304 tashqi rezbali press adapter (A+M).",
+      ru: "Адаптер пресс с наружной резьбой (A+M) SS304 Male Coupling."
+    },
+    specs: [
+      { label: { uz: "Ø18×R1/2", ru: "Ø18×R1/2" }, value: "360 / 751801" },
+      { label: { uz: "Ø18×R3/4", ru: "Ø18×R3/4" }, value: "751802" },
+      { label: { uz: "Ø22×R1/2", ru: "Ø22×R1/2" }, value: "340 / 751803" },
+      { label: { uz: "Ø22×R3/4", ru: "Ø22×R3/4" }, value: "280 / 751804" },
+      { label: { uz: "Ø28×R3/4", ru: "Ø28×R3/4" }, value: "751805" },
+      { label: { uz: "Ø28×R1", ru: "Ø28×R1" }, value: "200 / 751806" },
+      { label: { uz: "Ø35×R1", ru: "Ø35×R1" }, value: "110 / 751807" },
+      { label: { uz: "Ø35×R1-1/4", ru: "Ø35×R1-1/4" }, value: "105 / 751808" },
+      { label: { uz: "Ø42×R1-1/4", ru: "Ø42×R1-1/4" }, value: "751809" },
+      { label: { uz: "Ø42×R1-1/2", ru: "Ø42×R1-1/2" }, value: "45 / 751810" },
+      { label: { uz: "Ø54×R1-1/2", ru: "Ø54×R1-1/2" }, value: "40 / 751811" }
     ]
   },
   {
