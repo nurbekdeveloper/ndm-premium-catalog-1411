@@ -411,6 +411,11 @@ import wpShower6001 from "@/assets/products/waterpro-shower-6001.png";
 import wpShower6002 from "@/assets/products/waterpro-shower-6002.png";
 import wpShower6003 from "@/assets/products/waterpro-shower-6003.png";
 import wpMixer6004 from "@/assets/products/waterpro-mixer-6004.png";
+import wpMixer6005 from "@/assets/products/waterpro-mixer-6005.png";
+import wpFilter6010 from "@/assets/products/waterpro-filter-6010.png";
+import wpFilter6011 from "@/assets/products/waterpro-filter-6011.png";
+import wpFilter6012 from "@/assets/products/waterpro-filter-6012.png";
+import wpFilterCartridge6016 from "@/assets/products/waterpro-filter-cartridge-6016.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -4834,6 +4839,74 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "Nomer", ru: "Нумерация" }, value: "600401" }
+    ]
+  },
+  {
+    id: "waterpro-mixer-6005",
+    name: "WaterPRO Смеситель с душем 6005",
+    category: "waterpro",
+    images: [wpMixer6005],
+    description: {
+      uz: "Devorga o'rnatiladigan dushli smesitel (1 chiqish).",
+      ru: "Смеситель с душем, встраиваемый в стену (1 выход)."
+    },
+    specs: [
+      { label: { uz: "1 chiqish", ru: "1 выхода" }, value: "4 / 600501" }
+    ]
+  },
+  {
+    id: "waterpro-filter-6010",
+    name: "WaterPRO Магистральный фильтр колба (одноступенчатый) 6010",
+    category: "waterpro",
+    images: [wpFilter6010],
+    description: {
+      uz: "Magistral filtr kolba, bir bosqichli.",
+      ru: "Магистральный фильтр колба, одноступенчатый."
+    },
+    specs: [
+      { label: { uz: "3/4\"", ru: "3/4\"" }, value: "12 / 601001" },
+      { label: { uz: "1\"", ru: "1\"" }, value: "12 / 601002" }
+    ]
+  },
+  {
+    id: "waterpro-filter-6011",
+    name: "WaterPRO Магистральные фильтры колбы (двухступенчатый) 6011",
+    category: "waterpro",
+    images: [wpFilter6011],
+    description: {
+      uz: "Magistral filtr kolbalari, ikki bosqichli.",
+      ru: "Магистральные фильтры колбы, двухступенчатый."
+    },
+    specs: [
+      { label: { uz: "3/4\"", ru: "3/4\"" }, value: "5 / 601101" },
+      { label: { uz: "1\"", ru: "1\"" }, value: "5 / 601102" }
+    ]
+  },
+  {
+    id: "waterpro-filter-6012",
+    name: "WaterPRO Магистральные фильтры колбы (трехступенчатый) 6012",
+    category: "waterpro",
+    images: [wpFilter6012],
+    description: {
+      uz: "Magistral filtr kolbalari, uch bosqichli.",
+      ru: "Магистральные фильтры колбы, трехступенчатый."
+    },
+    specs: [
+      { label: { uz: "3/4\"", ru: "3/4\"" }, value: "4 / 601201" },
+      { label: { uz: "1\"", ru: "1\"" }, value: "4 / 601202" }
+    ]
+  },
+  {
+    id: "waterpro-filter-cartridge-6016",
+    name: "WaterPRO Фильтр (PP) 6016",
+    category: "waterpro",
+    images: [wpFilterCartridge6016],
+    description: {
+      uz: "PP Melt Blown filtr kartrij.",
+      ru: "Фильтр-картридж PP Melt Blown."
+    },
+    specs: [
+      { label: { uz: "PP", ru: "PP" }, value: "100 / 601601" }
     ]
   },
   {
