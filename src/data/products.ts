@@ -431,6 +431,11 @@ import wpScissors6041 from "@/assets/products/waterpro-pipe-scissors-6041.png";
 import wpScissors6042 from "@/assets/products/waterpro-pipe-scissors-6042.png";
 import wpPipeCutter6043 from "@/assets/products/waterpro-pipe-cutter-6043.png";
 import wpPipeClamp6050 from "@/assets/products/waterpro-pipe-clamp-6050.png";
+import wpSteelPipe7000 from "@/assets/products/waterpro-steel-pipe-7000.png";
+import wpPressCoupling7005 from "@/assets/products/waterpro-press-coupling-7005.png";
+import wpReducingCoupling7006 from "@/assets/products/waterpro-reducing-coupling-7006.png";
+import wpReducingCoupling7007 from "@/assets/products/waterpro-reducing-coupling-7007.png";
+import wpAdjustableCoupling7008 from "@/assets/products/waterpro-adjustable-coupling-7008.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -5144,6 +5149,112 @@ export const products: Product[] = [
     specs: [
       { label: { uz: "160", ru: "160" }, value: "8 / 605001" },
       { label: { uz: "200", ru: "200" }, value: "8 / 605002" }
+    ]
+  },
+  {
+    id: "waterpro-steel-pipe-7000",
+    name: "WaterPRO Трубы из углеродистой стали (оцинкованная) 7000",
+    category: "waterpro",
+    images: [wpSteelPipe7000],
+    description: {
+      uz: "Uglerodli po'latdan tayyorlangan galvanizlangan quvurlar, uzunligi 3000 mm.",
+      ru: "Трубы из углеродистой стали, оцинкованные, длина 3000 мм."
+    },
+    specs: [
+      { label: { uz: "Ø 18×1.0×3000", ru: "Ø 18×1.0×3000" }, value: "30m / 700001" },
+      { label: { uz: "Ø 22×1.2×3000", ru: "Ø 22×1.2×3000" }, value: "30m / 700002" },
+      { label: { uz: "Ø 28×1.2×3000", ru: "Ø 28×1.2×3000" }, value: "30m / 700003" },
+      { label: { uz: "Ø 35×1.5×3000", ru: "Ø 35×1.5×3000" }, value: "15m / 700004" },
+      { label: { uz: "Ø 42×1.5×3000", ru: "Ø 42×1.5×3000" }, value: "15m / 700005" },
+      { label: { uz: "Ø 54×1.5×3000", ru: "Ø 54×1.5×3000" }, value: "12m / 700006" },
+      { label: { uz: "Ø 76.1×2.0×3000", ru: "Ø 76.1×2.0×3000" }, value: "700007" },
+      { label: { uz: "Ø 88.9×2.0×3000", ru: "Ø 88.9×2.0×3000" }, value: "700008" }
+    ]
+  },
+  {
+    id: "waterpro-press-coupling-7005",
+    name: "WaterPRO Муфта пресс (A+A) 7005",
+    category: "waterpro",
+    images: [wpPressCoupling7005],
+    description: {
+      uz: "Teng o'lchamli press mufta (A+A), po'lat quvurlar uchun.",
+      ru: "Равнопроходная пресс-муфта (A+A) для стальных труб."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "250 / 700501" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "200 / 700502" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "200 / 700503" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "100 / 700504" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "80 / 700505" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "40 / 700506" },
+      { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "12 / 700507" },
+      { label: { uz: "Ø 88.9", ru: "Ø 88.9" }, value: "6 / 700508" }
+    ]
+  },
+  {
+    id: "waterpro-reducing-coupling-7006",
+    name: "WaterPRO Муфта пресс переходная (A+A) 7006",
+    category: "waterpro",
+    images: [wpReducingCoupling7006],
+    description: {
+      uz: "O'tuvchi press mufta (A+A), turli diametrlarni ulash uchun.",
+      ru: "Переходная пресс-муфта (A+A) для соединения труб разных диаметров."
+    },
+    specs: [
+      { label: { uz: "Ø 22×18", ru: "Ø 22×18" }, value: "230 / 700601" },
+      { label: { uz: "Ø 28×18", ru: "Ø 28×18" }, value: "200 / 700602" },
+      { label: { uz: "Ø 28×22", ru: "Ø 28×22" }, value: "170 / 700603" },
+      { label: { uz: "Ø 35×18", ru: "Ø 35×18" }, value: "150 / 700604" },
+      { label: { uz: "Ø 35×22", ru: "Ø 35×22" }, value: "150 / 700605" },
+      { label: { uz: "Ø 35×28", ru: "Ø 35×28" }, value: "120 / 700606" },
+      { label: { uz: "Ø 42×18", ru: "Ø 42×18" }, value: "100 / 700607" },
+      { label: { uz: "Ø 42×22", ru: "Ø 42×22" }, value: "100 / 700608" },
+      { label: { uz: "Ø 42×28", ru: "Ø 42×28" }, value: "80 / 700609" },
+      { label: { uz: "Ø 42×35", ru: "Ø 42×35" }, value: "80 / 700610" },
+      { label: { uz: "Ø 54×18", ru: "Ø 54×18" }, value: "60 / 700611" },
+      { label: { uz: "Ø 54×22", ru: "Ø 54×22" }, value: "60 / 700612" },
+      { label: { uz: "Ø 54×28", ru: "Ø 54×28" }, value: "60 / 700613" },
+      { label: { uz: "Ø 54×35", ru: "Ø 54×35" }, value: "60 / 700614" },
+      { label: { uz: "Ø 54×42", ru: "Ø 54×42" }, value: "40 / 700615" },
+      { label: { uz: "Ø 76.1×35", ru: "Ø 76.1×35" }, value: "18 / 700616" },
+      { label: { uz: "Ø 76.1×42", ru: "Ø 76.1×42" }, value: "18 / 700617" },
+      { label: { uz: "Ø 76.1×54", ru: "Ø 76.1×54" }, value: "14 / 700618" }
+    ]
+  },
+  {
+    id: "waterpro-reducing-coupling-7007",
+    name: "WaterPRO Муфта пресс переходная (A+B) 7007",
+    category: "waterpro",
+    images: [wpReducingCoupling7007],
+    description: {
+      uz: "O'tuvchi press mufta (A+B) turi.",
+      ru: "Переходная пресс-муфта типа (A+B)."
+    },
+    specs: [
+      { label: { uz: "Ø 35×28", ru: "Ø 35×28" }, value: "150 / 700701" },
+      { label: { uz: "Ø 35×42", ru: "Ø 35×42" }, value: "100 / 700702" },
+      { label: { uz: "Ø 42×28", ru: "Ø 42×28" }, value: "100 / 700703" },
+      { label: { uz: "Ø 42×35", ru: "Ø 42×35" }, value: "80 / 700704" },
+      { label: { uz: "Ø 42×54", ru: "Ø 42×54" }, value: "50 / 700705" },
+      { label: { uz: "Ø 76.1×35", ru: "Ø 76.1×35" }, value: "18 / 700706" },
+      { label: { uz: "Ø 76.1×42", ru: "Ø 76.1×42" }, value: "18 / 700707" },
+      { label: { uz: "Ø 54×76.1", ru: "Ø 54×76.1" }, value: "18 / 700708" }
+    ]
+  },
+  {
+    id: "waterpro-adjustable-coupling-7008",
+    name: "WaterPRO Регулируемая муфта пресс (A+A) 7008",
+    category: "waterpro",
+    images: [wpAdjustableCoupling7008],
+    description: {
+      uz: "Regulyatsiyalanadigan press mufta (A+A).",
+      ru: "Регулируемая пресс-муфта (A+A)."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "260 / 700801" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "150 / 700802" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "120 / 700803" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "65 / 700804" }
     ]
   },
   {
