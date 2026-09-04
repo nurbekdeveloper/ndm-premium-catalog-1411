@@ -5685,6 +5685,107 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-press-tool-5046",
+    name: "WaterPRO Пресс инструмент для оцинкованных фитингов 5046",
+    category: "waterpro",
+    images: [wpPressTool5046],
+    description: {
+      uz: "Galvanizli fitinglar uchun akkumulyatorli press asbob.",
+      ru: "Пресс инструмент для оцинкованных фитингов, аккумуляторный."
+    },
+    specs: [
+      { label: { uz: "Standart", ru: "Стандарт" }, value: "1 / 504601" }
+    ]
+  },
+  {
+    id: "waterpro-press-jaws-7550",
+    name: "WaterPRO Губки (для фитингов из нержавеющей стали) 7550",
+    category: "waterpro",
+    images: [wpPressJaws7550],
+    description: {
+      uz: "Zanglamas po'lat fitinglar uchun press gubkalari (jag'lari).",
+      ru: "Губки (для фитингов из нержавеющей стали)."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "1 / 755001" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "1 / 755002" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "1 / 755003" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "1 / 755004" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "1 / 755005" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "1 / 755006" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-pipe-7500",
+    name: "WaterPRO Труба из нержавеющей стали 304 — 7500",
+    category: "waterpro",
+    images: [wpSs304Pipe7500],
+    description: {
+      uz: "304 zanglamas po'latdan quvur, uzunligi 3000 mm.",
+      ru: "Труба из нержавеющей стали 304, длина 3000 мм."
+    },
+    specs: [
+      { label: { uz: "Ø18×1.0×3000", ru: "Ø18×1.0×3000" }, value: "30m / 750001" },
+      { label: { uz: "Ø22×1.2×3000", ru: "Ø22×1.2×3000" }, value: "30m / 750002" },
+      { label: { uz: "Ø28×1.2×3000", ru: "Ø28×1.2×3000" }, value: "30m / 750003" },
+      { label: { uz: "Ø35×1.5×3000", ru: "Ø35×1.5×3000" }, value: "15m / 750004" },
+      { label: { uz: "Ø42×1.5×3000", ru: "Ø42×1.5×3000" }, value: "15m / 750005" },
+      { label: { uz: "Ø54×1.5×3000", ru: "Ø54×1.5×3000" }, value: "750006" },
+      { label: { uz: "Ø76.1×2.0×3000", ru: "Ø76.1×2.0×3000" }, value: "750007" },
+      { label: { uz: "Ø88.9×2.0×3000", ru: "Ø88.9×2.0×3000" }, value: "750008" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-coupling-7505",
+    name: "WaterPRO Муфта пресс (A+A) SS304 Equal Coupling 7505",
+    category: "waterpro",
+    images: [wpSs304Coupling7505],
+    description: {
+      uz: "SS304 zanglamas po'lat press mufta (A+A), teng o'lchamli.",
+      ru: "Муфта пресс (A+A) SS304 Equal Coupling."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "250 / 750501" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "200 / 750502" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "200 / 750503" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "100 / 750504" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "80 / 750505" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "40 / 750506" },
+      { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "12 / 750507" },
+      { label: { uz: "Ø88.9", ru: "Ø88.9" }, value: "6 / 750508" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-reducing-coupling-7506",
+    name: "WaterPRO Муфта пресс переходная (A+A) SS304 Reducing Coupling-A 7506",
+    category: "waterpro",
+    images: [wpSs304ReducingCoupling7506],
+    description: {
+      uz: "SS304 o'tkazgich (reduksion) press mufta (A+A).",
+      ru: "Муфта пресс переходная (A+A) SS304 Reducing Coupling-A."
+    },
+    specs: [
+      { label: { uz: "Ø22×18", ru: "Ø22×18" }, value: "230 / 750601" },
+      { label: { uz: "Ø28×18", ru: "Ø28×18" }, value: "200 / 750602" },
+      { label: { uz: "Ø28×22", ru: "Ø28×22" }, value: "170 / 750603" },
+      { label: { uz: "Ø35×18", ru: "Ø35×18" }, value: "150 / 750604" },
+      { label: { uz: "Ø35×22", ru: "Ø35×22" }, value: "150 / 750605" },
+      { label: { uz: "Ø35×28", ru: "Ø35×28" }, value: "120 / 750606" },
+      { label: { uz: "Ø42×18", ru: "Ø42×18" }, value: "100 / 750607" },
+      { label: { uz: "Ø42×22", ru: "Ø42×22" }, value: "100 / 750608" },
+      { label: { uz: "Ø42×28", ru: "Ø42×28" }, value: "80 / 750609" },
+      { label: { uz: "Ø42×35", ru: "Ø42×35" }, value: "80 / 750610" },
+      { label: { uz: "Ø54×18", ru: "Ø54×18" }, value: "60 / 750611" },
+      { label: { uz: "Ø54×22", ru: "Ø54×22" }, value: "60 / 750612" },
+      { label: { uz: "Ø54×28", ru: "Ø54×28" }, value: "60 / 750613" },
+      { label: { uz: "Ø54×35", ru: "Ø54×35" }, value: "60 / 750614" },
+      { label: { uz: "Ø54×42", ru: "Ø54×42" }, value: "40 / 750615" },
+      { label: { uz: "Ø76.1×35", ru: "Ø76.1×35" }, value: "18 / 750616" },
+      { label: { uz: "Ø76.1×42", ru: "Ø76.1×42" }, value: "18 / 750617" },
+      { label: { uz: "Ø76.1×54", ru: "Ø76.1×54" }, value: "14 / 750618" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
