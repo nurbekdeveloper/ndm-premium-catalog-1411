@@ -6308,11 +6308,6 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "waterpro-3way-mixing-valve-4087",
-    name: "WaterPRO Трехходовой смесительный клапан 4087",
-    category: "waterpro",
-  },
-  {
     id: "waterpro-ss304-male-tee-7512",
     name: "WaterPRO Тройник пресс редукционный с наружной резьбой (A+M+A) SS304 A Type Male Tee 7512",
     category: "waterpro",
