@@ -4501,6 +4501,49 @@ export const products: Product[] = [
     ]
   },
   {
+  },
+  {
+    id: "waterpro-thermo-head-5027",
+    name: "WaterPRO Термоголовка для радиатора 5027",
+    category: "waterpro",
+    images: [wpThermoHead5027],
+    description: {
+      uz: "Radiator uchun termogolovka (wifi boshqaruvi bilan).",
+      ru: "Термоголовка для радиатора (с управлением wifi)."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 502701" }
+    ]
+  },
+  {
+    id: "waterpro-3way-mixing-valve-4087",
+    name: "WaterPRO Трехходовой смесительный клапан 4087",
+    category: "waterpro",
+    images: [wp3WayValve4087],
+    description: {
+      uz: "Uch yo'lli aralashtirgich klapan, latun korpus.",
+      ru: "Трехходовой смесительный клапан, латунный корпус."
+    },
+    specs: [
+      { label: { uz: '1"', ru: '1"' }, value: "12 / 408702" },
+      { label: { uz: '1 1/4"', ru: '1 1/4"' }, value: "12 / 408703" }
+    ]
+  },
+  {
+    id: "waterpro-actuator-6049",
+    name: "WaterPRO Электрический сервопривод для трехходового клапана 6049",
+    category: "waterpro",
+    images: [wpActuator6049a, wpActuator6049b],
+    description: {
+      uz: "Uch yo'lli klapan uchun elektr servoprivod. Displeysiz va LED displeyli (harorat sensori bilan) variantlari mavjud.",
+      ru: "Электрический сервопривод для трехходового клапана. Доступны версии без дисплея и с LED дисплеем и датчиком для фиксированной регулировки температуры."
+    },
+    specs: [
+      { label: { uz: "Qora, displeysiz", ru: "Черный, без дисплея" }, value: "12 / 604901" },
+      { label: { uz: "Qora, LED displey bilan", ru: "Черный, с LED дисплеем" }, value: "12 / 604902" }
+    ]
+  },
+  {
     id: "waterpro-hydro-collector-5019",
     name: "WaterPRO Гидроколлектор распределитель 5019",
     category: "waterpro",
