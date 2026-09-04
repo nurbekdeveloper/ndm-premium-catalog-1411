@@ -4982,7 +4982,6 @@ export const products: Product[] = [
     ]
   },
   {
-  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
