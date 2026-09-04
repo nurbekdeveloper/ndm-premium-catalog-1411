@@ -451,6 +451,11 @@ import wpMaleUnion7018 from "@/assets/products/waterpro-press-male-union-7018.pn
 import wpFemaleElbow7019 from "@/assets/products/waterpro-press-female-elbow-7019.png";
 import wpMaleElbow7020 from "@/assets/products/waterpro-press-male-elbow-7020.png";
 import wpFemaleUnion7023 from "@/assets/products/waterpro-press-female-union-7023.png";
+import wpFemaleElbow7016 from "@/assets/products/waterpro-press-female-elbow-7016.png";
+import wpMaleElbow7024 from "@/assets/products/waterpro-press-male-elbow-7024.png";
+import wpFemaleTee7017 from "@/assets/products/waterpro-press-female-tee-7017.png";
+import wpFemaleTee7009 from "@/assets/products/waterpro-press-female-tee-7009.png";
+import wpMaleTee7022 from "@/assets/products/waterpro-press-male-tee-7022.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -5576,6 +5581,102 @@ export const products: Product[] = [
       { label: { uz: "Ø35×RP1 1/4", ru: "Ø35×RP1 1/4" }, value: "70 / 702303" },
       { label: { uz: "Ø42×RP1 1/2", ru: "Ø42×RP1 1/2" }, value: "50 / 702304" },
       { label: { uz: "Ø54×RP2", ru: "Ø54×RP2" }, value: "30 / 702305" }
+    ]
+  },
+  {
+    id: "waterpro-press-female-elbow-7016",
+    name: "WaterPRO Отвод пресс 90° с внутренней резьбой (A+F) 7016",
+    category: "waterpro",
+    images: [wpFemaleElbow7016],
+    description: {
+      uz: "90° ichki rezbali press burchak (A+F) Female Elbow 90° (LR).",
+      ru: "Отвод пресс 90° с внутренней резьбой (A+F) Female Elbow 90°(LR)."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "200 / 701601" },
+      { label: { uz: "Ø22×RP1/2", ru: "Ø22×RP1/2" }, value: "160 / 701602" },
+      { label: { uz: "Ø28×RP1/2", ru: "Ø28×RP1/2" }, value: "100 / 701603" },
+      { label: { uz: "Ø35×RP1/2", ru: "Ø35×RP1/2" }, value: "60 / 701604" }
+    ]
+  },
+  {
+    id: "waterpro-press-male-elbow-7024",
+    name: "WaterPRO Отвод пресс 90° с наружной резьбой (A+M) 7024",
+    category: "waterpro",
+    images: [wpMaleElbow7024],
+    description: {
+      uz: "90° tashqi rezbali press burchak (A+M) Male Elbow 90° (LR).",
+      ru: "Отвод пресс 90° с наружной резьбой (A+M) Male Elbow 90°(LR)."
+    },
+    specs: [
+      { label: { uz: "Ø18×R1/2", ru: "Ø18×R1/2" }, value: "180 / 702401" },
+      { label: { uz: "Ø22×R1/2", ru: "Ø22×R1/2" }, value: "140 / 702402" },
+      { label: { uz: "Ø28×R1/2", ru: "Ø28×R1/2" }, value: "75 / 702403" }
+    ]
+  },
+  {
+    id: "waterpro-press-female-tee-7017",
+    name: "WaterPRO Тройник редукционный с внутренней резьбой (A+A+F) 7017",
+    category: "waterpro",
+    images: [wpFemaleTee7017],
+    description: {
+      uz: "Ichki rezbali reduksion press troynik (A+A+F) B Type Female Tee.",
+      ru: "Тройник редукционный с внутренней резьбой (A+A+F) B Type Female Tee."
+    },
+    specs: [
+      { label: { uz: "Ø22×22×RP3/4", ru: "Ø22×22×RP3/4" }, value: "100 / 701701" },
+      { label: { uz: "Ø28×28×RP1", ru: "Ø28×28×RP1" }, value: "80 / 701702" },
+      { label: { uz: "Ø32×25×RP1", ru: "Ø32×25×RP1" }, value: "50 / 701703" },
+      { label: { uz: "Ø35×28×RP1", ru: "Ø35×28×RP1" }, value: "50 / 701704" },
+      { label: { uz: "Ø35×35×RP1", ru: "Ø35×35×RP1" }, value: "50 / 701705" }
+    ]
+  },
+  {
+    id: "waterpro-press-female-tee-7009",
+    name: "WaterPRO Тройник пресс редукционный с внутренней резьбой (A+F+A) 7009",
+    category: "waterpro",
+    images: [wpFemaleTee7009],
+    description: {
+      uz: "Ichki rezbali reduksion press troynik (A+F+A) Female Tee.",
+      ru: "Тройник пресс редукционный с внутренней резьбой (A+F+A) Female Tee."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "150 / 700901" },
+      { label: { uz: "Ø22×RP1/2", ru: "Ø22×RP1/2" }, value: "120 / 700902" },
+      { label: { uz: "Ø28×RP1/2", ru: "Ø28×RP1/2" }, value: "100 / 700903" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "80 / 700904" },
+      { label: { uz: "Ø35×RP1/2", ru: "Ø35×RP1/2" }, value: "60 / 700905" },
+      { label: { uz: "Ø35×RP1", ru: "Ø35×RP1" }, value: "60 / 700906" },
+      { label: { uz: "Ø42×RP1/2", ru: "Ø42×RP1/2" }, value: "40 / 700907" },
+      { label: { uz: "Ø42×RP1", ru: "Ø42×RP1" }, value: "40 / 700908" },
+      { label: { uz: "Ø42×RP1 1/4", ru: "Ø42×RP1-1/4" }, value: "30 / 700909" },
+      { label: { uz: "Ø54×RP1 1/4", ru: "Ø54×RP1-1/4" }, value: "20 / 700910" },
+      { label: { uz: "Ø54×RP1 1/2", ru: "Ø54×RP1-1/2" }, value: "20 / 700911" },
+      { label: { uz: "Ø76×RP2", ru: "Ø76×RP2" }, value: "8 / 700912" }
+    ]
+  },
+  {
+    id: "waterpro-press-male-tee-7022",
+    name: "WaterPRO Тройник пресс редукционный с наружной резьбой (A+M+A) 7022",
+    category: "waterpro",
+    images: [wpMaleTee7022],
+    description: {
+      uz: "Tashqi rezbali reduksion press troynik (A+M+A) A Type Male Tee.",
+      ru: "Тройник пресс редукционный с наружной резьбой (A+M+A) A Type Male Tee."
+    },
+    specs: [
+      { label: { uz: "Ø18×R1/2", ru: "Ø18×R1/2" }, value: "200 / 702201" },
+      { label: { uz: "Ø22×R1/2", ru: "Ø22×R1/2" }, value: "160 / 702202" },
+      { label: { uz: "Ø28×R1/2", ru: "Ø28×R1/2" }, value: "100 / 702203" },
+      { label: { uz: "Ø28×R1", ru: "Ø28×R1" }, value: "80 / 702204" },
+      { label: { uz: "Ø35×R1/2", ru: "Ø35×R1/2" }, value: "70 / 702205" },
+      { label: { uz: "Ø35×R1", ru: "Ø35×R1" }, value: "50 / 702206" },
+      { label: { uz: "Ø42×R1/2", ru: "Ø42×R1/2" }, value: "40 / 702207" },
+      { label: { uz: "Ø42×R1", ru: "Ø42×R1" }, value: "35 / 702208" },
+      { label: { uz: "Ø42×R1 1/4", ru: "Ø42×R1-1/4" }, value: "30 / 702209" },
+      { label: { uz: "Ø54×R1 1/4", ru: "Ø54×R1-1/4" }, value: "20 / 702210" },
+      { label: { uz: "Ø54×R1 1/2", ru: "Ø54×R1-1/2" }, value: "20 / 702211" },
+      { label: { uz: "Ø76.1×R2", ru: "Ø76.1×R2" }, value: "6 / 702212" }
     ]
   },
   {
