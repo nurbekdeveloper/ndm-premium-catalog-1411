@@ -4501,8 +4501,6 @@ export const products: Product[] = [
     ]
   },
   {
-  },
-  {
     id: "waterpro-thermo-head-5027",
     name: "WaterPRO Термоголовка для радиатора 5027",
     category: "waterpro",
