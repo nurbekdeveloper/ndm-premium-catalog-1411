@@ -4632,6 +4632,71 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-zone-control-5040",
+    name: "WaterPRO Блок управления зонами коллектора (8 зон) 5040",
+    category: "waterpro",
+    images: [wpZoneControl5040],
+    description: {
+      uz: "Kollektor zonalarini boshqarish bloki (8 zona), wifi bilan.",
+      ru: "Блок управления зонами коллектора (8 зон), с wifi."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "36 / 504001" }
+    ]
+  },
+  {
+    id: "waterpro-thermostat-cable-5060",
+    name: "WaterPRO Шнур для комнатного термостата 5060",
+    category: "waterpro",
+    images: [wpThermostatCable5060],
+    description: {
+      uz: "Xonali termostat uchun shnur, uzunligi 3 m.",
+      ru: "Шнур для комнатного термостата, длина 3 м."
+    },
+    specs: [
+      { label: { uz: "3m", ru: "3m" }, value: "400 / 506001" }
+    ]
+  },
+  {
+    id: "waterpro-vapor-barrier-5050",
+    name: "WaterPRO Гидро-паробарьер для напольных покрытий (алюминий) 5050",
+    category: "waterpro",
+    images: [wpVaporBarrier5050],
+    description: {
+      uz: "Sof alyuminiydan pol qoplamalari uchun gidro-parobaryer, 1m×50m.",
+      ru: "Гидро-паробарьер для напольных покрытий из чистого алюминия, 1м×50м."
+    },
+    specs: [
+      { label: { uz: "1m×50m", ru: "1m×50m" }, value: "50m / 505001" }
+    ]
+  },
+  {
+    id: "waterpro-fiberglass-mesh-5051",
+    name: "WaterPRO Стекловолоконная сетка для теплого пола 5051",
+    category: "waterpro",
+    images: [wpFiberglassMesh5051],
+    description: {
+      uz: "Issiq pol uchun shishatolali to'r, 1m×50m.",
+      ru: "Стекловолоконная сетка для тёплого пола, 1м×50м."
+    },
+    specs: [
+      { label: { uz: "1m×50m", ru: "1m×50m" }, value: "50m / 505101" }
+    ]
+  },
+  {
+    id: "waterpro-teplomat-5054",
+    name: "WaterPRO Тепломат (графен) 5054",
+    category: "waterpro",
+    images: [wpTeplomat5054],
+    description: {
+      uz: "Teplomat (grafen) issiq pol paneli, 1.1×0.6 m.",
+      ru: "Тепломат (графен) для тёплого пола, 1.1×0.6 м."
+    },
+    specs: [
+      { label: { uz: "1.1×0.6m", ru: "1.1×0.6m" }, value: "10 / 505401" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
