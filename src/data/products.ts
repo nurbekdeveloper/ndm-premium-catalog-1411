@@ -4445,6 +4445,58 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-thermo-valve-5020",
+    name: "WaterPRO Термоклапан (синий) 5020",
+    category: "waterpro",
+    images: [wpThermoValve5020],
+    description: {
+      uz: "WaterPRO termoklapan (ko'k). AC 230V, IP44, M30x1.5 rezba.",
+      ru: "Термоклапан WaterPRO (синий). AC 230V, IP44, резьба M30x1.5."
+    },
+    specs: [
+      { label: { uz: "blue", ru: "blue" }, value: "100 / 502001" }
+    ]
+  },
+  {
+    id: "waterpro-thermo-valve-5021",
+    name: "WaterPRO Термоклапан (белый) 5021",
+    category: "waterpro",
+    images: [wpThermoValve5021],
+    description: {
+      uz: "WaterPRO termoklapan (oq). AC 230V, IP54 NC, M30x1.5 rezba.",
+      ru: "Термоклапан WaterPRO (белый). AC 230V, IP54 NC, резьба M30x1.5."
+    },
+    specs: [
+      { label: { uz: "white", ru: "white" }, value: "100 / 502101" }
+    ]
+  },
+  {
+    id: "waterpro-thermo-valve-5022",
+    name: "WaterPRO Термоклапан (прозрачный) 5022",
+    category: "waterpro",
+    images: [wpThermoValve5022],
+    description: {
+      uz: "WaterPRO termoklapan (shaffof). AC 230V, IP54 NC, M30x1.5 rezba.",
+      ru: "Термоклапан WaterPRO (прозрачный). AC 230V, IP54 NC, резьба M30x1.5."
+    },
+    specs: [
+      { label: { uz: "blue", ru: "blue" }, value: "100 / 502201" }
+    ]
+  },
+  {
+    id: "waterpro-thermo-valve-5023",
+    name: "WaterPRO Термоклапан (с wifi) 5023",
+    category: "waterpro",
+    images: [wpThermoValve5023],
+    description: {
+      uz: "WaterPRO termoklapan (wifi bilan). AC 230V, M30x1.5 rezba.",
+      ru: "Термоклапан WaterPRO (с wifi). AC 230V, резьба M30x1.5."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 502301" }
+    ]
+  },
+  {
     id: "waterpro-hydro-collector-5019",
     name: "WaterPRO Гидроколлектор распределитель 5019",
     category: "waterpro",
