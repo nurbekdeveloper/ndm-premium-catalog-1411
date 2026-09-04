@@ -436,6 +436,11 @@ import wpPressCoupling7005 from "@/assets/products/waterpro-press-coupling-7005.
 import wpReducingCoupling7006 from "@/assets/products/waterpro-reducing-coupling-7006.png";
 import wpReducingCoupling7007 from "@/assets/products/waterpro-reducing-coupling-7007.png";
 import wpAdjustableCoupling7008 from "@/assets/products/waterpro-adjustable-coupling-7008.png";
+import wpPressElbow90_7002 from "@/assets/products/waterpro-press-elbow90-7002.png";
+import wpPressElbow45_7003 from "@/assets/products/waterpro-press-elbow45-7003.png";
+import wpPressNippleElbow90_7001 from "@/assets/products/waterpro-press-nipple-elbow90-7001.png";
+import wpPressNippleElbow45_7004 from "@/assets/products/waterpro-press-nipple-elbow45-7004.png";
+import wpPressTee7010 from "@/assets/products/waterpro-press-tee-7010.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
