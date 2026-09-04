@@ -416,6 +416,11 @@ import wpFilter6010 from "@/assets/products/waterpro-filter-6010.png";
 import wpFilter6011 from "@/assets/products/waterpro-filter-6011.png";
 import wpFilter6012 from "@/assets/products/waterpro-filter-6012.png";
 import wpFilterCartridge6016 from "@/assets/products/waterpro-filter-cartridge-6016.png";
+import wpFilterUdf6017 from "@/assets/products/waterpro-filter-udf-6017.png";
+import wpFilterCto6018 from "@/assets/products/waterpro-filter-cto-6018.png";
+import wpFilterTrio6019 from "@/assets/products/waterpro-filter-trio-6019.png";
+import wpFumTape6020 from "@/assets/products/waterpro-fum-tape-6020.png";
+import wpSealThread6023 from "@/assets/products/waterpro-seal-thread-6023.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -4907,6 +4912,73 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "PP", ru: "PP" }, value: "100 / 601601" }
+    ]
+  },
+  {
+    id: "waterpro-filter-udf-6017",
+    name: "WaterPRO Фильтр (UDF) 6017",
+    category: "waterpro",
+    images: [wpFilterUdf6017],
+    description: {
+      uz: "UDF granulali ko'mir filtr kartrij.",
+      ru: "Фильтр-картридж UDF (гранулированный уголь)."
+    },
+    specs: [
+      { label: { uz: "UDF", ru: "UDF" }, value: "25 / 601701" }
+    ]
+  },
+  {
+    id: "waterpro-filter-cto-6018",
+    name: "WaterPRO Фильтр (CTO) 6018",
+    category: "waterpro",
+    images: [wpFilterCto6018],
+    description: {
+      uz: "CTO presslangan ko'mir blok filtr kartrij.",
+      ru: "Фильтр-картридж CTO (прессованный угольный блок)."
+    },
+    specs: [
+      { label: { uz: "CTO", ru: "CTO" }, value: "25 / 601801" }
+    ]
+  },
+  {
+    id: "waterpro-filter-trio-6019",
+    name: "WaterPRO Фильтр TRIO 6019",
+    category: "waterpro",
+    images: [wpFilterTrio6019],
+    description: {
+      uz: "TRIO to'plam: 3 ta almashtiriladigan kartrij (PP + UDF + CTO).",
+      ru: "Комплект TRIO: 3 сменных модуля (PP + UDF + CTO)."
+    },
+    specs: [
+      { label: { uz: "PP+UDF+CTO", ru: "PP+UDF+CTO" }, value: "25 / 601901" }
+    ]
+  },
+  {
+    id: "waterpro-fum-tape-6020",
+    name: "WaterPRO ФУМ лента 6020",
+    category: "waterpro",
+    images: [wpFumTape6020],
+    description: {
+      uz: "P.T.F.E. zichlovchi ФУМ lenta.",
+      ru: "Уплотнительная ФУМ лента P.T.F.E."
+    },
+    specs: [
+      { label: { uz: "101-15m", ru: "101-15m" }, value: "500 / 602001" },
+      { label: { uz: "202-30m", ru: "202-30m" }, value: "250 / 602002" }
+    ]
+  },
+  {
+    id: "waterpro-seal-thread-6023",
+    name: "WaterPRO Профессиональная уплотнительная нить 6023",
+    category: "waterpro",
+    images: [wpSealThread6023],
+    description: {
+      uz: "Professional zichlovchi ip (nit).",
+      ru: "Профессиональная уплотнительная нить."
+    },
+    specs: [
+      { label: { uz: "20M", ru: "20M" }, value: "440 / 602301" },
+      { label: { uz: "80M", ru: "80M" }, value: "210 / 602302" }
     ]
   },
   {
