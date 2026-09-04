@@ -406,6 +406,11 @@ import wpTeplomat5056 from "@/assets/products/waterpro-teplomat-5056.png";
 import wpTeplomat5057 from "@/assets/products/waterpro-teplomat-5057.png";
 import wpTeplomat5058 from "@/assets/products/waterpro-teplomat-5058.png";
 import wpTeplomat5059 from "@/assets/products/waterpro-teplomat-5059.png";
+import wpShower6000 from "@/assets/products/waterpro-shower-6000.png";
+import wpShower6001 from "@/assets/products/waterpro-shower-6001.png";
+import wpShower6002 from "@/assets/products/waterpro-shower-6002.png";
+import wpShower6003 from "@/assets/products/waterpro-shower-6003.png";
+import wpMixer6004 from "@/assets/products/waterpro-mixer-6004.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -4764,6 +4769,71 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "1.2×0.75m", ru: "1.2×0.75m" }, value: "10 / 505901" }
+    ]
+  },
+  {
+    id: "waterpro-shower-6000",
+    name: "WaterPRO Комбинированный душ (2 выхода) 6000",
+    category: "waterpro",
+    images: [wpShower6000],
+    description: {
+      uz: "Devorga o'rnatiladigan kombinatsiyalangan dush to'plami (2 chiqish).",
+      ru: "Комбинированный душ (2 выхода), встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "2 chiqish", ru: "2 выхода" }, value: "4 / 600001" }
+    ]
+  },
+  {
+    id: "waterpro-shower-6001",
+    name: "WaterPRO Комбинированный душ (3 выхода) 6001",
+    category: "waterpro",
+    images: [wpShower6001],
+    description: {
+      uz: "Devorga o'rnatiladigan kombinatsiyalangan dush to'plami (3 chiqish).",
+      ru: "Комбинированный душ (3 выхода), встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "3 chiqish", ru: "3 выхода" }, value: "4 / 600101" }
+    ]
+  },
+  {
+    id: "waterpro-shower-6002",
+    name: "WaterPRO Смеситель с душем 6002",
+    category: "waterpro",
+    images: [wpShower6002],
+    description: {
+      uz: "Devorga o'rnatiladigan dushli smesitel.",
+      ru: "Смеситель с душем, встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "2 chiqish", ru: "2 выхода" }, value: "4 / 600201" }
+    ]
+  },
+  {
+    id: "waterpro-shower-6003",
+    name: "WaterPRO Комбинированный смеситель с душем 6003",
+    category: "waterpro",
+    images: [wpShower6003],
+    description: {
+      uz: "Devorga o'rnatiladigan kombinatsiyalangan dushli smesitel.",
+      ru: "Комбинированный смеситель с душем, встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "3 chiqish", ru: "3 выхода" }, value: "4 / 600301" }
+    ]
+  },
+  {
+    id: "waterpro-mixer-6004",
+    name: "WaterPRO Смеситель встраиваемый в стену 6004",
+    category: "waterpro",
+    images: [wpMixer6004],
+    description: {
+      uz: "Devorga o'rnatiladigan smesitel.",
+      ru: "Смеситель, встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "Nomer", ru: "Нумерация" }, value: "600401" }
     ]
   },
   {
