@@ -401,6 +401,11 @@ import wpThermostatCable5060 from "@/assets/products/waterpro-thermostat-cable-5
 import wpVaporBarrier5050 from "@/assets/products/waterpro-vapor-barrier-5050.png";
 import wpFiberglassMesh5051 from "@/assets/products/waterpro-fiberglass-mesh-5051.png";
 import wpTeplomat5054 from "@/assets/products/waterpro-teplomat-5054.png";
+import wpTeplomat5055 from "@/assets/products/waterpro-teplomat-5055.png";
+import wpTeplomat5056 from "@/assets/products/waterpro-teplomat-5056.png";
+import wpTeplomat5057 from "@/assets/products/waterpro-teplomat-5057.png";
+import wpTeplomat5058 from "@/assets/products/waterpro-teplomat-5058.png";
+import wpTeplomat5059 from "@/assets/products/waterpro-teplomat-5059.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -4694,6 +4699,71 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "1.1×0.6m", ru: "1.1×0.6m" }, value: "10 / 505401" }
+    ]
+  },
+  {
+    id: "waterpro-teplomat-5055",
+    name: "WaterPRO Тепломат 5055",
+    category: "waterpro",
+    images: [wpTeplomat5055],
+    description: {
+      uz: "Teplomat issiq pol paneli, 1.1×0.6m.",
+      ru: "Тепломат для тёплого пола, 1.1×0.6m."
+    },
+    specs: [
+      { label: { uz: "1.1×0.6m", ru: "1.1×0.6m" }, value: "10 / 505501" }
+    ]
+  },
+  {
+    id: "waterpro-teplomat-5056",
+    name: "WaterPRO Тепломат (с алюминиевым покрытием) 5056",
+    category: "waterpro",
+    images: [wpTeplomat5056],
+    description: {
+      uz: "Teplomat (alyumin qoplamali), 1.1×0.6m.",
+      ru: "Тепломат с алюминиевым покрытием, 1.1×0.6m."
+    },
+    specs: [
+      { label: { uz: "1.1×0.6m", ru: "1.1×0.6m" }, value: "10 / 505601" }
+    ]
+  },
+  {
+    id: "waterpro-teplomat-5057",
+    name: "WaterPRO Тепломат (без покрытие) 5057",
+    category: "waterpro",
+    images: [wpTeplomat5057],
+    description: {
+      uz: "Teplomat (qoplamasiz), 1.1×0.6m.",
+      ru: "Тепломат без покрытия, 1.1×0.6m."
+    },
+    specs: [
+      { label: { uz: "1.1×0.6m", ru: "1.1×0.6m" }, value: "10 / 505701" }
+    ]
+  },
+  {
+    id: "waterpro-teplomat-5058",
+    name: "WaterPRO Тепломат 5058",
+    category: "waterpro",
+    images: [wpTeplomat5058],
+    description: {
+      uz: "Teplomat issiq pol paneli, 1.2×0.75m.",
+      ru: "Тепломат для тёплого пола, 1.2×0.75m."
+    },
+    specs: [
+      { label: { uz: "1.2×0.75m", ru: "1.2×0.75m" }, value: "10 / 505801" }
+    ]
+  },
+  {
+    id: "waterpro-teplomat-5059",
+    name: "WaterPRO Тепломат (без покрытие) 5059",
+    category: "waterpro",
+    images: [wpTeplomat5059],
+    description: {
+      uz: "Teplomat (qoplamasiz), 1.2×0.75m.",
+      ru: "Тепломат без покрытия, 1.2×0.75m."
+    },
+    specs: [
+      { label: { uz: "1.2×0.75m", ru: "1.2×0.75m" }, value: "10 / 505901" }
     ]
   },
   {
