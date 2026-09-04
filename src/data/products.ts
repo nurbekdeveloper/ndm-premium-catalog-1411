@@ -6490,6 +6490,78 @@ export const products: Product[] = [
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
+  },
+  {
+    id: "waterpro-flexible-duct-8008",
+    name: "WaterPRO Гибкий воздуховод 8008",
+    category: "waterpro",
+    images: [wpFlexibleDuct8008],
+    description: {
+      uz: "Egiluvchan havo o'tkazgich (ko'k).",
+      ru: "Гибкий воздуховод (синий)."
+    },
+    specs: [
+      { label: { uz: "75×50m", ru: "75×50m" }, value: "50 / 800801" }
+    ]
+  },
+  {
+    id: "waterpro-flexible-duct-8009",
+    name: "WaterPRO Гибкий воздуховод 8009",
+    category: "waterpro",
+    images: [wpFlexibleDuct8009],
+    description: {
+      uz: "Egiluvchan havo o'tkazgich (bej).",
+      ru: "Гибкий воздуховод (бежевый)."
+    },
+    specs: [
+      { label: { uz: "75×50m", ru: "75×50m" }, value: "50 / 800901" },
+      { label: { uz: "110×30m", ru: "110×30m" }, value: "30 / 800902" }
+    ]
+  },
+  {
+    id: "waterpro-silencer-supply-8010",
+    name: "WaterPRO Шумоглушитель приточный 8010",
+    category: "waterpro",
+    images: [wpSilencerSupply8010],
+    description: {
+      uz: "Kiruvchi havo uchun shovqin pasaytirgich.",
+      ru: "Шумоглушитель приточный."
+    },
+    specs: [
+      { label: { uz: "160×60", ru: "160×60" }, value: "4 / 801001" }
+    ]
+  },
+  {
+    id: "waterpro-silencer-exhaust-8011",
+    name: "WaterPRO Шумоглушитель вытяжной 8011",
+    category: "waterpro",
+    images: [wpSilencerExhaust8011],
+    description: {
+      uz: "So'rib chiqaruvchi havo uchun shovqin pasaytirgich.",
+      ru: "Шумоглушитель вытяжной."
+    },
+    specs: [
+      { label: { uz: "160×60", ru: "160×60" }, value: "4 / 801101" }
+    ]
+  },
+  {
+    id: "waterpro-clip-8012",
+    name: "WaterPRO Клипса 8012",
+    category: "waterpro",
+    images: [wpClip8012],
+    description: {
+      uz: "Quvurni devorga mahkamlash uchun klipsa.",
+      ru: "Клипса для крепления трубы."
+    },
+    specs: [
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "300 / 801201" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "400 / 801202" }
+    ]
+  },
+  {
+    id: "waterpro-3way-mixing-valve-4087",
+    name: "WaterPRO Трехходовой смесительный клапан 4087",
+    category: "waterpro",
     images: [wp3WayValve4087],
     description: {
       uz: "Uch yo'lli aralashtirgich klapan, latun korpus.",
