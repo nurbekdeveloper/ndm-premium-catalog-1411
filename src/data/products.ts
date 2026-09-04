@@ -5073,6 +5073,80 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-pipe-scissors-6040",
+    name: "WaterPRO Ножницы для пластиковых труб 6040",
+    category: "waterpro",
+    images: [wpScissors6040],
+    description: {
+      uz: "Plastik quvurlar uchun qaychi, 16-32 mm.",
+      ru: "Ножницы для пластиковых труб, 16-32 мм."
+    },
+    specs: [
+      { label: { uz: "O'lcham / Размер", ru: "Размер" }, value: "16-32" },
+      { label: { uz: "Qadoq / Упаковка", ru: "Кол-во в упаковке" }, value: "72" },
+      { label: { uz: "Artikul", ru: "Нумерация" }, value: "604001" }
+    ]
+  },
+  {
+    id: "waterpro-pipe-scissors-6041",
+    name: "WaterPRO Ножницы для пластиковых труб 6041",
+    category: "waterpro",
+    images: [wpScissors6041],
+    description: {
+      uz: "Plastik quvurlar uchun qaychi, 20-40 mm.",
+      ru: "Ножницы для пластиковых труб, 20-40 мм."
+    },
+    specs: [
+      { label: { uz: "O'lcham / Размер", ru: "Размер" }, value: "20-40" },
+      { label: { uz: "Qadoq / Упаковка", ru: "Кол-во в упаковке" }, value: "24" },
+      { label: { uz: "Artikul", ru: "Нумерация" }, value: "604101" }
+    ]
+  },
+  {
+    id: "waterpro-pipe-scissors-6042",
+    name: "WaterPRO Ножницы для пластиковых труб 6042",
+    category: "waterpro",
+    images: [wpScissors6042],
+    description: {
+      uz: "Plastik quvurlar uchun qaychi, 20-63 mm.",
+      ru: "Ножницы для пластиковых труб, 20-63 мм."
+    },
+    specs: [
+      { label: { uz: "O'lcham / Размер", ru: "Размер" }, value: "20-63" },
+      { label: { uz: "Qadoq / Упаковка", ru: "Кол-во в упаковке" }, value: "24" },
+      { label: { uz: "Artikul", ru: "Нумерация" }, value: "604201" }
+    ]
+  },
+  {
+    id: "waterpro-pipe-cutter-6043",
+    name: "WaterPRO Ножницы для пластиковых труб 6043",
+    category: "waterpro",
+    images: [wpPipeCutter6043],
+    description: {
+      uz: "Katta diametrli plastik quvurlar uchun kesgich, 75-110 mm.",
+      ru: "Труборез для пластиковых труб большого диаметра, 75-110 мм."
+    },
+    specs: [
+      { label: { uz: "O'lcham / Размер", ru: "Размер" }, value: "75-110" },
+      { label: { uz: "Qadoq / Упаковка", ru: "Кол-во в упаковке" }, value: "12" },
+      { label: { uz: "Artikul", ru: "Нумерация" }, value: "604301" }
+    ]
+  },
+  {
+    id: "waterpro-pipe-clamp-6050",
+    name: "WaterPRO Трубный стяжной механизм 6050",
+    category: "waterpro",
+    images: [wpPipeClamp6050],
+    description: {
+      uz: "Quvurlarni payvandlashda markazlash uchun tortish (styajka) mexanizmi.",
+      ru: "Трубный стяжной механизм для центровки труб при сварке."
+    },
+    specs: [
+      { label: { uz: "160", ru: "160" }, value: "8 / 605001" },
+      { label: { uz: "200", ru: "200" }, value: "8 / 605002" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
