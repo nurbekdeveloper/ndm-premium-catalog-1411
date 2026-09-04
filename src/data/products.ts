@@ -383,6 +383,10 @@ import wpHydroCollector5006 from "@/assets/products/waterpro-hydro-collector-500
 import wpPumpGroup50072 from "@/assets/products/waterpro-pump-group-5007-2.png";
 import wpPumpGroup50082 from "@/assets/products/waterpro-pump-group-5008-2.png";
 import wpActuator6048 from "@/assets/products/waterpro-actuator-6048.png";
+import wpThermoValve5020 from "@/assets/products/waterpro-thermo-valve-5020.png";
+import wpThermoValve5021 from "@/assets/products/waterpro-thermo-valve-5021.png";
+import wpThermoValve5022 from "@/assets/products/waterpro-thermo-valve-5022.png";
+import wpThermoValve5023 from "@/assets/products/waterpro-thermo-valve-5023.png";
 import wpHydroCollector5019 from "@/assets/products/waterpro-hydro-collector-5019.png";
 
 // Product images - Kitchen Hoods
@@ -4438,6 +4442,58 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "SEV 1200", ru: "SEV 1200" }, value: "30 / 604801" }
+    ]
+  },
+  {
+    id: "waterpro-thermo-valve-5020",
+    name: "WaterPRO Термоклапан (синий) 5020",
+    category: "waterpro",
+    images: [wpThermoValve5020],
+    description: {
+      uz: "WaterPRO termoklapan (ko'k). AC 230V, IP44, M30x1.5 rezba.",
+      ru: "Термоклапан WaterPRO (синий). AC 230V, IP44, резьба M30x1.5."
+    },
+    specs: [
+      { label: { uz: "blue", ru: "blue" }, value: "100 / 502001" }
+    ]
+  },
+  {
+    id: "waterpro-thermo-valve-5021",
+    name: "WaterPRO Термоклапан (белый) 5021",
+    category: "waterpro",
+    images: [wpThermoValve5021],
+    description: {
+      uz: "WaterPRO termoklapan (oq). AC 230V, IP54 NC, M30x1.5 rezba.",
+      ru: "Термоклапан WaterPRO (белый). AC 230V, IP54 NC, резьба M30x1.5."
+    },
+    specs: [
+      { label: { uz: "white", ru: "white" }, value: "100 / 502101" }
+    ]
+  },
+  {
+    id: "waterpro-thermo-valve-5022",
+    name: "WaterPRO Термоклапан (прозрачный) 5022",
+    category: "waterpro",
+    images: [wpThermoValve5022],
+    description: {
+      uz: "WaterPRO termoklapan (shaffof). AC 230V, IP54 NC, M30x1.5 rezba.",
+      ru: "Термоклапан WaterPRO (прозрачный). AC 230V, IP54 NC, резьба M30x1.5."
+    },
+    specs: [
+      { label: { uz: "blue", ru: "blue" }, value: "100 / 502201" }
+    ]
+  },
+  {
+    id: "waterpro-thermo-valve-5023",
+    name: "WaterPRO Термоклапан (с wifi) 5023",
+    category: "waterpro",
+    images: [wpThermoValve5023],
+    description: {
+      uz: "WaterPRO termoklapan (wifi bilan). AC 230V, M30x1.5 rezba.",
+      ru: "Термоклапан WaterPRO (с wifi). AC 230V, резьба M30x1.5."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 502301" }
     ]
   },
   {
