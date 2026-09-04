@@ -5486,6 +5486,99 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-press-female-coupling-7015",
+    name: "WaterPRO Адаптер пресс с внутренней резьбой (A+F) 7015",
+    category: "waterpro",
+    images: [wpFemaleCoupling7015],
+    description: {
+      uz: "Ichki rezbali press adapter (A+F).",
+      ru: "Адаптер пресс с внутренней резьбой (A+F) Female Coupling."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "360 / 701501" },
+      { label: { uz: "Ø22×RP1/2", ru: "Ø22×RP1/2" }, value: "300 / 701502" },
+      { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "280 / 701503" },
+      { label: { uz: "Ø28×RP1/2", ru: "Ø28×RP1/2" }, value: "170 / 701504" },
+      { label: { uz: "Ø28×RP3/4", ru: "Ø28×RP3/4" }, value: "150 / 701505" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "100 / 701506" },
+      { label: { uz: "Ø35×RP3/4", ru: "Ø35×RP3/4" }, value: "120 / 701507" },
+      { label: { uz: "Ø35×R1", ru: "Ø35×R1" }, value: "110 / 701508" },
+      { label: { uz: "Ø35×R1 1/4", ru: "Ø35×R1 1/4" }, value: "100 / 701509" },
+      { label: { uz: "Ø42×R1 1/2", ru: "Ø42×R1 1/2" }, value: "50 / 701510" },
+      { label: { uz: "Ø54×R1 1/4", ru: "Ø54×R1 1/4" }, value: "30 / 701511" },
+      { label: { uz: "Ø54×R2", ru: "Ø54×R2" }, value: "30 / 701512" },
+      { label: { uz: "Ø76×R2 1/2", ru: "Ø76×R2 1/2" }, value: "15 / 701513" }
+    ]
+  },
+  {
+    id: "waterpro-press-male-union-7018",
+    name: "WaterPRO Американка (Ракор) (A+M) 7018",
+    category: "waterpro",
+    images: [wpMaleUnion7018],
+    description: {
+      uz: "Tashqi rezbali amerikanka (rakor) press (A+M).",
+      ru: "Американка (Ракор) с наружной резьбой (A+M) Male Thread Union."
+    },
+    specs: [
+      { label: { uz: "18×Rp1/2", ru: "18×Rp1/2" }, value: "180 / 701801" },
+      { label: { uz: "22×Rp3/4", ru: "22×Rp3/4" }, value: "140 / 701802" },
+      { label: { uz: "28×R1", ru: "28×R1" }, value: "100 / 701803" },
+      { label: { uz: "35×R1 1/4", ru: "35×R1 1/4" }, value: "50 / 701804" },
+      { label: { uz: "42×R1 1/2", ru: "42×R1 1/2" }, value: "40 / 701805" }
+    ]
+  },
+  {
+    id: "waterpro-press-female-elbow-7019",
+    name: "WaterPRO Угловой адаптер с внутренней резьбой (A+F) 7019",
+    category: "waterpro",
+    images: [wpFemaleElbow7019],
+    description: {
+      uz: "90° ichki rezbali burchakli press adapter (A+F).",
+      ru: "Угловой адаптер с внутренней резьбой (A+F) 90° Female Internal Thread Short Joint."
+    },
+    specs: [
+      { label: { uz: "18×Rp1/2", ru: "18×Rp1/2" }, value: "200 / 701901" },
+      { label: { uz: "22×Rp3/4", ru: "22×Rp3/4" }, value: "180 / 701902" },
+      { label: { uz: "22×Rp1/2", ru: "22×Rp1/2" }, value: "200 / 701903" },
+      { label: { uz: "28×Rp3/4", ru: "28×Rp3/4" }, value: "100 / 701904" },
+      { label: { uz: "28×Rp1", ru: "28×Rp1" }, value: "100 / 701905" }
+    ]
+  },
+  {
+    id: "waterpro-press-male-elbow-7020",
+    name: "WaterPRO Угловой адаптер с наружней резьбой (A+M) 7020",
+    category: "waterpro",
+    images: [wpMaleElbow7020],
+    description: {
+      uz: "90° tashqi rezbali burchakli press adapter (A+M).",
+      ru: "Угловой адаптер с наружней резьбой (A+M) 90° Male Internal Thread Short Joint."
+    },
+    specs: [
+      { label: { uz: "18×R1/2", ru: "18×R1/2" }, value: "200 / 702001" },
+      { label: { uz: "22×R3/4", ru: "22×R3/4" }, value: "200 / 702002" },
+      { label: { uz: "22×R1/2", ru: "22×R1/2" }, value: "200 / 702003" },
+      { label: { uz: "28×R3/4", ru: "28×R3/4" }, value: "100 / 702004" },
+      { label: { uz: "28×R1", ru: "28×R1" }, value: "100 / 702005" }
+    ]
+  },
+  {
+    id: "waterpro-press-female-union-7023",
+    name: "WaterPRO Американка (Ракор) (A+F) 7023",
+    category: "waterpro",
+    images: [wpFemaleUnion7023],
+    description: {
+      uz: "Ichki rezbali amerikanka (rakor) press (A+F).",
+      ru: "Американка (Ракор) с внутренней резьбой (A+F) Female Union."
+    },
+    specs: [
+      { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "200 / 702301" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "120 / 702302" },
+      { label: { uz: "Ø35×RP1 1/4", ru: "Ø35×RP1 1/4" }, value: "70 / 702303" },
+      { label: { uz: "Ø42×RP1 1/2", ru: "Ø42×RP1 1/2" }, value: "50 / 702304" },
+      { label: { uz: "Ø54×RP2", ru: "Ø54×RP2" }, value: "30 / 702305" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
