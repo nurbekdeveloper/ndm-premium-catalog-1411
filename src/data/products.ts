@@ -5791,6 +5791,117 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-ss304-adjustable-coupling-7508",
+    name: "WaterPRO Регулируемая муфта пресс (A+A) SS304 Adjustable Coupling 7508",
+    category: "waterpro",
+    images: [wpSs304AdjCoupling7508],
+    description: {
+      uz: "SS304 zanglamas po'lat rostlanadigan press mufta (A+A).",
+      ru: "Регулируемая муфта пресс (A+A) SS304 Adjustable Coupling."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "260 / 750801" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "150 / 750802" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "120 / 750803" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "65 / 750804" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "750805" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "750806" },
+      { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "750807" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-reducing-coupling-b-7507",
+    name: "WaterPRO Муфта пресс переходная (A+B) SS304 Reducing Coupling-B 7507",
+    category: "waterpro",
+    images: [wpSs304ReducingCouplingB7507],
+    description: {
+      uz: "SS304 o'tkazgich press mufta (A+B).",
+      ru: "Муфта пресс переходная (A+B) SS304 Reducing Coupling-B."
+    },
+    specs: [
+      { label: { uz: "Ø22×18", ru: "Ø22×18" }, value: "750701" },
+      { label: { uz: "Ø28×18", ru: "Ø28×18" }, value: "750702" },
+      { label: { uz: "Ø28×22", ru: "Ø28×22" }, value: "750703" },
+      { label: { uz: "Ø35×18", ru: "Ø35×18" }, value: "750704" },
+      { label: { uz: "Ø35×22", ru: "Ø35×22" }, value: "750705" },
+      { label: { uz: "Ø35×28", ru: "Ø35×28" }, value: "150 / 750706" },
+      { label: { uz: "Ø42×18", ru: "Ø42×18" }, value: "750707" },
+      { label: { uz: "Ø42×22", ru: "Ø42×22" }, value: "750708" },
+      { label: { uz: "Ø42×28", ru: "Ø42×28" }, value: "100 / 750709" },
+      { label: { uz: "Ø42×35", ru: "Ø42×35" }, value: "80 / 750710" },
+      { label: { uz: "Ø54×18", ru: "Ø54×18" }, value: "750711" },
+      { label: { uz: "Ø54×22", ru: "Ø54×22" }, value: "750712" },
+      { label: { uz: "Ø54×28", ru: "Ø54×28" }, value: "750713" },
+      { label: { uz: "Ø54×35", ru: "Ø54×35" }, value: "750714" },
+      { label: { uz: "Ø54×42", ru: "Ø54×42" }, value: "50 / 750715" },
+      { label: { uz: "Ø76.1×35", ru: "Ø76.1×35" }, value: "18 / 750716" },
+      { label: { uz: "Ø76.1×42", ru: "Ø76.1×42" }, value: "18 / 750717" },
+      { label: { uz: "Ø76.1×54", ru: "Ø76.1×54" }, value: "18 / 750718" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-elbow90-7501",
+    name: "WaterPRO Отвод пресс 90° (A+A) SS304 A Type Elbow 90° 7501",
+    category: "waterpro",
+    images: [wpSs304Elbow90_7501],
+    description: {
+      uz: "SS304 press burchak 90° (A+A).",
+      ru: "Отвод пресс 90° (A+A) SS304 A Type Elbow 90°."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "200 / 750101" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "160 / 750102" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "100 / 750103" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "50 / 750104" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "30 / 750105" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "20 / 750106" },
+      { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "6 / 750107" },
+      { label: { uz: "Ø88.9", ru: "Ø88.9" }, value: "3 / 750108" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-reducing-elbow90-7524",
+    name: "WaterPRO Пресс-угол 90° с переходом (A+A) SS304 A Reducing Elbow 90° 7524",
+    category: "waterpro",
+    images: [wpSs304ReducingElbow90_7524],
+    description: {
+      uz: "SS304 o'tkazgichli press burchak 90° (A+A).",
+      ru: "Пресс-угол 90° с переходом (A+A) SS304 A Reducing Elbow 90°."
+    },
+    specs: [
+      { label: { uz: "Ø22×18", ru: "Ø22×18" }, value: "752401" },
+      { label: { uz: "Ø28×18", ru: "Ø28×18" }, value: "752402" },
+      { label: { uz: "Ø28×22", ru: "Ø28×22" }, value: "752403" },
+      { label: { uz: "Ø35×18", ru: "Ø35×18" }, value: "752404" },
+      { label: { uz: "Ø35×22", ru: "Ø35×22" }, value: "752405" },
+      { label: { uz: "Ø35×28", ru: "Ø35×28" }, value: "752406" },
+      { label: { uz: "Ø42×18", ru: "Ø42×18" }, value: "752407" },
+      { label: { uz: "Ø42×22", ru: "Ø42×22" }, value: "752408" },
+      { label: { uz: "Ø42×28", ru: "Ø42×28" }, value: "752409" },
+      { label: { uz: "Ø42×35", ru: "Ø42×35" }, value: "752410" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-elbow45-7503",
+    name: "WaterPRO Полуотвод пресс 45° (A+A) SS304 A Type Elbow 45° 7503",
+    category: "waterpro",
+    images: [wpSs304Elbow45_7503],
+    description: {
+      uz: "SS304 press burchak 45° (A+A).",
+      ru: "Полуотвод пресс 45° (A+A) SS304 A Type Elbow 45°."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "280 / 750301" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "240 / 750302" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "120 / 750303" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "90 / 750304" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "45 / 750305" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "20 / 750306" },
+      { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "8 / 750307" },
+      { label: { uz: "Ø88.9", ru: "Ø88.9" }, value: "3 / 750308" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
