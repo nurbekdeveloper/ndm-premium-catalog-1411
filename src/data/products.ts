@@ -491,6 +491,11 @@ import wpSs304FemaleTee7509 from "@/assets/products/waterpro-ss304-female-tee-75
 import wpGasORing7540 from "@/assets/products/waterpro-gas-oring-hnbr-7540.png";
 import wpVentilationUnit8001 from "@/assets/products/waterpro-ventilation-unit-8001.png";
 import wpSideDistributor8002 from "@/assets/products/waterpro-side-distributor-8002.png";
+import wpDistributorCoupling8003 from "@/assets/products/waterpro-distributor-coupling-8003.png";
+import wpTeeAdapter45_8004 from "@/assets/products/waterpro-tee-adapter-45-8004.png";
+import wpYTeeAdapter8005 from "@/assets/products/waterpro-y-tee-adapter-8005.png";
+import wpFlexibleConnector8006 from "@/assets/products/waterpro-flexible-connector-8006.png";
+import wpInsulatedDuct8007 from "@/assets/products/waterpro-insulated-duct-8007.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -6408,6 +6413,72 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "160-75×7", ru: "160-75×7" }, value: "4 / 800201" }
+    ]
+  },
+  {
+    id: "waterpro-distributor-coupling-8003",
+    name: "WaterPRO Муфта распред. Коллектор 8003",
+    category: "waterpro",
+    images: [wpDistributorCoupling8003],
+    description: {
+      uz: "Ventilyatsiya kollektori uchun taqsimlash muftasi.",
+      ru: "Муфта распределительная (коллектор) для вентиляции."
+    },
+    specs: [
+      { label: { uz: "75", ru: "75" }, value: "90 / 800301" }
+    ]
+  },
+  {
+    id: "waterpro-tee-adapter-45-8004",
+    name: "WaterPRO Тройник переходник 45° 8004",
+    category: "waterpro",
+    images: [wpTeeAdapter45_8004],
+    description: {
+      uz: "45° o'tish troynigi (perexodnik).",
+      ru: "Тройник переходник 45° для вентиляционной системы."
+    },
+    specs: [
+      { label: { uz: "110×110×75", ru: "110×110×75" }, value: "32 / 800401" }
+    ]
+  },
+  {
+    id: "waterpro-y-tee-adapter-8005",
+    name: "WaterPRO Y-образный тройник переходник 8005",
+    category: "waterpro",
+    images: [wpYTeeAdapter8005],
+    description: {
+      uz: "Y-shaklidagi o'tish troynigi.",
+      ru: "Y-образный тройник переходник."
+    },
+    specs: [
+      { label: { uz: "160×110×110", ru: "160×110×110" }, value: "16 / 800501" }
+    ]
+  },
+  {
+    id: "waterpro-flexible-connector-8006",
+    name: "WaterPRO Гибкий соединитель 8006",
+    category: "waterpro",
+    images: [wpFlexibleConnector8006],
+    description: {
+      uz: "Egiluvchan biriktirgich (fleksibl konnektor).",
+      ru: "Гибкий соединитель для воздуховодов."
+    },
+    specs: [
+      { label: { uz: "75-75×0.8m", ru: "75-75×0.8m" }, value: "100 / 800601" },
+      { label: { uz: "110-110×0.8m", ru: "110-110×0.8m" }, value: "800602" }
+    ]
+  },
+  {
+    id: "waterpro-insulated-duct-8007",
+    name: "WaterPRO Гофра теплоизолированная 8007",
+    category: "waterpro",
+    images: [wpInsulatedDuct8007],
+    description: {
+      uz: "Issiqlik izolyatsiyalangan gofra quvur.",
+      ru: "Гофра теплоизолированная для вентиляции."
+    },
+    specs: [
+      { label: { uz: "160×10m", ru: "160×10m" }, value: "12 / 800701" }
     ]
   },
   {
