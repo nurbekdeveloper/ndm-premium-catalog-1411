@@ -4772,6 +4772,71 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-shower-6000",
+    name: "WaterPRO Комбинированный душ (2 выхода) 6000",
+    category: "waterpro",
+    images: [wpShower6000],
+    description: {
+      uz: "Devorga o'rnatiladigan kombinatsiyalangan dush to'plami (2 chiqish).",
+      ru: "Комбинированный душ (2 выхода), встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "2 chiqish", ru: "2 выхода" }, value: "4 / 600001" }
+    ]
+  },
+  {
+    id: "waterpro-shower-6001",
+    name: "WaterPRO Комбинированный душ (3 выхода) 6001",
+    category: "waterpro",
+    images: [wpShower6001],
+    description: {
+      uz: "Devorga o'rnatiladigan kombinatsiyalangan dush to'plami (3 chiqish).",
+      ru: "Комбинированный душ (3 выхода), встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "3 chiqish", ru: "3 выхода" }, value: "4 / 600101" }
+    ]
+  },
+  {
+    id: "waterpro-shower-6002",
+    name: "WaterPRO Смеситель с душем 6002",
+    category: "waterpro",
+    images: [wpShower6002],
+    description: {
+      uz: "Devorga o'rnatiladigan dushli smesitel.",
+      ru: "Смеситель с душем, встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "2 chiqish", ru: "2 выхода" }, value: "4 / 600201" }
+    ]
+  },
+  {
+    id: "waterpro-shower-6003",
+    name: "WaterPRO Комбинированный смеситель с душем 6003",
+    category: "waterpro",
+    images: [wpShower6003],
+    description: {
+      uz: "Devorga o'rnatiladigan kombinatsiyalangan dushli smesitel.",
+      ru: "Комбинированный смеситель с душем, встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "3 chiqish", ru: "3 выхода" }, value: "4 / 600301" }
+    ]
+  },
+  {
+    id: "waterpro-mixer-6004",
+    name: "WaterPRO Смеситель встраиваемый в стену 6004",
+    category: "waterpro",
+    images: [wpMixer6004],
+    description: {
+      uz: "Devorga o'rnatiladigan smesitel.",
+      ru: "Смеситель, встраиваемый в стену."
+    },
+    specs: [
+      { label: { uz: "Nomer", ru: "Нумерация" }, value: "600401" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
