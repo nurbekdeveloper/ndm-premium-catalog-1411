@@ -5263,6 +5263,105 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-press-nipple-elbow90-7001",
+    name: "WaterPRO Отвод пресс ниппельный 90° (A+B) 7001",
+    category: "waterpro",
+    images: [wpPressNippleElbow90_7001],
+    description: {
+      uz: "Nippelli press burchak 90° (A+B).",
+      ru: "Отвод пресс ниппельный 90° (A+B)."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "280 / 700101" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "160 / 700102" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "110 / 700103" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "50 / 700104" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "30 / 700105" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "15 / 700106" },
+      { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "6 / 700107" },
+      { label: { uz: "Ø 88.9", ru: "Ø 88.9" }, value: "3 / 700108" }
+    ]
+  },
+  {
+    id: "waterpro-press-elbow90-7002",
+    name: "WaterPRO Отвод пресс 90° (A+A) 7002",
+    category: "waterpro",
+    images: [wpPressElbow90_7002],
+    description: {
+      uz: "Press burchak 90° (A+A).",
+      ru: "Отвод пресс 90° (A+A)."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "200 / 700201" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "160 / 700202" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "100 / 700203" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "50 / 700204" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "30 / 700205" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "20 / 700206" },
+      { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "6 / 700207" },
+      { label: { uz: "Ø 88.9", ru: "Ø 88.9" }, value: "3 / 700208" }
+    ]
+  },
+  {
+    id: "waterpro-press-elbow45-7003",
+    name: "WaterPRO Полуотвод пресс 45° (A+A) 7003",
+    category: "waterpro",
+    images: [wpPressElbow45_7003],
+    description: {
+      uz: "Press yarim burchak 45° (A+A).",
+      ru: "Полуотвод пресс 45° (A+A)."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "280 / 700301" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "240 / 700302" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "120 / 700303" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "90 / 700304" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "45 / 700305" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "20 / 700306" },
+      { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "8 / 700307" },
+      { label: { uz: "Ø 88.9", ru: "Ø 88.9" }, value: "3 / 700308" }
+    ]
+  },
+  {
+    id: "waterpro-press-nipple-elbow45-7004",
+    name: "WaterPRO Полуотвод пресс ниппельный 45° (A+B) 7004",
+    category: "waterpro",
+    images: [wpPressNippleElbow45_7004],
+    description: {
+      uz: "Nippelli press yarim burchak 45° (A+B).",
+      ru: "Полуотвод пресс ниппельный 45° (A+B)."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "320 / 700401" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "200 / 700402" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "120 / 700403" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "80 / 700404" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "40 / 700405" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "20 / 700406" },
+      { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "8 / 700407" },
+      { label: { uz: "Ø 88.9", ru: "Ø 88.9" }, value: "3 / 700408" }
+    ]
+  },
+  {
+    id: "waterpro-press-tee-7010",
+    name: "WaterPRO Тройник пресс (A+A+A) 7010",
+    category: "waterpro",
+    images: [wpPressTee7010],
+    description: {
+      uz: "To'g'ri press troynik (A+A+A).",
+      ru: "Тройник пресс прямой (A+A+A)."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "200 / 701001" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "150 / 701002" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "65 / 701003" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "50 / 701004" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "30 / 701005" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "15 / 701006" },
+      { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "4 / 701007" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
