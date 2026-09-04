@@ -466,6 +466,11 @@ import wpSs304ReducingCouplingB7507 from "@/assets/products/waterpro-ss304-reduc
 import wpSs304Elbow90_7501 from "@/assets/products/waterpro-ss304-elbow90-7501.png";
 import wpSs304ReducingElbow90_7524 from "@/assets/products/waterpro-ss304-reducing-elbow90-7524.png";
 import wpSs304Elbow45_7503 from "@/assets/products/waterpro-ss304-elbow45-7503.png";
+import wpSs304Elbow60Plain7526 from "@/assets/products/waterpro-ss304-elbow60-plain-7526.png";
+import wpSs304Elbow90B7502 from "@/assets/products/waterpro-ss304-elbow90-b-7502.png";
+import wpSs304Elbow45B7504 from "@/assets/products/waterpro-ss304-elbow45-b-7504.png";
+import wpSs304StraightTee7510 from "@/assets/products/waterpro-ss304-straight-tee-7510.png";
+import wpSs304FemaleTee7511 from "@/assets/products/waterpro-ss304-female-tee-7511.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -5899,6 +5904,110 @@ export const products: Product[] = [
       { label: { uz: "Ø54", ru: "Ø54" }, value: "20 / 750306" },
       { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "8 / 750307" },
       { label: { uz: "Ø88.9", ru: "Ø88.9" }, value: "3 / 750308" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-elbow60-plain-7526",
+    name: "WaterPRO Пресс-отвод 60° для гладких труб (B+B) SS304 B Elbow with Plain Ends 60° 7526",
+    category: "waterpro",
+    images: [wpSs304Elbow60Plain7526],
+    description: {
+      uz: "SS304 silliq quvurlar uchun 60° press burchak (B+B).",
+      ru: "Пресс-отвод 60° для гладких труб (B+B) SS304."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "752601" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "752602" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "752603" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "752604" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "752605" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "752606" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-elbow90-b-7502",
+    name: "WaterPRO Отвод пресс ниппельный 90° (A+B) SS304 B Type Elbow 90° 7502",
+    category: "waterpro",
+    images: [wpSs304Elbow90B7502],
+    description: {
+      uz: "SS304 nippelli press burchak 90° (A+B).",
+      ru: "Отвод пресс ниппельный 90° (A+B) SS304 B Type Elbow 90°."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "280 / 750201" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "160 / 750202" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "110 / 750203" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "50 / 750204" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "30 / 750205" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "15 / 750206" },
+      { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "6 / 750207" },
+      { label: { uz: "Ø88.9", ru: "Ø88.9" }, value: "3 / 750208" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-elbow45-b-7504",
+    name: "WaterPRO Полуотвод пресс ниппельный 45° (A+B) SS304 B Type Elbow 45° 7504",
+    category: "waterpro",
+    images: [wpSs304Elbow45B7504],
+    description: {
+      uz: "SS304 nippelli press burchak 45° (A+B).",
+      ru: "Полуотвод пресс ниппельный 45° (A+B) SS304 B Type Elbow 45°."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "320 / 750401" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "200 / 750402" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "120 / 750403" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "80 / 750404" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "40 / 750405" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "20 / 750406" },
+      { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "8 / 750407" },
+      { label: { uz: "Ø88.9", ru: "Ø88.9" }, value: "3 / 750408" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-straight-tee-7510",
+    name: "WaterPRO Тройник пресс (A+A+A) SS304 Straight Tee 7510",
+    category: "waterpro",
+    images: [wpSs304StraightTee7510],
+    description: {
+      uz: "SS304 teng o'lchamli press troynik (A+A+A).",
+      ru: "Тройник пресс (A+A+A) SS304 Straight Tee."
+    },
+    specs: [
+      { label: { uz: "Ø18", ru: "Ø18" }, value: "200 / 751001" },
+      { label: { uz: "Ø22", ru: "Ø22" }, value: "150 / 751002" },
+      { label: { uz: "Ø28", ru: "Ø28" }, value: "65 / 751003" },
+      { label: { uz: "Ø35", ru: "Ø35" }, value: "50 / 751004" },
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "30 / 751005" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "15 / 751006" },
+      { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "4 / 751007" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-female-tee-7511",
+    name: "WaterPRO Тройник редукционный пресс (A+A+A) SS304 Female Tee 7511",
+    category: "waterpro",
+    images: [wpSs304FemaleTee7511],
+    description: {
+      uz: "SS304 reduksion press troynik (A+A+A).",
+      ru: "Тройник редукционный пресс (A+A+A) SS304 Female Tee."
+    },
+    specs: [
+      { label: { uz: "Ø22×18", ru: "Ø22×18" }, value: "160 / 751101" },
+      { label: { uz: "Ø28×18", ru: "Ø28×18" }, value: "70 / 751102" },
+      { label: { uz: "Ø28×22", ru: "Ø28×22" }, value: "70 / 751103" },
+      { label: { uz: "Ø35×18", ru: "Ø35×18" }, value: "65 / 751104" },
+      { label: { uz: "Ø35×22", ru: "Ø35×22" }, value: "50 / 751105" },
+      { label: { uz: "Ø35×28", ru: "Ø35×28" }, value: "50 / 751106" },
+      { label: { uz: "Ø42×18", ru: "Ø42×18" }, value: "751107" },
+      { label: { uz: "Ø42×22", ru: "Ø42×22" }, value: "40 / 751108" },
+      { label: { uz: "Ø42×28", ru: "Ø42×28" }, value: "40 / 751109" },
+      { label: { uz: "Ø42×35", ru: "Ø42×35" }, value: "35 / 751110" },
+      { label: { uz: "Ø54×18", ru: "Ø54×18" }, value: "20 / 751111" },
+      { label: { uz: "Ø54×22", ru: "Ø54×22" }, value: "20 / 751112" },
+      { label: { uz: "Ø54×28", ru: "Ø54×28" }, value: "20 / 751113" },
+      { label: { uz: "Ø54×35", ru: "Ø54×35" }, value: "20 / 751114" },
+      { label: { uz: "Ø54×42", ru: "Ø54×42" }, value: "15 / 751115" }
     ]
   },
   {
