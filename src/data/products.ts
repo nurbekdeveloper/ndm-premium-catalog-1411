@@ -501,6 +501,11 @@ import wpFlexibleDuct8009 from "@/assets/products/waterpro-flexible-duct-8009.pn
 import wpSilencerSupply8010 from "@/assets/products/waterpro-silencer-supply-8010.png";
 import wpSilencerExhaust8011 from "@/assets/products/waterpro-silencer-exhaust-8011.png";
 import wpClip8012 from "@/assets/products/waterpro-clip-8012.png";
+import wpCeilingDiffuser8013 from "@/assets/products/waterpro-ceiling-diffuser-8013.png";
+import wpOutdoorDiffuser8014 from "@/assets/products/waterpro-outdoor-diffuser-8014.png";
+import wpMetalClamp8015 from "@/assets/products/waterpro-metal-clamp-8015.png";
+import wpBracket8016 from "@/assets/products/waterpro-bracket-8016.png";
+import wpFoilTape8017 from "@/assets/products/waterpro-foil-tape-8017.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
