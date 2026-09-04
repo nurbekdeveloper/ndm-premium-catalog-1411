@@ -392,6 +392,10 @@ import wpThermostat5030 from "@/assets/products/waterpro-thermostat-5030.png";
 import wpThermostat5031 from "@/assets/products/waterpro-thermostat-5031.png";
 import wpThermostat5032 from "@/assets/products/waterpro-thermostat-5032.png";
 import wpThermostat5033 from "@/assets/products/waterpro-thermostat-5033.png";
+import wpThermostat5034 from "@/assets/products/waterpro-thermostat-5034.png";
+import wpThermostat5035 from "@/assets/products/waterpro-thermostat-5035.png";
+import wpThermostat5036 from "@/assets/products/waterpro-thermostat-5036.png";
+import wpThermostat5037 from "@/assets/products/waterpro-thermostat-5037.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -4567,6 +4571,59 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "wifi", ru: "wifi" }, value: "100 / 503301" }
+    ]
+  },
+  {
+    id: "waterpro-thermostat-5034",
+    name: "WaterPRO Термостат комнатный 5034",
+    category: "waterpro",
+    images: [wpThermostat5034],
+    description: {
+      uz: "WaterPRO xonali termostat. Kumushrang korpus, LED displey. Wifi va wifisiz variantlari mavjud.",
+      ru: "Комнатный термостат WaterPRO. Серебристый корпус, LED дисплей. Доступны версии с wifi и без wifi."
+    },
+    specs: [
+      { label: { uz: "NO wifi", ru: "NO wifi" }, value: "100 / 503401" },
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 503402" }
+    ]
+  },
+  {
+    id: "waterpro-thermostat-5035",
+    name: "WaterPRO Термостат комнатный 5035",
+    category: "waterpro",
+    images: [wpThermostat5035],
+    description: {
+      uz: "WaterPRO xonali termostat (wifi). Qora shisha panel, sensorli tugmalar.",
+      ru: "Комнатный термостат WaterPRO (wifi). Чёрная стеклянная панель, сенсорные кнопки."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 503501" }
+    ]
+  },
+  {
+    id: "waterpro-thermostat-5036",
+    name: "WaterPRO Термостат комнатный 5036",
+    category: "waterpro",
+    images: [wpThermostat5036],
+    description: {
+      uz: "WaterPRO xonali termostat (wifi). Qora panel, yon tomonda sensorli boshqaruv.",
+      ru: "Комнатный термостат WaterPRO (wifi). Чёрная панель, боковое сенсорное управление."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 503601" }
+    ]
+  },
+  {
+    id: "waterpro-thermostat-5037",
+    name: "WaterPRO Термостат комнатный двойная функция 5037",
+    category: "waterpro",
+    images: [wpThermostat5037],
+    description: {
+      uz: "WaterPRO ikki funksiyali xonali termostat (wifi, tashqi datchik bilan). Rangli displey.",
+      ru: "Комнатный термостат WaterPRO с двойной функцией (wifi, с внешним датчиком). Цветной дисплей."
+    },
+    specs: [
+      { label: { uz: "wifi (tashqi datchik bilan)", ru: "wifi (с внешним датчиком)" }, value: "60 / 503701" }
     ]
   },
   {
