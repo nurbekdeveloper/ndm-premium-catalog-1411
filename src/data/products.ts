@@ -421,6 +421,11 @@ import wpFilterCto6018 from "@/assets/products/waterpro-filter-cto-6018.png";
 import wpFilterTrio6019 from "@/assets/products/waterpro-filter-trio-6019.png";
 import wpFumTape6020 from "@/assets/products/waterpro-fum-tape-6020.png";
 import wpSealThread6023 from "@/assets/products/waterpro-seal-thread-6023.png";
+import wpPressTool6030 from "@/assets/products/waterpro-press-tool-6030.png";
+import wpPressTool6031 from "@/assets/products/waterpro-press-tool-6031.png";
+import wpWelder6033 from "@/assets/products/waterpro-welder-6033.png";
+import wpWelder6034 from "@/assets/products/waterpro-welder-6034.png";
+import wpWelderNozzle6035 from "@/assets/products/waterpro-welder-nozzle-6035.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -4979,6 +4984,87 @@ export const products: Product[] = [
     specs: [
       { label: { uz: "20M", ru: "20M" }, value: "440 / 602301" },
       { label: { uz: "80M", ru: "80M" }, value: "210 / 602302" }
+    ]
+  },
+  {
+    id: "waterpro-press-tool-6030",
+    name: "WaterPRO Пресс инструмент латунь 6030",
+    category: "waterpro",
+    images: [wpPressTool6030],
+    description: {
+      uz: "Latun press fitinglar uchun qo'lda press asbobi, keysi bilan.",
+      ru: "Ручной пресс-инструмент для латунных пресс-фитингов, в кейсе."
+    },
+    specs: [
+      { label: { uz: "O'lcham / Размер", ru: "Размер" }, value: "16-20" },
+      { label: { uz: "Qadoq / Упаковка", ru: "Кол-во в упаковке" }, value: "5" },
+      { label: { uz: "Artikul", ru: "Нумерация" }, value: "603001" }
+    ]
+  },
+  {
+    id: "waterpro-press-tool-6031",
+    name: "WaterPRO Пресс инструмент латунь 6031",
+    category: "waterpro",
+    images: [wpPressTool6031],
+    description: {
+      uz: "Latun press fitinglar uchun qo'lda press asbobi (16-32), keysi bilan.",
+      ru: "Ручной пресс-инструмент для латунных пресс-фитингов (16-32), в кейсе."
+    },
+    specs: [
+      { label: { uz: "O'lcham / Размер", ru: "Размер" }, value: "16 20 26 32" },
+      { label: { uz: "Qadoq / Упаковка", ru: "Кол-во в упаковке" }, value: "5" },
+      { label: { uz: "Artikul", ru: "Нумерация" }, value: "603101" }
+    ]
+  },
+  {
+    id: "waterpro-welder-6033",
+    name: "WaterPRO Инструмент для пайки пластиковых труб 6033",
+    category: "waterpro",
+    images: [wpWelder6033],
+    description: {
+      uz: "Plastik quvurlarni payvandlash uchun asbob (20-63 mm), nasadkalar to'plami bilan.",
+      ru: "Аппарат для пайки пластиковых труб (20-63 мм) с комплектом насадок."
+    },
+    specs: [
+      { label: { uz: "O'lcham / Размер", ru: "Размер" }, value: "20-63" },
+      { label: { uz: "Qadoq / Упаковка", ru: "Кол-во в упаковке" }, value: "2" },
+      { label: { uz: "Artikul", ru: "Нумерация" }, value: "603301" }
+    ]
+  },
+  {
+    id: "waterpro-welder-6034",
+    name: "WaterPRO Инструмент для пайки пластиковых труб 6034",
+    category: "waterpro",
+    images: [wpWelder6034],
+    description: {
+      uz: "Plastik quvurlarni payvandlash uchun asbob (75-110 mm), nasadkalar to'plami bilan.",
+      ru: "Аппарат для пайки пластиковых труб (75-110 мм) с комплектом насадок."
+    },
+    specs: [
+      { label: { uz: "O'lcham / Размер", ru: "Размер" }, value: "75-110" },
+      { label: { uz: "Qadoq / Упаковка", ru: "Кол-во в упаковке" }, value: "2" },
+      { label: { uz: "Artikul", ru: "Нумерация" }, value: "603401" }
+    ]
+  },
+  {
+    id: "waterpro-welder-nozzle-6035",
+    name: "WaterPRO Насадка для утюга 6035",
+    category: "waterpro",
+    images: [wpWelderNozzle6035],
+    description: {
+      uz: "Payvandlash asbobi uchun nasadkalar (matritsalar), 20-110 mm.",
+      ru: "Насадки (матрицы) для паяльника пластиковых труб, 20-110 мм."
+    },
+    specs: [
+      { label: { uz: "20", ru: "20" }, value: "200 / 603501" },
+      { label: { uz: "25", ru: "25" }, value: "200 / 603502" },
+      { label: { uz: "32", ru: "32" }, value: "120 / 603503" },
+      { label: { uz: "40", ru: "40" }, value: "100 / 603504" },
+      { label: { uz: "50", ru: "50" }, value: "50 / 603505" },
+      { label: { uz: "63", ru: "63" }, value: "40 / 603506" },
+      { label: { uz: "75", ru: "75" }, value: "34 / 603507" },
+      { label: { uz: "90", ru: "90" }, value: "36 / 603508" },
+      { label: { uz: "110", ru: "110" }, value: "27 / 603509" }
     ]
   },
   {
