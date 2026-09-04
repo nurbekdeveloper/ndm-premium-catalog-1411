@@ -441,6 +441,11 @@ import wpPressElbow45_7003 from "@/assets/products/waterpro-press-elbow45-7003.p
 import wpPressNippleElbow90_7001 from "@/assets/products/waterpro-press-nipple-elbow90-7001.png";
 import wpPressNippleElbow45_7004 from "@/assets/products/waterpro-press-nipple-elbow45-7004.png";
 import wpPressTee7010 from "@/assets/products/waterpro-press-tee-7010.png";
+import wpFemaleTee7011 from "@/assets/products/waterpro-female-tee-7011.png";
+import wpCrossEqual7012 from "@/assets/products/waterpro-cross-equal-7012.png";
+import wpCap7013 from "@/assets/products/waterpro-cap-7013.png";
+import wpBridge7021 from "@/assets/products/waterpro-bridge-7021.png";
+import wpMaleCoupling7014 from "@/assets/products/waterpro-male-coupling-7014.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -5359,6 +5364,120 @@ export const products: Product[] = [
       { label: { uz: "Ø 42", ru: "Ø 42" }, value: "30 / 701005" },
       { label: { uz: "Ø 54", ru: "Ø 54" }, value: "15 / 701006" },
       { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "4 / 701007" }
+    ]
+  },
+  {
+    id: "waterpro-female-tee-7011",
+    name: "WaterPRO Тройник редукционный пресс (A+A+A) 7011",
+    category: "waterpro",
+    images: [wpFemaleTee7011],
+    description: {
+      uz: "Reduksion press troynik (A+A+A).",
+      ru: "Тройник редукционный пресс (A+A+A)."
+    },
+    specs: [
+      { label: { uz: "Ø 22×18", ru: "Ø 22×18" }, value: "160 / 701101" },
+      { label: { uz: "Ø 28×18", ru: "Ø 28×18" }, value: "70 / 701102" },
+      { label: { uz: "Ø 28×22", ru: "Ø 28×22" }, value: "70 / 701103" },
+      { label: { uz: "Ø 35×18", ru: "Ø 35×18" }, value: "65 / 701104" },
+      { label: { uz: "Ø 35×22", ru: "Ø 35×22" }, value: "50 / 701105" },
+      { label: { uz: "Ø 35×28", ru: "Ø 35×28" }, value: "50 / 701106" },
+      { label: { uz: "Ø 42×22", ru: "Ø 42×22" }, value: "40 / 701107" },
+      { label: { uz: "Ø 42×28", ru: "Ø 42×28" }, value: "40 / 701108" },
+      { label: { uz: "Ø 42×35", ru: "Ø 42×35" }, value: "35 / 701109" },
+      { label: { uz: "Ø 54×18", ru: "Ø 54×18" }, value: "20 / 701110" },
+      { label: { uz: "Ø 54×22", ru: "Ø 54×22" }, value: "20 / 701111" },
+      { label: { uz: "Ø 54×28", ru: "Ø 54×28" }, value: "20 / 701112" },
+      { label: { uz: "Ø 54×35", ru: "Ø 54×35" }, value: "20 / 701113" },
+      { label: { uz: "Ø 54×42", ru: "Ø 54×42" }, value: "15 / 701114" },
+      { label: { uz: "Ø 76.1×28", ru: "Ø 76.1×28" }, value: "6 / 701115" },
+      { label: { uz: "Ø 76.1×35", ru: "Ø 76.1×35" }, value: "6 / 701116" },
+      { label: { uz: "Ø 76.1×42", ru: "Ø 76.1×42" }, value: "6 / 701117" },
+      { label: { uz: "Ø 76.1×54", ru: "Ø 76.1×54" }, value: "4 / 701118" }
+    ]
+  },
+  {
+    id: "waterpro-cross-equal-7012",
+    name: "WaterPRO Крестовина пресс (A+A+A+A) 7012",
+    category: "waterpro",
+    images: [wpCrossEqual7012],
+    description: {
+      uz: "Press krestovina (A+A+A+A).",
+      ru: "Крестовина пресс (A+A+A+A)."
+    },
+    specs: [
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "200 / 701201" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "50 / 701202" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "40 / 701203" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "20 / 701204" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "15 / 701205" },
+      { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "3 / 701206" }
+    ]
+  },
+  {
+    id: "waterpro-cap-7013",
+    name: "WaterPRO Заглушка пресс (A) 7013",
+    category: "waterpro",
+    images: [wpCap7013],
+    description: {
+      uz: "Press tiqin (zaglushka).",
+      ru: "Заглушка пресс (A)."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "450 / 701301" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "400 / 701302" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "200 / 701303" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "180 / 701304" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "100 / 701305" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "60 / 701306" },
+      { label: { uz: "Ø 76.1", ru: "Ø 76.1" }, value: "24 / 701307" }
+    ]
+  },
+  {
+    id: "waterpro-bridge-7021",
+    name: "WaterPRO Обвод - Мостик (A+A) 7021",
+    category: "waterpro",
+    images: [wpBridge7021],
+    description: {
+      uz: "Obvod - ko'prikcha (A+A).",
+      ru: "Обвод - (Мостик) (A+A)."
+    },
+    specs: [
+      { label: { uz: "Ø 18", ru: "Ø 18" }, value: "100 / 702101" },
+      { label: { uz: "Ø 22", ru: "Ø 22" }, value: "50 / 702102" },
+      { label: { uz: "Ø 28", ru: "Ø 28" }, value: "40 / 702103" },
+      { label: { uz: "Ø 35", ru: "Ø 35" }, value: "25 / 702104" },
+      { label: { uz: "Ø 42", ru: "Ø 42" }, value: "20 / 702105" },
+      { label: { uz: "Ø 54", ru: "Ø 54" }, value: "10 / 702106" }
+    ]
+  },
+  {
+    id: "waterpro-male-coupling-7014",
+    name: "WaterPRO Адаптер пресс с наружной резьбой (A+M) 7014",
+    category: "waterpro",
+    images: [wpMaleCoupling7014],
+    description: {
+      uz: "Tashqi rezbali press adapter (A+M).",
+      ru: "Адаптер пресс с наружной резьбой (A+M)."
+    },
+    specs: [
+      { label: { uz: "Ø18×R1/2", ru: "Ø18×R1/2" }, value: "360 / 701401" },
+      { label: { uz: "Ø22×R1/2", ru: "Ø22×R1/2" }, value: "340 / 701402" },
+      { label: { uz: "Ø22×R3/4", ru: "Ø22×R3/4" }, value: "280 / 701403" },
+      { label: { uz: "Ø28×R1", ru: "Ø28×R1" }, value: "200 / 701404" },
+      { label: { uz: "Ø28×R1 1/4", ru: "Ø28×R1 1/4" }, value: "120 / 701405" },
+      { label: { uz: "Ø28×R1 1/2", ru: "Ø28×R1 1/2" }, value: "80 / 701406" },
+      { label: { uz: "Ø28×R2", ru: "Ø28×R2" }, value: "45 / 701407" },
+      { label: { uz: "Ø35×R3/4", ru: "Ø35×R3/4" }, value: "120 / 701408" },
+      { label: { uz: "Ø35×R1", ru: "Ø35×R1" }, value: "110 / 701409" },
+      { label: { uz: "Ø35×R1 1/4", ru: "Ø35×R1 1/4" }, value: "105 / 701410" },
+      { label: { uz: "Ø35×R1 1/2", ru: "Ø35×R1 1/2" }, value: "60 / 701411" },
+      { label: { uz: "Ø35×R2", ru: "Ø35×R2" }, value: "45 / 701412" },
+      { label: { uz: "Ø42×R1 1/2", ru: "Ø42×R1 1/2" }, value: "45 / 701413" },
+      { label: { uz: "Ø42×R2", ru: "Ø42×R2" }, value: "40 / 701414" },
+      { label: { uz: "Ø54×R1 1/2", ru: "Ø54×R1 1/2" }, value: "40 / 701415" },
+      { label: { uz: "Ø54×R2", ru: "Ø54×R2" }, value: "35 / 701416" },
+      { label: { uz: "Ø76×R2 1/2", ru: "Ø76×R2 1/2" }, value: "16 / 701417" }
     ]
   },
   {
