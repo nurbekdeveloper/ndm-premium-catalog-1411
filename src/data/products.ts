@@ -496,6 +496,11 @@ import wpTeeAdapter45_8004 from "@/assets/products/waterpro-tee-adapter-45-8004.
 import wpYTeeAdapter8005 from "@/assets/products/waterpro-y-tee-adapter-8005.png";
 import wpFlexibleConnector8006 from "@/assets/products/waterpro-flexible-connector-8006.png";
 import wpInsulatedDuct8007 from "@/assets/products/waterpro-insulated-duct-8007.png";
+import wpFlexibleDuct8008 from "@/assets/products/waterpro-flexible-duct-8008.png";
+import wpFlexibleDuct8009 from "@/assets/products/waterpro-flexible-duct-8009.png";
+import wpSilencerSupply8010 from "@/assets/products/waterpro-silencer-supply-8010.png";
+import wpSilencerExhaust8011 from "@/assets/products/waterpro-silencer-exhaust-8011.png";
+import wpClip8012 from "@/assets/products/waterpro-clip-8012.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -6479,6 +6484,73 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "160×10m", ru: "160×10m" }, value: "12 / 800701" }
+    ]
+  },
+  {
+    id: "waterpro-flexible-duct-8008",
+    name: "WaterPRO Гибкий воздуховод 8008",
+    category: "waterpro",
+    images: [wpFlexibleDuct8008],
+    description: {
+      uz: "Egiluvchan havo o'tkazgich (ko'k).",
+      ru: "Гибкий воздуховод (синий)."
+    },
+    specs: [
+      { label: { uz: "75×50m", ru: "75×50m" }, value: "50 / 800801" }
+    ]
+  },
+  {
+    id: "waterpro-flexible-duct-8009",
+    name: "WaterPRO Гибкий воздуховод 8009",
+    category: "waterpro",
+    images: [wpFlexibleDuct8009],
+    description: {
+      uz: "Egiluvchan havo o'tkazgich (bej).",
+      ru: "Гибкий воздуховод (бежевый)."
+    },
+    specs: [
+      { label: { uz: "75×50m", ru: "75×50m" }, value: "50 / 800901" },
+      { label: { uz: "110×30m", ru: "110×30m" }, value: "30 / 800902" }
+    ]
+  },
+  {
+    id: "waterpro-silencer-supply-8010",
+    name: "WaterPRO Шумоглушитель приточный 8010",
+    category: "waterpro",
+    images: [wpSilencerSupply8010],
+    description: {
+      uz: "Kiruvchi havo uchun shovqin pasaytirgich.",
+      ru: "Шумоглушитель приточный."
+    },
+    specs: [
+      { label: { uz: "160×60", ru: "160×60" }, value: "4 / 801001" }
+    ]
+  },
+  {
+    id: "waterpro-silencer-exhaust-8011",
+    name: "WaterPRO Шумоглушитель вытяжной 8011",
+    category: "waterpro",
+    images: [wpSilencerExhaust8011],
+    description: {
+      uz: "So'rib chiqaruvchi havo uchun shovqin pasaytirgich.",
+      ru: "Шумоглушитель вытяжной."
+    },
+    specs: [
+      { label: { uz: "160×60", ru: "160×60" }, value: "4 / 801101" }
+    ]
+  },
+  {
+    id: "waterpro-clip-8012",
+    name: "WaterPRO Клипса 8012",
+    category: "waterpro",
+    images: [wpClip8012],
+    description: {
+      uz: "Quvurni devorga mahkamlash uchun klipsa.",
+      ru: "Клипса для крепления трубы."
+    },
+    specs: [
+      { label: { uz: "Ø75", ru: "Ø75" }, value: "300 / 801201" },
+      { label: { uz: "Ø110", ru: "Ø110" }, value: "400 / 801202" }
     ]
   },
   {
