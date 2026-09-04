@@ -6115,6 +6115,106 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-ss304-female-coupling-7517",
+    name: "WaterPRO Адаптер пресс с внутренней резьбой (A+F) SS304 Female Coupling 7517",
+    category: "waterpro",
+    images: [wpSs304FemaleCoupling7517],
+    description: {
+      uz: "SS304 ichki rezbali press adapter (A+F).",
+      ru: "Адаптер пресс с внутренней резьбой (A+F) SS304 Female Coupling."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "360 / 751701" },
+      { label: { uz: "Ø18×RP3/4", ru: "Ø18×RP3/4" }, value: "751702" },
+      { label: { uz: "Ø22×RP1/2", ru: "Ø22×RP1/2" }, value: "300 / 751703" },
+      { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "280 / 751704" },
+      { label: { uz: "Ø28×RP1/2", ru: "Ø28×RP1/2" }, value: "170 / 751705" },
+      { label: { uz: "Ø28×RP3/4", ru: "Ø28×RP3/4" }, value: "150 / 751706" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "100 / 751707" },
+      { label: { uz: "Ø35×RP1/2", ru: "Ø35×RP1/2" }, value: "751708" },
+      { label: { uz: "Ø35×RP3/4", ru: "Ø35×RP3/4" }, value: "120 / 751709" },
+      { label: { uz: "Ø35×RP1", ru: "Ø35×RP1" }, value: "110 / 751710" },
+      { label: { uz: "Ø35×RP1-1/4", ru: "Ø35×RP1-1/4" }, value: "100 / 751711" },
+      { label: { uz: "Ø35×RP1-1/2", ru: "Ø35×RP1-1/2" }, value: "751712" },
+      { label: { uz: "Ø42×RP1-1/4", ru: "Ø42×RP1-1/4" }, value: "751713" },
+      { label: { uz: "Ø42×RP1-1/2", ru: "Ø42×RP1-1/2" }, value: "50 / 751714" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-female-union-7521",
+    name: "WaterPRO Американка (Ракор) (A+F) SS304 Female Union 7521",
+    category: "waterpro",
+    images: [wpSs304FemaleUnion7521],
+    description: {
+      uz: "SS304 amerikanka (rakor) ichki rezbali (A+F).",
+      ru: "Американка (Ракор) (A+F) SS304 Female Union."
+    },
+    specs: [
+      { label: { uz: "Ø18×G1/2", ru: "Ø18×G1/2" }, value: "752101" },
+      { label: { uz: "Ø22×G3/4", ru: "Ø22×G3/4" }, value: "200 / 752102" },
+      { label: { uz: "Ø28×G1", ru: "Ø28×G1" }, value: "120 / 752103" },
+      { label: { uz: "Ø35×G1-1/4", ru: "Ø35×G1-1/4" }, value: "70 / 752104" },
+      { label: { uz: "Ø42×G1-1/2", ru: "Ø42×G1-1/2" }, value: "50 / 752105" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-male-union-7522",
+    name: "WaterPRO Американка (Ракор) (A+M) SS304 Male Thread Union 7522",
+    category: "waterpro",
+    images: [wpSs304MaleUnion7522],
+    description: {
+      uz: "SS304 amerikanka (rakor) tashqi rezbali (A+M).",
+      ru: "Американка (Ракор) (A+M) SS304 Male Thread Union."
+    },
+    specs: [
+      { label: { uz: "Ø18×R1/2", ru: "Ø18×R1/2" }, value: "180 / 752201" },
+      { label: { uz: "Ø18×R3/4", ru: "Ø18×R3/4" }, value: "752202" },
+      { label: { uz: "Ø22×R1/2", ru: "Ø22×R1/2" }, value: "752203" },
+      { label: { uz: "Ø22×R3/4", ru: "Ø22×R3/4" }, value: "140 / 752204" },
+      { label: { uz: "Ø22×R1", ru: "Ø22×R1" }, value: "752205" },
+      { label: { uz: "Ø28×R1", ru: "Ø28×R1" }, value: "100 / 752206" },
+      { label: { uz: "Ø35×R1-1/4", ru: "Ø35×R1-1/4" }, value: "50 / 752207" },
+      { label: { uz: "Ø42×R1-1/2", ru: "Ø42×R1-1/2" }, value: "40 / 752208" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-female-adaptor-union-7523",
+    name: "WaterPRO Американка (Ракор) (A+F) SS304 Female Adaptor Union 7523",
+    category: "waterpro",
+    images: [wpSs304FemaleAdaptorUnion7523],
+    description: {
+      uz: "SS304 amerikanka (rakor) ichki rezbali adapter (A+F).",
+      ru: "Американка (Ракор) (A+F) SS304 Female Adaptor Union."
+    },
+    specs: [
+      { label: { uz: "Ø18×R1/2", ru: "Ø18×R1/2" }, value: "752301" },
+      { label: { uz: "Ø18×R3/4", ru: "Ø18×R3/4" }, value: "752302" },
+      { label: { uz: "Ø22×R1/2", ru: "Ø22×R1/2" }, value: "752303" },
+      { label: { uz: "Ø22×R3/4", ru: "Ø22×R3/4" }, value: "752304" },
+      { label: { uz: "Ø22×R1", ru: "Ø22×R1" }, value: "752305" },
+      { label: { uz: "Ø28×R1", ru: "Ø28×R1" }, value: "752306" },
+      { label: { uz: "Ø35×R1-1/4", ru: "Ø35×R1-1/4" }, value: "752307" },
+      { label: { uz: "Ø42×R1-1/2", ru: "Ø42×R1-1/2" }, value: "752308" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-female-elbow-7514",
+    name: "WaterPRO Угловой адаптер с внутренней резьбой (A+F) SS304 90° Female Internal Thread Short Joint 7514",
+    category: "waterpro",
+    images: [wpSs304FemaleElbow7514],
+    description: {
+      uz: "SS304 ichki rezbali burchak adapter 90° (A+F).",
+      ru: "Угловой адаптер с внутренней резьбой (A+F) SS304 90° Female Internal Thread Short Joint."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "200 / 751401" },
+      { label: { uz: "Ø22×RP1/2", ru: "Ø22×RP1/2" }, value: "200 / 751402" },
+      { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "180 / 751403" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "100 / 751404" },
+      { label: { uz: "Ø35×RP1-1/4", ru: "Ø35×RP1-1/4" }, value: "751405" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
