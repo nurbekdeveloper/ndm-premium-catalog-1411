@@ -387,6 +387,10 @@ import wpThermoValve5020 from "@/assets/products/waterpro-thermo-valve-5020.png"
 import wpThermoValve5021 from "@/assets/products/waterpro-thermo-valve-5021.png";
 import wpThermoValve5022 from "@/assets/products/waterpro-thermo-valve-5022.png";
 import wpThermoValve5023 from "@/assets/products/waterpro-thermo-valve-5023.png";
+import wpThermoHead5027 from "@/assets/products/waterpro-thermo-head-5027.png";
+import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
+import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
+import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
 import wpHydroCollector5019 from "@/assets/products/waterpro-hydro-collector-5019.png";
 
 // Product images - Kitchen Hoods
