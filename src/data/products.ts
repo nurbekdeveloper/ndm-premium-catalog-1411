@@ -481,6 +481,11 @@ import wpSs304FemaleUnion7521 from "@/assets/products/waterpro-ss304-female-unio
 import wpSs304MaleUnion7522 from "@/assets/products/waterpro-ss304-male-union-7522.png";
 import wpSs304FemaleAdaptorUnion7523 from "@/assets/products/waterpro-ss304-female-adaptor-union-7523.png";
 import wpSs304FemaleElbow7514 from "@/assets/products/waterpro-ss304-female-elbow-7514.png";
+import wpSs304MaleElbowShort7516 from "@/assets/products/waterpro-ss304-male-elbow-short-7516.png";
+import wpSs304PadElbow7527 from "@/assets/products/waterpro-ss304-pad-elbow-7527.png";
+import wpSs304FemaleElbow90_7513 from "@/assets/products/waterpro-ss304-female-elbow90-7513.png";
+import wpSs304MaleElbow90_7515 from "@/assets/products/waterpro-ss304-male-elbow90-7515.png";
+import wpSs304FlangeAdaptor7531 from "@/assets/products/waterpro-ss304-flange-adaptor-7531.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -6212,6 +6217,89 @@ export const products: Product[] = [
       { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "180 / 751403" },
       { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "100 / 751404" },
       { label: { uz: "Ø35×RP1-1/4", ru: "Ø35×RP1-1/4" }, value: "751405" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-male-elbow-short-7516",
+    name: "WaterPRO Угловой адаптер с наружней резьбой (A+M) SS304 90° Male Internal Thread Short Joint 7516",
+    category: "waterpro",
+    images: [wpSs304MaleElbowShort7516],
+    description: {
+      uz: "SS304 tashqi rezbali burchak adapter 90° (A+M).",
+      ru: "Угловой адаптер с наружней резьбой (A+M) SS304 90° Male Internal Thread Short Joint."
+    },
+    specs: [
+      { label: { uz: "Ø18×R1/2", ru: "Ø18×R1/2" }, value: "200 / 751601" },
+      { label: { uz: "Ø22×R3/4", ru: "Ø22×R3/4" }, value: "200 / 751602" },
+      { label: { uz: "Ø28×R1", ru: "Ø28×R1" }, value: "200 / 751603" },
+      { label: { uz: "Ø35×R1-1/4", ru: "Ø35×R1-1/4" }, value: "751604" },
+      { label: { uz: "Ø42×R1-1/2", ru: "Ø42×R1-1/2" }, value: "751605" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-pad-elbow-7527",
+    name: "WaterPRO Пресс отвод с наст. креплением с внутренней резьбой (A+F) SS304 Pad Type 90° Elbow 7527",
+    category: "waterpro",
+    images: [wpSs304PadElbow7527],
+    description: {
+      uz: "SS304 devorga mahkamlanadigan ichki rezbali press burchak (A+F).",
+      ru: "Пресс отвод с настенным креплением с внутренней резьбой (A+F) SS304 Pad Type 90° Elbow."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "752701" },
+      { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "752702" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "752703" },
+      { label: { uz: "Ø35×RP1-1/4", ru: "Ø35×RP1-1/4" }, value: "752704" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-female-elbow90-7513",
+    name: "WaterPRO Отвод пресс 90° с внутренней резьбой (A+F) SS304 Female Elbow 90°(LR) 7513",
+    category: "waterpro",
+    images: [wpSs304FemaleElbow90_7513],
+    description: {
+      uz: "SS304 ichki rezbali 90° press burchak (LR) (A+F).",
+      ru: "Отвод пресс 90° с внутренней резьбой (A+F) SS304 Female Elbow 90°(LR)."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "200 / 751301" },
+      { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "751302" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "751303" },
+      { label: { uz: "Ø35×RP1-1/4", ru: "Ø35×RP1-1/4" }, value: "751304" },
+      { label: { uz: "Ø42×RP1-1/2", ru: "Ø42×RP1-1/2" }, value: "751305" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-male-elbow90-7515",
+    name: "WaterPRO Отвод пресс 90° с наружная резьбой (A+M) SS304 Male Elbow 90°(LR) 7515",
+    category: "waterpro",
+    images: [wpSs304MaleElbow90_7515],
+    description: {
+      uz: "SS304 tashqi rezbali 90° press burchak (LR) (A+M).",
+      ru: "Отвод пресс 90° с наружной резьбой (A+M) SS304 Male Elbow 90°(LR)."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "180 / 751501" },
+      { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "751502" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "751503" },
+      { label: { uz: "Ø35×RP1-1/4", ru: "Ø35×RP1-1/4" }, value: "751504" },
+      { label: { uz: "Ø42×RP1-1/2", ru: "Ø42×RP1-1/2" }, value: "751505" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-flange-adaptor-7531",
+    name: "WaterPRO Пресс-адаптер фланцевый (A) SS304 Flange Adaptor 7531",
+    category: "waterpro",
+    images: [wpSs304FlangeAdaptor7531],
+    description: {
+      uz: "SS304 flanetsli press adapter (A).",
+      ru: "Пресс-адаптер фланцевый (A) SS304 Flange Adaptor."
+    },
+    specs: [
+      { label: { uz: "Ø42", ru: "Ø42" }, value: "753105" },
+      { label: { uz: "Ø54", ru: "Ø54" }, value: "753106" },
+      { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "753107" },
+      { label: { uz: "Ø88.9", ru: "Ø88.9" }, value: "753108" }
     ]
   },
   {
