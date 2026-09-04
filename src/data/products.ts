@@ -4574,6 +4574,59 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-thermostat-5034",
+    name: "WaterPRO Термостат комнатный 5034",
+    category: "waterpro",
+    images: [wpThermostat5034],
+    description: {
+      uz: "WaterPRO xonali termostat. Kumushrang korpus, LED displey. Wifi va wifisiz variantlari mavjud.",
+      ru: "Комнатный термостат WaterPRO. Серебристый корпус, LED дисплей. Доступны версии с wifi и без wifi."
+    },
+    specs: [
+      { label: { uz: "NO wifi", ru: "NO wifi" }, value: "100 / 503401" },
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 503402" }
+    ]
+  },
+  {
+    id: "waterpro-thermostat-5035",
+    name: "WaterPRO Термостат комнатный 5035",
+    category: "waterpro",
+    images: [wpThermostat5035],
+    description: {
+      uz: "WaterPRO xonali termostat (wifi). Qora shisha panel, sensorli tugmalar.",
+      ru: "Комнатный термостат WaterPRO (wifi). Чёрная стеклянная панель, сенсорные кнопки."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 503501" }
+    ]
+  },
+  {
+    id: "waterpro-thermostat-5036",
+    name: "WaterPRO Термостат комнатный 5036",
+    category: "waterpro",
+    images: [wpThermostat5036],
+    description: {
+      uz: "WaterPRO xonali termostat (wifi). Qora panel, yon tomonda sensorli boshqaruv.",
+      ru: "Комнатный термостат WaterPRO (wifi). Чёрная панель, боковое сенсорное управление."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 503601" }
+    ]
+  },
+  {
+    id: "waterpro-thermostat-5037",
+    name: "WaterPRO Термостат комнатный двойная функция 5037",
+    category: "waterpro",
+    images: [wpThermostat5037],
+    description: {
+      uz: "WaterPRO ikki funksiyali xonali termostat (wifi, tashqi datchik bilan). Rangli displey.",
+      ru: "Комнатный термостат WaterPRO с двойной функцией (wifi, с внешним датчиком). Цветной дисплей."
+    },
+    specs: [
+      { label: { uz: "wifi (tashqi datchik bilan)", ru: "wifi (с внешним датчиком)" }, value: "60 / 503701" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
