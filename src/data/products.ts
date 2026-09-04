@@ -6554,6 +6554,72 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-ceiling-diffuser-8013",
+    name: "WaterPRO Потолочный диффузор 8013",
+    category: "waterpro",
+    images: [wpCeilingDiffuser8013],
+    description: {
+      uz: "Shift diffuzori (havo tarqatgich).",
+      ru: "Потолочный диффузор."
+    },
+    specs: [
+      { label: { uz: "75", ru: "75" }, value: "100 / 801301" },
+      { label: { uz: "110", ru: "110" }, value: "801302" }
+    ]
+  },
+  {
+    id: "waterpro-outdoor-diffuser-8014",
+    name: "WaterPRO Диффузор наружный из нержавейки 8014",
+    category: "waterpro",
+    images: [wpOutdoorDiffuser8014],
+    description: {
+      uz: "Zanglamas po'latdan tashqi diffuzor.",
+      ru: "Диффузор наружный из нержавейки."
+    },
+    specs: [
+      { label: { uz: "160", ru: "160" }, value: "4 / 801401" }
+    ]
+  },
+  {
+    id: "waterpro-metal-clamp-8015",
+    name: "WaterPRO Металлический прижимной хомут 8015",
+    category: "waterpro",
+    images: [wpMetalClamp8015],
+    description: {
+      uz: "Metall siquvchi xomut.",
+      ru: "Металлический прижимной хомут."
+    },
+    specs: [
+      { label: { uz: "160", ru: "160" }, value: "200 / 801501" }
+    ]
+  },
+  {
+    id: "waterpro-bracket-8016",
+    name: "WaterPRO Кронштейн 8016",
+    category: "waterpro",
+    images: [wpBracket8016],
+    description: {
+      uz: "Kronshteyn (mahkamlagich).",
+      ru: "Кронштейн крепежный."
+    },
+    specs: [
+      { label: { uz: "10mm", ru: "10mm" }, value: "45 / 801601" }
+    ]
+  },
+  {
+    id: "waterpro-foil-tape-8017",
+    name: "WaterPRO Фольгированный скотч 8017",
+    category: "waterpro",
+    images: [wpFoilTape8017],
+    description: {
+      uz: "Folgali skotch (alyuminiy lenta).",
+      ru: "Фольгированный скотч."
+    },
+    specs: [
+      { label: { uz: "—", ru: "—" }, value: "54 / 801701" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
