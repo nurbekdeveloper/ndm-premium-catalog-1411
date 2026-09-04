@@ -387,6 +387,10 @@ import wpThermoValve5020 from "@/assets/products/waterpro-thermo-valve-5020.png"
 import wpThermoValve5021 from "@/assets/products/waterpro-thermo-valve-5021.png";
 import wpThermoValve5022 from "@/assets/products/waterpro-thermo-valve-5022.png";
 import wpThermoValve5023 from "@/assets/products/waterpro-thermo-valve-5023.png";
+import wpThermoHead5027 from "@/assets/products/waterpro-thermo-head-5027.png";
+import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
+import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
+import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
 import wpHydroCollector5019 from "@/assets/products/waterpro-hydro-collector-5019.png";
 
 // Product images - Kitchen Hoods
@@ -4494,6 +4498,47 @@ export const products: Product[] = [
     },
     specs: [
       { label: { uz: "wifi", ru: "wifi" }, value: "100 / 502301" }
+    ]
+  },
+  {
+    id: "waterpro-thermo-head-5027",
+    name: "WaterPRO Термоголовка для радиатора 5027",
+    category: "waterpro",
+    images: [wpThermoHead5027],
+    description: {
+      uz: "Radiator uchun termogolovka (wifi boshqaruvi bilan).",
+      ru: "Термоголовка для радиатора (с управлением wifi)."
+    },
+    specs: [
+      { label: { uz: "wifi", ru: "wifi" }, value: "100 / 502701" }
+    ]
+  },
+  {
+    id: "waterpro-3way-mixing-valve-4087",
+    name: "WaterPRO Трехходовой смесительный клапан 4087",
+    category: "waterpro",
+    images: [wp3WayValve4087],
+    description: {
+      uz: "Uch yo'lli aralashtirgich klapan, latun korpus.",
+      ru: "Трехходовой смесительный клапан, латунный корпус."
+    },
+    specs: [
+      { label: { uz: '1"', ru: '1"' }, value: "12 / 408702" },
+      { label: { uz: '1 1/4"', ru: '1 1/4"' }, value: "12 / 408703" }
+    ]
+  },
+  {
+    id: "waterpro-actuator-6049",
+    name: "WaterPRO Электрический сервопривод для трехходового клапана 6049",
+    category: "waterpro",
+    images: [wpActuator6049a, wpActuator6049b],
+    description: {
+      uz: "Uch yo'lli klapan uchun elektr servoprivod. Displeysiz va LED displeyli (harorat sensori bilan) variantlari mavjud.",
+      ru: "Электрический сервопривод для трехходового клапана. Доступны версии без дисплея и с LED дисплеем и датчиком для фиксированной регулировки температуры."
+    },
+    specs: [
+      { label: { uz: "Qora, displeysiz", ru: "Черный, без дисплея" }, value: "12 / 604901" },
+      { label: { uz: "Qora, LED displey bilan", ru: "Черный, с LED дисплеем" }, value: "12 / 604902" }
     ]
   },
   {
