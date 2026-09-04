@@ -486,6 +486,11 @@ import wpSs304PadElbow7527 from "@/assets/products/waterpro-ss304-pad-elbow-7527
 import wpSs304FemaleElbow90_7513 from "@/assets/products/waterpro-ss304-female-elbow90-7513.png";
 import wpSs304MaleElbow90_7515 from "@/assets/products/waterpro-ss304-male-elbow90-7515.png";
 import wpSs304FlangeAdaptor7531 from "@/assets/products/waterpro-ss304-flange-adaptor-7531.png";
+import wpSs304MaleTee7512 from "@/assets/products/waterpro-ss304-male-tee-7512.png";
+import wpSs304FemaleTee7509 from "@/assets/products/waterpro-ss304-female-tee-7509.png";
+import wpGasORing7540 from "@/assets/products/waterpro-gas-oring-hnbr-7540.png";
+import wpVentilationUnit8001 from "@/assets/products/waterpro-ventilation-unit-8001.png";
+import wpSideDistributor8002 from "@/assets/products/waterpro-side-distributor-8002.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
@@ -6300,6 +6305,109 @@ export const products: Product[] = [
       { label: { uz: "Ø54", ru: "Ø54" }, value: "753106" },
       { label: { uz: "Ø76.1", ru: "Ø76.1" }, value: "753107" },
       { label: { uz: "Ø88.9", ru: "Ø88.9" }, value: "753108" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-male-tee-7512",
+    name: "WaterPRO Тройник пресс редукционный с наружной резьбой (A+M+A) SS304 A Type Male Tee 7512",
+    category: "waterpro",
+    images: [wpSs304MaleTee7512],
+    description: {
+      uz: "SS304 tashqi rezbali reduksion press troynik (A+M+A).",
+      ru: "Тройник пресс редукционный с наружной резьбой (A+M+A) SS304."
+    },
+    specs: [
+      { label: { uz: "18×R1/2", ru: "18×R1/2" }, value: "200 / 751201" },
+      { label: { uz: "18×R3/4", ru: "18×R3/4" }, value: "751202" },
+      { label: { uz: "Ø22×R1/2", ru: "Ø22×R1/2" }, value: "160 / 751203" },
+      { label: { uz: "Ø22×R3/4", ru: "Ø22×R3/4" }, value: "751204" },
+      { label: { uz: "Ø22×R1", ru: "Ø22×R1" }, value: "751205" },
+      { label: { uz: "Ø28×R1/2", ru: "Ø28×R1/2" }, value: "100 / 751206" },
+      { label: { uz: "Ø28×R3/4", ru: "Ø28×R3/4" }, value: "751207" },
+      { label: { uz: "Ø28×R1", ru: "Ø28×R1" }, value: "751208" },
+      { label: { uz: "Ø35×R1/2", ru: "Ø35×R1/2" }, value: "70 / 751209" },
+      { label: { uz: "Ø35×R3/4", ru: "Ø35×R3/4" }, value: "751210" },
+      { label: { uz: "Ø35×R1-1/4", ru: "Ø35×R1-1/4" }, value: "751211" },
+      { label: { uz: "Ø42×R1/2", ru: "Ø42×R1/2" }, value: "40 / 751212" },
+      { label: { uz: "Ø42×R3/4", ru: "Ø42×R3/4" }, value: "751213" },
+      { label: { uz: "Ø42×R1-1/2", ru: "Ø42×R1-1/2" }, value: "751214" },
+      { label: { uz: "Ø54×R1-1/2", ru: "Ø54×R1-1/2" }, value: "751215" },
+      { label: { uz: "Ø54×R2", ru: "Ø54×R2" }, value: "751216" }
+    ]
+  },
+  {
+    id: "waterpro-ss304-female-tee-7509",
+    name: "WaterPRO Тройник пресс редукционный с внутренней резьбой (A+F+A) SS304 Female Tee 7509",
+    category: "waterpro",
+    images: [wpSs304FemaleTee7509],
+    description: {
+      uz: "SS304 ichki rezbali reduksion press troynik (A+F+A).",
+      ru: "Тройник пресс редукционный с внутренней резьбой (A+F+A) SS304."
+    },
+    specs: [
+      { label: { uz: "Ø18×RP1/2", ru: "Ø18×RP1/2" }, value: "150 / 750901" },
+      { label: { uz: "Ø18×RP3/4", ru: "Ø18×RP3/4" }, value: "750902" },
+      { label: { uz: "Ø22×RP1/2", ru: "Ø22×RP1/2" }, value: "120 / 750903" },
+      { label: { uz: "Ø22×RP3/4", ru: "Ø22×RP3/4" }, value: "750904" },
+      { label: { uz: "Ø22×RP1", ru: "Ø22×RP1" }, value: "750905" },
+      { label: { uz: "Ø28×RP1/2", ru: "Ø28×RP1/2" }, value: "100 / 750906" },
+      { label: { uz: "Ø28×RP3/4", ru: "Ø28×RP3/4" }, value: "750907" },
+      { label: { uz: "Ø28×RP1", ru: "Ø28×RP1" }, value: "80 / 750908" },
+      { label: { uz: "Ø35×RP1/2", ru: "Ø35×RP1/2" }, value: "60 / 750909" },
+      { label: { uz: "Ø35×RP3/4", ru: "Ø35×RP3/4" }, value: "750910" },
+      { label: { uz: "Ø35×RP1-1/4", ru: "Ø35×RP1-1/4" }, value: "750911" },
+      { label: { uz: "Ø42×RP1/2", ru: "Ø42×RP1/2" }, value: "40 / 750912" },
+      { label: { uz: "Ø42×RP1", ru: "Ø42×RP1" }, value: "750913" },
+      { label: { uz: "Ø42×RP1-1/4", ru: "Ø42×RP1-1/4" }, value: "30 / 750914" },
+      { label: { uz: "Ø54×RP1-1/4", ru: "Ø54×RP1-1/4" }, value: "20 / 750915" },
+      { label: { uz: "Ø54×RP2", ru: "Ø54×RP2" }, value: "750916" },
+      { label: { uz: "Ø76.1×RP3/4", ru: "Ø76.1×RP3/4" }, value: "750917" },
+      { label: { uz: "Ø76.1×RP2", ru: "Ø76.1×RP2" }, value: "8 / 750918" }
+    ]
+  },
+  {
+    id: "waterpro-gas-oring-hnbr-7540",
+    name: "WaterPRO Газовое О-кольцо (HNBR) Gas O-ring HNBR 7540",
+    category: "waterpro",
+    images: [wpGasORing7540],
+    description: {
+      uz: "Gaz uchun HNBR O-halqa (zichlagich).",
+      ru: "Газовое О-кольцо (HNBR) для прессовых фитингов."
+    },
+    specs: [
+      { label: { uz: "DN22 (18.2×2.6)", ru: "DN22 (18.2×2.6)" }, value: "754001" },
+      { label: { uz: "DN22 (22.2×3.3)", ru: "DN22 (22.2×3.3)" }, value: "754002" },
+      { label: { uz: "DN28 (28.2×3.2)", ru: "DN28 (28.2×3.2)" }, value: "754003" },
+      { label: { uz: "DN35 (35.3×3.3)", ru: "DN35 (35.3×3.3)" }, value: "754004" },
+      { label: { uz: "DN42 (42.4×4.3)", ru: "DN42 (42.4×4.3)" }, value: "754005" },
+      { label: { uz: "DN54 (54.3×4.2)", ru: "DN54 (54.3×4.2)" }, value: "754006" }
+    ]
+  },
+  {
+    id: "waterpro-ventilation-unit-8001",
+    name: "WaterPRO Приточно-вытяжная установка 8001",
+    category: "waterpro",
+    images: [wpVentilationUnit8001],
+    description: {
+      uz: "Rekuperatorli havo kirish-chiqish (ventilyatsiya) qurilmasi.",
+      ru: "Приточно-вытяжная вентиляционная установка."
+    },
+    specs: [
+      { label: { uz: "250 m³/h", ru: "250м³/ч" }, value: "1 / 800101" },
+      { label: { uz: "350 m³/h", ru: "350м³/ч" }, value: "1 / 800102" }
+    ]
+  },
+  {
+    id: "waterpro-side-distributor-8002",
+    name: "WaterPRO Распределитель боковой 8002",
+    category: "waterpro",
+    images: [wpSideDistributor8002],
+    description: {
+      uz: "Ventilyatsiya tizimi uchun yon taqsimlagich.",
+      ru: "Распределитель боковой для вентиляционной системы."
+    },
+    specs: [
+      { label: { uz: "160-75×7", ru: "160-75×7" }, value: "4 / 800201" }
     ]
   },
   {
