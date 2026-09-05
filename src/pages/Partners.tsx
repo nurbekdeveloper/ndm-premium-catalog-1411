@@ -4,6 +4,7 @@ import SEO from "@/components/SEO";
 import hydroPlastLogo from "@/assets/partners/hydro-plast-logo.png";
 import shimgeLogo from "@/assets/partners/shimge-logo.png";
 import penopleksLogo from "@/assets/partners/penopleks-logo.png";
+import tetraPlastLogo from "@/assets/partners/tetra-plast-logo.png.asset.json";
 
 const Partners = () => {
   const { language, t } = useLanguage();
