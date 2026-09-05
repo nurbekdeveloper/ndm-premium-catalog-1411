@@ -21,6 +21,9 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-heading font-bold mb-4">NDM.uz</h3>
+            <p className="text-sm text-primary-foreground/80">
+              {t("Kanalizatsiya quvurlari katalogi", "Каталог канализационных труб")}
+            </p>
           </div>
 
           {/* Quick Links */}
