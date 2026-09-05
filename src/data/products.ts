@@ -506,6 +506,11 @@ import wpOutdoorDiffuser8014 from "@/assets/products/waterpro-outdoor-diffuser-8
 import wpMetalClamp8015 from "@/assets/products/waterpro-metal-clamp-8015.png";
 import wpBracket8016 from "@/assets/products/waterpro-bracket-8016.png";
 import wpFoilTape8017 from "@/assets/products/waterpro-foil-tape-8017.png";
+import wpSmartToiletWs1 from "@/assets/products/waterpro-smart-toilet-ws1.png";
+import wpSmartToiletWs2 from "@/assets/products/waterpro-smart-toilet-ws2.png";
+import wpSmartToiletWs3 from "@/assets/products/waterpro-smart-toilet-ws3.png";
+import wpInstallationSc1 from "@/assets/products/waterpro-installation-sc1.png";
+import wpInstallationC1 from "@/assets/products/waterpro-installation-c1.png";
 import wp3WayValve4087 from "@/assets/products/waterpro-3way-valve-4087.png";
 import wpActuator6049a from "@/assets/products/waterpro-actuator-6049-1.png";
 import wpActuator6049b from "@/assets/products/waterpro-actuator-6049-2.png";
