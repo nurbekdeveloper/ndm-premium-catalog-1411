@@ -6630,6 +6630,83 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "waterpro-smart-toilet-ws1",
+    name: "WaterPRO Умный унитаз WS1",
+    category: "waterpro",
+    images: [wpSmartToiletWs1],
+    description: {
+      uz: "Devorga o'rnatiladigan aqlli unitaz. «Tornado» yuvish tizimi, gorizontal chiqish (P-shaklida). Suv sarfi: qisman yuvish 3.0 litr, to'liq yuvish 4.5 litr. O'lchamlari: 580×375×330 mm. Qopqoqni ochish uchun harakat datchigi, avtomatik ochish/yopish, isitiladigan o'rindiq, avtomatik yuvish, suv harorati va bosimini rostlash, gigiyenik dush, iliq havo bilan quritish, simsiz pult, tungi yoritish.",
+      ru: "Настенный умный унитаз. Смыв «Торнадо», тип слива: горизонтальный (P-образный). Расход воды: частичный слив 0.8 галлона (3.0 литра), полный слив 1.2 галлона (4.5 литра). Размеры: 580×375×330 мм. Датчик движения для открытия крышки, автоматическое открытие и закрытие крышки, подогреваемое сиденье, автоматический слив, регулировка температуры и давления воды, гигиенический душ для женщин и задней части, тёплая воздушная сушка, беспроводной пульт управления, ночная подсветка."
+    },
+    specs: [
+      { label: { uz: "Model", ru: "Модель" }, value: "WS1" },
+      { label: { uz: "O'lchamlari", ru: "Размеры" }, value: "580×375×330 мм" },
+      { label: { uz: "Chiqish turi", ru: "Тип слива" }, value: "P (горизонтальный)" },
+      { label: { uz: "Suv sarfi", ru: "Расход воды" }, value: "3.0 / 4.5 л" }
+    ]
+  },
+  {
+    id: "waterpro-smart-toilet-ws2",
+    name: "WaterPRO Умный унитаз WS2",
+    category: "waterpro",
+    images: [wpSmartToiletWs2],
+    description: {
+      uz: "Yumaloq, obodsiz osma aqlli unitaz, gorizontal chiqishli. UF-plastikdan o'rindiq, o'rindiqni tez yechish. O'lchamlari: 570×370×360 mm. Suv harorati va bosimini rostlash, isitiladigan o'rindiq, gigiyenik dush, iliq havo bilan quritish, simsiz pult, tungi yoritish.",
+      ru: "Круглый, подвесной унитаз без ободка с горизонтальным выпуском. Сиденье из UF-пластика, быстрое снятие сиденья. Размеры: 570×370×360 мм. Регулировка температуры и давления воды, подогреваемое сиденье, гигиенический душ для женщин и задней части, тёплая воздушная сушка, беспроводной пульт управления, ночная подсветка."
+    },
+    specs: [
+      { label: { uz: "Model", ru: "Модель" }, value: "WS2" },
+      { label: { uz: "O'lchamlari", ru: "Размеры" }, value: "570×370×360 мм" },
+      { label: { uz: "Chiqish turi", ru: "Тип слива" }, value: "Горизонтальный" }
+    ]
+  },
+  {
+    id: "waterpro-smart-toilet-ws3",
+    name: "WaterPRO Умный унитаз WS3",
+    category: "waterpro",
+    images: [wpSmartToiletWs3],
+    description: {
+      uz: "Aqlli unitaz. Sifonli yuvish (P-shaklida), chiqish masofasi 180 mm. Qopqoq avtomatik ochiladi. Suv sarfi: qisman yuvish 3.8 litr, to'liq yuvish 4.8 litr. O'lchamlari: 682×393×460 mm. Yuvish uchun harakat datchigi, avtomatik ochish/yopish, avtomatik yuvish, gigiyenik dush, suv harorati rostlash, isitiladigan o'rindiq, iliq havo bilan quritish, simsiz pult, tungi yoritish.",
+      ru: "Умный унитаз. Тип слива: сифонный (P-образный), отступ 180 мм. Автоматическое открытие крышки. Расход воды: частичный слив 1.0 галлон (3.8 литра), полный слив 1.28 галлона (4.8 литра). Размеры: 682×393×460 мм. Датчик движения для смыва, автоматическое открытие и закрытие крышки, автоматический слив, гигиенический душ для женщин и задней части, регулировка давления и температуры воды, подогреваемое сиденье, тёплая воздушная сушка, беспроводной пульт управления, ночная подсветка."
+    },
+    specs: [
+      { label: { uz: "Model", ru: "Модель" }, value: "WS3" },
+      { label: { uz: "O'lchamlari", ru: "Размеры" }, value: "682×393×460 мм" },
+      { label: { uz: "Chiqish turi", ru: "Тип слива" }, value: "Сифонный, P (180 мм)" },
+      { label: { uz: "Suv sarfi", ru: "Расход воды" }, value: "3.8 / 4.8 л" }
+    ]
+  },
+  {
+    id: "waterpro-installation-sc1",
+    name: "WaterPRO Инсталляция для умного унитаза SC1",
+    category: "waterpro",
+    images: [wpInstallationSc1],
+    description: {
+      uz: "Aqlli unitaz uchun yashirin installyatsiya tizimi. Ikki rejimli yuvish: 3.0 litr / 4.5 litr. O'lchamlari: 500×88×1120 mm.",
+      ru: "Скрытая система инсталляции, совместимая с умным унитазом. Двойной слив: 0.8 галлона (3.0 литра) / 1.2 галлона (4.5 литра). Размеры: 500×88×1120 мм."
+    },
+    specs: [
+      { label: { uz: "Model", ru: "Модель" }, value: "SC1" },
+      { label: { uz: "O'lchamlari", ru: "Размеры" }, value: "500×88×1120 мм" },
+      { label: { uz: "Yuvish", ru: "Слив" }, value: "3.0 / 4.5 л" }
+    ]
+  },
+  {
+    id: "waterpro-installation-c1",
+    name: "WaterPRO Инсталляция для обычного унитаза C1",
+    category: "waterpro",
+    images: [wpInstallationC1],
+    description: {
+      uz: "Oddiy unitaz uchun yashirin installyatsiya tizimi. Ikki rejimli yuvish: 3.0 litr / 4.5 litr. O'lchamlari: 500×88×1120 mm.",
+      ru: "Скрытая система инсталляции, совместимая с обычным унитазом. Двойной слив: 0.8 галлона (3.0 литра) / 1.2 галлона (4.5 литра). Размеры: 500×88×1120 мм."
+    },
+    specs: [
+      { label: { uz: "Model", ru: "Модель" }, value: "C1" },
+      { label: { uz: "O'lchamlari", ru: "Размеры" }, value: "500×88×1120 мм" },
+      { label: { uz: "Yuvish", ru: "Слив" }, value: "3.0 / 4.5 л" }
+    ]
+  },
+  {
     id: "waterpro-3way-mixing-valve-4087",
     name: "WaterPRO Трехходовой смесительный клапан 4087",
     category: "waterpro",
