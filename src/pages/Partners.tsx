@@ -12,7 +12,8 @@ const Partners = () => {
   const partners = [
     { name: "Hydro Plast", logo: hydroPlastLogo, description: { uz: "Yuqori sifatli PPR quvurlar va fitinglar", ru: "Высококачественные PPR трубы и фитинги" } },
     { name: "Shimge", logo: shimgeLogo, description: { uz: "Ishonchli nasos uskunalari ishlab chiqaruvchisi", ru: "Надежный производитель насосного оборудования" } },
-    { name: "Penoplex", logo: penopleksLogo, description: { uz: "Zamonaviy issiqlik izolyatsiya materiallari", ru: "Современные теплоизоляционные материалы" } }
+    { name: "Penoplex", logo: penopleksLogo, description: { uz: "Zamonaviy issiqlik izolyatsiya materiallari", ru: "Современные теплоизоляционные материали" } },
+    { name: "Tetra Plast", logo: tetraPlastLogo.url, description: { uz: "Innovatsion plastik mahsulotlar. Qurilish va ta'mirlash uchun.", ru: "Инновационные пластиковые изделия. Для строительства и ремонта." } }
   ];
 
   return (
